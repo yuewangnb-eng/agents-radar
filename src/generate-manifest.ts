@@ -6,6 +6,7 @@ import { REPORT_LABELS } from "./i18n.ts";
 const DIGESTS_DIR = "digests";
 const MANIFEST_PATH = "manifest.json";
 const FEED_PATH = "feed.xml";
+const FEEDS_DIR = "feeds";
 const SITE_URL = "https://duanyytop.github.io/agents-radar";
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const REPORT_FILES = [
@@ -62,6 +63,48 @@ export function toRfc822(date: Date): string {
 
 export function escapeXml(s: string): string {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
+async function buildItemXml(date: string, report: string): Promise<string> {
+  const label = REPORT_LABELS[report] ?? report;
+  const title = `${label} ${date}`;
+  const link = `${SITE_URL}/#${date}/${report}`;
+  const parts = date.split("-").map(Number);
+  const pubDate = toRfc822(new Date(Date.UTC(parts[0]!, parts[1]! - 1, parts[2]!)));
+  const content = await getReportContent(date, report);
+  return [
+    "    <item>",
+    `      <title>${escapeXml(title)}</title>`,
+    `      <link>${escapeXml(link)}</link>`,
+    `      <guid isPermaLink="true">${escapeXml(link)}</guid>`,
+    `      <pubDate>${pubDate}</pubDate>`,
+    `      <description>${content.summary}</description>`,
+    `      <content:encoded>${content.fullHtml}</content:encoded>`,
+    "    </item>",
+  ].join("\n");
+}
+
+function buildFeedXml(
+  itemsXml: string,
+  channelTitle: string,
+  channelDesc: string,
+  feedUrl: string,
+  buildDate: string,
+): string {
+  return (
+    `<?xml version="1.0" encoding="UTF-8"?>\n` +
+    `<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">\n` +
+    `  <channel>\n` +
+    `    <title>${escapeXml(channelTitle)}</title>\n` +
+    `    <link>${SITE_URL}</link>\n` +
+    `    <description>${escapeXml(channelDesc)}</description>\n` +
+    `    <language>zh-CN</language>\n` +
+    `    <atom:link href="${feedUrl}" rel="self" type="application/rss+xml"/>\n` +
+    `    <lastBuildDate>${buildDate}</lastBuildDate>\n` +
+    itemsXml +
+    `\n  </channel>\n` +
+    `</rss>\n`
+  );
 }
 
 async function getReportContent(date: string, report: string): Promise<ReportContent> {
@@ -128,45 +171,38 @@ async function main(): Promise<void> {
 
   const buildDate = toRfc822(new Date());
 
-  const itemXmlChunks: string[] = [];
-  for (const { date, report } of feedItems) {
-    const label = REPORT_LABELS[report] ?? report;
-    const title = `${label} ${date}`;
-    const link = `${SITE_URL}/#${date}/${report}`;
-    const parts = date.split("-").map(Number);
-    const pubDate = toRfc822(new Date(Date.UTC(parts[0]!, parts[1]! - 1, parts[2]!)));
-    const content = await getReportContent(date, report);
-    itemXmlChunks.push(
-      [
-        "    <item>",
-        `      <title>${escapeXml(title)}</title>`,
-        `      <link>${escapeXml(link)}</link>`,
-        `      <guid isPermaLink="true">${escapeXml(link)}</guid>`,
-        `      <pubDate>${pubDate}</pubDate>`,
-        `      <description>${content.summary}</description>`,
-        `      <content:encoded>${content.fullHtml}</content:encoded>`,
-        "    </item>",
-      ].join("\n"),
-    );
-  }
-  const itemsXml = itemXmlChunks.join("\n");
-
-  const feedXml =
-    `<?xml version="1.0" encoding="UTF-8"?>\n` +
-    `<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">\n` +
-    `  <channel>\n` +
-    `    <title>agents-radar</title>\n` +
-    `    <link>${SITE_URL}</link>\n` +
-    `    <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>\n` +
-    `    <language>zh-CN</language>\n` +
-    `    <atom:link href="${SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>\n` +
-    `    <lastBuildDate>${buildDate}</lastBuildDate>\n` +
-    itemsXml +
-    `\n  </channel>\n` +
-    `</rss>\n`;
-
-  fs.writeFileSync(FEED_PATH, feedXml);
+  // ── Combined feed ─────────────────────────────────────────────────────────
+  const allItemChunks = await Promise.all(feedItems.map(({ date, report }) => buildItemXml(date, report)));
+  const combinedFeedXml = buildFeedXml(
+    allItemChunks.join("\n"),
+    "agents-radar",
+    "AI 开源生态每日简报 · Daily AI ecosystem digest",
+    `${SITE_URL}/feed.xml`,
+    buildDate,
+  );
+  fs.writeFileSync(FEED_PATH, combinedFeedXml);
   console.log(`feed.xml updated: ${feedItems.length} items`);
+
+  // ── Per-type feeds ────────────────────────────────────────────────────────
+  if (!fs.existsSync(FEEDS_DIR)) fs.mkdirSync(FEEDS_DIR);
+
+  let perTypeCount = 0;
+  for (const reportType of REPORT_FILES) {
+    const label = REPORT_LABELS[reportType] ?? reportType;
+    const typeItems = entries
+      .filter((e) => (e.reports as readonly string[]).includes(reportType))
+      .map((e) => ({ date: e.date, report: reportType }))
+      .slice(0, MAX_FEED_ITEMS);
+
+    if (typeItems.length === 0) continue;
+
+    const itemChunks = await Promise.all(typeItems.map(({ date, report }) => buildItemXml(date, report)));
+    const feedUrl = `${SITE_URL}/feeds/${reportType}.xml`;
+    const feedXml = buildFeedXml(itemChunks.join("\n"), label, label, feedUrl, buildDate);
+    fs.writeFileSync(path.join(FEEDS_DIR, `${reportType}.xml`), feedXml);
+    perTypeCount++;
+  }
+  console.log(`per-type feeds updated: ${perTypeCount} files in ${FEEDS_DIR}/`);
 }
 
 // Run only when executed directly (not imported for testing)

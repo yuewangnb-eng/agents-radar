@@ -1,0 +1,54 @@
+name: Sync Upstream Digests
+
+on:
+  schedule:
+    # 每天 01:00 UTC = 09:00 CST，原项目 00:00 UTC 运行完毕后同步
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Sync digests from upstream
+        run: |
+          git remote add upstream https://github.com/duanyytop/agents-radar.git
+          git fetch upstream master --depth=1
+          git checkout upstream/master -- digests/
+
+      - name: Regenerate manifest and feeds
+        run: pnpm manifest
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add digests/ manifest.json feed.xml feeds/
+          if git diff --cached --quiet; then
+            echo "No changes to sync"
+          else
+            DATE=$(date -u +%Y-%m-%d)
+            git commit -m "sync: ${DATE} digest from upstream"
+            git pull --rebase
+            git push
+          fi
