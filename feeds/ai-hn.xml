@@ -6,7 +6,186 @@
     <description>Hacker News AI 社区动态日报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-hn.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 02 May 2026 13:04:24 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 04:34:44 +0000</lastBuildDate>
+    <item>
+      <title>Hacker News AI 社区动态日报 2026-05-03</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-03/ai-hn</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-03/ai-hn</guid>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI 社区动态日报 2026-05-03 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-05-03 00:18 UTC Hacker News AI 社区动态日报 | 2026-05-03 今日速览 今日 HN 社区围绕 AI 的讨论呈现工具落地与认知反思并重的态势。开发者端涌现多个实用自动化工具（桌面 Agent、PDF 表单填充、代码库友好度分析），而 Richard Dawkins 宣称 Claude 具有意识的事件引发激烈辩论，Gary Marcus 等 AI 批评者借机抨击&amp;quot;AI 幻觉&amp;quot;已蔓延至公众认知层面。产业方面，Anthropic 的天价估值（$900B+）与 Pentagon 绕过 Anthropic 签约其他科技巨头形成微妙对照，社区对 AI 泡沫的质疑声持续发酵。 热门新闻与讨论 🔬 模型与研究 标题 数据 一句话说明 LLMs can hide text in other text of the same length · HN 讨论 4 分 · 0 评论 揭示 LLM 的隐写术能力...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-05-03</h1>
+<blockquote>
+<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-05-03 00:18 UTC</p>
+</blockquote>
+<hr>
+<h1>Hacker News AI 社区动态日报 | 2026-05-03</h1>
+<hr>
+<h2>今日速览</h2>
+<p>今日 HN 社区围绕 AI 的讨论呈现<strong>工具落地与认知反思</strong>并重的态势。开发者端涌现多个实用自动化工具（桌面 Agent、PDF 表单填充、代码库友好度分析），而 Richard Dawkins 宣称 Claude 具有意识的事件引发激烈辩论，Gary Marcus 等 AI 批评者借机抨击&quot;AI 幻觉&quot;已蔓延至公众认知层面。产业方面，Anthropic 的天价估值（$900B+）与 Pentagon 绕过 Anthropic 签约其他科技巨头形成微妙对照，社区对 AI 泡沫的质疑声持续发酵。</p>
+<hr>
+<h2>热门新闻与讨论</h2>
+<h3>🔬 模型与研究</h3>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="left">数据</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="https://arxiv.org/abs/2510.20075">LLMs can hide text in other text of the same length</a></strong> · <a href="https://news.ycombinator.com/item?id=47989266">HN 讨论</a></td>
+<td align="left">4 分 · 0 评论</td>
+<td align="left">揭示 LLM 的隐写术能力——可在等长文本中嵌入隐藏信息，引发对模型安全与可控性的新担忧，但社区讨论尚未展开。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return">Researchers Asked LLMs for Strategic Advice. They Got &quot;Trendslop&quot; in Return</a></strong> · <a href="https://news.ycombinator.com/item?id=47988773">HN 讨论</a></td>
+<td align="left">4 分 · 0 评论</td>
+<td align="left">HBR 研究指出 LLM 战略建议充斥&quot;趋势垃圾&quot;（trendslop）——同质化、缺乏真正洞察，呼应社区对 AI 输出质量退化的长期批评。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://arxiv.org/abs/2604.01363">Preliminary Findings on AI Automation from Worker Evaluations</a></strong> · <a href="https://news.ycombinator.com/item?id=47990033">HN 讨论</a></td>
+<td align="left">5 分 · 0 评论</td>
+<td align="left">基于工人评估的 AI 自动化初步实证研究，关注实际工作场景中的替代效应，学术价值高但社区互动冷淡。</td>
+</tr>
+</tbody></table>
+<h3>🛠️ 工具与工程</h3>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="left">数据</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="https://github.com/lahfir/agent-desktop">Show HN: Agent-desktop – Native desktop automation CLI for AI agents</a></strong> · <a href="https://news.ycombinator.com/item?id=47982708">HN 讨论</a></td>
+<td align="left"><strong>92 分 · 34 评论</strong></td>
+<td align="left">今日最高分项目，提供原生桌面自动化 CLI，让 AI Agent 直接操控操作系统；社区热议其安全边界与跨平台扩展性。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://mljar.com/">Show HN: Mljar Studio – local AI data analyst that saves analysis as notebooks</a></strong> · <a href="https://news.ycombinator.com/item?id=47985077">HN 讨论</a></td>
+<td align="left">61 分 · 10 评论</td>
+<td align="left">本地化 AI 数据分析工具，自动生成可复现的 Jupyter 笔记本；受关注因其隐私优先设计与 AutoML 简化理念。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://copilot.simplepdf.com/?share=a7d00ad073c75a75d493228e6ff7b11eb3f2d945b6175913e87898ec96ca8076&form=w9&lang=en">Show HN: Filling PDF forms with AI using client-side tool calling</a></strong> · <a href="https://news.ycombinator.com/item?id=47984675">HN 讨论</a></td>
+<td align="left">49 分 · 23 评论</td>
+<td align="left">纯客户端 PDF 表单智能填充，强调零服务器数据泄露；社区讨论聚焦工具调用（tool calling）的浏览器实现细节。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://github.com/0xhimanshu/governor">Governor – a Claude Code plugin to reduce token/context waste</a></strong> · <a href="https://news.ycombinator.com/item?id=47982718">HN 讨论</a></td>
+<td align="left">16 分 · 3 评论</td>
+<td align="left">针对 Claude Code 的上下文优化插件，直击开发者痛点——API 成本与上下文窗口效率；反馈积极但规模较小。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://www.agentfriendlycode.com/">Show HN: Which public repos are friendliest to an AI coding agent?</a></strong> · <a href="https://news.ycombinator.com/item?id=47989464">HN 讨论</a></td>
+<td align="left">5 分 · 0 评论</td>
+<td align="left">评估代码库对 AI Agent 友好度的工具，反映社区对&quot;AI 原生开发工作流&quot;的前瞻探索，尚待验证实用性。</td>
+</tr>
+</tbody></table>
+<h3>🏢 产业动态</h3>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="left">数据</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/">Anthropic potential $900B+ valuation round could happen within 2 weeks</a></strong> · <a href="https://news.ycombinator.com/item?id=47989755">HN 讨论</a></td>
+<td align="left">4 分 · 0 评论</td>
+<td align="left">Anthropic 估值冲击万亿俱乐部，但社区反应冷淡——零评论暗示 HN 用户对估值叙事已疲劳，或认为脱离基本面。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic">Pentagon strikes deals with 7 Big Tech companies after shunning Anthropic</a></strong> · <a href="https://news.ycombinator.com/item?id=47991540">HN 讨论</a></td>
+<td align="left">5 分 · 1 评论</td>
+<td align="left">五角大楼刻意排除 Anthropic 签约其他巨头，结合后者前高管入职 Anthropic 的新闻，引发对 AI 国防伦理的隐忧。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/">Meta buys robotics startup to bolster its humanoid AI ambitions</a></strong> · <a href="https://news.ycombinator.com/item?id=47989767">HN 讨论</a></td>
+<td align="left">4 分 · 0 评论</td>
+<td align="left">Meta 加码人形机器人，但社区零互动——硬件叙事在 HN 开发者群体中吸引力有限，或被视为大厂跟风。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://www.wired.com/story/super-pac-backed-by-openai-and-palantir-is-paying-tiktok-influencers-to-fear-monger-about-china/">A Dark-Money Campaign Is Paying Influencers to Frame Chinese AI as a Threat</a></strong> · <a href="https://news.ycombinator.com/item?id=47985073">HN 讨论</a></td>
+<td align="left">9 分 · 1 评论</td>
+<td align="left">OpenAI 与 Palantir 资助的 Super PAC 被曝操纵反华 AI 舆论，仅获零星关注——HN 用户对地缘政治炒作保持警惕距离。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://www.reuters.com/world/africa/south-africa-withdraws-ai-policy-due-fake-ai-generated-sources-2026-04-27/">South Africa withdraws AI policy due to fake AI-generated sources</a></strong> · <a href="https://news.ycombinator.com/item?id=47989552">HN 讨论</a></td>
+<td align="left">4 分 · 0 评论</td>
+<td align="left">政府 AI 政策因引用 AI 伪造来源而撤回，成为&quot;AI 反噬治理&quot;的讽刺案例，但讨论未发酵。</td>
+</tr>
+</tbody></table>
+<h3>💬 观点与争议</h3>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="left">数据</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="https://garymarcus.substack.com/p/richard-dawkins-and-the-claude-delusion">Richard Dawkins and The Claude Delusion: The great skeptic gets taken in</a></strong> · <a href="https://news.ycombinator.com/item?id=47988880">HN 讨论</a></td>
+<td align="left"><strong>29 分 · 46 评论</strong></td>
+<td align="left">今日最高评论数帖子，AI 批评者 Marcus 抨击 Dawkins 被 Claude &quot;欺骗&quot;；社区分裂——一方认同&quot;意识幻觉&quot;危险，另一方质疑 Marcus 借机营销。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://www.dailygrail.com/2026/05/the-claude-delusion-richard-dawkins-believes-his-female-ai-chatbot-is-conscious/">The Claude Delusion: Richard Dawkins believes his AI chatbot is conscious</a></strong> · <a href="https://news.ycombinator.com/item?id=47991340">HN 讨论</a></td>
+<td align="left">23 分 · 2 评论</td>
+<td align="left">同一事件的另一报道，强调 Dawkins 将 Claude 拟人化为&quot;女性&quot;；低评论数反映重复议题的注意力衰减。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://www.theatlantic.com/economy/2026/05/ai-bubble-revenue-anthropic/687022/">So, About That AI Bubble</a></strong> · <a href="https://news.ycombinator.com/item?id=47982069">HN 讨论</a> / <a href="https://news.ycombinator.com/item?id=47989211">重复提交</a></td>
+<td align="left">4+3 分 · 1+0 评论</td>
+<td align="left">《大西洋月刊》质疑 AI 收入支撑估值，两次提交均未引发讨论——泡沫论在 HN 或成共识，或已审美疲劳。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://drewdevault.com/blog/Cult-of-TDD-and-LLMs/">The Cults of TDD and GenAI</a></strong> · <a href="https://news.ycombinator.com/item?id=47985343">HN 讨论</a></td>
+<td align="left">4 分 · 6 评论</td>
+<td align="left">将 TDD 与 GenAI 并列为&quot;技术邪教&quot;，批判盲目崇拜；小范围激辩，反映社区对方法论极端化的反思。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://betweentheprompts.com/if-claude-writes-the-code/">If Claude writes the code, what makes me still a developer?</a></strong> · <a href="https://news.ycombinator.com/item?id=47987285">HN 讨论</a></td>
+<td align="left">4 分 · 0 评论</td>
+<td align="left">开发者身份认同危机的直白表达，零评论或暗示 HN 用户已内化此焦虑，不愿重复讨论。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>社区情绪信号</h2>
+<p>今日 HN AI 讨论的<strong>活跃度呈现&quot;高工具、低产业、中争议&quot;的鲜明分层</strong>。开发者对可直接试用的开源工具（Agent-desktop、Mljar Studio、PDF 填充）表现出最高热情，92 分的 Agent-desktop 与 34 条评论印证了&quot;动手派&quot;的主导地位。相比之下，动辄千亿美元估值的产业新闻遭遇冷遇，多次零评论表明 HN 社区对资本叙事已形成免疫。</p>
+<p><strong>核心争议点</strong>集中于 AI 意识问题：Dawkins-Claude 事件以 46 评论成为今日最激辩话题，但分歧显著——一方视其为&quot;AI 安全教育的失败案例&quot;，另一方反感 Marcus 的批判姿态，认为其混淆&quot;拟人化互动&quot;与&quot;技术实质&quot;。值得注意的是，&quot;AI 泡沫&quot;议题虽被主流媒体持续渲染，在 HN 却几乎无法激发讨论，或暗示技术社区已形成&quot;泡沫存在但工具仍有价值&quot;的务实共识。</p>
+<p>与近期周期相比，<strong>&quot;本地化/隐私优先&quot;工具</strong>（client-side、local）出现频率上升，反映后-ChatGPT 时代开发者对数据主权的重新重视；同时，<strong>Anthropic 相关话题</strong>（估值、Pentagon 排斥、Dawkins 事件）密集出现，使其成为今日隐形主角，但社区情绪复杂——既认可其技术产品（Claude Code 插件），又对其商业与伦理层面保持距离。</p>
+<hr>
+<h2>值得深读</h2>
+<table>
+<thead>
+<tr>
+<th align="left">内容</th>
+<th align="left">理由</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="https://github.com/lahfir/agent-desktop">Agent-desktop 项目</a> + <a href="https://news.ycombinator.com/item?id=47982708">HN 讨论</a></strong></td>
+<td align="left">桌面自动化是 AI Agent 从&quot;聊天&quot;走向&quot;行动&quot;的关键基础设施。该项目原生 CLI 设计、跨应用操控能力及社区对安全模型的讨论，为构建可信 Agent 环境提供实践参考。开发者可关注其与其他工具（如 Claude Code、Computer Use）的集成潜力。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://garymarcus.substack.com/p/richard-dawkins-and-the-claude-delusion">Gary Marcus 对 Dawkins 的批判</a> + <a href="https://news.ycombinator.com/item?id=47988880">HN 讨论</a></strong></td>
+<td align="left">无论立场如何，这是观察&quot;AI 意识&quot;公共话语的绝佳切片。Marcus 的论证策略、Dawkins 的回应缺失、以及 HN 评论区的分裂反应，共同构成一幅&quot;技术批评如何被接受/抵制&quot;的微观图景。研究者可关注其修辞模式与证据标准的交锋。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return">HBR: &quot;Trendslop&quot; 研究</a></strong></td>
+<td align="left">提出&quot;trendslop&quot;概念——LLM 战略建议的同质化垃圾——这对依赖 AI 进行决策支持的产品设计者敲响警钟。尽管 HN 讨论冷清，但其与近期&quot;模型能力退化&quot;（如 GPT-4 变笨感知）的民间观察形成呼应，值得产品研究者追踪验证。</td>
+</tr>
+</tbody></table>
+<hr>
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Hacker News AI 社区动态日报 2026-05-02</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-02/ai-hn</link>
@@ -5044,157 +5223,6 @@
 </tbody></table>
 <hr>
 <p><em>本日报基于 Hacker News 公开数据整理，不代表任何机构立场。</em></p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI 社区动态日报 2026-04-03</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-03/ai-hn</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-03/ai-hn</guid>
-      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI 社区动态日报 2026-04-03 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-04-03 00:11 UTC Hacker News AI 社区动态日报 | 2026-04-03 今日速览 今日 HN 社区最热的 AI 话题集中在OpenAI 的战略动作——包括收购 TBPN 和被曝秘密资助年龄验证游说团体，引发对监管俘获的担忧。与此同时，AI 视频生成的高昂成本（Sora 单用户月亏 $45）成为热议焦点，社区对 AI 商业化可持续性提出质疑。Anthropic 则因 Claude Code 的用量限制问题陷入舆论漩涡，多条帖子讨论其定价策略与用户体验。整体情绪偏向批判性审视，对大厂动机和成本结构的关注度显著高于技术突破本身。 热门新闻与讨论 🔬 模型与研究 标题 分数/评论 核心看点 Emotion concepts and their function in a large language model · HN 讨论 9 / 0 Anthropic 最新研究探索 LLM 中的&amp;quot;情绪概念&amp;quot;功...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-04-03</h1>
-<blockquote>
-<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-04-03 00:11 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI 社区动态日报 | 2026-04-03</h1>
-<hr>
-<h2>今日速览</h2>
-<p>今日 HN 社区最热的 AI 话题集中在<strong>OpenAI 的战略动作</strong>——包括收购 TBPN 和被曝秘密资助年龄验证游说团体，引发对监管俘获的担忧。与此同时，<strong>AI 视频生成的高昂成本</strong>（Sora 单用户月亏 $45）成为热议焦点，社区对 AI 商业化可持续性提出质疑。Anthropic 则因 Claude Code 的用量限制问题陷入舆论漩涡，多条帖子讨论其定价策略与用户体验。整体情绪偏向<strong>批判性审视</strong>，对大厂动机和成本结构的关注度显著高于技术突破本身。</p>
-<hr>
-<h2>热门新闻与讨论</h2>
-<h3>🔬 模型与研究</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">核心看点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://www.anthropic.com/research/emotion-concepts-function">Emotion concepts and their function in a large language model</a></strong> · <a href="https://news.ycombinator.com/item?id=47617883">HN 讨论</a></td>
-<td align="left">9 / 0</td>
-<td align="left">Anthropic 最新研究探索 LLM 中的&quot;情绪概念&quot;功能机制，零评论或反映话题过于学术化，社区对可解释性研究的参与热情有限。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.technologyreview.com/2026/03/31/1134833/ai-benchmarks-are-broken-heres-what-we-need-instead/">AI benchmarks are broken. Here&#39;s what we need instead</a></strong> · <a href="https://news.ycombinator.com/item?id=47621673">HN 讨论</a></td>
-<td align="left">3 / 1</td>
-<td align="left">MIT Technology Review 长文批判当前 AI 基准测试失效，但低分低互动显示&quot;基准已死&quot;已是社区共识，缺乏新鲜感。</td>
-</tr>
-</tbody></table>
-<h3>🛠️ 工具与工程</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">核心看点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://quip.network">Show HN: Open-source distributed quantum compute network</a></strong> · <a href="https://news.ycombinator.com/item?id=47614801">HN 讨论</a></td>
-<td align="left">11 / 10</td>
-<td align="left">Quip 网络尝试用分布式架构降低量子计算门槛，评论聚焦技术可行性——量子-经典混合计算是否真能&quot;去中心化&quot;仍是疑点。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://chromewebstore.google.com/detail/lisa-core-ai-memory-libra/dmgnookddagimdcggdlbjmaobmoofhbj">Lisa Core – semantic compression for AI conversations (80:1 ratio, 100% local)</a></strong> · <a href="https://news.ycombinator.com/item?id=47621586">HN 讨论</a></td>
-<td align="left">3 / 1</td>
-<td align="left">本地语义压缩工具，80:1 压缩比直击长上下文成本痛点，但分数偏低，可能因 Chrome 扩展形态让硬核开发者却步。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://github.com/Garrus800-stack/genesis-agent">Genesis Agent – A self-modifying AI agent that runs local (Electron, Ollama)</a></strong> · <a href="https://news.ycombinator.com/item?id=47621307">HN 讨论</a></td>
-<td align="left">3 / 0</td>
-<td align="left">&quot;自修改&quot;本地 Agent 概念激进，零评论或反映社区对自修改代码的安全顾虑，Electron+Ollama 技术栈也显厚重。</td>
-</tr>
-</tbody></table>
-<h3>🏢 产业动态</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">核心看点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://openai.com/index/openai-acquires-tbpn/">OpenAI Acquires TBPN</a></strong> · <a href="https://news.ycombinator.com/item?id=47617376">HN 讨论</a></td>
-<td align="left"><strong>134 / 120</strong></td>
-<td align="left">今日绝对头条，但 TBPN 具体业务成谜（疑似 typo 或小众公司），评论区充斥猜测与对 OpenAI 收购策略的疲惫感——&quot;又买一个，然后呢？&quot;</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://aedelon777.substack.com/p/i-did-the-math-on-sora-ai-video-is">A $20/month user costs OpenAI $65 in compute. AI video is a money furnace</a></strong> · <a href="https://news.ycombinator.com/item?id=47619322">HN 讨论</a></td>
-<td align="left">43 / 25</td>
-<td align="left">独立分析算出 Sora 用户单月成本 $65，订阅 $20 即亏 $45，社区热议&quot;烧钱换市场&quot;模式何时崩盘，VC 补贴叙事受质疑。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://gizmodo.com/group-pushing-age-verification-requirements-for-ai-turns-out-to-be-sneakily-backed-by-openai-2000741069">Group Pushing Age Verification for AI Turns Out to Be Backed by OpenAI</a></strong> · <a href="https://news.ycombinator.com/item?id=47616665">HN 讨论</a></td>
-<td align="left">32 / 4</td>
-<td align="left">Gizmodo 调查曝光 OpenAI 秘密资助游说团体推动 AI 年龄验证，被讽为&quot;监管俘获&quot;经典案例，低评论数或因话题敏感。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://prabal.ca/posts/claude-code-x402-agent-payments/">Claude Code Leak: Anthropic Preps for Agent Payments</a></strong> · <a href="https://news.ycombinator.com/item?id=47615853">HN 讨论</a></td>
-<td align="left">6 / 0</td>
-<td align="left">泄露显示 Anthropic 测试基于 x402 协议的 Agent 支付系统，零评论但技术细节值得关注——微支付能否解决 API 成本困境？</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://sloppish.com/rationing-followup.html">Anthropic&#39;s &quot;Follow-Up&quot; on Usage Limits: What They Said vs. What We Experienced</a></strong> · <a href="https://news.ycombinator.com/item?id=47621331">HN 讨论</a></td>
-<td align="left">3 / 0</td>
-<td align="left">用户实测反驳 Anthropic 官方声明，用量限制争议持续发酵，社区对&quot;说一套做一套&quot;的容忍度正在降低。</td>
-</tr>
-</tbody></table>
-<h3>💬 观点与争议</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">核心看点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://www.governance.fyi/p/marc-andreessen-is-right-that-ai">Marc Andreessen Is Right That AI Isn&#39;t Killing Jobs. Interest Rate Hikes Are</a></strong> · <a href="https://news.ycombinator.com/item?id=47620155">HN 讨论</a></td>
-<td align="left">15 / 1</td>
-<td align="left">为 a16z 辩护的宏观经济叙事，将就业问题归咎于货币政策而非 AI，评论区冷清——HN 用户对 VC 话术日益免疫。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://news.ycombinator.com/item?id=47620412">Ask HN: Should there be a temporary ban on new accounts?</a></strong> · <a href="https://news.ycombinator.com/item?id=47620412">HN 讨论</a></td>
-<td align="left">9 / 7</td>
-<td align="left">针对 spam/AI 生成内容的治理提议，7 条评论显示社区对平台质量下滑的焦虑，但&quot;封新户&quot;方案争议大。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://news.ycombinator.com/item?id=47619720">Ask HN: How relevant is low code according to you in today&#39;s world with Claude?</a></strong> · <a href="https://news.ycombinator.com/item?id=47619720">HN 讨论</a></td>
-<td align="left">3 / 1</td>
-<td align="left">Claude 等 AI 编程工具是否杀死低代码平台？经典&quot;AI 替代 X&quot;范式，但低互动反映该议题已过度讨论。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>社区情绪信号</h2>
-<p>今日 HN AI 讨论呈现**&quot;高热低信&quot;<strong>特征：OpenAI 收购帖以 134 分登顶，但评论充斥疲惫与猜疑；成本分析帖（43 分/25 评论）互动率更高，显示社区对</strong>商业可持续性**的关切超过技术新闻。Anthropic 因 Claude Code 用量限制遭多帖质疑，形成&quot;大厂皆不可信&quot;的共识氛围。与上周相比，<strong>监管俘获、隐性成本、平台治理</strong>等结构性议题取代模型能力对比，成为新焦点——社区正从&quot;AI 能做什么&quot;转向&quot;AI 生意谁在买单&quot;。</p>
-<hr>
-<h2>值得深读</h2>
-<table>
-<thead>
-<tr>
-<th align="left">推荐</th>
-<th align="left">理由</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://aedelon777.substack.com/p/i-did-the-math-on-sora-ai-video-is">A $20/month user costs OpenAI $65 in compute</a></strong> · <a href="https://news.ycombinator.com/item?id=47619322">HN</a></td>
-<td align="left">独立分析师拆解 Sora 单位经济模型，数据虽待验证，但方法论可复制至其他 AI 服务评估，对创业者和投资者均有参考价值。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://gizmodo.com/group-pushing-age-verification-requirements-for-ai-turns-out-to-be-sneakily-backed-by-openai-2000741069">Group Pushing Age Verification for AI Turns Out to Be Backed by OpenAI</a></strong> · <a href="https://news.ycombinator.com/item?id=47616665">HN</a></td>
-<td align="left">调查报道揭示 AI 监管游说背后的企业利益链条，理解&quot;伦理 AI&quot;话语如何被工具化的必读案例。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://prabal.ca/posts/claude-code-x402-agent-payments/">Claude Code Leak: Anthropic Preps for Agent Payments</a></strong> · <a href="https://news.ycombinator.com/item?id=47615853">HN</a></td>
-<td align="left">x402 协议（HTTP 402 Payment Required 复兴）若落地，可能重塑 AI Agent 经济模型，技术架构细节值得追踪。</td>
-</tr>
-</tbody></table>
 <hr>
 <p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>
