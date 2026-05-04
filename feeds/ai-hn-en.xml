@@ -6,7 +6,170 @@
     <description>Hacker News AI Community Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-hn-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 03 May 2026 04:34:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 04:34:35 +0000</lastBuildDate>
+    <item>
+      <title>Hacker News AI Community Digest 2026-05-04</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-04/ai-hn-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-04/ai-hn-en</guid>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI Community Digest 2026-05-04 Source: Hacker News | 30 stories | Generated: 2026-05-04 00:19 UTC Hacker News AI Community Digest — May 4, 2026 1. Today&amp;#39;s Highlights The HN community is buzzing about Kimi K2.6, a Chinese open-weights model that reportedly outperformed Claude, GPT-5.5, and Gemini on a coding benchmark—sparking 212 comments of skepticism, nationalism debates, and genuine technical interest. Meanwhile, OpenAI&amp;#39;s o1 model made headlines with a Harvard trial showin...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-05-04</h1>
+<blockquote>
+<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-05-04 00:19 UTC</p>
+</blockquote>
+<hr>
+<h1>Hacker News AI Community Digest — May 4, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>The HN community is buzzing about <strong>Kimi K2.6</strong>, a Chinese open-weights model that reportedly outperformed Claude, GPT-5.5, and Gemini on a coding benchmark—sparking 212 comments of skepticism, nationalism debates, and genuine technical interest. Meanwhile, <strong>OpenAI&#39;s o1 model</strong> made headlines with a Harvard trial showing 67% ER diagnostic accuracy versus 50-55% for human triage doctors, reigniting familiar debates about AI in healthcare liability and bedside manner. The Musk-Altman trial dominated the lower rankings with multiple linked stories, though community engagement was surprisingly muted. A notable undercurrent: growing concern about <strong>AI slop and institutional overreach</strong>, with ASU professors discovering their lectures fed into AI courseware without consent.</p>
+<hr>
+<h2>2. Top News &amp; Discussions</h2>
+<h3>🔬 Models &amp; Research</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge/">Kimi K2.6 just beat Claude, GPT-5.5, and Gemini in a coding challenge</a></strong> — <a href="https://news.ycombinator.com/item?id=47993235">Discussion</a></td>
+<td>349</td>
+<td>212</td>
+<td>Highest engagement of the day; community split between &quot;benchmark gaming&quot; skepticism and genuine interest in open-weights progress from China</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.theguardian.com/technology/2026/apr/30/ai-outperforms-doctors-in-harvard-trial-of-emergency-triage-diagnoses">OpenAI&#39;s o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors</a></strong> — <a href="https://news.ycombinator.com/item?id=47991981">Discussion</a></td>
+<td>253</td>
+<td>210</td>
+<td>Classic HN tension: impressive numbers vs. concerns about false confidence, liability, and the &quot;last 10%&quot; of edge cases in medicine</td>
+</tr>
+</tbody></table>
+<h3>🛠️ Tools &amp; Engineering</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://github.com/aattaran/deepclaude">DeepClaude – Claude Code agent loop with DeepSeek V4 Pro, 17x cheaper</a></strong> — <a href="https://news.ycombinator.com/item?id=48002136">Discussion</a></td>
+<td>112</td>
+<td>50</td>
+<td>Representative of HN&#39;s practical engineering focus: routing expensive frontier models through cheaper alternatives for cost optimization</td>
+</tr>
+<tr>
+<td><strong><a href="https://github.com/MinishLab/semble">Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep</a></strong> — <a href="https://news.ycombinator.com/item?id=47997629">Discussion</a></td>
+<td>7</td>
+<td>0</td>
+<td>Token-efficient tooling for AI agents; niche but signals growing infrastructure maturity for agentic systems</td>
+</tr>
+<tr>
+<td><strong><a href="https://bhatti.sh/">Show HN: Bhatti – Self-hostable Firecracker orchestrator with auto pause/wake</a></strong> — <a href="https://news.ycombinator.com/item?id=47996509">Discussion</a></td>
+<td>15</td>
+<td>3</td>
+<td>Infrastructure for cost-efficient AI inference; HN&#39;s systems engineering bias showing</td>
+</tr>
+</tbody></table>
+<h3>🏢 Industry News</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://thenewstack.io/meta-abandons-llama-spark/">Meta abandons open-source Llama for proprietary Muse Spark</a></strong> — <a href="https://news.ycombinator.com/item?id=47996362">Discussion</a></td>
+<td>6</td>
+<td>1</td>
+<td>Barely discussed despite significance—suggests HN fatigue with &quot;open vs. closed&quot; narratives or skepticism about Meta&#39;s AI credibility</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.wired.com/story/super-pac-backed-by-openai-and-palantir-is-paying-tiktok-influencers-to-fear-monger-about-china/">A Dark-Money Campaign Is Paying Influencers to Frame Chinese AI as a Threat</a></strong> — <a href="https://news.ycombinator.com/item?id=47999538">Discussion</a></td>
+<td>8</td>
+<td>2</td>
+<td>Low engagement but notable for documenting OpenAI/Palantir funding anti-China AI messaging; HN wary of geopolitical manipulation</td>
+</tr>
+<tr>
+<td><strong><a href="https://apnews.com/article/musk-altman-openai-nonprofit-trial-bdbe85d62c2b678458fe68148eb6fba5">Musk spars with OpenAI atty in trial over OpenAI&#39;s evolution from a nonprofit</a></strong> — <a href="https://news.ycombinator.com/item?id=47999485">Discussion</a></td>
+<td>5</td>
+<td>1</td>
+<td>Multiple Musk-Altman trial stories got minimal traction; community seems exhausted by the drama</td>
+</tr>
+</tbody></table>
+<h3>💬 Opinions &amp; Debates</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://www.lelanthran.com/chap15/content.html">LLMs Are Not a Higher Level of Abstraction</a></strong> — <a href="https://news.ycombinator.com/item?id=47999520">Discussion</a></td>
+<td>25</td>
+<td>25</td>
+<td>Philosophical pushback against &quot;LLMs as compilers&quot; metaphor; HN&#39;s engineering rigor demanding clearer conceptual frameworks</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.404media.co/asu-atomic-ai-modules-arizona-state-university/">University Professors Disturbed to Find Their Lectures Chopped Up into AI Slop</a></strong> — <a href="https://news.ycombinator.com/item?id=48000534">Discussion</a></td>
+<td>7</td>
+<td>3</td>
+<td>Pairs with ASU story; growing labor backlash against institutional AI extraction</td>
+</tr>
+<tr>
+<td><strong><a href="https://reclaimthenet.org/senate-panel-backs-guard-act-ai-age-verification-bill">Every American interacting with chatbot would need to upload a government ID</a></strong> — <a href="https://news.ycombinator.com/item?id=48002681">Discussion</a></td>
+<td>7</td>
+<td>0</td>
+<td>No comments but significant civil liberties concern; HN typically vocal on privacy—surprisingly quiet here</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Community Sentiment Signal</h2>
+<p>Today&#39;s HN AI discourse shows a community <strong>fatigued by hype cycles but energized by concrete engineering wins</strong>. The Kimi K2.6 story dominated despite (or because of) inherent benchmark skepticism—commenters immediately questioned methodology, while others celebrated open-weights progress. The o1 medical trial generated similar &quot;impressive but...&quot; dynamics, with experienced developers noting that 67% accuracy in controlled settings means little against the long tail of real-world clinical complexity.</p>
+<p><strong>Controversy clusters around institutional trust</strong>: ASU&#39;s unauthorized use of professor content, OpenAI&#39;s dark-money influence campaigns, and Meta&#39;s Llama abandonment all landed flat in engagement, suggesting either information overload or cynicism about predictable corporate behavior. The Musk-Altman trial&#39;s poor performance is striking—HN has largely moved on from this narrative.</p>
+<p>Compared to prior cycles, there&#39;s a <strong>notable shift from &quot;will AI work?&quot; to &quot;how do we engineer around costs and ownership?&quot;</strong> DeepClaude&#39;s 17x cost reduction, Semble&#39;s token efficiency, and Bhatti&#39;s infrastructure optimization reflect a maturing community less interested in capability demonstrations and more focused on sustainable deployment. The near-silence on regulatory proposals (GUARD Act) is atypical and may indicate resignation or distraction.</p>
+<hr>
+<h2>4. Worth Deep Reading</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Piece</th>
+<th>Reasoning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge/">Kimi K2.6 just beat Claude, GPT-5.5, and Gemini in a coding challenge</a></strong> — <a href="https://news.ycombinator.com/item?id=47993235">Discussion</a></td>
+<td>The 212-comment thread itself is the reading: a real-time case study in how HN evaluates benchmark claims, with technical deconstructions of evaluation methodology, geopolitical framing, and open-weights viability. Essential for understanding current community epistemology.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://www.lelanthran.com/chap15/content.html">LLMs Are Not a Higher Level of Abstraction</a></strong> — <a href="https://news.ycombinator.com/item?id=47999520">Discussion</a></td>
+<td>A needed conceptual corrective as the industry rushes to treat LLMs as reliable building blocks. The 25 comments include substantive pushback and refinement—valuable for anyone architecting agentic systems.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://github.com/aattaran/deepclaude">DeepClaude – Claude Code agent loop with DeepSeek V4 Pro, 17x cheaper</a></strong> — <a href="https://news.ycombinator.com/item?id=48002136">Discussion</a></td>
+<td>Exemplifies the pragmatic &quot;router pattern&quot; becoming standard in production AI: use cheap models for bulk work, expensive models for verification. The implementation details and 50-comment cost analysis offer actionable intelligence for engineering teams.</td>
+</tr>
+</tbody></table>
+<hr>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Hacker News AI Community Digest 2026-05-03</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-03/ai-hn-en</link>
@@ -4768,165 +4931,6 @@
 <td>Productivity system design from a proven practitioner; valuable less for the specific tool than for the organizational principles applicable to managing complex technical projects. Lightweight enough to experiment with immediately.</td>
 </tr>
 </tbody></table>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI Community Digest 2026-04-04</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-04/ai-hn-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-04/ai-hn-en</guid>
-      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI Community Digest 2026-04-04 Source: Hacker News | 30 stories | Generated: 2026-04-04 00:10 UTC Hacker News AI Community Digest — April 4, 2026 1. Today&amp;#39;s Highlights The Hacker News AI community is intensely focused on Anthropic&amp;#39;s policy changes restricting third-party integrations with Claude, sparking significant debate about platform openness and developer trust. The top post (95 points, 85 comments) reveals frustration over Anthropic blocking &amp;quot;OpenClaw&amp;quot; and si...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-04-04</h1>
-<blockquote>
-<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-04-04 00:10 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI Community Digest — April 4, 2026</h1>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>The Hacker News AI community is intensely focused on <strong>Anthropic&#39;s policy changes restricting third-party integrations with Claude</strong>, sparking significant debate about platform openness and developer trust. The top post (95 points, 85 comments) reveals frustration over Anthropic blocking &quot;OpenClaw&quot; and similar third-party harnesses, with related posts suggesting this is part of a broader monetization push via new &quot;usage bundles.&quot; Meanwhile, a sobering research finding on &quot;cognitive surrender&quot;—AI users abandoning logical thinking—resonated with HN&#39;s traditionally skeptical stance toward uncritical AI adoption. The community also shows strong interest in <strong>cybersecurity applications of AI</strong>, with Claude discovering critical RCE bugs in Vim and Emacs, and anticipation building around Anthropic&#39;s rumored &quot;Mythos&quot; model. Underlying tensions between commercial AI platforms and open ecosystems remain a dominant theme.</p>
-<hr>
-<h2>2. Top News &amp; Discussions</h2>
-<h3>🔬 Models &amp; Research</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Item</th>
-<th align="left">Engagement</th>
-<th align="left">Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://www.bleepingcomputer.com/news/security/claude-ai-finds-vim-emacs-rce-bugs-that-trigger-on-file-open/">Claude AI finds Vim, Emacs RCE bugs that trigger on file open</a></strong> — <a href="https://news.ycombinator.com/item?id=47632805">HN Discussion</a><br>Score: 7 | Comments: 1</td>
-<td align="left">Demonstrates concrete security value of LLM-assisted vulnerability research; HN appreciates practical applications over hype</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.cnn.com/2026/04/03/tech/anthropic-mythos-ai-cybersecurity">Anthropic&#39;s next model could be a &#39;watershed moment&#39; for cybersecurity</a></strong> — <a href="https://news.ycombinator.com/item?id=47628398">HN Discussion</a><br>Score: 5 | Comments: 0</td>
-<td align="left">Builds anticipation for &quot;Mythos&quot; model; community skeptical of CNN tech coverage but watching for actual capabilities</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://iter.ca/post/claude-cms/">How the Claude Mythos leak happened</a></strong> — <a href="https://news.ycombinator.com/item?id=47633126">HN Discussion</a><br>Score: 4 | Comments: 0</td>
-<td align="left">Technical postmortem on CMS misconfiguration; valued for transparency about infrastructure failures</td>
-<td align="left"></td>
-</tr>
-</tbody></table>
-<h3>🛠️ Tools &amp; Engineering</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Item</th>
-<th align="left">Engagement</th>
-<th align="left">Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://github.com/sayil/dangerously">Show HN: Run Claude Code autonomously inside your Docker Compose stack (OSS)</a></strong> — <a href="https://news.ycombinator.com/item?id=47631444">HN Discussion</a><br>Score: 6 | Comments: 0</td>
-<td align="left">Direct response to Anthropic&#39;s restrictions; &quot;dangerously&quot; naming signals developer frustration with platform limitations</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://github.com/lukasmetzler/agenteval">Show HN: agenteval – static analysis for AI coding instruction file</a></strong> — <a href="https://news.ycombinator.com/item?id=47632919">HN Discussion</a><br>Score: 4 | Comments: 0</td>
-<td align="left">Emerging tooling for validating AI agent configurations; reflects maturation beyond &quot;vibe coding&quot;</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://github.com/sleep3r/mtproto.zig">Show HN: Mtproto.zig – High-performance Telegram proxy with DPI evasion</a></strong> — <a href="https://news.ycombinator.com/item?id=47632692">HN Discussion</a><br>Score: 6 | Comments: 3</td>
-<td align="left">Zig + networking + censorship resistance; hits HN&#39;s sweet spot of technical craftsmanship with political relevance</td>
-<td align="left"></td>
-</tr>
-</tbody></table>
-<h3>🏢 Industry News</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Item</th>
-<th align="left">Engagement</th>
-<th align="left">Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://news.ycombinator.com/item?id=47633396">Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw</a></strong> — <a href="https://news.ycombinator.com/item?id=47633396">HN Discussion</a><br>Score: 95 | Comments: 85</td>
-<td align="left"><strong>Top story</strong>: Platform lock-in concern; 85 comments show heated debate about whether this is reasonable anti-abuse or anti-competitive</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://news.ycombinator.com/item?id=47633568">Anthropic to limit Using third-party harnesses with Claude subscriptions</a></strong> — <a href="https://news.ycombinator.com/item?id=47633568">HN Discussion</a><br>Score: 7 | Comments: 1</td>
-<td align="left">Confirms broader policy shift; community parsing whether &quot;extra usage&quot; pricing is fair compensation or rent-seeking</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.wired.com/story/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk/">Meta Pauses Work with Mercor After Data Breach Puts AI Industry Secrets at Risk</a></strong> — <a href="https://news.ycombinator.com/item?id=47633226">HN Discussion</a><br>Score: 6 | Comments: 1</td>
-<td align="left">Highlights supply chain risks in AI data labeling; Mercor&#39;s controversial model of paying workers for &quot;prior work&quot; under scrutiny</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.wired.com/story/openais-fidji-simo-is-taking-a-leave-of-absence/">OpenAI&#39;s Fidji Simo Is Taking Medical Leave Amid an Executive Shake-Up</a></strong> — <a href="https://news.ycombinator.com/item?id=47631621">HN Discussion</a><br>Score: 4 | Comments: 0</td>
-<td align="left">Leadership instability at OpenAI continues; community noting pattern of executive departures</td>
-<td align="left"></td>
-</tr>
-</tbody></table>
-<h3>💬 Opinions &amp; Debates</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Item</th>
-<th align="left">Engagement</th>
-<th align="left">Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://arstechnica.com/ai/2026/04/research-finds-ai-users-scarily-willing-to-surrender-their-cognition-to-llms/">&quot;Cognitive surrender&quot; leads AI users to abandon logical thinking, research finds</a></strong> — <a href="https://news.ycombinator.com/item?id=47632504">HN Discussion</a><br>Score: 40 | Comments: 9</td>
-<td align="left">Validates HN&#39;s persistent concerns about over-reliance; &quot;scarily willing&quot; framing resonates with techno-skeptical audience</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.wheresyoured.at/the-subprime-ai-crisis-is-here/">The Subprime AI Crisis Is Here</a></strong> — <a href="https://news.ycombinator.com/item?id=47633150">HN Discussion</a><br>Score: 21 | Comments: 7</td>
-<td align="left">Ed Zitron&#39;s critique of AI hype cycles; HN increasingly receptive to &quot;AI bubble&quot; narratives as deployment realities set in</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media">Y Combinator&#39;s CEO says he ships 37,000 lines of AI code per day</a></strong> — <a href="https://news.ycombinator.com/item?id=47633506">HN Discussion</a><br>Score: 7 | Comments: 10</td>
-<td align="left">Mocked as performative metric; comments focus on &quot;lines of code&quot; as poor quality indicator, skepticism toward &quot;vibe coding&quot; evangelism</td>
-<td align="left"></td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Community Sentiment Signal</h2>
-<p>Today&#39;s HN AI discussions reveal a <strong>markedly defensive posture toward platform consolidation</strong>, with Anthropic&#39;s policy changes dominating attention through multiple highly-engaged posts. The 95-point top story with 85 comments represents exceptional activity, indicating genuine developer concern rather than routine complaint. Comment patterns suggest a community split: some defend Anthropic&#39;s right to monetize, while others see familiar patterns of &quot;embrace, extend, extinguish&quot; applied to AI tooling ecosystems.</p>
-<p>Notably, <strong>skepticism toward AI hype is hardening</strong>. The &quot;cognitive surrender&quot; research and &quot;Subprime AI Crisis&quot; article both gained traction without typical pushback, suggesting the community has moved past peak enthusiasm into critical evaluation phase. The mocking reception to Garry Tan&#39;s LOC claims exemplifies this shift—AI productivity metrics are now scrutinized rather than celebrated.</p>
-<p>Compared to previous cycles, there&#39;s <strong>reduced interest in model capabilities</strong> and <strong>increased focus on infrastructure, security, and economic structures</strong>. The Vim/Emacs RCE discovery and Mythos cybersecurity framing attracted attention, but pure benchmark discussions are absent. European tech sovereignty polling and copyright litigation (Penguin/OpenAI) indicate geopolitical and legal dimensions gaining prominence.</p>
-<p>The mood is <strong>wary, technically engaged, and increasingly protective of open tooling ecosystems</strong> against perceived platform enclosure.</p>
-<hr>
-<h2>4. Worth Deep Reading</h2>
-<table>
-<thead>
-<tr>
-<th align="left">#</th>
-<th align="left">Article</th>
-<th align="left">Reasoning</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">1</td>
-<td align="left"><strong><a href="https://www.wheresyoured.at/the-subprime-ai-crisis-is-here/">The Subprime AI Crisis Is Here</a></strong></td>
-<td align="left">Ed Zitron&#39;s detailed analysis of AI investment patterns, revenue realities, and structural weaknesses in the current boom. Essential for understanding why technical practitioners are increasingly skeptical of industry narratives—provides economic context often missing from engineering discussions.</td>
-</tr>
-<tr>
-<td align="left">2</td>
-<td align="left"><strong><a href="https://iter.ca/post/claude-cms/">How the Claude Mythos leak happened</a></strong></td>
-<td align="left">Rare technical postmortem from an AI lab&#39;s infrastructure failure. Valuable for SREs and security engineers building AI systems; demonstrates how even sophisticated organizations misconfigure content management systems, with specific technical details on the disclosure timeline.</td>
-</tr>
-<tr>
-<td align="left">3</td>
-<td align="left"><strong><a href="https://arstechnica.com/ai/2026/04/research-finds-ai-users-scarily-willing-to-surrender-their-cognition-to-llms/">&quot;Cognitive surrender&quot; leads AI users to abandon logical thinking, research finds</a></strong></td>
-<td align="left">Peer-reviewed research on human-AI interaction with measurable cognitive effects. Critical for product designers, educators, and anyone building AI interfaces—moves beyond anecdote to empirical evidence of automation bias in knowledge work.</td>
-</tr>
-</tbody></table>
-<hr>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>
