@@ -6,7 +6,166 @@
     <description>技术社区 AI 动态日报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-community.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 04 May 2026 04:34:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 04:10:48 +0000</lastBuildDate>
+    <item>
+      <title>技术社区 AI 动态日报 2026-05-05</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-05/ai-community</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-05/ai-community</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <description>技术社区 AI 动态日报 2026-05-05 数据来源: Dev.to (30 篇) + Lobste.rs (14 条) | 生成时间: 2026-05-05 00:20 UTC 技术社区 AI 动态日报 | 2026-05-05 今日速览 今日技术社区聚焦 AI Agent 基础设施的成熟化——从 Gateway 平台分类到大规模技能管理，开发者正在将 Agent 从 demo 推向生产。安全话题因 Anthropic Mythos 报告持续发酵，&amp;quot;vibecoding&amp;quot; 产出的代码漏洞引发担忧。同时，多模型组合策略（如 DeepClaude）和 MCP/Agent Gateway 架构成为工程实践新热点，社区开始区分 AI Gateway、MCP Gateway 与 Agent Gateway 的不同定位。 Dev.to 精选 # 文章 互动数据 核心价值 1 6 Agent Gateway Platforms That Actually Exist in 2026 👍 38 · 💬 2 系统梳理 2026 年真实可用的 Agent Gateway 平台...</description>
+      <content:encoded><![CDATA[<h1>技术社区 AI 动态日报 2026-05-05</h1>
+<blockquote>
+<p>数据来源: <a href="https://dev.to/">Dev.to</a> (30 篇) + <a href="https://lobste.rs/">Lobste.rs</a> (14 条) | 生成时间: 2026-05-05 00:20 UTC</p>
+</blockquote>
+<hr>
+<h1>技术社区 AI 动态日报 | 2026-05-05</h1>
+<hr>
+<h2>今日速览</h2>
+<p>今日技术社区聚焦 <strong>AI Agent 基础设施的成熟化</strong>——从 Gateway 平台分类到大规模技能管理，开发者正在将 Agent 从 demo 推向生产。安全话题因 Anthropic Mythos 报告持续发酵，&quot;vibecoding&quot; 产出的代码漏洞引发担忧。同时，<strong>多模型组合策略</strong>（如 DeepClaude）和 <strong>MCP/Agent Gateway 架构</strong>成为工程实践新热点，社区开始区分 AI Gateway、MCP Gateway 与 Agent Gateway 的不同定位。</p>
+<hr>
+<h2>Dev.to 精选</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>文章</th>
+<th>互动数据</th>
+<th>核心价值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://dev.to/lovestaco/6-agent-gateway-platforms-that-actually-exist-in-2026-and-what-theyre-good-for-2kek">6 Agent Gateway Platforms That Actually Exist in 2026</a></strong></td>
+<td>👍 38 · 💬 2</td>
+<td>系统梳理 2026 年真实可用的 Agent Gateway 平台，帮助团队选型避免&quot;纸上架构&quot;</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://dev.to/javz/the-4-cognitive-archetypes-of-developers-using-ai-382n">The 4 Cognitive Archetypes of Developers Using AI</a></strong></td>
+<td>👍 36 · 💬 9</td>
+<td>用行为模式替代&quot;用/不用&quot;二元划分，为团队 AI 采用策略提供人格化框架</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://dev.to/hadil/ai-gateway-vs-mcp-gateway-vs-agent-gateway-what-each-one-does-and-when-you-actually-need-them-33po">AI Gateway vs MCP Gateway vs Agent Gateway</a></strong></td>
+<td>👍 30 · 💬 8</td>
+<td>厘清三个易混淆概念的技术边界与适用场景，架构决策必读</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong><a href="https://dev.to/vystartasv/managing-150-ai-agent-skills-at-scale-what-broke-what-i-built-1e73">Managing 150+ AI Agent Skills at Scale</a></strong></td>
+<td>👍 21 · 💬 0</td>
+<td>实战经验：SQLite + Python 管理百级 Agent 技能的故障与修复路径</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong><a href="https://dev.to/juandastic/i-built-a-mobile-app-in-3-days-the-hard-part-was-keeping-it-connected-2fda">I Built a Mobile App in 3 Days. The Hard Part Was Keeping It Connected.</a></strong></td>
+<td>👍 35 · 💬 2</td>
+<td>AI 加速开发的反面：网络层、状态同步等&quot;无聊工程&quot;仍是移动端瓶颈</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong><a href="https://dev.to/maximsaplin/ai-agents-vs-code-vulnerabilities-was-anthropic-mythos-a-big-deal-or-fear-mongering-8ci">AI Agents vs Code Vulnerabilities: Was Anthropic Mythos a Big Deal or Fear-mongering?</a></strong></td>
+<td>👍 13 · 💬 2</td>
+<td>深度拆解 Mythos 报告的技术细节，平衡视角审视 AI 自主编码的安全风险</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong><a href="https://dev.to/jtorchia/deepclaude-i-combined-claude-code-with-deepseek-v4-pro-in-my-agent-loop-and-the-numbers-threw-me-17hn">DeepClaude: I Combined Claude Code with DeepSeek V4 Pro in My Agent Loop</a></strong></td>
+<td>👍 1 · 💬 0</td>
+<td>多模型路由的量化实验：不同任务 regime 下模型能力互补的实证数据</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong><a href="https://dev.to/fernando_pastor/agent-workspace-as-code-stop-copy-pasting-your-claudemd-across-projects-5845">Agent Workspace as Code</a></strong></td>
+<td>👍 2 · 💬 1</td>
+<td>将 Terraform 模式引入 AI 代理配置，解决 CLAUDE.md 跨项目复用的工程债务</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>Lobste.rs 精选</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>内容</th>
+<th>互动数据</th>
+<th>阅读理由</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://sites.google.com/view/llmwritingdistortion/home">How LLMs Distort Our Written Language</a></strong> · <a href="https://lobste.rs/s/pidcaz/how_llms_distort_our_written_language">讨论</a></td>
+<td>🔺 36 · 💬 7</td>
+<td>实证研究 LLM 对英语书面语的&quot;同质化&quot;效应，关乎技术写作与知识传承的多样性</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://www.kmjn.org/notes/microgpt_futhark.html">Porting microgpt to Futhark, Part I</a></strong> · <a href="https://lobste.rs/s/uch4e0/porting_microgpt_futhark_part_i">讨论</a></td>
+<td>🔺 34 · 💬 2</td>
+<td>将 GPT 移植到数据并行函数式语言 Futhark，探索 GPU 上 LLM 推理的新范式</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://arxiv.org/html/2601.05280v2">On the Limits of Self-Improving in Large Language Models</a></strong> · <a href="https://lobste.rs/s/jgsiqa/on_limits_self_improving_large_language">讨论</a></td>
+<td>🔺 13 · 💬 3</td>
+<td>符号模型合成视角下论证&quot;奇点未近&quot;，为 LLM 能力边界提供理论锚点</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong><a href="https://openai.com/index/where-the-goblins-came-from/">Where the goblins came from</a></strong> · <a href="https://lobste.rs/s/hbmd5q/where_goblins_came_from">讨论</a></td>
+<td>🔺 13 · 💬 4</td>
+<td>OpenAI 官方揭秘模型异常行为成因，罕见的技术透明性披露</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong><a href="https://z.ai/blog/scaling-pain">Scaling Pain of Coding Agent Serving</a></strong> · <a href="https://lobste.rs/s/2v2q1x/scaling_pain_coding_agent_serving">讨论</a></td>
+<td>🔺 3 · 💬 0</td>
+<td>GLM-5 大规模服务的一手调试经验，Agent 基础设施的&quot;血泪工程&quot;</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong><a href="https://medium.com/blueprint-for-disaster/ai-summaries-are-a-threat-to-our-cognitive-sovereignty-917afc37692f">Do AI summaries hurt critical thinking?</a></strong> · <a href="https://lobste.rs/s/txbgo5/do_ai_summaries_hurt_critical_thinking">讨论</a></td>
+<td>🔺 1 · 💬 2</td>
+<td>&quot;认知主权&quot;概念引发对 AI 摘要工具侵蚀深度阅读能力的哲学讨论</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>社区脉搏</h2>
+<p><strong>共同主题</strong>：两平台均高度关注 <strong>AI Agent 的工程化落地</strong>与<strong>安全/认知风险</strong>。Dev.to 偏向实践工具链（Gateway、MCP、多模型编排），Lobste.rs 更关注底层机制与批判性反思（语言同质化、自我改进极限、认知主权）。</p>
+<p><strong>实际关切</strong>：开发者已从&quot;AI 能做什么&quot;转向&quot;如何可靠地运行&quot;——Agent 的规模化技能管理、延迟预算、故障监控成为新痛点；同时 Mythos 事件后，<strong>&quot;vibecoding&quot; 产出的代码安全性</strong>从边缘话题进入主流议程。</p>
+<p><strong>新兴模式</strong>：&quot;Workspace as Code&quot; 和 Agent 配置的可复现部署、多模型路由（非简单 ensemble，而是任务 regime 感知的选择）、以及将传统软件工程模式（Terraform、SQLite）引入 AI 基础设施层，显示出社区正在<strong>用成熟工程纪律消化 AI 的混沌创新</strong>。</p>
+<hr>
+<h2>值得精读</h2>
+<table>
+<thead>
+<tr>
+<th>优先级</th>
+<th>文章</th>
+<th>精读理由</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>⭐⭐⭐</td>
+<td><strong><a href="https://dev.to/hadil/ai-gateway-vs-mcp-gateway-vs-agent-gateway-what-each-one-does-and-when-you-actually-need-them-33po">AI Gateway vs MCP Gateway vs Agent Gateway</a></strong></td>
+<td>2026 年 Agent 基础设施概念混乱，此文建立清晰分类框架，直接影响架构选型决策</td>
+</tr>
+<tr>
+<td>⭐⭐⭐</td>
+<td><strong><a href="https://sites.google.com/view/llmwritingdistortion/home">How LLMs Distort Our Written Language</a></strong></td>
+<td>超越技术层面，触及知识生产的长尾效应——当技术文档、论文、博客均被 LLM 中介，人类语言多样性如何存续</td>
+</tr>
+<tr>
+<td>⭐⭐☆</td>
+<td><strong><a href="https://dev.to/vystartasv/managing-150-ai-agent-skills-at-scale-what-broke-what-i-built-1e73">Managing 150+ AI Agent Skills at Scale</a></strong></td>
+<td>百级 Agent 运维的稀缺实战经验，SQLite 方案的可复现性高，适合作为团队内部参考实现</td>
+</tr>
+</tbody></table>
+<hr>
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>技术社区 AI 动态日报 2026-05-04</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-04/ai-community</link>
@@ -3723,153 +3882,6 @@
 <p>MCP 协议的首个公开生产案例，覆盖药物研发场景中 PubMed、化学数据库、实验记录系统的多源整合。包含具体的延迟优化与错误处理策略，是 MCP 落地的重要参考。</p>
 <h3>3. <a href="https://dev.to/ethan_kreloff_4a7339e3d1d/90-autonomous-runs-what-an-ai-agent-society-actually-looks-like-15fo">90 Autonomous Runs: What an AI Agent Society Actually Looks Like</a>（Dev.to）</h3>
 <p>罕见的长期自主 Agent 实验记录。8 个 Agent 在宪法框架下的 90 次无监督运行，产生的安全公告、记忆丢失与治理失效案例，为 AI 系统安全研究提供了实证素材。</p>
-<hr>
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>技术社区 AI 动态日报 2026-04-05</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-05/ai-community</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-05/ai-community</guid>
-      <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
-      <description>技术社区 AI 动态日报 2026-04-05 数据来源: Dev.to (30 篇) + Lobste.rs (9 条) | 生成时间: 2026-04-05 00:11 UTC 技术社区 AI 动态日报 | 2026-04-05 今日速览 今日技术社区围绕 AI 成本优化、Agent 编排实践、Gemma 4 本地部署 三大方向展开密集讨论。Dev.to 上开发者热衷于分享 Gemma 4 的实测经验与 AI 编码 Agent 的管控模式，Lobste.rs 则对 &amp;quot;Vibecoding&amp;quot; 的流行现象进行学术化反思，同时 OCaml 社区开始探讨 AI 生成代码的披露规范。整体氛围从&amp;quot;追逐新模型&amp;quot;转向&amp;quot;务实工程化&amp;quot;。 Dev.to 精选 # 文章 数据 核心价值 1 Intelligence-per-Token: Why AI&amp;#39;s Cost Problem Is Forcing a Reckoning in 2026 👍 10 · 💬 0 提出&amp;quot;每 token 智能&amp;quot;新指标，帮助开发者从盲目...</description>
-      <content:encoded><![CDATA[<h1>技术社区 AI 动态日报 2026-04-05</h1>
-<blockquote>
-<p>数据来源: <a href="https://dev.to/">Dev.to</a> (30 篇) + <a href="https://lobste.rs/">Lobste.rs</a> (9 条) | 生成时间: 2026-04-05 00:11 UTC</p>
-</blockquote>
-<hr>
-<h1>技术社区 AI 动态日报 | 2026-04-05</h1>
-<hr>
-<h2>今日速览</h2>
-<p>今日技术社区围绕 <strong>AI 成本优化、Agent 编排实践、Gemma 4 本地部署</strong> 三大方向展开密集讨论。Dev.to 上开发者热衷于分享 Gemma 4 的实测经验与 AI 编码 Agent 的管控模式，Lobste.rs 则对 &quot;Vibecoding&quot; 的流行现象进行学术化反思，同时 OCaml 社区开始探讨 AI 生成代码的披露规范。整体氛围从&quot;追逐新模型&quot;转向&quot;务实工程化&quot;。</p>
-<hr>
-<h2>Dev.to 精选</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>文章</th>
-<th>数据</th>
-<th>核心价值</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td><strong><a href="https://dev.to/om_shree_0709/intelligence-per-token-why-ais-cost-problem-is-forcing-a-reckoning-in-2026-40ja">Intelligence-per-Token: Why AI&#39;s Cost Problem Is Forcing a Reckoning in 2026</a></strong></td>
-<td>👍 10 · 💬 0</td>
-<td>提出&quot;每 token 智能&quot;新指标，帮助开发者从盲目扩规模转向精算成本效益</td>
-</tr>
-<tr>
-<td>2</td>
-<td><strong><a href="https://dev.to/battyterm/how-to-supervise-ai-coding-agents-without-losing-your-mind-53m4">How to Supervise AI Coding Agents Without Losing Your Mind</a></strong></td>
-<td>👍 6 · 💬 2</td>
-<td>多 Agent 并行时的文件冲突与测试跳过问题，附可复用的监督模式</td>
-</tr>
-<tr>
-<td>3</td>
-<td><strong><a href="https://dev.to/drbenzene/the-worst-morning-of-my-developer-life-a-patient-hacker-a-fake-ai-tool-and-150-deleted-repos--iin">The Worst Morning of My Developer Life — A Patient Hacker, a Fake AI Tool, and 150 Deleted Repos</a></strong></td>
-<td>👍 8 · 💬 0</td>
-<td>真实供应链攻击案例：伪装 AI 工具窃取 GitHub 权限的完整复盘</td>
-</tr>
-<tr>
-<td>4</td>
-<td><strong><a href="https://dev.to/pertrai1/i-analyzed-500-ai-coding-mistakes-and-built-an-eslint-plugin-to-catch-them-jme">I Analyzed 500 AI Coding Mistakes and Built an ESLint Plugin to Catch Them</a></strong></td>
-<td>👍 1 · 💬 0</td>
-<td>基于实证研究的 <code>eslint-plugin-llm-core</code>，20 条规则覆盖高频 AI 代码缺陷</td>
-</tr>
-<tr>
-<td>5</td>
-<td><strong><a href="https://dev.to/gde/deploy-gemma-4-on-cloud-run-pay-only-when-you-actually-use-it-9ln">Deploy Gemma 4 on Cloud Run: Pay Only When You Actually Use It</a></strong></td>
-<td>👍 4 · 💬 1</td>
-<td>18 分钟深度教程：无服务器部署大模型的冷启动与成本优化细节</td>
-</tr>
-<tr>
-<td>6</td>
-<td><strong><a href="https://dev.to/sayeem3051/context-engineering-prompt-engineering-i-built-a-python-lib-that-does-it-automatically-bo6">Context Engineering &gt; Prompt Engineering</a></strong></td>
-<td>👍 1 · 💬 0</td>
-<td>自动上下文注入库，解决&quot;复制粘贴文件到 ChatGPT&quot;的低效痛点</td>
-</tr>
-<tr>
-<td>7</td>
-<td><strong><a href="https://dev.to/godnick/token-usage-is-the-new-ram-usage-53oo">Token Usage Is the New RAM Usage</a></strong></td>
-<td>👍 2 · 💬 2</td>
-<td>代际视角对比：token 管理正成为新一代开发者的核心性能优化技能</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>Lobste.rs 精选</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>内容</th>
-<th>数据</th>
-<th>阅读理由</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td><strong><a href="https://gist.github.com/MostAwesomeDude/560185c24f959f6fec229739cb5a6735">Activating Two Trap Cards at Once, or: A Gentle Response to the Popularity of Vibecoding</a></strong> <a href="https://lobste.rs/s/8lbmm8/activating_two_trap_cards_at_once_gentle">讨论</a></td>
-<td>🔺 30 · 💬 10</td>
-<td>社区最高热度：从数学与编程语言理论角度，冷静剖析 Vibecoding 的认知陷阱</td>
-</tr>
-<tr>
-<td>2</td>
-<td><strong><a href="https://anil.recoil.org/projects/oxcaml">OxCaml Labs</a></strong> <a href="https://lobste.rs/s/wnuuoj/oxcaml_labs">讨论</a></td>
-<td>🔺 28 · 💬 0</td>
-<td>OCaml 生态的 AI 基础设施新动向，关注类型安全与 ML 工程的交叉</td>
-</tr>
-<tr>
-<td>3</td>
-<td><strong><a href="https://anil.recoil.org/notes/opam-ai-disclosure">A Proposal for Voluntary AI Disclosure in OCaml Code</a></strong> <a href="https://lobste.rs/s/fqtput/proposal_for_voluntary_ai_disclosure">讨论</a></td>
-<td>🔺 4 · 💬 0</td>
-<td>首个语言社区层面的 AI 生成代码披露规范提案，具有行业示范意义</td>
-</tr>
-<tr>
-<td>4</td>
-<td><strong><a href="https://tombedor.dev/approaches-to-agent-memory/">The Design of AI Memory Systems</a></strong> <a href="https://lobste.rs/s/8iqxqc/design_ai_memory_systems">讨论</a></td>
-<td>🔺 5 · 💬 0</td>
-<td>Agent 记忆架构的系统梳理，超越向量数据库的单一叙事</td>
-</tr>
-<tr>
-<td>5</td>
-<td><strong><a href="https://arxiv.org/abs/2604.01193">Embarrassingly Simple Self-Distillation Improves Code Generation</a></strong> <a href="https://lobste.rs/s/bor4wy/embarrassingly_simple_self">讨论</a></td>
-<td>🔺 6 · 💬 4</td>
-<td>极简自蒸馏方法提升代码生成，论文与工程实践的直接关联</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>社区脉搏</h2>
-<p><strong>共同主题</strong>：两个平台均聚焦 <strong>AI 辅助开发的工程化落地</strong>——Dev.to 侧重工具链实操（Gemma 4 部署、Agent 管控、ESLint 插件），Lobste.rs 偏向方法论反思（Vibecoding 批判、内存系统设计、代码溯源伦理）。</p>
-<p><strong>实际关切</strong>：开发者正从&quot;模型能力崇拜&quot;转向<strong>成本可控性</strong>（token/GPU 优化）与<strong>协作安全性</strong>（假 AI 工具攻击、多 Agent 冲突）。&quot;RAG 已死&quot;的争议（#22）与&quot;停止做 RAG Demo&quot;的呼吁（#26）表明，社区对简单向量检索方案的不满在累积。</p>
-<p><strong>新兴实践</strong>：Markdown 作为 Agent 任务格式（#16）、上下文工程自动化（#20）、行为承诺评分框架（#21）——显示开发者正在<strong>为 AI 协作设计新的接口规范</strong>，而非被动接受厂商定义的工作流。</p>
-<hr>
-<h2>值得精读</h2>
-<table>
-<thead>
-<tr>
-<th>优先级</th>
-<th>文章</th>
-<th>理由</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>⭐⭐⭐</td>
-<td><strong><a href="https://dev.to/battyterm/how-to-supervise-ai-coding-agents-without-losing-your-mind-53m4">How to Supervise AI Coding Agents Without Losing Your Mind</a></strong></td>
-<td>首个公开的多 Agent 并行冲突解决方案，含具体监督模式代码，可直接应用于 Cursor/Cline 等工具链</td>
-</tr>
-<tr>
-<td>⭐⭐⭐</td>
-<td><strong><a href="https://gist.github.com/MostAwesomeDude/560185c24f959f6fec229739cb5a6735">Activating Two Trap Cards at Once</a></strong></td>
-<td>对 Vibecoding 现象最系统的学术批评，区分&quot;工具使用&quot;与&quot;技能替代&quot;的本质差异，适合技术决策者阅读</td>
-</tr>
-<tr>
-<td>⭐⭐☆</td>
-<td><strong><a href="https://dev.to/gde/deploy-gemma-4-on-cloud-run-pay-only-when-you-actually-use-it-9ln">Deploy Gemma 4 on Cloud Run</a></strong></td>
-<td>18 分钟长文，覆盖从模型量化到冷启动优化的完整生产路径，是目前最详尽的 Gemma 4 部署参考</td>
-</tr>
-</tbody></table>
 <hr>
 <hr>
 <p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>

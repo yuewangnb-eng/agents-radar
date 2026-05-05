@@ -6,7 +6,122 @@
     <description>Tech Community AI Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-community-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 04 May 2026 04:34:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 04:10:48 +0000</lastBuildDate>
+    <item>
+      <title>Tech Community AI Digest 2026-05-05</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-05/ai-community-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-05/ai-community-en</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <description>Tech Community AI Digest 2026-05-05 Sources: Dev.to (30 articles) + Lobste.rs (14 stories) | Generated: 2026-05-05 00:20 UTC Tech Community AI Digest — May 5, 2026 1. Today&amp;#39;s Highlights Agent infrastructure dominates the conversation today, with multiple deep dives into the emerging &amp;quot;gateway&amp;quot; pattern for managing AI agents at scale. The Dev.to community is actively grappling with production realities—security vulnerabilities in AI-built apps, telephony latency for voice agents, and...</description>
+      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-05-05</h1>
+<blockquote>
+<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (14 stories) | Generated: 2026-05-05 00:20 UTC</p>
+</blockquote>
+<hr>
+<h1>Tech Community AI Digest — May 5, 2026</h1>
+<h2>1. Today&#39;s Highlights</h2>
+<p>Agent infrastructure dominates the conversation today, with multiple deep dives into the emerging &quot;gateway&quot; pattern for managing AI agents at scale. The Dev.to community is actively grappling with production realities—security vulnerabilities in AI-built apps, telephony latency for voice agents, and the cognitive shifts developers experience when pairing with AI. Meanwhile, Lobste.rs offers more critical and theoretical perspectives, questioning how LLMs distort human language and examining fundamental limits of self-improvement in language models. The tension between hype and hard-won engineering experience is palpable across both platforms.</p>
+<hr>
+<h2>2. Dev.to Highlights</h2>
+<table>
+<thead>
+<tr>
+<th>Article</th>
+<th>Engagement</th>
+<th>Key Takeaway</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://dev.to/lovestaco/6-agent-gateway-platforms-that-actually-exist-in-2026-and-what-theyre-good-for-2kek"><strong>6 Agent Gateway Platforms That Actually Exist in 2026 (And What They&#39;re Good For)</strong></a></td>
+<td>38 reactions, 2 comments</td>
+<td>Practical survey of real (not vaporware) agent gateway platforms for production routing and orchestration.</td>
+</tr>
+<tr>
+<td><a href="https://dev.to/javz/the-4-cognitive-archetypes-of-developers-using-ai-382n"><strong>The 4 Cognitive Archetypes of Developers Using AI</strong></a></td>
+<td>36 reactions, 9 comments</td>
+<td>Framework for understanding how different developers mentally model their collaboration with AI tools—useful for team dynamics.</td>
+</tr>
+<tr>
+<td><a href="https://dev.to/hadil/ai-gateway-vs-mcp-gateway-vs-agent-gateway-what-each-one-does-and-when-you-actually-need-them-33po"><strong>AI Gateway vs MCP Gateway vs Agent Gateway: What Each One Does (And When You Actually Need Them)</strong></a></td>
+<td>30 reactions, 8 comments</td>
+<td>Clarifies the increasingly crowded gateway terminology so you don&#39;t over-architect your stack.</td>
+</tr>
+<tr>
+<td><a href="https://dev.to/vystartasv/managing-150-ai-agent-skills-at-scale-what-broke-what-i-built-1e73"><strong>Managing 150+ AI Agent Skills at Scale — What Broke, What I Built</strong></a></td>
+<td>21 reactions, 0 comments</td>
+<td>Battle-tested SQLite-based skill registry for autonomous agents, with honest failure modes.</td>
+</tr>
+<tr>
+<td><a href="https://dev.to/aditi_bhatnagar_0250c01e4/we-scanned-ai-built-apps-and-found-holes-that-would-end-companies-heres-what-we-found-12p4"><strong>We Scanned AI-Built Apps and Found Holes That Would End Companies. Here&#39;s What We Found.</strong></a></td>
+<td>7 reactions, 1 comment</td>
+<td>Concrete security audit findings from production &quot;vibe-coded&quot; applications—including live bootstrap endpoints.</td>
+</tr>
+<tr>
+<td><a href="https://dev.to/nevermiss/the-part-of-building-an-ai-receptionist-nobody-talks-about-5h85"><strong>The part of building an AI receptionist nobody talks about</strong></a></td>
+<td>7 reactions, 1 comment</td>
+<td>The unglamorous 6-8 months of telephony, latency budgets, and escalation logic beneath the 30-second demo.</td>
+</tr>
+<tr>
+<td><a href="https://dev.to/fernando_pastor/agent-workspace-as-code-stop-copy-pasting-your-claudemd-across-projects-5845"><strong>Agent Workspace as Code: stop copy-pasting your CLAUDE.md across projects</strong></a></td>
+<td>2 reactions, 1 comment</td>
+<td>Terraform-inspired pattern for versioning and composing agent context files deterministically.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Lobste.rs Highlights</h2>
+<table>
+<thead>
+<tr>
+<th>Story</th>
+<th>Engagement</th>
+<th>Why It&#39;s Worth Reading</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://sites.google.com/view/llmwritingdistortion/home"><strong>How LLMs Distort Our Written Language</strong></a> (<a href="https://lobste.rs/s/pidcaz/how_llms_distort_our_written_language">discussion</a>)</td>
+<td>36 points, 7 comments</td>
+<td>Empirical analysis of how LLM-mediated communication is reshaping prose style—essential for anyone who cares about linguistic authenticity.</td>
+</tr>
+<tr>
+<td><a href="https://www.kmjn.org/notes/microgpt_futhark.html"><strong>Porting microgpt to Futhark, Part I</strong></a> (<a href="https://lobste.rs/s/uch4e0/porting_microgpt_futhark_part_i">discussion</a>)</td>
+<td>34 points, 2 comments</td>
+<td>Rare glimpse into array-language parallelism for transformer inference; PLT enthusiasts take note.</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/html/2601.05280v2"><strong>On the Limits of Self-Improving in Large Language Models</strong></a> (<a href="https://lobste.rs/s/jgsiqa/on_limits_self_improving_large_language">discussion</a>)</td>
+<td>13 points, 3 comments</td>
+<td>Rigorous argument that symbolic model synthesis, not just scale, is prerequisite for recursive self-improvement.</td>
+</tr>
+<tr>
+<td><a href="https://openai.com/index/where-the-goblins-came-from/"><strong>Where the goblins came from</strong></a> (<a href="https://lobste.rs/s/hbmd5q/where_goblins_came_from">discussion</a>)</td>
+<td>13 points, 4 comments</td>
+<td>OpenAI&#39;s own account of a bizarre emergent behavior—valuable for understanding (or questioning) alignment narratives.</td>
+</tr>
+<tr>
+<td><a href="https://www.magonia.io/research/why-a-decade-of-writing-detection-logic-makes-the-mythos-exploit-numbers-less-scary/"><strong>Why a Decade of Writing Detection Logic Makes the Mythos Exploit Numbers Less Scary</strong></a> (<a href="https://lobste.rs/s/cvzb9z/why_decade_writing_detection_logic_makes">discussion</a>)</td>
+<td>1 point, 0 comments</td>
+<td>Seasoned security researcher&#39;s cooler-headed take on the Anthropic Mythos vulnerability disclosure.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>4. Community Pulse</h2>
+<p>Both communities are navigating the gap between AI&#39;s demo-ready capabilities and production-hardened systems. On Dev.to, the dominant thread is <strong>agent infrastructure maturity</strong>—gateways, skill registries, workspace-as-code—suggesting developers have moved past &quot;hello world&quot; agents and now need orchestration, observability, and security. The repeated appearance of &quot;Mythos&quot; (Anthropic&#39;s vulnerability report) across tags and platforms indicates genuine concern about AI-generated attack surfaces, though Lobste.rs offers more skeptical, measured analysis than Dev.to&#39;s alarmed headlines.</p>
+<p>A second undercurrent is <strong>cognitive adaptation</strong>: developers are actively theorizing how their own thinking changes when AI becomes a persistent pair programmer, not just a search replacement. The &quot;4 Cognitive Archetypes&quot; piece captures this well, but it&#39;s visible in smaller observations too—the VR coding setup for monitoring multiple agents, the procedural memory experiments, the frustration with copy-pasting context files.</p>
+<p>Practically, there&#39;s strong interest in <strong>reducing token costs and latency</strong> (KODA format, custom entropy coders, streaming implementations) and in <strong>non-Python agent stacks</strong> (TypeScript SDKs, Rust tooling). The community is also hungry for <strong>honest post-mortems</strong> over polished tutorials—articles with &quot;what broke&quot; in the title perform well.</p>
+<hr>
+<h2>5. Worth Reading</h2>
+<ol>
+<li><p><strong><a href="https://dev.to/aditi_bhatnagar_0250c01e4/we-scanned-ai-built-apps-and-found-holes-that-would-end-companies-heres-what-we-found-12p4">We Scanned AI-Built Apps and Found Holes That Would End Companies</a></strong> — The bootstrap endpoint anecdote is a concrete, reproducible finding that should change how teams review AI-generated code. Pair with the Mythos skeptic piece from Lobste.rs for balance.</p>
+</li>
+<li><p><strong><a href="https://sites.google.com/view/llmwritingdistortion/home">How LLMs Distort Our Written Language</a></strong> (<a href="https://lobste.rs/s/pidcaz/how_llms_distort_our_written_language">discussion</a>) — A longer-term concern than most technical debt: if we outsource more writing to AI, what happens to human prose style? The highest-scoring Lobste.rs story for good reason.</p>
+</li>
+<li><p><strong><a href="https://dev.to/vystartasv/managing-150-ai-agent-skills-at-scale-what-broke-what-i-built-1e73">Managing 150+ AI Agent Skills at Scale — What Broke, What I Built</a></strong> — SQLite for agent skills is an admirably boring choice; the author&#39;s honest enumeration of failure modes (drift, version skew, discovery latency) saves readers months of similar pain.</p>
+</li>
+</ol>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Tech Community AI Digest 2026-05-04</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-04/ai-community-en</link>
@@ -3774,126 +3889,6 @@ An antidote to the productivity-obsessed discourse. Boykis argues for slowness, 
 <li><p><strong><a href="https://dev.to/battyterm/what-i-learned-supervising-5-ai-agents-on-a-real-project-cl8">What I Learned Supervising 5 AI Agents on a Real Project</a></strong> — Batty<br>Rare production data from multi-agent development: specific failure modes, supervision patterns that work, and metrics that matter. Essential for anyone building with agents.</p>
 </li>
 <li><p><strong><a href="https://tombedor.dev/approaches-to-agent-memory/">The Design of AI Memory Systems</a></strong> — <a href="https://lobste.rs/s/8iqxqc/design_ai_memory_systems">Lobste.rs Discussion</a><br>Foundational survey covering working memory, episodic memory, semantic memory, and hybrid architectures. The reference you&#39;ll return to when designing agent persistence.</p>
-</li>
-</ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Tech Community AI Digest 2026-04-05</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-05/ai-community-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-05/ai-community-en</guid>
-      <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Tech Community AI Digest 2026-04-05 Sources: Dev.to (30 articles) + Lobste.rs (9 stories) | Generated: 2026-04-05 00:11 UTC Tech Community AI Digest — April 5, 2026 1. Today&amp;#39;s Highlights The developer community is grappling with the operational realities of AI infrastructure in 2026, with intense focus on cost optimization (&amp;quot;intelligence-per-token&amp;quot;) and the messy transition from RAG demos to production agentic systems. Google&amp;#39;s Gemma 4 release dominates practical tutorials, whi...</description>
-      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-04-05</h1>
-<blockquote>
-<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (9 stories) | Generated: 2026-04-05 00:11 UTC</p>
-</blockquote>
-<hr>
-<h1>Tech Community AI Digest — April 5, 2026</h1>
-<h2>1. Today&#39;s Highlights</h2>
-<p>The developer community is grappling with the operational realities of AI infrastructure in 2026, with intense focus on cost optimization (&quot;intelligence-per-token&quot;) and the messy transition from RAG demos to production agentic systems. Google&#39;s Gemma 4 release dominates practical tutorials, while OpenAI&#39;s massive $122B funding round at $852B valuation draws both attention and skepticism. Security concerns surface prominently through a harrowing account of AI-tool-based supply chain attacks. The &quot;vibecoding&quot; phenomenon continues generating philosophical debate about code quality and human agency in AI-assisted development.</p>
-<hr>
-<h2>2. Dev.to Highlights</h2>
-<table>
-<thead>
-<tr>
-<th>Article</th>
-<th>Engagement</th>
-<th>Key Takeaway</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://dev.to/om_shree_0709/a-3m-bet-on-a-12-day-old-startup-heres-why-it-makes-sense-4ibc">A $3M Bet on a 12-Day-Old Startup. Here&#39;s Why It Makes Sense.</a></strong> — Om Shree<br>10 reactions, 0 comments</td>
-<td>Early-stage AI startups are attracting massive capital based on team and market timing rather than traction.</td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/om_shree_0709/intelligence-per-token-why-ais-cost-problem-is-forcing-a-reckoning-in-2026-40ja">Intelligence-per-Token: Why AI&#39;s Cost Problem Is Forcing a Reckoning in 2026</a></strong> — Om Shree<br>10 reactions, 0 comments</td>
-<td>Efficiency metrics are becoming the primary optimization target as raw model performance hits diminishing returns.</td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/drbenzene/the-worst-morning-of-my-developer-life-a-patient-hacker-a-fake-ai-tool-and-150-deleted-repos--iin">The Worst Morning of My Developer Life — A Patient Hacker, a Fake AI Tool, and 150 Deleted Repos</a></strong> — Boyinbode Ebenezer Ayomide<br>8 reactions, 0 comments</td>
-<td>AI tool impersonation represents an emerging attack vector requiring new supply chain security practices.</td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/battyterm/how-to-supervise-ai-coding-agents-without-losing-your-mind-53m4">How to Supervise AI Coding Agents Without Losing Your Mind</a></strong> — Batty<br>6 reactions, 2 comments</td>
-<td>Parallel AI agents require explicit coordination patterns to prevent destructive interference.</td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/gde/deploy-gemma-4-on-cloud-run-pay-only-when-you-actually-use-it-9ln">Deploy Gemma 4 on Cloud Run: Pay Only When You Actually Use It</a></strong> — Daniel Gwerzman<br>4 reactions, 1 comment</td>
-<td>Serverless GPU deployment patterns can dramatically reduce inference costs for sporadic workloads.</td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/godnick/token-usage-is-the-new-ram-usage-53oo">Token Usage Is the New RAM Usage</a></strong> — Henry Godnick<br>2 reactions, 2 comments</td>
-<td>Generational shift: developers must now optimize token budgets with the same discipline as memory management.</td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/pertrai1/i-analyzed-500-ai-coding-mistakes-and-built-an-eslint-plugin-to-catch-them-jme">I Analyzed 500 AI Coding Mistakes and Built an ESLint Plugin to Catch Them</a></strong> — Rob Simpson<br>1 reaction, 0 comments</td>
-<td><code>eslint-plugin-llm-core</code> provides 20 rules targeting statistically common LLM-generated bugs.</td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/sayeem3051/context-engineering-prompt-engineering-i-built-a-python-lib-that-does-it-automatically-bo6">Context Engineering &gt; Prompt Engineering</a></strong> — Abkari Mohammed Sayeem<br>1 reaction, 0 comments</td>
-<td>Automated context assembly outperforms manual prompt crafting for complex codebases.</td>
-<td></td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Lobste.rs Highlights</h2>
-<table>
-<thead>
-<tr>
-<th>Story</th>
-<th>Engagement</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://gist.github.com/MostAwesomeDude/560185c24f959f6fec229739cb5a6735">Activating Two Trap Cards at Once, or: A Gentle Response to the Popularity of Vibecoding</a></strong> — <a href="https://lobste.rs/s/8lbmm8/activating_two_trap_cards_at_once_gentle">Discussion</a><br>30 points, 10 comments</td>
-<td>Most substantive critique yet of &quot;vibecoding,&quot; examining how AI-assisted development risks eroding architectural reasoning.</td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="https://anil.recoil.org/projects/oxcaml">OxCaml Labs</a></strong> — <a href="https://lobste.rs/s/wnuuoj/oxcaml_labs">Discussion</a><br>28 points, 0 comments</td>
-<td>New research lab applying OCaml&#39;s type system rigor to ML infrastructure—potential safety improvements for AI systems.</td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="https://arxiv.org/abs/2604.01193">Embarrassingly Simple Self-Distillation Improves Code Generation</a></strong> — <a href="https://lobste.rs/s/bor4wy/embarrassingly_simple_self">Discussion</a><br>6 points, 4 comments</td>
-<td>Surprising result that model-generated training data can outperform human-curated datasets for code tasks.</td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="https://tombedor.dev/approaches-to-agent-memory/">The Design of AI Memory Systems</a></strong> — <a href="https://lobste.rs/s/8iqxqc/design_ai_memory_systems">Discussion</a><br>5 points, 0 comments</td>
-<td>Systematic taxonomy of memory architectures for agents—essential reading for anyone building beyond simple RAG.</td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="https://anil.recoil.org/notes/opam-ai-disclosure">A Proposal for Voluntary AI Disclosure in OCaml Code</a></strong> — <a href="https://lobste.rs/s/fqtput/proposal_for_voluntary_ai_disclosure">Discussion</a><br>4 points, 0 comments</td>
-<td>Concrete policy proposal for transparency in AI-assisted contributions, relevant to all open-source ecosystems.</td>
-<td></td>
-</tr>
-</tbody></table>
-<hr>
-<h2>4. Community Pulse</h2>
-<p>Both communities converge on <strong>cost-aware AI architecture</strong> as the defining challenge of 2026. Dev.to&#39;s &quot;intelligence-per-token&quot; framing and Lobste.rs&#39; focus on memory system design reflect shared recognition that brute-force scaling has hit economic limits. Developers are moving from experimentation to <strong>operational discipline</strong>—treating tokens as a constrained resource requiring budgeting, monitoring, and optimization.</p>
-<p><strong>Practical concerns dominate</strong>: How to prevent AI agents from destructively interfering (Batty&#39;s supervision patterns), how to secure AI-assisted workflows against novel attacks (the 150-repo deletion story), how to evaluate frameworks beyond star counts (Pico&#39;s behavioral commitment scoring). The &quot;RAG is dead&quot; discourse signals frustration with tutorial-grade implementations that fail in production.</p>
-<p><strong>Emerging patterns</strong>: Context engineering as a distinct discipline from prompt engineering; Markdown as the preferred interface format between humans and agents; serverless GPU deployment for cost control; and ESLint-style static analysis for AI-generated code. The OCaml community&#39;s interest in AI transparency and type-safe ML infrastructure suggests formal methods may re-enter the conversation.</p>
-<hr>
-<h2>5. Worth Reading in Depth</h2>
-<ol>
-<li><p><strong><a href="https://dev.to/drbenzene/the-worst-morning-of-my-developer-life-a-patient-hacker-a-fake-ai-tool-and-150-deleted-repos--iin">The Worst Morning of My Developer Life</a></strong> — Essential security parable. The attack vector (patient hacker builds reputation, distributes malicious &quot;AI tool,&quot; executes after months) demonstrates how AI hype creates new social engineering surfaces. Required reading for anyone evaluating third-party AI tools.</p>
-</li>
-<li><p><strong><a href="https://gist.github.com/MostAwesomeDude/560185c24f959f6fec229739cb5a6735">Activating Two Trap Cards at Once</a></strong> — The most intellectually serious response to &quot;vibecoding&quot; yet. Argues that AI-assisted development risks creating a generation of developers who can generate code without understanding architecture, debugging without understanding causality. Avoids easy moralizing in favor of examining structural incentives.</p>
-</li>
-<li><p><strong><a href="https://tombedor.dev/approaches-to-agent-memory/">The Design of AI Memory Systems</a></strong> — Foundational taxonomy for a problem every serious agent builder encounters. Distinguishes between episodic, semantic, and procedural memory; examines retrieval mechanisms; provides concrete implementation guidance. Likely to become a reference point as the field matures beyond RAG defaults.</p>
 </li>
 </ol>
 <hr>
