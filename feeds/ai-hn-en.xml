@@ -6,7 +6,181 @@
     <description>Hacker News AI Community Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-hn-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 05 May 2026 04:10:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 04:28:07 +0000</lastBuildDate>
+    <item>
+      <title>Hacker News AI Community Digest 2026-05-06</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-06/ai-hn-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-06/ai-hn-en</guid>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI Community Digest 2026-05-06 Source: Hacker News | 30 stories | Generated: 2026-05-06 00:19 UTC Hacker News AI Community Digest — May 6, 2026 1. Today&amp;#39;s Highlights The HN AI community is intensely focused on AI agents for enterprise verticals, with Anthropic&amp;#39;s financial services agents dominating discussion alongside multiple agent tooling launches. SubQ&amp;#39;s sub-quadratic architecture sparked niche but deep technical interest for its 12M-token context claims, while GPT-5....</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-05-06</h1>
+<blockquote>
+<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-05-06 00:19 UTC</p>
+</blockquote>
+<hr>
+<h1>Hacker News AI Community Digest — May 6, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>The HN AI community is intensely focused on <strong>AI agents for enterprise verticals</strong>, with Anthropic&#39;s financial services agents dominating discussion alongside multiple agent tooling launches. <strong>SubQ&#39;s sub-quadratic architecture</strong> sparked niche but deep technical interest for its 12M-token context claims, while <strong>GPT-5.5 Instant</strong> landed with relatively muted reception. A notable undercurrent involves <strong>AI consciousness debates</strong>—Richard Dawkins&#39; public statements about Claude&#39;s consciousness generated significant controversy and two separate discussion threads. Legal and ethical tensions remain prominent, with Meta&#39;s copyright lawsuit and Character.ai&#39;s medical misrepresentation suit drawing attention. Overall sentiment skews toward practical implementation over model hype, with developers gravitating toward agent infrastructure and context-window breakthroughs.</p>
+<hr>
+<h2>2. Top News &amp; Discussions</h2>
+<h3>🔬 Models &amp; Research</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://arxiv.org/abs/2604.26752">GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents</a></strong> — <a href="https://news.ycombinator.com/item?id=48026021">Discussion</a></td>
+<td>103</td>
+<td>23</td>
+<td>China&#39;s push for &quot;native&quot; multimodal agent architectures signals intensifying competition in agent-centric model design; community notes technical ambition but awaits independent validation.</td>
+</tr>
+<tr>
+<td><strong><a href="https://subq.ai/introducing-subq">SubQ: a sub-quadratic LLM with 12M-token context</a></strong> — <a href="https://news.ycombinator.com/item?id=48023079">Discussion</a></td>
+<td>40</td>
+<td>16</td>
+<td>Sub-quadratic attention claims draw cautious optimism from engineers tired of context-window tradeoffs; skepticism remains until reproducible benchmarks emerge.</td>
+</tr>
+<tr>
+<td><strong><a href="https://openai.com/index/gpt-5-5-instant/">GPT‑5.5 Instant</a></strong> — <a href="https://news.ycombinator.com/item?id=48025274">Discussion</a></td>
+<td>73</td>
+<td>16</td>
+<td>Surprisingly low engagement for an OpenAI release suggests community fatigue with incremental speed improvements over capability leaps.</td>
+</tr>
+</tbody></table>
+<h3>🛠️ Tools &amp; Engineering</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://news.ycombinator.com/item?id=48023496">Show HN: Airbyte Agents – context for agents across multiple data sources</a></strong> — <a href="https://news.ycombinator.com/item?id=48023496">Discussion</a></td>
+<td>88</td>
+<td>14</td>
+<td>Data integration for agents hits a pain point; strong Show HN reception reflects demand for enterprise-grade agent infrastructure beyond LLM wrappers.</td>
+</tr>
+<tr>
+<td><strong><a href="https://github.com/luml-ai/dreamer">Dreamer: Make any coding agent self-evolving, across the whole team</a></strong> — <a href="https://news.ycombinator.com/item?id=48025774">Discussion</a></td>
+<td>4</td>
+<td>3</td>
+<td>Small but targeted interest in &quot;self-evolving&quot; coding agents indicates continued experimentation with autonomous improvement loops in dev tools.</td>
+</tr>
+<tr>
+<td><strong><a href="https://github.com/ReflexioAI/claude-smart">Show HN: Claude-smart – Make Claude Code self-improve from every session</a></strong> — <a href="https://news.ycombinator.com/item?id=48023456">Discussion</a></td>
+<td>4</td>
+<td>1</td>
+<td>Personal knowledge accumulation for Claude Code sessions addresses a real UX gap; typical of HN&#39;s appetite for Claude-ecosystem tooling improvements.</td>
+</tr>
+</tbody></table>
+<h3>🏢 Industry News</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://www.anthropic.com/news/finance-agents">Agents for financial services and insurance</a></strong> — <a href="https://news.ycombinator.com/item?id=48023533">Discussion</a></td>
+<td>190</td>
+<td>137</td>
+<td>Anthropic&#39;s highest-scoring post signals strong HN interest in regulated-industry agent deployment; comments likely debate safety, hallucination risks, and vendor lock-in.</td>
+</tr>
+<tr>
+<td><strong><a href="https://apnews.com/article/meta-mark-zuckerberg-ai-publishers-lawsuit-llama-5609846d4d840014974a847b01079c32">Zuckerberg &#39;personally authorized&#39; Meta&#39;s copyright infringement, publishers say</a></strong> — <a href="https://news.ycombinator.com/item?id=48029334">Discussion</a></td>
+<td>79</td>
+<td>6</td>
+<td>Legal exposure for LLM training data escalates with direct CEO allegations; low comment-to-score ratio suggests grim acceptance of industry practices.</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.wsj.com/business/deals/anthropic-nears-1-5-billion-joint-venture-with-wall-street-firms-8f5448ee">Anthropic Unveils $1.5B Joint Venture with Wall Street Firms</a></strong> — <a href="https://news.ycombinator.com/item?id=48018083">Discussion</a></td>
+<td>4</td>
+<td>0</td>
+<td>Quietly significant: Anthropic deepening enterprise ties while OpenAI dominates consumer mindshare; financial services vertical strategy now explicit.</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.dexerto.com/gaming/xbox-ceo-ends-copilot-ai-development-overhauls-leadership-3361353/">Xbox CEO ends Copilot AI development and overhauls leadership</a></strong> — <a href="https://news.ycombinator.com/item?id=48029753">Discussion</a></td>
+<td>15</td>
+<td>0</td>
+<td>Microsoft&#39;s gaming AI retrenchment hints at broader enterprise AI rationalization; zero comments suggest limited surprise at Copilot&#39;s consumer struggles.</td>
+</tr>
+</tbody></table>
+<h3>💬 Opinions &amp; Debates</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://flux.community/matthew-sheffield/2026/05/richard-dawkins-and-the-claude-delusion/">Richard Dawkins and the Claude Delusion</a></strong> — <a href="https://news.ycombinator.com/item?id=48022266">Discussion</a></td>
+<td>32</td>
+<td>45</td>
+<td>High comment ratio reveals heated disagreement on AI consciousness; Dawkins&#39; credibility clash with technical skepticism generates substantive debate rare on HN.</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.theguardian.com/technology/2026/may/05/richard-dawkins-ai-consciousness-anthropic-claude-openai-chatgpt">Richard Dawkins concludes AI is conscious, even if it doesn&#39;t know it</a></strong> — <a href="https://news.ycombinator.com/item?id=48025969">Discussion</a></td>
+<td>14</td>
+<td>13</td>
+<td>Companion piece shows consciousness discourse penetrating mainstream; HN comments likely split between philosophy-of-mind dismissal and emergentist sympathy.</td>
+</tr>
+<tr>
+<td><strong><a href="https://easydays.substack.com/p/ai-has-americas-oldest-monopoly-problem">AI Has America&#39;s Oldest Monopoly Problem – Part 1</a></strong> — <a href="https://news.ycombinator.com/item?id=48029968">Discussion</a></td>
+<td>5</td>
+<td>0</td>
+<td>Antitrust framing of AI concentration underexplored on HN; low engagement may reflect fatigue with regulatory analysis or timing of post.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Community Sentiment Signal</h2>
+<p>Today&#39;s HN AI discourse exhibits a <strong>pragmatic, infrastructure-heavy mood</strong> with diminished enthusiasm for pure model announcements. The 190-score Anthropic finance agents post—paired with 137 comments—represents the most active discussion node, indicating strong interest in <strong>verticalized enterprise AI</strong> and likely vigorous debate about deployment risks. By contrast, GPT-5.5 Instant&#39;s modest 73/16 ratio suggests <strong>OpenAI&#39;s incremental releases no longer command automatic attention</strong>.</p>
+<p>The <strong>consciousness debate around Dawkins</strong> is anomalously comment-dense (45 comments on 32 points), signaling genuine intellectual friction rather than consensus. This marks a shift from typical HN&#39;s dismissive stance toward AI sentience claims—possibly reflecting Claude&#39;s perceived qualitative leap or Dawkins&#39; scientific credibility lending the topic unusual legitimacy.</p>
+<p>Notably absent: <strong>frontier model speculation, AGI timelines, or prompt engineering tips</strong>. Present instead: <strong>agent orchestration, context-window engineering, legal liability, and labor organizing</strong> (DeepMind unionization). Compared to prior cycles, the community has migrated from &quot;what&#39;s possible&quot; to &quot;what&#39;s deployable, legal, and economically sustainable.&quot; The SubQ posts&#39; multiple appearances (entries 6, 8, 11) despite modest scores indicate <strong>deep technical hunger for architectural breakthroughs</strong> that escape transformer scaling limits.</p>
+<hr>
+<h2>4. Worth Deep Reading</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Piece</th>
+<th>Reasoning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://www.anthropic.com/news/finance-agents">Agents for financial services and insurance</a></strong> + <a href="https://news.ycombinator.com/item?id=48023533">HN Discussion</a></td>
+<td>First major vertical-specific agent deployment from a frontier lab; essential for understanding how safety constraints, regulatory compliance, and hallucination mitigation are being architected in production. The 137-comment thread likely contains practitioner skepticism and implementation details absent from corporate announcement.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://flux.community/matthew-sheffield/2026/05/richard-dawkins-and-the-claude-delusion/">Richard Dawkins and the Claude Delusion</a></strong> + <a href="https://news.ycombinator.com/item?id=48022266">HN Discussion</a></td>
+<td>High-comment controversy on AI consciousness with unusual intellectual stakes; the HN thread probably contains sophisticated arguments from both philosophy-of-computation and neuroscience perspectives that transcend typical AI hype discourse.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://subq.ai/introducing-subq">SubQ: a sub-quadratic LLM with 12M-token context</a></strong> + <a href="https://news.ycombinator.com/item?id=48023079">HN Discussion</a></td>
+<td>If sub-quadratic attention with million-token contexts proves reproducible, it rewrites inference economics and RAG architectures. Early technical discussion on HN often surfaces critical flaws or validation approaches before broader coverage.</td>
+</tr>
+</tbody></table>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Hacker News AI Community Digest 2026-05-05</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-05/ai-hn-en</link>
@@ -4775,149 +4949,6 @@
 <li><p><strong><a href="https://openai.com/index/industrial-policy-for-the-intelligence-age/">Industrial Policy for the Intelligence Age</a></strong> — OpenAI&#39;s framing of AI development strategy; necessary context for understanding how major labs justify their infrastructure bets amid user criticism.</p>
 </li>
 </ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI Community Digest 2026-04-06</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-06/ai-hn-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-06/ai-hn-en</guid>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI Community Digest 2026-04-06 Source: Hacker News | 30 stories | Generated: 2026-04-06 00:11 UTC Hacker News AI Community Digest — April 6, 2026 1. Today&amp;#39;s Highlights The Hacker News AI community is intensely focused on cost optimization and local deployment this cycle, with major discussions around OpenAI&amp;#39;s Codex pricing restructuring and multiple open-source tools for running models locally. There&amp;#39;s palpable frustration with vendor pricing models alongside excitement a...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-04-06</h1>
-<blockquote>
-<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-04-06 00:11 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI Community Digest — April 6, 2026</h1>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>The Hacker News AI community is intensely focused on <strong>cost optimization and local deployment</strong> this cycle, with major discussions around OpenAI&#39;s Codex pricing restructuring and multiple open-source tools for running models locally. There&#39;s palpable frustration with vendor pricing models alongside excitement about self-hosted alternatives. The community is also tracking geopolitical risks to AI infrastructure, with Iran&#39;s threats against OpenAI&#39;s Stargate datacenter generating significant attention. Claude Code continues to dominate the tooling conversation, appearing in numerous Show HN projects as developers build skills and integrations around it.</p>
-<hr>
-<h2>2. Top News &amp; Discussions</h2>
-<h3>🔬 Models &amp; Research</h3>
-<table>
-<thead>
-<tr>
-<th>Item</th>
-<th>Metrics</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://github.com/salmanmohammadi/nanocode/discussions/1">Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs</a></strong> — <a href="https://news.ycombinator.com/item?id=47649742">HN Discussion</a></td>
-<td>147 pts, 24 comments</td>
-<td>Community excited about ultra-cheap model distillation; seen as democratizing access to coding agents</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.science.org/doi/10.1126/sciadv.aef5697">Applying machine learning to identify unrecognized Covid-19 deaths in the US</a></strong> — <a href="https://news.ycombinator.com/item?id=47646241">HN Discussion</a></td>
-<td>11 pts, 7 comments</td>
-<td>Rare ML-for-science paper; typical HN appreciation for epidemiological applications with methodological rigor</td>
-</tr>
-</tbody></table>
-<h3>🛠️ Tools &amp; Engineering</h3>
-<table>
-<thead>
-<tr>
-<th>Item</th>
-<th>Metrics</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://ai.georgeliu.com/p/running-google-gemma-4-locally-with">Running Gemma 4 locally with LM Studio&#39;s new headless CLI and Claude Code</a></strong> — <a href="https://news.ycombinator.com/item?id=47651540">HN Discussion</a></td>
-<td>161 pts, 40 comments</td>
-<td>High engagement reflects strong demand for local-first workflows; headless CLI seen as enabling automation</td>
-</tr>
-<tr>
-<td><strong><a href="https://github.com/jarredkenny/jmux">Show HN: jmux – tmux-based development environment for humans and coding agents</a></strong> — <a href="https://news.ycombinator.com/item?id=47650233">HN Discussion</a></td>
-<td>9 pts, 6 comments</td>
-<td>Representative of &quot;AI-native dev environment&quot; trend; bridges human and agent workflows</td>
-</tr>
-<tr>
-<td><strong><a href="https://github.com/duo121/termhub">Show HN: TermHub – Open-source terminal control gateway built for AI Agents</a></strong> — <a href="https://news.ycombinator.com/item?id=47654495">HN Discussion</a></td>
-<td>4 pts, 1 comment</td>
-<td>Infrastructure layer for agent security; niche but signals maturing agent ecosystem</td>
-</tr>
-</tbody></table>
-<h3>🏢 Industry News</h3>
-<table>
-<thead>
-<tr>
-<th>Item</th>
-<th>Metrics</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://help.openai.com/en/articles/20001106-codex-rate-card">Codex pricing to align with API token usage, instead of per-message</a></strong> — <a href="https://news.ycombinator.com/item?id=47650726">HN Discussion</a></td>
-<td><strong>194 pts, 176 comments</strong></td>
-<td>Most discussed story; mixed reception—some praise transparency, others skeptical of actual cost reductions</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.tomshardware.com/tech-industry/iran-threatens-complete-and-utter-annihilation-of-openais-usd30b-stargate-ai-data-center-in-abu-dhabi-regime-posts-video-with-satellite-imagery-of-chatgpt-makers-premier-1gw-data-center">Iran threatens &#39;complete and utter annihilation&#39; of OpenAI&#39;s $30B Stargate</a></strong> — <a href="https://news.ycombinator.com/item?id=47654757">HN Discussion</a></td>
-<td>38 pts, 18 comments</td>
-<td>Geopolitical AI infrastructure risk now tangible; community debating physical security of centralized compute</td>
-</tr>
-<tr>
-<td><strong><a href="https://twitter.com/unlimited_ls/status/2040577536136974444">Musician says AI company is cloning her music, filing claims against her</a></strong> — <a href="https://news.ycombinator.com/item?id=47653471">HN Discussion</a></td>
-<td>85 pts, 5 comments</td>
-<td>Copyright inversion case—AI company claiming ownership of artist&#39;s work; low comments suggest discomfort with complexity</td>
-</tr>
-</tbody></table>
-<h3>💬 Opinions &amp; Debates</h3>
-<table>
-<thead>
-<tr>
-<th>Item</th>
-<th>Metrics</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://news.ycombinator.com/item?id=47653057">Ask HN: I don&#39;t get why Anthropic is limiting usage</a></strong> — <a href="https://news.ycombinator.com/item?id=47653057">HN Discussion</a></td>
-<td>3 pts, 6 comments</td>
-<td>Reflects ongoing frustration with Claude rate limits despite high demand; consensus that capacity constraints hurt adoption</td>
-</tr>
-<tr>
-<td><strong><a href="https://joeyh.name/blog/entry/policy_on_adding_AI_generated_content_to_my_software_projects/">Policy on adding AI generated content to my software projects</a></strong> — <a href="https://news.ycombinator.com/item?id=47653954">HN Discussion</a></td>
-<td>5 pts, 0 comments</td>
-<td>Joey Hess&#39;s stance awaited; represents broader maintainer reckoning with AI contribution policies</td>
-</tr>
-<tr>
-<td><strong><a href="https://marvin.beckers.dev/blog/dont-yell-at-your-llm/">Don&#39;t Yell at Your LLM</a></strong> — <a href="https://news.ycombinator.com/item?id=47653669">HN Discussion</a></td>
-<td>4 pts, 0 comments</td>
-<td>Prompt engineering culture critique; typical HN skepticism of optimization superstitions</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Community Sentiment Signal</h2>
-<p>Today&#39;s HN AI discourse is <strong>pragmatically frustrated</strong>—high engagement on pricing stories (194 pts, 176 comments on Codex) reveals deep sensitivity to cost structures, while the Gemma 4 local deployment guide&#39;s strong performance (161 pts) shows active pursuit of vendor independence. The comment-to-score ratio on Codex pricing (~0.9) indicates genuine controversy rather than passive interest, with users dissecting whether token-based pricing actually helps or obscures costs.</p>
-<p>Compared to previous cycles, there&#39;s a <strong>notable shift toward agent infrastructure</strong>—multiple terminal/control projects (jmux, TermHub, Loqi memory system) suggest the community is building scaffolding for persistent, autonomous AI workflows rather than just chat interfaces. Geopolitical risk to AI infrastructure is newly salient, with Iran&#39;s Stargate threats generating more substantive discussion than typical security news.</p>
-<p>The absence of frontier model announcements (no GPT-5, no Claude 4) has redirected attention to <strong>optimization, local deployment, and economic sustainability</strong> of existing capabilities. Community mood: cautiously building around incumbent limitations rather than awaiting breakthroughs.</p>
-<hr>
-<h2>4. Worth Deep Reading</h2>
-<table>
-<thead>
-<tr>
-<th>Item</th>
-<th>Reasoning</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://github.com/salmanmohammadi/nanocode/discussions/1">Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs</a></strong> — <a href="https://news.ycombinator.com/item?id=47649742">HN</a></td>
-<td>Most technically substantive project: demonstrates practical model distillation economics with reproducible methodology. Essential for understanding cost floors in coding agents.</td>
-</tr>
-<tr>
-<td><strong><a href="https://help.openai.com/en/articles/20001106-codex-rate-card">Codex pricing to align with API token usage, instead of per-message</a></strong> — <a href="https://news.ycombinator.com/item?id=47650726">HN</a></td>
-<td>Bellwether for industry pricing evolution; 176 comments contain detailed cost modeling and vendor comparison analysis from production users.</td>
-</tr>
-<tr>
-<td><strong><a href="https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/">In Japan, the robot isn&#39;t coming for your job; it&#39;s filling the one nobody wants</a></strong> — <a href="https://news.ycombinator.com/item?id=47654620">HN</a></td>
-<td>Under-discussed (45 pts) but important corrective to AI labor displacement narratives; physical AI deployment case studies with actual operational metrics.</td>
-</tr>
-</tbody></table>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>

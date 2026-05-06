@@ -6,7 +6,58 @@
     <description>ArXiv AI Research Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-arxiv-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 05 May 2026 04:10:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 04:28:07 +0000</lastBuildDate>
+    <item>
+      <title>ArXiv AI Research Digest 2026-05-06</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-06/ai-arxiv-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-06/ai-arxiv-en</guid>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      <description>ArXiv AI Research Digest 2026-05-06 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-05-06 00:19 UTC ArXiv AI Research Digest — May 6, 2026 1. Today&amp;#39;s Highlights Today&amp;#39;s submissions reveal a strong convergence on making AI systems more controllable, efficient, and production-ready. Speculative decoding receives a major upgrade with compression-aware gamma selection (SpecKV), while several papers tackle the critical gap between research prototypes and real-world deploymen...</description>
+      <content:encoded><![CDATA[<h1>ArXiv AI Research Digest 2026-05-06</h1>
+<blockquote>
+<p>Source: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-05-06 00:19 UTC</p>
+</blockquote>
+<hr>
+<h1>ArXiv AI Research Digest — May 6, 2026</h1>
+<h2>1. Today&#39;s Highlights</h2>
+<p>Today&#39;s submissions reveal a strong convergence on <strong>making AI systems more controllable, efficient, and production-ready</strong>. Speculative decoding receives a major upgrade with compression-aware gamma selection (SpecKV), while several papers tackle the critical gap between research prototypes and real-world deployment—particularly in optimization modeling (ORPilot), sensor-driven applications (edge-to-core frameworks), and healthcare governance. Notably, multi-agent LLM systems are maturing beyond simple coordination toward reinforcement learning-based orchestration and proactive collaborative tutoring. The field also shows growing concern with <strong>AI-generated technical debt</strong> and <strong>misalignment contagion</strong> in multi-agent settings, signaling increased attention to long-term system reliability.</p>
+<hr>
+<h2>2. Key Papers</h2>
+<h3>🧠 Large Language Models</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.02888v1">SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection</a></strong> — Shukla et al.<br>Dynamically optimizes the speculation length γ in speculative decoding based on KV cache compression ratios, addressing a key efficiency bottleneck in LLM inference that was previously handled with static heuristics.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.02853v1">Trust, but Verify: Peeling Low-Bit Transformer Networks for Training Monitoring</a></strong> — Eamaz et al.<br>Introduces layer-wise &quot;peeling&quot; analysis for low-bit transformers, providing much-needed visibility into whether quantized models are actually learning effectively during training.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.02751v1">Mitigating Misalignment Contagion by Steering with Implicit Traits</a></strong> — Chang et al.<br>Identifies and addresses how misaligned behavior propagates between LMs in multi-agent settings, a critical safety issue as these systems scale to high-stakes collaborative environments.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.02735v1">Visual Latents Know More Than They Say: Unsilencing Latent Reasoning in MLLMs</a></strong> — Zhang et al.<br>Exposes an optimization pathology that suppresses latent visual reasoning in multimodal LMs, offering a fix that unlocks richer reasoning without explicit chain-of-thought tokens.</p>
+<hr>
+<h3>🤖 Agents &amp; Reasoning</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.02801v1">Reinforcement Learning for LLM-based Multi-Agent Systems through Orchestration Traces</a></strong> — Zhang<br>Frames multi-agent LLM coordination as an RL problem over orchestration primitives (spawn, delegate, aggregate, stop), moving beyond individual action optimization to system-level workflow learning.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.02832v1">HAAS: A Policy-Aware Framework for Adaptive Task Allocation Between Humans and Artificial Intelligence Systems</a></strong> — Pelechanoa et al.<br>Rejects binary human-vs-AI assignment in favor of dynamic, context-dependent task sharing with fatigue and capability modeling—essential for real organizational deployment.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.02728v1">ORPilot: A Production-Oriented Agentic LLM-for-OR Tool for Optimization Modeling</a></strong> — Xie<br>Bridges the gap between academic LLM-for-optimization demos and messy production environments, handling ambiguous specs, embedded data, and iterative refinement.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.02765v1">U-Define: Designing User Workflows for Hard and Soft Constraints in LLM-Based Planning</a></strong> — Lee et al.<br>Gives end-users systematic control over LLM planners through constraint specification interfaces, addressing the reliability gap that blocks consumer adoption.</p>
+<hr>
+<h3>🔧 Methods &amp; Frameworks</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.02829v1">Compress Then Adapt? No, Do It Together via Task-aware Union of Subspaces</a></strong> — Ge et al.<br>Unifies parameter-efficient fine-tuning and model compression into a single joint optimization, eliminating the misalignment that occurs when these are done sequentially.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.02827v1">First-Order Efficiency for Probabilistic Value Estimation via A Statistical Viewpoint</a></strong> — Liu et al.<br>Achieves first-order convergence for Shapley value estimation, potentially making data valuation and feature attribution tractable at scale for black-box models.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.02859v1">From Sensors to Insight: Rapid, Edge-to-Core Application Development for Sensor-Driven Applications</a></strong> — Thareja et al.<br>Pattern-based, AI-assisted methodology for deploying sensor analytics across edge-to-cloud infrastructure, lowering the cross-domain expertise barrier.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.02789v1">FunFuzz: An LLM-Powered Evolutionary Fuzzing Framework</a></strong> — Rodríguez Béjar et al.<br>Combines multi-island evolutionary search with LLM-based input generation to reduce prompt sensitivity and redundant exploration in security fuzzing.</p>
+<hr>
+<h3>📊 Applications</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.02741v1">AI-Generated Smells: An Analysis of Code and Architecture in LLM and Agent-Driven Development</a></strong> — Zhu et al.<br>Systematic audit revealing that AI-generated code contains substantial technical debt despite functional correctness—a wake-up call for measuring maintainability, not just passing tests.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.02745v1">Bolek: A Multimodal Language Model for Molecular Reasoning</a></strong> — Grabowski et al.<br>Grounds molecular property predictions in structural reasoning with auditable explanations, addressing the trust gap in high-stakes drug discovery decisions.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.02740v1">Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims</a></strong> — Ma et al.<br>Adapts clinical foundation models to administrative claims data at population scale, expanding evidence generation beyond controlled trials to real-world healthcare decisions.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.02734v1">Coherent Hierarchical Multi-Label Learning to Defer for Medical Imaging</a></strong> — Strong et al.<br>Extends learning-to-defer to hierarchical clinical taxonomies, matching how radiologists actually organize findings rather than flattening diagnostic structure.</p>
+<hr>
+<h2>3. Research Trend Signal</h2>
+<p>A clear <strong>maturation signal</strong> permeates today&#39;s submissions: the field is pivoting from capability demonstrations to <strong>production engineering and governance</strong>. We see explicit attention to deployment friction—whether in ORPilot&#39;s handling of messy business specs, the edge-to-core sensor framework&#39;s abstraction of heterogeneous infrastructure, or HAAS&#39;s modeling of human fatigue in human-AI teaming. Simultaneously, <strong>multi-agent safety</strong> is emerging as a distinct research area, with misalignment contagion and orchestration-level RL both appearing. The efficiency front is also active, with SpecKV&#39;s adaptive speculation and the joint compression-fine-tuning approach representing sophisticated co-design of algorithms and hardware constraints. Perhaps most tellingly, the technical debt paper and healthcare governance study indicate growing institutional awareness that <strong>AI systems must be maintainable and accountable</strong>, not merely performant on benchmarks.</p>
+<hr>
+<h2>4. Worth Deep Reading</h2>
+<p><strong><a href="http://arxiv.org/abs/2605.02888v1">SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection</a></strong> — This addresses a fundamental inference optimization with immediate practical impact. The gamma parameter in speculative decoding has been treated heuristically; making it adaptive to KV cache compression ratios directly connects two major efficiency techniques and could become standard in serving stacks.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.02741v1">AI-Generated Smells: An Analysis of Code and Architecture in LLM and Agent-Driven Development</a></strong> — A rare empirical study with uncomfortable implications. As organizations rush to adopt AI coding assistants, this provides the first systematic evidence that functional correctness masks maintainability degradation. The methodology and findings will likely influence how we evaluate and benchmark code generation systems.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.02751v1">Mitigating Misalignment Contagion by Steering with Implicit Traits</a></strong> — Multi-agent LLM deployments are scaling rapidly without adequate safety theory. This paper&#39;s identification of misalignment propagation dynamics and its steering-based mitigation offers a concrete technical approach to a problem that has been discussed mostly in abstract terms. Essential for anyone building collaborative AI systems.</p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>ArXiv AI Research Digest 2026-05-02</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-02/ai-arxiv-en</link>
