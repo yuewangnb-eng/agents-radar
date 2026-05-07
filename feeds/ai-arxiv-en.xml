@@ -6,7 +6,125 @@
     <description>ArXiv AI Research Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-arxiv-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 06 May 2026 04:28:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 04:28:34 +0000</lastBuildDate>
+    <item>
+      <title>ArXiv AI Research Digest 2026-05-07</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-07/ai-arxiv-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-07/ai-arxiv-en</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <description>ArXiv AI Research Digest 2026-05-07 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-05-07 00:19 UTC ArXiv AI Research Digest — May 7, 2026 1. Today&amp;#39;s Highlights Today&amp;#39;s submissions reveal a critical inflection point in AI research: the divergence of safety and accuracy scaling laws in clinical LLMs challenges fundamental assumptions about model scaling, while agentic systems dominate with advances in search, red teaming, and multi-agent orchestration. Notably, researche...</description>
+      <content:encoded><![CDATA[<h1>ArXiv AI Research Digest 2026-05-07</h1>
+<blockquote>
+<p>Source: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-05-07 00:19 UTC</p>
+</blockquote>
+<hr>
+<h1>ArXiv AI Research Digest — May 7, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>Today&#39;s submissions reveal a critical inflection point in AI research: <strong>the divergence of safety and accuracy scaling laws in clinical LLMs</strong> challenges fundamental assumptions about model scaling, while <strong>agentic systems</strong> dominate with advances in search, red teaming, and multi-agent orchestration. Notably, researchers are moving beyond simple accuracy metrics toward <strong>executor-grounded reasoning verification</strong> and <strong>constraint-level evaluation</strong>, reflecting maturing demands for reliability in high-stakes deployments. The emergence of <strong>experience-driven retrieval strategies</strong> and <strong>quantized KV-cache handoff for edge multi-agent systems</strong> signals practical progress in making agentic AI deployable at scale.</p>
+<hr>
+<h2>2. Key Papers</h2>
+<h3>🧠 Large Language Models</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.04039v1">Safety and accuracy follow different scaling laws in clinical large language models</a></strong></p>
+<ul>
+<li>Wind, Nguyen, Sopa et al.</li>
+<li><strong>Key insight:</strong> Demonstrates that scaling model size, context, or inference compute improves clinical accuracy without corresponding safety gains—a critical finding for medical AI deployment where confident errors can harm patients.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.03907v1">Steer Like the LLM: Activation Steering that Mimics Prompting</a></strong></p>
+<ul>
+<li>Heyman, Vandeputte</li>
+<li><strong>Key insight:</strong> Unifies prompt steering and activation steering into a single framework, showing how to make intervention-based control as effective as prompt engineering while being more efficient at inference time.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.03871v1">EvoLM: Self-Evolving Language Models through Co-Evolved Discriminative Rubrics</a></strong></p>
+<ul>
+<li>Li, Xin, Xiao et al.</li>
+<li><strong>Key insight:</strong> Eliminates external supervision bottlenecks by having language models evolve their own evaluation rubrics, enabling open-ended capability improvement without human or proprietary model annotations.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.03969v1">Feature-Augmented Transformers for Robust AI-Text Detection Across Domains and Generators</a></strong></p>
+<ul>
+<li>Mady, Reschke, Schuller</li>
+<li><strong>Key insight:</strong> Achieves robust AI-generated text detection under distribution shift by training on diverse generators and calibrating thresholds via domain-generalization principles—critical for content authenticity.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.03971v1">Logical Consistency as a Bridge: Improving LLM Hallucination Detection via Label Constraint Modeling between Responses and Self-Judgments</a></strong></p>
+<ul>
+<li>Mi, Sheng, Wang et al.</li>
+<li><strong>Key insight:</strong> Bridges micro-level uncertainty and macro-level self-judgment by enforcing logical consistency between LLM responses and their own evaluations, improving hallucination detection without external tools.</li>
+</ul>
+<h3>🤖 Agents &amp; Reasoning</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.04036v1">OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories</a></strong></p>
+<ul>
+<li>Du, Ye, Tang et al.</li>
+<li><strong>Key insight:</strong> Open-sources a competitive deep search agent through efficient trajectory curation rather than industrial-scale pretraining, democratizing access to frontier search capabilities.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.04019v1">Redefining AI Red Teaming in the Agentic Era: From Weeks to Hours</a></strong></p>
+<ul>
+<li>Dheekonda, Pearce, Landers</li>
+<li><strong>Key insight:</strong> Automates adversarial workflow generation for agentic systems, reducing red teaming from weeks to hours—essential as AI agents enter healthcare, finance, and defense.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.04018v1">Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems</a></strong></p>
+<ul>
+<li>Zhao, Wei, Song et al.</li>
+<li><strong>Key insight:</strong> Establishes evaluation criteria for retrievers that support iterative reasoning rather than topical matching, addressing a core bottleneck in agentic search performance.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.03986v1">From Intent to Execution: Composing Agentic Workflows with Agent Recommendation</a></strong></p>
+<ul>
+<li>Athrey, Pishehvar, Riordan et al.</li>
+<li><strong>Key insight:</strong> Automates multi-agent system composition through intent-driven agent recommendation, eliminating manual pipeline construction for complex workflows.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.03862v1">Correct Is Not Enough: Training Reasoning Planners with Executor-Grounded Rewards</a></strong></p>
+<ul>
+<li>Han, Shi, Hu et al.</li>
+<li><strong>Key insight:</strong> Replaces final-answer correctness with executor-grounded rewards that verify reasoning trace quality, producing more faithful and reusable reasoning for downstream consumption.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.03989v1">An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration</a></strong></p>
+<ul>
+<li>Zhang, Liao</li>
+<li><strong>Key insight:</strong> Enables dynamic retrieval strategy selection based on accumulated task experience, moving beyond one-size-fits-all RAG pipelines for heterogeneous query types.</li>
+</ul>
+<h3>🔧 Methods &amp; Frameworks</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.03884v1">QKVShare: Quantized KV-Cache Handoff for Multi-Agent On-Device LLMs</a></strong></p>
+<ul>
+<li>Honavar, GVSL</li>
+<li><strong>Key insight:</strong> Enables efficient context transfer between edge-device agents through quantized KV-cache handoff with token-level mixed precision, solving a critical latency bottleneck for on-device multi-agent systems.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.03900v1">Contextual Multi-Objective Optimization: Rethinking Objectives in Frontier AI Systems</a></strong></p>
+<ul>
+<li>Zhou, Chen, He</li>
+<li><strong>Key insight:</strong> Formalizes how AI systems fail in open-ended domains due to objective misspecification, proposing contextual multi-objective optimization as a framework for reliable scientific assistance and high-stakes advice.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.03858v1">MCJudgeBench: A Benchmark for Constraint-Level Judge Evaluation in Multi-Constraint Instruction Following</a></strong></p>
+<ul>
+<li>Lee, Koh, Tok et al.</li>
+<li><strong>Key insight:</strong> Introduces fine-grained constraint-level evaluation for LLM judges, revealing how overall-response judgments mask systematic failures in verifying individual requirements.</li>
+</ul>
+<h3>📊 Applications</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.03916v1">Atomic Fact-Checking Increases Clinician Trust in Large Language Model Recommendations for Oncology Decision Support: A Randomized Controlled Trial</a></strong></p>
+<ul>
+<li>Adams, Marx, Thiele Orberg et al.</li>
+<li><strong>Key insight:</strong> First RCT demonstrating that atomic fact-checking with source linkage significantly increases clinician trust in AI recommendations compared to traditional explainability—directly impacting clinical adoption.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.03998v1">EQUITRIAGE: A Fairness Audit of Gender Bias in LLM-Based Emergency Department Triage</a></strong></p>
+<ul>
+<li>Young, Matthews</li>
+<li><strong>Key insight:</strong> Documents persistent gender bias in LLM triage decisions, mirroring known human disparities—critical as hospitals pilot AI decision support in emergency medicine.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.04012v1">SymptomAI: Towards a Conversational AI Agent for Everyday Symptom Assessment</a></strong></p>
+<ul>
+<li>Breda, Yousif, Hawkins et al.</li>
+<li><strong>Key insight:</strong> Shifts focus from complex medical vignettes to everyday symptom assessment, revealing performance gaps in realistic low-context scenarios where patients lack rich clinical narratives.</li>
+</ul>
+<hr>
+<h2>3. Research Trend Signal</h2>
+<p>Three converging trends emerge from today&#39;s submissions. <strong>First, evaluation is undergoing granularization</strong>: researchers are moving beyond aggregate accuracy to constraint-level judgments (MCJudgeBench), executor-grounded reasoning verification, and atomic fact-checking—reflecting recognition that coarse metrics mislead in high-stakes applications. <strong>Second, the agentic stack is commoditizing</strong>: from OpenSeeker-v2&#39;s open-source search trajectories to automated red teaming and intent-driven agent composition, the tooling for building reliable agents is becoming accessible outside industrial labs. <strong>Third, safety-accuracy decoupling</strong> is entering mainstream discourse, with clinical LLMs as the leading edge—this challenges the implicit assumption that capability progress automatically yields aligned behavior, demanding explicit safety engineering. The combination suggests a field maturing from &quot;can we build it?&quot; to &quot;can we deploy it responsibly?&quot;</p>
+<hr>
+<h2>4. Worth Deep Reading</h2>
+<p><strong><a href="http://arxiv.org/abs/2605.04039v1">Safety and accuracy follow different scaling laws in clinical large language models</a></strong> — This paper fundamentally challenges the scaling paradigm that has driven AI development. By empirically demonstrating that accuracy and safety improve along independent curves in clinical settings, it forces reconsideration of how we validate models for deployment. The implications extend beyond medicine to any domain where confident errors carry asymmetric risk. Essential reading for anyone involved in AI safety, clinical deployment, or model evaluation design.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.03862v1">Correct Is Not Enough: Training Reasoning Planners with Executor-Grounded Rewards</a></strong> — Addresses a subtle but critical failure mode in reasoning LLMs: correct final answers with unreliable intermediate reasoning. The executor-grounded reward framework provides a principled solution with broad applicability to tool use, code generation, and multi-step planning. The methodology is likely to influence how reinforcement learning for reasoning is conducted across the field.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.04019v1">Redefining AI Red Teaming in the Agentic Era: From Weeks to Hours</a></strong> — As agentic systems become the dominant AI paradigm, security vulnerabilities compound through composition and temporal dynamics. This work&#39;s automated adversarial workflow generation represents a necessary evolution in security practice, with immediate practical utility for organizations deploying agents. The shift from manual to automated red teaming at this architectural moment is strategically significant.</p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>ArXiv AI Research Digest 2026-05-06</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-06/ai-arxiv-en</link>

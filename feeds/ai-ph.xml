@@ -6,7 +6,140 @@
     <description>Product Hunt AI 产品日报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-ph.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 06 May 2026 04:28:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 04:28:34 +0000</lastBuildDate>
+    <item>
+      <title>Product Hunt AI 产品日报 2026-05-07</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-07/ai-ph</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-07/ai-ph</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <description>Product Hunt AI 产品日报 2026-05-07 数据来源: Product Hunt | 共 8 个产品 | 生成时间: 2026-05-07 00:19 UTC Product Hunt AI 产品日报 | 2026-05-07 今日速览 今日 Product Hunt 上 AI 产品呈现**&amp;quot;Agent 化&amp;quot;与&amp;quot;深度集成&amp;quot;**两大主旋律。8 款产品中 5 款明确标注 Agent 或自主执行能力，AI 正从&amp;quot;对话建议&amp;quot;迈向&amp;quot;动手执行&amp;quot;。开发者工具占据半壁江山，VS Code 插件、浏览器自动化、设计工程化成为热点。值得关注的是，开源项目（Kilo Code、Openclick）获得最高社区参与度，显示出开发者对透明可控 AI 工具的强烈偏好。 热门产品 🤖 AI 智能体与助手 产品 数据 核心定位 Intuned Agent — Production browser automation, built and maintained by AIProduct Hunt · 官网 129 票...</description>
+      <content:encoded><![CDATA[<h1>Product Hunt AI 产品日报 2026-05-07</h1>
+<blockquote>
+<p>数据来源: <a href="https://www.producthunt.com/">Product Hunt</a> | 共 8 个产品 | 生成时间: 2026-05-07 00:19 UTC</p>
+</blockquote>
+<hr>
+<h1>Product Hunt AI 产品日报 | 2026-05-07</h1>
+<hr>
+<h2>今日速览</h2>
+<p>今日 Product Hunt 上 AI 产品呈现**&quot;Agent 化&quot;<strong>与</strong>&quot;深度集成&quot;**两大主旋律。8 款产品中 5 款明确标注 Agent 或自主执行能力，AI 正从&quot;对话建议&quot;迈向&quot;动手执行&quot;。开发者工具占据半壁江山，VS Code 插件、浏览器自动化、设计工程化成为热点。值得关注的是，开源项目（Kilo Code、Openclick）获得最高社区参与度，显示出开发者对透明可控 AI 工具的强烈偏好。</p>
+<hr>
+<h2>热门产品</h2>
+<h3>🤖 AI 智能体与助手</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">核心定位</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Intuned Agent</strong> — Production browser automation, built and maintained by AI<br><a href="https://www.producthunt.com/products/intuned?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/ABOT7PUT4QK7AB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">129 票 / 17 评论</td>
+<td align="left">解决浏览器自动化脚本脆弱、维护成本高的问题；独特之处在于<strong>AI 自主维护自动化流程</strong>，而非仅生成一次性脚本</td>
+</tr>
+<tr>
+<td align="left"><strong>Openclick</strong> — macOS agent that turns prompts into automated clicks<br><a href="https://www.producthunt.com/products/openclick?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/V2T33M56GWKTHB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">79 票 / 5 评论</td>
+<td align="left">解决 GUI 操作重复劳动问题；独特之处在于<strong>开源 + 系统级点击自动化</strong>，将自然语言直接转化为 macOS 原生交互</td>
+</tr>
+</tbody></table>
+<h3>🛠️ 开发者工具</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">核心定位</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Kilo Code v7 for VS Code</strong> — Parallel agents, diff reviewer, and multi-model comparisons<br><a href="https://www.producthunt.com/products/kilocode?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/SNLH5TXRYOCJUJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left"><strong>589 票 / 123 评论</strong> ⭐</td>
+<td align="left">解决 AI 编程助手单线程、单模型、难对比的问题；独特之处在于<strong>并行多 Agent 架构 + 多模型实时对比 + diff 评审</strong>，开源属性引爆社区热情</td>
+</tr>
+<tr>
+<td align="left"><strong>Flowstep 1.0</strong> — AI design engineer. Design &amp; ship real UI.<br><a href="https://www.producthunt.com/products/flowstep?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/4ELVP7JK6WNIFY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">307 票 / 56 评论</td>
+<td align="left">解决设计稿到代码的断层问题；独特之处在于**&quot;Vibe coding&quot; 范式——用自然语言直接生成可交付的真实 UI**，模糊设计与工程边界</td>
+</tr>
+<tr>
+<td align="left"><strong>Airbyte Agents</strong> — The context layer for production-grade AI agent<br><a href="https://www.producthunt.com/products/airbyte-agents?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/JZIEQRQ6SOM35B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">82 票 / 4 评论</td>
+<td align="left">解决 AI Agent 缺乏企业数据上下文的问题；独特之处在于<strong>将 Airbyte 的数据集成能力转化为 Agent 可消费的实时上下文层</strong></td>
+</tr>
+</tbody></table>
+<h3>📊 AI 应用（垂直场景）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">核心定位</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Firstwork</strong> — Agentic AI for frontline hiring and onboarding<br><a href="https://www.producthunt.com/products/firstwork-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/ZXGA5ZO5PL274L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">127 票 / 20 评论</td>
+<td align="left">解决蓝领/一线员工招聘流程冗长、流失率高的问题；独特之处在于<strong>针对非知识工作者的 Agentic 流程自动化</strong>，切入被传统 HR SaaS 忽视的细分市场</td>
+</tr>
+<tr>
+<td align="left"><strong>Blaze</strong> — The AI-powered calendar that plans your day for you.<br><a href="https://www.producthunt.com/products/blaze-your-new-calendar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/MLQGNQNUR5IY63?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">79 票 / 5 评论</td>
+<td align="left">解决日程管理从&quot;记录&quot;到&quot;规划&quot;的升级需求；独特之处在于<strong>从被动日历进化为主动日程规划 Agent</strong>，但差异化壁垒待观察</td>
+</tr>
+</tbody></table>
+<h3>🎨 创意与内容</h3>
+<p><em>今日无纯创意生成类工具上榜，Flowstep（见开发者工具）兼具设计生成属性，反映&quot;创意工程化&quot;趋势——设计工具正被并入开发工作流。</em></p>
+<h3>🔧 基础设施与模型</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">核心定位</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Unity AI</strong> — AI agents built directly into Unity workflows<br><a href="https://www.producthunt.com/products/unity?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/AYAXVXREGJXYX2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">95 票 / 2 评论</td>
+<td align="left">解决游戏/3D 开发中 AI 集成碎片化问题；独特之处在于<strong>引擎原生级 Agent 嵌入</strong>，而非外部插件，但社区讨论度偏低可能反映落地尚早</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>市场信号</h2>
+<p><strong>开发者工具与 Agent 基础设施高度密集</strong>，8 款中 5 款面向开发者，显示 Product Hunt 核心受众仍是技术早期采用者。创新思路集中在**&quot;AI 维护 AI&quot;<strong>（Intuned Agent 自维护自动化）与</strong>&quot;多 Agent 并行协作&quot;<strong>（Kilo Code v7）两个方向，标志着 Agent 架构从单智能体向多智能体系统演进。开源 vs 闭源呈现</strong>&quot;头部开源、腰部闭源&quot;**格局：票选前两名中 Kilo Code、Openclick 均为开源，但中尾部产品多闭源，推测开源策略在获取初始开发者社区方面具有显著优势，而商业化产品更倾向保留代码壁垒。</p>
+<hr>
+<h2>值得试用</h2>
+<table>
+<thead>
+<tr>
+<th align="left">排名</th>
+<th align="left">产品</th>
+<th align="left">推荐理由</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>1</strong></td>
+<td align="left"><strong>Kilo Code v7</strong></td>
+<td align="left">多模型并行对比 + diff 评审机制直击当前 AI 编程痛点，开源生态可预期快速迭代，VS Code 插件形态零迁移成本</td>
+</tr>
+<tr>
+<td align="left"><strong>2</strong></td>
+<td align="left"><strong>Intuned Agent</strong></td>
+<td align="left">若团队有浏览器自动化需求（测试、数据抓取、运营），其&quot;AI 维护&quot;承诺可大幅降低脚本腐化成本，值得验证实际稳定性</td>
+</tr>
+<tr>
+<td align="left"><strong>3</strong></td>
+<td align="left"><strong>Flowstep 1.0</strong></td>
+<td align="left">&quot;Vibe coding&quot; 设计工程化代表，适合前端/全栈开发者探索自然语言到生产 UI 的新范式，但需评估生成代码的可维护性</td>
+</tr>
+</tbody></table>
+<hr>
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Product Hunt AI 产品日报 2026-05-06</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-06/ai-ph</link>
@@ -4732,149 +4865,6 @@
 </tr>
 </tbody></table>
 <hr>
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Product Hunt AI 产品日报 2026-04-07</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-07/ai-ph</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-07/ai-ph</guid>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Product Hunt AI 产品日报 2026-04-07 数据来源: Product Hunt | 共 11 个产品 | 生成时间: 2026-04-07 00:12 UTC Product Hunt AI 产品日报 | 2026-04-07 今日速览 今日 Product Hunt 共发布 11 款 AI 产品，营销自动化与开发者工具成为两大核心赛道。头部产品 Influcio（525 票）聚焦网红营销 Agent，Panorama（354 票）切入团队流程挖掘，显示出 AI 从&amp;quot;内容生成&amp;quot;向&amp;quot;业务流程自动化&amp;quot;深化的趋势。值得注意的是，**本地开源模型（Tiny Aya）和浏览器端 AI 工具（Handle Extension、AgentPack）**获得关注，反映开发者对隐私可控、轻量集成的需求上升。整体投票分布两极分化，Top 2 占据 71% 票数，长尾产品竞争激烈。 热门产品 🤖 AI 智能体与助手 产品 数据 核心洞察 Influcio — AI marketing Agent for result-driven influe...</description>
-      <content:encoded><![CDATA[<h1>Product Hunt AI 产品日报 2026-04-07</h1>
-<blockquote>
-<p>数据来源: <a href="https://www.producthunt.com/">Product Hunt</a> | 共 11 个产品 | 生成时间: 2026-04-07 00:12 UTC</p>
-</blockquote>
-<hr>
-<h1>Product Hunt AI 产品日报 | 2026-04-07</h1>
-<hr>
-<h2>今日速览</h2>
-<p>今日 Product Hunt 共发布 11 款 AI 产品，<strong>营销自动化与开发者工具</strong>成为两大核心赛道。头部产品 Influcio（525 票）聚焦网红营销 Agent，Panorama（354 票）切入团队流程挖掘，显示出 AI 从&quot;内容生成&quot;向&quot;业务流程自动化&quot;深化的趋势。值得注意的是，**本地开源模型（Tiny Aya）<strong>和</strong>浏览器端 AI 工具（Handle Extension、AgentPack）**获得关注，反映开发者对隐私可控、轻量集成的需求上升。整体投票分布两极分化，Top 2 占据 71% 票数，长尾产品竞争激烈。</p>
-<hr>
-<h2>热门产品</h2>
-<h3>🤖 AI 智能体与助手</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">数据</th>
-<th align="left">核心洞察</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Influcio</strong> — AI marketing Agent for result-driven influencer campaign<br><a href="https://www.producthunt.com/products/influcio-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/7LWNCE62V5P6IM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">525 票 / 31 评论</td>
-<td align="left"><strong>首个登顶的网红营销垂直 Agent</strong>，从筛选达人、内容审核到效果追踪全链路自动化，解决品牌方&quot;找对人、算清账&quot;的痛点</td>
-</tr>
-<tr>
-<td align="left"><strong>AgentPack Chrome Extension</strong> — Custom AI agents, one click away on any webpage<br><a href="https://www.producthunt.com/products/mindpal-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/QRLA3XGVKSO3UE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">15 票 / 1 评论</td>
-<td align="left"><strong>浏览器即 Agent 入口</strong>，将网页上下文与自定义工作流结合，降低非技术用户构建 Agent 的门槛</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>🛠️ 开发者工具</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">数据</th>
-<th align="left">核心洞察</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Handle Extension</strong> — Refine UI in the browser, feed changes to your coding agent<br><a href="https://www.producthunt.com/products/handleai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/5PJ3K5ZJNHBOTW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">145 票 / 19 评论</td>
-<td align="left"><strong>视觉编辑 → 代码指令的桥梁</strong>，设计师/产品经理可直接在浏览器改 UI，变更自动转化为 PRD 或代码提示词喂给 Cursor/Copilot</td>
-</tr>
-<tr>
-<td align="left"><strong>Guardian IDE</strong> — Control AI-generated code before it ships<br><a href="https://www.producthunt.com/products/guardian-ide?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/6VLIKFOYB5GZEK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">16 票 / 7 评论</td>
-<td align="left"><strong>AI 代码的安全闸门</strong>，在 IDE 内嵌入规则引擎与人工审批流，解决企业&quot;让 AI 写代码但不敢直接合并&quot;的合规焦虑</td>
-</tr>
-<tr>
-<td align="left"><strong>OneKey Agent Gateway</strong> — OneKey access for agents Ship APIs/MCP/Skills/CLI 10× faster<br><a href="https://www.producthunt.com/products/ai-agent-a2z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/7SIFK6RAV6RX27?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">9 票 / 1 评论</td>
-<td align="left"><strong>Agent 基础设施的统一入口</strong>，支持 MCP/Function Calling/CLI 等多协议，试图成为 Agent 时代的&quot;Postman&quot;</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>📊 AI 应用（垂直场景）</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">数据</th>
-<th align="left">核心洞察</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Panorama</strong> — AI that finds your team&#39;s workflows and hidden structures<br><a href="https://www.producthunt.com/products/panorama?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/MXL7VB5VLJTDEB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">354 票 / 56 评论</td>
-<td align="left"><strong>组织流程的 CT 扫描仪</strong>，通过分析 Slack/Notion/日历等数据，自动绘制非正式协作网络，识别瓶颈与隐性知识节点</td>
-</tr>
-<tr>
-<td align="left"><strong>XP One</strong> — Replace Waalaxy, Lemlist, LGM, Apollo, Hunter &amp; PB → $29/mo<br><a href="https://www.producthunt.com/products/xp-one-the-one-finding-clients-tool?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/WHHXSE3QCXS5YT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">52 票 / 15 评论</td>
-<td align="left"><strong>销售工具栈的&quot;大统一&quot;替代方案</strong>，以极致定价策略（$29/月打包 6 款工具功能）切入红海市场</td>
-</tr>
-<tr>
-<td align="left"><strong>Scaloom</strong> — Reddit Marketing Automation With Human In The Loop<br><a href="https://www.producthunt.com/products/scaloom-9?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/QGGGNIXR27QXXY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">14 票 / 1 评论</td>
-<td align="left"><strong>Reddit 原生营销的首个系统化工具</strong>，AI 监测话题热度、生成评论草稿，但强制人工终审避免社区反噬</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>🔧 基础设施与模型</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">数据</th>
-<th align="left">核心洞察</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Tiny Aya</strong> — Local, open-weight AI designed for real-world languages<br><a href="https://www.producthunt.com/products/cohere-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/VEQ4W55QX5CCSE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">222 票 / 7 评论</td>
-<td align="left"><strong>Cohere 推出的轻量多语言模型</strong>，主打低资源语言支持与本地部署，填补 Llama 系列在东南亚/非洲语言的覆盖空白</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>🎨 创意与内容</h3>
-<p><em>今日无显著产品</em></p>
-<hr>
-<h2>市场信号</h2>
-<p><strong>垂直 Agent &gt; 通用工具</strong> 的趋势明确：今日 Top 2 均为场景深度绑定型产品（网红营销、组织流程），而非&quot;又一个 ChatGPT 套壳&quot;。<strong>浏览器作为 Agent 宿主</strong>成为新共识——Handle Extension 和 AgentPack 均选择 Chrome Extension 形态，利用网页 DOM 作为上下文降低集成成本。<strong>开源信号增强</strong>：Tiny Aya 以 222 票位列第三，rawfeed.social 主打开源社交协议，反映开发者对&quot;可审计、可 fork&quot;的偏好回升。但基础设施层仍显薄弱，仅 OneKey Agent Gateway 触及 MCP 等新兴协议，Agent 互操作性工具尚处早期。</p>
-<hr>
-<h2>值得试用</h2>
-<table>
-<thead>
-<tr>
-<th align="left">排名</th>
-<th align="left">产品</th>
-<th align="left">推荐理由</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>1</strong></td>
-<td align="left"><strong>Handle Extension</strong></td>
-<td align="left">产品-设计-开发协作的痛点真实存在，该工具将 Figma 式的视觉编辑与 AI 代码生成串联，实测可缩短&quot;设计评审 → 开发排期&quot;的循环周期</td>
-</tr>
-<tr>
-<td align="left"><strong>2</strong></td>
-<td align="left"><strong>Panorama</strong></td>
-<td align="left">组织网络分析（ONA）工具长期被微软 Viva/Qualtrics 垄断，AI 驱动的自动化流程发现有望降低中小企业使用门槛，适合远程/混合团队诊断协作效率</td>
-</tr>
-<tr>
-<td align="left"><strong>3</strong></td>
-<td align="left"><strong>Tiny Aya</strong></td>
-<td align="left">若业务涉及印尼语、斯瓦希里语等低资源语言，或需在边缘设备部署，这是目前少数经过 RLHF 优化的开源选项，Cohere 的商用许可条款也相对友好</td>
-</tr>
-</tbody></table>
-<hr>
-<p><em>数据来源：Product Hunt API | 采集时间：2026-04-07</em></p>
 <hr>
 <p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>

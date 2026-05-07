@@ -6,7 +6,130 @@
     <description>Tech Community AI Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-community-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 06 May 2026 04:28:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 04:28:34 +0000</lastBuildDate>
+    <item>
+      <title>Tech Community AI Digest 2026-05-07</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-07/ai-community-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-07/ai-community-en</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <description>Tech Community AI Digest 2026-05-07 Sources: Dev.to (30 articles) + Lobste.rs (10 stories) | Generated: 2026-05-07 00:19 UTC Tech Community AI Digest — May 7, 2026 1. Today&amp;#39;s Highlights The developer community is rapidly shifting from &amp;quot;vibe coding&amp;quot; to agentic engineering as a deliberate practice, with multiple authors arguing for structured workflows over ad-hoc AI assistance. MCP (Model Context Protocol) is gaining traction as a standardization layer—described as the &amp;quot;USB-C o...</description>
+      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-05-07</h1>
+<blockquote>
+<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (10 stories) | Generated: 2026-05-07 00:19 UTC</p>
+</blockquote>
+<hr>
+<h1>Tech Community AI Digest — May 7, 2026</h1>
+<h2>1. Today&#39;s Highlights</h2>
+<p>The developer community is rapidly shifting from &quot;vibe coding&quot; to <strong>agentic engineering</strong> as a deliberate practice, with multiple authors arguing for structured workflows over ad-hoc AI assistance. <strong>MCP (Model Context Protocol)</strong> is gaining traction as a standardization layer—described as the &quot;USB-C of AI tools&quot;—enabling interoperable tool use across frameworks. <strong>Claude Code</strong> remains a focal point, with developers sharing token-optimization strategies and analyzing Anthropic&#39;s usage statistics. There&#39;s growing concern about <strong>AI slop in production</strong>, prompting validation patterns and quality controls. Meanwhile, <strong>SEO is being reimagined</strong> around AI agent discoverability rather than traditional search ranking, and niche technical achievements—6502 assembly AI, sub-1500-byte LLM inference—continue to captivate the Lobste.rs crowd.</p>
+<hr>
+<h2>2. Dev.to Highlights</h2>
+<table>
+<thead>
+<tr>
+<th>Article</th>
+<th>Engagement</th>
+<th>Key Takeaway</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://dev.to/webdeveloperhyper/well-support-you-with-all-our-might-ai-avatar-v7-pose-capture-and-more-vs-code-and-chrome-3aab">🫡 We&#39;ll Support You with All Our Might (AI Avatar v7: Pose Capture and More)</a></strong> — Web Developer Hyper</td>
+<td>38 reactions, 11 comments</td>
+<td>Free VRM avatar animation with pose capture now available as VS Code extension and Chrome plugin, showing AI tooling expanding into creative/identity spaces for developers.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/aws/build-your-own-ai-butler-a-scheduled-agent-that-runs-itself-3dmk">Build Your Own AI Butler - A Scheduled Agent That Runs Itself!</a></strong> — Erik Hanchett</td>
+<td>30 reactions, 1 comment</td>
+<td>Practical AWS-based tutorial for autonomous scheduled agents that proactively gather information and execute workflows without human prompting.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/shrsv/why-agentic-engineering-must-replace-vibe-coding-339f">Why Agentic Engineering Must Replace Vibe Coding</a></strong> — Shrijith Venkatramana</td>
+<td>15 reactions, 0 comments</td>
+<td>Argues for systematic, measurable AI agent workflows over the unstructured &quot;vibe coding&quot; approach that dominates current practice.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/nandofm/ai-vs-non-ai-building-the-same-project-twice-4073">AI vs Non-AI: Building the Same Project Twice</a></strong> — Fernando Fornieles</td>
+<td>13 reactions, 4 comments</td>
+<td>Rare controlled experiment comparing AI-assisted and traditional development on identical hardware projects, with actionable insights on where AI helps and hinders.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/dumebii/how-to-stop-ai-slop-in-production-a-two-layer-validator-for-llm-output-2026-56fj">How to Stop AI Slop in Production: A Two-Layer Validator for LLM Output (2026)</a></strong> — Dumebi Okolo</td>
+<td>6 reactions, 0 comments</td>
+<td>Concrete architectural pattern—semantic + syntactic validation layers—to prevent embarrassing LLM artifacts like repetitive &quot;delve&quot; usage from reaching users.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/sahil_kat/cut-claude-code-token-usage-98-with-purpose-built-mcps-4h0c">Cut Claude Code Token Usage 98% with Purpose-Built MCPs</a></strong> — Sahil Kathpal</td>
+<td>1 reaction, 1 comment</td>
+<td>Demonstrates dramatic cost reduction by replacing generic file-context feeding with specialized Model Context Protocol servers for targeted information retrieval.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/newellpaul/i-programmed-an-ai-in-6502-assembly-it-worked-gpi">I Programmed an AI in 6502 Assembly - It Worked</a></strong> — paul newell</td>
+<td>10 reactions, 1 comment</td>
+<td>Claude Code skills enable retrocomputing AI experiments, bridging modern LLM capabilities with 1975-era 8-bit constraints.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/rushanksavant/why-mcp-is-the-usb-c-of-ai-tools-2gm3">Why MCP is the &quot;USB-C&quot; of AI Tools</a></strong> — Rushank Savant</td>
+<td>1 reaction, 0 comments</td>
+<td>MCP standardizes tool definitions across LangChain, OpenAI Functions, and emerging frameworks, reducing vendor lock-in and integration friction.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Lobste.rs Highlights</h2>
+<table>
+<thead>
+<tr>
+<th>Story</th>
+<th>Engagement</th>
+<th>Why It&#39;s Worth Reading</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://www.kmjn.org/notes/microgpt_futhark.html">Porting microgpt to Futhark, Part I</a></strong> (<a href="https://lobste.rs/s/uch4e0/porting_microgpt_futhark_part_i">discussion</a>)</td>
+<td>34 points, 2 comments</td>
+<td>Explores GPU-accelerated LLM inference through Futhark&#39;s data-parallel functional language—rare intersection of PL theory and practical AI optimization.</td>
+</tr>
+<tr>
+<td><strong><a href="https://openai.com/index/where-the-goblins-came-from/">Where the goblins came from</a></strong> (<a href="https://lobste.rs/s/hbmd5q/where_goblins_came_from">discussion</a>)</td>
+<td>14 points, 4 comments</td>
+<td>OpenAI&#39;s technical postmortem on emergent behavior in training, offering rare transparency into how unexpected model capabilities develop.</td>
+</tr>
+<tr>
+<td><strong><a href="https://github.com/kyegomez/OpenMythos">OpenMythos: A theoretical reconstruction of the Claude Mythos architecture</a></strong> (<a href="https://lobste.rs/s/zyjkpd/openmythos_theoretical_reconstruction">discussion</a>)</td>
+<td>9 points, 0 comments</td>
+<td>Community-driven reverse-engineering of Anthropic&#39;s agent architecture from research literature, valuable for understanding production-grade agent design.</td>
+</tr>
+<tr>
+<td><strong><a href="https://vale.rocks/posts/ai-terminology">AI Terminology is Poorly Defined and Oft Misused</a></strong> (<a href="https://lobste.rs/s/zleph2/ai_terminology_is_poorly_defined_oft">discussion</a>)</td>
+<td>4 points, 0 comments</td>
+<td>Precision critique of how &quot;agent,&quot; &quot;RAG,&quot; and &quot;reasoning&quot; have become semantically diluted, impeding clear engineering communication.</td>
+</tr>
+<tr>
+<td><strong><a href="https://github.com/rdmsr/sectorllm">sectorllm: llama2 inference in &lt; 1500 bytes of x86 assembly</a></strong> (<a href="https://lobste.rs/s/5ond6x/sectorllm_llama2_inference_1500_bytes">discussion</a>)</td>
+<td>2 points, 0 comments</td>
+<td>Extreme minimalism—boot-sector LLM inference demonstrating how much can be stripped from modern ML stacks while retaining core functionality.</td>
+</tr>
+<tr>
+<td><strong><a href="https://medium.com/blueprint-for-disaster/ai-summaries-are-a-threat-to-our-cognitive-sovereignty-917afc37692f">Do AI summaries hurt critical thinking?</a></strong> (<a href="https://lobste.rs/s/txbgo5/do_ai_summaries_hurt_critical_thinking">discussion</a>)</td>
+<td>2 points, 2 comments</td>
+<td>Raises underexplored concern about cognitive offloading: when developers habitually use AI summaries, do they lose depth of technical understanding?</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>4. Community Pulse</h2>
+<p>Both communities are navigating the <strong>post-vibe-coding transition</strong>—from treating AI as autocomplete to designing <strong>deliberate agent architectures</strong>. Dev.to emphasizes practical implementation: tutorials for scheduled agents, MCP integrations, token optimization, and production validation. Lobste.rs gravitates toward <strong>systems-level analysis</strong>, reverse-engineering commercial architectures, and extreme minimalism as intellectual exercise.</p>
+<p>A tension emerges between <strong>accessibility and rigor</strong>. Dev.to authors celebrate 72-hour transformations to &quot;Agent Architect&quot; roles, while Lobste.rs commenters scrutinize terminology precision and architectural claims. Shared concerns include <strong>cost control</strong> (Claude Code token usage, API routing optimization), <strong>quality assurance</strong> (slop prevention, monitoring beyond surface metrics), and <strong>vendor dependence</strong> (TokenMix&#39;s multi-provider gateway, MCP as interoperability layer).</p>
+<p>Notably, <strong>MCP is crossing the chasm</strong> from niche protocol to recognized standard, with implementations spanning C#, Python, and JavaScript stacks. The SEO-to-AI-discoverability shift suggests developers are reconceptualizing how their work finds audience—no longer PageRank-optimized but agent-ingestible. Security consciousness is rising too, with pen-testing acceleration and exploit analysis (Mythos) treated as urgent rather than theoretical.</p>
+<hr>
+<h2>5. Worth Reading</h2>
+<p><strong><a href="https://dev.to/dumebii/how-to-stop-ai-slop-in-production-a-two-layer-validator-for-llm-output-2026-56fj">How to Stop AI Slop in Production: A Two-Layer Validator for LLM Output (2026)</a></strong> — Dumebi Okolo</p>
+<p>Most immediately actionable piece this week. Okolo moves beyond complaining about LLM artifacts to a concrete, implementable architecture: semantic validation (does this mean what it should?) plus syntactic validation (does it match expected patterns?). The &quot;delve&quot; example is relatable, and the pattern generalizes to any production LLM integration.</p>
+<p><strong><a href="https://www.kmjn.org/notes/microgpt_futhark.html">Porting microgpt to Futhark, Part I</a></strong> — kmjn.org</p>
+<p>For developers interested in where AI performance optimization meets programming language design. Futhark&#39;s data-parallel approach to GPU computation offers a fundamentally different angle than the CUDA-heavy mainstream, and this write-up is unusually accessible for the PL-theory-curious.</p>
+<p><strong><a href="https://dev.to/nandofm/ai-vs-non-ai-building-the-same-project-twice-4073">AI vs Non-AI: Building the Same Project Twice</a></strong> — Fernando Fornieles</p>
+<p>Controlled experiments in software engineering are rare; controlled experiments comparing AI-assisted and traditional development on identical projects are nearly nonexistent. Fornieles&#39; weather station build provides empirical grounding for decisions about when AI assistance genuinely accelerates work versus when it introduces friction.</p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Tech Community AI Digest 2026-05-06</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-06/ai-community-en</link>
@@ -3758,139 +3881,6 @@ An antidote to the productivity-obsessed discourse. Boykis argues for slowness, 
 <td>3</td>
 <td><a href="https://tombedor.dev/approaches-to-agent-memory/"><strong>The Design of AI Memory Systems</strong></a> (Lobste.rs)</td>
 <td>Surveys vector stores, knowledge graphs, and hybrid approaches with enough technical detail to inform implementation decisions. As agents move from demos to production, memory architecture is becoming the critical differentiator—this is the clearest overview available.</td>
-</tr>
-</tbody></table>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Tech Community AI Digest 2026-04-07</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-07/ai-community-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-07/ai-community-en</guid>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Tech Community AI Digest 2026-04-07 Sources: Dev.to (30 articles) + Lobste.rs (10 stories) | Generated: 2026-04-07 00:12 UTC Tech Community AI Digest — April 7, 2026 1. Today&amp;#39;s Highlights The AI discourse today centers heavily on agent infrastructure and safety guardrails, with multiple deep dives into Claude Code permissions, MCP (Model Context Protocol) adoption, and observability patterns for production AI systems. Vibecoding—AI-assisted rapid development—continues to generate both enthus...</description>
-      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-04-07</h1>
-<blockquote>
-<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (10 stories) | Generated: 2026-04-07 00:12 UTC</p>
-</blockquote>
-<hr>
-<h1>Tech Community AI Digest — April 7, 2026</h1>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>The AI discourse today centers heavily on <strong>agent infrastructure and safety guardrails</strong>, with multiple deep dives into Claude Code permissions, MCP (Model Context Protocol) adoption, and observability patterns for production AI systems. <strong>Vibecoding</strong>—AI-assisted rapid development—continues to generate both enthusiasm and critical pushback, particularly around code quality and disclosure norms. Security concerns are escalating, from PII tokenization middleware to Trojan horse attacks via seemingly innocent open-source tools. Notably, the community is actively building solutions: linting tools for agent configs, permission patterns, and cost-control architectures. The tension between &quot;move fast&quot; and &quot;lock down&quot; defines today&#39;s developer mindset.</p>
-<hr>
-<h2>2. Dev.to Highlights</h2>
-<table>
-<thead>
-<tr>
-<th>Article</th>
-<th>Engagement</th>
-<th>Key Takeaway</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://dev.to/copilotkit/google-maps-for-codebases-paste-a-github-url-ask-anything-3hk8">Google Maps for Codebases: Paste a GitHub URL, Ask Anything</a></strong> — Anmol Baranwal</td>
-<td>75 reactions, 8 comments</td>
-<td>CopilotKit enables instant codebase navigation via natural language, eliminating the &quot;300 files, where do I start?&quot; onboarding pain.</td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/syedahmershah/the-enemy-in-your-terminal-why-openclaw-was-the-perfect-trojan-horse-4efc">The Enemy in Your Terminal: Why OpenClaw was the Perfect Trojan Horse</a></strong> — Syed Ahmer Shah</td>
-<td>30 reactions, 0 comments</td>
-<td>A stark reminder that AI/ML tooling in <code>npm install</code> packages can be the attack vector you never saw coming.</td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/ayushgupta/building-a-production-ready-composable-ai-agent-system-with-copilotkit-and-langgraph-141f">Building a Production-Ready Composable AI Agent System with CopilotKit and LangGraph</a></strong> — Ayush Gupta</td>
-<td>14 reactions, 3 comments</td>
-<td>Practical architecture for agents that actually coordinate rather than collide, using LangGraph&#39;s state machines.</td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/gde/observability-at-scale-mastering-adk-callbacks-for-cost-latency-and-auditability-1mo5">Observability at Scale: Mastering ADK Callbacks for Cost, Latency, and Auditability</a></strong> — Connie Leung</td>
-<td>12 reactions, 1 comment</td>
-<td>Callback patterns for Google&#39;s Agent Development Kit that prevent &quot;surprise $10K API bills&quot; in production.</td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/klement_gunndu/lock-down-claude-code-with-5-permission-patterns-4gcn">Lock Down Claude Code With 5 Permission Patterns</a></strong> — klement Gunndu</td>
-<td>10 reactions, 0 comments</td>
-<td>Essential hardening for Claude Code&#39;s default permissive posture—file access, Bash, MCP tools, and destructive git ops.</td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/vamshidhar_reddy_392c2302/i-built-a-linter-that-proves-74-of-your-agentsmd-is-wasting-your-ai-agents-time-46an">I built a linter that proves 74% of your AGENTS.md is wasting your AI agent&#39;s time</a></strong> — vamshidhar reddy</td>
-<td>4 reactions, 2 comments</td>
-<td>Quantified evidence that bloated context files hurt performance, with a tool to fix it.</td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/yemrealtanay/how-i-built-a-pii-tokenization-middleware-to-keep-sensitive-data-out-of-llm-apis-18po">How I Built a PII Tokenization Middleware to Keep Sensitive Data Out of LLM APIs</a></strong> — Yunus Emre Altanay</td>
-<td>1 reaction, 1 comment</td>
-<td>A Go-based approach to shipping customer data to LLMs without shipping customer data to LLMs.</td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/cwilkins507/llm-gateway-architecture-when-you-need-one-and-how-to-get-started-1817">LLM Gateway Architecture: When You Need One and How to Get Started</a></strong> — Collin Wilkins</td>
-<td>1 reaction, 0 comments</td>
-<td>Three deployment patterns for model routing, rate limiting, and cost control at scale.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Lobste.rs Highlights</h2>
-<table>
-<thead>
-<tr>
-<th>Story</th>
-<th>Engagement</th>
-<th>Why Read</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://gist.github.com/MostAwesomeDude/560185c24f959f6fec229739cb5a6735">Activating Two Trap Cards at Once, or: A Gentle Response to the Popularity of Vibecoding</a></strong> — <a href="https://lobste.rs/s/8lbmm8/activating_two_trap_cards_at_once_gentle">Discussion</a></td>
-<td>30 points, 10 comments</td>
-<td>A measured critique of vibecoding&#39;s hidden costs—technical debt, skill atrophy, and the &quot;it works, ship it&quot; culture—from a PLT perspective.</td>
-</tr>
-<tr>
-<td><strong><a href="https://gazagnaire.org/blog/2026-04-02-cascade.html">A CSS Engine in OCaml</a></strong> — <a href="https://lobste.rs/s/6rq90r/css_engine_ocaml">Discussion</a></td>
-<td>18 points, 1 comment</td>
-<td>Rare systems programming content: building a standards-compliant CSS engine with strong typing and formal semantics.</td>
-</tr>
-<tr>
-<td><strong><a href="https://arxiv.org/abs/2604.01193">Embarrassingly Simple Self-Distillation Improves Code Generation</a></strong> — <a href="https://lobste.rs/s/bor4wy/embarrassingly_simple_self">Discussion</a></td>
-<td>7 points, 4 comments</td>
-<td>Counterintuitive result: models teaching themselves beats complex RL pipelines for code quality.</td>
-</tr>
-<tr>
-<td><strong><a href="https://tombedor.dev/approaches-to-agent-memory/">The Design of AI Memory Systems</a></strong> — <a href="https://lobste.rs/s/8iqxqc/design_ai_memory_systems">Discussion</a></td>
-<td>7 points, 0 comments</td>
-<td>Taxonomy of memory architectures for agents—working, episodic, semantic—and when each pattern fits.</td>
-</tr>
-<tr>
-<td><strong><a href="https://anil.recoil.org/notes/opam-ai-disclosure">A Proposal for Voluntary AI Disclosure in OCaml Code</a></strong> — <a href="https://lobste.rs/s/fqtput/proposal_for_voluntary_ai_disclosure">Discussion</a></td>
-<td>4 points, 0 comments</td>
-<td>Community-driven attempt to establish norms for flagging AI-generated code in package ecosystems.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>4. Community Pulse</h2>
-<p>Two platforms, one conversation: <strong>how do we ship AI-assisted software responsibly?</strong> Dev.to&#39;s practitioners are building guardrails—permission patterns, linters, tokenization middleware, cost observability—while Lobste.rs debates the deeper implications of vibecoding on craft and maintainability. </p>
-<p><strong>Practical concerns dominate:</strong> Claude Code&#39;s default permissiveness is generating a mini-industry of hardening guides; MCP&#39;s rapid standardization (18 months from open-source to &quot;de facto&quot;) has developers scrambling to understand auth and security implications. The &quot;surprise bill&quot; fear—whether from unbounded API calls or context window overflow—drives interest in gateways, callbacks, and local model migration (see the M4 Mac Mini deployment story).</p>
-<p><strong>Emerging patterns:</strong> AGENTS.md/CLAUDE.md optimization as performance engineering; Git worktrees for parallel AI batch processing; PII tokenization as infrastructure requirement. There&#39;s also philosophical friction—OCaml&#39;s community proposing voluntary AI disclosure while others question whether &quot;vibe checks&quot; can substitute for actual verification. The through-line: AI tooling has moved from &quot;will it work?&quot; to &quot;how do we productionize without regret?&quot;</p>
-<hr>
-<h2>5. Worth Reading</h2>
-<table>
-<thead>
-<tr>
-<th>Pick</th>
-<th>Rationale</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://gist.github.com/MostAwesomeDude/560185c24f959f6fec229739cb5a6735">Activating Two Trap Cards at Once</a></strong> (Lobste.rs)</td>
-<td>The most intellectually honest critique of vibecoding yet—acknowledges its power while naming the long-term costs to individual skill and collective code quality. Essential for anyone making build-vs-buy decisions on AI tooling.</td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/copilotkit/google-maps-for-codebases-paste-a-github-url-ask-anything-3hk8">Google Maps for Codebases</a></strong> (Dev.to)</td>
-<td>Highest engagement for a reason—solves a universally felt pain point with a concrete implementation. The &quot;paste URL, ask anything&quot; interaction model may become standard.</td>
-</tr>
-<tr>
-<td><strong><a href="https://tombedor.dev/approaches-to-agent-memory/">The Design of AI Memory Systems</a></strong> (Lobste.rs)</td>
-<td>Foundational reading as agents proliferate. Clear framework for choosing between RAG, conversation history, and structured memory—prevents architectural thrashing as requirements grow.</td>
 </tr>
 </tbody></table>
 <hr>
