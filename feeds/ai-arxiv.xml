@@ -6,7 +6,165 @@
     <description>ArXiv AI 研究日报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-arxiv.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 07 May 2026 04:28:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 04:11:28 +0000</lastBuildDate>
+    <item>
+      <title>ArXiv AI 研究日报 2026-05-08</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-08/ai-arxiv</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-08/ai-arxiv</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <description>ArXiv AI 研究日报 2026-05-08 数据来源: ArXiv (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-05-08 00:20 UTC 好的，作为AI研究分析师，以下是基于您提供的2026-05-08 ArXiv论文列表生成的《ArXiv AI 研究日报》。 ArXiv AI 研究日报 | 2026-05-08 今日速览 今日投稿中，LLM智能体与系统自主构建能力成为最大亮点，从芯片设计到世界模型，智能体正从“对话”走向“创造”。另一方面，对模型内部机制的探究进一步深化，包括语法性表征、上下文学习的几何基础以及序列模型的“不可能三角”理论。此外，扩散模型中的异常Token分析、模型幻觉的动态系统检测等新角度为模型可解释性和可靠性提供了新的切入点。 重点论文 🧠 大语言模型（架构、训练、对齐、评估） Implicit Representations of Grammaticality in Language Models 作者: Yingshan Susan Wang et al. 一句话: 通过探针实验发现，语言模型内部存...</description>
+      <content:encoded><![CDATA[<h1>ArXiv AI 研究日报 2026-05-08</h1>
+<blockquote>
+<p>数据来源: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-05-08 00:20 UTC</p>
+</blockquote>
+<hr>
+<p>好的，作为AI研究分析师，以下是基于您提供的2026-05-08 ArXiv论文列表生成的《ArXiv AI 研究日报》。</p>
+<hr>
+<h3><strong>ArXiv AI 研究日报 | 2026-05-08</strong></h3>
+<h4><strong>今日速览</strong></h4>
+<p>今日投稿中，LLM智能体与系统自主构建能力成为最大亮点，从芯片设计到世界模型，智能体正从“对话”走向“创造”。另一方面，对模型内部机制的探究进一步深化，包括语法性表征、上下文学习的几何基础以及序列模型的“不可能三角”理论。此外，扩散模型中的异常Token分析、模型幻觉的动态系统检测等新角度为模型可解释性和可靠性提供了新的切入点。</p>
+<hr>
+<h4><strong>重点论文</strong></h4>
+<h5>🧠 <strong>大语言模型（架构、训练、对齐、评估）</strong></h5>
+<ol>
+<li><p><strong>Implicit Representations of Grammaticality in Language Models</strong></p>
+<ul>
+<li><strong>作者:</strong> Yingshan Susan Wang et al.</li>
+<li><strong>一句话:</strong> 通过探针实验发现，语言模型内部存在与词语似然度区分的、内隐的语法性表征，这挑战了“语法性即似然度”的简化观点，对理解模型的语言能力有重要意义。</li>
+<li><strong>链接:</strong> <a href="http://arxiv.org/abs/2605.05197v1">http://arxiv.org/abs/2605.05197v1</a></li>
+</ul>
+</li>
+<li><p><strong>The First Token Knows: Single-Decode Confidence for Hallucination Detection</strong></p>
+<ul>
+<li><strong>作者:</strong> Mina Gabriel</li>
+<li><strong>一句话:</strong> 提出一种极低成本的幻觉检测方法，通过分析解码出第一个token时的置信度来预测整个回答是否可能产生幻觉，无需多次采样，大幅提升了效率。</li>
+<li><strong>链接:</strong> <a href="http://arxiv.org/abs/2605.05166v1">http://arxiv.org/abs/2605.05166v1</a></li>
+</ul>
+</li>
+<li><p><strong>Low-Cost Black-Box Detection of LLM Hallucinations via Dynamical System Prediction</strong></p>
+<ul>
+<li><strong>作者:</strong> Dan Wilson, Mohamed Akrout</li>
+<li><strong>一句话:</strong> 将LLM的生成过程视为动态系统，通过预测其生成的演化轨迹来“黑盒”检测幻觉，提出了一种新颖且计算开销低的替代方案。</li>
+<li><strong>链接:</strong> <a href="http://arxiv.org/abs/2605.05134v1">http://arxiv.org/abs/2605.05134v1</a></li>
+</ul>
+</li>
+<li><p><strong>The Impossibility Triangle of Long-Context Modeling</strong></p>
+<ul>
+<li><strong>作者:</strong> Yan Zhou</li>
+<li><strong>一句话:</strong> 理论证明了长序列模型中存在一个“不可能三角”：计算效率、状态紧凑性和历史记忆能力三者无法同时实现，为未来模型架构设计提供了基础性理论指导。</li>
+<li><strong>链接:</strong> <a href="http://arxiv.org/abs/2605.05066v1">http://arxiv.org/abs/2605.05066v1</a></li>
+</ul>
+</li>
+<li><p><strong>Continual Knowledge Updating in LLM Systems: Learning Through Multi-Timescale Memory Dynamics</strong></p>
+<ul>
+<li><strong>作者:</strong> Andreas Pattichis, Constantine Dovrolis</li>
+<li><strong>一句话:</strong> 受生物记忆启发，提出一种基于多时间尺度记忆动态的持续知识更新框架，让LLM系统在不重训的前提下，从外部环境中持续学习和适应新知识。</li>
+<li><strong>链接:</strong> <a href="http://arxiv.org/abs/2605.05097v1">http://arxiv.org/abs/2605.05097v1</a></li>
+</ul>
+</li>
+</ol>
+<h5>🤖 <strong>智能体与推理（规划、工具使用、多智能体、思维链）</strong></h5>
+<ol>
+<li><p><strong>Executable World Models for ARC-AGI-3 in the Era of Coding Agents</strong></p>
+<ul>
+<li><strong>作者:</strong> Sergey Rodionov</li>
+<li><strong>一句话:</strong> 提出一个用于解决ARC-AGI-3挑战的编码智能体系统，该智能体通过维护和验证一个可执行的Python世界模型来规划和推理，代表了向通用智能体迈出的重要一步。</li>
+<li><strong>链接:</strong> <a href="http://arxiv.org/abs/2605.05138v1">http://arxiv.org/abs/2605.05138v1</a></li>
+</ul>
+</li>
+<li><p><strong>Design Conductor 2.0: An agent builds a TurboQuant inference accelerator in 80 hours</strong></p>
+<ul>
+<li><strong>作者:</strong> The Verkor Team et al.</li>
+<li><strong>一句话:</strong> 展示了LLM智能体在硬件设计领域的惊人能力，使其在80小时内自主设计出了一个神经网络推理加速器，标志着AI从辅助设计向自主工程的关键转变。</li>
+<li><strong>链接:</strong> <a href="http://arxiv.org/abs/2605.05170v1">http://arxiv.org/abs/2605.05170v1</a></li>
+</ul>
+</li>
+<li><p><strong>LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents</strong></p>
+<ul>
+<li><strong>作者:</strong> Yijun Lu et al.</li>
+<li><strong>一句话:</strong> 针对长程搜索智能体面临的上下文爆炸问题，提出“弹性上下文编排”策略，智能地管理工作记忆，在降低成本和错误的同时保持对复杂任务的追踪能力。</li>
+<li><strong>链接:</strong> <a href="http://arxiv.org/abs/2605.05191v1">http://arxiv.org/abs/2605.05191v1</a></li>
+</ul>
+</li>
+</ol>
+<h5>🔧 <strong>方法与框架（新技术、基准测试、效率优化）</strong></h5>
+<ol>
+<li><p><strong>Taming Outlier Tokens in Diffusion Transformers</strong></p>
+<ul>
+<li><strong>作者:</strong> Xiaoyu Wu et al.</li>
+<li><strong>一句话:</strong> 系统研究了扩散Transformer中的“异常Token”问题（即高范数、低信息量的Token），并提出了有效的处理方法，对提升图像生成质量和模型稳定性有重要价值。</li>
+<li><strong>链接:</strong> <a href="http://arxiv.org/abs/2605.05206v1">http://arxiv.org/abs/2605.05206v1</a></li>
+</ul>
+</li>
+<li><p><strong>Grokability in five inequalities</strong></p>
+<ul>
+<li><strong>作者:</strong> Paata Ivanisvili et al.</li>
+<li><strong>一句话:</strong> 报告了与Grok大模型协作发现的五个数学不等式，展示了“人机协作”在理论数学发现中的潜力。</li>
+<li><strong>链接:</strong> <a href="http://arxiv.org/abs/2605.05193v1">http://arxiv.org/abs/2605.05193v1</a></li>
+</ul>
+</li>
+<li><p><strong>Estimating the expected output of wide random MLPs more efficiently than sampling</strong></p>
+<ul>
+<li><strong>作者:</strong> Wilson Wu et al.</li>
+<li><strong>一句话:</strong> 提出一种比传统采样更高效的方法来估计随机初始化MLP在给定输入下的期望输出，为理解和分析神经网络初始化及训练动态提供了新工具。</li>
+<li><strong>链接:</strong> <a href="http://arxiv.org/abs/2605.05179v1">http://arxiv.org/abs/2605.05179v1</a></li>
+</ul>
+</li>
+</ol>
+<h5>📊 <strong>应用（垂直领域、多模态、代码生成）</strong></h5>
+<ol>
+<li><p><strong>Aes3D: Aesthetic Assessment in 3D Gaussian Splatting</strong></p>
+<ul>
+<li><strong>作者:</strong> Chuanzhi Xu et al.</li>
+<li><strong>一句话:</strong> 将美学评估引入3D高斯泼溅领域，为量化3D场景的视觉吸引力提供了首个基准和方法，对沉浸式媒体和数字内容创作有重要应用价值。</li>
+<li><strong>链接:</strong> <a href="http://arxiv.org/abs/2605.05155v1">http://arxiv.org/abs/2605.05155v1</a></li>
+</ul>
+</li>
+<li><p><strong>When Life Gives You BC, Make Q-functions: Extracting Q-values from Behavior Cloning for On-Robot Reinforcement Learning</strong></p>
+<ul>
+<li><strong>作者:</strong> Lakshita Dodeja et al.</li>
+<li><strong>一句话:</strong> 提出一种将行为克隆策略转化为可用于在线强化学习的Q函数的方法，实现了从纯模仿到自我改进的无缝衔接，解决了机器人学习中的一个关键瓶颈。</li>
+<li><strong>链接:</strong> <a href="http://arxiv.org/abs/2605.05172v1">http://arxiv.org/abs/2605.05172v1</a></li>
+</ul>
+</li>
+<li><p><strong>LineRides: Line-Guided Reinforcement Learning for Bicycle Robot Stunts</strong></p>
+<ul>
+<li><strong>作者:</strong> Seungeun Rho et al.</li>
+<li><strong>一句话:</strong> 设计了一种创新的“线引导”强化学习框架，使自行车机器人能够学习完成极限特技动作，无需参考动作数据，为机器人敏捷控制开辟了新方向。</li>
+<li><strong>链接:</strong> <a href="http://arxiv.org/abs/2605.05110v1">http://arxiv.org/abs/2605.05110v1</a></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h4><strong>研究趋势信号</strong></h4>
+<ul>
+<li><strong>从“用”到“造”的智能体：</strong> 今日最显著的信号是智能体不再局限于问答和搜索，而是转向执行复杂的创作和建造任务。<em>Design Conductor 2.0</em> 和 <em>Executable World Models</em> 等研究预示了AI作为“数字工程师”和“数字科学家”的潜力。</li>
+<li><strong>探索模型能力的理论边界：</strong> 除了追求更高的性能，越来越多的研究开始从理论层面探讨模型的根本限制（如 <em>The Impossibility Triangle</em>）和内在机制（如 <em>Implicit Representations of Grammaticality</em>），显示出领域正走向成熟的科学化。</li>
+<li><strong>“黑盒”诊断与康复：</strong> 在降低模型推理和调试成本方面，出现了基于“第一Token置信度”和“动态系统预测”的幻觉检测新思路。同时，<em>Manifold Steering</em> 等研究开始探索通过干预模型内部几何结构来直接改变其行为，为模型可解释性和可控性提供了新抓手。</li>
+</ul>
+<hr>
+<h4><strong>值得精读</strong></h4>
+<ol>
+<li><p><strong>Design Conductor 2.0</strong> (链接: <a href="http://arxiv.org/abs/2605.05170v1">http://arxiv.org/abs/2605.05170v1</a>)</p>
+<ul>
+<li><strong>理由:</strong> 这篇论文不仅展示了AI的前沿能力，更可能定义未来的工作模式。它从实践层面证明了LLM智能体作为“自主工程师”的可行性，对于理解Agent技术的潜力和未来发展方向至关重要。</li>
+</ul>
+</li>
+<li><p><strong>The Impossibility Triangle of Long-Context Modeling</strong> (链接: <a href="http://arxiv.org/abs/2605.05066v1">http://arxiv.org/abs/2605.05066v1</a>)</p>
+<ul>
+<li><strong>理由:</strong> 这篇理论性论文为整个长上下文模型领域提供了一个清晰的理论框架。无论你是研究Transformer、状态空间模型还是其他架构，理解这个“不可能三角”都将帮助你更理性地评估和设计未来的长序列模型。</li>
+</ul>
+</li>
+<li><p><strong>Understanding In-Context Learning for Nonlinear Regression with Transformers: Attention as Featurizer</strong> (链接: <a href="http://arxiv.org/abs/2605.05176v1">http://arxiv.org/abs/2605.05176v1</a>)</p>
+<ul>
+<li><strong>理由:</strong> 本文为上下文学习这一核心能力提供了坚实的理论解释，将注意力机制重新理解为“特征化器”。这对于深入理解Transformer强大能力的基础机制、指导未来模型设计具有极高的学术价值。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>ArXiv AI 研究日报 2026-05-07</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-07/ai-arxiv</link>

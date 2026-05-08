@@ -6,7 +6,266 @@
     <description>AI Open Source Trends</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-trending-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 07 May 2026 04:28:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 04:11:28 +0000</lastBuildDate>
+    <item>
+      <title>AI Open Source Trends 2026-05-08</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-08/ai-trending-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-08/ai-trending-en</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <description>AI Open Source Trends 2026-05-08 Sources: GitHub Trending + GitHub Search API | Generated: 2026-05-08 00:20 UTC AI Open Source Trends Report — 2026-05-08 1. Today&amp;#39;s Highlights Today&amp;#39;s GitHub trending reveals explosive momentum around AI coding agents and their surrounding infrastructure, with addyosmani/agent-skills (+3,062 stars) and Hmbown/DeepSeek-TUI (+5,799 stars) leading a wave of tools that enhance or replace traditional IDE experiences. A striking pattern is the emergence of &amp;quo...</description>
+      <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-05-08</h1>
+<blockquote>
+<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-05-08 00:20 UTC</p>
+</blockquote>
+<hr>
+<h1>AI Open Source Trends Report — 2026-05-08</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>Today&#39;s GitHub trending reveals explosive momentum around <strong>AI coding agents and their surrounding infrastructure</strong>, with <code>addyosmani/agent-skills</code> (+3,062 stars) and <code>Hmbown/DeepSeek-TUI</code> (+5,799 stars) leading a wave of tools that enhance or replace traditional IDE experiences. A striking pattern is the emergence of <strong>&quot;agent skills&quot; as a design pattern</strong>—standardized, reusable capabilities that AI agents can invoke, moving beyond simple prompt engineering to production-grade agent engineering. The RAG landscape is also evolving rapidly with <code>VectifyAI/PageIndex</code> introducing &quot;vectorless, reasoning-based RAG,&quot; suggesting a potential paradigm shift away from embedding-dependent retrieval. Meanwhile, <code>decolua/9router</code> (+149 today) reflects growing demand for <strong>cost optimization infrastructure</strong> as developers seek to route between free and paid LLM providers to manage token costs.</p>
+<hr>
+<h2>2. Top Projects by Category</h2>
+<h3>🔧 AI Infrastructure</h3>
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>Stars</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/ollama/ollama">ollama/ollama</a></td>
+<td>⭐170,956</td>
+<td>Local LLM runtime now supporting Kimi-K2.5, GLM-5, MiniMax, DeepSeek, and gpt-oss—continues to dominate local inference with expanding model ecosystem</td>
+</tr>
+<tr>
+<td><a href="https://github.com/vllm-project/vllm">vllm-project/vllm</a></td>
+<td>⭐79,321</td>
+<td>High-throughput inference engine; critical infrastructure for production LLM serving with PagedAttention optimization</td>
+</tr>
+<tr>
+<td><a href="https://github.com/huggingface/transformers">huggingface/transformers</a></td>
+<td>⭐160,366</td>
+<td>The canonical model-definition framework; remains the backbone for research-to-production pipelines across modalities</td>
+</tr>
+<tr>
+<td><a href="https://github.com/decolua/9router">decolua/9router</a></td>
+<td>⭐149 today</td>
+<td>Free AI coding router with 40+ providers, auto-fallback, and 40% token reduction—addresses urgent cost pressures in agent workflows</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Mirrowel/LLM-API-Key-Proxy">Mirrowel/LLM-API-Key-Proxy</a></td>
+<td>⭐475</td>
+<td>Universal gateway with multi-provider translation and load-balancing; infrastructure for resilient multi-LLM deployments</td>
+</tr>
+<tr>
+<td><a href="https://github.com/raw-labs/mxcp">raw-labs/mxcp</a></td>
+<td>⭐66</td>
+<td>Enterprise data-to-AI infrastructure via Model eXecution + Context Protocol; emerging enterprise pattern</td>
+</tr>
+</tbody></table>
+<h3>🤖 AI Agents / Workflows</h3>
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>Stars</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/Hmbown/DeepSeek-TUI">Hmbown/DeepSeek-TUI</a></td>
+<td>⭐5,799 today</td>
+<td>Terminal-based coding agent for DeepSeek models—signals TUI resurgence as alternative to GUI-heavy IDEs</td>
+</tr>
+<tr>
+<td><a href="https://github.com/addyosmani/agent-skills">addyosmani/agent-skills</a></td>
+<td>⭐3,062 today</td>
+<td>Production-grade engineering skills for AI coding agents; defining the &quot;skills&quot; abstraction layer</td>
+</tr>
+<tr>
+<td><a href="https://github.com/NousResearch/hermes-agent">NousResearch/hermes-agent</a></td>
+<td>⭐137,537</td>
+<td>&quot;The agent that grows with you&quot;—Nous Research&#39;s evolving agent framework with strong community traction</td>
+</tr>
+<tr>
+<td><a href="https://github.com/ruvnet/ruflo">ruvnet/ruflo</a></td>
+<td>⭐46,152</td>
+<td>Leading Claude-centric orchestration platform with multi-agent swarms and self-learning intelligence</td>
+</tr>
+<tr>
+<td><a href="https://github.com/zhayujie/CowAgent">CowAgent</a></td>
+<td>⭐44,149</td>
+<td>Lightweight Chinese super-assistant surpassing OpenClaw; multi-platform integration (WeChat, Lark, DingTalk)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/OpenHands/OpenHands">OpenHands/OpenHands</a></td>
+<td>⭐72,844</td>
+<td>AI-driven development environment; mature open alternative to closed coding agents</td>
+</tr>
+<tr>
+<td><a href="https://github.com/activepieces/activepieces">activepieces/activepieces</a></td>
+<td>⭐22,095</td>
+<td>~400 MCP servers for AI agents; workflow automation with massive connector ecosystem</td>
+</tr>
+<tr>
+<td><a href="https://github.com/trycua/cua">trycua/cua</a></td>
+<td>⭐15,734</td>
+<td>Computer-Use Agent infrastructure with sandboxed desktop control across macOS/Linux/Windows</td>
+</tr>
+</tbody></table>
+<h3>📦 AI Applications</h3>
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>Stars</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/LearningCircuit/local-deep-research">LearningCircuit/local-deep-research</a></td>
+<td>⭐559 today</td>
+<td>Achieves ~95% SimpleQA with Qwen3.6-27B on consumer GPU; local encrypted research with 10+ search engines</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anthropics/financial-services">anthropics/financial-services</a></td>
+<td>⭐1,343 today</td>
+<td>Anthropic&#39;s official financial services toolkit—vertical domain expansion by major lab</td>
+</tr>
+<tr>
+<td><a href="https://github.com/docusealco/docuseal">docusealco/docuseal</a></td>
+<td>⭐900 today</td>
+<td>Open DocuSign alternative; AI-enhanced document workflow with digital signatures</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Augani/openreel-video">Augani/openreel-video</a></td>
+<td>⭐233 today</td>
+<td>Browser-based video editor (CapCut alternative); 100% client-side, no cloud—privacy-first creative AI</td>
+</tr>
+<tr>
+<td><a href="https://github.com/OpenBB-finance/OpenBB">OpenBB-finance/OpenBB</a></td>
+<td>⭐67,152</td>
+<td>Financial data platform explicitly built for AI agents; quant-finance infrastructure</td>
+</tr>
+</tbody></table>
+<h3>🧠 LLMs / Training</h3>
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>Stars</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/jingyaogong/minimind">jingyaogong/minimind</a></td>
+<td>⭐49,158</td>
+<td>Train 64M-parameter LLM from scratch in 2 hours—democratizing LLM training education</td>
+</tr>
+<tr>
+<td><a href="https://github.com/PriorLabs/TabPFN">PriorLabs/TabPFN</a></td>
+<td>⭐230 today</td>
+<td>Foundation model for tabular data; extends LLM paradigm to structured data domains</td>
+</tr>
+<tr>
+<td><a href="https://github.com/hiyouga/LlamaFactory">hiyouga/LlamaFactory</a></td>
+<td>⭐71,015</td>
+<td>Unified fine-tuning for 100+ LLMs/VLMs; production standard for efficient adaptation</td>
+</tr>
+<tr>
+<td><a href="https://github.com/rasbt/LLMs-from-scratch">rasbt/LLMs-from-scratch</a></td>
+<td>⭐92,119</td>
+<td>Educational gold standard for understanding transformer internals via PyTorch implementation</td>
+</tr>
+<tr>
+<td><a href="https://github.com/0xPlaygrounds/rig">0xPlaygrounds/rig</a></td>
+<td>⭐7,181</td>
+<td>Modular Rust framework for LLM applications; systems-language approach to agent building</td>
+</tr>
+<tr>
+<td><a href="https://github.com/testtimescaling/testtimescaling.github.io">testtimescaling/testtimescaling.github.io</a></td>
+<td>⭐95</td>
+<td>Survey repository on test-time scaling—emerging research direction for inference-time compute optimization</td>
+</tr>
+</tbody></table>
+<h3>🔍 RAG / Knowledge</h3>
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>Stars</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/VectifyAI/PageIndex">VectifyAI/PageIndex</a></td>
+<td>⭐943 today / ⭐29,528 total</td>
+<td><strong>Vectorless, reasoning-based RAG</strong>—potential paradigm shift away from embedding-dependent retrieval</td>
+</tr>
+<tr>
+<td><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a></td>
+<td>⭐79,915</td>
+<td>Leading open-source RAG engine fusing retrieval with agent capabilities</td>
+</tr>
+<tr>
+<td><a href="https://github.com/mem0ai/mem0">mem0ai/mem0</a></td>
+<td>⭐55,018</td>
+<td>Universal memory layer for AI agents; persistent context across sessions</td>
+</tr>
+<tr>
+<td><a href="https://github.com/topoteretes/cognee">cognee/cognee</a></td>
+<td>⭐17,099</td>
+<td>Memory control plane for agents in 6 lines—radical simplification of agent memory</td>
+</tr>
+<tr>
+<td><a href="https://github.com/memvid/memvid">memvid/memvid</a></td>
+<td>⭐15,362</td>
+<td>Serverless single-file memory layer replacing complex RAG pipelines</td>
+</tr>
+<tr>
+<td><a href="https://github.com/yichuan-w/LEANN">yichuan-w/LEANN</a></td>
+<td>⭐10,969</td>
+<td>97% storage savings for private on-device RAG; efficiency frontier for personal AI</td>
+</tr>
+<tr>
+<td><a href="https://github.com/zilliztech/claude-context">zilliztech/claude-context</a></td>
+<td>⭐10,851</td>
+<td>Code search MCP for Claude Code; entire codebase as context</td>
+</tr>
+<tr>
+<td><a href="https://github.com/safishamsi/graphify">safishamsi/graphify</a></td>
+<td>⭐44,458</td>
+<td>Knowledge graph construction for coding assistants—unifying code, schema, infrastructure</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Trend Signal Analysis</h2>
+<p><strong>Explosive attention is concentrating on &quot;agent infrastructure&quot;—not the agents themselves, but the tooling that makes them reliable, cost-effective, and composable.</strong> The +5,799 star velocity of <code>DeepSeek-TUI</code> and +3,062 of <code>agent-skills</code> reveals developers are moving from experimentation to productionization, seeking standardized patterns for agent capabilities. This mirrors the 2023-2024 evolution from &quot;prompt engineering&quot; to &quot;RAG engineering&quot;—now we&#39;re seeing &quot;agent engineering&quot; emerge as a discipline.</p>
+<p><strong>A novel technical direction is &quot;vectorless RAG&quot;</strong> (<code>PageIndex</code>), which challenges the embedding-centric paradigm that has dominated since 2023. Combined with reasoning-based approaches, this suggests retrieval is evolving toward understanding document structure and logical relationships rather than semantic similarity alone. This aligns with broader industry moves toward test-time compute scaling and reasoning models.</p>
+<p><strong>The &quot;skills&quot; abstraction</strong> (<code>agent-skills</code>, <code>ruflo</code>, <code>activepieces</code>&#39;s MCP servers) represents architectural maturation: agents as skill composers rather than monolithic prompt systems. This connects to Anthropic&#39;s Model Context Protocol (MCP) gaining ecosystem traction, with multiple projects explicitly integrating MCP compatibility.</p>
+<p><strong>Cost optimization infrastructure</strong> (<code>9router</code>, <code>LLM-API-Key-Proxy</code>) signals market pressure from token economics—developers are building sophisticated routing and fallback systems to manage spend across providers, including free tiers. This reflects both API price competition and the reality of agent workflows generating massive token volumes.</p>
+<p><strong>Connection to recent releases:</strong> The timing with Qwen3.6, Kimi-K2.5, GLM-5, and gpt-oss availability (noted in Ollama&#39;s description) suggests a model proliferation wave driving infrastructure demand. The explicit mention of &quot;Claude Code, Codex, Cursor, Cline, Copilot&quot; across multiple projects indicates these closed tools have become reference implementations that open source is now seeking to augment, replace, or interoperate with.</p>
+<hr>
+<h2>4. Community Hot Spots</h2>
+<ul>
+<li><p><strong>🔥 &quot;Agent Skills&quot; as Design Pattern</strong> — <code>addyosmani/agent-skills</code> is defining reusable, testable capabilities for coding agents. Worth following for standardization efforts that could become as influential as OpenAPI for APIs.</p>
+</li>
+<li><p><strong>🔥 Vectorless/R Reasoning-Based RAG</strong> — <code>VectifyAI/PageIndex</code> challenges embedding orthodoxy. If reasoning-based retrieval proves scalable, this could disrupt the vector database landscape and reduce infrastructure complexity.</p>
+</li>
+<li><p><strong>🔥 Terminal-First Agent Interfaces</strong> — <code>DeepSeek-TUI</code> and <code>9router</code> show TUI resurgence against GUI bloat. Developers are reclaiming terminal efficiency for agent workflows—relevant for CLI-native tooling and remote development.</p>
+</li>
+<li><p><strong>🔥 MCP Ecosystem Expansion</strong> — <code>activepieces</code> (~400 MCP servers), <code>zilliztech/claude-context</code>, and <code>paulburgess1357/nvim-mcp</code> demonstrate Model Context Protocol becoming the &quot;USB-C for AI tools.&quot; Early mover advantage in MCP tooling likely.</p>
+</li>
+<li><p><strong>🔥 Local-First Research &amp; Privacy</strong> — <code>local-deep-research</code> (95% SimpleQA on 3090) and <code>memvid</code> (serverless memory) reflect growing demand for private, on-device AI that doesn&#39;t leak data to cloud providers—critical for enterprise and sensitive domains.</p>
+</li>
+</ul>
+<hr>
+<p><em>Report generated from 2026-05-08 GitHub trending data. Star counts reflect snapshot; velocity indicates community momentum.</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI Open Source Trends 2026-05-07</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-07/ai-trending-en</link>
@@ -7385,240 +7644,6 @@ MCP is becoming the interoperability layer for the agent economy. Developers sho
 <li><p><strong><a href="https://github.com/shareAI-lab/learn-claude-code">shareAI-lab/learn-claude-code</a></strong> — Educational &quot;build from scratch&quot; approach to agent harnesses mirrors successful pedagogical models (karpathy/nanoGPT). Likely to become standard reference for agent internals.</p>
 </li>
 <li><p><strong><a href="https://github.com/trycua/cua">trycua/cua</a></strong> — Computer-Use Agents with cross-platform sandboxing addresses critical gap in agent safety and evaluation. Essential infrastructure as agents gain desktop control capabilities.</p>
-</li>
-</ul>
-<hr>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI Open Source Trends 2026-04-08</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-08/ai-trending-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-08/ai-trending-en</guid>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-      <description>AI Open Source Trends 2026-04-08 Sources: GitHub Trending + GitHub Search API | Generated: 2026-04-08 00:13 UTC AI Open Source Trends Report — April 8, 2026 1. Today&amp;#39;s Highlights Today&amp;#39;s GitHub trending reveals a decisive shift toward edge-first AI and agent-native development workflows. Google&amp;#39;s aggressive push into on-device ML with google-ai-edge/gallery and LiteRT-LM signals major investment in local inference infrastructure. Meanwhile, GitNexus and qmd demonstrate explosive dema...</description>
-      <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-04-08</h1>
-<blockquote>
-<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-04-08 00:13 UTC</p>
-</blockquote>
-<hr>
-<h1>AI Open Source Trends Report — April 8, 2026</h1>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>Today&#39;s GitHub trending reveals a decisive shift toward <strong>edge-first AI</strong> and <strong>agent-native development workflows</strong>. Google&#39;s aggressive push into on-device ML with <a href="https://github.com/google-ai-edge/gallery">google-ai-edge/gallery</a> and <a href="https://github.com/google-ai-edge/LiteRT-LM">LiteRT-LM</a> signals major investment in local inference infrastructure. Meanwhile, <a href="https://github.com/abhigyanpatwari/GitNexus">GitNexus</a> and <a href="https://github.com/tobi/qmd">qmd</a> demonstrate explosive demand for <strong>zero-server, client-side AI tools</strong>—knowledge graphs and search that run entirely in-browser. NVIDIA&#39;s <a href="https://github.com/NVIDIA/personaplex">PersonaPlex</a> enters the persona/agent orchestration space, while education-focused projects like <a href="https://github.com/HKUDS/DeepTutor">DeepTutor</a> show AI agents maturing into domain-specific vertical applications.</p>
-<hr>
-<h2>2. Top Projects by Category</h2>
-<h3>🔧 AI Infrastructure</h3>
-<table>
-<thead>
-<tr>
-<th>Project</th>
-<th>Stars</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://github.com/google-ai-edge/gallery">google-ai-edge/gallery</a></td>
-<td>0 (+897 today)</td>
-<td>Google&#39;s official showcase for on-device ML/GenAI use cases—enables local model experimentation without cloud dependency, critical for privacy-first AI deployment.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/google-ai-edge/LiteRT-LM">google-ai-edge/LiteRT-LM</a></td>
-<td>0 (+528 today)</td>
-<td>Lightweight runtime for language models on edge devices; Google&#39;s answer to running LLMs on mobile/embedded hardware with minimal latency.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/ollama/ollama">ollama/ollama</a></td>
-<td>168,043</td>
-<td>The dominant local LLM runtime; today&#39;s edge AI surge validates its pioneering approach to private, downloadable model serving.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/vllm-project/vllm">vllm-project/vllm</a></td>
-<td>75,606</td>
-<td>High-throughput inference engine; essential infrastructure as model serving demands scale with agentic workloads.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/firecrawl/firecrawl">firecrawl/firecrawl</a></td>
-<td>105,547</td>
-<td>Web data API for AI—turns unstructured web content into structured agent-ready data, foundational for RAG pipelines.</td>
-</tr>
-</tbody></table>
-<h3>🤖 AI Agents / Workflows</h3>
-<table>
-<thead>
-<tr>
-<th>Project</th>
-<th>Stars</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://github.com/shareAI-lab/learn-claude-code">shareAI-lab/learn-claude-code</a></td>
-<td>49,611</td>
-<td>&quot;Bash is all you need&quot;—a from-scratch agent harness demonstrating minimal viable agent architectures without heavy frameworks.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/NVIDIA/personaplex">NVIDIA/personaplex</a></td>
-<td>0 (+662 today)</td>
-<td>NVIDIA&#39;s persona-based agent system; signals enterprise-grade agent orchestration with character/persona management.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/langgenius/dify">langgenius/dify</a></td>
-<td>136,618</td>
-<td>Production-grade agentic workflow platform; the standard for visual agent building with 400+ MCP server integrations.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/activepieces/activepieces">activepieces/activepieces</a></td>
-<td>21,615</td>
-<td>AI automation with ~400 MCP servers; exemplifies the MCP protocol&#39;s rapid adoption for agent tool interoperability.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/browser-use/browser-use">browser-use/browser-use</a></td>
-<td>86,408</td>
-<td>Makes websites accessible to AI agents; critical infrastructure as agents move beyond APIs to direct web interaction.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/trycua/cua">trycua/cua</a></td>
-<td>13,417</td>
-<td>Computer-Use Agent infrastructure—sandboxes for training agents to control full desktop environments.</td>
-</tr>
-</tbody></table>
-<h3>📦 AI Applications</h3>
-<table>
-<thead>
-<tr>
-<th>Project</th>
-<th>Stars</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://github.com/abhigyanpatwari/GitNexus">abhigyanpatwari/GitNexus</a></td>
-<td>0 (+1,195 today)</td>
-<td><strong>Today&#39;s top gainer</strong>: Zero-server code intelligence with Graph RAG in the browser—represents a paradigm shift away from cloud-dependent dev tools.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/tobi/qmd">tobi/qmd</a></td>
-<td>0 (+859 today)</td>
-<td>Local-first CLI search engine for docs and knowledge bases; tracks SOTA retrieval while maintaining complete data privacy.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/HKUDS/DeepTutor">HKUDS/DeepTutor</a></td>
-<td>0 (+168 today)</td>
-<td>Agent-native personalized learning assistant; demonstrates education as a high-value vertical for specialized agent applications.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/TheCraigHewitt/seomachine">TheCraigHewitt/seomachine</a></td>
-<td>0 (+215 today)</td>
-<td>Claude Code workspace for SEO content—vertical AI application showing agent-assisted professional workflows.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/CherryHQ/cherry-studio">CherryHQ/cherry-studio</a></td>
-<td>43,089</td>
-<td>AI productivity studio with 300+ assistants; unified LLM access with autonomous agent capabilities.</td>
-</tr>
-</tbody></table>
-<h3>🧠 LLMs / Training</h3>
-<table>
-<thead>
-<tr>
-<th>Project</th>
-<th>Stars</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://github.com/huggingface/transformers">huggingface/transformers</a></td>
-<td>158,984</td>
-<td>The canonical model-definition framework; continues to dominate as the interoperability layer for ML models.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/rasbt/LLMs-from-scratch">rasbt/LLMs-from-scratch</a></td>
-<td>90,252</td>
-<td>Educational implementation of ChatGPT-like LLMs; sustained popularity reflects ongoing demand for fundamental understanding over black-box usage.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jingyaogong/minimind">jingyaogong/minimind</a></td>
-<td>45,934</td>
-<td>Train 64M-parameter GPT from scratch in 2 hours—democratizes LLM training for researchers and educators.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/hiyouga/LlamaFactory">hiyouga/LlamaFactory</a></td>
-<td>69,695</td>
-<td>Unified fine-tuning for 100+ LLMs/VLMs; essential tooling as model customization becomes standard practice.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/affaan-m/everything-claude-code">affaan-m/everything-claude-code</a></td>
-<td>144,758</td>
-<td>Agent harness optimization system for Claude Code—meta-tooling for improving agent performance through skills, memory, and security.</td>
-</tr>
-</tbody></table>
-<h3>🔍 RAG / Knowledge</h3>
-<table>
-<thead>
-<tr>
-<th>Project</th>
-<th>Stars</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a></td>
-<td>77,359</td>
-<td>Leading open-source RAG engine with agent capabilities; fuses retrieval with agentic reasoning for superior context layers.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/HKUDS/LightRAG">HKUDS/LightRAG</a></td>
-<td>32,574</td>
-<td>Simple and fast RAG (EMNLP 2025)—research-backed efficiency gains for production retrieval systems.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/microsoft/graphrag">microsoft/graphrag</a></td>
-<td>32,043</td>
-<td>Modular graph-based RAG; represents the evolution from vector-only to structured knowledge representations.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/milvus-io/milvus">milvus-io/milvus</a></td>
-<td>43,650</td>
-<td>Cloud-native vector database; scales ANN search for enterprise RAG deployments.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/qdrant/qdrant">qdrant/qdrant</a></td>
-<td>30,111</td>
-<td>High-performance vector search engine; Rust-based efficiency for next-generation AI applications.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/mem0ai/mem0">mem0ai/mem0</a></td>
-<td>52,209</td>
-<td>Universal memory layer for AI agents—addresses the critical gap in persistent, context-aware agent memory.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Trend Signal Analysis</h2>
-<p><strong>Explosive Attention: Zero-Server, Client-Side AI</strong></p>
-<p>Today&#39;s data reveals an unmistakable inflection point: developers are aggressively pursuing <strong>local-first, zero-infrastructure AI tools</strong>. <a href="https://github.com/abhigyanpatwari/GitNexus">GitNexus</a> (+1,195 stars) and <a href="https://github.com/tobi/qmd">qmd</a> (+859) both operate entirely in-browser or CLI without backend dependencies—reflecting fatigue with API costs, latency, and privacy concerns. This aligns with Google&#39;s simultaneous launch of <a href="https://github.com/google-ai-edge/gallery">gallery</a> and <a href="https://github.com/google-ai-edge/LiteRT-LM">LiteRT-LM</a>, which enable sophisticated on-device GenAI.</p>
-<p><strong>New Tech Stacks Emerging</strong></p>
-<p>Three previously marginal directions are now mainstream:</p>
-<ul>
-<li><strong>MCP (Model Context Protocol)</strong>: <a href="https://github.com/activepieces/activepieces">activepieces</a> and <a href="https://github.com/langchain4j/langchain4j">langchain4j</a> explicitly support MCP, indicating protocol standardization for agent-tool interoperability.</li>
-<li><strong>Graph RAG</strong>: <a href="https://github.com/abhigyanpatwari/GitNexus">GitNexus</a> and <a href="https://github.com/microsoft/graphrag">microsoft/graphrag</a> show knowledge graphs replacing simple vector search for complex reasoning tasks.</li>
-<li><strong>Agent Harnesses</strong>: <a href="https://github.com/shareAI-lab/learn-claude-code">learn-claude-code</a> and <a href="https://github.com/affaan-m/everything-claude-code">everything-claude-code</a> demonstrate meta-tooling—systems to optimize agent performance rather than just build agents.</li>
-</ul>
-<p><strong>Industry Context</strong></p>
-<p>These trends directly respond to recent developments: Claude Code&#39;s public release (March 2026) sparked immediate ecosystem tooling; DeepSeek and Qwen&#39;s open-weight releases reduced dependency on closed APIs; and persistent concerns about AI data privacy in enterprise environments. The combination of capable local models + standardized protocols + graph-based knowledge representation is enabling a new generation of autonomous, privacy-preserving AI applications.</p>
-<hr>
-<h2>4. Community Hot Spots</h2>
-<ul>
-<li><p><strong><a href="https://github.com/abhigyanpatwari/GitNexus">GitNexus</a></strong> — Today&#39;s fastest-growing repo validates that developers want code intelligence without cloud lock-in. Graph RAG in the browser is technically challenging but increasingly feasible with WebAssembly and local embedding models.</p>
-</li>
-<li><p><strong><a href="https://github.com/google-ai-edge">google-ai-edge</a> ecosystem</strong> — Google&#39;s coordinated release of gallery + LiteRT-LM suggests strategic prioritization of edge AI. Watch for TensorFlow Lite deprecation in favor of this new branding and architecture.</p>
-</li>
-<li><p><strong><a href="https://github.com/shareAI-lab/learn-claude-code">learn-claude-code</a></strong> — &quot;Bash is all you need&quot; captures a growing skepticism of over-engineered agent frameworks. Minimal, transparent agent harnesses may displace complex orchestration layers.</p>
-</li>
-<li><p><strong>MCP protocol adoption</strong> — With ~400 servers now available via <a href="https://github.com/activepieces/activepieces">activepieces</a>, MCP is becoming the &quot;USB-C for AI agents.&quot; Projects ignoring this interoperability standard risk ecosystem isolation.</p>
-</li>
-<li><p><strong><a href="https://github.com/HKUDS/DeepTutor">DeepTutor</a> + vertical agents</strong> — Education, SEO, and job search (<a href="https://github.com/santifer/career-ops">career-ops</a>) demonstrate that general-purpose agents are giving way to domain-specialized systems with embedded expertise.</p>
 </li>
 </ul>
 <hr>

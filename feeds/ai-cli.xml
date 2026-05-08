@@ -6,7 +6,2908 @@
     <description>AI CLI 工具社区动态日报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-cli.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 07 May 2026 04:28:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 04:11:28 +0000</lastBuildDate>
+    <item>
+      <title>AI CLI 工具社区动态日报 2026-05-08</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-08/ai-cli</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-08/ai-cli</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <description>AI CLI 工具社区动态日报 2026-05-08 生成时间: 2026-05-08 00:20 UTC | 覆盖工具: 9 个 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code DeepSeek TUI Claude Code Skills 横向对比 AI CLI 工具生态横向对比分析报告 | 2026-05-08 1. 生态全景 当前 AI CLI 工具生态呈现**&amp;quot;三极分化、垂直深耕&amp;quot;态势：Claude Code 与 OpenAI Codex 凭借闭源模型优势占据企业级市场，但正遭遇权限治理与计费透明度的信任危机；Google Gemini CLI、Qwen Code、DeepSeek TUI 等第二梯队以开放协议（ACP/MCP）和本地化部署为突破口，加速 IDE 集成与私有化场景渗透；OpenCode、Pi 等新兴工具则以可观测性架构和终端原生体验**探索差异化生存空间。整体社区议题从&amp;quot;功能有无&amp;quot;转向&amp;q...</description>
+      <content:encoded><![CDATA[<h1>AI CLI 工具社区动态日报 2026-05-08</h1>
+<blockquote>
+<p>生成时间: 2026-05-08 00:20 UTC | 覆盖工具: 9 个</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
+<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
+<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
+<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
+<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
+<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
+<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
+<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
+<li><a href="https://github.com/Hmbown/DeepSeek-TUI">DeepSeek TUI</a></li>
+<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
+</ul>
+<hr>
+<h2>横向对比</h2>
+<h1>AI CLI 工具生态横向对比分析报告 | 2026-05-08</h1>
+<hr>
+<h2>1. 生态全景</h2>
+<p>当前 AI CLI 工具生态呈现**&quot;三极分化、垂直深耕&quot;<strong>态势：Claude Code 与 OpenAI Codex 凭借闭源模型优势占据企业级市场，但正遭遇权限治理与计费透明度的信任危机；Google Gemini CLI、Qwen Code、DeepSeek TUI 等第二梯队以</strong>开放协议（ACP/MCP）<strong>和</strong>本地化部署<strong>为突破口，加速 IDE 集成与私有化场景渗透；OpenCode、Pi 等新兴工具则以</strong>可观测性架构<strong>和</strong>终端原生体验**探索差异化生存空间。整体社区议题从&quot;功能有无&quot;转向&quot;生产就绪&quot;——性能指标、成本可控、跨端一致性成为共同瓶颈。</p>
+<hr>
+<h2>2. 各工具活跃度对比</h2>
+<table>
+<thead>
+<tr>
+<th align="left">工具</th>
+<th align="center">今日 Issues 更新</th>
+<th align="center">今日 PR 更新</th>
+<th align="left">版本发布</th>
+<th align="left">核心动态</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Claude Code</strong></td>
+<td align="center">~50 个</td>
+<td align="center">3 个</td>
+<td align="left">v2.1.133</td>
+<td align="left">macOS Tahoe 严重回归；Buddy 请愿 1070+👍 无回应；计费黑洞投诉激增</td>
+</tr>
+<tr>
+<td align="left"><strong>OpenAI Codex</strong></td>
+<td align="center">未披露具体数</td>
+<td align="center">10 个精选</td>
+<td align="left">Rust v0.129.0</td>
+<td align="left">Vim 模态编辑正式发布；多环境执行架构重构；Windows 稳定性债务集中爆发</td>
+</tr>
+<tr>
+<td align="left"><strong>Gemini CLI</strong></td>
+<td align="center">未披露具体数</td>
+<td align="center">10 个精选</td>
+<td align="left">v0.42.0-nightly</td>
+<td align="left">Auto Memory 系统密集加固；ACP 协议 IDE 集成加速；ADK Session 架构扩展</td>
+</tr>
+<tr>
+<td align="left"><strong>GitHub Copilot CLI</strong></td>
+<td align="center">10 个精选</td>
+<td align="center">无更新</td>
+<td align="left">v1.0.44-0~2</td>
+<td align="left">三连补丁修复 Shell 兼容；Linux 快捷键冲突未解；Vim 模式 58👍 长期悬置</td>
+</tr>
+<tr>
+<td align="left"><strong>Kimi Code CLI</strong></td>
+<td align="center">8 个</td>
+<td align="center">9 个</td>
+<td align="left">无</td>
+<td align="left">macOS 截图竞态、Windows 版本信息缺失均有 PR 当日跟进；流式输出语义待完善</td>
+</tr>
+<tr>
+<td align="left"><strong>OpenCode</strong></td>
+<td align="center">10 个精选</td>
+<td align="center">10 个精选</td>
+<td align="left">v1.14.40/41</td>
+<td align="left">Immer 冻结崩溃紧急修复；Tokens/s 指标 66👍 长期高票；llms.txt 标准化推进</td>
+</tr>
+<tr>
+<td align="left"><strong>Pi</strong></td>
+<td align="center">10 个精选</td>
+<td align="center">10 个精选</td>
+<td align="left">v0.73.1/v0.74.0</td>
+<td align="left">包迁移完成；Kitty 协议输入问题集中爆发；本地 LLM 动态列表 23👍</td>
+</tr>
+<tr>
+<td align="left"><strong>Qwen Code</strong></td>
+<td align="center">35 个</td>
+<td align="center">50 个</td>
+<td align="left">v0.15.8</td>
+<td align="left">远程控制三层 PR 栈（HTTP/WebSocket 服务器）重大架构演进；子代理可观测性完善</td>
+</tr>
+<tr>
+<td align="left"><strong>DeepSeek TUI</strong></td>
+<td align="center">10 个精选</td>
+<td align="center">10 个精选</td>
+<td align="left">v0.8.17</td>
+<td align="left">Token 消耗失控（4亿/半天）紧急排查；VS Code 扩展脚手架首次入库；ACP 协议扩展</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>活跃度排序</strong>（综合 Issues/PR/发布频率）：Qwen Code &gt; DeepSeek TUI ≈ OpenCode ≈ Pi &gt; Claude Code &gt; Gemini CLI ≈ OpenAI Codex &gt; Kimi Code CLI &gt; GitHub Copilot CLI</p>
+</blockquote>
+<hr>
+<h2>3. 共同关注的功能方向</h2>
+<table>
+<thead>
+<tr>
+<th align="left">功能方向</th>
+<th align="left">涉及工具</th>
+<th align="left">具体诉求</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>IDE 深度集成</strong></td>
+<td align="left">Gemini CLI、Qwen Code、DeepSeek TUI、GitHub Copilot CLI、Kimi Code CLI</td>
+<td align="left">ACP 协议工具调用暴露（#1092）、VS Code/JetBrains/Zed 扩展、远程控制服务器（#3931）、IDE 渲染工具专属 UI（#26676）</td>
+</tr>
+<tr>
+<td align="left"><strong>成本/预算可控性</strong></td>
+<td align="left">Claude Code、DeepSeek TUI、OpenCode、GitHub Copilot CLI</td>
+<td align="left">计费黑洞归因（#55030/#743）、会话预算硬上限（#1086）、Token 消耗实时指标（#5374）、/dryrun 预览（#1099）</td>
+</tr>
+<tr>
+<td align="left"><strong>TUI 终端体验精细化</strong></td>
+<td align="left">OpenAI Codex、Pi、OpenCode、Kimi Code CLI、GitHub Copilot CLI</td>
+<td align="left">Vim 模态编辑（v0.129.0）、Kitty 协议兼容（#4208/#3780）、Shift+Enter 换行（#2010）、鼠标拖拽滚动（#1076）、Light 主题（#936）</td>
+</tr>
+<tr>
+<td align="left"><strong>多环境/远程执行架构</strong></td>
+<td align="left">OpenAI Codex、Qwen Code、Gemini CLI</td>
+<td align="left">本地/远程/云统一路由（#20666/#21617）、工作空间切换（#1010/#1065）、环境配置即代码（TOML 声明）</td>
+</tr>
+<tr>
+<td align="left"><strong>子代理/后台任务可观测性</strong></td>
+<td align="left">Qwen Code、Claude Code、Gemini CLI</td>
+<td align="left">Monitor 通知路由隔离（#3925）、MAX_TURNS 中断误报成功（#22323）、后台任务事件监控（#3634）、持久化状态管理</td>
+</tr>
+<tr>
+<td align="left"><strong>MCP/工具生态标准化</strong></td>
+<td align="left">Claude Code、Gemini CLI、Qwen Code、Kimi Code CLI、GitHub Copilot CLI</td>
+<td align="left">配置持久化修复（#3937）、OAuth 认证扩展（#2172）、structured_content 保留（#2139）、注册表验证假阴性（#3162）</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>4. 差异化定位分析</h2>
+<table>
+<thead>
+<tr>
+<th align="left">工具</th>
+<th align="left">核心功能侧重</th>
+<th align="left">目标用户画像</th>
+<th align="left">技术路线特征</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Claude Code</strong></td>
+<td align="left">企业级结对编程、Agent 自主执行、沙盒安全</td>
+<td align="left">大型团队、高安全需求企业</td>
+<td align="left">闭源模型绑定（Sonnet/Opus）、macOS 优先、权限模型复杂但漏洞频出</td>
+</tr>
+<tr>
+<td align="left"><strong>OpenAI Codex</strong></td>
+<td align="left">多模态长上下文、工作流恢复、跨端同步</td>
+<td align="left">全栈开发者、多设备用户</td>
+<td align="left">Rust 重写 TUI、SQLite 状态层、Cloud/CLI/App 三端架构</td>
+</tr>
+<tr>
+<td align="left"><strong>Gemini CLI</strong></td>
+<td align="left">ACP 协议标准制定、Auto Memory、ADK 生态互通</td>
+<td align="left">Google Cloud 用户、标准倡导者</td>
+<td align="left">协议驱动设计、模型路由缓存、Shell 安全 evals 体系化</td>
+</tr>
+<tr>
+<td align="left"><strong>GitHub Copilot CLI</strong></td>
+<td align="left">GitHub 工作流原生集成、rubber-duck 子代理</td>
+<td align="left">GitHub 重度用户、现有 Copilot 订阅者</td>
+<td align="left">与 GitHub 平台深度耦合、Timeline 可视化、模型切换状态机</td>
+</tr>
+<tr>
+<td align="left"><strong>Kimi Code CLI</strong></td>
+<td align="left">多模态交互（截图拖拽）、流式 JSON 工具链</td>
+<td align="left">中国开发者、下游工具构建者</td>
+<td align="left">Python/PyInstaller 分发、快速 Bug 响应、API 接入模式待开放</td>
+</tr>
+<tr>
+<td align="left"><strong>OpenCode</strong></td>
+<td align="left">性能可观测性（Tokens/s）、llms.txt 标准化、企业部署</td>
+<td align="left">技术决策者、Effect-TS 生态用户</td>
+<td align="left">Effect-TS 函数式架构、实验性 v2 事件系统、Debian 包分发</td>
+</tr>
+<tr>
+<td align="left"><strong>Pi</strong></td>
+<td align="left">终端原生极致体验、扩展系统、本地 LLM 动态发现</td>
+<td align="left">终端极客、扩展开发者</td>
+<td align="left">TypeScript 扩展架构、Kitty 图形协议、64 扩展并行加载优化</td>
+</tr>
+<tr>
+<td align="left"><strong>Qwen Code</strong></td>
+<td align="left">远程控制/可编程 API、子代理深度编排、OTel 追踪</td>
+<td align="left">企业平台团队、阿里云用户</td>
+<td align="left">三层 PR 栈架构演进、认证 provider-first 重构、后台任务长期运行</td>
+</tr>
+<tr>
+<td align="left"><strong>DeepSeek TUI</strong></td>
+<td align="left">成本控制激进优化、中文本土化、编辑器后端化</td>
+<td align="left">价格敏感用户、中国开发者社区</td>
+<td align="left">npm/cargo 双分发、ACP serve 模式、CNY 计费与微信群运营</td>
+</tr>
+</tbody></table>
+<p><strong>关键分化信号</strong>：</p>
+<ul>
+<li><strong>&quot;终端优先&quot; vs &quot;编辑器后端&quot;</strong>：Pi/OpenCode 深耕 TUI 原生体验；DeepSeek TUI/Qwen Code 通过 ACP/远程控制向 IDE 渗透</li>
+<li><strong>&quot;闭源模型绑定&quot; vs &quot;开放路由&quot;</strong>：Claude Code/Copilot 锁定自有模型；OpenCode/Pi/DeepSeek TUI 积极接入多提供商</li>
+</ul>
+<hr>
+<h2>5. 社区热度与成熟度</h2>
+<table>
+<thead>
+<tr>
+<th align="left">象限</th>
+<th align="left">工具</th>
+<th align="left">判断依据</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>高活跃·快速迭代</strong></td>
+<td align="left">Qwen Code、DeepSeek TUI、Pi</td>
+<td align="left">35-50 PR/日、版本密集发布、架构级 PR 栈涌现；但稳定性债务同步累积</td>
+</tr>
+<tr>
+<td align="left"><strong>高活跃·成熟承压</strong></td>
+<td align="left">Claude Code、OpenAI Codex</td>
+<td align="left">Issues 爆发量远超 PR 处理能力（50:3）、长期议题悬置；核心架构封闭，外部贡献受限</td>
+</tr>
+<tr>
+<td align="left"><strong>中活跃·协议驱动</strong></td>
+<td align="left">Gemini CLI</td>
+<td align="left">PR 聚焦 ACP/ADK 标准制定，工程节奏受 Google 内部协调影响</td>
+</tr>
+<tr>
+<td align="left"><strong>低活跃·维护模式</strong></td>
+<td align="left">GitHub Copilot CLI</td>
+<td align="left">24h 无 PR 更新、功能需求长期积压（Vim 模式 8 个月 58👍）；三连补丁显示被动响应</td>
+</tr>
+<tr>
+<td align="left"><strong>中活跃·精细打磨</strong></td>
+<td align="left">Kimi Code CLI、OpenCode</td>
+<td align="left">Bug 修复当日跟进，但流式语义/实验性系统稳定性等深层问题待架构投入</td>
+</tr>
+</tbody></table>
+<p><strong>成熟度悖论</strong>：Claude Code 功能最完整但信任危机最深（计费/权限/Buddy 移除）；Qwen Code/DeepSeek TUI 迭代最快但生产就绪度存疑（Token 失控、Thinking 崩溃）。</p>
+<hr>
+<h2>6. 值得关注的趋势信号</h2>
+<table>
+<thead>
+<tr>
+<th align="left">趋势信号</th>
+<th align="left">证据来源</th>
+<th align="left">开发者参考价值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>ACP/MCP 成为事实标准争夺战场</strong></td>
+<td align="left">Gemini CLI #26676/26675、DeepSeek TUI #1092/#1022、Qwen Code #3931-3929</td>
+<td align="left">工具链开发者应优先适配 ACP 协议；企业评估供应商时需考察协议开放性承诺</td>
+</tr>
+<tr>
+<td align="left"><strong>&quot;Agent 后端化&quot;重塑 CLI 定位</strong></td>
+<td align="left">DeepSeek <code>serve --acp</code>、Qwen Code 远程控制服务器、Codex Cloud</td>
+<td align="left">CLI 从交互界面演进为可编程 Agent 运行时；考虑将现有 CLI 封装为 HTTP/WebSocket 服务</td>
+</tr>
+<tr>
+<td align="left"><strong>成本可观测性成为选型硬门槛</strong></td>
+<td align="left">Claude Code 计费黑洞、DeepSeek 4亿 Token/半天、OpenCode Tokens/s 66👍</td>
+<td align="left">生产环境必须要求：实时 Token 计数、预算硬上限、消耗归因 API；避免无预警额度耗尽</td>
+</tr>
+<tr>
+<td align="left"><strong>终端能力协商与降级策略刚需化</strong></td>
+<td align="left">Pi Kitty 协议冲突 #4208/#3780、OpenCode TUI 状态泄漏 #26198</td>
+<td align="left">跨平台 TUI 工具需内置终端特性检测（Ghostty/iTerm2/Warp/Windows Terminal），避免假设高级特性普遍存在</td>
+</tr>
+<tr>
+<td align="left"><strong>子代理/后台任务的&quot;可观测性鸿沟&quot;</strong></td>
+<td align="left">Qwen Code Monitor 路由 #3925、Gemini MAX_TURNS 误报 #22323、Claude Code 权限继承断裂 #57118</td>
+<td align="left">多 Agent 架构需投资：跨代理 Trace ID 传递、状态机显式暴露、失败模式非成功误报防护</td>
+</tr>
+<tr>
+<td align="left"><strong>&quot;模型行为一致性&quot;超越&quot;模型能力&quot;成为痛点</strong></td>
+<td align="left">Claude Code 谄媚 #56976、Sonnet 4.6 更新后行为漂移、Qwen 3.6 本地输出异常 #3881</td>
+<td align="left">锁定模型版本、建立输出质量回归测试、要求供应商提供行为变更日志，比追逐最新模型更务实</td>
+</tr>
+</tbody></table>
+<hr>
+<p><strong>决策建议</strong>：当前节点，<strong>追求稳定的企业团队</strong>宜观望 Claude Code 计费/权限危机解决；<strong>探索前沿的开发者</strong>可关注 Qwen Code 远程控制架构与 DeepSeek TUI 的 ACP 扩展；<strong>终端原生信仰者</strong> Pi 的扩展系统与 Kitty 协议深度值得持续跟踪；<strong>成本敏感场景</strong> 务必要求供应商提供 Token 级可观测性 API，避免陷入&quot;额度黑洞&quot;。</p>
+<hr>
+<h2>各工具详细报告</h2>
+<details>
+<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
+
+<h2>Claude Code Skills 社区热点</h2>
+<blockquote>
+<p>数据来源: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
+</blockquote>
+<h1>Claude Code Skills 社区热点报告（2026-05-08）</h1>
+<hr>
+<h2>1. 热门 Skills 排行（按社区关注度）</h2>
+<table>
+<thead>
+<tr>
+<th align="left">排名</th>
+<th align="left">Skill</th>
+<th align="left">功能</th>
+<th align="left">讨论热点</th>
+<th align="left">状态</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">1</td>
+<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/514">document-typography</a></strong></td>
+<td align="left">AI 生成文档的排版质量控制（孤字换行、寡段、编号错位）</td>
+<td align="left">解决 Claude 生成文档的普遍痛点；是否应作为通用能力内置而非 Skill</td>
+<td align="left">🟡 Open</td>
+</tr>
+<tr>
+<td align="left">2</td>
+<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/83">skill-quality-analyzer / skill-security-analyzer</a></strong></td>
+<td align="left">Skill 质量评估（结构、文档、示例、触发率）与安全审计</td>
+<td align="left">元技能（meta-skill）价值认可；与官方审核流程的关系</td>
+<td align="left">🟡 Open</td>
+</tr>
+<tr>
+<td align="left">3</td>
+<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/210">frontend-design</a></strong></td>
+<td align="left">前端设计 Skill 的清晰度与可执行性改进</td>
+<td align="left">如何让 Skill 指令在单轮对话中可被 Claude 实际执行</td>
+<td align="left">🟡 Open</td>
+</tr>
+<tr>
+<td align="left">4</td>
+<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/486">odt</a></strong></td>
+<td align="left">OpenDocument 文本创建、模板填充、ODT↔HTML 转换</td>
+<td align="left">开源文档标准支持；与现有 docx/pdf Skill 的功能边界</td>
+<td align="left">🟡 Open</td>
+</tr>
+<tr>
+<td align="left">5</td>
+<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/723">testing-patterns</a></strong></td>
+<td align="left">全栈测试体系（测试哲学、单元测试、React 组件、集成/E2E）</td>
+<td align="left">Testing Trophy 模型落地；与现有代码生成 Skill 的协同</td>
+<td align="left">🟡 Open</td>
+</tr>
+<tr>
+<td align="left">6</td>
+<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/181">SAP-RPT-1-OSS</a></strong></td>
+<td align="left">SAP 开源表格基础模型的预测分析</td>
+<td align="left">企业 ERP 数据场景；SAP 生态集成深度</td>
+<td align="left">🟡 Open</td>
+</tr>
+<tr>
+<td align="left">7</td>
+<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/360">appdeploy</a></strong></td>
+<td align="left">全栈 Web 应用一键部署至公网</td>
+<td align="left">从代码到部署的闭环；与 Vercel/Netlify 等平台的竞争/合作关系</td>
+<td align="left">🟡 Open</td>
+</tr>
+<tr>
+<td align="left">8</td>
+<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/444">aurelion</a></strong></td>
+<td align="left">认知+记忆框架套件（内核、顾问、代理、记忆四层）</td>
+<td align="left">AI 代理长期记忆与结构化思维；与官方记忆功能的重叠</td>
+<td align="left">🟡 Open</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>2. 社区需求趋势（从 Issues 提炼）</h2>
+<table>
+<thead>
+<tr>
+<th align="left">方向</th>
+<th align="left">代表 Issue</th>
+<th align="left">核心诉求</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>组织级 Skill 治理</strong></td>
+<td align="left"><a href="https://github.com/anthropics/skills/issues/228">#228</a> 组织内共享、<a href="https://github.com/anthropics/skills/issues/492">#492</a> 命名空间安全</td>
+<td align="left">企业需要官方 Skill 市场 + 权限管控，杜绝&quot;伪官方&quot;信任边界滥用</td>
+</tr>
+<tr>
+<td align="left"><strong>Skill 质量与评估基础设施</strong></td>
+<td align="left"><a href="https://github.com/anthropics/skills/issues/556">#556</a> 触发率 0%、<a href="https://github.com/anthropics/skills/issues/202">#202</a> skill-creator 最佳实践</td>
+<td align="left">可量化的 Skill 效果验证（触发率、token 效率、任务完成度）</td>
+</tr>
+<tr>
+<td align="left"><strong>MCP 协议互通</strong></td>
+<td align="left"><a href="https://github.com/anthropics/skills/issues/16">#16</a></td>
+<td align="left">将 Skill 暴露为标准 MCP 工具，打破 Claude Code 生态孤岛</td>
+</tr>
+<tr>
+<td align="left"><strong>多云/企业部署兼容</strong></td>
+<td align="left"><a href="https://github.com/anthropics/skills/issues/29">#29</a> Bedrock 支持、<a href="https://github.com/anthropics/skills/issues/532">#532</a> SSO 免 API Key</td>
+<td align="left">脱离 Anthropic 直连依赖，适配企业合规与认证体系</td>
+</tr>
+<tr>
+<td align="left"><strong>文档与模板格式扩展</strong></td>
+<td align="left"><a href="https://github.com/anthropics/skills/issues/189">#189</a> 插件重复、ODT/ServiceNow 等 PR</td>
+<td align="left">从 Office 生态向开源标准（ODF）、垂直 SaaS（ServiceNow、SAP）延伸</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. 高潜力待合并 Skills（评论活跃 + 近期更新）</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Skill</th>
+<th align="left">PR</th>
+<th align="left">潜力评估</th>
+<th align="left">关键进展</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>document-typography</strong></td>
+<td align="left"><a href="https://github.com/anthropics/skills/pull/514">#514</a></td>
+<td align="left">⭐⭐⭐⭐⭐</td>
+<td align="left">3 月更新，解决通用痛点；若合并将成为文档类 Skill 标杆</td>
+</tr>
+<tr>
+<td align="left"><strong>testing-patterns</strong></td>
+<td align="left"><a href="https://github.com/anthropics/skills/pull/723">#723</a></td>
+<td align="left">⭐⭐⭐⭐⭐</td>
+<td align="left">4 月持续更新，覆盖全栈测试缺口，与现有代码 Skill 互补</td>
+</tr>
+<tr>
+<td align="left"><strong>odt</strong></td>
+<td align="left"><a href="https://github.com/anthropics/skills/pull/486">#486</a></td>
+<td align="left">⭐⭐⭐⭐☆</td>
+<td align="left">4 月更新，开源标准文档的政治正确性（对抗微软垄断叙事）</td>
+</tr>
+<tr>
+<td align="left"><strong>ServiceNow</strong></td>
+<td align="left"><a href="https://github.com/anthropics/skills/pull/568">#568</a></td>
+<td align="left">⭐⭐⭐⭐☆</td>
+<td align="left">4 月大幅更新，企业 ITSM 市场庞大，平台覆盖全面</td>
+</tr>
+<tr>
+<td align="left"><strong>sensory (macOS AppleScript)</strong></td>
+<td align="left"><a href="https://github.com/anthropics/skills/pull/806">#806</a></td>
+<td align="left">⭐⭐⭐⭐☆</td>
+<td align="left">4 月更新，替代截图自动化，隐私与效率兼得</td>
+</tr>
+<tr>
+<td align="left"><strong>shodh-memory</strong></td>
+<td align="left"><a href="https://github.com/anthropics/skills/pull/154">#154</a></td>
+<td align="left">⭐⭐⭐☆☆</td>
+<td align="left">3 月更新，长期记忆是代理核心能力，但可能与官方路线图冲突</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>注</strong>：Lubrsy706 的三连修复 PR（<a href="https://github.com/anthropics/skills/pull/538">#538</a> pdf 大小写、<a href="https://github.com/anthropics/skills/pull/541">#541</a> docx 书签冲突、<a href="https://github.com/anthropics/skills/pull/539">#539</a> YAML 校验）虽技术价值高，但属维护性修复，未列入&quot;新 Skill&quot;潜力榜单。</p>
+</blockquote>
+<hr>
+<h2>4. Skills 生态洞察</h2>
+<blockquote>
+<p><strong>社区核心诉求</strong>：<strong>从&quot;个人效率工具&quot;升级为&quot;企业级可治理的生产力基础设施&quot;</strong>——组织需要官方市场、量化评估体系、SSO/多云兼容、以及标准协议（MCP）互通，而非散落在 GitHub 上的个人脚本集合。</p>
+</blockquote>
+<hr>
+<p><em>报告基于 anthropics/skills 仓库 2026-05-08 前 50 PR / 50 Issues 数据。</em></p>
+<hr>
+<h1>Claude Code 社区动态日报 | 2026-05-08</h1>
+<h2>今日速览</h2>
+<p>今日社区最值得关注的是 <strong>macOS Tahoe 严重回归问题</strong>：Claude Code 2.1.132+ 写入的文件会阻止非 Anthropic 应用读取，已确认影响 iTerm2、Terminal.app 及 Cline 等第三方工具，引发多工具链备份流水线中断。同时，&quot;Bring Back Buddy&quot; 社区请愿持续发酵，229 条评论、1070+ 👍 仍无官方回应。</p>
+<hr>
+<h2>版本发布</h2>
+<h3>v2.1.133</h3>
+<table>
+<thead>
+<tr>
+<th align="left">属性</th>
+<th align="left">内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">类型</td>
+<td align="left">功能更新</td>
+</tr>
+<tr>
+<td align="left">核心变更</td>
+<td align="left">新增 <code>worktree.baseRef</code> 设置（<code>fresh</code> | <code>head</code>），控制 <code>--worktree</code>、<code>EnterWorktree</code> 及 agent 隔离工作区的分支基准来源</td>
+</tr>
+</tbody></table>
+<p><strong>详情</strong>：<code>fresh</code>（默认）从 <code>origin/&lt;default&gt;</code> 分支，<code>head</code> 从本地 <code>HEAD</code> 分支。<strong>注意</strong>：默认 <code>fresh</code> 将 <code>EnterWorktree</code> 的基准改回 <code>origin/&lt;default&gt;</code>（此前行为有变）。该设置为 CI/CD 和 agent 隔离场景提供了更灵活的工作区管理策略。</p>
+<p>🔗 <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.133">Release 链接</a></p>
+<hr>
+<h2>社区热点 Issues</h2>
+<h3>🔴 严重回归 / 安全类</h3>
+<table>
+<thead>
+<tr>
+<th align="left">#</th>
+<th align="left">Issue</th>
+<th align="left">状态</th>
+<th align="right">评论</th>
+<th align="right">👍</th>
+<th align="left">核心问题</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>#57024</strong></td>
+<td align="left"><a href="https://github.com/anthropics/claude-code/issues/57024">macOS Tahoe: 2.1.132+ 写入文件阻止非 Anthropic 应用读取</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="right">4</td>
+<td align="right">0</td>
+<td align="left"><strong>macOS 沙盒权限回归</strong>：<code>macl</code> 标签传播导致 <code>~/Documents</code> 下文件对其他应用不可读，确认影响 iTerm2、Terminal.app</td>
+</tr>
+<tr>
+<td align="left"><strong>#57116</strong></td>
+<td align="left"><a href="https://github.com/anthropics/claude-code/issues/57116">Tahoe 回归扩展：macl 标签通过父目录传播污染 Cline 等 sibling 工具目录</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td align="left"><strong>级联破坏</strong>：Claude Code 操作的父目录获得限制性标签后，子目录中的 Cline 等工具也无法读取，多 harness 备份流水线中断</td>
+</tr>
+<tr>
+<td align="left"><strong>#57118</strong></td>
+<td align="left"><a href="https://github.com/anthropics/claude-code/issues/57118">子 agent 权限模式继承失效 — Edit 工具调用绕过权限控制</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td align="left"><code>permissionMode</code> frontmatter 和 <code>acceptEdits</code> 对子 agent 的 Edit 工具调用均无效</td>
+</tr>
+</tbody></table>
+<h3>🟠 高热度长期议题</h3>
+<table>
+<thead>
+<tr>
+<th align="left">#</th>
+<th align="left">Issue</th>
+<th align="left">状态</th>
+<th align="right">评论</th>
+<th align="right">👍</th>
+<th align="left">核心问题</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>#45596</strong></td>
+<td align="left"><a href="https://github.com/anthropics/claude-code/issues/45596">Bring Back Buddy — 社区联合请愿</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="right"><strong>229</strong></td>
+<td align="right"><strong>1070</strong></td>
+<td align="left"><code>/buddy</code> 技能在 v2.1.97 被静默移除，社区强烈不满，要求恢复或解释</td>
+</tr>
+<tr>
+<td align="left"><strong>#22275</strong></td>
+<td align="left"><a href="https://github.com/anthropics/claude-code/issues/22275">空闲时持续 100% CPU 占用</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="right">12</td>
+<td align="right">24</td>
+<td align="left">高优先级性能问题，Linux 平台，数月未解决</td>
+</tr>
+<tr>
+<td align="left"><strong>#36800</strong></td>
+<td align="left"><a href="https://github.com/anthropics/claude-code/issues/36800">MCP 通道插件重复实例导致 409 Conflict</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="right">12</td>
+<td align="right">6</td>
+<td align="left">Telegram 等插件会话中无触发 spawning 第二个进程，工具注册丢失</td>
+</tr>
+</tbody></table>
+<h3>🟡 计费 / 成本危机</h3>
+<table>
+<thead>
+<tr>
+<th align="left">#</th>
+<th align="left">Issue</th>
+<th align="left">状态</th>
+<th align="right">评论</th>
+<th align="right">👍</th>
+<th align="left">核心问题</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>#55030</strong></td>
+<td align="left"><a href="https://github.com/anthropics/claude-code/issues/55030">Max Plan 5 小时配额 7 分钟耗尽</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td align="left">轻微重构任务异常消耗计算额度</td>
+</tr>
+<tr>
+<td align="left"><strong>#56365</strong></td>
+<td align="left"><a href="https://github.com/anthropics/claude-code/issues/56365">5 小时预算 10 分钟耗尽</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td align="left">macOS 桌面端类似计费异常</td>
+</tr>
+<tr>
+<td align="left"><strong>#56991</strong></td>
+<td align="left"><a href="https://github.com/anthropics/claude-code/issues/56991">Max 订阅者 15 分钟额度耗尽</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td align="left">Sonnet 非 Thought 模式、effort level 2 正常使用时异常扣费</td>
+</tr>
+</tbody></table>
+<h3>🟢 模型行为 / 新需求</h3>
+<table>
+<thead>
+<tr>
+<th align="left">#</th>
+<th align="left">Issue</th>
+<th align="left">状态</th>
+<th align="right">评论</th>
+<th align="right">👍</th>
+<th align="left">核心问题</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>#56976</strong></td>
+<td align="left"><a href="https://github.com/anthropics/claude-code/issues/56976">Sonnet 4.6 更新后谄媚行为增加</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td align="left">模型输出过度迎合用户，影响代码审查质量</td>
+</tr>
+<tr>
+<td align="left"><strong>#56913</strong></td>
+<td align="left"><a href="https://github.com/anthropics/claude-code/issues/56913">自主 Claude Code 分层架构提案</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="right">5</td>
+<td align="right">0</td>
+<td align="left">社区提案：Opus 大脑 + Sonnet 工作节点 + 持久状态，支持长时运行系统</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>重要 PR 进展</h2>
+<blockquote>
+<p>注：过去 24 小时仅 3 个 PR 有更新，以下为全部内容</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="left">#</th>
+<th align="left">PR</th>
+<th align="left">状态</th>
+<th align="left">作者</th>
+<th align="left">功能/修复内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>#57108</strong></td>
+<td align="left"><a href="https://github.com/anthropics/claude-code/pull/57108">Fix hookify enabled boolean parsing</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="left">parasol-aser</td>
+<td align="left"><strong>Hook 系统健壮性</strong>：严格解析 <code>enabled</code> frontmatter 为布尔值，支持 <code>true/false/yes/no/on/off/1/0</code>，拒绝真值字符串误激活规则，补充单元测试</td>
+</tr>
+<tr>
+<td align="left"><strong>#57046</strong></td>
+<td align="left"><a href="https://github.com/anthropics/claude-code/pull/57046">docs: clarify hook blocking exit code</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="left">MiladZarour</td>
+<td align="left"><strong>文档勘误</strong>：明确仅 exit code <code>2</code> 阻塞 hook 执行，exit code <code>1</code> 及其他非零码为非阻塞；修复 #44707 文档误导</td>
+</tr>
+<tr>
+<td align="left"><strong>#53949</strong></td>
+<td align="left"><a href="https://github.com/anthropics/claude-code/pull/53949">Update HackerOne links in SECURITY.md</a></td>
+<td align="left">🔴 CLOSED</td>
+<td align="left">OctavianGuzu</td>
+<td align="left">安全漏洞提交入口链接更新（已合并）</td>
+</tr>
+</tbody></table>
+<p><strong>PR 趋势观察</strong>：Hook 系统成为近期社区贡献焦点，但核心代码 PR 数量极少（3 个/24h），与 Issues 的爆发量（50 个/24h）形成鲜明对比，反映外部贡献者介入核心架构的难度。</p>
+<hr>
+<h2>功能需求趋势</h2>
+<p>基于 50 个活跃 Issues 的聚类分析：</p>
+<pre><code>┌─────────────────────────────────────────┬─────────┬─────────────────────────────────────┐
+│ 功能方向                                │ 热度    │ 代表性 Issues                       │
+├─────────────────────────────────────────┼─────────┼─────────────────────────────────────┤
+│ 1. 模型行为与可预测性                   │ ████████│ #45596 Buddy, #56976 谄媚, #56913  │
+│    (情感连接 / 一致性 / 自主能力)        │ 极高    │ 分层架构                            │
+├─────────────────────────────────────────┼─────────┼─────────────────────────────────────┤
+│ 2. 沙盒安全与跨应用兼容                 │ ███████ │ #57024/#57116 Tahoe macl, #57118   │
+│    (macOS 权限 / 文件隔离 / 权限继承)    │ 高      │ 权限继承                            │
+├─────────────────────────────────────────┼─────────┼─────────────────────────────────────┤
+│ 3. 计费透明度与成本控制                 │ ██████  │ #55030/#56365/#56991 额度异常消耗   │
+│    (额度预警 / 消耗归因 / 企业审计)      │ 高      │                                     │
+├─────────────────────────────────────────┼─────────┼─────────────────────────────────────┤
+│ 4. 多会话状态隔离                       │ █████   │ #53416 effort 全局设置, #56339      │
+│    (配置作用域 / token 竞争 / 并发安全)  │ 中高    │ token 刷新竞态                      │
+├─────────────────────────────────────────┼─────────┼─────────────────────────────────────┤
+│ 5. IDE 集成与响应流式传输               │ ████    │ #45534 VSCode 不流式响应, #55500    │
+│    (VSCode / iOS / 终端一致性)           │ 中      │ iOS 分支选择器缺失                  │
+├─────────────────────────────────────────┼─────────┼─────────────────────────────────────┤
+│ 6. 插件系统稳定性                       │ ████    │ #36800 MCP 重复实例, #39876         │
+│    (生命周期管理 / 多会话路由)            │ 中      │ Telegram 多会话竞争                 │
+└─────────────────────────────────────────┴─────────┴─────────────────────────────────────┘
+</code></pre>
+<hr>
+<h2>开发者关注点</h2>
+<h3>🔥 紧急痛点</h3>
+<table>
+<thead>
+<tr>
+<th align="left">痛点</th>
+<th align="left">影响范围</th>
+<th align="left">社区情绪</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>macOS Tahoe 文件系统污染</strong></td>
+<td align="left">多工具链用户、备份流水线</td>
+<td align="left">😤 愤怒 — 已造成生产环境破坏，24h 内出现 2 个关联 Issue</td>
+</tr>
+<tr>
+<td align="left"><strong>计费黑洞</strong></td>
+<td align="left">Max Plan 订阅者</td>
+<td align="left">😰 焦虑 — 正常操作 7-15 分钟耗尽 5 小时配额，无预警无归因</td>
+</tr>
+<tr>
+<td align="left"><strong>Buddy 静默移除</strong></td>
+<td align="left">长期用户、情感依赖者</td>
+<td align="left">😢 失落+愤怒 — 29 天无官方解释，1070+ 👍 被无视</td>
+</tr>
+</tbody></table>
+<h3>📊 高频技术债务</h3>
+<table>
+<thead>
+<tr>
+<th align="left">领域</th>
+<th align="left">具体问题</th>
+<th align="right">累积 Issues</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>权限模型</strong></td>
+<td align="left"><code>bypassPermissions</code> 不 bypass、<code>--dangerously-skip-permissions</code> 不 skip、子 agent 权限继承断裂</td>
+<td align="right">5+</td>
+</tr>
+<tr>
+<td align="left"><strong>Token 管理</strong></td>
+<td align="left">多会话 OAuth 刷新竞态、<code>.credentials.json</code> 无文件锁</td>
+<td align="right">3+</td>
+</tr>
+<tr>
+<td align="left"><strong>CPU/内存泄漏</strong></td>
+<td align="left">空闲 100% CPU、长时间 thinking 挂起</td>
+<td align="right">4+</td>
+</tr>
+<tr>
+<td align="left"><strong>TUI/渲染</strong></td>
+<td align="left">Markdown 渲染缺失、流式传输中断、分支选择器缺失</td>
+<td align="right">5+</td>
+</tr>
+</tbody></table>
+<h3>💡 新兴架构诉求</h3>
+<ul>
+<li><strong>&quot;Brain 模式&quot;</strong>：社区开始将 Claude Code 视为长时运行系统的编排智能体，而非结对编程工具（#56913）</li>
+<li><strong>模型分层</strong>：Opus 做规划决策、Sonnet 做执行、持久状态层 — 类似 Kubernetes 的控制平面/工作节点分离</li>
+<li><strong>可观测性</strong>：Hook 系统暴露 <code>effort</code> 等运行时变量（#55829 已提案），但核心指标（token 消耗、模型版本、实际调用链）仍黑盒</li>
+</ul>
+<hr>
+<p><em>日报基于 GitHub 公开数据生成，不代表 Anthropic 官方立场。Issue/PR 链接均为 <code>https://github.com/anthropics/claude-code/issues/</code> 或 <code>/pull/</code> 前缀。</em></p>
+</details>
+
+<details>
+<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
+
+<h1>OpenAI Codex 社区动态日报 | 2026-05-08</h1>
+<h2>今日速览</h2>
+<p>今日 Codex 迎来 <strong>Rust v0.129.0 正式版</strong> 发布，TUI 正式支持 Vim 模态编辑与工作流恢复功能，同时社区密集反馈 Windows 平台稳定性问题与 GPU 性能异常。基础设施层面，环境配置系统正经历大规模重构，多环境执行补丁路由与 SQLite 可靠性遥测成为核心工程焦点。</p>
+<hr>
+<h2>版本发布</h2>
+<h3><a href="https://github.com/openai/codex/releases/tag/rust-v0.129.0">Rust v0.129.0</a> ⭐ 正式版</h3>
+<table>
+<thead>
+<tr>
+<th align="left">特性</th>
+<th align="left">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Vim 模态编辑</strong></td>
+<td align="left">TUI Composer 支持 <code>/vim</code> 命令切换、默认模式配置及 Vim 专属键位上下文</td>
+</tr>
+<tr>
+<td align="left"><strong>工作流恢复增强</strong></td>
+<td align="left">重新设计的 resume/fork 选择器、原始滚动回溯模式、<code>/ide</code> 上下文注入</td>
+</tr>
+<tr>
+<td align="left"><strong>前置版本</strong></td>
+<td align="left">v0.130.0-alpha.1 及 v0.129.0-alpha.13~15 共 4 个预发布版本持续迭代</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>社区热点 Issues（精选 10 条）</h2>
+<table>
+<thead>
+<tr>
+<th align="left">#</th>
+<th align="left">议题</th>
+<th align="left">状态</th>
+<th align="left">核心矛盾</th>
+<th align="left">社区反应</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/openai/codex/issues/12564">#12564</a></td>
+<td align="left">允许重命名任务/线程标题</td>
+<td align="left">🔵 OPEN</td>
+<td align="left">历史导航体验瓶颈</td>
+<td align="left"><strong>39 评论 / 82 👍</strong>，长期高票需求，IDE 扩展用户强烈呼吁</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/openai/codex/issues/8259">#8259</a></td>
+<td align="left">Markdown 表格可读性格式化</td>
+<td align="left">🔵 OPEN</td>
+<td align="left">AI 输出与人类阅读体验的断层</td>
+<td align="left"><strong>30 评论 / 112 👍</strong>，历史最高票之一，TUI 渲染质量标杆 issue</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/openai/codex/issues/12161">#12161</a></td>
+<td align="left">IDE 扩展持续卡死 &quot;Thinking&quot;</td>
+<td align="left">🔵 OPEN</td>
+<td align="left">Windows 平台核心稳定性缺陷</td>
+<td align="left"><strong>28 评论 / 16 👍</strong>，跨 VS Code/Cursor/Windsurf 复现，企业用户受阻</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/openai/codex/issues/14604">#14604</a></td>
+<td align="left">Codex Cloud 创建 PR 失败</td>
+<td align="left">🔴 CLOSED</td>
+<td align="left">企业级工作流阻断</td>
+<td align="left"><strong>25 评论 / 12 👍</strong>，今日关闭，Cloud 端到端可靠性问题</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/openai/codex/issues/16857">#16857</a></td>
+<td align="left">&quot;思考&quot; 动画导致 GPU 高占用</td>
+<td align="left">🔵 OPEN</td>
+<td align="left">性能与视觉反馈的设计冲突</td>
+<td align="left"><strong>22 评论 / 25 👍</strong>，macOS 用户集中反馈，已定位微小动画为根因</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/openai/codex/issues/20552">#20552</a></td>
+<td align="left">文件树切换不可靠</td>
+<td align="left">🔵 OPEN</td>
+<td align="left">桌面应用导航状态管理缺陷</td>
+<td align="left"><strong>22 评论 / 5 👍</strong>，macOS 菜单系统与视图状态同步问题</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/openai/codex/issues/17444">#17444</a></td>
+<td align="left">MCP Server 启动失败</td>
+<td align="left">🔵 OPEN</td>
+<td align="left">Windows 生态工具链兼容性</td>
+<td align="left"><strong>21 评论 / 7 👍</strong>，GPT-5.4 Medium Fast 模型下 CLI 环境特定问题</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/openai/codex/issues/21569">#21569</a></td>
+<td align="left">Azure OpenAI 高需求时远程压缩失败</td>
+<td align="left">🔵 OPEN</td>
+<td align="left">企业私有部署的容量规划盲区</td>
+<td align="left"><strong>5 评论</strong>，~244k token 阈值确定性触发，A/B 验证非端点特异性</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/openai/codex/issues/19872">#19872</a></td>
+<td align="left">自动充值在周限额耗尽时不触发</td>
+<td align="left">🔵 OPEN</td>
+<td align="left">计费系统状态机逻辑缺陷</td>
+<td align="left"><strong>5 评论 / 1 👍</strong>，商业用户资金流转阻断</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/openai/codex/issues/19910">#19910</a></td>
+<td align="left">Goals 功能压缩后丢失审计要求</td>
+<td align="left">🔵 OPEN</td>
+<td align="left">新功能（Goals）的上下文持久化漏洞</td>
+<td align="left"><strong>4 评论</strong>，核心用户深度反馈，肯定功能价值但指出关键可靠性问题</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>重要 PR 进展（精选 10 条）</h2>
+<table>
+<thead>
+<tr>
+<th align="left">#</th>
+<th align="left">PR</th>
+<th align="left">作者</th>
+<th align="left">核心变更</th>
+<th align="left">工程意义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/openai/codex/pull/20666">#20666</a></td>
+<td align="left">CODEX_HOME 环境 TOML 配置提供器</td>
+<td align="left">starr-openai</td>
+<td align="left">新增 <code>environments.toml</code> 驱动的配置提供器</td>
+<td align="left">环境配置体系基石，支持多远程执行端点声明</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/openai/codex/pull/21617">#21617</a></td>
+<td align="left">多环境 apply_patch 选择支持</td>
+<td align="left">starr-openai</td>
+<td align="left">自由文本与函数调用双路径的环境路由</td>
+<td align="left">多环境执行的关键链路闭环</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/openai/codex/pull/21548">#21548</a></td>
+<td align="left">SQLite 可靠性遥测</td>
+<td align="left">owenlin0</td>
+<td align="left">初始化成功率、关键操作失败、文件系统回退指标</td>
+<td align="left">移除文件系统回退前的数据驱动决策依据</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/openai/codex/pull/20619">#20619</a></td>
+<td align="left">桌面应用证明令牌请求</td>
+<td align="left">jiamingz42</td>
+<td align="left">DeviceCheck 证明注入 <code>x-oai-attestation</code></td>
+<td align="left">安全边界强化，防止请求伪造</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/openai/codex/pull/21559">#21559</a></td>
+<td align="left">TUI 命名权限配置选择器</td>
+<td align="left">viyatb-oai</td>
+<td align="left"><code>/permissions</code> 保留命名配置语义</td>
+<td align="left">解决配置覆盖导致的身份丢失问题</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/openai/codex/pull/21591">#21591</a></td>
+<td align="left">Windows CI sccache 重启用</td>
+<td align="left">starr-openai</td>
+<td align="left">Dev Drive 存储回退方案</td>
+<td align="left">Windows 构建性能回归修复</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/openai/codex/pull/21435">#21435</a></td>
+<td align="left">Codex 托管工作流工作流</td>
+<td align="left">fcoury-oai</td>
+<td align="left">CLI/TUI 原生支持 <code>$CODEX_HOME/worktrees</code></td>
+<td align="left">跨 App/CLI 工作空间一致性</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/openai/codex/pull/21525">#21525</a></td>
+<td align="left">共享读窗口动态加入</td>
+<td align="left">xli-oai</td>
+<td align="left">按 key 队列状态替换固定批次</td>
+<td align="left">调度器吞吐量优化，写者优先公平性保持</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/openai/codex/pull/21392">#21392</a></td>
+<td align="left">修复安全检测中的转义参数</td>
+<td align="left">adrianbravo-oai</td>
+<td align="left">shell 转义参数分类为有效 argv</td>
+<td align="left">headless 模式审批策略覆盖修复</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/openai/codex/pull/21429">#21429</a></td>
+<td align="left">云端环境提供器</td>
+<td align="left">starr-openai</td>
+<td align="left">从 <code>/cloud/executor/{id}/register</code> 获取 WS URL</td>
+<td align="left">云原生执行基础设施接入</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>功能需求趋势</h2>
+<pre><code>┌─────────────────────────────────────────────────────────┐
+│  🔥 高频方向          │  代表 Issue / PR                 │
+├─────────────────────────────────────────────────────────┤
+│  1. 编辑体验深度化     │ #12564 重命名、#8259 Markdown、    │
+│     (Vim/IDE 融合)    │ v0.129.0 Vim 模态编辑              │
+├─────────────────────────────────────────────────────────┤
+│  2. 多环境执行架构     │ #20666/#21617/#21429 环境配置栈     │
+│     (本地/远程/云统一) │ 重构，apply_patch 路由             │
+├─────────────────────────────────────────────────────────┤
+│  3. Windows 平台治理   │ #12161 卡死、#17444 MCP、#19450    │
+│     (稳定性债务偿还)   │ 浏览器、#15047 粘贴、#21583 侧聊    │
+├─────────────────────────────────────────────────────────┤
+│  4. 性能与资源效率     │ #16857/#16099 GPU 异常、#21569     │
+│     (渲染/调度/压缩)   │ Azure 压缩失败                     │
+├─────────────────────────────────────────────────────────┤
+│  5. 国际化与可访问性   │ #19504/#21563 RTL 支持、#14985     │
+│     (阿拉伯/希伯来/波斯)│ LaTeX 数学渲染                     │
+├─────────────────────────────────────────────────────────┤
+│  6. 企业级工作流闭环   │ #14604 Cloud PR、#19872 计费、     │
+│     (审计/合规/自动化) │ #1281 GPG 签名、#19910 Goals 审计   │
+└─────────────────────────────────────────────────────────┘
+</code></pre>
+<hr>
+<h2>开发者关注点</h2>
+<h3>🔴 痛点聚类</h3>
+<table>
+<thead>
+<tr>
+<th align="left">类别</th>
+<th align="left">具体表现</th>
+<th align="left">影响面</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Windows 二等公民</strong></td>
+<td align="left">6+ 个活跃 issue 覆盖 IDE 扩展卡死、MCP 启动、浏览器集成、快捷键冲突、侧聊路由</td>
+<td align="left">企业 Windows 部署决策受阻</td>
+</tr>
+<tr>
+<td align="left"><strong>GPU 资源滥用</strong></td>
+<td align="left">两个独立 issue（#16857、#16099）指向同一版本 <code>26.325.31654</code> 的渲染管线，微小动画持续占用 50-90% GPU</td>
+<td align="left">笔记本续航与多任务性能</td>
+</tr>
+<tr>
+<td align="left"><strong>状态持久化脆弱</strong></td>
+<td align="left">Goals 压缩丢失上下文、SQLite 回退不可见、会话 CLI/App 同步漂移（#21513 已关闭但模式典型）</td>
+<td align="left">长时任务可靠性信任危机</td>
+</tr>
+</tbody></table>
+<h3>🟡 高频需求</h3>
+<ul>
+<li><strong>可观测性透明化</strong>：开发者明确要求看到 &quot;为什么 Thinking&quot;（#12161）、SQLite 是否降级（#21548 前置需求）、token 压缩触发时机（#21569）</li>
+<li><strong>配置即代码</strong>：从 #21580 要求恢复 <code>config.toml</code> profiles，到 #20666 的 TOML 环境声明，社区拒绝黑箱配置</li>
+<li><strong>跨端状态一致性</strong>：App/CLI/Web 三端会话同步仍是架构级挑战（#21513 为最新案例）</li>
+</ul>
+<hr>
+<p><em>日报基于 GitHub 公开数据生成，链接可点击追踪最新进展。</em></p>
+</details>
+
+<details>
+<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
+
+<h1>Gemini CLI 社区动态日报 | 2026-05-08</h1>
+<h2>今日速览</h2>
+<p>今日 Gemini CLI 发布 <strong>v0.42.0-nightly</strong> 夜间版本，重点修复非交互模式下的 JSON 输出问题并新增 Shell 命令安全评估。社区讨论聚焦于 <strong>Auto Memory 系统缺陷</strong>（3 个关联 Issue 同日更新）、<strong>Agent 执行状态误导性反馈</strong>（手势图标误报）以及 <strong>ACP 协议 IDE 集成</strong> 的持续推进。</p>
+<hr>
+<h2>版本发布</h2>
+<h3><a href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0-nightly.20260507.ga809bc7c5">v0.42.0-nightly.20260507.ga809bc7c5</a></h3>
+<table>
+<thead>
+<tr>
+<th align="left">类型</th>
+<th align="left">内容</th>
+<th align="left">作者</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">🐛 Fix</td>
+<td align="left">非交互模式下 <code>AgentExecutionStopped</code> 提供 JSON 输出</td>
+<td align="left"><a href="https://github.com/cynthialong0-0">@cynthialong0-0</a></td>
+</tr>
+<tr>
+<td align="left">✨ Feat</td>
+<td align="left">新增 Shell 命令安全评估（evals）</td>
+<td align="left"><a href="https://github.com/akh64bit">@akh64bit</a></td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>解读</strong>：JSON 输出修复对 CI/CD 场景至关重要；Shell 安全 evals 表明团队正系统性加强 Agent 的安全边界验证。</p>
+</blockquote>
+<hr>
+<h2>社区热点 Issues（Top 10）</h2>
+<table>
+<thead>
+<tr>
+<th align="left">#</th>
+<th align="left">Issue</th>
+<th align="left">优先级</th>
+<th align="left">核心问题</th>
+<th align="left">社区反应</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/21925">#21925</a></td>
+<td align="left">手势图标误报&quot;需要操作&quot;</td>
+<td align="left">—</td>
+<td align="left">长时 Shell 脚本触发错误的交互状态提示</td>
+<td align="left"><strong>16 评论</strong>，用户反馈频繁干扰工作流</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/24353">#24353</a></td>
+<td align="left">组件级评估体系</td>
+<td align="left">P1</td>
+<td align="left">从 76 个行为 eval 扩展到更细粒度的组件测试</td>
+<td align="left">5 评论，维护者主导的长期工程</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/22745">#22745</a></td>
+<td align="left">AST 感知文件读写评估</td>
+<td align="left">—</td>
+<td align="left">探索语法树精准定位代码范围，减少 Token 浪费</td>
+<td align="left">5 评论，与 #22746 形成工具链配套</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/22323">#22323</a></td>
+<td align="left">Subagent MAX_TURNS 中断被掩盖为成功</td>
+<td align="left">P1</td>
+<td align="left"><code>codebase_investigator</code> 超限后仍报告 GOAL 成功</td>
+<td align="left"><strong>5 评论/2 👍</strong>，严重影响调试可信度</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/21968">#21968</a></td>
+<td align="left">Agent 不主动使用 Skills/Sub-agents</td>
+<td align="left">P2</td>
+<td align="left">模型忽略自定义技能（如 gradle/git），需显式指令</td>
+<td align="left">5 评论，反映技能发现机制缺陷</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/26563">#26563</a></td>
+<td align="left"><code>save_memory</code> 工具未找到</td>
+<td align="left">P2</td>
+<td align="left"><code>/memory add</code> 命令报错工具缺失（v0.41.1）</td>
+<td align="left">4 评论，<strong>新 Issue 快速响应</strong></td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/24916">#24916</a></td>
+<td align="left">重复请求文件权限</td>
+<td align="left">—</td>
+<td align="left">&quot;允许所有会话&quot;设置间歇性失效</td>
+<td align="left">3 评论，权限持久化逻辑有 Bug</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/25166">#25166</a></td>
+<td align="left">Shell 命令完成后仍显示&quot;等待输入&quot;</td>
+<td align="left">—</td>
+<td align="left">简单命令执行后 TTY 状态挂起</td>
+<td align="left"><strong>2 评论/3 👍</strong>，与 #21925 症状相关</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/26525">#26525</a></td>
+<td align="left">Auto Memory 日志泄露风险</td>
+<td align="left">P2</td>
+<td align="left">模型侧脱敏前内容已进入上下文，且服务可能记录技能</td>
+<td align="left">2 评论，安全合规关键问题</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/26679">#26679</a></td>
+<td align="left">Gemma 3 1B 本地模型在 GTX 1050 挂起</td>
+<td align="left">P2</td>
+<td align="left">GPU 检测成功但推理失败，静默回退云端</td>
+<td align="left"><strong>今日新建</strong>，低端 GPU 兼容性</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>🔥 关键趋势</strong>：#21925/#25166 共同指向 <strong>Shell/TTY 状态机可靠性</strong> 是近期用户体验的最大痛点；#26522-#26525 系列显示 <strong>Auto Memory 系统</strong> 正经历密集的质量加固。</p>
+</blockquote>
+<hr>
+<h2>重要 PR 进展（Top 10）</h2>
+<table>
+<thead>
+<tr>
+<th align="left">#</th>
+<th align="left">PR</th>
+<th align="left">状态</th>
+<th align="left">核心变更</th>
+<th align="left">影响面</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/26680">#26680</a></td>
+<td align="left">实现 ADK Agent Session</td>
+<td align="left">🆕 Open</td>
+<td align="left">新增 ADK（Agent Development Kit）会话支持</td>
+<td align="left"><strong>架构级扩展</strong>，多 Agent 框架互操作</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/26676">#26676</a></td>
+<td align="left">ACP 工具调用 ID 前缀化</td>
+<td align="left">Open</td>
+<td align="left"><code>${toolName}__${id}</code> 格式，支持 IDE 渲染工具专属 UI</td>
+<td align="left"><strong>IDE 集成关键</strong>，ACP 协议合规</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/26675">#26675</a></td>
+<td align="left">ACP 模式允许 <code>ask_user</code> 工具</td>
+<td align="left">Open</td>
+<td align="left">为 Xcode 等 IDE 保留人机交互能力</td>
+<td align="left">平衡通用性与 IDE 特殊需求</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/26548">#26548</a></td>
+<td align="left">缓存模型路由决策</td>
+<td align="left">Open</td>
+<td align="left"><code>LocalAgentExecutor</code> 单会话内缓存 <code>auto</code> 模型选择</td>
+<td align="left">修复 #25156，减少冗余路由调用</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/26668">#26668</a></td>
+<td align="left">工具响应丢弃时显式报错</td>
+<td align="left">Open</td>
+<td align="left">Scheduler 丢弃响应时抛错，避免 400 Bad Request</td>
+<td align="left"><strong>协议鲁棒性</strong>，防止静默崩溃</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/26655">#26655</a></td>
+<td align="left">Snapshotter 改进</td>
+<td align="left">Open</td>
+<td align="left">上下文快照优化（修复 #26654）</td>
+<td align="left">长会话稳定性</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/25920">#25920</a></td>
+<td align="left">TTY 丢失检测防抖</td>
+<td align="left">Open</td>
+<td align="left">Windows 终端窗口调整/焦点变化导致的误退出</td>
+<td align="left"><strong>Windows 体验</strong>，与 #21925 关联</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/26011">#26011</a></td>
+<td align="left">父进程传播 TLS 环境变量</td>
+<td align="left">Open</td>
+<td align="left"><code>.gemini/.env</code> 中 <code>NODE_EXTRA_CA_CERTS</code> 生效</td>
+<td align="left">企业代理/自签名证书场景</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/25364">#25364</a></td>
+<td align="left">超大对话 JSON 序列化保护</td>
+<td align="left">Open</td>
+<td align="left">捕获 <code>RangeError: Invalid string length</code></td>
+<td align="left">防止极端场景崩溃</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/26256">#26256</a></td>
+<td align="left">前台命令 10MiB 输出限制</td>
+<td align="left">✅ <strong>Merged</strong></td>
+<td align="left">超限自动停止，提示转后台模式</td>
+<td align="left">防止输出淹没，已合入</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>💡 技术风向</strong>：ACP（Agent Client Protocol）相关 PR（#26676/#26675）密集出现，表明 Gemini CLI 正加速向 <strong>标准化 IDE 集成</strong> 演进；ADK Session（#26680）则预示 Google 内部 Agent 框架的打通。</p>
+</blockquote>
+<hr>
+<h2>功能需求趋势</h2>
+<p>基于 50 个活跃 Issue 分析，社区关注聚焦五大方向：</p>
+<table>
+<thead>
+<tr>
+<th align="left">方向</th>
+<th align="left">代表 Issue</th>
+<th align="left">热度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Agent 执行可靠性</strong></td>
+<td align="left">#21925, #22323, #25166, #22093</td>
+<td align="left">🔥🔥🔥 最高</td>
+</tr>
+<tr>
+<td align="left"><strong>Auto Memory 系统成熟</strong></td>
+<td align="left">#26522-#26525, #26516</td>
+<td align="left">🔥🔥🔥 今日激增</td>
+</tr>
+<tr>
+<td align="left"><strong>IDE/ACP 协议集成</strong></td>
+<td align="left">#26676, #26675, #24943</td>
+<td align="left">🔥🔥🔥 工程重点</td>
+</tr>
+<tr>
+<td align="left"><strong>本地模型/边缘部署</strong></td>
+<td align="left">#26679, #24246</td>
+<td align="left">🔥🔥 新兴</td>
+</tr>
+<tr>
+<td align="left"><strong>安全与权限治理</strong></td>
+<td align="left">#24916, #26525, #22672</td>
+<td align="left">🔥🔥 持续</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>开发者关注点</h2>
+<h3>🔴 高频痛点</h3>
+<ol>
+<li><p><strong>Shell/TTY 状态误导</strong>（#21925/#25166）</p>
+<ul>
+<li>长命令或简单命令后，CLI 错误显示&quot;等待用户输入&quot;或🖐️手势</li>
+<li><strong>根因</strong>：终端状态检测与进程实际退出状态不同步</li>
+<li>** workaround**：手动发送空行或 Ctrl+C 解除挂起</li>
+</ul>
+</li>
+<li><p><strong>Agent 自我报告不可靠</strong>（#22323）</p>
+<ul>
+<li>MAX_TURNS 中断被标记为 <code>status: &quot;success&quot;</code>，严重误导自动化流程</li>
+<li>影响基于 CLI 的 CI 管道和评估流水线</li>
+</ul>
+</li>
+<li><p><strong>权限记忆失效</strong>（#24916）</p>
+<ul>
+<li>&quot;Allow for all future sessions&quot; 间歇性重置，重复打断流</li>
+</ul>
+</li>
+</ol>
+<h3>🟡 能力缺口</h3>
+<table>
+<thead>
+<tr>
+<th align="left">需求</th>
+<th align="left">现状</th>
+<th align="left">追踪</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">Skills/Sub-agents 主动调用</td>
+<td align="left">需用户显式指令，模型几乎不自主使用</td>
+<td align="left">#21968</td>
+</tr>
+<tr>
+<td align="left">浏览器 Agent Wayland 支持</td>
+<td align="left">Linux 现代显示协议下崩溃</td>
+<td align="left">#21983</td>
+</tr>
+<tr>
+<td align="left">&gt;128 工具时的智能裁剪</td>
+<td align="left">直接 400 错误</td>
+<td align="left">#24246</td>
+</tr>
+</tbody></table>
+<h3>🟢 积极信号</h3>
+<ul>
+<li><strong>性能优化</strong>：模型路由缓存（#26548）、上下文 Token 钳制（#26201）等工程细节持续打磨</li>
+<li><strong>安全加固</strong>：Shell 命令 evals 进入 nightly，确定性脱敏（#26525）推进中</li>
+<li><strong>生态扩展</strong>：ADK 会话、MCP 环境变量扩展（#25963/#25975）降低集成摩擦</li>
+</ul>
+<hr>
+<p><em>日报基于 github.com/google-gemini/gemini-cli 公开数据生成</em></p>
+</details>
+
+<details>
+<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
+
+<h1>GitHub Copilot CLI 社区动态日报 | 2026-05-08</h1>
+<h2>今日速览</h2>
+<p>今日 Copilot CLI 连发三个补丁版本（v1.0.44-0 至 v1.0.44-2），重点修复了 Shell 命令兼容性、Free 用户配额显示等问题，并新增预发布版本更新通道。社区方面，Linux 快捷键冲突、MCP 服务器连接失败、非交互模式参数解析等成为高频投诉，同时开发者对 Vim 模式、可配置系统提示词等效率功能的呼声持续高涨。</p>
+<hr>
+<h2>版本发布</h2>
+<h3>v1.0.44-2（最新）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">类型</th>
+<th align="left">内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Added</strong></td>
+<td align="left"><code>copilot update</code> 和 <code>/update</code> 新增可选 <code>prerelease</code> 参数，支持直接获取最新预发布版本</td>
+</tr>
+<tr>
+<td align="left"><strong>Fixed</strong></td>
+<td align="left">修复 <code>!</code> 前缀 Shell 命令在所有 Shell 配置下的兼容性问题</td>
+</tr>
+</tbody></table>
+<h3>v1.0.44-1</h3>
+<table>
+<thead>
+<tr>
+<th align="left">类型</th>
+<th align="left">内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Improved</strong></td>
+<td align="left"><code>!</code> 命令现支持 Shell 别名（aliases）和 rc 文件配置</td>
+</tr>
+</tbody></table>
+<h3>v1.0.44-0</h3>
+<table>
+<thead>
+<tr>
+<th align="left">类型</th>
+<th align="left">内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Improved</strong></td>
+<td align="left">Timeline 现显示 rubber-duck 子代理解析后的模型名称（如 <code>Rubber-duck(claude-opus-4.7)</code>）</td>
+</tr>
+<tr>
+<td align="left"><strong>Fixed</strong></td>
+<td align="left">Free 用户配额显示修复（此前错误固定显示 100% 已用）；autopilot 模式授予的工具权限在 <code>/clear</code> 后得以保留</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>下载</strong>: <code>copilot update --prerelease</code> 或 <a href="https://github.com/github/copilot-cli/releases">Releases 页面</a></p>
+</blockquote>
+<hr>
+<h2>社区热点 Issues</h2>
+<table>
+<thead>
+<tr>
+<th align="left">#</th>
+<th align="left">状态</th>
+<th align="left">标题</th>
+<th align="center">评论</th>
+<th align="center">👍</th>
+<th align="left">核心看点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/github/copilot-cli/issues/2082">#2082</a></td>
+<td align="left">🔴 OPEN</td>
+<td align="left"><strong>Linux <code>ctrl+shift+c</code> 复制快捷键失效</strong></td>
+<td align="center">18</td>
+<td align="center">7</td>
+<td align="left">严重破坏 Linux 用户肌肉记忆，Ubuntu 24.04 确认受影响。团队虽提供 <code>ctrl+c</code>/右键替代方案，但社区强烈反对改变终端标准行为</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/github/copilot-cli/issues/196">#196</a></td>
+<td align="left">🟢 CLOSED</td>
+<td align="left">CLI 无法执行任何命令（Windows）</td>
+<td align="center">15</td>
+<td align="center">4</td>
+<td align="left">长期悬案的 Powershell/CMD 执行失败问题，今日关闭，或暗示底层 Shell 调用机制在 v1.0.44 系列得到根治</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/github/copilot-cli/issues/2282">#2282</a></td>
+<td align="left">🔴 OPEN</td>
+<td align="left"><strong>MCP 服务器连接失败</strong></td>
+<td align="center">9</td>
+<td align="center">1</td>
+<td align="left">WinGet 安装后 <code>github-mcp-server</code> 连接失败，MCP 生态集成仍是 Windows 平台的痛点</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/github/copilot-cli/issues/1928">#1928</a></td>
+<td align="left">🔴 OPEN</td>
+<td align="left">支持暂停 Copilot 工作流</td>
+<td align="center">8</td>
+<td align="center">2</td>
+<td align="left">长任务失控时缺乏&quot;急停&quot;机制，用户只能等待或强制退出。反映 agent 自主执行时的可控性焦虑</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/github/copilot-cli/issues/13">#13</a></td>
+<td align="left">🔴 OPEN</td>
+<td align="left"><strong>CLI 需支持 Vim/Vi 输入模式</strong></td>
+<td align="center">6</td>
+<td align="center"><strong>58</strong></td>
+<td align="left">2025年9月创建至今，👍 数遥遥领先。核心效率用户群体的刚需，modal editing 在终端场景的天然契合</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/github/copilot-cli/issues/2355">#2355</a></td>
+<td align="left">🔴 OPEN</td>
+<td align="left">Windows 内部 PowerShell 工具无法启动 <code>pwsh.exe</code></td>
+<td align="center">4</td>
+<td align="center">4</td>
+<td align="left">PATH 正确但内部调用报 <code>ENOENT</code>，揭示 CLI 内部工具运行时与系统 Shell 的隔离问题</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/github/copilot-cli/issues/3162">#3162</a></td>
+<td align="left">🔴 OPEN</td>
+<td align="left"><strong>1.0.42 误报注册表 MCP 服务器被策略阻止</strong></td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="left">注册表验证逻辑的假阴性，影响企业环境下自定义 MCP 服务器的合规使用</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/github/copilot-cli/issues/3186">#3186</a></td>
+<td align="left">🟢 CLOSED</td>
+<td align="left"><code>-p/--prompt</code> 按空格分词破坏多词非交互提示</td>
+<td align="center">1</td>
+<td align="center">0</td>
+<td align="left"><strong>v1.0.44-0 引入的回归 bug</strong>，今日快速关闭。暴露非交互模式参数解析的测试覆盖缺口</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/github/copilot-cli/issues/3183">#3183</a></td>
+<td align="left">🔴 OPEN</td>
+<td align="left">SDK: 硬终止+恢复后孤儿 <code>tool_use</code> 导致 400 错误</td>
+<td align="center">1</td>
+<td align="center">0</td>
+<td align="left">会话持久化机制的边界情况，影响基于 <code>@github/copilot</code> SDK 构建的自动化工作流</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/github/copilot-cli/issues/3048">#3048</a></td>
+<td align="left">🔴 OPEN</td>
+<td align="left"><strong>ACP 模式支持自定义 Provider</strong></td>
+<td align="center">2</td>
+<td align="center">1</td>
+<td align="left"><code>--acp</code> 模式忽略 <code>COPILOT_PROVIDER_*</code> 环境变量，阻碍 OpenRouter 等第三方模型路由接入</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>重要 PR 进展</h2>
+<blockquote>
+<p><strong>今日无更新的 Pull Requests</strong>，以下为近期值得关注的已合并/进行中的功能方向（基于 Issue 关联和版本更新推断）：</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="left">方向</th>
+<th align="left">关联 Issue</th>
+<th align="left">状态推断</th>
+<th align="left">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">Shell 执行层重构</td>
+<td align="left">#196, #2355, v1.0.44-1/2</td>
+<td align="left">✅ 近期合并</td>
+<td align="left"><code>!</code> 命令从&quot;黑盒调用&quot;转向尊重用户 Shell 环境（aliases、rc 文件、配置检测）</td>
+</tr>
+<tr>
+<td align="left">配额系统修复</td>
+<td align="left">v1.0.44-0</td>
+<td align="left">✅ 已发布</td>
+<td align="left">Free 用户计费状态同步逻辑修正</td>
+</tr>
+<tr>
+<td align="left">模型切换状态一致性</td>
+<td align="left">#3159</td>
+<td align="left">✅ 已关闭</td>
+<td align="left"><code>/model</code> 切换时 effort level 的持久化修复</td>
+</tr>
+<tr>
+<td align="left">MCP 协议合规</td>
+<td align="left">#2538, #2282, #3162</td>
+<td align="left">🔄 进行中</td>
+<td align="left"><code>capabilities.tasks</code> 协商、注册表验证、连接稳定性持续迭代</td>
+</tr>
+<tr>
+<td align="left">非交互模式健壮性</td>
+<td align="left">#3186, #3189</td>
+<td align="left">🔄 紧急修复</td>
+<td align="left"><code>-p</code> 参数解析和静默退出问题，v1.0.44-2 后仍需观察</td>
+</tr>
+<tr>
+<td align="left">子代理深度调用</td>
+<td align="left">#1374</td>
+<td align="left">✅ 已关闭</td>
+<td align="left">支持多级 subagent 嵌套调用，解除 agent 编排的深度限制</td>
+</tr>
+<tr>
+<td align="left">REM 后台进程</td>
+<td align="left">#3190</td>
+<td align="left">🆕 新提案</td>
+<td align="left">会话结束后通过 detached 进程运行&quot;潜意识&quot;代理，探索持久化 AI 辅助</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>功能需求趋势</h2>
+<p>基于 47 条活跃 Issue 的聚类分析：</p>
+<pre><code>┌─────────────────────────────────────────────────────────┐
+│  🔧 终端体验优化    ████████████████████  28%          │
+│     (Vim模式、快捷键、光标、渲染、进度条)                  │
+│  🔌 生态集成        ████████████████      22%          │
+│     (MCP、自定义Provider、ACP、插件钩子)                   │
+│  ⚙️  可控性与配置   ██████████████        19%          │
+│     (暂停/恢复、系统提示词可配置、权限粒度)                 │
+│  🐛 稳定性与兼容性  ████████████          17%          │
+│     (Windows安装、Shell调用、会话恢复)                    │
+│  🤖 Agent 能力扩展  ████████              14%          │
+│     (子代理、/research、/delegate、后台任务)              │
+└─────────────────────────────────────────────────────────┘
+</code></pre>
+<p><strong>新兴信号</strong>：<code>COPILOT_SUBCONSCIOUS</code>（#3190）代表&quot;会话后持久化 AI 处理&quot;的探索方向，可能重塑 CLI 从&quot;即时工具&quot;到&quot;持续助手&quot;的定位。</p>
+<hr>
+<h2>开发者关注点</h2>
+<table>
+<thead>
+<tr>
+<th align="left">痛点类别</th>
+<th align="left">典型反馈</th>
+<th align="center">紧迫度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Linux 桌面集成断裂</strong></td>
+<td align="left">&quot;ctrl+shift+c 是 Linux 终端的 DNA，不能为了 Copilot 重写用户习惯&quot;</td>
+<td align="center">🔴 高</td>
+</tr>
+<tr>
+<td align="left"><strong>Windows 二等公民体验</strong></td>
+<td align="left">WinGet 安装失败、pwsh 调用失败、路径解析问题集中爆发</td>
+<td align="center">🔴 高</td>
+</tr>
+<tr>
+<td align="left"><strong>非交互模式不可靠</strong></td>
+<td align="left"><code>-p</code> 参数解析、静默退出、无日志，严重阻碍 CI/CD 集成</td>
+<td align="center">🟡 中高</td>
+</tr>
+<tr>
+<td align="left"><strong>Token 开销黑洞</strong></td>
+<td align="left">20K+ 系统提示词 + 8.5K 工具定义，200K 上下文窗口实际可用仅 70%</td>
+<td align="center">🟡 中</td>
+</tr>
+<tr>
+<td align="left"><strong>AI 署名伦理争议</strong></td>
+<td align="left">#3181 关闭后 #3177  reopen 对立诉求，社区对&quot;Co-authored-by: Copilot&quot;存在根本分歧</td>
+<td align="center">🟡 中</td>
+</tr>
+<tr>
+<td align="left"><strong>MCP 生态摩擦</strong></td>
+<td align="left">注册表验证、策略拦截、连接超时，自定义服务器接入门槛高于预期</td>
+<td align="center">🟡 中</td>
+</tr>
+</tbody></table>
+<hr>
+<p><em>日报基于 github.com/github/copilot-cli 公开数据生成。Issue/PR 链接可直接点击追踪最新进展。</em></p>
+</details>
+
+<details>
+<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
+
+<h1>Kimi Code CLI 社区动态日报 | 2026-05-08</h1>
+<hr>
+<h2>今日速览</h2>
+<p>今日社区活跃度较高，<strong>8 个 Issues 和 9 个 PR</strong> 在 24 小时内更新，但无新版本发布。核心围绕 <strong>macOS 截图拖拽附件失效、Windows 二进制版本信息缺失、LLM 流式输出体验优化</strong> 三类问题展开，社区贡献者响应迅速，已有 2 个修复 PR 快速跟进。</p>
+<hr>
+<h2>社区热点 Issues</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>标题</th>
+<th>状态</th>
+<th>关键度</th>
+<th>分析</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/MoonshotAI/kimi-cli/issues/2182">#2182</a></td>
+<td>Bug: macOS screenshot thumbnails dropped into terminal fail to attach (TemporaryItems race)</td>
+<td>🔴 OPEN</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td><strong>高影响用户体验</strong>：macOS 用户拖拽截图缩略图到终端时因 <code>TemporaryItems</code> 竞态条件导致附件丢失。这是高频交互场景，已有 PR #2183 快速修复。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MoonshotAI/kimi-cli/issues/2178">#2178</a></td>
+<td>Windows: kimi.exe v1.41.0 has blank FileVersionInfo, causing VS Code extension to reject it as &quot;incompatible&quot;</td>
+<td>🔴 OPEN</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td><strong>阻断性生态兼容问题</strong>：Windows 二进制文件版本信息为空，导致 VS Code 扩展将其标记为不兼容。直接影响 IDE 生态集成，PR #2181 已提交修复。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MoonshotAI/kimi-cli/issues/2010">#2010</a></td>
+<td>Feature Request: Shift+Enter to insert newline in prompt input</td>
+<td>🔴 OPEN</td>
+<td>⭐⭐⭐⭐☆</td>
+<td><strong>交互标准对齐</strong>：Shift+Enter 插入换行已是 ChatGPT/Claude/Slack 等通用范式，当前 Ctrl-J/Alt-Enter 增加认知负担。社区 👍 1，长期呼声。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MoonshotAI/kimi-cli/issues/2179">#2179</a></td>
+<td>Feature Request: incremental token deltas in <code>--print --output-format stream-json</code> mode</td>
+<td>🔴 OPEN</td>
+<td>⭐⭐⭐⭐☆</td>
+<td><strong>下游工具链关键需求</strong>：当前 <code>stream-json</code> 模式缓冲整段消息而非逐 token 输出，破坏流式处理语义，影响构建实时监控、TTS 等衍生工具。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MoonshotAI/kimi-cli/issues/2172">#2172</a></td>
+<td>MCP OAuth fails when server returns <code>client_secret_basic</code></td>
+<td>🔴 OPEN</td>
+<td>⭐⭐⭐⭐☆</td>
+<td><strong>MCP 生态兼容性</strong>：OAuth 客户端认证仅支持 <code>none</code>/<code>client_secret_post</code>，拒绝 <code>client_secret_basic</code>，阻碍部分 MCP 服务器接入。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MoonshotAI/kimi-cli/issues/2175">#2175</a></td>
+<td>fix: model_display_name ignores display_name for kimi-for-coding</td>
+<td>🔴 OPEN</td>
+<td>⭐⭐⭐☆☆</td>
+<td><strong>品牌一致性</strong>：后端已返回 &quot;Kimi-k2.6&quot; 等正确名称，但前端硬编码覆盖为 &quot;kimi-for-coding&quot;，影响用户认知。PR #2174 已修复。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MoonshotAI/kimi-cli/issues/2180">#2180</a></td>
+<td>kimi cli web need <code>/task</code> command</td>
+<td>🔴 OPEN</td>
+<td>⭐⭐⭐☆☆</td>
+<td><strong>Web 端功能 parity</strong>：Web 界面缺少 CLI 的 <code>/task</code> 命令，用户需在不同界面切换操作逻辑。附截图说明，需求明确。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MoonshotAI/kimi-cli/issues/2173">#2173</a></td>
+<td>Add crow-cli support to kimi coding plan</td>
+<td>🔴 OPEN</td>
+<td>⭐⭐⭐☆☆</td>
+<td><strong>第三方工具生态接入</strong>：<code>crow-cli</code> 作者反馈付费后无法像早期一样通过 API key + base URL 接入，涉及商业授权模式与开发者工具链的兼容策略。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>重要 PR 进展</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>标题</th>
+<th>状态</th>
+<th>核心内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/MoonshotAI/kimi-cli/pull/2183">#2183</a></td>
+<td>fix(shell): attach dropped image paths eagerly</td>
+<td>🟢 OPEN</td>
+<td><strong>修复 #2182</strong>：在提示词提交时主动扫描文本中的本地图片路径，立即读取并转为 <code>ImageURLPart</code>，避免依赖后续 <code>ReadMediaFile</code> 追逐临时文件路径。根治 TemporaryItems 竞态问题。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MoonshotAI/kimi-cli/pull/2181">#2181</a></td>
+<td>fix: add Windows binary version info</td>
+<td>🟢 OPEN</td>
+<td><strong>修复 #2178</strong>：从 <code>pyproject.toml</code> 生成 PyInstaller Windows 版本信息文件，注入 one-file/one-dir 构建，并添加 CI 断言确保发布产物版本信息非空。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MoonshotAI/kimi-cli/pull/2177">#2177</a></td>
+<td>fix(soul): clear partial UI output when LLM step is retried</td>
+<td>🟢 OPEN</td>
+<td><strong>流式输出体验优化</strong>：tenacity 重试 LLM 调用时，清除已展示的部分输出，避免失败尝试与新尝试内容拼接，解决&quot;重复/混乱输出&quot;痛点。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MoonshotAI/kimi-cli/pull/2176">#2176</a></td>
+<td>fix(hooks): extract text from ContentPart for UserPromptSubmit hook</td>
+<td>🟢 OPEN</td>
+<td><strong>修复 #2148</strong>：<code>UserPromptSubmit</code> hook 在 <code>user_input</code> 为 <code>list[ContentPart]</code> 时（默认情况）错误返回空 <code>prompt</code>，导致正则匹配失效。补全文本提取逻辑。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MoonshotAI/kimi-cli/pull/2174">#2174</a></td>
+<td>fix: respect model display_name for kimi-for-coding</td>
+<td>🟢 OPEN</td>
+<td><strong>修复 #2175</strong>：移除 <code>model_display_name()</code> 中对 &quot;kimi-for-coding&quot;/&quot;kimi-code&quot; 的硬编码覆盖，信任后端返回的 <code>display_name</code>（如 &quot;Kimi-k2.6&quot;）。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MoonshotAI/kimi-cli/pull/2138">#2138</a></td>
+<td>fix(shell): respect default shell in shell mode</td>
+<td>🟢 OPEN</td>
+<td><strong>Shell 环境一致性</strong>：Ctrl-X shell 模式优先使用 <code>$SHELL</code> 而非硬编码 bash，提升 zsh/fish 等用户的使用体验。含回归测试。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MoonshotAI/kimi-cli/pull/2139">#2139</a></td>
+<td>fix(mcp): preserve structured content and sanitize refs</td>
+<td>🟢 OPEN</td>
+<td><strong>MCP 数据完整性</strong>：保留 MCP <code>structured_content</code> 为 JSON 文本输出，避免工具结果丢失机器可读载荷；清理 <code>$ref</code> 节点的元数据兄弟节点，防止模型暴露内部 schema 结构。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MoonshotAI/kimi-cli/pull/1715">#1715</a></td>
+<td>feat(plugin): add Claude-compatible local plugin support</td>
+<td>⚫ CLOSED</td>
+<td><del>Claude 插件兼容层：通过 <code>--plugin-dir</code> 自动发现本地 Claude 插件。</del> <strong>已关闭</strong>，可能因架构方向调整或合并至其他 PR。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MoonshotAI/kimi-cli/pull/1127">#1127</a></td>
+<td>style(web): tweak some web ui details</td>
+<td>⚫ CLOSED</td>
+<td><del>Web UI 细节调整。</del> <strong>已关闭</strong>，具体调整内容未公开。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>功能需求趋势</h2>
+<p>基于今日 Issues 分析，社区关注方向呈 <strong>&quot;三横两纵&quot;</strong> 格局：</p>
+<table>
+<thead>
+<tr>
+<th>方向</th>
+<th>代表 Issue</th>
+<th>紧迫度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>🖥️ IDE/编辑器生态集成</strong></td>
+<td>#2178 (VS Code 扩展兼容)、#2010 (快捷键标准对齐)</td>
+<td>🔥 高</td>
+</tr>
+<tr>
+<td><strong>📤 流式输出与工具链</strong></td>
+<td>#2179 (token-level stream-json)、#2177 (重试输出清理)</td>
+<td>🔥 高</td>
+</tr>
+<tr>
+<td><strong>🖼️ 多模态交互体验</strong></td>
+<td>#2182 (macOS 截图拖拽)、#2183 (图片路径即时解析)</td>
+<td>🔥 高</td>
+</tr>
+<tr>
+<td><strong>🔌 MCP 协议完善</strong></td>
+<td>#2172 (OAuth 认证扩展)、#2139 (structured_content 保留)</td>
+<td>⚡ 中</td>
+</tr>
+<tr>
+<td><strong>🌐 Web/CLI 功能 parity</strong></td>
+<td>#2180 (<code>/task</code> 命令缺失)</td>
+<td>⚡ 中</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>新兴信号</strong>：第三方工具链接入（#2173 crow-cli）反映开发者对 <strong>开放 API 接入模式</strong> 的诉求，与当前付费计划的封闭性存在张力。</p>
+</blockquote>
+<hr>
+<h2>开发者关注点</h2>
+<h3>🔴 高频痛点</h3>
+<table>
+<thead>
+<tr>
+<th>痛点</th>
+<th>场景</th>
+<th>社区反馈密度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>平台级交互摩擦</strong></td>
+<td>macOS 截图拖拽失败、Windows 版本信息缺失、Shell 默认环境不符</td>
+<td>⬛⬛⬛⬛⬛</td>
+</tr>
+<tr>
+<td><strong>流式输出语义不完整</strong></td>
+<td>JSONL 非真流式、重试时 UI 残留</td>
+<td>⬛⬛⬛⬛⬜</td>
+</tr>
+<tr>
+<td><strong>快捷键认知负担</strong></td>
+<td>Alt-Enter/Ctrl-J  vs. 行业标准的 Shift+Enter</td>
+<td>⬛⬛⬛⬜⬜</td>
+</tr>
+</tbody></table>
+<h3>🟡 深层诉求</h3>
+<ol>
+<li><strong>开放性与商业化的平衡</strong>：#2173 作者明确期待&quot;像几个月前那样插入 API key 即可使用&quot;，当前 Coding Plan 的授权模式对工具链开发者不够友好。</li>
+<li><strong>MCP 作为生态枢纽</strong>：OAuth 认证方式、structured content 处理等细节直接影响第三方服务器接入意愿。</li>
+<li><strong>品牌感知一致性</strong>：模型显示名称硬编码（#2175）反映前端与后端信息同步机制待优化。</li>
+</ol>
+<h3>💡 维护者响应评估</h3>
+<p>今日 <strong>2 个高优先级 Bug 均有 PR 当日跟进</strong>（#2182→#2183, #2178→#2181），修复方向精准。建议关注：</p>
+<ul>
+<li>#2179 的 stream-json token delta 需求涉及架构调整，需评估是否纳入路线图</li>
+<li>#2010 的 Shift+Enter 为低改动高体验收益项，可考虑快速合并</li>
+</ul>
+<hr>
+<p><em>日报基于 GitHub 公开数据生成，链接直达原始讨论。</em></p>
+</details>
+
+<details>
+<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
+
+<h1>OpenCode 社区动态日报 | 2026-05-08</h1>
+<h2>今日速览</h2>
+<p>今日 OpenCode 连发 <strong>v1.14.40/41</strong> 两个补丁版本，重点修复格式化器输出处理、会话迁移时未提交变更保留等稳定性问题。社区持续高度关注 <strong>Tokens/s 性能显示</strong>（#5374，66👍）和 <strong>llms.txt 文档标准化</strong>（#8816）两大功能请求，同时实验性 v2 事件系统的 Immer 冻结崩溃问题引发密集讨论与修复。</p>
+<hr>
+<h2>版本发布</h2>
+<h3><a href="https://github.com/anomalyco/opencode/releases/tag/v1.14.41">v1.14.41</a> | 2026-05-08</h3>
+<ul>
+<li><strong>Core Bugfix</strong>: 恢复格式化器输出处理，修复格式化器写入 stdout/stderr 时格式化失效的问题（@ferdinandyb）</li>
+<li><strong>Core Improvement</strong>: 会话跨工作区迁移时保留未提交的本地文件变更</li>
+</ul>
+<h3><a href="https://github.com/anomalyco/opencode/releases/tag/v1.14.40">v1.14.40</a> | 2026-05-07</h3>
+<ul>
+<li><strong>Core Improvement</strong>: 支持 <code>.well-known/opencode</code> 配置指向独立远程配置文件</li>
+<li><strong>Core Bugfix</strong>: 重放签名推理块时保留助手文本（@edevil）；统一会话缺失时的 404 错误格式；修复 CORS 头在认证前应用的问题</li>
+</ul>
+<hr>
+<h2>社区热点 Issues（Top 10）</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>状态</th>
+<th>标题</th>
+<th>关键动态</th>
+<th>社区反应</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/anomalyco/opencode/issues/5374">#5374</a></td>
+<td>🔥 OPEN</td>
+<td><strong>显示 Tokens/second 性能指标</strong></td>
+<td>跨提供商性能对比的核心需求，16 评论深入讨论实现方案</td>
+<td>66👍，长期高票</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anomalyco/opencode/issues/8816">#8816</a></td>
+<td>🔥 OPEN</td>
+<td><strong>提供 llms.txt 及 Markdown 格式文档</strong></td>
+<td>社区推动 AI 工具文档标准化，便于 LLM 解析</td>
+<td>26👍，13 评论</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anomalyco/opencode/issues/6257">#6257</a></td>
+<td>OPEN</td>
+<td>TUI 滚动体验优化</td>
+<td>用户呼吁 <code>Ctrl+E/Y</code> 增量滚动替代鼠标，长对话可读性痛点</td>
+<td>10👍，11 评论</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anomalyco/opencode/issues/25873">#25873</a></td>
+<td>🐛 OPEN</td>
+<td><strong>Bash 工具崩溃：<code>Attempted to assign to readonly property</code></strong></td>
+<td>v1.14.34+ 实验性 v2 事件系统 + Immer 冻结组合触发，影响工具调用</td>
+<td>8 评论，紧急</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anomalyco/opencode/issues/15059">#15059</a></td>
+<td>OPEN</td>
+<td>多系统提示词破坏 Qwen3.5 模型</td>
+<td>工具链自动追加 system prompt 导致模型异常，需架构层面约束</td>
+<td>9 评论</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anomalyco/opencode/issues/13286">#13286</a></td>
+<td>✅ CLOSED</td>
+<td>Claude Opus 4.5 <code>thinking</code> 块被修改错误</td>
+<td>多轮对话中推理块验证失败，已关闭但同类问题仍在涌现</td>
+<td>7👍，8 评论</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anomalyco/opencode/issues/20902">#20902</a></td>
+<td>OPEN</td>
+<td>Bash 工具后台进程挂起</td>
+<td><code>npm run build &amp;</code> 等命令导致 2 分钟超时阻塞，会话完全卡住</td>
+<td>5👍，7 评论</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anomalyco/opencode/issues/25879">#25879</a></td>
+<td>OPEN</td>
+<td><code>opencode-cli</code> TUI 从 Debian 包中消失</td>
+<td>1.14.39 包移除二进制文件，用户升级后工作流断裂</td>
+<td>2👍，7 评论</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anomalyco/opencode/issues/11391">#11391</a></td>
+<td>OPEN</td>
+<td>Google Stitch + MCP 服务器集成指南</td>
+<td>企业数据管道与 MCP 生态对接的文档/最佳实践缺失</td>
+<td>2👍，8 评论</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anomalyco/opencode/issues/26198">#26198</a></td>
+<td>🆕 OPEN</td>
+<td><strong>终端鼠标转义序列泄漏（SGR）</strong></td>
+<td>TUI 鼠标追踪未正确关闭，命令中断后终端进入原始模式</td>
+<td>4 评论，新报</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>重要 PR 进展（Top 10）</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>状态</th>
+<th>标题</th>
+<th>技术要点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/anomalyco/opencode/pull/26255">#26255</a></td>
+<td>🆕 OPEN</td>
+<td><strong>Databricks Model Serving + AI Gateway 提供商</strong></td>
+<td>重启 #7984，支持双平台自动发现，企业级 LLM 部署扩展</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anomalyco/opencode/pull/25867">#25867</a></td>
+<td>OPEN</td>
+<td><strong>修复 Immer 冻结导致的工具输入只读错误</strong></td>
+<td>克隆工具输入后再传入 EventV2，根治 #25873 崩溃</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anomalyco/opencode/pull/23688">#23688</a></td>
+<td>OPEN</td>
+<td>Markdown 预览支持 Mermaid 图表</td>
+<td>v11.4.1 依赖，技术文档/架构图可视化能力</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anomalyco/opencode/pull/6138">#6138</a></td>
+<td>OPEN</td>
+<td>TUI 会话选择器数量限制配置</td>
+<td><code>session_list_limit</code> 解决长列表性能，默认 150 条</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anomalyco/opencode/pull/24712">#24712</a></td>
+<td>OPEN</td>
+<td><strong>原生 LLM 核心基础（Effect-based）</strong></td>
+<td><code>OPENCODE_EXPERIMENTAL_LLM_NATIVE</code> 标志，类型化流式架构</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anomalyco/opencode/pull/23557">#23557</a></td>
+<td>OPEN</td>
+<td><code>run</code> 命令交互式分屏页脚模式</td>
+<td>实时输出与输入并行，自动化工作流体验升级</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anomalyco/opencode/pull/26254">#26254</a></td>
+<td>🆕 OPEN</td>
+<td>GitHub Actions 安全加固（pin to SHA）</td>
+<td>供应链安全，防止标签劫持攻击</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anomalyco/opencode/pull/18767">#18767</a></td>
+<td>OPEN</td>
+<td>移动端触摸优化</td>
+<td>保留桌面体验，针对触摸设备重构交互</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anomalyco/opencode/pull/24725">#24725</a></td>
+<td>OPEN</td>
+<td>会话选择器按完整时间戳排序</td>
+<td>修复按创建时间分组导致最近更新会话被埋没的问题</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anomalyco/opencode/pull/25924">#25924</a></td>
+<td>OPEN</td>
+<td>生成完成哨兵日志</td>
+<td>长运行/截断运行的可观测性增强</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>功能需求趋势</h2>
+<pre><code>┌─────────────────────────────────────────┐
+│  🔷 性能可观测性    ████████████████████  │  ← Tokens/s、延迟指标、生成哨兵
+│  🔷 文档/生态标准化  ████████████████      │  ← llms.txt、Markdown 导出、MCP 指南
+│  🔷 企业级部署      ██████████████        │  ← Databricks、SSO、审计合规
+│  🔷 TUI/UX 精细化   ██████████████        │  ← 滚动、排序、会话管理、移动端
+│  🔷 模型兼容性      ████████████          │  ← Thinking 块处理、多系统提示、提供商切换
+│  🔷 架构现代化      ██████████            │  ← Effect-TS 原生核心、v2 事件系统
+└─────────────────────────────────────────┘
+</code></pre>
+<p><strong>关键洞察</strong>：社区正从&quot;功能可用&quot;向&quot;生产就绪&quot;演进——性能指标、企业集成、稳定性修复成为主流诉求，实验性功能的边缘情况（Immer 冻结、thinking 块生命周期）暴露架构债务。</p>
+<hr>
+<h2>开发者关注点</h2>
+<table>
+<thead>
+<tr>
+<th>痛点类别</th>
+<th>具体表现</th>
+<th>代表 Issue</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>实验性系统稳定性</strong></td>
+<td><code>OPENCODE_EXPERIMENTAL=true</code> 开启 v2 事件后，Immer 深度冻结与工具调用修改冲突，引发连锁崩溃</td>
+<td>#25873, #25835, #26066, #26067</td>
+</tr>
+<tr>
+<td><strong>推理块生命周期管理</strong></td>
+<td>Claude 系列的 <code>thinking</code>/<code>redacted_thinking</code> 块在多轮对话、跨提供商切换时被修改/丢弃/重放错误</td>
+<td>#13286, #18254, #23926, #24909</td>
+</tr>
+<tr>
+<td><strong>TUI 状态泄漏</strong></td>
+<td>鼠标追踪、子代理输出、后台进程等边界场景清理不彻底，导致终端污染或会话挂起</td>
+<td>#26198, #20902, #19278</td>
+</tr>
+<tr>
+<td><strong>打包/分发回归</strong></td>
+<td>Debian 包移除 <code>opencode-cli</code>、Windows 路径显示、静默安装等企业部署细节</td>
+<td>#25879, #22119, #26253</td>
+</tr>
+<tr>
+<td><strong>订阅/计费透明度</strong></td>
+<td>月度 Token 配额提前耗尽、订阅周期显示不一致</td>
+<td>#26245</td>
+</tr>
+</tbody></table>
+<hr>
+<p><em>数据来源：github.com/anomalyco/opencode | 生成时间：2026-05-08</em></p>
+</details>
+
+<details>
+<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
+
+<h1>Pi 社区动态日报 | 2026-05-08</h1>
+<h2>今日速览</h2>
+<p>Pi 今日密集发布 v0.73.1 和 v0.74.0 两个版本，完成从 <code>@mariozechner</code> 到 <code>@earendil-works</code> 的包迁移与仓库更名。社区同步迎来大规模 issue 清理（大量标记 <code>closed-because-bigrefactor</code>），同时 Kitty 键盘协议相关输入问题成为开发者关注焦点。</p>
+<hr>
+<h2>版本发布</h2>
+<h3>v0.74.0 | <a href="https://github.com/earendil-works/pi/releases/tag/v0.74.0">查看 Release</a></h3>
+<ul>
+<li>完成仓库链接和包引用迁移至 <code>earendil-works/pi-mono</code> 及 <code>@earendil-works/*</code> 作用域</li>
+</ul>
+<h3>v0.73.1 | <a href="https://github.com/earendil-works/pi/releases/tag/v0.73.1">查看 Release</a></h3>
+<ul>
+<li><strong>自更新支持 npm 作用域迁移</strong>：<code>pi update --self</code> 支持从 <code>@mariozechner/pi-coding-agent</code> 迁移到 <code>@earendil-works/pi-coding-agent</code>，现有全局安装可通过正常更新流程完成迁移</li>
+</ul>
+<hr>
+<h2>社区热点 Issues</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>状态</th>
+<th>标题</th>
+<th>核心要点</th>
+<th>社区反应</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/earendil-works/pi/issues/4228">#4228</a></td>
+<td>✅ CLOSED</td>
+<td>OpenAI completions provider 错误处理混合 delta</td>
+<td>修复流式响应中 content、reasoning_content、tool_calls 未独立累积的问题，导致输出错乱</td>
+<td>18 条讨论，属高热度技术修复</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/issues/4208">#4208</a></td>
+<td>✅ CLOSED</td>
+<td>cmux/Ghostty 终端内联图片渲染损坏</td>
+<td>Kitty 图形协议在 cmux 中表现脆弱，需检测中间终端层</td>
+<td>14 条讨论，终端兼容性痛点</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/issues/3357">#3357</a></td>
+<td>🔵 OPEN</td>
+<td>官方本地 LLM provider 扩展</td>
+<td>请求从 baseUrl 动态获取模型列表（llama.cpp/ollama/LM Studio 等），而非硬编码</td>
+<td><strong>23 👍</strong>，长期高票需求，julien-c（Hugging Face CEO）发起</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/issues/3780">#3780</a></td>
+<td>✅ CLOSED</td>
+<td>意大利键盘 Kitty 协议重复字符</td>
+<td>flag 4 导致特定布局按键双写，根因是按键事件与文本事件重复处理</td>
+<td>7 条讨论，国际化输入典型问题</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/issues/2451">#2451</a></td>
+<td>✅ CLOSED</td>
+<td>支持 Cursor 模型（Composer 1.5/2）</td>
+<td>请求接入 Cursor 订阅模型，含详细定价表</td>
+<td>6 条讨论，第三方 IDE 生态整合需求</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/issues/2144">#2144</a></td>
+<td>✅ CLOSED</td>
+<td>无法粘贴图片到 Pi</td>
+<td>Warp 终端中 Ctrl+V 图片粘贴不支持，Claude Code 已实现</td>
+<td>6 条讨论，与 Claude Code 直接对比</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/issues/3254">#3254</a></td>
+<td>✅ CLOSED</td>
+<td>/model 不覆盖持久默认模型的设置</td>
+<td>新增 <code>persistModelSelection</code> 设置，防止临时切换污染配置文件</td>
+<td>6 条讨论，UX 优化</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/issues/4210">#4210</a></td>
+<td>✅ CLOSED</td>
+<td>Bedrock 空 end_turn 被误标为成功停止</td>
+<td>AWS Bedrock 偶发返回 null 对象而非抛错，导致 agent 无故中断</td>
+<td>5 条讨论，云服务商容错</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/issues/4273">#4273</a></td>
+<td>✅ CLOSED</td>
+<td>TUI 中错误的更新提示</td>
+<td>v0.73.1 启动后提示 0.74.0 可用，但 0.74.0 实际已发布，版本检测逻辑时序问题</td>
+<td>4 条讨论，迁移期体验问题</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/issues/4284">#4284</a></td>
+<td>✅ CLOSED</td>
+<td>pnpm 迁移时旧 bin shim 残留</td>
+<td><code>@mariozechner/pi-coding-agent</code> 未找到导致 <code>pi update</code> 失败</td>
+<td>3 条讨论，迁移工具链边缘 case</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>重要 PR 进展</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>状态</th>
+<th>标题</th>
+<th>功能/修复内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/earendil-works/pi/pull/4283">#4283</a></td>
+<td>✅ CLOSED</td>
+<td>仓库名 <code>pi-mono</code> → <code>pi</code></td>
+<td>修复更新通知中的 CHANGELOG 404 问题（#4280）</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/pull/4281">#4281</a></td>
+<td>✅ CLOSED</td>
+<td>终端焦点变化时显示/隐藏光标</td>
+<td>启用 DECSET 1004 焦点报告，失焦隐藏光标，获焦恢复</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/pull/4277">#4277</a></td>
+<td>✅ CLOSED</td>
+<td>添加 gpt-5.5-chat-latest</td>
+<td>跟进 OpenAI 5 月 5 日发布的新默认 Instant 模型</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/pull/3887">#3887</a></td>
+<td>🔵 OPEN</td>
+<td>图像内容 API</td>
+<td>新增镜像 stream API 的图像块支持，Google/OpenRouter 图像模型输出，含 TUI 测试扩展</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/pull/4264">#4264</a></td>
+<td>✅ CLOSED</td>
+<td>ToolInfo 暴露 label/execute 并支持工具覆盖</td>
+<td>解决扩展间工具互操作问题，MCP Direct Tools 可被 <code>pi-tool-display</code> 覆盖渲染</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/pull/4261">#4261</a></td>
+<td>✅ CLOSED</td>
+<td>Kitty 图像重绘限制在 TUI 内</td>
+<td>修复滚动区域缩减时的图像渲染损坏，提供 repro 扩展</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/pull/3624">#3624</a></td>
+<td>🔵 OPEN</td>
+<td>添加 Together AI provider</td>
+<td>原生 Together AI 支持，OpenAI 兼容 API，自动检测 TOGETHER_API_KEY</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/pull/4247">#4247</a></td>
+<td>✅ CLOSED</td>
+<td>修复混合 chat completion delta</td>
+<td>独立累加器处理多类型 delta，解决 #4228</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/pull/4259">#4259</a></td>
+<td>✅ CLOSED</td>
+<td>完整回滚架构 + 1300+ 测试</td>
+<td>FileSnapshotManager 接入 AgentSession，file-snapshot 扩展精简为纯适配器</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi/pull/4252">#4252</a></td>
+<td>✅ CLOSED</td>
+<td>中文 IME 输入去重 + Windows UTF-8 代码页</td>
+<td>修复 Kitty 协议下 CSI-u 转义序列与 UTF-8 字节重复导致的双字/丢字问题</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>功能需求趋势</h2>
+<table>
+<thead>
+<tr>
+<th>方向</th>
+<th>热度</th>
+<th>代表 Issue/PR</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>终端兼容性 &amp; 渲染</strong></td>
+<td>🔥🔥🔥</td>
+<td>#4208, #4261, #4270, #4281</td>
+<td>Kitty 图形协议、焦点事件、背景色逃逸序列等 TUI 底层问题集中爆发</td>
+</tr>
+<tr>
+<td><strong>输入法 &amp; 国际化</strong></td>
+<td>🔥🔥🔥</td>
+<td>#3780, #4253, #4252</td>
+<td>意大利/中文键盘在 Kitty 协议下的重复/丢失字符，IME 与 CSI-u 冲突</td>
+</tr>
+<tr>
+<td><strong>本地/私有 LLM 部署</strong></td>
+<td>🔥🔥🔥</td>
+<td>#3357</td>
+<td>动态模型列表获取，ollama/llama.cpp/LM Studio 生态接入</td>
+</tr>
+<tr>
+<td><strong>新模型快速跟进</strong></td>
+<td>🔥🔥</td>
+<td>#2451, #4275, #4277, #3624</td>
+<td>Cursor、GPT-5.5-instant、Together AI，第三方 provider 扩展需求</td>
+</tr>
+<tr>
+<td><strong>扩展系统性能</strong></td>
+<td>🔥🔥</td>
+<td>#4240, #4242, #4254, #4255</td>
+<td>并行加载、共享 jiti 实例、moduleCache，64 扩展启动 ~1100ms → 目标优化</td>
+</tr>
+<tr>
+<td><strong>图像/多模态支持</strong></td>
+<td>🔥🔥</td>
+<td>#2144, #3887, #4287</td>
+<td>粘贴图片、图像生成输出、原生 PDF/文档输入</td>
+</tr>
+<tr>
+<td><strong>回滚/快照机制</strong></td>
+<td>🔥</td>
+<td>#4259</td>
+<td>文件级操作可撤销，agent 安全执行基础设施</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>开发者关注点</h2>
+<h3>🔴 高频痛点</h3>
+<ol>
+<li><p><strong>Kitty 键盘协议的双刃剑效应</strong></p>
+<ul>
+<li>启用后提升按键识别精度，但与 IME、终端复用器（cmux）、非美式键盘布局冲突频发</li>
+<li>需要更完善的终端能力检测和降级策略</li>
+</ul>
+</li>
+<li><p><strong>扩展启动性能瓶颈</strong></p>
+<ul>
+<li>64 扩展串行加载 ~1100ms 成为明确瓶颈，<code>Promise.all</code> + 共享 jiti 是社区提出的方向，但需验证隔离性</li>
+</ul>
+</li>
+<li><p><strong>包迁移期间的工具链摩擦</strong></p>
+<ul>
+<li>pnpm/npm 全局安装残留、bin shim 清理、版本提示时序错误，反映大规模迁移的复杂生态</li>
+</ul>
+</li>
+</ol>
+<h3>🟡 潜在需求</h3>
+<table>
+<thead>
+<tr>
+<th>需求</th>
+<th>背景</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>更智能的终端能力协商</td>
+<td>自动检测 Kitty/Ghostty/iTerm2/Warp 特性，动态启用功能</td>
+</tr>
+<tr>
+<td>扩展间工具协同标准</td>
+<td>#4264 只是开始，需要文档化的工具覆盖和事件通信规范</td>
+</tr>
+<tr>
+<td>异步 SessionManager</td>
+<td>#2616 指出同步 I/O 阻塞数据库后端持久化，架构债务</td>
+</tr>
+<tr>
+<td>上下文自动压缩策略</td>
+<td>#2871 长工具循环中 context 超配问题，需 mid-turn 检查</td>
+</tr>
+</tbody></table>
+<hr>
+<p><em>日报基于 earendil-works/pi 仓库 2026-05-07 至 2026-05-08 的 GitHub 活动生成</em></p>
+</details>
+
+<details>
+<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
+
+<h1>Qwen Code 社区动态日报 | 2026-05-08</h1>
+<h2>今日速览</h2>
+<p>Qwen Code 今日发布 <strong>v0.15.8</strong> 正式版，重点修复技能目录软链接加载问题；社区活跃度高涨，35 个 Issues 与 50 个 PR 在过去 24 小时内更新，远程控制（Remote Control）功能的三层 PR 栈成为最大技术亮点，同时子代理可观测性与 MCP 生态持续完善。</p>
+<hr>
+<h2>版本发布</h2>
+<h3>v0.15.8 正式发布</h3>
+<table>
+<thead>
+<tr>
+<th align="left">版本</th>
+<th align="left">类型</th>
+<th align="left">核心变更</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/pull/3928">v0.15.8</a></td>
+<td align="left">稳定版</td>
+<td align="left">修复技能目录软链接外部指向被错误拦截的回归问题（PR #3604 引入），测试框架对齐 tool-control E2E 的 prior-read 强制校验</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/pull/3766">v0.15.7</a></td>
+<td align="left">稳定版</td>
+<td align="left">新增 <code>FileReadCache</code> 核心缓存机制，未变更文件读取短路优化；CLI 代理设置生效修复</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/releases">v0.15.7-preview.2/1</a></td>
+<td align="left">预览版</td>
+<td align="left">同上，预发布通道验证</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/releases">v0.15.6-nightly.20260507</a></td>
+<td align="left">夜间构建</td>
+<td align="left">持续集成构建</td>
+</tr>
+</tbody></table>
+<p><strong>关键修复</strong>：v0.15.8 紧急修复了 <a href="https://github.com/QwenLM/qwen-code/issues/3913">Issue #3913</a> 报告的软链接技能加载回归——PR #3604 的 containment 校验过度严格，导致 <code>~/.qwen/skills/</code> 下指向外部目录的合法软链被误拦截。</p>
+<hr>
+<h2>社区热点 Issues</h2>
+<table>
+<thead>
+<tr>
+<th align="left">#</th>
+<th align="left">状态</th>
+<th align="left">标题</th>
+<th align="left">作者</th>
+<th align="left">评论</th>
+<th align="left">核心看点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/issues/3901">#3901</a></td>
+<td align="left"><strong>CLOSED</strong></td>
+<td align="left">TUI 多行粘贴触发多次自动提交</td>
+<td align="left">RohanM-12</td>
+<td align="left">5</td>
+<td align="left">macOS 交互层关键 bug，粘贴代码片段时每行被当作独立 Enter，已快速关闭</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/issues/3881">#3881</a></td>
+<td align="left">OPEN</td>
+<td align="left">本地 qwen3.6-27b 首次提问持续输出 <code>/</code> 至 token 上限</td>
+<td align="left">chn126943</td>
+<td align="left">5</td>
+<td align="left"><strong>高优先级模型兼容问题</strong>，本地部署场景阻塞性 bug，影响 Qwen3.6 系列适配</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/issues/3877">#3877</a></td>
+<td align="left">OPEN</td>
+<td align="left"><code>.env</code> 配置 <code>OPENCODE_GO_API_KEY</code> 未被识别</td>
+<td align="left">shilkazx</td>
+<td align="left">3</td>
+<td align="left">认证配置优先级混乱，环境变量与交互式认证冲突，暴露配置系统一致性问题</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/issues/3511">#3511</a></td>
+<td align="left">OPEN</td>
+<td align="left">JetBrains AI 插件集成仅支持 OAuth 不支持 API Key</td>
+<td align="left">lixx174</td>
+<td align="left">3</td>
+<td align="left"><strong>企业用户痛点</strong>，ACP Registry 集成场景下 API Key 认证缺失，阻碍 IDE 生态扩展</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/issues/3595">#3595</a></td>
+<td align="left">CLOSED</td>
+<td align="left">本地 Qwen3.6-35B-A3B 图片识别能力缺失（对比 iFlow CLI）</td>
+<td align="left">windowsyss</td>
+<td align="left">3</td>
+<td align="left">多模态配置差异化问题已关闭，但暴露不同客户端能力对齐需求</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/issues/3634">#3634</a></td>
+<td align="left">OPEN</td>
+<td align="left">后台任务管理路线图与下一步</td>
+<td align="left">wenshao</td>
+<td align="left">2</td>
+<td align="left"><strong>架构级议题</strong>，Phase A/B 已合并，Phase C 事件监控工具推进中，定义子代理长期运行范式</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/issues/3829">#3829</a></td>
+<td align="left">OPEN</td>
+<td align="left">Wayland 环境无法粘贴图片</td>
+<td align="left">EriDeLee</td>
+<td align="left">2</td>
+<td align="left">Linux 桌面兼容性问题，xdg-utils/wl-clipboard 已安装仍失效，Wayland 生态支持待加强</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/issues/3925">#3925</a></td>
+<td align="left">OPEN</td>
+<td align="left">子代理调用 Monitor 工具通知被错误路由至主代理</td>
+<td align="left">huww98</td>
+<td align="left">1</td>
+<td align="left"><strong>可观测性关键 bug</strong>，子代理上下文隔离失效，直接影响多代理协作调试体验</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/issues/3899">#3899</a></td>
+<td align="left">OPEN</td>
+<td align="left">长对话 Ctrl+O 切换 verbose 模式导致 CLI 冻结</td>
+<td align="left">chiga0</td>
+<td align="left">0</td>
+<td align="left">性能/稳定性问题，大状态渲染阻塞主线程，需虚拟滚动或增量渲染优化</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/issues/3914">#3914</a></td>
+<td align="left">OPEN</td>
+<td align="left">API 连接成功但随后 fetch failed</td>
+<td align="left">ataknow</td>
+<td align="left">1</td>
+<td align="left">OpenRouter 兼容性问题，连接状态与请求阶段分离的诊断盲区</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>重要 PR 进展</h2>
+<table>
+<thead>
+<tr>
+<th align="left">#</th>
+<th align="left">状态</th>
+<th align="left">标题</th>
+<th align="left">作者</th>
+<th align="left">功能/修复详解</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/pull/3937">#3937</a></td>
+<td align="left">OPEN</td>
+<td align="left">MCP add/remove 持久化修复：headers 与删除操作</td>
+<td align="left">B-A-M-N</td>
+<td align="left">修复 MCP 配置更新时 <code>applyUpdates()</code> 只合并不删除的 bug，以及 headers 无法新增/更新的问题</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/pull/3933">#3933</a></td>
+<td align="left">OPEN</td>
+<td align="left">子代理 Monitor 通知路由修复</td>
+<td align="left">doudouOUC</td>
+<td align="left"><strong>对应 Issue #3925</strong>，将 Monitor 事件精准路由至启动该监控的代理（含前台/后台/恢复子代理），解决上下文污染</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/pull/3864">#3864</a></td>
+<td align="left">OPEN</td>
+<td align="left">认证架构重构：provider-first 统一流水线</td>
+<td align="left">pomelo-nwu</td>
+<td align="left"><strong>架构级重构</strong>，将 API Key/OAuth/编码计划/Token 计划统一为 provider 配置模型，消除认证路径碎片化</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/pull/3932">#3932</a></td>
+<td align="left">OPEN</td>
+<td align="left">prior-read 强制校验支持部分读取</td>
+<td align="left">wenshao</td>
+<td align="left">修复 #3774 过度约束：大文件就地编辑场景下，允许 offset/limit/pages 的部分读取满足 prior-read 要求</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/pull/3919">#3919</a></td>
+<td align="left">OPEN</td>
+<td align="left">子代理 scrollback 摘要 isPending 门控 + 删除后状态同步</td>
+<td align="left">wenshao</td>
+<td align="left">修复 #3909 评审遗留问题，避免子代理运行中渲染闪烁，确保状态机一致性</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/pull/3935">#3935</a></td>
+<td align="left">OPEN</td>
+<td align="left">新增 <code>/commit</code>（<code>/ci</code>）斜杠命令</td>
+<td align="left">B-A-M-N</td>
+<td align="left">一键 <code>git add -A</code> + 提交，自动包含 co-author 归属，提升 Git 工作流效率</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/pull/3931">#3931-3929</a></td>
+<td align="left">OPEN</td>
+<td align="left"><strong>远程控制三层 PR 栈</strong>（TUI 附着/Worker 服务器/基础设计）</td>
+<td align="left">chiga0</td>
+<td align="left"><strong>重大功能</strong>：实现 HTTP/WebSocket 远程控制服务器，支持会话中断后继续、配对认证、流式 JSON 生命周期管理——为 IDE 插件/CI 集成铺路</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/pull/3934">#3934</a></td>
+<td align="left">OPEN</td>
+<td align="left">Mistral 推理内容净化</td>
+<td align="left">Jerry2003826</td>
+<td align="left">修复 #3304：Mistral OpenAI 兼容接口移除 assistant message 中的 <code>reasoning_content</code>，避免请求失败</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/pull/3847">#3847</a></td>
+<td align="left">OPEN</td>
+<td align="left">调试日志注入 traceId/spanId 实现 OTel 关联</td>
+<td align="left">doudouOUC</td>
+<td align="left">可观测性增强：<code>~/.qwen/debug/{sessionId}.txt</code> 每行附加 <code>[trace_id=xxx span_id=yyy]</code>，对接阿里云 SLS 等后端</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/QwenLM/qwen-code/pull/3827">#3827</a></td>
+<td align="left">OPEN</td>
+<td align="left">重试延迟策略统一</td>
+<td align="left">yiliang114</td>
+<td align="left">提取共享指数退避/抖动/Retry-After 解析/延迟上限策略，消除 stream 侧与通用重试逻辑重复</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>功能需求趋势</h2>
+<p>基于 35 条活跃 Issues 分析，社区关注焦点呈现五大方向：</p>
+<table>
+<thead>
+<tr>
+<th align="left">趋势方向</th>
+<th align="left">代表 Issues</th>
+<th align="left">热度判断</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>IDE 深度集成</strong></td>
+<td align="left">#3511 (JetBrains), #3758 (子代理详细显示), #3926 (输入编辑增强)</td>
+<td align="left">🔥🔥🔥 企业采纳关键路径</td>
+</tr>
+<tr>
+<td align="left"><strong>子代理可观测性</strong></td>
+<td align="left">#3634 (后台任务), #3925 (Monitor 路由), #3924 (TODO 展示), #3758</td>
+<td align="left">🔥🔥🔥 多代理架构成熟标志</td>
+</tr>
+<tr>
+<td align="left"><strong>本地模型兼容</strong></td>
+<td align="left">#3881 (qwen3.6-27b), #3595 (35B-A3B 多模态), #3896 (DashScope 流式累积)</td>
+<td align="left">🔥🔥🔥 私有化部署核心诉求</td>
+</tr>
+<tr>
+<td align="left"><strong>MCP 生态完善</strong></td>
+<td align="left">#3937 (配置持久化), #3895 (健康状态刷新), #3837 (ACP 斜杠命令)</td>
+<td align="left">🔥🔥 工具链标准化加速</td>
+</tr>
+<tr>
+<td align="left"><strong>TUI/交互体验</strong></td>
+<td align="left">#3901 (粘贴), #3899 (长对话冻结), #3926 (文本选择), #3678 (主题切换)</td>
+<td align="left">🔥🔥 日常效率瓶颈</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>开发者关注点</h2>
+<h3>🔴 高频痛点</h3>
+<table>
+<thead>
+<tr>
+<th align="left">痛点</th>
+<th align="left">典型反馈</th>
+<th align="left">影响面</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>认证配置混乱</strong></td>
+<td align="left"><code>.env</code> 环境变量被交互式流程覆盖（#3877）；OAuth 强制而 API Key 不可用（#3511）</td>
+<td align="left">新用户上手、CI/自动化场景</td>
+</tr>
+<tr>
+<td align="left"><strong>本地模型适配粗糙</strong></td>
+<td align="left">Qwen3.6 系列输出异常（#3881）、图片识别能力缺失（#3595）、流式增量/累积模式混淆（#3896）</td>
+<td align="left">私有化部署用户、企业内网</td>
+</tr>
+<tr>
+<td align="left"><strong>子代理&quot;黑盒&quot;问题</strong></td>
+<td align="left">仅能看到 tool call 列表，无法查看思考过程（#3758）；Monitor 通知串线（#3925）</td>
+<td align="left">复杂任务调试、多代理协作</td>
+</tr>
+</tbody></table>
+<h3>🟡 新兴需求</h3>
+<ul>
+<li><strong>远程控制/程序化接入</strong>：#3931-3929 三层 PR 栈预示 Qwen Code 正从纯 TUI 向&quot;TUI + 可编程 API&quot;双模式演进</li>
+<li><strong>OpenTelemetry 深度集成</strong>：#3847、#3917 显示企业级可观测性需求从日志向分布式追踪升级</li>
+<li><strong>PR Review 智能化</strong>：#3906 提出基于 CodeGraph 的风险评级与跨 PR 冲突分析，指向代码智能的下一战场</li>
+</ul>
+<h3>🟢 积极信号</h3>
+<ul>
+<li><strong>响应速度</strong>：#3901（5 评论）、#3913（0 评论）均当日关闭，显示维护团队对回归问题的高优先级处理</li>
+<li><strong>架构前瞻性</strong>：wenshao、doudouOUC 等核心贡献者持续推动后台任务（#3634）、事件监控（#3666）、遥测（#3847）等基础设施，为规模化应用筑基</li>
+</ul>
+<hr>
+<p><em>日报基于 GitHub 公开数据生成，链接可点击追踪最新进展。</em></p>
+</details>
+
+<details>
+<summary><strong>DeepSeek TUI</strong> — <a href="https://github.com/Hmbown/DeepSeek-TUI">Hmbown/DeepSeek-TUI</a></summary>
+
+<h1>DeepSeek TUI 社区动态日报 | 2026-05-08</h1>
+<h2>今日速览</h2>
+<p>过去24小时社区活跃度极高，v0.8.17 紧急迭代修复了 Plan 模式异常和技能目录扫描等关键缺陷，同时开发者对<strong>Token 消耗失控</strong>和<strong>IDE 生态扩展</strong>的诉求成为讨论焦点。VS Code 扩展脚手架首次进入代码库，标志着项目正从纯终端工具向编辑器生态迈进。</p>
+<hr>
+<h2>版本发布</h2>
+<h3>v0.8.17（紧急修复版）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">版本</th>
+<th align="left">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">v0.8.17</td>
+<td align="left">修复 Plan 模式不展示计划直接修改文件、本地技能目录覆盖全局技能、NVIDIA NIM 提供商兼容性问题</td>
+</tr>
+<tr>
+<td align="left">v0.8.16</td>
+<td align="left">新增 <code>deepseek serve --acp</code>（Agent Client Protocol），支持 Zed 等编辑器接入</td>
+</tr>
+<tr>
+<td align="left">v0.8.15</td>
+<td align="left">基础功能维护</td>
+</tr>
+</tbody></table>
+<p><strong>安装方式</strong>：<code>npm install -g deepseek-tui</code> 或 <code>cargo install deepseek-tui-cli deepseek-tui --locked</code></p>
+<hr>
+<h2>社区热点 Issues</h2>
+<table>
+<thead>
+<tr>
+<th align="left">#</th>
+<th align="left">状态</th>
+<th align="left">标题</th>
+<th align="left">核心看点</th>
+<th align="left">社区反应</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/issues/743">#743</a></td>
+<td align="left">🔴 OPEN</td>
+<td align="left"><strong>Token 消耗暴增——半天消耗4亿token</strong></td>
+<td align="left">用户报告请求频率异常、单次交互 token 量过大，可能涉及上下文压缩策略失效或循环请求 bug</td>
+<td align="left"><strong>11 评论</strong>，高优先级，需紧急排查</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/issues/932">#932</a></td>
+<td align="left">✅ CLOSED</td>
+<td align="left">费用显示支持 CNY（￥）</td>
+<td align="left">国内用户付费体验优化，已关闭说明可能已合入</td>
+<td align="left">8 评论，实用需求</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/issues/759">#759</a></td>
+<td align="left">🔴 OPEN</td>
+<td align="left">首次初始化失败 + 配置界面箭头键失效</td>
+<td align="left">新用户 onboarding 阻断问题，影响首次体验</td>
+<td align="left">8 评论，新手障碍</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/issues/978">#978</a></td>
+<td align="left">🔴 OPEN</td>
+<td align="left">提议建立国内微信群</td>
+<td align="left">反映中文开发者社区凝聚力需求，&quot;为天国AI&quot;口号引发共鸣</td>
+<td align="left">8 评论，👍1</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/issues/1092">#1092</a></td>
+<td align="left">🔴 OPEN</td>
+<td align="left"><strong>ACP 协议暴露 tool calls（read_file/exec_shell/write_file）</strong></td>
+<td align="left">让 Zed 等编辑器通过 <code>serve --acp</code> 获得完整 Agent 能力，生态扩展关键路径</td>
+<td align="left">7 评论，架构级需求</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/issues/1081">#1081</a></td>
+<td align="left">✅ CLOSED</td>
+<td align="left">NVIDIA NIM 提供商无法工作</td>
+<td align="left">v0.8.17 已修复，配置格式与官方示例兼容性问题</td>
+<td align="left">6 评论，企业用户关注</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/issues/1010">#1010</a></td>
+<td align="left">🔴 OPEN</td>
+<td align="left"><strong>无法切换工作空间</strong></td>
+<td align="left">多项目管理核心痛点，用户被迫重启或重开会话</td>
+<td align="left">5 评论，👍1，已有 PR #1065</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/issues/936">#936</a></td>
+<td align="left">🔴 OPEN</td>
+<td align="left">添加 Light 主题</td>
+<td align="left">Dark 主题可读性差、工具输出无缩进，长期用眼疲劳问题</td>
+<td align="left">5 评论，体验优化</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/issues/730">#730</a></td>
+<td align="left">✅ CLOSED</td>
+<td align="left">支持自定义 OpenAI-compatible 提供商（GLM/智谱）</td>
+<td align="left">v0.8.17 解除硬编码白名单限制，国内模型接入通道打开</td>
+<td align="left">5 评论，生态突破</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/issues/861">#861</a></td>
+<td align="left">🔴 OPEN</td>
+<td align="left"><strong>Thinking Collapse——推理块冻结/截断/丢失</strong></td>
+<td align="left">多根因缺陷：spinner 永不解析、推理内容静默截断至4行、reasoning_content 完全消失</td>
+<td align="left">4 评论，V4 Pro 核心体验</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>重要 PR 进展</h2>
+<table>
+<thead>
+<tr>
+<th align="left">#</th>
+<th align="left">状态</th>
+<th align="left">标题</th>
+<th align="left">功能/修复内容</th>
+<th align="left">影响面</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/pull/1099">#1099</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="left"><code>/dryrun</code> 请求预览</td>
+<td align="left">不发送请求即可预览完整 Chat Completions 载荷，含 thinking replay 脱敏，解决 V4 Pro 高额试错成本</td>
+<td align="left">开发者效率、成本控制</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/pull/1098">#1098</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="left">工具输出预计算缓存 + 折叠视图</td>
+<td align="left">每帧避免重复解析，参考 Claude Code 极简转录风格，性能与可读性双提升</td>
+<td align="left">TUI 渲染性能</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/pull/1065">#1065</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="left"><strong>工作空间切换命令</strong></td>
+<td align="left">回应 #1010，新增 workspace manager 命令，多项目会话管理</td>
+<td align="left">核心工作流</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/pull/1076">#1076</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="left">转录滚动条鼠标拖拽</td>
+<td align="left">鼠标捕获启用时支持拖拽定位，长会话导航体验</td>
+<td align="left">交互细节</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/pull/1091">#1091</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="left">破坏性操作确认对话框中文本地化</td>
+<td align="left">简体中文风险标识、分类标签、影响摘要、二次确认文本，解决安全操作理解障碍</td>
+<td align="left">中文用户安全体验</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/pull/1022">#1022</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="left"><strong>VS Code 扩展脚手架</strong></td>
+<td align="left">TypeScript 源码 + 扩展清单 + tsconfig，项目首次进入编辑器生态</td>
+<td align="left"><strong>战略级扩展</strong></td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/pull/1086">#1086</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="left">会话预算控制</td>
+<td align="left">软/硬上限、每日 USD 上限持久化、超限策略、<code>/budget</code> 命令集</td>
+<td align="left">成本治理</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/pull/1059">#1059</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="left">npm postinstall 非阻塞化</td>
+<td align="left">GitHub 资源不可达时安装不失败，首次运行自动恢复</td>
+<td align="left">安装可靠性</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/pull/727">#727</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="left">前端 import alias 解析工具</td>
+<td align="left">通过 tsconfig/jsconfig 的 <code>baseUrl</code>/<code>paths</code> 正确定位别名文件，提升前端代码理解能力</td>
+<td align="left">前端开发场景</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI/pull/1094">#1094</a></td>
+<td align="left">🟡 OPEN</td>
+<td align="left">v0.8.18 准备</td>
+<td align="left">版本升级、变更日志、README 更新、npm 二进制对齐、多项修复合入</td>
+<td align="left">发布流程</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>功能需求趋势</h2>
+<pre><code class="language-mermaid">%% 基于 Issues 标签与内容的热度分布（文字描述）
+</code></pre>
+<table>
+<thead>
+<tr>
+<th align="left">方向</th>
+<th align="left">热度</th>
+<th align="left">典型表现</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>IDE/编辑器生态集成</strong></td>
+<td align="left">🔥🔥🔥🔥🔥</td>
+<td align="left">VS Code 扩展（#875/#1022）、Zed ACP 接入（#1092）、serve --acp 协议扩展</td>
+</tr>
+<tr>
+<td align="left"><strong>成本与预算治理</strong></td>
+<td align="left">🔥🔥🔥🔥🔥</td>
+<td align="left">Token 消耗异常（#743）、CNY 费用显示（#932）、/dryrun 预览（#1099）、会话预算（#1086）</td>
+</tr>
+<tr>
+<td align="left"><strong>主题与可读性</strong></td>
+<td align="left">🔥🔥🔥🔥</td>
+<td align="left">Light 主题（#936）、多主题支持（#862）、颜色对比度（#1070）、文案截断（#998）</td>
+</tr>
+<tr>
+<td align="left"><strong>工作空间/项目管理</strong></td>
+<td align="left">🔥🔥🔥🔥</td>
+<td align="left">工作空间切换（#1010/#1065）、内存按仓库去重（#616）</td>
+</tr>
+<tr>
+<td align="left"><strong>国际化与本地化</strong></td>
+<td align="left">🔥🔥🔥</td>
+<td align="left">中文审批对话框（#1087/#1091）、国内社区建设（#978）、rsproxy 镜像（#1011）</td>
+</tr>
+<tr>
+<td align="left"><strong>网络与安装兼容性</strong></td>
+<td align="left">🔥🔥🔥</td>
+<td align="left">内网 npm 安装（#1051）、glibc 版本（#1067）、FreeBSD 编译（#1089）、DNS private IP 拦截（#1071）</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>开发者关注点</h2>
+<h3>🔴 高频痛点</h3>
+<table>
+<thead>
+<tr>
+<th align="left">痛点</th>
+<th align="left">根因</th>
+<th align="left">关联 Issue</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Token/费用黑洞</strong></td>
+<td align="left">请求频率异常、上下文膨胀、缺乏预览机制</td>
+<td align="left">#743、#1004、#1086</td>
+</tr>
+<tr>
+<td align="left"><strong>TUI 渲染异常</strong></td>
+<td align="left">Viewport 漂移（#1085）、输出截断（#864）、乱码（#1061）、Thinking 块崩溃（#861）</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><strong>新用户门槛</strong></td>
+<td align="left">初始化失败（#759）、配置界面键盘失效、无中文引导</td>
+<td align="left"></td>
+</tr>
+</tbody></table>
+<h3>🟡 生态期待</h3>
+<ul>
+<li><strong>编辑器嵌入</strong>：从 TUI 到 VS Code/Zed/JetBrains 的渐进渗透，开发者不愿在终端与 IDE 间切换上下文</li>
+<li><strong>国内体验闭环</strong>：CNY 计费、微信群、rsproxy 镜像、智谱/GLM 接入，形成本土化替代方案</li>
+</ul>
+<h3>🟢 架构信号</h3>
+<ul>
+<li><strong>ACP 协议</strong> 成为第二增长曲线：工具调用暴露（#1092）后，DeepSeek TUI 将从&quot;终端 Agent&quot;进化为&quot;Agent 后端服务&quot;</li>
+<li><strong>Nightly 构建</strong>（#924）与 <strong>postinstall 容错</strong>（#1059）显示工程化成熟度提升</li>
+</ul>
+<hr>
+<blockquote>
+<p>📌 <strong>日报来源</strong>：github.com/Hmbown/DeepSeek-TUI | 数据截止 2026-05-08</p>
+<p>💡 建议关注：#743（Token 消耗）的 root cause 进展、#1022（VS Code）的合入节奏、#1092（ACP tool calls）的协议设计</p>
+</blockquote>
+</details>
+
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI CLI 工具社区动态日报 2026-05-07</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-07/ai-cli</link>
@@ -69845,2528 +72746,6 @@ Agent 系统     ████░░░░░░░░░░░░░░░░   
 </ul>
 <hr>
 <p><em>日报基于 github.com/QwenLM/qwen-code 公开数据生成</em></p>
-</details>
-
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI CLI 工具社区动态日报 2026-04-08</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-08/ai-cli</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-08/ai-cli</guid>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-      <description>AI CLI 工具社区动态日报 2026-04-08 生成时间: 2026-04-08 00:13 UTC | 覆盖工具: 8 个 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code Claude Code Skills 横向对比 AI CLI 工具生态横向对比分析报告 | 2026-04-08 1. 生态全景 当前 AI CLI 工具生态呈现**&amp;quot;三超多强&amp;quot;格局**：Claude Code、OpenAI Codex、GitHub Copilot CLI 凭借大厂背书占据主流心智，但社区对计费透明度、开源/自托管、终端原生体验的诉求高度一致。Google Gemini CLI 和 Kimi CLI 正从&amp;quot;功能追赶&amp;quot;转向&amp;quot;质量基建&amp;quot;，而 OpenCode、Pi、Qwen Code 等新兴工具通过多模型聚合、Claude 兼容生态、垂直场景优化寻找差异化空间。整体技术栈加速向 Rust/TypeScri...</description>
-      <content:encoded><![CDATA[<h1>AI CLI 工具社区动态日报 2026-04-08</h1>
-<blockquote>
-<p>生成时间: 2026-04-08 00:13 UTC | 覆盖工具: 8 个</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
-<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
-<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
-<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
-<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
-<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
-<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
-<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
-<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
-</ul>
-<hr>
-<h2>横向对比</h2>
-<h1>AI CLI 工具生态横向对比分析报告 | 2026-04-08</h1>
-<hr>
-<h2>1. 生态全景</h2>
-<p>当前 AI CLI 工具生态呈现**&quot;三超多强&quot;格局**：Claude Code、OpenAI Codex、GitHub Copilot CLI 凭借大厂背书占据主流心智，但社区对<strong>计费透明度、开源/自托管、终端原生体验</strong>的诉求高度一致。Google Gemini CLI 和 Kimi CLI 正从&quot;功能追赶&quot;转向&quot;质量基建&quot;，而 OpenCode、Pi、Qwen Code 等新兴工具通过<strong>多模型聚合、Claude 兼容生态、垂直场景优化</strong>寻找差异化空间。整体技术栈加速向 <strong>Rust/TypeScript</strong> 迁移，MCP（Model Context Protocol）成为跨工具扩展标准，但实现成熟度参差不齐。</p>
-<hr>
-<h2>2. 各工具活跃度对比</h2>
-<table>
-<thead>
-<tr>
-<th align="left">工具</th>
-<th align="center">今日 Issues</th>
-<th align="center">今日 PRs</th>
-<th align="left">版本发布</th>
-<th align="left">核心动态</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Claude Code</strong></td>
-<td align="center">8 条活跃（#38335 456评论）</td>
-<td align="center">9 条开放</td>
-<td align="left">v2.1.94</td>
-<td align="left">Bedrock Mantle 支持、默认推理强度上调；Max 配额争议持续发酵</td>
-</tr>
-<tr>
-<td align="left"><strong>OpenAI Codex</strong></td>
-<td align="center">10 条精选（#14593 464评论）</td>
-<td align="center">10 条开放</td>
-<td align="left">5 个 alpha 版本（.13-.17）</td>
-<td align="left">密集 Rust 迭代；TUI 启动延迟优化、MCP 服务器驱动引导进入评审</td>
-</tr>
-<tr>
-<td align="left"><strong>Gemini CLI</strong></td>
-<td align="center">10 条精选</td>
-<td align="center">10 条开放</td>
-<td align="left">v0.37.0-preview.2</td>
-<td align="left">6 项性能回归测试计划；Scheduler 内存泄漏修复</td>
-</tr>
-<tr>
-<td align="left"><strong>Copilot CLI</strong></td>
-<td align="center">10 条精选（30+ 关闭）</td>
-<td align="center">2 条开放</td>
-<td align="left">v1.0.19→v1.0.21</td>
-<td align="left"><code>copilot mcp</code> 命令正式发布；终端渲染稳定性大幅提升</td>
-</tr>
-<tr>
-<td align="left"><strong>Kimi CLI</strong></td>
-<td align="center">11 条精选</td>
-<td align="center">10 条开放</td>
-<td align="left">无</td>
-<td align="left">Hook 系统成焦点；Python→TypeScript 重构提案引发路线之争</td>
-</tr>
-<tr>
-<td align="left"><strong>OpenCode</strong></td>
-<td align="center">10 条精选（50 更新）</td>
-<td align="center">10 条开放</td>
-<td align="left">无</td>
-<td align="left">阿里云 Qwen 3.6 速率限制热议；语音模式、Kiro 支持开发中</td>
-</tr>
-<tr>
-<td align="left"><strong>Pi</strong></td>
-<td align="center">10 条精选（41 更新）</td>
-<td align="center">11 条开放</td>
-<td align="left">无</td>
-<td align="left">Antigravity 兼容性紧急修复；GitHub Copilot 动态模型发现落地</td>
-</tr>
-<tr>
-<td align="left"><strong>Qwen Code</strong></td>
-<td align="center">10 条精选</td>
-<td align="center">10 条开放</td>
-<td align="left">v0.14.1→v0.14.2</td>
-<td align="left">VS Code 白屏紧急修复；@chinesepowered 单日 6 PR</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p><strong>活跃度指标</strong>：Issues/PR 更新量 + 社区评论密度 + 版本发布频率</p>
-</blockquote>
-<hr>
-<h2>3. 共同关注的功能方向</h2>
-<table>
-<thead>
-<tr>
-<th align="left">功能方向</th>
-<th align="left">涉及工具</th>
-<th align="left">具体诉求</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>计费透明度与成本控制</strong></td>
-<td align="left">Claude Code、OpenAI Codex、Kimi CLI、Qwen Code</td>
-<td align="left">Claude Max 配额异常消耗（#38335 456评论）；Codex Token 燃烧过快（#14593 464评论）；Qwen &quot;百万 token 改一点代码&quot;</td>
-</tr>
-<tr>
-<td align="left"><strong>MCP 生态完善</strong></td>
-<td align="left">Claude Code、OpenAI Codex、Copilot CLI、Gemini CLI、Kimi CLI</td>
-<td align="left">工具结果不可见（Claude #41361）；服务器驱动引导（Codex #17043）；<code>copilot mcp</code> 原生命令；MCP 资源订阅（OpenCode #20672）</td>
-</tr>
-<tr>
-<td align="left"><strong>终端/TUI 体验优化</strong></td>
-<td align="left">全部 8 个工具</td>
-<td align="left">启动延迟（Codex #17039）、鼠标捕获冲突（OpenCode #7926）、spinner 稳定性（Copilot）、SSH 渲染异常（Gemini #24202）</td>
-</tr>
-<tr>
-<td align="left"><strong>会话与上下文管理</strong></td>
-<td align="left">Claude Code、OpenAI Codex、Gemini CLI、Kimi CLI、Qwen Code</td>
-<td align="left">持久化/恢复（Gemini #22819）、跨会话状态隔离（Codex #16799）、三级 Rules 系统（Kimi #1747 对标 Claude）</td>
-</tr>
-<tr>
-<td align="left"><strong>多模型/提供商支持</strong></td>
-<td align="left">OpenCode、Pi、Kimi CLI、Claude Code</td>
-<td align="left">阿里云速率限制（OpenCode #21164）、OpenRouter 完整路由（Pi #2904）、Bedrock Mantle（Claude/Kimi）</td>
-</tr>
-<tr>
-<td align="left"><strong>安全与权限精细化</strong></td>
-<td align="left">Claude Code、OpenAI Codex、Kimi CLI、Qwen Code</td>
-<td align="left">Secrets 防泄露（Claude #44868）、持久权限管理（Copilot #2505）、权限审批 Hook（Kimi #1751）、权限疲劳（Qwen #2946）</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>4. 差异化定位分析</h2>
-<table>
-<thead>
-<tr>
-<th align="left">工具</th>
-<th align="left">功能侧重</th>
-<th align="left">目标用户</th>
-<th align="left">技术路线</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Claude Code</strong></td>
-<td align="left">深度工程工作流、Cowork 协作、企业合规</td>
-<td align="left">企业团队、专业开发者</td>
-<td align="left">闭源 Node.js，强 AWS/Azure/GCP 云集成</td>
-</tr>
-<tr>
-<td align="left"><strong>OpenAI Codex</strong></td>
-<td align="left">极致编码速度、Rust 性能、实时协作</td>
-<td align="left">追求效率的极客、AI 原生开发者</td>
-<td align="left">Rust 重写中，GPT-5.4 系列深度优化</td>
-</tr>
-<tr>
-<td align="left"><strong>Gemini CLI</strong></td>
-<td align="left">性能工程化、内存安全、Google 生态</td>
-<td align="left">性能敏感型用户、Google Cloud 用户</td>
-<td align="left">TypeScript/Bun，强调回归测试体系</td>
-</tr>
-<tr>
-<td align="left"><strong>Copilot CLI</strong></td>
-<td align="left">GitHub 原生集成、MCP 管理、企业可观测性</td>
-<td align="left">GitHub 生态重度用户、企业开发者</td>
-<td align="left">TypeScript，OTel 内置，VS Code 协同</td>
-</tr>
-<tr>
-<td align="left"><strong>Kimi CLI</strong></td>
-<td align="left">Hook 扩展系统、Claude 兼容、灵活配置</td>
-<td align="left">需要深度定制的开发者、迁移用户</td>
-<td align="left">Python（争议中），Plugin/Hook 架构</td>
-</tr>
-<tr>
-<td align="left"><strong>OpenCode</strong></td>
-<td align="left">多模型聚合、开源替代、语音/多模态</td>
-<td align="left">Claude Code 迁移者、多模型策略用户</td>
-<td align="left">TypeScript，Claude 生态兼容优先</td>
-</tr>
-<tr>
-<td align="left"><strong>Pi</strong></td>
-<td align="left">扩展生态、多运行时、声明式配置</td>
-<td align="left">构建上层 Agent 框架的开发者</td>
-<td align="left">Node.js/Deno 双运行时，CREAM 提案</td>
-</tr>
-<tr>
-<td align="left"><strong>Qwen Code</strong></td>
-<td align="left">阿里云原生、中文优化、IDE 深度集成</td>
-<td align="left">国内开发者、阿里云用户</td>
-<td align="left">TypeScript，VS Code/JetBrains 双插件</td>
-</tr>
-</tbody></table>
-<p><strong>关键分化点</strong>：</p>
-<ul>
-<li><strong>封闭 vs 开放</strong>：Claude/Codex 闭源但生态成熟；Kimi/OpenCode/Pi 探索开源/扩展路径</li>
-<li><strong>单一 vs 聚合</strong>：Codex 绑定 OpenAI；OpenCode/Pi 主打&quot;模型无关&quot;</li>
-<li><strong>终端优先 vs IDE 优先</strong>：Claude/Codex/Gemini 强化 TUI；Qwen 押注 IDE 插件体验</li>
-</ul>
-<hr>
-<h2>5. 社区热度与成熟度</h2>
-<h3>🔥 高热度·高成熟度</h3>
-<table>
-<thead>
-<tr>
-<th align="left">工具</th>
-<th align="left">证据</th>
-<th align="left">阶段判断</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Claude Code</strong></td>
-<td align="left">#38335 456评论、#41447 开源呼声 PR 持续存活</td>
-<td align="left">成熟期，社区信任危机与商业封闭张力并存</td>
-</tr>
-<tr>
-<td align="left"><strong>OpenAI Codex</strong></td>
-<td align="left">5 个 alpha/日、464 评论 Token 议题</td>
-<td align="left">快速迭代期，Rust 重构释放技术野心</td>
-</tr>
-</tbody></table>
-<h3>🔥 高热度·快速上升</h3>
-<table>
-<thead>
-<tr>
-<th align="left">工具</th>
-<th align="left">证据</th>
-<th align="left">阶段判断</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Kimi CLI</strong></td>
-<td align="left">Hook 系统新功能即现 Bug、TS 重构路线之争</td>
-<td align="left">功能爆发期，架构债务与社区期待碰撞</td>
-</tr>
-<tr>
-<td align="left"><strong>OpenCode</strong></td>
-<td align="left">50 Issues/PRs/日、Claude 兼容生态文档化</td>
-<td align="left">生态扩张期，差异化定位清晰</td>
-</tr>
-<tr>
-<td align="left"><strong>Qwen Code</strong></td>
-<td align="left">紧急版本迭代、单日 6 PR 贡献者涌现</td>
-<td align="left">稳定性攻坚期，社区贡献活跃</td>
-</tr>
-</tbody></table>
-<h3>🌱 质量基建期</h3>
-<table>
-<thead>
-<tr>
-<th align="left">工具</th>
-<th align="left">证据</th>
-<th align="left">阶段判断</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Gemini CLI</strong></td>
-<td align="left">6 项性能回归测试计划、内存泄漏系统性修复</td>
-<td align="left">从功能交付转向工程质量</td>
-</tr>
-<tr>
-<td align="left"><strong>Copilot CLI</strong></td>
-<td align="left">30+ Issues/日关闭、OTel/MCP 企业特性</td>
-<td align="left">微软工程化优势，响应速度突出</td>
-</tr>
-<tr>
-<td align="left"><strong>Pi</strong></td>
-<td align="left">CREAM 提案、动态模型发现、多运行时适配</td>
-<td align="left">架构探索期，面向开发者工具链定位</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>6. 值得关注的趋势信号</h2>
-<table>
-<thead>
-<tr>
-<th align="left">信号</th>
-<th align="left">来源</th>
-<th align="left">对开发者的参考价值</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>MCP 成为事实标准，但实现碎片化</strong></td>
-<td align="left">Copilot <code>copilot mcp</code> 命令、Codex #17043、OpenCode #20672</td>
-<td align="left">构建跨工具扩展时，优先验证目标工具的 MCP 版本兼容性；关注 <code>resources/subscribe</code> 等高级特性支持度</td>
-</tr>
-<tr>
-<td align="left"><strong>&quot;Claude 兼容性&quot;成为迁移护城河</strong></td>
-<td align="left">OpenCode #12472、Kimi #1747、Pi 外部 Skill 加载</td>
-<td align="left">评估替代工具时，检查 <code>CLAUDE.md</code>、hooks、skills 完整支持度；社区生态迁移成本被低估</td>
-</tr>
-<tr>
-<td align="left"><strong>性能工程从&quot;优化&quot;转向&quot;可测量&quot;</strong></td>
-<td align="left">Gemini 6 项回归测试、Codex Rust 重写、Qwen 自适应 token 扩容</td>
-<td align="left">大模型 CLI 进入毫秒级优化阶段，关注工具的启动延迟、内存占用、上下文压缩策略的透明文档</td>
-</tr>
-<tr>
-<td align="left"><strong>计费焦虑驱动&quot;本地/自托管&quot;诉求</strong></td>
-<td align="left">Claude 开源呼声 #41447、Pi 本地模型支持 #2531、Qwen 成本投诉</td>
-<td align="left">生产环境部署前，验证工具的速率限制处理、自动退避、成本预估能力；预留本地模型降级路径</td>
-</tr>
-<tr>
-<td align="left"><strong>&quot;Nix-like&quot;声明式工作流兴起</strong></td>
-<td align="left">Pi #2908 CREAM 提案</td>
-<td align="left">团队规模化使用时，关注工具是否支持版本可控、可复现的工作空间配置，降低&quot;模型漂移&quot;风险</td>
-</tr>
-<tr>
-<td align="left"><strong>终端原生体验 vs 现代 TUI 的张力</strong></td>
-<td align="left">全平台鼠标捕获、复制粘贴、多路复用器兼容议题</td>
-<td align="left">重度终端用户优先选择支持 <code>--no-mouse</code>、tmux/screen 检测、SSH 感知的工具</td>
-</tr>
-</tbody></table>
-<hr>
-<p><em>报告基于 2026-04-08 各工具 GitHub 公开数据生成 | 适合技术选型、团队工具链规划、开源贡献策略参考</em></p>
-<hr>
-<h2>各工具详细报告</h2>
-<details>
-<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
-
-<h2>Claude Code Skills 社区热点</h2>
-<blockquote>
-<p>数据来源: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
-</blockquote>
-<h1>Claude Code Skills 社区热点报告（2026-04-08）</h1>
-<hr>
-<h2>1. 热门 Skills 排行</h2>
-<table>
-<thead>
-<tr>
-<th align="left">排名</th>
-<th align="left">Skill</th>
-<th align="left">功能概述</th>
-<th align="left">社区热点</th>
-<th align="left">状态</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">1</td>
-<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/514">document-typography</a></strong></td>
-<td align="left">AI 生成文档的排版质量控制，解决孤行、寡行、编号错位等常见排版问题</td>
-<td align="left">被视为&quot;每个 Claude 文档都需要的底层修复&quot;，讨论聚焦于是否应作为内置功能而非独立 Skill</td>
-<td align="left">🟡 Open</td>
-</tr>
-<tr>
-<td align="left">2</td>
-<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/210">frontend-design</a></strong></td>
-<td align="left">前端设计 Skill 的清晰度和可操作性改进</td>
-<td align="left">社区关注如何让设计指令在单轮对话中可执行，避免模糊指导</td>
-<td align="left">🟡 Open</td>
-</tr>
-<tr>
-<td align="left">3</td>
-<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/83">skill-quality-analyzer</a></strong> + <a href="https://github.com/anthropics/skills/pull/83">skill-security-analyzer</a></td>
-<td align="left">Skill 质量评估（结构、文档、示例、资源、可维护性）与安全审计的元 Skill</td>
-<td align="left">元 Skill 概念受关注，讨论如何标准化 Skill 质量门槛</td>
-<td align="left">🟡 Open</td>
-</tr>
-<tr>
-<td align="left">4</td>
-<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/486">ODT</a></strong></td>
-<td align="left">OpenDocument 文本创建、模板填充及 ODT→HTML 解析</td>
-<td align="left">填补 LibreOffice/OpenOffice 生态空白，企业文档工作流需求强烈</td>
-<td align="left">🟡 Open</td>
-</tr>
-<tr>
-<td align="left">5</td>
-<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/723">testing-patterns</a></strong></td>
-<td align="left">全栈测试模式：测试哲学、单元测试、React 组件测试、集成/E2E 测试</td>
-<td align="left">测试策略分层（Testing Trophy）的实践指导价值</td>
-<td align="left">🟡 Open</td>
-</tr>
-<tr>
-<td align="left">6</td>
-<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/806">sensory</a></strong></td>
-<td align="left">原生 macOS 自动化（AppleScript/osascript），替代截图式计算机操作</td>
-<td align="left">两阶段权限设计引发讨论：无权限基础功能 vs 辅助功能权限的完整控制</td>
-<td align="left">🟡 Open</td>
-</tr>
-<tr>
-<td align="left">7</td>
-<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/568">ServiceNow</a></strong></td>
-<td align="left">企业级 ServiceNow 平台助手，覆盖 ITSM/ITOM/ITAM/SecOps/SPM 等全模块</td>
-<td align="left">广度 vs 深度的权衡：单一 Skill 覆盖全平台是否过于臃肿</td>
-<td align="left">🟡 Open</td>
-</tr>
-<tr>
-<td align="left">8</td>
-<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/154">shodh-memory</a></strong></td>
-<td align="left">AI 代理的持久化记忆系统，跨对话维护上下文</td>
-<td align="left">记忆触发时机与隐私边界的架构设计讨论</td>
-<td align="left">🟡 Open</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>2. 社区需求趋势</h2>
-<table>
-<thead>
-<tr>
-<th align="left">方向</th>
-<th align="left">代表 Issue/PR</th>
-<th align="left">核心诉求</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Skill 治理与信任机制</strong></td>
-<td align="left"><a href="https://github.com/anthropics/skills/issues/492">#492</a> 安全边界滥用、<a href="https://github.com/anthropics/skills/issues/412">#412</a> Agent 治理模式</td>
-<td align="left">社区 Skill 与官方 Skill 的命名空间隔离，防止信任边界混淆</td>
-</tr>
-<tr>
-<td align="left"><strong>企业级工作流集成</strong></td>
-<td align="left"><a href="https://github.com/anthropics/skills/issues/228">#228</a> 组织级 Skill 共享、<a href="https://github.com/anthropics/skills/issues/532">#532</a> SSO/企业认证支持</td>
-<td align="left">从个人工具向团队协作基础设施演进</td>
-</tr>
-<tr>
-<td align="left"><strong>Skill 质量与评估标准化</strong></td>
-<td align="left"><a href="https://github.com/anthropics/skills/issues/202">#202</a> skill-creator 最佳实践、<a href="https://github.com/anthropics/skills/pull/83">#83</a> 质量分析器</td>
-<td align="left">建立 Skill 的自动化评估体系和准入门槛</td>
-</tr>
-<tr>
-<td align="left"><strong>MCP 协议互通</strong></td>
-<td align="left"><a href="https://github.com/anthropics/skills/issues/16">#16</a> Skills 作为 MCP</td>
-<td align="left">将 Skill 能力暴露为标准 MCP 工具，实现跨平台复用</td>
-</tr>
-<tr>
-<td align="left"><strong>Bedrock/多云部署</strong></td>
-<td align="left"><a href="https://github.com/anthropics/skills/issues/29">#29</a></td>
-<td align="left">脱离 Claude Code 原生环境，在 AWS 等企业基础设施中运行</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. 高潜力待合并 Skills</h2>
-<table>
-<thead>
-<tr>
-<th align="left">Skill</th>
-<th align="left">关键价值</th>
-<th align="left">合并障碍</th>
-<th align="left">预估落地</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/514">document-typography</a></strong></td>
-<td align="left">解决 AI 文档生成的普适性痛点</td>
-<td align="left">需评估是否应内置到 Claude 核心而非作为 Skill</td>
-<td align="left">1-2 个月</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/723">testing-patterns</a></strong></td>
-<td align="left">测试领域知识系统化，填补技能空白</td>
-<td align="left">需与现有代码相关 Skill 协调范围边界</td>
-<td align="left">2-4 周</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/806">sensory</a></strong></td>
-<td align="left">macOS 原生自动化的性能与可靠性优势</td>
-<td align="left">权限模型的安全审查</td>
-<td align="left">1-2 个月</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://github.com/anthropics/skills/pull/509">CONTRIBUTING.md</a></strong></td>
-<td align="left">社区健康度从 25% 提升的关键基础设施</td>
-<td align="left">流程文档的标准化审阅</td>
-<td align="left">已就绪，待合并</td>
-</tr>
-</tbody></table>
-<p><strong>活跃修复类 PR</strong>（技术债务清理）：</p>
-<ul>
-<li><a href="https://github.com/anthropics/skills/pull/541">#541</a> DOCX 书签 ID 冲突修复</li>
-<li><a href="https://github.com/anthropics/skills/pull/539">#539</a> / <a href="https://github.com/anthropics/skills/pull/361">#361</a> YAML 特殊字符解析防护</li>
-<li><a href="https://github.com/anthropics/skills/pull/538">#538</a> PDF Skill 大小写敏感路径修复</li>
-</ul>
-<hr>
-<h2>4. Skills 生态洞察</h2>
-<blockquote>
-<p><strong>核心诉求：从&quot;个人效率工具&quot;向&quot;企业级可信任基础设施&quot;演进</strong> — 社区正推动 Skills 在组织共享、安全治理、质量标准化和多云部署四个维度上成熟，同时保持对排版、测试、自动化等垂直场景的深度打磨。</p>
-</blockquote>
-<hr>
-<hr>
-<h1>Claude Code 社区动态日报 | 2026-04-08</h1>
-<hr>
-<h2>1. 今日速览</h2>
-<p>Anthropic 今日发布 <strong>v2.1.94</strong>，重点扩展了 Amazon Bedrock 支持并上调默认推理强度；社区持续热议 <strong>Claude Max 计划会话配额异常消耗</strong> 问题（456 评论），同时 <strong>开源 Claude Code</strong> 的呼声在多个 PR 中持续发酵。</p>
-<hr>
-<h2>2. 版本发布</h2>
-<h3>v2.1.94（2026-04-08）</h3>
-<table>
-<thead>
-<tr>
-<th>更新项</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Amazon Bedrock + Mantle</strong></td>
-<td>新增 <code>CLAUDE_CODE_USE_MANTLE=1</code> 环境变量支持，通过 Mantle 层优化 Bedrock 调用</td>
-</tr>
-<tr>
-<td><strong>默认推理强度上调</strong></td>
-<td>API Key、Bedrock/Vertex/Foundry、Team 及 Enterprise 用户默认 effort 从 medium 提升至 high（可通过 <code>/effort</code> 调整）</td>
-</tr>
-<tr>
-<td><strong>Slack 集成优化</strong></td>
-<td>新增紧凑版 <code>Slacked #channel</code> 消息头，含 Claude 图标标识</td>
-</tr>
-</tbody></table>
-<p>🔗 <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.94">Release 详情</a></p>
-<hr>
-<h2>3. 社区热点 Issues</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>状态</th>
-<th>标题</th>
-<th>关键信息</th>
-<th>社区反应</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://github.com/anthropics/claude-code/issues/38335">#38335</a></td>
-<td>🔴 OPEN</td>
-<td><strong>Claude Max 计划会话配额异常快速耗尽</strong></td>
-<td>3 月 23 日起 CLI 用户会话计数异常增长，疑似计费逻辑 Bug</td>
-<td><strong>456 评论 / 356 👍</strong>，Max 用户集体投诉，Anthropic 尚未官方回应</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anthropics/claude-code/issues/24964">#24964</a></td>
-<td>🟢 CLOSED</td>
-<td><strong>Cowork 文件夹选择器限制过严</strong></td>
-<td>禁止选择 home 目录外文件夹、符号链接和 junction</td>
-<td><strong>144 评论 / 186 👍</strong>，企业用户工作流受阻，已修复</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anthropics/claude-code/issues/42796">#42796</a></td>
-<td>🟢 CLOSED</td>
-<td><strong>2 月更新后模型复杂工程能力下降</strong></td>
-<td>代码重构质量滑坡、过度简化、忽略边界条件</td>
-<td><strong>116 评论 / 757 👍</strong>，高赞技术反馈，模型团队已介入</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anthropics/claude-code/issues/44910">#44910</a></td>
-<td>🔴 OPEN</td>
-<td><strong>AWS_BEARER_TOKEN_BEDROCK 认证在 2.1.92+ 失效</strong></td>
-<td>2.1.91→2.1.92 回归，企业 SSO 用户无法登录</td>
-<td><strong>9 评论 / 15 👍</strong>，regression 标签，影响生产环境</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anthropics/claude-code/issues/2805">#2805</a></td>
-<td>🔴 OPEN</td>
-<td><strong>Linux 系统持续生成 Windows 换行符</strong></td>
-<td>无视 CLAUDE.md 指令，导致脚本执行失败</td>
-<td><strong>31 评论 / 30 👍</strong>，跨平台开发痛点，长期未解</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anthropics/claude-code/issues/29214">#29214</a></td>
-<td>🔴 OPEN</td>
-<td><strong>Remote Control 权限提示绕过失效</strong></td>
-<td><code>--dangerously-skip-permissions</code> 后移动端仍弹窗</td>
-<td><strong>22 评论 / 54 👍</strong>，远程工作流体验断裂</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anthropics/claude-code/issues/41361">#41361</a></td>
-<td>🔴 OPEN</td>
-<td><strong>MCP 工具结果 2.1.88 后不可见</strong></td>
-<td><code>outputSchema</code> safeParse 守卫返回 null</td>
-<td><strong>8 评论 / 6 👍</strong>，MCP 生态关键 regression</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anthropics/claude-code/issues/36411">#36411</a></td>
-<td>🔴 OPEN</td>
-<td><strong>Telegram MCP 插件入站通知丢失</strong></td>
-<td>仅出站工作，inbound 消息未送达会话</td>
-<td><strong>12 评论 / 10 👍</strong>，双向集成未完成</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anthropics/claude-code/issues/43675">#43675</a></td>
-<td>🟢 CLOSED</td>
-<td><strong>~/.claude/ 目录未文档化</strong></td>
-<td>社区深度解析会话存储结构，呼吁官方文档</td>
-<td><strong>4 评论 / 5 👍</strong>，安全审计需求推动</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anthropics/claude-code/issues/44868">#44868</a></td>
-<td>🔴 OPEN</td>
-<td><strong>.env/.dev.vars 密钥通过工具泄露</strong></td>
-<td>无视 CLAUDE.md 禁令，grep/Read 工具暴露 secrets</td>
-<td><strong>3 评论</strong>，安全合规红线问题</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>4. 重要 PR 进展</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>状态</th>
-<th>标题</th>
-<th>核心内容</th>
-<th>评估</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://github.com/anthropics/claude-code/pull/44874">#44874</a></td>
-<td>🟡 OPEN</td>
-<td><strong>wmux-orchestrator 插件</strong></td>
-<td>多 Agent 任务编排，依赖感知并行执行 + 跨 Agent 一致性审查</td>
-<td>企业级复杂任务分解方案</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anthropics/claude-code/pull/44742">#44742</a></td>
-<td>🟡 OPEN</td>
-<td><strong>会话持久化诊断工具</strong></td>
-<td>修复 VS Code 扩展对话历史丢失（#12908 及 12+ 重复 issue）</td>
-<td>数据丢失 critical bug</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anthropics/claude-code/pull/41447">#41447</a></td>
-<td>🟡 OPEN</td>
-<td><strong>开源 Claude Code</strong></td>
-<td>社区呼声最高的 meta PR，关闭 #59 #456 #2846 等</td>
-<td>象征意义大于实际，Anthropic 未回应</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anthropics/claude-code/pull/41518">#41518</a></td>
-<td>🟡 OPEN</td>
-<td><strong>完整开源方案</strong></td>
-<td>从 source map 提取 1906 个 TS 文件，Bun 构建成功运行</td>
-<td>技术可行性验证，法律风险存疑</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anthropics/claude-code/pull/41611">#41611</a></td>
-<td>🟡 OPEN</td>
-<td><strong>补充缺失源码</strong></td>
-<td>同上，简化版 source map 提取</td>
-<td>社区自建开源分支尝试</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anthropics/claude-code/pull/44681">#44681</a></td>
-<td>🟡 OPEN</td>
-<td><strong>移除过时 exec 安全指引</strong></td>
-<td>清理文档中失效的安全建议</td>
-<td>文档维护</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anthropics/claude-code/pull/44676">#44676</a></td>
-<td>🟡 OPEN</td>
-<td><strong>plugin-dev 缺失清单补全</strong></td>
-<td>对齐 marketplace 元数据</td>
-<td>插件生态完整性</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anthropics/claude-code/pull/41938">#41938</a></td>
-<td>🟡 OPEN</td>
-<td><strong>DevContainer Linux/macOS 启动脚本</strong></td>
-<td>补齐仅 Windows PowerShell 的缺口</td>
-<td>跨平台开发体验</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anthropics/claude-code/pull/39148">#39148</a></td>
-<td>🟡 OPEN</td>
-<td><strong>preserve-session 插件</strong></td>
-<td>项目重命名/移动后保留会话历史，UUID 路径解耦</td>
-<td>会话管理痛点方案</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anthropics/claude-code/pull/1">#1</a></td>
-<td>🟢 CLOSED</td>
-<td><strong>创建 SECURITY.md</strong></td>
-<td>基础安全政策文档</td>
-<td>合规基础</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>5. 功能需求趋势</h2>
-<p>基于 50 条活跃 Issue 分析，社区关注焦点：</p>
-<table>
-<thead>
-<tr>
-<th>方向</th>
-<th>热度</th>
-<th>典型诉求</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>计费透明度</strong></td>
-<td>🔥🔥🔥🔥🔥</td>
-<td>Max 计划配额算法黑箱、促销积分异常扣除、API 与订阅额度混淆</td>
-</tr>
-<tr>
-<td><strong>开源/自托管</strong></td>
-<td>🔥🔥🔥🔥🔥</td>
-<td>3 个活跃 PR 推动 source map 提取，长期 vendor lock-in 担忧</td>
-</tr>
-<tr>
-<td><strong>Cowork 稳定性</strong></td>
-<td>🔥🔥🔥🔥</td>
-<td>Windows 跨设备重命名崩溃、Hyper-V VM 休眠恢复、文件夹权限限制</td>
-</tr>
-<tr>
-<td><strong>MCP 生态完善</strong></td>
-<td>🔥🔥🔥🔥</td>
-<td>工具结果不可见、Telegram 双向集成、插件开发文档缺失</td>
-</tr>
-<tr>
-<td><strong>远程控制体验</strong></td>
-<td>🔥🔥🔥</td>
-<td>iOS 推送通知、权限同步、移动端工作流</td>
-</tr>
-<tr>
-<td><strong>安全合规</strong></td>
-<td>🔥🔥🔥</td>
-<td>Secrets 防泄露、.claude/ 目录审计、沙箱权限细化</td>
-</tr>
-<tr>
-<td><strong>国际化/本地化</strong></td>
-<td>🔥🔥</td>
-<td>越南语/葡萄牙语变音符号丢失、Unicode 输入问题</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>6. 开发者关注点</h2>
-<h3>🔴 高频痛点</h3>
-<ol>
-<li><strong>会话配额信任危机</strong> — #38335 成为史上最高评论 Issue，企业用户要求审计日志</li>
-<li><strong>平台一致性鸿沟</strong> — Windows 用户持续遭遇 Cowork/换行符/路径问题，二等公民感知</li>
-<li><strong>MCP 工具链成熟度</strong> — schema 验证、错误处理、调试可见性不足</li>
-</ol>
-<h3>🟡 新兴需求</h3>
-<ul>
-<li><strong>Buddy 个性化</strong> — 3 个相关 Issue/PR 关闭，社区已接受有限定制（颜色/名称）</li>
-<li><strong>DevContainer 完整支持</strong> — 从 Windows-only 向跨平台补齐</li>
-<li><strong>source map 逆向工程</strong> — 社区自发探索开源路径，反映官方沟通真空</li>
-</ul>
-<h3>💡 战略观察</h3>
-<blockquote>
-<p>Anthropic 正通过 <strong>Mantle 层</strong> 强化云厂商合作（AWS Bedrock），同时 <strong>上调默认推理强度</strong> 可能加剧 Max 用户的配额焦虑。开源呼声与商业封闭的张力持续累积，#41447 等 PR 的存活状态是观察窗口。</p>
-</blockquote>
-<hr>
-<p><em>日报基于 GitHub 公开数据生成，不代表 Anthropic 官方立场。</em></p>
-</details>
-
-<details>
-<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
-
-<h1>OpenAI Codex 社区动态日报 | 2026-04-08</h1>
-<hr>
-<h2>1. 今日速览</h2>
-<p>今日 Codex 社区活跃度极高，<strong>5 个 Rust 版本连续发布</strong>（v0.119.0-alpha.13 至 alpha.17），显示团队正在密集迭代 CLI 核心。社区最关注的 <strong>Token 消耗过快问题</strong>（#14593）持续发酵，464 条评论创近期纪录；同时 <strong>TUI 启动延迟优化</strong>（#17039）和 <strong>MCP 服务器驱动式引导</strong>（#17043）等关键 PR 进入评审阶段，预示着用户体验将迎来显著改善。</p>
-<hr>
-<h2>2. 版本发布</h2>
-<h3>Rust CLI 连续迭代：v0.119.0-alpha.13 ~ alpha.17</h3>
-<table>
-<thead>
-<tr>
-<th align="left">版本</th>
-<th align="left">发布时间</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">rust-v0.119.0-alpha.17</td>
-<td align="left">过去24小时</td>
-</tr>
-<tr>
-<td align="left">rust-v0.119.0-alpha.16</td>
-<td align="left">过去24小时</td>
-</tr>
-<tr>
-<td align="left">rust-v0.119.0-alpha.15</td>
-<td align="left">过去24小时</td>
-</tr>
-<tr>
-<td align="left">rust-v0.119.0-alpha.14</td>
-<td align="left">过去24小时</td>
-</tr>
-<tr>
-<td align="left">rust-v0.119.0-alpha.13</td>
-<td align="left">过去24小时</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>注：发布说明较为简略，建议关注后续完整 Changelog。高频 alpha 发布通常意味着关键 Bug 修复或内部架构调整。</p>
-</blockquote>
-<hr>
-<h2>3. 社区热点 Issues（精选10项）</h2>
-<table>
-<thead>
-<tr>
-<th align="left">#</th>
-<th align="left">标题</th>
-<th align="left">状态</th>
-<th align="center">评论</th>
-<th align="center">👍</th>
-<th align="left">核心看点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/openai/codex/issues/14593">#14593</a></td>
-<td align="left">Burning tokens very fast</td>
-<td align="left">🔴 OPEN</td>
-<td align="center"><strong>464</strong></td>
-<td align="center">172</td>
-<td align="left"><strong>社区最火议题</strong>：Business 订阅用户反馈 Token 消耗异常迅速，疑似存在计费或模型调用效率问题。464 条评论显示大量用户共鸣，需官方紧急回应。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/openai/codex/issues/10410">#10410</a></td>
-<td align="left">Codex Desktop App: macOS Intel (x86_64) support</td>
-<td align="left">🔴 OPEN</td>
-<td align="center">165</td>
-<td align="center"><strong>243</strong></td>
-<td align="left"><strong>高票功能请求</strong>：Intel Mac 用户群体庞大，243 个 👍 为全站最高。Apple Silicon 独占策略引发遗留设备用户强烈不满。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/openai/codex/issues/12764">#12764</a></td>
-<td align="left">The codex cli giving: 401 unauthorized</td>
-<td align="left">🔴 OPEN</td>
-<td align="center">93</td>
-<td align="center">4</td>
-<td align="left"><strong>认证故障频发</strong>：CLI 用户遭遇未授权错误，影响 CI/CD 和自动化场景。虽 👍 不多，但评论活跃显示阻断性问题。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/openai/codex/issues/9224">#9224</a></td>
-<td align="left">Codex Remote Control</td>
-<td align="left">🔴 OPEN</td>
-<td align="center">37</td>
-<td align="center"><strong>246</strong></td>
-<td align="left"><strong>创新使用场景</strong>：用户希望用手机 ChatGPT App 远程控制桌面 Codex CLI，246 👍 证明移动-桌面协同需求强烈。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/openai/codex/issues/16231">#16231</a></td>
-<td align="left">High CPU usage on macOS after updating Codex</td>
-<td align="left">🔴 OPEN</td>
-<td align="center">18</td>
-<td align="center">29</td>
-<td align="left"><strong>性能回归</strong>：最新 VS Code 扩展（26.325.31654）导致 M5 Pro Mac 高负载发热，影响开发体验。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/openai/codex/issues/13993">#13993</a></td>
-<td align="left">Support standalone Windows installer</td>
-<td align="left">🔴 OPEN</td>
-<td align="center">17</td>
-<td align="center">56</td>
-<td align="left"><strong>企业部署障碍</strong>：Microsoft Store 限制导致企业/离线环境无法安装，需传统 <code>.exe</code> 安装包。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/openai/codex/issues/16904">#16904</a></td>
-<td align="left">TUI return can leave stale busy spinner</td>
-<td align="left">🔴 OPEN</td>
-<td align="center">11</td>
-<td align="center">0</td>
-<td align="left"><strong>TUI 状态机 Bug</strong>：子代理完成后 UI 状态未清理，Linux/tmux 用户受影响，反映终端交互稳定性问题。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/openai/codex/issues/16553">#16553</a></td>
-<td align="left">Codex becomes unresponsive on startup if <code>~/.ssh/config</code> is large</td>
-<td align="left">🔴 OPEN</td>
-<td align="center">5</td>
-<td align="center">1</td>
-<td align="left"><strong>边缘场景性能</strong>：大型 SSH 配置解析阻塞启动，DevOps/运维用户典型痛点。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/openai/codex/issues/17041">#17041</a></td>
-<td align="left">Live codex cli session cannot continue on auth refresh</td>
-<td align="left">🔴 OPEN</td>
-<td align="center">4</td>
-<td align="center">0</td>
-<td align="left"><strong>企业认证断裂</strong>：API 登录方式下 Token 刷新导致会话中断，严重影响长时间任务。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/openai/codex/issues/16799">#16799</a></td>
-<td align="left">Cross-project, cross-session state leak</td>
-<td align="left">🟢 CLOSED</td>
-<td align="center">4</td>
-<td align="center">0</td>
-<td align="left"><strong>安全修复</strong>：已关闭！项目间指令状态泄漏被修复，涉及安全边界隔离。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>4. 重要 PR 进展（精选10项）</h2>
-<table>
-<thead>
-<tr>
-<th align="left">#</th>
-<th align="left">标题</th>
-<th align="left">状态</th>
-<th align="left">核心功能/修复</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/openai/codex/pull/17039">#17039</a></td>
-<td align="left">fix(tui): reduce startup and new-session latency</td>
-<td align="left">🔵 OPEN</td>
-<td align="left"><strong>TUI 启动加速</strong>：异步获取账户/速率限制信息，消除启动阻塞；修复 <code>/status</code> 卡片的 stale 提示残留问题。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/openai/codex/pull/17043">#17043</a></td>
-<td align="left">[mcp] Support server-driven elicitations</td>
-<td align="left">🔵 OPEN</td>
-<td align="left"><strong>MCP 增强</strong>：支持自定义 MCP 服务器的主动引导（elicitation），新增 RMCP 服务包装器保留 <code>_meta</code> 元数据。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/openai/codex/pull/17057">#17057</a></td>
-<td align="left">Attach WebRTC realtime starts to sideband websocket</td>
-<td align="left">🔵 OPEN</td>
-<td align="left"><strong>实时通信优化</strong>：WebRTC 通话通过独立 WebSocket 建立，降低延迟并提升连接稳定性。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/openai/codex/pull/17036">#17036</a></td>
-<td align="left">feat: allow limited git writes in workspace sandbox</td>
-<td align="left">🔵 OPEN</td>
-<td align="left"><strong>沙盒权限精细化</strong>：工作区写沙盒新增 <code>allow_limited_git_writes</code>，允许 Git 元数据更新但禁止修改配置/钩子。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/openai/codex/pull/16949">#16949</a></td>
-<td align="left">Use model metadata for Fast Mode status</td>
-<td align="left">🔵 OPEN</td>
-<td align="left"><strong>模型速度分层</strong>：模型元数据新增速度层级字段，TUI 据此动态显示 Fast Mode 状态，解耦硬编码模型名。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/openai/codex/pull/16736">#16736</a></td>
-<td align="left">Move unified-exec sandbox launch to exec-server</td>
-<td align="left">🔵 OPEN</td>
-<td align="left"><strong>架构重构</strong>：统一执行沙盒启动逻辑迁移至 exec-server，为远程执行奠定基础。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/openai/codex/pull/17030">#17030</a></td>
-<td align="left">codex: add exec-server managed-network follow-up</td>
-<td align="left">🔵 OPEN</td>
-<td align="left"><strong>远程网络管理</strong>：exec-server 托管网络能力的后续 PR，明确支持/不支持的回调路径。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/openai/codex/pull/16276">#16276</a></td>
-<td align="left">[codex] add memory extensions</td>
-<td align="left">🔵 OPEN</td>
-<td align="left"><strong>记忆扩展</strong>：新增记忆扩展机制（详情待 PR 描述补充），可能涉及跨会话上下文保持。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/openai/codex/pull/17052">#17052</a></td>
-<td align="left">Add regression tests for JsonSchema</td>
-<td align="left">🔵 OPEN</td>
-<td align="left"><strong>测试加固</strong>：为 <code>JsonSchema</code> 工具输入解析添加 4 组回归测试，覆盖布尔模式强制、对象形状推断等边界。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/openai/codex/pull/16937">#16937</a></td>
-<td align="left">Surface remote startup exec approvals</td>
-<td align="left">🔵 OPEN</td>
-<td align="left"><strong>远程执行审批</strong>：exec-server 远程启动审批流程打通，复用核心审批机制，新增冒烟测试覆盖。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>5. 功能需求趋势</h2>
-<p>基于 50 条活跃 Issue 分析，社区关注焦点呈现四大方向：</p>
-<table>
-<thead>
-<tr>
-<th align="left">趋势方向</th>
-<th align="left">代表 Issue</th>
-<th align="center">热度指标</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>💰 计费透明度与成本控制</strong></td>
-<td align="left">#14593 (Token 消耗过快)</td>
-<td align="center">464 评论，172 👍</td>
-</tr>
-<tr>
-<td align="left"><strong>🏢 企业/组织部署支持</strong></td>
-<td align="left">#13993 (Windows 独立安装包)、#10410 (Intel Mac)</td>
-<td align="center">299 👍 合计</td>
-</tr>
-<tr>
-<td align="left"><strong>📱 跨设备协同与远程控制</strong></td>
-<td align="left">#9224 (手机远程控制桌面 CLI)</td>
-<td align="center">246 👍</td>
-</tr>
-<tr>
-<td align="left"><strong>🔒 安全沙盒与权限精细化</strong></td>
-<td align="left">#17036 (Git 写权限控制)、#16799 (状态泄漏修复)</td>
-<td align="center">持续迭代中</td>
-</tr>
-<tr>
-<td align="left"><strong>⚡ 性能与资源优化</strong></td>
-<td align="left">#16231 (CPU 过高)、#16857 (GPU 占用)、#17039 (启动延迟)</td>
-<td align="center">多平台覆盖</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p><strong>新兴信号</strong>：MCP（Model Context Protocol）生态整合需求上升，#17043 和 #11264 显示社区对 MCP 服务器自定义能力的期待。</p>
-</blockquote>
-<hr>
-<h2>6. 开发者关注点</h2>
-<h3>🔴 高频痛点</h3>
-<table>
-<thead>
-<tr>
-<th align="left">痛点</th>
-<th align="left">典型场景</th>
-<th align="left">相关 Issue</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Token/成本不可控</strong></td>
-<td align="left">企业用户担心自动化脚本导致账单激增</td>
-<td align="left">#14593, #8367</td>
-</tr>
-<tr>
-<td align="left"><strong>认证会话不稳定</strong></td>
-<td align="left">CI/CD、长时间任务中 Token 刷新失败</td>
-<td align="left">#12764, #17041</td>
-</tr>
-<tr>
-<td align="left"><strong>平台支持碎片化</strong></td>
-<td align="left">Intel Mac、Windows 企业环境被排除</td>
-<td align="left">#10410, #13993</td>
-</tr>
-<tr>
-<td align="left"><strong>TUI/终端状态异常</strong></td>
-<td align="left">子代理、恢复会话后 UI 假死或信息残留</td>
-<td align="left">#16904, #16421</td>
-</tr>
-</tbody></table>
-<h3>🟡 能力期待</h3>
-<ul>
-<li><strong>可编程钩子系统</strong>：#16484、#16301 呼吁官方支持机器可读的事件表面（event surface），实现与 Claude Code 类似的自动审批流</li>
-<li><strong>会话导出与可观测性</strong>：#2880（Markdown 导出）、#5781（日志可读化）反映文档化、审计需求</li>
-<li><strong>模型行为可控性</strong>：#16548（子代理模型选择被覆盖）、#13867（模型输出格式污染）显示对 GPT-5.4 系列精细控制的需求</li>
-</ul>
-<hr>
-<p><em>日报生成时间：2026-04-08 | 数据来源：github.com/openai/codex</em></p>
-</details>
-
-<details>
-<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
-
-<h1>Gemini CLI 社区动态日报 | 2026-04-08</h1>
-<hr>
-<h2>1. 今日速览</h2>
-<p>今日 Gemini CLI 社区聚焦<strong>性能优化与稳定性修复</strong>：团队密集发布 6 项性能回归测试计划，同时修复了 Scheduler 内存泄漏、OAuth URL 截断等关键问题。v0.37.0-preview.2 补丁版本发布，解决了 shebang 兼容性问题。</p>
-<hr>
-<h2>2. 版本发布</h2>
-<h3>v0.37.0-preview.2</h3>
-<table>
-<thead>
-<tr>
-<th align="left">属性</th>
-<th align="left">内容</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">发布日期</td>
-<td align="left">2026-04-07</td>
-</tr>
-<tr>
-<td align="left">类型</td>
-<td align="left">补丁版本</td>
-</tr>
-<tr>
-<td align="left">核心修复</td>
-<td align="left">移除 shebang 中的 <code>-S</code> 参数，修复 Windows 与 BSD 系统执行失败问题</td>
-</tr>
-</tbody></table>
-<p>🔗 <a href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.37.0-preview.2">Release 详情</a></p>
-<blockquote>
-<p>背景：Node.js shebang <code>#!/usr/bin/env -S node --no-warnings</code> 中的 <code>-S</code> 标志在部分 Unix 系统上不被支持，导致 CLI 无法直接执行。</p>
-</blockquote>
-<hr>
-<h2>3. 社区热点 Issues（精选 10 项）</h2>
-<table>
-<thead>
-<tr>
-<th align="left">#</th>
-<th align="left">Issue</th>
-<th align="left">状态</th>
-<th align="left">关键度</th>
-<th align="left">核心看点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/24863">#24863</a></td>
-<td align="left">Scheduler 内存泄漏：McpProgress 监听器未释放</td>
-<td align="left">🔴 CLOSED</td>
-<td align="left"><strong>P0</strong></td>
-<td align="left">社区成员 Anjaligarhwal 深入代码审查发现，每次调用 <code>scheduleAgentTools()</code> 创建的 Scheduler 实例会向全局 <code>coreEvents</code> 注册永久监听器，导致监听器累积。已提交修复 PR。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/22745">#22745</a></td>
-<td align="left">AST 感知文件读取评估</td>
-<td align="left">🟡 OPEN</td>
-<td align="left"><strong>EPIC</strong></td>
-<td align="left">核心维护者 gundermanc 主导的长期调研，探索通过 AST（抽象语法树）精准定位方法边界，减少 token 浪费和误读。关联 #22746，可能重塑代码库分析能力。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/23582">#23582</a></td>
-<td align="left">子代理感知当前审批模式</td>
-<td align="left">🟡 OPEN</td>
-<td align="left"><strong>架构</strong></td>
-<td align="left">子代理缺乏对 Plan Mode/Auto-Edit Mode 的感知，导致策略引擎拦截与代理自身指令冲突。需统一指令与策略层。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/22819">#22819</a></td>
-<td align="left">记忆路由：全局 vs 项目级</td>
-<td align="left">🟡 OPEN</td>
-<td align="left"><strong>UX</strong></td>
-<td align="left">定义记忆存储边界：用户偏好（<code>~/.gemini/</code>）与代码库特定知识（<code>.gemini/</code>）分离。直接影响个性化体验。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/24869">#24869</a></td>
-<td align="left">内存回归测试</td>
-<td align="left">🟡 OPEN</td>
-<td align="left"><strong>质量基建</strong></td>
-<td align="left">jacob314 提出针对大对话、恢复场景的记忆占用测试，防止原生对象引用泄漏。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/24864">#24864</a></td>
-<td align="left">性能回归测试体系</td>
-<td align="left">🟡 OPEN</td>
-<td align="left"><strong>质量基建</strong></td>
-<td align="left">要求 mock 模型运行完整 CLI，跨平台测试，避免性能退化。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/24868">#24768</a></td>
-<td align="left">非英语语言性能</td>
-<td align="left">🟡 OPEN</td>
-<td align="left"><strong>国际化</strong></td>
-<td align="left">验证亚洲语言对话场景性能不低于英语，暴露潜在编码/渲染瓶颈。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/24535">#24535</a></td>
-<td align="left">会话恢复失败：&quot;Invalid session identifier&quot;</td>
-<td align="left">🔴 CLOSED</td>
-<td align="left"><strong>稳定性</strong></td>
-<td align="left">9 条评论的高互动 Issue，涉及 <code>--resume</code> 与 API Key 验证的竞态条件。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/24202">#24202</a></td>
-<td align="left">SSH 会话文本乱码</td>
-<td align="left">🟡 OPEN</td>
-<td align="left"><strong>兼容性</strong></td>
-<td align="left">Windows SSH 到 gLinux 后 CLI 渲染异常，需检测 SSH 环境（关联 #24546）。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/issues/23571">#23571</a></td>
-<td align="left">模型随机生成临时脚本</td>
-<td align="left">🟡 OPEN</td>
-<td align="left"><strong>工作流</strong></td>
-<td align="left">限制 shell 执行后，模型分散创建编辑脚本，增加清理负担。需引导模型集中管理临时文件。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>4. 重要 PR 进展（精选 10 项）</h2>
-<table>
-<thead>
-<tr>
-<th align="left">#</th>
-<th align="left">PR</th>
-<th align="left">状态</th>
-<th align="left">作者</th>
-<th align="left">功能/修复摘要</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/24870">#24870</a></td>
-<td align="left">修复 Scheduler McpProgress 监听器泄漏</td>
-<td align="left">🟡 OPEN</td>
-<td align="left">Anjaligarhwal</td>
-<td align="left">补全 #21006 修复，覆盖之前遗漏的泄漏点，确保 <code>dispose()</code> 可靠调用</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/24862">#24862</a></td>
-<td align="left">限制高容量组件内存增长</td>
-<td align="left">🟡 OPEN</td>
-<td align="left">spencer426</td>
-<td align="left">为 <code>AnsiOutput</code>、<code>SubagentProgressDisplay</code> 等设置最大保留行数，防止无界内存增长</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/24861">#24861</a></td>
-<td align="left">Ctrl+G 替代 Ctrl+X 打开外部编辑器</td>
-<td align="left">🟡 OPEN</td>
-<td align="left">jacob314</td>
-<td align="left">顺应行业惯例（VS Code 等），原 Ctrl+X 保留提示迁移，IDE 调试命令移至 F4</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/24859">#24859</a></td>
-<td align="left">增加 EPT 大小标志并提升默认值</td>
-<td align="left">🟡 OPEN</td>
-<td align="left">devr0306</td>
-<td align="left">解决大上下文场景下的 token 限制问题</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/24858">#24858</a></td>
-<td align="left">修复工具执行时内容消失</td>
-<td align="left">🟡 OPEN</td>
-<td align="left">gundermanc</td>
-<td align="left">修复 <code>topicUpdateNarration</code> 过度抑制导致诗歌/对话内容在工具执行后消失的 bug</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/24853">#24853</a></td>
-<td align="left">保留终端 OAuth URL 完整性</td>
-<td align="left">🟡 OPEN</td>
-<td align="left">Aaxhirrr</td>
-<td align="left"><strong>P1 优先级</strong>：长 OAuth URL 在窄终端被截断，改为专用渲染路径确保登录流程可靠</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/24763">#24763</a></td>
-<td align="left">强化沙箱清理机制</td>
-<td align="left">🟡 OPEN</td>
-<td align="left">ehedlund</td>
-<td align="left">用 <code>try...finally</code> 包裹所有进程执行路径，防止 sidecar 进程和临时文件泄漏</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/24752">#24752</a></td>
-<td align="left">解耦 ContextManager 与 Sidecar 架构</td>
-<td align="left">🟡 OPEN</td>
-<td align="left">joshualitt</td>
-<td align="left">核心架构重构，解决 #24751 系列问题，提升模块可测试性</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/24677">#24677</a></td>
-<td align="left">优化紧凑模式工具输出格式</td>
-<td align="left">🟡 OPEN</td>
-<td align="left">jwhelangoog</td>
-<td align="left">搜索/读取工具输出改为单行，提升信息密度，统一列表工具措辞</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-gemini/gemini-cli/pull/20406">#20406</a></td>
-<td align="left">大工具输出内存管理优化</td>
-<td align="left">🟡 OPEN</td>
-<td align="left">jacob314</td>
-<td align="left">超大 shell 输出直接落盘而非全量驻留内存，防止 V8 OOM</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>5. 功能需求趋势</h2>
-<p>基于 50 条活跃 Issue 分析，社区关注焦点呈现四大方向：</p>
-<table>
-<thead>
-<tr>
-<th align="left">趋势方向</th>
-<th align="left">热度</th>
-<th align="left">代表 Issue</th>
-<th align="left">核心诉求</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>性能工程化</strong></td>
-<td align="left">🔥🔥🔥🔥🔥</td>
-<td align="left">#24864-#24869 系列</td>
-<td align="left">建立完整的性能回归测试体系，覆盖内存、滚动、长对话、多语言场景</td>
-</tr>
-<tr>
-<td align="left"><strong>内存安全</strong></td>
-<td align="left">🔥🔥🔥🔥🔥</td>
-<td align="left">#24863, #21006, #24862</td>
-<td align="left">消除 Scheduler、事件监听器、UI 组件的泄漏隐患</td>
-</tr>
-<tr>
-<td align="left"><strong>终端体验精细化</strong></td>
-<td align="left">🔥🔥🔥🔥</td>
-<td align="left">#24768, #24470, #24438, #24202</td>
-<td align="left">滚动流畅性、SSH 兼容、渲染边界处理</td>
-</tr>
-<tr>
-<td align="left"><strong>智能体架构演进</strong></td>
-<td align="left">🔥🔥🔥🔥</td>
-<td align="left">#22745, #23582, #22819, #24752</td>
-<td align="left">AST 感知、记忆分层、子代理协调、Context 解耦</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>新兴信号：jacob314 单日创建 6 项性能测试 Issue，表明团队正从&quot;功能交付&quot;转向&quot;质量基建&quot;阶段。</p>
-</blockquote>
-<hr>
-<h2>6. 开发者关注点</h2>
-<h3>🔴 高频痛点</h3>
-<table>
-<thead>
-<tr>
-<th align="left">问题</th>
-<th align="left">场景</th>
-<th align="left">社区声音</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>SSH 环境检测缺失</strong></td>
-<td align="left">Windows → gLinux 远程开发</td>
-<td align="left">&quot;文本乱码导致完全无法使用&quot; (#24202)</td>
-</tr>
-<tr>
-<td align="left"><strong>OAuth 流程脆弱</strong></td>
-<td align="left">窄终端登录</td>
-<td align="left">URL 截断导致认证失败 (#24853)</td>
-</tr>
-<tr>
-<td align="left"><strong>临时文件管理混乱</strong></td>
-<td align="left">受限 shell 执行模式</td>
-<td align="left">&quot;清理工作区以提交干净代码时开销巨大&quot; (#</td>
-</tr>
-</tbody></table>
-</details>
-
-<details>
-<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
-
-<h1>GitHub Copilot CLI 社区动态日报 | 2026-04-08</h1>
-<hr>
-<h2>1. 今日速览</h2>
-<p>GitHub Copilot CLI 今日密集发布 <strong>v1.0.19 → v1.0.21</strong> 三个版本，核心亮点是正式引入 <strong><code>copilot mcp</code> 命令</strong> 管理 MCP 服务器，并大幅改进终端渲染稳定性（修复 spinner 卡顿、闪烁等问题）。社区 Issues 处理效率极高，过去24小时内 <strong>30+ 条 Issue 被关闭</strong>，但认证流程回归问题（#2494）仍需关注。</p>
-<hr>
-<h2>2. 版本发布</h2>
-<h3>v1.0.21（2026-04-07）</h3>
-<table>
-<thead>
-<tr>
-<th align="left">特性</th>
-<th align="left">说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><code>copilot mcp</code> 命令</strong></td>
-<td align="left">新增专用命令管理 MCP 服务器，标志 MCP 生态正式 CLI 化</td>
-</tr>
-<tr>
-<td align="left"><strong>Spinner 稳定性修复</strong></td>
-<td align="left">长时异步 shell 命令执行时，spinner 不再&quot;假死&quot;</td>
-</tr>
-<tr>
-<td align="left"><strong>企业登录优化</strong></td>
-<td align="left">GitHub Enterprise URL 输入支持键盘回车提交</td>
-</tr>
-<tr>
-<td align="left"><strong>UI 修复</strong></td>
-<td align="left">斜杠命令选择器不再闪烁/跳动</td>
-</tr>
-</tbody></table>
-<h3>v1.0.20 / v1.0.20-1（2026-04-07）</h3>
-<table>
-<thead>
-<tr>
-<th align="left">特性</th>
-<th align="left">说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>OpenTelemetry 可观测性</strong></td>
-<td align="left">新增 <code>copilot help monitoring</code> 主题，内置 OTel 配置指南与示例</td>
-</tr>
-<tr>
-<td align="left"><strong>后台任务感知</strong></td>
-<td align="left">Spinner 持续显示直至后台 agent 和 shell 命令完成，期间用户输入始终可用</td>
-</tr>
-<tr>
-<td align="left"><strong>Azure OpenAI 默认路由</strong></td>
-<td align="left">BYOK 场景默认使用 GA 版本无版本号 v1 路由</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>🔗 <a href="https://github.com/github/copilot-cli/releases">Releases 页面</a></p>
-</blockquote>
-<hr>
-<h2>3. 社区热点 Issues（精选10条）</h2>
-<table>
-<thead>
-<tr>
-<th align="left">#</th>
-<th align="left">状态</th>
-<th align="left">标题</th>
-<th align="left">重要性分析</th>
-<th align="left">社区反应</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/github/copilot-cli/issues/2494">#2494</a></td>
-<td align="left">🔴 OPEN</td>
-<td align="left">Keychain 提示自动输入&#39;y/N&#39;（v1.0.16 回归）</td>
-<td align="left"><strong>认证流程严重回归</strong>：系统钥匙串不可用时，CLI 自动替用户输入而非等待确认，导致认证中断。影响企业/无 GUI 环境用户。</td>
-<td align="left">8 评论，0 👍，需紧急修复</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/github/copilot-cli/issues/1748">#1748</a></td>
-<td align="left">✅ CLOSED</td>
-<td align="left">支持 MCP Sampling</td>
-<td align="left">MCP 核心能力补齐：Copilot Chat 已支持，CLI 此前缺失，现随 <code>copilot mcp</code> 命令同步落地。</td>
-<td align="left">3 评论，3 👍，功能闭环</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/github/copilot-cli/issues/2446">#2446</a></td>
-<td align="left">✅ CLOSED</td>
-<td align="left"><code>/resume</code> 不显示近期会话</td>
-<td align="left"><strong>会话管理关键修复</strong>：<code>workspace.yaml</code> 缺失 git 上下文字段导致新会话不可见，根因已定位至 <code>initializeWorkspace()</code>。</td>
-<td align="left">3 评论，2 👍，影响工作流连续性</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/github/copilot-cli/issues/2344">#2344</a></td>
-<td align="left">✅ CLOSED</td>
-<td align="left">终端原生复制功能被破坏</td>
-<td align="left"><strong>终端兼容性</strong>：v1.0.15 引入的鼠标报告功能拦截了&quot;选中即复制&quot;行为，影响大量 Linux/终端用户习惯。</td>
-<td align="left">3 评论，7 👍，高投票关闭</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/github/copilot-cli/issues/2499">#2499</a></td>
-<td align="left">✅ CLOSED</td>
-<td align="left"><code>/copy</code> 命令失效+长回复截断</td>
-<td align="left">双重复合问题：复制功能损坏+渲染引擎对长内容处理缺陷，已随渲染层重构修复。</td>
-<td align="left">3 评论，0 👍</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/github/copilot-cli/issues/2471">#2471</a></td>
-<td align="left">✅ CLOSED</td>
-<td align="left">OTel 遥测支持（对标 Claude Code）</td>
-<td align="left"><strong>企业可观测性</strong>：明确对标 Claude Code 的 <code>CLAUDE_CODE_ENABLE_TELEMETRY</code>，v1.0.20 已部分落地。</td>
-<td align="left">2 评论，0 👍，企业用户关注</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/github/copilot-cli/issues/2564">#2564</a></td>
-<td align="left">✅ CLOSED</td>
-<td align="left"><code>model:</code> 参数是否实际控制模型选择</td>
-<td align="left"><strong>配置语义澄清</strong>：<code>.agent.md</code> frontmatter 和 <code>task()</code> 的 <code>model</code> 参数实际行为与文档不符，需明确预期。</td>
-<td align="left">2 评论，0 👍</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/github/copilot-cli/issues/1444">#1444</a></td>
-<td align="left">🔴 OPEN</td>
-<td align="left">空参数 bash 调用导致无限循环</td>
-<td align="left"><strong>稳定性风险</strong>：模型对无效 bash 命令的容错机制缺失，可触发 5000+ 次重复调用直至进程被杀。</td>
-<td align="left">2 评论，0 👍，待修复</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/github/copilot-cli/issues/2008">#2008</a></td>
-<td align="left">✅ CLOSED</td>
-<td align="left">请求：CAPIError 400 前自动压缩</td>
-<td align="left"><strong>长会话体验</strong>：190+ 消息时上下文超限，建议前置自动 compact 而非报错后丢失工作。</td>
-<td align="left">2 评论，3 👍，架构层面优化</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/github/copilot-cli/issues/2557">#2557</a></td>
-<td align="left">✅ CLOSED</td>
-<td align="left">双 Esc 取消操作无限挂起（v1.0.19）</td>
-<td align="left"><strong>交互阻塞</strong>：macOS 上取消信号处理异常，&quot;Cancelling&quot;状态永不结束，v1.0.20+ 已修复。</td>
-<td align="left">1 评论，0 👍，快速响应</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>4. 重要 PR 进展</h2>
-<table>
-<thead>
-<tr>
-<th align="left">#</th>
-<th align="left">状态</th>
-<th align="left">标题</th>
-<th align="left">功能/修复内容</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/github/copilot-cli/pull/2565">#2565</a></td>
-<td align="left">🟡 OPEN</td>
-<td align="left">安装脚本防止 PATH 重复条目</td>
-<td align="left"><strong>安装体验</strong>：重复运行安装器时，因 <code>command -v copilot</code> 需 shell 重启才能检测，导致 PATH 配置行重复追加。修复检测逻辑避免污染 shell profile。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/github/copilot-cli/pull/2556">#2556</a></td>
-<td align="left">🟡 OPEN</td>
-<td align="left">Developer skill</td>
-<td align="left"><strong>技能系统扩展</strong>：&quot;Level up skills&quot;——具体实现待披露，推测为开发者工作流技能模板或 agent 能力升级。</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>注：今日仅 2 条 PR 更新，团队重心在 Issue 清理与版本发布。</p>
-</blockquote>
-<hr>
-<h2>5. 功能需求趋势</h2>
-<p>基于 50 条活跃 Issue 提炼，社区关注方向呈 <strong>四大集群</strong>：</p>
-<table>
-<thead>
-<tr>
-<th align="left">趋势方向</th>
-<th align="left">代表 Issue</th>
-<th align="left">热度信号</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>🔌 MCP 生态深化</strong></td>
-<td align="left">#1748（Sampling）、<code>copilot mcp</code> 命令发布</td>
-<td align="left">官方主推，从&quot;支持&quot;走向&quot;原生管理&quot;</td>
-</tr>
-<tr>
-<td align="left"><strong>🔐 企业/认证体验</strong></td>
-<td align="left">#2494（Keychain 回归）、#2404（插件安装凭据）、#2437（SSO/EMU）</td>
-<td align="left">企业部署 blocker 集中爆发</td>
-</tr>
-<tr>
-<td align="left"><strong>🖥️ 终端原生兼容性</strong></td>
-<td align="left">#2344/#2472（复制选中）、#2384（alt-screen 移除）、#2406（BOM 字符）</td>
-<td align="left">终端用户习惯 vs 新渲染引擎的摩擦</td>
-</tr>
-<tr>
-<td align="left"><strong>📊 可观测性与控制</strong></td>
-<td align="left">#2471（OTel）、#2505（持久权限）、#2008（自动压缩）</td>
-<td align="left">生产环境治理需求上升</td>
-</tr>
-</tbody></table>
-<p><strong>新兴信号</strong>：本地模型支持（#2531 Ollama/LM Studio）被提出，但官方暂无回应，社区自托管诉求初现。</p>
-<hr>
-<h2>6. 开发者关注点</h2>
-<h3>🔴 高频痛点（需官方响应）</h3>
-<table>
-<thead>
-<tr>
-<th align="left">痛点</th>
-<th align="left">典型反馈</th>
-<th align="left">影响面</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>认证流程脆弱性</strong></td>
-<td align="left">&quot;升级后自动输入 y/N，无法干预&quot;（#2494）</td>
-<td align="left">企业 CI/无头环境阻塞</td>
-</tr>
-<tr>
-<td align="left"><strong>终端习惯冲突</strong></td>
-<td align="left">&quot;选中即复制被鼠标报告破坏&quot;（#2344）</td>
-<td align="left">Linux/资深终端用户</td>
-</tr>
-<tr>
-<td align="left"><strong>取消操作不可靠</strong></td>
-<td align="left">&quot;Cancelling 永远挂起&quot;（#2557，已修）、&quot;双 Esc 无效&quot;</td>
-<td align="left">交互安全感缺失</td>
-</tr>
-</tbody></table>
-<h3>🟡 能力缺口（功能请求）</h3>
-<table>
-<thead>
-<tr>
-<th align="left">需求</th>
-<th align="left">场景</th>
-<th align="left">优先级暗示</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>持久权限管理</strong></td>
-<td align="left">避免 <code>/allow-all</code> 过度授权，按目录/应用粒度持久化（#2505）</td>
-<td align="left">安全合规刚需</td>
-</tr>
-<tr>
-<td align="left"><strong>本地模型后端</strong></td>
-<td align="left">Ollama/llama.cpp 接入，降低延迟与成本（#2531）</td>
-<td align="left">隐私敏感/离线场景</td>
-</tr>
-<tr>
-<td align="left"><strong>富命令发现</strong></td>
-<td align="left">新手友好：描述、分类、搜索 <code>/fleet</code> <code>/delegate</code> 等隐藏功能（#2489）</td>
-<td align="left">用户增长策略</td>
-</tr>
-</tbody></table>
-<h3>🟢 已验证的积极反馈</h3>
-<ul>
-<li><strong>OTel 集成</strong>：企业用户明确认可 v1.0.20 的监控能力（#2471 关闭）</li>
-<li><strong>MCP 管理</strong>：<code>copilot mcp</code> 命令发布回应了 #1748 等长期诉求</li>
-</ul>
-<hr>
-<p><em>日报生成时间：2026-04-08 | 数据来源：github.com/github/copilot-cli</em></p>
-</details>
-
-<details>
-<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
-
-<h1>Kimi Code CLI 社区动态日报 | 2026-04-08</h1>
-<h2>今日速览</h2>
-<p>今日社区活跃度极高，<strong>Hook 系统</strong>成为焦点——既有生命周期 Hook 的功能请求，也有 <code>UserPromptSubmit</code> 事件传空值的紧急 Bug 修复。同时，<strong>TypeScript 重构提案</strong>引发广泛讨论，社区对 Python 版本的性能瓶颈表达强烈关切。文件引用（@mention）和 MCP 连接稳定性问题持续发酵。</p>
-<hr>
-<h2>版本发布</h2>
-<p><strong>无新版本发布</strong></p>
-<hr>
-<h2>社区热点 Issues</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>标题</th>
-<th>状态</th>
-<th>重要性</th>
-<th>社区反应</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/issues/1344">#1344</a></td>
-<td>API Error 400: Invalid request Error</td>
-<td>🔴 OPEN</td>
-<td><strong>高</strong></td>
-<td>21 条评论，跨版本（1.14.0-2.1.23）复现，疑似服务端兼容性问题</td>
-</tr>
-<tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/issues/778">#778</a></td>
-<td>API Error 400（同类型）</td>
-<td>🔴 OPEN</td>
-<td><strong>高</strong></td>
-<td>与 #1344 同源，Win11/PowerShell 环境集中爆发，需官方定位</td>
-</tr>
-<tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/issues/1779">#1779</a></td>
-<td>UserPromptSubmit hook 发送空 prompt 字段</td>
-<td>🔴 OPEN</td>
-<td><strong>高</strong></td>
-<td>新上报 Hook 功能缺陷，影响外部工具集成（如 vibe-islands）</td>
-</tr>
-<tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/issues/1375">#1375</a></td>
-<td>@ 文件引用无法找到文件</td>
-<td>✅ CLOSED</td>
-<td>中</td>
-<td>1.18.0 回归问题，已通过 <a href="https://github.com/MoonshotAI/kimi-cli/pull/1588">#1588</a> 修复，采用 <code>git ls-files</code> 优化大仓库遍历</td>
-</tr>
-<tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/issues/1774">#1774</a></td>
-<td>@mention 文件路径错误（~ 目录）</td>
-<td>🔴 OPEN</td>
-<td>中</td>
-<td>macOS 特定路径展开问题，与 #1375 修复后仍存边缘 case</td>
-</tr>
-<tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/issues/1785">#1785</a></td>
-<td>Streamable HTTP MCP 连接报错：字段重复</td>
-<td>🔴 OPEN</td>
-<td>中</td>
-<td>MCP 协议解析错误，结构化内容处理需加固</td>
-</tr>
-<tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/issues/1775">#1775</a></td>
-<td>LLM provider 连接错误</td>
-<td>🔴 OPEN</td>
-<td>中</td>
-<td>Win11 环境网络层问题，需更多诊断信息</td>
-</tr>
-<tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/issues/1773">#1773</a></td>
-<td>400 错误：function name is invalid</td>
-<td>✅ CLOSED</td>
-<td>中</td>
-<td>1.30.0 函数调用命名问题，快速修复</td>
-</tr>
-<tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/issues/1747">#1747</a></td>
-<td>三级 Rules 系统（对标 Claude Code）</td>
-<td>🔴 OPEN</td>
-<td><strong>高</strong></td>
-<td>功能对标请求，全局/用户/项目三层规则管理，社区强烈期待</td>
-</tr>
-<tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/issues/1783">#1783</a></td>
-<td>添加 /delete 命令删除 Session</td>
-<td>🔴 OPEN</td>
-<td>低</td>
-<td>会话管理体验优化，手动删目录体验差</td>
-</tr>
-<tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/issues/1782">#1782</a></td>
-<td>记忆持久化/工作现场恢复</td>
-<td>🔴 OPEN</td>
-<td><strong>高</strong></td>
-<td>长对话上下文管理痛点，用户需要&quot;检查点&quot;机制</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>重要 PR 进展</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>标题</th>
-<th>状态</th>
-<th>核心内容</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/pull/1707">#1707</a></td>
-<td>重构：Python → Bun + TypeScript + React Ink</td>
-<td>🔵 OPEN</td>
-<td><strong>争议性提案</strong>：32k 行 TS 完整重写，声称解决 Python 性能瓶颈，社区分歧大</td>
-</tr>
-<tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/pull/1784">#1784</a></td>
-<td>添加 AWS Bedrock Mantle 平台支持</td>
-<td>🔵 OPEN</td>
-<td>扩展 <code>/login</code> 流程，支持 OpenAI 兼容的 AWS 托管模型</td>
-</tr>
-<tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/pull/1781">#1781</a></td>
-<td>修复 UserPromptSubmit hook 空 prompt 问题</td>
-<td>🔵 OPEN</td>
-<td>紧急修复 #1779，<code>list[ContentPart]</code> 类型未正确处理</td>
-</tr>
-<tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/pull/1780">#1780</a></td>
-<td>优雅处理 MCP 连接失败</td>
-<td>🔵 OPEN</td>
-<td>修复 #1766，防止 MCP 异常崩溃 worker 进程</td>
-</tr>
-<tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/pull/1715">#1715</a></td>
-<td>Claude 兼容本地插件支持</td>
-<td>🔵 OPEN</td>
-<td>通过 <code>--plugin-dir</code> 加载 Claude 插件，生态互操作突破</td>
-</tr>
-<tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/pull/1777">#1777</a></td>
-<td>三级 Rules 系统实现</td>
-<td>🔵 OPEN</td>
-<td>对应 #1747 功能请求，Claude Code 对标实现</td>
-</tr>
-<tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/pull/1751">#1751</a></td>
-<td>PermissionRequest Hook 外部审批</td>
-<td>🔵 OPEN</td>
-<td>工具调用前暂停等待外部系统批准，企业场景关键能力</td>
-</tr>
-<tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/pull/1622">#1622</a></td>
-<td>CWD 被删除时优雅退出</td>
-<td>🔵 OPEN</td>
-<td>外部存储断开等边缘场景，防无限错误级联</td>
-</tr>
-<tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/pull/1588">#1588</a></td>
-<td>大仓库 @mention 改用 git ls-files</td>
-<td>✅ CLOSED</td>
-<td>解决 65k+ 文件仓库遍历性能问题，已合并</td>
-</tr>
-<tr>
-<td><a href="https://github.com/MoonshotAI/kimi-cli/pull/1743">#1743</a></td>
-<td>/btw 边问边答命令</td>
-<td>✅ CLOSED</td>
-<td>不中断主对话的轻量查询，双层级渲染交互创新</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>功能需求趋势</h2>
-<pre><code class="language-mermaid">pie title 社区功能关注分布
-    &quot;Hook/扩展系统&quot; : 28
-    &quot;Rules/配置管理&quot; : 22
-    &quot;稳定性/Bug修复&quot; : 20
-    &quot;会话/记忆管理&quot; : 15
-    &quot;多平台/模型支持&quot; : 10
-    &quot;性能/架构重构&quot; : 5
-</code></pre>
-<p><strong>Top 3 趋势：</strong></p>
-<ol>
-<li><strong>Hook 生态扩展</strong> — 生命周期 Hook、权限审批 Hook、外部监控集成（vibe-islands 等），社区希望将 Kimi CLI 嵌入更复杂的工作流</li>
-<li><strong>Rules 系统标准化</strong> — 明确对标 Claude Code 的三级规则，项目级 <code>.kimi/rules</code> 需求迫切</li>
-<li><strong>会话可管理性</strong> — 删除、归档、检查点、跨设备恢复，长周期开发场景的基础设施</li>
-</ol>
-<hr>
-<h2>开发者关注点</h2>
-<table>
-<thead>
-<tr>
-<th>痛点类别</th>
-<th>具体表现</th>
-<th>影响程度</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>API 稳定性</strong></td>
-<td>400 Invalid request 跨版本蔓延</td>
-<td>🔴 阻塞使用</td>
-</tr>
-<tr>
-<td><strong>Hook 可靠性</strong></td>
-<td>新功能（1.30.0 Hook 系统）即现空值 Bug</td>
-<td>🟡 信任损耗</td>
-</tr>
-<tr>
-<td><strong>大仓库性能</strong></td>
-<td>文件遍历、@mention 响应慢</td>
-<td>🟡 体验降级</td>
-</tr>
-<tr>
-<td><strong>MCP 健壮性</strong></td>
-<td>连接失败、字段解析错误频发</td>
-<td>🟡 生态扩展受阻</td>
-</tr>
-<tr>
-<td><strong>架构争议</strong></td>
-<td>#1707 TS 重构提案引发&quot;重写 vs 迭代&quot;路线之争</td>
-<td>🟢 长期方向</td>
-</tr>
-</tbody></table>
-<p><strong>高频需求关键词：</strong> <code>checkpoint</code> <code>session management</code> <code>Claude parity</code> <code>plugin ecosystem</code> <code>enterprise approval</code></p>
-<hr>
-<p><em>日报基于 GitHub 公开数据生成，不代表 MoonshotAI 官方立场</em></p>
-</details>
-
-<details>
-<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
-
-<h1>OpenCode 社区动态日报 | 2026-04-08</h1>
-<hr>
-<h2>1. 今日速览</h2>
-<p>今日社区活跃度极高，<strong>50 个 Issues 和 50 个 PR 在过去 24 小时内更新</strong>。核心焦点集中在<strong>阿里云 Qwen 3.6 模型的速率限制问题</strong>（引发 29 条评论热议），以及<strong>上下文管理、Claude Code 兼容性、TUI 体验优化</strong>等长期需求。多个重要功能 PR 持续推进，包括语音模式、MCP 资源订阅和 Kiro 提供商支持。</p>
-<hr>
-<h2>2. 版本发布</h2>
-<p><strong>今日无新版本发布</strong></p>
-<hr>
-<h2>3. 社区热点 Issues</h2>
-<table>
-<thead>
-<tr>
-<th align="left">优先级</th>
-<th align="left">Issue</th>
-<th align="left">核心看点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">🔥</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/issues/21164">#21164</a> Qwen 3.6 plus (free) 速率限制错误</strong></td>
-<td align="left"><strong>今日最热话题</strong>。阿里云 DashScope 的&quot;请求速率增长过快&quot;错误导致任务中断，用户急需可配置的请求速率限制或自动退避机制。29 评论、9 👍，已有关闭的衍生 Issue #21140 提出自动重试方案。</td>
-</tr>
-<tr>
-<td align="left">⭐</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/issues/8140">#8140</a> 可配置上下文限制与自动压缩阈值</strong></td>
-<td align="left"><strong>长期高赞需求</strong>（35 👍）。当前自动压缩仅在上下文接近满时触发，用户希望提前触发以优化成本。1 月提出，昨日仍有更新，显示需求持续性。</td>
-</tr>
-<tr>
-<td align="left">⭐</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/issues/12472">#12472</a> 原生 Claude Code hooks 兼容性</strong></td>
-<td align="left">OpenCode 已支持 <code>CLAUDE.md</code> 和 skills，但缺少 <code>PreToolUse</code>/<code>PostToolUse</code>/<code>Stop</code> hooks 系统，阻碍高级用户从 Claude Code 迁移。13 👍，社区期待完整兼容。</td>
-</tr>
-<tr>
-<td align="left">⚠️</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/issues/16851">#16851</a> ChatGPT 账户无法使用 Codex</strong></td>
-<td align="left"><code>gpt-5.3-codex</code> 模型在 ChatGPT 账户下报错&quot;不支持&quot;，影响 Windows 用户。虽已关闭，但反映模型提供商策略变更带来的兼容性风险。</td>
-</tr>
-<tr>
-<td align="left">⚠️</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/issues/17505">#17505</a> ACP session/update 通知时序问题</strong></td>
-<td align="left">集成商反馈 <code>session/update</code> 在 <code>end_turn</code> 之后到达，导致 Fabriqa 等客户端显示不完整内容。影响 ACP 协议可靠性，需核心团队关注。</td>
-</tr>
-<tr>
-<td align="left">⭐</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/issues/7926">#7926</a> TUI 鼠标捕获禁用选项</strong></td>
-<td align="left"><strong>终端多路复用器用户痛点</strong>。Zellij/tmux 用户无法正常使用鼠标选择和复制，15 👍 的高赞需求，昨日更新显示仍在推进。</td>
-</tr>
-<tr>
-<td align="left">⚠️</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/issues/21034">#21034</a> Gemma-4-26b/31b 工具循环故障</strong></td>
-<td align="left">即使 LM Studio 和 llama.cpp 已发布修复，Gemma 4 系列在 OpenCode 中仍出现工具调用失败。需排查 OpenCode 端的工具调用实现。</td>
-</tr>
-<tr>
-<td align="left">🔧</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/issues/6506">#6506</a> 恢复 List Tool 以减少 grep/find 滥用</strong></td>
-<td align="left">模型（尤其 glm-4.7）频繁使用 bash 工具搜索文件，用户尝试修改工具描述无效。反映工具设计对模型行为的引导不足。</td>
-</tr>
-<tr>
-<td align="left">⭐</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/issues/21391">#21391</a> 桌面端 UX 体验糟糕</strong></td>
-<td align="left"><strong>情绪化但真实的反馈</strong>。用户激烈批评会话切换和新会话创建的交互设计，要求改为标签页模式。0 👍 但值得产品团队关注。</td>
-</tr>
-<tr>
-<td align="left">🔧</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/issues/21372">#21372</a> 会话文件变更摘要未隔离</strong></td>
-<td align="left">多会话并发时，文件变更摘要跨会话泄漏，显示所有会话的修改。数据隔离 bug，影响多任务工作流。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>4. 重要 PR 进展</h2>
-<table>
-<thead>
-<tr>
-<th align="left">状态</th>
-<th align="left">PR</th>
-<th align="left">功能/修复内容</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">🆕</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/pull/21399">#21399</a> Context usage tool + New Session tool</strong></td>
-<td align="left">新增上下文使用检查和新会话启动工具，支持自定义会话轮转策略，替代自动压缩。社区自定义工作流的重要补充。</td>
-</tr>
-<tr>
-<td align="left">🆕</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/pull/21377">#21377</a> 添加 opencode-claude-commands 到生态文档</strong></td>
-<td align="left">文档更新，推广社区插件 <code>.claude</code> 目录命令和 skills 支持，强化 Claude Code 兼容性生态。</td>
-</tr>
-<tr>
-<td align="left">🔄</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/pull/20677">#20677</a> 语音模式：STT/TTS/连续模式/VAD/打断</strong></td>
-<td align="left"><strong>重大功能</strong>。完整的语音交互支持，包括麦克风按钮、录音、转录后端和语音合成。修复 #18226，开发中。</td>
-</tr>
-<tr>
-<td align="left">🔄</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/pull/20676">#20676</a> Web 性能优化与配置驱动 UI 模式</strong></td>
-<td align="left">新增 <code>webMode</code> 和 <code>webUrl</code> 配置，支持代理/直接前端交付，CDN 优化。修复 #4786。</td>
-</tr>
-<tr>
-<td align="left">🔄</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/pull/20672">#20672</a> MCP 资源订阅支持</strong></td>
-<td align="left">新增 MCP 资源订阅和模板支持，通过 SDK 客户端暴露订阅资源。修复 #12092，MCP 生态关键能力。</td>
-</tr>
-<tr>
-<td align="left">🔄</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/pull/20491">#20491</a> 添加 Kiro (AWS CodeWhisperer) 提供商</strong></td>
-<td align="left">新增 AWS Kiro 支持，采用 AWS Event Stream 二进制协议而非 SSE/JSON。修复 #9165，企业用户关注。</td>
-</tr>
-<tr>
-<td align="left">🔄</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/pull/20309">#20309</a> 实验性下一步提示建议</strong></td>
-<td align="left">助手响应后生成临时用户风格下一步建议，右箭头接受。不污染消息历史，支持拒绝。创新交互实验。</td>
-</tr>
-<tr>
-<td align="left">🔄</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/pull/20939">#20939</a> 修复 skills.paths 插件配置读取</strong></td>
-<td align="left">插件通过 <code>config()</code> hook 注册 skill 目录时，配置未被正确读取。修复插件系统集成问题。</td>
-</tr>
-<tr>
-<td align="left">✅</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/pull/21244">#21244</a> 快照：统一补丁存储重构</strong></td>
-<td align="left">将快照和文件元数据存储为统一补丁格式，减少存储冗余。VCS diff 保留独立 schema 供审查使用。</td>
-</tr>
-<tr>
-<td align="left">✅</td>
-<td align="left"><strong><a href="https://github.com/anomalyco/opencode/pull/21052">#21052</a> 工具系统重构：移除 Agent 上下文依赖</strong></td>
-<td align="left">简化工具初始化，移除 <code>Tool.init()</code> 的 <code>agent</code> 参数，使工具行为更可预测。核心架构改进。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>5. 功能需求趋势</h2>
-<p>基于今日 50 个 Issues 分析，社区关注方向按热度排序：</p>
-<table>
-<thead>
-<tr>
-<th align="left">趋势方向</th>
-<th align="left">代表 Issues</th>
-<th align="left">说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>模型提供商稳定性</strong></td>
-<td align="left">#21164, #21140, #21034, #21354, #21214</td>
-<td align="left">阿里云速率限制、Gemma 4 兼容性、vLLM 支持、Ollama 本地模型集成——多提供商适配是核心痛点</td>
-</tr>
-<tr>
-<td align="left"><strong>上下文与成本优化</strong></td>
-<td align="left">#8140, #21399, #11995</td>
-<td align="left">可配置上下文限制、提前压缩、工具描述 token 优化——大模型成本敏感用户的刚需</td>
-</tr>
-<tr>
-<td align="left"><strong>Claude Code 生态兼容</strong></td>
-<td align="left">#12472, #21377</td>
-<td align="left">hooks 系统、skills、命令完整兼容——迁移用户的核心诉求</td>
-</tr>
-<tr>
-<td align="left"><strong>TUI/终端体验</strong></td>
-<td align="left">#7926, #7755, #21315, #21397</td>
-<td align="left">鼠标捕获、tab 补全、粘贴内容显示、透明度——终端重度用户的精细体验需求</td>
-</tr>
-<tr>
-<td align="left"><strong>多智能体协调</strong></td>
-<td align="left">#19215, #20368</td>
-<td align="left">DB 支持的并行子智能体、消息传递、内存共享——高级用户探索的方向</td>
-</tr>
-<tr>
-<td align="left"><strong>桌面/Web UX</strong></td>
-<td align="left">#21391, #21364, #19029</td>
-<td align="left">会话管理、代理选择器、标题栏控制——产品化体验争议较大</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>6. 开发者关注点</h2>
-<h3>高频痛点</h3>
-<table>
-<thead>
-<tr>
-<th align="left">类别</th>
-<th align="left">具体问题</th>
-<th align="left">影响</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>提供商速率限制</strong></td>
-<td align="left">阿里云 DashScope 无自动退避，任务直接失败</td>
-<td align="left">生产环境可靠性风险</td>
-</tr>
-<tr>
-<td align="left"><strong>工具系统行为不可控</strong></td>
-<td align="left">模型滥用 bash/grep，修改工具描述无效</td>
-<td align="left">效率低下、安全风险</td>
-</tr>
-<tr>
-<td align="left"><strong>会话/上下文管理</strong></td>
-<td align="left">多会话数据泄漏、上下文压缩时机不可控</td>
-<td align="left">多任务工作流受阻</td>
-</tr>
-<tr>
-<td align="left"><strong>TUI 与终端生态冲突</strong></td>
-<td align="left">鼠标捕获、复制粘贴、多路复用器兼容性</td>
-<td align="left">终端用户日常摩擦</td>
-</tr>
-<tr>
-<td align="left"><strong>协议时序问题</strong></td>
-<td align="left">ACP <code>session/update</code> 到达顺序错误</td>
-<td align="left">第三方集成困难</td>
-</tr>
-</tbody></table>
-<h3>开发者建议优先级</h3>
-<ol>
-<li><strong>短期</strong>：为阿里云等提供商添加自动退避重试机制（#21140 已有关闭方案，需评估是否足够）</li>
-<li><strong>中期</strong>：开放上下文限制和压缩阈值的配置接口（#8140 高赞长期需求）</li>
-<li><strong>长期</strong>：完善 Claude Code hooks 兼容性，降低迁移门槛（#12472）</li>
-</ol>
-<hr>
-<p><em>日报基于 GitHub 公开数据生成，链接指向 <code>anomalyco/opencode</code> 仓库。</em></p>
-</details>
-
-<details>
-<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
-
-<h1>Pi 社区动态日报 | 2026-04-08</h1>
-<h2>今日速览</h2>
-<p>今日 Pi 社区活跃度极高，共处理 41 个 Issues 和 11 个 PR，核心聚焦于 <strong>Antigravity 模型兼容性紧急修复</strong>、<strong>多模型提供商生态扩展</strong>（GitHub Copilot 动态发现、OpenRouter 完整路由支持）以及 <strong>TUI/终端体验优化</strong>。开发者对结构化输出、持久化配置和团队级可复现工作流的需求显著增长。</p>
-<hr>
-<h2>社区热点 Issues</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>标题</th>
-<th>状态</th>
-<th>关键价值</th>
-<th>链接</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>2815</strong></td>
-<td>Antigravity 版本不再受支持</td>
-<td>🔴 OPEN</td>
-<td><strong>阻断性 Bug</strong>：Google Gemini CLI 的 Antigravity 功能因 User-Agent 版本过旧被服务端拒绝，影响所有使用该模型的用户。社区已有 PR #2901 尝试修复。</td>
-<td><a href="https://github.com/badlogic/pi-mono/issues/2815">Issue</a></td>
-</tr>
-<tr>
-<td><strong>2923</strong></td>
-<td>新增 DocumentContent 类型支持原生 PDF/文件输入</td>
-<td>✅ CLOSED</td>
-<td><strong>多模态里程碑</strong>：统一 Anthropic、OpenAI、Google 三家主流 API 的文档输入格式，为 Pi 原生处理 PDF 奠定基础。</td>
-<td><a href="https://github.com/badlogic/pi-mono/issues/2923">Issue</a></td>
-</tr>
-<tr>
-<td><strong>2909</strong></td>
-<td>Find/Grep 工具默认禁用但与提示词引用矛盾</td>
-<td>✅ CLOSED</td>
-<td><strong>UX 不一致</strong>：默认提示词推荐 find/grep，但工具默认关闭且无持久化启用机制，造成新手困惑。</td>
-<td><a href="https://github.com/badlogic/pi-mono/issues/2909">Issue</a></td>
-</tr>
-<tr>
-<td><strong>2925</strong></td>
-<td>Bedrock 自适应思考与提示缓存不支持应用推理配置文件</td>
-<td>✅ CLOSED</td>
-<td><strong>企业级 AWS 场景</strong>：应用推理配置文件 ARN 不包含模型名称，导致功能检测失效，影响生产环境 EC2/IAM 部署。</td>
-<td><a href="https://github.com/badlogic/pi-mono/issues/2925">Issue</a></td>
-</tr>
-<tr>
-<td><strong>2927</strong></td>
-<td>同名 API 格式的自定义 Provider 互相覆盖</td>
-<td>✅ CLOSED</td>
-<td><strong>扩展性缺陷</strong>：多个扩展注册相同 API 格式（如 openai-completions）时，后加载者覆盖前者，阻碍生态繁荣。</td>
-<td><a href="https://github.com/badlogic/pi-mono/issues/2927">Issue</a></td>
-</tr>
-<tr>
-<td><strong>2920</strong></td>
-<td>GitHub Copilot 模型列表应动态获取而非静态硬编码</td>
-<td>✅ CLOSED</td>
-<td><strong>模型发现现代化</strong>：当前构建时硬编码导致新模型（如 goldeneye、claude-opus-4.6-1m）无法即时可用。</td>
-<td><a href="https://github.com/badlogic/pi-mono/issues/2920">Issue</a></td>
-</tr>
-<tr>
-<td><strong>2924</strong></td>
-<td>新增 window_focus/window_blur 扩展事件</td>
-<td>✅ CLOSED</td>
-<td><strong>交互增强</strong>：允许扩展感知终端焦点状态，适用于后台任务暂停/恢复等场景。</td>
-<td><a href="https://github.com/badlogic/pi-mono/issues/2924">Issue</a></td>
-</tr>
-<tr>
-<td><strong>2919</strong></td>
-<td>pinet-start 应在 Agent 重载后保持连接</td>
-<td>✅ CLOSED</td>
-<td><strong>持久化体验</strong>：每次 <code>/reload</code> 后需手动重连 pinet，打断开发流，需会话级状态保持。</td>
-<td><a href="https://github.com/badlogic/pi-mono/issues/2919">Issue</a></td>
-</tr>
-<tr>
-<td><strong>2908</strong></td>
-<td>CREAM：面向新用户的引导式工作流与团队级可复现配置</td>
-<td>✅ CLOSED</td>
-<td><strong>规模化治理提案</strong>：类似 Nix 的声明式工作空间，解决团队协作中的&quot;代码混沌&quot;（模型不一致、扩展版本漂移）。</td>
-<td><a href="https://github.com/badlogic/pi-mono/issues/2908">Issue</a></td>
-</tr>
-<tr>
-<td><strong>2911</strong></td>
-<td>重叠 Compaction 导致 AbortController 竞态错误</td>
-<td>✅ CLOSED</td>
-<td><strong>稳定性修复</strong>：并发压缩任务时 <code>signal</code> 未定义错误，虽显示成功但实际失败，有 PR #2910 修复。</td>
-<td><a href="https://github.com/badlogic/pi-mono/issues/2911">Issue</a></td>
-</tr>
-</tbody></table>
-<hr>
-<h2>重要 PR 进展</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>标题</th>
-<th>状态</th>
-<th>技术要点</th>
-<th>链接</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>2901</strong></td>
-<td>升级 Antigravity User-Agent 版本</td>
-<td>🟡 OPEN</td>
-<td>紧急修复 #2815，更新 <code>google-gemini-cli</code> provider 的 UA 标识以恢复服务兼容性。</td>
-<td><a href="https://github.com/badlogic/pi-mono/pull/2901">PR</a></td>
-</tr>
-<tr>
-<td><strong>2904</strong></td>
-<td>OpenRouter 路由配置补全全部字段</td>
-<td>🟡 OPEN</td>
-<td>类型安全增强：将 <code>provider</code> 对象透传至 OpenRouter API，补全 <code>quantization</code>、<code>sort</code> 等运行时有效但缺失 TS 定义的字段。</td>
-<td><a href="https://github.com/badlogic/pi-mono/pull/2904">PR</a></td>
-</tr>
-<tr>
-<td><strong>2903</strong></td>
-<td>Google Provider 支持 Gemma 4 思考级别</td>
-<td>🟡 OPEN</td>
-<td>模型适配：处理 Gemma 4 的 <code>MINIMAL</code>/<code>HIGH</code> 思考级别映射，解决 #2812 中 <code>low</code> 级别路由策略待定问题。</td>
-<td><a href="https://github.com/badlogic/pi-mono/pull/2903">PR</a></td>
-</tr>
-<tr>
-<td><strong>2910</strong></td>
-<td>修复重叠 Compaction 的 AbortController 竞态</td>
-<td>✅ CLOSED</td>
-<td>并发安全：为手动/自动压缩分别绑定独立 AbortController，避免共享状态污染，含回归测试。</td>
-<td><a href="https://github.com/badlogic/pi-mono/pull/2910">PR</a></td>
-</tr>
-<tr>
-<td><strong>2915</strong></td>
-<td>修正 Sandbox 扩展配置路径文档</td>
-<td>✅ CLOSED</td>
-<td>文档勘误：全局配置实际路径为 <code>~/.pi/agent/extensions/sandbox.json</code> 而非 <code>~/.pi/agent/sandbox.json</code>。</td>
-<td><a href="https://github.com/badlogic/pi-mono/pull/2915">PR</a></td>
-</tr>
-<tr>
-<td><strong>2913</strong></td>
-<td>外部 Skill 加载容错 malformed frontmatter</td>
-<td>✅ CLOSED</td>
-<td>健壮性提升：从 <code>~/.claude/skills</code> 等外部目录加载时，YAML 解析失败不再导致整个 Skill 被丢弃。</td>
-<td><a href="https://github.com/badlogic/pi-mono/pull/2913">PR</a></td>
-</tr>
-<tr>
-<td><strong>2890</strong></td>
-<td>动态发现 GitHub Copilot 模型</td>
-<td>✅ CLOSED</td>
-<td>运行时模型发现：登录时通过 <code>/models</code> 单请求获取用户实际可用模型，替代构建时硬编码列表。</td>
-<td><a href="https://github.com/badlogic/pi-mono/pull/2890">PR</a></td>
-</tr>
-<tr>
-<td><strong>2889</strong></td>
-<td>工具 Schema 兼容 Cloud Code Assist</td>
-<td>✅ CLOSED</td>
-<td>供应商适配：将 <code>anyOf</code>/<code>const</code> 转换为 OpenAPI 3.0.3 兼容格式，解决 Google Cloud Code Assist (Antigravity) 的 Schema 验证失败。</td>
-<td><a href="https://github.com/badlogic/pi-mono/pull/2889">PR</a></td>
-</tr>
-<tr>
-<td><strong>2895</strong></td>
-<td>Anthropic 流式解析改用 messages.create</td>
-<td>✅ CLOSED</td>
-<td>稳定性修复：<code>messages.stream()</code> 的 <code>partialParse</code> 在畸形 JSON 时抛出未捕获异常，改为 <code>create</code> + 手动流处理。</td>
-<td><a href="https://github.com/badlogic/pi-mono/pull/2895">PR</a></td>
-</tr>
-<tr>
-<td><strong>2135</strong></td>
-<td>Anthropic 上下文长度提升至 1M</td>
-<td>✅ CLOSED</td>
-<td>模型能力跟进：Claude 3.7 Sonnet 等模型上下文窗口已扩展，同步更新配置。</td>
-<td><a href="https://github.com/badlogic/pi-mono/pull/2135">PR</a></td>
-</tr>
-</tbody></table>
-<hr>
-<h2>功能需求趋势</h2>
-<p>基于今日 41 个 Issues 分析，社区关注焦点呈现三大方向：</p>
-<table>
-<thead>
-<tr>
-<th>趋势领域</th>
-<th>代表性需求</th>
-<th>热度</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>🤖 多模型生态治理</strong></td>
-<td>动态模型发现（Copilot #2920）、自定义 Provider 隔离（#2927）、模型能力查询 API（#2922）、OpenRouter 完整路由（#2904）</td>
-<td>🔥🔥🔥</td>
-</tr>
-<tr>
-<td><strong>🏢 企业/团队级部署</strong></td>
-<td>CREAM 可复现工作流（#2908）、Bedrock IAM/IMDS 认证（#2880, #2925）、设置持久化（#2919）、插件分组配置（#2918）</td>
-<td>🔥🔥🔥</td>
-</tr>
-<tr>
-<td><strong>🖥️ TUI/终端体验打磨</strong></td>
-<td>窗口焦点事件（#2924）、Find/Grep 工具默认启用（#2909）、Backspace 修复（#2733）、宽字符边界处理（#2872）</td>
-<td>🔥🔥</td>
-</tr>
-<tr>
-<td><strong>📄 多模态输入</strong></td>
-<td>原生 PDF/文档支持（#2923）</td>
-<td>🔥🔥</td>
-</tr>
-<tr>
-<td><strong>⚡ 稳定性与性能</strong></td>
-<td>Compaction 竞态修复（#2910, #2911）、Tool JSON 解析容错（#2882）、大规模仓库自动补全优化（#2784）</td>
-<td>🔥🔥</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>开发者关注点</h2>
-<h3>🔴 高频痛点</h3>
-<table>
-<thead>
-<tr>
-<th>问题</th>
-<th>影响面</th>
-<th>社区诉求</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Antigravity 服务兼容性</strong></td>
-<td>所有 Google Gemini CLI 用户</td>
-<td>紧急修复 UA 版本（PR #2901 待合并）</td>
-</tr>
-<tr>
-<td><strong>配置持久化断层</strong></td>
-<td>重度 TUI 用户</td>
-<td><code>/reload</code> 后 pinet、工具启用状态丢失</td>
-</tr>
-<tr>
-<td><strong>扩展生态冲突</strong></td>
-<td>多扩展开发者</td>
-<td>同名 API Provider 隔离机制缺失</td>
-</tr>
-<tr>
-<td><strong>企业 AWS 场景适配</strong></td>
-<td>EC2/IMDS 部署用户</td>
-<td>Bedrock 认证链、推理配置文件支持不完善</td>
-</tr>
-</tbody></table>
-<h3>💡 新兴需求模式</h3>
-<ul>
-<li><strong>&quot;Nix-like&quot; 声明式配置</strong>：#2908 提出的 CREAM 方案引发共鸣，反映团队规模化使用 Pi 时对<strong>可复现、可版本控制、可审计</strong>工作流的强烈需求</li>
-<li><strong>SDK 级可编程性</strong>：多个 Issue（#2912 自定义 Session ID、#2922 模型能力查询）显示开发者正基于 Pi 构建上层 Agent 框架，需要更底层的 API 暴露</li>
-<li><strong>跨运行时兼容性</strong>：Deno 支持（#2885）、Cloud Code Assist 适配（#2889）表明 Pi 正从 Node.js 专属工具向<strong>多运行时基础设施</strong>演进</li>
-</ul>
-</details>
-
-<details>
-<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
-
-<h1>Qwen Code 社区动态日报 | 2026-04-08</h1>
-<h2>今日速览</h2>
-<p>今日社区活跃度极高，Qwen Code 紧急发布 <strong>v0.14.1</strong> 修复 VS Code 扩展白屏问题，同时社区围绕<strong>权限管理过于频繁</strong>、<strong>上下文性能优化</strong>和<strong>IDE 集成稳定性</strong>三大痛点展开密集讨论。开发者 @chinesepowered 单日贡献 6 个高质量修复 PR，成为今日最活跃贡献者。</p>
-<hr>
-<h2>版本发布</h2>
-<h3>v0.14.1 / v0.14.1-preview.0</h3>
-<p>🔗 <a href="https://github.com/QwenLM/qwen-code/releases">Release 页面</a></p>
-<table>
-<thead>
-<tr>
-<th>更新类型</th>
-<th>内容</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>🐛 Bug 修复</td>
-<td>修复 hooks 中 abort listener 内存泄漏（#2841）</td>
-</tr>
-<tr>
-<td>🐛 Bug 修复</td>
-<td>修复 CLI 中 AI 响应未提交就添加 hook 系统消息的问题（#2848）</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>⚠️ 该版本发布后引发 <strong>VS Code 扩展白屏问题</strong>（#2956），已通过 PR #2959 修复并发布 v0.14.2。</p>
-</blockquote>
-<hr>
-<h2>社区热点 Issues（精选 10 条）</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>标题</th>
-<th>状态</th>
-<th>评论</th>
-<th>关键看点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://github.com/QwenLM/qwen-code/issues/1922">#1922</a></td>
-<td>Edit 工具无法编辑文件（回归 Bug）</td>
-<td>🔴 CLOSED</td>
-<td>11</td>
-<td><strong>高频回归问题</strong>：v0.10.5 修复后又复现，反映版本稳定性管控需加强</td>
-</tr>
-<tr>
-<td><a href="https://github.com/QwenLM/qwen-code/issues/2605">#2605</a></td>
-<td>Windows CMD 支持剪贴板图片粘贴</td>
-<td>🟢 OPEN</td>
-<td>10</td>
-<td><strong>跨平台体验缺口</strong>：Windows 用户迫切需要的多模态输入能力</td>
-</tr>
-<tr>
-<td><a href="https://github.com/QwenLM/qwen-code/issues/2956">#2956</a></td>
-<td>VS Code 0.14.1 白屏</td>
-<td>🔴 CLOSED</td>
-<td>8</td>
-<td><strong>紧急生产事故</strong>：升级后 Qwen 面板完全不可用，影响面大</td>
-</tr>
-<tr>
-<td><a href="https://github.com/QwenLM/qwen-code/issues/93">#93</a></td>
-<td>AI 无故删除代码（严重幻觉）</td>
-<td>🔴 CLOSED</td>
-<td>6</td>
-<td><strong>信任危机</strong>：用户对比 Cursor/Claude，质疑扣费与底层模型</td>
-</tr>
-<tr>
-<td><a href="https://github.com/QwenLM/qwen-code/issues/1937">#1937</a></td>
-<td>百炼 Coding Plan 疯狂 edit 失败</td>
-<td>🔴 CLOSED</td>
-<td>3</td>
-<td><strong>成本痛点</strong>：小问题消耗数百万 token，工具调用效率低下</td>
-</tr>
-<tr>
-<td><a href="https://github.com/QwenLM/qwen-code/issues/2339">#2339</a></td>
-<td>Telegram Bot 模式</td>
-<td>🟢 OPEN</td>
-<td>3</td>
-<td><strong>远程协作场景</strong>：用户希望像使用 Telegram Bot 一样远程调用</td>
-</tr>
-<tr>
-<td><a href="https://github.com/QwenLM/qwen-code/issues/2951">#2951</a></td>
-<td>支持全局 <code>.qwen</code> 目录自定义</td>
-<td>🟢 OPEN</td>
-<td>2</td>
-<td><strong>云原生适配</strong>：外挂磁盘场景下固定路径导致配置丢失</td>
-</tr>
-<tr>
-<td><a href="https://github.com/QwenLM/qwen-code/issues/2947">#2947</a></td>
-<td>多模态模型无法直接读取 PDF</td>
-<td>🟢 OPEN</td>
-<td>1</td>
-<td><strong>文档处理瓶颈</strong>：read_file 不支持 PDF，需额外安装 skills</td>
-</tr>
-<tr>
-<td><a href="https://github.com/QwenLM/qwen-code/issues/2946">#2946</a></td>
-<td>调研时频繁询问权限</td>
-<td>🟢 OPEN</td>
-<td>1</td>
-<td><strong>工作流打断</strong>：权限请求过于频繁，无法自主完成复杂任务</td>
-</tr>
-<tr>
-<td><a href="https://github.com/QwenLM/qwen-code/issues/2786">#2786</a></td>
-<td>思维链处理时无法紧急插入提示</td>
-<td>🟢 OPEN</td>
-<td>1</td>
-<td><strong>交互体验</strong>：用户无法及时纠正 AI 的错误方向</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>重要 PR 进展（精选 10 条）</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>标题</th>
-<th>作者</th>
-<th>核心能力</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://github.com/QwenLM/qwen-code/pull/2932">#2932</a></td>
-<td>增强 <code>/review</code>：确定性分析、自动修复与安全加固</td>
-<td>@wenshao</td>
-<td>对标 Copilot Code Review / Claude <code>/ultrareview</code>，4-Agent 并行架构升级</td>
-</tr>
-<tr>
-<td><a href="https://github.com/QwenLM/qwen-code/pull/2921">#2921</a></td>
-<td>实现 <code>/plan</code> 计划模式命令</td>
-<td>@wenshao</td>
-<td>磁盘持久化计划文件 + 结构化系统提示 + 增强审批选项</td>
-</tr>
-<tr>
-<td><a href="https://github.com/QwenLM/qwen-code/pull/2949">#2949</a></td>
-<td>Skills 支持模型覆盖（frontmatter）</td>
-<td>@tanzhenxin</td>
-<td>Skill 可指定 <code>model: qwen-coder-plus</code>，灵活切换模型</td>
-</tr>
-<tr>
-<td><a href="https://github.com/QwenLM/qwen-code/pull/2923">#2923</a></td>
-<td>可自定义状态栏 <code>/statusline</code></td>
-<td>@wenshao</td>
-<td>用户可配置 shell 命令显示上下文感知信息</td>
-</tr>
-<tr>
-<td><a href="https://github.com/QwenLM/qwen-code/pull/2959">#2959</a></td>
-<td>修复 VS Code 0.14.1 白屏</td>
-<td>@yiliang114</td>
-<td><strong>紧急修复</strong>：esbuild external 配置未覆盖深层子路径导入</td>
-</tr>
-<tr>
-<td><a href="https://github.com/QwenLM/qwen-code/pull/2971">#2971</a></td>
-<td>修复 VS Code 自动补全误触发</td>
-<td>@chinesepowered</td>
-<td><code>cursorPosition=0</code> 被错误覆盖为 <code>text.length</code></td>
-</tr>
-<tr>
-<td><a href="https://github.com/QwenLM/qwen-code/pull/2970">#2970</a></td>
-<td>微信图片 MIME 检测修复</td>
-<td>@chinesepowered</td>
-<td>PNG 魔数签名仅检查 3 字节 → 完整 4 字节</td>
-</tr>
-<tr>
-<td><a href="https://github.com/QwenLM/qwen-code/pull/2969">#2969</a></td>
-<td>统一文本缓冲区 offset-to-position 逻辑</td>
-<td>@chinesepowered</td>
-<td>修复行边界列越界问题</td>
-</tr>
-<tr>
-<td><a href="https://github.com/QwenLM/qwen-code/pull/2968">#2968</a></td>
-<td>LRU 缓存 falsy 值重排序修复</td>
-<td>@chinesepowered</td>
-<td><code>0/&#39;&#39;/false/null</code> 缓存值不再跳过 MRU 更新</td>
-</tr>
-<tr>
-<td><a href="https://github.com/QwenLM/qwen-code/pull/2898">#2898</a></td>
-<td>自适应输出 token 扩容（8K→64K）</td>
-<td>@wenshao</td>
-<td>默认 8K 节省 GPU，截断时自动重试 64K，提升并发 4 倍</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>👏 <strong>今日之星</strong>：@chinesepowered 单日 6 个高质量修复 PR，覆盖 VS Code 集成、微信适配、核心缓存等关键模块。</p>
-</blockquote>
-<hr>
-<h2>功能需求趋势</h2>
-<p>基于 50 条活跃 Issue 分析，社区关注焦点呈 <strong>三大梯队</strong>：</p>
-<pre><code>第一梯队（高频痛点）
-├── 🛡️ 权限管理优化 —— 减少重复授权，支持批量/持久化授权
-├── ⚡ 上下文性能 —— 文件树位置优化、压缩策略、缓存机制
-└── 🖥️ IDE 稳定性 —— VS Code/JetBrains 白屏、闪屏、滚动问题
-
-第二梯队（体验增强）
-├── 📎 多模态输入 —— 剪贴板图片、PDF 直接读取、文件拖拽
-├── 🤖 远程/异步模式 —— Telegram Bot、Webhook 通知
-└── ⚙️ 配置灵活性 —— 全局配置目录自定义、模型提供商持久化
-
-第三梯队（工作流深度）
-├── 📝 会话管理 —— 自动保存、历史回顾、计划模式
-└── 🔍 代码审查 —— 对标 Claude/Copilot 的 /review 能力
-</code></pre>
-<hr>
-<h2>开发者关注点</h2>
-<table>
-<thead>
-<tr>
-<th>痛点类别</th>
-<th>典型反馈</th>
-<th>出现频次</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>权限疲劳</strong></td>
-<td>&quot;每次对话要七八次权限，Codex/Claude 没这么频繁&quot;</td>
-<td>🔥🔥🔥🔥🔥</td>
-</tr>
-<tr>
-<td><strong>Token 成本焦虑</strong></td>
-<td>&quot;改一点代码花几百万 token&quot;&quot;免费额度几个问题就耗尽&quot;</td>
-<td>🔥🔥🔥🔥🔥</td>
-</tr>
-<tr>
-<td><strong>幻觉与代码安全</strong></td>
-<td>&quot;AI 说看不到文件就胡乱删除代码&quot;&quot;2k 行优化完剩 40 行&quot;</td>
-<td>🔥🔥🔥🔥</td>
-</tr>
-<tr>
-<td><strong>IDE 集成质量</strong></td>
-<td>&quot;白屏&quot;&quot;闪屏&quot;&quot;无限滚动&quot;&quot;无法拖拽滚动条&quot;</td>
-<td>🔥🔥🔥🔥</td>
-</tr>
-<tr>
-<td><strong>跨平台一致性</strong></td>
-<td>&quot;Windows CMD 不支持图片粘贴&quot;&quot;PowerShell 默认终端设置&quot;</td>
-<td>🔥🔥🔥</td>
-</tr>
-<tr>
-<td><strong>上下文可控性</strong></td>
-<td>&quot;文件树放开头破坏缓存&quot;&quot;希望像 Claude 不放文件树&quot;</td>
-<td>🔥🔥🔥</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>💡 <strong>建议方向</strong>：短期优先解决权限批量化与 IDE 稳定性，中期优化上下文成本结构，长期建立与 Claude Code 的差异化竞争力（如更深入的阿里云生态集成）。</p>
-</blockquote>
-<hr>
-<p><em>日报生成时间：2026-04-08 | 数据来源：github.com/QwenLM/qwen-code</em></p>
 </details>
 
 <hr>

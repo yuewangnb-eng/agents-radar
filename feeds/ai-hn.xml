@@ -6,7 +6,125 @@
     <description>Hacker News AI 社区动态日报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-hn.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 07 May 2026 04:28:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 04:11:28 +0000</lastBuildDate>
+    <item>
+      <title>Hacker News AI 社区动态日报 2026-05-08</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-08/ai-hn</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-08/ai-hn</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI 社区动态日报 2026-05-08 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-05-08 00:20 UTC 好的，作为AI行业资讯分析师，以下是基于您提供的Hacker News数据生成的《Hacker News AI社区动态日报》。 Hacker News AI 社区动态日报 | 2026-05-08 1. 今日速览 今日Hacker News社区的核心焦点是Anthropic的“Mythos”模型及其带来的安全与治理冲击。社区一方面对Mozilla利用Mythos发现大量漏洞的效率表示惊叹，另一方面也在热烈讨论其被猜测到URL后遭“越狱”的安全事件。与此同时，OpenAI的动态同样密集，不仅发布了新的语音和实时API模型，其前CTO在法庭上关于CEO管理风格的证词也引发了广泛讨论。整体情绪在技术突破的兴奋与对安全、法律和产业动荡的忧虑之间摇摆。 2. 热门新闻与讨论 🔬 模型与研究 Natural Language Autoencoders: Turning Claude&amp;#39;s Thoughts into...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-05-08</h1>
+<blockquote>
+<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-05-08 00:20 UTC</p>
+</blockquote>
+<hr>
+<p>好的，作为AI行业资讯分析师，以下是基于您提供的Hacker News数据生成的《Hacker News AI社区动态日报》。</p>
+<hr>
+<h3><strong>Hacker News AI 社区动态日报 | 2026-05-08</strong></h3>
+<h4><strong>1. 今日速览</strong></h4>
+<p>今日Hacker News社区的核心焦点是<strong>Anthropic的“Mythos”模型</strong>及其带来的安全与治理冲击。社区一方面对Mozilla利用Mythos发现大量漏洞的效率表示惊叹，另一方面也在热烈讨论其被猜测到URL后遭“越狱”的安全事件。与此同时，OpenAI的动态同样密集，不仅发布了新的语音和实时API模型，其前CTO在法庭上关于CEO管理风格的证词也引发了广泛讨论。整体情绪在技术突破的兴奋与对安全、法律和产业动荡的忧虑之间摇摆。</p>
+<h4><strong>2. 热门新闻与讨论</strong></h4>
+<h5>🔬 模型与研究</h5>
+<ul>
+<li><strong>Natural Language Autoencoders: Turning Claude&#39;s Thoughts into Text</strong><ul>
+<li>链接： <a href="https://www.anthropic.com/research/natural-language-autoencoders">Anthropic文章</a> | <a href="https://news.ycombinator.com/item?id=48052537">HN讨论</a></li>
+<li><strong>分数：172 | 评论：55</strong></li>
+<li><strong>一句话说明</strong>：Anthropic发布的一项新研究，旨在提升模型可解释性，社区对此兴趣浓厚，认为这是理解大型语言模型“思想”的重要一步。</li>
+</ul>
+</li>
+<li><strong>Advancing voice intelligence with new models in the API</strong><ul>
+<li>链接： <a href="https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/">OpenAI公告</a> | <a href="https://news.ycombinator.com/item?id=48051991">HN讨论</a></li>
+<li><strong>分数：30 | 评论：5</strong></li>
+<li><strong>一句话说明</strong>：OpenAI推出新的语音模型，标志着其在多模态交互能力上的又一次迭代，社区关注其API成本与实际效果。</li>
+</ul>
+</li>
+<li><strong>OpenAI launches GPT-Realtime-2</strong><ul>
+<li>链接： <a href="https://twitter.com/OpenAI/status/2052438194625593804">OpenAI Twitter</a> | <a href="https://news.ycombinator.com/item?id=48052118">HN讨论</a></li>
+<li><strong>分数：6 | 评论：0</strong></li>
+<li><strong>一句话说明</strong>：紧随语音模型之后，OpenAI推出实时版模型，社区讨论度不高，可能因其内容与其他发布有重叠。</li>
+</ul>
+</li>
+</ul>
+<h5>🛠️ 工具与工程</h5>
+<ul>
+<li><strong>Show HN: Stage CLI – An easier way of reading your AI generated changes locally</strong><ul>
+<li>链接： <a href="https://github.com/ReviewStage/stage-cli">GitHub</a> | <a href="https://news.ycombinator.com/item?id=48050732">HN讨论</a></li>
+<li><strong>分数：30 | 评论：30</strong></li>
+<li><strong>一句话说明</strong>：一个旨在帮助开发者更轻松地审查AI生成代码变更的命令行工具，反映了社区对AI辅助开发工作流中“代码审查”环节的持续关注和需要。</li>
+</ul>
+</li>
+<li><strong>Show HN: BrowserCode – Run Claude Code in the Browser via WebAssembly</strong><ul>
+<li>链接： <a href="https://github.com/leaningtech/browsercode">GitHub</a> | <a href="https://news.ycombinator.com/item?id=48049713">HN讨论</a></li>
+<li><strong>分数：6 | 评论：1</strong></li>
+<li><strong>一句话说明</strong>：通过WebAssembly在浏览器中运行Claude Code，为AI编程工具的使用场景提供了新的可能，体现了社区在工程实践上的创新探索。</li>
+</ul>
+</li>
+</ul>
+<h5>🏢 产业动态</h5>
+<ul>
+<li><strong>Canvas (Instructure) LMS Down in Ongoing Ransomware Attack</strong><ul>
+<li>链接： <a href="https://www.theverge.com/tech/926458/canvas-shinyhunters-breach">The Verge报道</a> | <a href="https://news.ycombinator.com/item?id=48055913">HN讨论</a></li>
+<li><strong>分数：95 | 评论：6</strong></li>
+<li><strong>一句话说明</strong>：知名学习管理系统Canvas遭勒索软件攻击，引发社区对教育平台数据安全与AI系统脆弱性的担忧。</li>
+</ul>
+</li>
+<li><strong>Cloudflare is laying off 1,100 employees</strong><ul>
+<li>链接： <a href="https://www.businessinsider.com/cloudflare-announces-1100-layoffs-amid-ai-focus-shift-2026-5">Business Insider报道</a> | <a href="https://news.ycombinator.com/item?id=48056210">HN讨论</a></li>
+<li><strong>分数：14 | 评论：4</strong></li>
+<li><strong>一句话说明</strong>：Cloudflare裁减11%员工以转向AI，社区对此反应不一，部分用户认为这是科技公司为押注AI而进行的残酷“瘦身”。</li>
+</ul>
+</li>
+<li><strong>AWS gives AI agents wallets to pay for APIs and web content</strong><ul>
+<li>链接： <a href="https://aws.amazon.com/blogs/machine-learning/agents-that-transact-introducing-amazon-bedrock-agentcore-payments-built-with-coinbase-and-stripe/">AWS博客</a> | <a href="https://news.ycombinator.com/item?id=48055798">HN讨论</a></li>
+<li><strong>分数：5 | 评论：0</strong></li>
+<li><strong>一句话说明</strong>：AWS为AI智能体提供内置支付功能，使它们能自主购买API或内容，标志着AI Agent商业化基础设施的重要一步。</li>
+</ul>
+</li>
+</ul>
+<h5>💬 观点与争议</h5>
+<ul>
+<li><strong>Mozilla says 271 vulnerabilities found by Mythos and &quot;almost no false positives&quot;</strong><ul>
+<li>链接： <a href="https://arstechnica.com/information-technology/2026/05/mozilla-says-271-vulnerabilities-found-by-mythos-have-almost-no-false-positives/">Ars Technica报道</a> | <a href="https://news.ycombinator.com/item?id=48053816">HN讨论</a></li>
+<li><strong>分数：89 | 评论：48</strong></li>
+<li><strong>一句话说明</strong>：Mozilla使用Anthropic的Mythos模型进行安全审计，以零误报率发现271个漏洞，社区对此高度关注，并围绕“AI对抗AI”的网络安全前景展开辩论。</li>
+</ul>
+</li>
+<li><strong>A Dark-Money Campaign Is Paying Influencers to Frame Chinese AI as a Threat</strong><ul>
+<li>链接： <a href="https://www.wired.com/story/super-pac-backed-by-openai-and-palantir-is-paying-tiktok-influencers-to-fear-monger-about-china/">Wired报道</a> | <a href="https://news.ycombinator.com/item?id=48045234">HN讨论</a></li>
+<li><strong>分数：12 | 评论：3</strong></li>
+<li><strong>一句话说明</strong>：Wired爆料有“暗钱”组织资助网红传播“中国AI威胁论”，引发了对AI地缘政治宣传和信息战的讨论。</li>
+</ul>
+</li>
+</ul>
+<h4><strong>3. 社区情绪信号</strong></h4>
+<p>今日HN社区的AI讨论呈现出 <strong>“安全焦虑”与“技术兴奋”并存的复杂情绪</strong>。</p>
+<ul>
+<li><strong>最活跃话题</strong>：以 <strong>Anthropic的Mythos</strong> 为中心的话题包揽了最高分和大量评论。社区对其在安全领域的应用（如Mozilla的漏洞挖掘）感到兴奋，但也对其被意外“越狱”的事件表现出明显不安。这反映出社区对AI安全与治理问题的关注度达到了新的高度。</li>
+<li><strong>争议与共识</strong>：围绕 <strong>OpenAI内部管理和法律纠纷</strong> 的报道（如Musk的诉讼、前CTO的证词）激起了社区对大型AI公司治理文化的质疑，形成一种“吃瓜”与担忧并存的氛围。对于 <strong>Cloudflare裁员转向AI</strong>，社区存在分歧，一部分人认为这是必然趋势，另一部分则批评其短视。</li>
+<li><strong>方向变化</strong>：与以往偏向于模型基准测试或新应用发布的阶段相比，本日讨论重心明显向 <strong>安全性、治理、地缘政治和商业伦理</strong> 倾斜。对纯技术工具的讨论（如Show HN项目）虽然存在，但热度被更具争议性的话题掩盖。</li>
+</ul>
+<h4><strong>4. 值得深读</strong></h4>
+<ol>
+<li><p><strong>Anthropic的Natural Language Autoencoders</strong>：<a href="https://www.anthropic.com/research/natural-language-autoencoders">链接</a></p>
+<ul>
+<li><strong>理由</strong>：此研究是AI可解释性领域的前沿探索，对于理解模型内部工作机制、提升AI安全性和可靠性至关重要，是研究者和高级开发者的必读材料。</li>
+</ul>
+</li>
+<li><p><strong>Mozilla使用Mythos进行安全审计的深度解析</strong>：<a href="https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/">链接</a>（Mozilla博客）和 <a href="https://arstechnica.com/information-technology/2026/05/mozilla-says-271-vulnerabilities-found-by-mythos-have-almost-no-false-positives/">链接</a>（Ars Technica分析）</p>
+<ul>
+<li><strong>理由</strong>：这是一次将强大AI模型应用于实际工程安全场景的经典案例。阅读Mozilla的“幕后”文章可以了解具体方法，而Ars Technica的分析则提供了行业视角。这对所有关注AI安全、自动化测试和DevSecOps的开发者极具价值。</li>
+</ul>
+</li>
+<li><p><strong>AWS为AI智能体配备“钱包”</strong>：<a href="https://aws.amazon.com/blogs/machine-learning/agents-that-transact-introducing-amazon-bedrock-agentcore-payments-built-with-coinbase-and-stripe/">链接</a></p>
+<ul>
+<li><strong>理由</strong>：这标志着AI智能体从“信息处理”迈向“自主交易”的关键一步。虽然当前讨论不多，但其对未来的电商、云计算和软件即服务模式可能产生深远影响，值得AI应用架构师和产品经理深入研究。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Hacker News AI 社区动态日报 2026-05-07</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-07/ai-hn</link>
@@ -5052,188 +5170,6 @@
 </tr>
 </tbody></table>
 <hr>
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI 社区动态日报 2026-04-08</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-08/ai-hn</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-08/ai-hn</guid>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI 社区动态日报 2026-04-08 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-04-08 00:13 UTC Hacker News AI 社区动态日报 日期：2026-04-08 今日速览 今日 HN 社区被 Anthropic 的两大发布主导：Project Glasswing（AI 时代关键软件安全框架）和 Claude Mythos Preview（新一代网络安全能力模型）占据热度前两名，合计超过 1300 分。社区对 Mythos 的潜在安全风险展开激烈辩论——既惊叹其&amp;quot;网络安全清算&amp;quot;级别的能力，又担忧被恶意利用。与此同时，OpenAI 的负面新闻（Stargate 数据中心受威胁、内部不信任 CEO）与 Anthropic 的技术突破形成鲜明对比，工具层则呈现&amp;quot;AI 代理基础设施&amp;quot;建设热潮。 热门新闻与讨论 🔬 模型与研究 标题 分数/评论 一句话说明 System Card: Claude Mythos Preview [pdf] · HN讨论 500 / 359...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-04-08</h1>
-<blockquote>
-<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-04-08 00:13 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI 社区动态日报</h1>
-<p><strong>日期：2026-04-08</strong></p>
-<hr>
-<h2>今日速览</h2>
-<p>今日 HN 社区被 Anthropic 的两大发布主导：<strong>Project Glasswing</strong>（AI 时代关键软件安全框架）和 <strong>Claude Mythos Preview</strong>（新一代网络安全能力模型）占据热度前两名，合计超过 1300 分。社区对 Mythos 的潜在安全风险展开激烈辩论——既惊叹其&quot;网络安全清算&quot;级别的能力，又担忧被恶意利用。与此同时，OpenAI 的负面新闻（Stargate 数据中心受威胁、内部不信任 CEO）与 Anthropic 的技术突破形成鲜明对比，工具层则呈现&quot;AI 代理基础设施&quot;建设热潮。</p>
-<hr>
-<h2>热门新闻与讨论</h2>
-<h3>🔬 模型与研究</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf">System Card: Claude Mythos Preview [pdf]</a></strong> · <a href="https://news.ycombinator.com/item?id=47679258">HN讨论</a></td>
-<td align="left">500 / 359</td>
-<td align="left">Anthropic 罕见发布完整系统卡，披露 Mythos 的网络安全能力评估细节；社区热议其&quot;负责任的透明&quot;与&quot;能力展示&quot;之间的平衡。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://red.anthropic.com/2026/mythos-preview/">Assessing Claude Mythos Preview&#39;s cybersecurity capabilities</a></strong> · <a href="https://news.ycombinator.com/item?id=47679155">HN讨论</a></td>
-<td align="left">239 / 35</td>
-<td align="left">Anthropic 红队官方报告，展示 Mythos 在漏洞挖掘、逆向工程上的突破；评论聚焦&quot;是否应公开如此强大的攻击能力&quot;。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://app.uniclaw.ai/arena/visualize?via=hn">GLM-5.1 matches Opus 4.6 in agentic performance, at ~1/3 actual cost</a></strong> · <a href="https://news.ycombinator.com/item?id=47682384">HN讨论</a></td>
-<td align="left">4 / 2</td>
-<td align="left">智谱 GLM-5.1 在代理任务上追平 Claude Opus 4.6 但成本仅 1/3；低成本高性能模型竞争加剧的信号。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://twitter.com/jack_w_lindsey/status/2041588505701388648">Interpretability Findings on Claude Mythos Preview</a></strong> · <a href="https://news.ycombinator.com/item?id=47681467">HN讨论</a></td>
-<td align="left">4 / 0</td>
-<td align="left">Anthropic 研究员发布的可解释性初步发现，技术社区期待更多内部机制披露。</td>
-</tr>
-</tbody></table>
-<h3>🛠️ 工具与工程</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://www.anthropic.com/glasswing">Project Glasswing: Securing critical software for the AI era</a></strong> · <a href="https://news.ycombinator.com/item?id=47679121">HN讨论</a></td>
-<td align="left"><strong>814 / 355</strong></td>
-<td align="left">今日最热帖！Anthropic 开源的 AI 时代关键基础设施安全框架；社区高度认可其必要性，但质疑&quot;为何由一家私企主导&quot;。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://github.com/mattmireles/gemma-tuner-multimodal">Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon</a></strong> · <a href="https://news.ycombinator.com/item?id=47680309">HN讨论</a></td>
-<td align="left">112 / 12</td>
-<td align="left">本地多模态微调工具，降低 Apple Silicon 开发者门槛；典型 Show HN 正向反馈，实用性强。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://github.com/marimo-team/marimo-pair">Show HN: Marimo pair – Reactive Python notebooks as environments for agents</a></strong> · <a href="https://news.ycombinator.com/item?id=47678844">HN讨论</a></td>
-<td align="left">22 / 1</td>
-<td align="left">将响应式 notebook 转化为 AI 代理运行环境，代表&quot;可编程代理基础设施&quot;新方向。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://github.com/yutori-ai/frontend-visualqa">Show HN: Frontend-VisualQA — give coding agents eyes to verify their own UI work</a></strong> · <a href="https://news.ycombinator.com/item?id=47678328">HN讨论</a></td>
-<td align="left">10 / 0</td>
-<td align="left">解决编码代理&quot;盲写 UI&quot;痛点，视觉验证闭环工具，评论少但技术指向明确。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://github.com/DinobaseHQ/dinobase">Show HN: I built a database for AI agents</a></strong> · <a href="https://news.ycombinator.com/item?id=47678048">HN讨论</a></td>
-<td align="left">11 / 10</td>
-<td align="left">代理专用数据库，讨论围绕&quot;代理需要怎样的存储抽象&quot;展开，概念验证阶段。</td>
-</tr>
-</tbody></table>
-<h3>🏢 产业动态</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://github.com/anthropics/claude-code/issues/44257">Claude Code is locking people out for hours</a></strong> · <a href="https://news.ycombinator.com/item?id=47676521">HN讨论</a></td>
-<td align="left">215 / 292</td>
-<td align="left">高热度服务故障帖，用户被锁数小时；社区对 Anthropic 可靠性表达不满，与同日技术发布形成尴尬对比。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.theverge.com/ai-artificial-intelligence/907427/iran-openai-stargate-datacenter-uae-abu-dhabi-threat">Iran threatens OpenAI&#39;s Stargate data center in Abu Dhabi</a></strong> · <a href="https://news.ycombinator.com/item?id=47672642">HN讨论</a></td>
-<td align="left">64 / 1</td>
-<td align="left">地缘政治与 AI 基础设施首次直接冲突；评论极少，可能因话题敏感或信息未核实。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.bloomberg.com/news/articles/2026-04-07/anthropic-lets-apple-amazon-test-more-powerful-mythos-ai-model">Anthropic Lets Apple, Amazon Test More Powerful Mythos AI Model</a></strong> · <a href="https://news.ycombinator.com/item?id=47679485">HN讨论</a></td>
-<td align="left">4 / 0</td>
-<td align="left">大客户优先测试策略，反映企业级 AI 市场的分层准入机制。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.businesstimes.com.sg/international/global/openai-anthropic-google-unite-combat-model-copying-china">OpenAI, Anthropic, Google unite to combat model copying in China</a></strong> · <a href="https://news.ycombinator.com/item?id=47670652">HN讨论</a></td>
-<td align="left">4 / 0</td>
-<td align="left">罕见的美 AI 三巨头联合行动，技术封锁与地缘政治交织。</td>
-</tr>
-</tbody></table>
-<h3>💬 观点与争议</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://simonwillison.net/2026/Apr/7/project-glasswing/">Anthropic&#39;s Project Glasswing sounds necessary to me</a></strong> · <a href="https://news.ycombinator.com/item?id=47681241">HN讨论</a></td>
-<td align="left">30 / 4</td>
-<td align="left">Simon Willison 的背书帖，代表资深开发者对&quot;AI 安全基建&quot;的共识性支持。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://github.com/PrismorSec/immunity-agent/blob/main/README.md">Your .env is safe but your ~/.claude is not</a></strong> · <a href="https://news.ycombinator.com/item?id=47677000">HN讨论</a></td>
-<td align="left">10 / 2</td>
-<td align="left">安全研究者揭露 Claude CLI 的凭证存储风险，小众但关键的安全实践提醒。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://news.ycombinator.com/item?id=47678650">Ask HN: Why does it look like everyone is abandoning GitHub Copilot?</a></strong> · <a href="https://news.ycombinator.com/item?id=47678650">HN讨论</a></td>
-<td align="left">5 / 3</td>
-<td align="left">开发者工具迁移的体感观察，评论虽少但指向 Cursor、Claude Code 等替代方案崛起。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://minutes.substack.com/p/no-new-deal-for-openai">No &quot;New Deal&quot; for OpenAI</a></strong> · <a href="https://news.ycombinator.com/item?id=47673444">HN讨论</a></td>
-<td align="left">17 / 1</td>
-<td align="left">批评 OpenAI 政策游说策略的评论，反映社区对其&quot;封闭盈利&quot;模式的持续不满。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.nature.com/articles/d41586-026-01100-y">Scientists invented a fake disease. AI told people it was real</a></strong> · <a href="https://news.ycombinator.com/item?id=47681534">HN讨论</a></td>
-<td align="left">7 / 1</td>
-<td align="left">Nature 研究揭示 AI 健康信息的幻觉风险，医学 AI 可靠性警示案例。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>社区情绪信号</h2>
-<p><strong>核心情绪：审慎兴奋与信任焦虑并存</strong></p>
-<p>今日社区呈现**&quot;Anthropic 日&quot;<strong>特征：技术发布获得高度认可（Glasswing 814 分、Mythos 系统卡 500 分），但同步爆发的服务故障（Claude Code 锁定用户 215 分/292 评论）引发可靠性质疑——高评论数显示用户愿意投入时间吐槽，说明产品已深度嵌入工作流。与上周相比，</strong>&quot;代理基础设施&quot;**成为新焦点（4 个 Show HN 项目），而 OpenAI 相关讨论转向负面（内部不信任、地缘政治风险）。社区共识：网络安全能力需要透明治理，但对&quot;由谁制定规则&quot;保持警惕。</p>
-<hr>
-<h2>值得深读</h2>
-<table>
-<thead>
-<tr>
-<th align="left">优先级</th>
-<th align="left">内容</th>
-<th align="left">理由</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">⭐⭐⭐</td>
-<td align="left"><strong><a href="https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf">System Card: Claude Mythos Preview [pdf]</a></strong></td>
-<td align="left">目前最完整的先进 AI 网络安全能力披露文档，研究者必读；其评估方法论可能影响行业标准。</td>
-</tr>
-<tr>
-<td align="left">⭐⭐⭐</td>
-<td align="left"><strong><a href="https://www.anthropic.com/glasswing">Project Glasswing: Securing critical software for the AI era</a></strong></td>
-<td align="left">AI 时代关键基础设施安全的系统性框架，工程领导者应关注其&quot;形式化验证+AI&quot;结合路径。</td>
-</tr>
-<tr>
-<td align="left">⭐⭐☆</td>
-<td align="left"><strong><a href="https://red.anthropic.com/2026/mythos-preview/">Assessing Claude Mythos Preview&#39;s cybersecurity capabilities</a></strong></td>
-<td align="left">红队视角的一手资料，理解&quot;能力-风险&quot;权衡的具体案例，安全研究者深度参考。</td>
-</tr>
-</tbody></table>
 <hr>
 <p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>
