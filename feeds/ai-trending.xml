@@ -6,7 +6,262 @@
     <description>AI 开源趋势日报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-trending.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 08 May 2026 04:11:28 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 04:17:29 +0000</lastBuildDate>
+    <item>
+      <title>AI 开源趋势日报 2026-05-09</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-09/ai-trending</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-09/ai-trending</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <description>AI 开源趋势日报 2026-05-09 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-05-09 00:21 UTC AI 开源趋势日报 | 2026-05-09 今日速览 今日 AI 开源热榜呈现**&amp;quot;智能体基础设施&amp;quot;爆发态势：终端原生 AI 编码工具（DeepSeek-TUI、agent-skills）与免费 API 路由方案（9router）占据新增 stars 前三，反映开发者对低成本、本地化、生产级 Agent 工程能力**的迫切需求。Anthropic 金融垂直方案意外登顶，暗示企业级 AI 落地进入行业深耕阶段。同时，RAG/记忆层项目（claude-mem、mem0）持续高热度，向量数据库与 Agent 编排平台（ruflo）构成完整的&amp;quot;感知-记忆-执行&amp;quot;技术栈闭环。 各维度热门项目 🔧 AI 基础工具（框架、SDK、推理引擎、开发工具、CLI） 项目 Stars 一句话说明 Hmbown/DeepSeek-TUI [Rust] 0 ⭐ (+3,731 today...</description>
+      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-05-09</h1>
+<blockquote>
+<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-05-09 00:21 UTC</p>
+</blockquote>
+<hr>
+<h1>AI 开源趋势日报 | 2026-05-09</h1>
+<hr>
+<h2>今日速览</h2>
+<p>今日 AI 开源热榜呈现**&quot;智能体基础设施&quot;<strong>爆发态势：终端原生 AI 编码工具（DeepSeek-TUI、agent-skills）与免费 API 路由方案（9router）占据新增 stars 前三，反映开发者对</strong>低成本、本地化、生产级 Agent 工程能力**的迫切需求。Anthropic 金融垂直方案意外登顶，暗示企业级 AI 落地进入行业深耕阶段。同时，RAG/记忆层项目（claude-mem、mem0）持续高热度，向量数据库与 Agent 编排平台（ruflo）构成完整的&quot;感知-记忆-执行&quot;技术栈闭环。</p>
+<hr>
+<h2>各维度热门项目</h2>
+<h3>🔧 AI 基础工具（框架、SDK、推理引擎、开发工具、CLI）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">Stars</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/Hmbown/DeepSeek-TUI">Hmbown/DeepSeek-TUI</a> [Rust]</td>
+<td align="left">0 ⭐ (+3,731 today)</td>
+<td align="left"><strong>终端原生 DeepSeek 编码智能体</strong>，Rust 构建的 TUI 界面，将模型能力直接嵌入开发者工作流，今日增速冠绝全榜</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/addyosmani/Shell">addyosmani/agent-skills</a></td>
+<td align="left">0 ⭐ (+1,893 today)</td>
+<td align="left"><strong>生产级 AI 编码智能体技能库</strong>，由 Chrome 团队性能专家发起，定义 Agent 工程能力标准</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/decolua/9router">decolua/9router</a> [JavaScript]</td>
+<td align="left">0 ⭐ (+1,052 today)</td>
+<td align="left"><strong>40+ 免费提供商的统一路由网关</strong>，支持 Claude/GPT/Gemini 自动降级与 RTK 令牌优化，破解 API 成本痛点</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/ollama/ollama">ollama/ollama</a> [Go]</td>
+<td align="left">171,017 ⭐ [topic:llm]</td>
+<td align="left">本地大模型运行的事实标准，今日已支持 Kimi-K2.5、GLM-5 等前沿模型</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/vllm-project/vllm">vllm-project/vllm</a> [Python]</td>
+<td align="left">79,413 ⭐ [topic:llm]</td>
+<td align="left">高吞吐 LLM 推理引擎，持续引领服务化部署性能基准</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/awslabs/aidlc-workflows">awslabs/aidlc-workflows</a> [Python]</td>
+<td align="left">0 ⭐ (+58 today)</td>
+<td align="left">AWS 官方推出的 <strong>AI 驱动生命周期自适应工作流规则</strong>，企业级 Agent 治理框架</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🤖 AI 智能体/工作流（Agent 框架、自动化、多智能体）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">Stars</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/ruvnet/ruflo">ruvnet/ruflo</a> [TypeScript]</td>
+<td align="left">46,877 ⭐ [topic:ai-agent]</td>
+<td align="left"><strong>Claude 生态领先的 Agent 编排平台</strong>，支持多智能体集群、自学习群体智能与原生 Claude Code 集成</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/browser-use/browser-use">browser-use/browser-use</a> [Python]</td>
+<td align="left">92,966 ⭐ [topic:llm]</td>
+<td align="left">让网站对 AI 智能体可访问，浏览器自动化的事实标准工具</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/OpenHands/OpenHands">OpenHands/OpenHands</a> [Python]</td>
+<td align="left">72,935 ⭐ [topic:llm]</td>
+<td align="left">AI 驱动开发全流程，从需求到代码的端到端 Agent</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/zhayujie/CowAgent">zhayujie/CowAgent</a> [Python]</td>
+<td align="left">44,205 ⭐ [topic:ai-agent]</td>
+<td align="left"><strong>国产超级 AI 助理</strong>，支持主动思考、任务规划、Skills 创造，比 OpenClaw 更轻量，全平台接入</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/activepieces/activepieces">activepieces/activepieces</a> [TypeScript]</td>
+<td align="left">22,113 ⭐ [topic:ai-agent]</td>
+<td align="left">~400 个 MCP 服务器的 Agent 自动化平台，AI 工作流与 MCP 生态的集大成者</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/trycua/cua">trycua/cua</a> [HTML]</td>
+<td align="left">15,756 ⭐ [topic:ai-agent]</td>
+<td align="left"><strong>计算机使用智能体（CUA）开源基础设施</strong>，提供沙箱、SDK 与评测基准，覆盖 macOS/Linux/Windows</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/lobehub/lobehub">lobehub/lobehub</a> [TypeScript]</td>
+<td align="left">0 ⭐ (+125 today)</td>
+<td align="left">以 Agent 为工作交互单元的多智能体协作空间，今日持续获关注</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>📦 AI 应用（具体应用产品、垂直场景解决方案）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">Stars</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/anthropics/financial-services">anthropics/financial-services</a> [Python]</td>
+<td align="left">0 ⭐ (+3,660 today)</td>
+<td align="left"><strong>Anthropic 官方金融服务业 AI 方案</strong>，今日 stars 增速第一，标志大模型厂商垂直行业深耕战略</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/HKUDS/AI-Trader">HKUDS/AI-Trader</a> [Python]</td>
+<td align="left">0 ⭐ (+202 today)</td>
+<td align="left"><strong>100% 全自动 Agent 原生交易系统</strong>，香港大学数据科学团队出品，金融 Agent 落地先锋</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/LearningCircuit/local-deep-research">LearningCircuit/local-deep-research</a> [Python]</td>
+<td align="left">0 ⭐ (+559 today)</td>
+<td align="left">本地深度研究工具，Qwen3.6-27B 在 3090 上达 SimpleQA ~95%，<strong>隐私优先的科研 Agent</strong></td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/OpenBB-finance/OpenBB">OpenBB-finance/OpenBB</a> [Python]</td>
+<td align="left">67,226 ⭐ [topic:ml]</td>
+<td align="left">分析师、量化研究员与 AI Agent 的金融数据平台</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/CherryHQ/cherry-studio">CherryHQ/cherry-studio</a> [TypeScript]</td>
+<td align="left">45,262 ⭐ [topic:ai-agent]</td>
+<td align="left">AI 生产力工作室，集成 300+ 助手与自主 Agent，统一接入前沿 LLM</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/CloakHQ/CloakBrowser">CloakHQ/CloakBrowser</a> [Python]</td>
+<td align="left">0 ⭐ (+526 today)</td>
+<td align="left"><strong>通过全部 30/30  bot 检测的隐身 Chromium</strong>，Playwright 即插即用替代，AI 自动化反检测刚需</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🧠 大模型/训练（模型权重、训练框架、微调工具）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">Stars</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/jingyaogong/minimind">jingyaogong/minimind</a> [Python]</td>
+<td align="left">49,277 ⭐ [topic:llm-model]</td>
+<td align="left"><strong>2 小时从 0 训练 64M 参数 LLM</strong>，大模型教育与小规模实验的首选入门框架</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/hiyouga/LlamaFactory">hiyouga/LlamaFactory</a> [Python]</td>
+<td align="left">71,053 ⭐ [topic:llm]</td>
+<td align="left">100+ LLM/VLM 统一高效微调（ACL 2024），开源微调工具标杆</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/huggingface/transformers">huggingface/transformers</a> [Python]</td>
+<td align="left">160,402 ⭐ [topic:ml]</td>
+<td align="left">文本/视觉/音频/多模态模型的定义框架，生态基石</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/pytorch/pytorch">pytorch/pytorch</a> [Python]</td>
+<td align="left">99,768 ⭐ [topic:ml]</td>
+<td align="left">动态神经网络与 GPU 加速，AI 研究的基础设施</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/0xPlaygrounds/rig">0xPlaygrounds/rig</a> [Rust]</td>
+<td align="left">7,200 ⭐ [topic:llm-model]</td>
+<td align="left"><strong>Rust 生态模块化 LLM 应用框架</strong>，系统级性能与类型安全的结合</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🔍 RAG/知识库（向量数据库、检索增强、知识管理）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">Stars</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a> [TypeScript]</td>
+<td align="left">73,742 ⭐ [topic:rag]</td>
+<td align="left"><strong>Claude Code 记忆插件</strong>，自动捕获编码会话、AI 压缩并注入未来上下文，解决 Agent 连续性难题</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/mem0ai/mem0">mem0ai/mem0</a> [Python]</td>
+<td align="left">55,147 ⭐ [topic:rag]</td>
+<td align="left">AI Agent 的通用记忆层，跨会话长期记忆的事实标准</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a> [Python]</td>
+<td align="left">80,008 ⭐ [topic:rag]</td>
+<td align="left">领先开源 RAG 引擎，深度融合检索与 Agent 能力</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/milvus-io/milvus">milvus-io/milvus</a> [Go]</td>
+<td align="left">44,185 ⭐ [topic:rag]</td>
+<td align="left">云原生高性能向量数据库，规模化 ANN 搜索基础设施</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/meilisearch/meilisearch">meilisearch/meilisearch</a> [Rust]</td>
+<td align="left">57,462 ⭐ [topic:vector-db]</td>
+<td align="left"><strong>AI 混合搜索引擎</strong>，为站点与应用提供闪电般搜索体验</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/qdrant/qdrant">qdrant/qdrant</a> [Rust]</td>
+<td align="left">31,160 ⭐ [topic:vector-db]</td>
+<td align="left">高性能大规模向量数据库，下一代 AI 向量搜索引擎</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/VectifyAI/PageIndex">VectifyAI/PageIndex</a> [Python]</td>
+<td align="left">30,109 ⭐ [topic:vector-db]</td>
+<td align="left"><strong>无向量推理型 RAG 文档索引</strong>，突破传统嵌入检索范式</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/topoteretes/cognee">topoteretes/cognee</a> [Python]</td>
+<td align="left">17,126 ⭐ [topic:vector-db]</td>
+<td align="left"><strong>6 行代码构建 Agent 记忆控制平面</strong>，极简内存层</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>趋势信号分析</h2>
+<p><strong>&quot;终端原生 + 免费路由&quot;双轮驱动 Agent 民主化。</strong> 今日热榜揭示一个明确转向：开发者正从&quot;云端黑箱&quot;转向&quot;本地可控&quot;的 Agent 基础设施。DeepSeek-TUI（Rust TUI）、agent-skills（Shell 技能库）、9router（免费 API 聚合）三者合计近 7,000 日增 stars，表明社区对<strong>零成本、高隐私、生产级</strong> Agent 工具的渴求已达临界点。这与近期 Claude Code、Codex CLI 等官方工具闭源付费化形成鲜明对冲——开源生态正在构建&quot;去中心化&quot;的替代方案。</p>
+<p><strong>金融垂直场景成为大模型厂商新战场。</strong> Anthropic financial-services 意外登顶，叠加 AI-Trader、OpenBB 等项目，显示 AI 从通用对话向<strong>行业知识密集型决策</strong>渗透。这与 2026 年 Q1 多家投行公开 LLM 交易试点的时间线吻合。</p>
+<p><strong>记忆层与向量数据库的&quot;认知架构&quot;竞赛白热化。</strong> claude-mem、mem0、cognee、PageIndex 等项目呈现两条技术路线：传统向量检索（Milvus/Qdrant）与新型无向量/图记忆（PageIndex/cognee）并行发展，暗示 RAG 正从&quot;检索增强&quot;演进为&quot;认知架构&quot;的核心组件。</p>
+<hr>
+<h2>社区关注热点</h2>
+<ul>
+<li><p><strong><a href="https://github.com/anthropics/financial-services">anthropics/financial-services</a></strong> — Anthropic 首个官方垂直行业方案，金融合规与 AI 结合的标杆，预示大模型厂商&quot;行业化&quot;战略加速</p>
+</li>
+<li><p><strong><a href="https://github.com/Hmbown/DeepSeek-TUI">Hmbown/DeepSeek-TUI</a></strong> — Rust 构建的终端编码 Agent，3,731 日增 stars 验证&quot;开发者工具终端化&quot;趋势，对标 Claude Code 的本地开源替代</p>
+</li>
+<li><p><strong><a href="https://github.com/decolua/9router">decolua/9router</a></strong> — 40+ 免费提供商聚合 + RTK 令牌优化，解决 Agent 大规模运行的 API 成本瓶颈，基础设施层创新</p>
+</li>
+<li><p><strong><a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a></strong> — 73K stars 的 Agent 记忆方案，AI 压缩会话历史并智能注入，突破当前 Agent&quot;金鱼记忆&quot;限制</p>
+</li>
+<li><p><strong><a href="https://github.com/LearningCircuit/local-deep-research">LearningCircuit/local-deep-research</a></strong> — 本地 GPU 运行即达 95% SimpleQA，隐私优先的科研 Agent，契合学术/企业数据敏感场景需求</p>
+</li>
+</ul>
+<hr>
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI 开源趋势日报 2026-05-08</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-08/ai-trending</link>
@@ -13559,432 +13814,6 @@ activepieces 集成 ~400 个 MCP 服务器、zilliztech/claude-context 提供代
 <td align="left"></td>
 </tr>
 </tbody></table>
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI 开源趋势日报 2026-04-09</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-09/ai-trending</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-09/ai-trending</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <description>AI 开源趋势日报 2026-04-09 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-04-09 00:10 UTC AI 开源趋势日报 | 2026-04-09 第一步：AI 相关性筛选 Trending 榜单筛选结果（11 → 9 个 AI 相关）： 项目 判定 说明 forrestchang/andrej-karpathy-skills ✅ AI Andrej Karpathy 技能库，AI 教育/开发方法论 TheCraigHewitt/seomachine ✅ AI Claude Code 驱动的 SEO 内容生成系统 google-ai-edge/gallery ✅ AI Google 端侧 ML/GenAI 用例展示与本地模型运行 NVIDIA/personaplex ✅ AI NVIDIA 角色/人格化 AI 项目 google-ai-edge/LiteRT-LM ✅ AI Google 端侧 LLM 推理运行时 elebumm/RedditVideoMakerBot ✅ AI AI 驱动的 Reddit...</description>
-      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-04-09</h1>
-<blockquote>
-<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-04-09 00:10 UTC</p>
-</blockquote>
-<hr>
-<h1>AI 开源趋势日报 | 2026-04-09</h1>
-<hr>
-<h2>第一步：AI 相关性筛选</h2>
-<p><strong>Trending 榜单筛选结果</strong>（11 → 9 个 AI 相关）：</p>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">判定</th>
-<th align="left">说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">forrestchang/andrej-karpathy-skills</td>
-<td align="left">✅ AI</td>
-<td align="left">Andrej Karpathy 技能库，AI 教育/开发方法论</td>
-</tr>
-<tr>
-<td align="left">TheCraigHewitt/seomachine</td>
-<td align="left">✅ AI</td>
-<td align="left">Claude Code 驱动的 SEO 内容生成系统</td>
-</tr>
-<tr>
-<td align="left">google-ai-edge/gallery</td>
-<td align="left">✅ AI</td>
-<td align="left">Google 端侧 ML/GenAI 用例展示与本地模型运行</td>
-</tr>
-<tr>
-<td align="left">NVIDIA/personaplex</td>
-<td align="left">✅ AI</td>
-<td align="left">NVIDIA 角色/人格化 AI 项目</td>
-</tr>
-<tr>
-<td align="left">google-ai-edge/LiteRT-LM</td>
-<td align="left">✅ AI</td>
-<td align="left">Google 端侧 LLM 推理运行时</td>
-</tr>
-<tr>
-<td align="left">elebumm/RedditVideoMakerBot</td>
-<td align="left">✅ AI</td>
-<td align="left">AI 驱动的 Reddit 内容视频化工具</td>
-</tr>
-<tr>
-<td align="left">obra/superpowers</td>
-<td align="left">✅ AI</td>
-<td align="left">Agentic 技能框架与软件开发方法论</td>
-</tr>
-<tr>
-<td align="left">newton-physics/newton</td>
-<td align="left">✅ AI</td>
-<td align="left">GPU 加速物理仿真引擎（机器人/仿真研究）</td>
-</tr>
-<tr>
-<td align="left">abhigyanpatwari/GitNexus</td>
-<td align="left">✅ AI</td>
-<td align="left">浏览器端代码知识图谱 + Graph RAG Agent</td>
-</tr>
-<tr>
-<td align="left">virattt/ai-hedge-fund</td>
-<td align="left">✅ AI</td>
-<td align="left">AI 对冲基金团队（低今日增速，保留）</td>
-</tr>
-<tr>
-<td align="left">goharbor/harbor</td>
-<td align="left">❌ 排除</td>
-<td align="left">云原生容器镜像仓库，与 AI 无直接关联</td>
-</tr>
-</tbody></table>
-<p><strong>主题搜索</strong>：80 个项目全部保留（已按 topic 筛选）</p>
-<hr>
-<h2>第二步：分类结果</h2>
-<table>
-<thead>
-<tr>
-<th align="left">类别</th>
-<th align="left">项目数量</th>
-<th align="left">主要项目</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">🔧 AI 基础工具</td>
-<td align="left">18</td>
-<td align="left">Ollama, vLLM, LiteRT-LM, OpenCLI, E2B, Cua 等</td>
-</tr>
-<tr>
-<td align="left">🤖 AI 智能体/工作流</td>
-<td align="left">22</td>
-<td align="left">Claude Code 生态、Dify、AutoGPT、OpenHands、Activepieces 等</td>
-</tr>
-<tr>
-<td align="left">📦 AI 应用</td>
-<td align="left">12</td>
-<td align="left">SEO 工具、对冲基金、影视生产、代码智能等垂直应用</td>
-</tr>
-<tr>
-<td align="left">🧠 大模型/训练</td>
-<td align="left">16</td>
-<td align="left">Transformers、LlamaFactory、MiniMind、LLMs-from-scratch 等</td>
-</tr>
-<tr>
-<td align="left">🔍 RAG/知识库</td>
-<td align="left">14</td>
-<td align="left">LangChain、RAGFlow、Milvus、GraphRAG、GitNexus 等</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>第三步：AI 开源趋势日报</h2>
-<hr>
-<h3>1. 今日速览</h3>
-<p><strong>端侧 AI 与 Claude Code 生态成为今日双引擎。</strong> Google 连推 <code>gallery</code> 和 <code>LiteRT-LM</code> 两大端侧项目，获 1354 今日 stars，显示巨头正加速布局设备端 GenAI。同时 <code>obra/superpowers</code> 以 <strong>+2028 stars</strong> 登顶，其&quot;Agentic 技能框架&quot;方法论引发开发者强烈共鸣。值得关注的是，<strong>Claude Code 衍生生态</strong>（seomachine、ralph-claude-code、everything-claude-code 等）已形成明显的工具链集群效应，AI 编程助手正从&quot;对话工具&quot;演进为&quot;可编排的技能系统&quot;。</p>
-<hr>
-<h3>2. 各维度热门项目</h3>
-<h4>🔧 AI 基础工具（框架、SDK、推理引擎、CLI）</h4>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">Stars</th>
-<th align="left">今日新增</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/obra/superpowers">obra/superpowers</a></td>
-<td align="left">新上榜</td>
-<td align="left"><strong>+2028</strong></td>
-<td align="left"><strong>今日增速冠军</strong>——提出&quot;Agentic 技能框架&quot;的软件开发方法论，试图定义 AI 时代的工程协作范式</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-ai-edge/gallery">google-ai-edge/gallery</a></td>
-<td align="left">新上榜</td>
-<td align="left">+853</td>
-<td align="left">Google 官方端侧 ML/GenAI 展示平台，支持本地模型下载与运行，降低设备 AI 落地门槛</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/google-ai-edge/LiteRT-LM">google-ai-edge/LiteRT-LM</a></td>
-<td align="left">新上榜</td>
-<td align="left">+501</td>
-<td align="left">Google 端侧 LLM 推理运行时，与 gallery 形成&quot;展示+引擎&quot;组合拳</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/ollama/ollama">ollama/ollama</a></td>
-<td align="left">168,202</td>
-<td align="left">-</td>
-<td align="left">本地大模型运行的事实标准，今日被 Google 端侧战略间接挑战</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/vllm-project/vllm">vllm-project/vllm</a></td>
-<td align="left">75,751</td>
-<td align="left">-</td>
-<td align="left">高吞吐 LLM 推理引擎，生产级部署首选</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/jackwener/OpenCLI">jackwener/OpenCLI</a></td>
-<td align="left">14,397</td>
-<td align="left">-</td>
-<td align="left">将任意网站/Electron 应用转为标准化 CLI，为 AI Agent 统一工具调用接口</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/e2b-dev/E2B">e2b-dev/E2B</a></td>
-<td align="left">11,627</td>
-<td align="left">-</td>
-<td align="left">企业级 Agent 安全沙箱环境，支持真实工具链</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/trycua/cua">trycua/cua</a></td>
-<td align="left">13,427</td>
-<td align="left">-</td>
-<td align="left">开源 Computer-Use Agent 基础设施，支持多桌面环境训练与评测</td>
-</tr>
-</tbody></table>
-<h4>🤖 AI 智能体/工作流（Agent 框架、自动化、多智能体）</h4>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">Stars</th>
-<th align="left">今日新增</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/shareAI-lab/learn-claude-code">shareAI-lab/learn-claude-code</a></td>
-<td align="left">50,272</td>
-<td align="left">-</td>
-<td align="left">&quot;Bash is all you need&quot;——从零构建类 Claude Code 的极简 Agent  harness，教育意义显著</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/CherryHQ/cherry-studio">CherryHQ/cherry-studio</a></td>
-<td align="left">43,160</td>
-<td align="left">-</td>
-<td align="left">统一接入 300+ AI 助手的生产力中枢，支持自主 Agent 与多模型调度</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/zhayujie/chatgpt-on-wechat">zhayujie/chatgpt-on-wechat</a></td>
-<td align="left">42,873</td>
-<td align="left">-</td>
-<td align="left">国产多平台 AI 助理框架，CowAgent 支持主动思考、任务规划与长期记忆</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/NousResearch/hermes-agent">NousResearch/hermes-agent</a></td>
-<td align="left">37,323</td>
-<td align="left">-</td>
-<td align="left">Nous Research 的&quot;与你共成长&quot;Agent，强调持续学习与个性化</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/CopilotKit/CopilotKit">CopilotKit/CopilotKit</a></td>
-<td align="left">30,082</td>
-<td align="left">-</td>
-<td align="left">前端 Agent 技术栈，AG-UI 协议制定者，推动生成式 UI 标准化</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/activepieces/activepieces">activepieces/activepieces</a></td>
-<td align="left">21,627</td>
-<td align="left">-</td>
-<td align="left">集成 ~400 MCP 服务器的 AI 工作流自动化平台，MCP 生态关键节点</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/frankbria/ralph-claude-code">frankbria/ralph-claude-code</a></td>
-<td align="left">8,545</td>
-<td align="left">-</td>
-<td align="left">Claude Code 的自主开发循环，智能退出检测优化人机协作边界</td>
-</tr>
-</tbody></table>
-<h4>📦 AI 应用（具体应用产品、垂直场景解决方案）</h4>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">Stars</th>
-<th align="left">今日新增</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/TheCraigHewitt/seomachine">TheCraigHewitt/seomachine</a></td>
-<td align="left">新上榜</td>
-<td align="left">+649</td>
-<td align="left">Claude Code 驱动的 SEO 内容工厂，14 种技能模式实现研究-写作-优化全流程</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/abhigyanpatwari/GitNexus">abhigyanpatwari/GitNexus</a></td>
-<td align="left">新上榜</td>
-<td align="left">+980</td>
-<td align="left"><strong>浏览器端零服务器代码智能引擎</strong>，Graph RAG Agent 实现代码库可视化探索</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/saturndec/waoowaoo">saturndec/waoowaoo</a></td>
-<td align="left">11,033</td>
-<td align="left">-</td>
-<td align="left">首家工业级 AI 影视生产平台，从短剧到真人电影的好莱坞标准工作流</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/virattt/ai-hedge-fund">virattt/ai-hedge-fund</a></td>
-<td align="left">低基数</td>
-<td align="left">+151</td>
-<td align="left">AI 对冲基金团队，多 Agent 协作的投资决策系统</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/santifer/career-ops">santifer/career-ops</a></td>
-<td align="left">24,385</td>
-<td align="left">-</td>
-<td align="left">Claude Code 驱动的 AI 求职系统，14 技能模式 + Go 仪表板 + PDF 生成</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/elebumm/RedditVideoMakerBot">elebumm/RedditVideoMakerBot</a></td>
-<td align="left">新上榜</td>
-<td align="left">+555</td>
-<td align="left">一键将 Reddit 内容转为视频，AI 驱动的内容再生产工具</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/NVIDIA/personaplex">NVIDIA/personaplex</a></td>
-<td align="left">新上榜</td>
-<td align="left">+586</td>
-<td align="left">NVIDIA 角色/人格化 AI 项目，可能涉及数字人、NPC 或个性化助手</td>
-</tr>
-</tbody></table>
-<h4>🧠 大模型/训练（模型权重、训练框架、微调工具）</h4>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">Stars</th>
-<th align="left">今日新增</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/huggingface/transformers">huggingface/transformers</a></td>
-<td align="left">159,045</td>
-<td align="left">-</td>
-<td align="left">模型定义框架的事实标准，覆盖文本/视觉/音频/多模态</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/rasbt/LLMs-from-scratch">rasbt/LLMs-from-scratch</a></td>
-<td align="left">90,314</td>
-<td align="left">-</td>
-<td align="left">从零实现 ChatGPT 级 LLM，PyTorch 教学标杆</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/hiyouga/LlamaFactory">hiyouga/LlamaFactory</a></td>
-<td align="left">69,761</td>
-<td align="left">-</td>
-<td align="left">100+ LLM/VLM 统一高效微调框架（ACL 2024）</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/jingyaogong/minimind">jingyaogong/minimind</a></td>
-<td align="left">46,061</td>
-<td align="left">-</td>
-<td align="left">2 小时从零训练 64M 参数 GPT，大模型教育最小可行实现</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/0xPlaygrounds/rig">0xPlaygrounds/rig</a></td>
-<td align="left">6,837</td>
-<td align="left">-</td>
-<td align="left">Rust 生态的模块化 LLM 应用框架，性能与类型安全优先</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/affaan-m/everything-claude-code">affaan-m/everything-claude-code</a></td>
-<td align="left">146,833</td>
-<td align="left">-</td>
-<td align="left">Claude Code 性能优化系统，涵盖技能、本能、记忆、安全与研究优先开发</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/forrestchang/andrej-karpathy-skills">forrestchang/andrej-karpathy-skills</a></td>
-<td align="left">新上榜</td>
-<td align="left">+702</td>
-<td align="left">Andrej Karpathy 技能库整理，AI 教育权威资源聚合</td>
-</tr>
-</tbody></table>
-<h4>🔍 RAG/知识库（向量数据库、检索增强、知识管理）</h4>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">Stars</th>
-<th align="left">今日新增</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/langgenius/dify">langgenius/dify</a></td>
-<td align="left">136,777</td>
-<td align="left">-</td>
-<td align="left">生产级 Agentic 工作流开发平台，RAG 与 Agent 能力融合</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/langchain-ai/langchain">langchain-ai/langchain</a></td>
-<td align="left">132,819</td>
-<td align="left">-</td>
-<td align="left">Agent 工程平台，RAG 与工具调用的基础设施</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a></td>
-<td align="left">77,474</td>
-<td align="left">-</td>
-<td align="left">融合前沿 RAG 与 Agent 能力的开源引擎</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/mem0ai/mem0">mem0ai/mem0</a></td>
-<td align="left">52,333</td>
-<td align="left">-</td>
-<td align="left">AI Agent 的通用记忆层，解决长期上下文与个性化</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/microsoft/graphrag">microsoft/graphrag</a></td>
-<td align="left">32,067</td>
-<td align="left">-</td>
-<td align="left">模块化图检索增强生成系统，知识图谱驱动的 RAG</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/HKUDS/LightRAG">HKUDS/LightRAG</a></td>
-<td align="left">32,686</td>
-<td align="left">-</td>
-<td align="left">EMNLP 2025 简单快速 RAG，存储效率与检索速度优化</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a></td>
-<td align="left">46,401</td>
-<td align="left">-</td>
-<td align="left">Claude Code 会话记忆插件，AI 压缩与上下文注入</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/milvus-io/milvus">milvus-io/milvus</a></td>
-<td align="left">43,678</td>
-<td align="left">-</td>
-<td align="left">云原生高性能向量数据库，可扩展 ANN 搜索</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>3. 趋势信号分析</h3>
-<p><strong>端侧 AI 爆发前夜</strong>：Google 同日释放 <code>gallery</code> 与 <code>LiteRT-LM</code>，形成&quot;应用展示+推理引擎&quot;的完整端侧栈，直接对标 Ollama 生态。这与 Gemini Nano 的设备端部署战略一脉相承，预示 2026 年端侧大模型竞争白热化。</p>
-<p><strong>Claude Code 生态形成正反馈</strong>：从 <code>learn-claude-code</code>（教你怎么造）到 <code>everything-claude-code</code>（性能优化）、<code>ralph-claude-code</code>（自主循环）、<code>seomachine</code>（垂直应用），Claude Code 已从单一工具演化为<strong>可编程的 Agent 操作系统</strong>。<code>obra/superpowers</code> 的爆发（+2028 stars）更将&quot;技能框架&quot;方法论推向通用开发范式，AI 编程助手正经历从&quot;对话&quot;到&quot;编排&quot;的质变。</p>
-<p><strong>Graph RAG 进入工程化阶段</strong>：<code>GitNexus</code> 以浏览器端零服务器架构实现代码知识图谱，结合 <code>microsoft/graphrag</code> 的模块化设计，知识图谱增强检索正从研究概念落地为开发者可触及的工具。</p>
-<p><strong>MCP 协议成为 Agent 互联标准</strong>：<code>activepieces</code> 集成 ~400 MCP 服务器，<code>langchain4j</code> 明确支持 MCP，Model Context Protocol 正快速成为 Agent 与工具、数据源之间的&quot;USB-C 接口&quot;。</p>
-<hr>
-<h3>4. 社区关注热点</h3>
-<ul>
-<li><p><strong>🔥 <code>obra/superpowers</code></strong> — 今日增速冠军（+2028），其&quot;Agentic 技能框架&quot;可能定义下一代 AI 辅助开发范式，值得深入研究其软件工程方法论</p>
-</li>
-<li><p><strong>🔥 <code>abhigyanpatwari/GitNexus</code></strong> — 浏览器端 Graph RAG + 零服务器架构，代码智能的隐私与可访问性突破，适合代码库探索场景</p>
-</li>
-<li><p><strong>🔥 Google 端侧双雄 (<code>gallery</code> + <code>LiteRT-LM</code>)</strong> — 巨头正式入场端侧 AI，关注其与 Android 生态的整合路径，以及对 Ollama 的差异化竞争</p>
-</li>
-<li><p><strong>🔥 <code>trycua/cua</code></strong> — Computer-Use Agent 基础设施，支持多桌面环境（macOS/Linux/Windows），AI 操作系统的底层能力值得关注</p>
-</li>
-<li><p><strong>🔥 MCP 生态扩张</strong> — 从 <code>activepieces</code> 到 <code>langchain4j</code>，MCP 协议快速成为 Agent 工具集成的事实标准，建议开发者提前布局 MCP 服务器开发能力</p>
-</li>
-</ul>
-<hr>
-<p><em>报告生成时间：2026-04-09</em><br><em>数据来源：GitHub Trending &amp; Search API</em></p>
 <hr>
 <p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>

@@ -6,7 +6,182 @@
     <description>Hacker News AI Community Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-hn-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 08 May 2026 04:11:28 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 04:17:29 +0000</lastBuildDate>
+    <item>
+      <title>Hacker News AI Community Digest 2026-05-09</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-09/ai-hn-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-09/ai-hn-en</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI Community Digest 2026-05-09 Source: Hacker News | 30 stories | Generated: 2026-05-09 00:21 UTC Hacker News AI Community Digest — May 9, 2026 1. Today&amp;#39;s Highlights The HN AI community is fixated on Anthropic today, with four stories covering its &amp;quot;Mythos&amp;quot; model controversy, a new &amp;quot;Teaching Claude Why&amp;quot; research initiative, a potential $1 trillion valuation, and even a security snafu in Claude Code. The Mythos fallout dominates—sparking White House regulatory c...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-05-09</h1>
+<blockquote>
+<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-05-09 00:21 UTC</p>
+</blockquote>
+<hr>
+<h1>Hacker News AI Community Digest — May 9, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>The HN AI community is fixated on <strong>Anthropic</strong> today, with four stories covering its &quot;Mythos&quot; model controversy, a new &quot;Teaching Claude Why&quot; research initiative, a potential <strong>$1 trillion valuation</strong>, and even a security snafu in Claude Code. The Mythos fallout dominates—sparking White House regulatory chaos, Bruce Schneier analysis, and debate over whether the cybersecurity &quot;hysteria&quot; was warranted. Meanwhile, <strong>agent tooling</strong> is having a moment with multiple &quot;Show HN&quot; projects for AI agent infrastructure, and the community is actively wrestling with its own identity via an &quot;Ask HN&quot; on low-quality LLM-generated comments. Security concerns permeate the feed, from a critical Ollama memory leak to the Linux &quot;Dirty Frag&quot; exploit.</p>
+<hr>
+<h2>2. Top News &amp; Discussions</h2>
+<h3>🔬 Models &amp; Research</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://www.anthropic.com/research/teaching-claude-why"><strong>Teaching Claude Why</strong></a> — <a href="https://news.ycombinator.com/item?id=48066592">HN Discussion</a></td>
+<td>66</td>
+<td>13</td>
+<td>Anthropic&#39;s interpretability research; community sees this as genuine technical progress toward explainable AI, though some skepticism about &quot;why&quot; being truly learned versus simulated</td>
+</tr>
+<tr>
+<td><a href="https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/"><strong>Can LLMs model real-world systems in TLA+?</strong></a> — <a href="https://news.ycombinator.com/item?id=48065254">HN Discussion</a></td>
+<td>6</td>
+<td>0</td>
+<td>Niche but significant for formal methods practitioners; tests whether LLMs can handle rigorous specification languages for distributed systems</td>
+</tr>
+<tr>
+<td><a href="https://pub.sakana.ai/sparser-faster-llms/"><strong>Sparser, Faster, Lighter Transformer Language Models</strong></a> — <a href="https://news.ycombinator.com/item?id=48065594">HN Discussion</a></td>
+<td>4</td>
+<td>0</td>
+<td>Sakana AI&#39;s efficiency research; typical HN appreciation for architectural innovations that could reduce inference costs</td>
+</tr>
+</tbody></table>
+<h3>🛠️ Tools &amp; Engineering</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/regent-vcs/re_gent"><strong>Show HN: Git for AI Agents</strong></a> — <a href="https://news.ycombinator.com/item?id=48063548">HN Discussion</a></td>
+<td>92</td>
+<td>44</td>
+<td><strong>Top post of the day</strong>; addresses real pain point in agent workflows—versioning agent states, prompts, and outputs. High comment count shows active design debate</td>
+</tr>
+<tr>
+<td><a href="https://www.getadb.com/"><strong>Show HN: GETadb.com – every GET request creates a DB</strong></a> — <a href="https://news.ycombinator.com/item?id=48065203">HN Discussion</a></td>
+<td>23</td>
+<td>30</td>
+<td>Controversial—more comments than score suggests skepticism; seen as either clever serverless pattern or &quot;what could go wrong&quot; security nightmare</td>
+</tr>
+<tr>
+<td><a href="https://news.ycombinator.com/item?id=48062214"><strong>Show HN: An agent that tunes its own cache</strong></a> — <a href="https://news.ycombinator.com/item?id=48062214">HN Discussion</a></td>
+<td>6</td>
+<td>0</td>
+<td>Self-optimizing systems resonate with HN&#39;s systems engineering culture; low engagement may reflect &quot;show, don&#39;t tell&quot; preference for code over demos</td>
+</tr>
+<tr>
+<td><a href="https://www.cyera.com/research/bleeding-llama-critical-unauthenticated-memory-leak-in-ollama"><strong>Bleeding Llama: Critical Unauthenticated Memory Leak in Ollama</strong></a> — <a href="https://news.ycombinator.com/item?id=48066322">HN Discussion</a></td>
+<td>8</td>
+<td>0</td>
+<td>Serious security finding in popular local LLM tool; concerning zero comments may indicate disclosure fatigue or weekend timing</td>
+</tr>
+</tbody></table>
+<h3>🏢 Industry News</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://www.ft.com/content/a40cafcc-0fa4-4e70-9e24-90d826aea56d"><strong>Anthropic weighs deal for near $1T valuation as revenue surges</strong></a> — <a href="https://news.ycombinator.com/item?id=48069323">HN Discussion</a></td>
+<td>8</td>
+<td>1</td>
+<td>Staggering valuation milestone; lone comment likely reflects &quot;too big to comprehend&quot; or paywall barrier rather than disinterest</td>
+</tr>
+<tr>
+<td><a href="https://www.nextgov.com/artificial-intelligence/2026/05/pentagon-will-never-again-rely-single-ai-provider-official-says/413399/"><strong>Pentagon will &#39;never again&#39; rely on a single AI provider, official says</strong></a> — <a href="https://news.ycombinator.com/item?id=48068983">HN Discussion</a></td>
+<td>9</td>
+<td>0</td>
+<td>Geopolitically significant; signals multi-model strategy becoming institutionalized, though HN skeptical of government tech procurement generally</td>
+</tr>
+<tr>
+<td><a href="https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html"><strong>Meta&#39;s Embrace of A.I. Is Making Its Employees Miserable</strong></a> — <a href="https://news.ycombinator.com/item?id=48067834">HN Discussion</a></td>
+<td>4</td>
+<td>1</td>
+<td>Resonates with recurring HN theme: Big Tech&#39;s &quot;AI pivot&quot; causing internal dysfunction and morale collapse</td>
+</tr>
+</tbody></table>
+<h3>💬 Opinions &amp; Debates</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://news.ycombinator.com/item?id=48063759"><strong>Ask HN: How do we handle the rise of low quality &quot;This is LLM&quot; comments?</strong></a> — <a href="https://news.ycombinator.com/item?id=48063759">HN Discussion</a></td>
+<td>6</td>
+<td>19</td>
+<td><strong>Meta-moment</strong>: Community self-examining its own signal-to-noise ratio; high comments show this touches a nerve about platform identity</td>
+</tr>
+<tr>
+<td><a href="https://www.theguardian.com/commentisfree/2026/may/08/how-dangerous-is-anthropics-mythos-ai"><strong>How dangerous is Anthropic&#39;s Mythos AI? - Bruce Schneier</strong></a> — <a href="https://news.ycombinator.com/item?id=48062004">HN Discussion</a></td>
+<td>5</td>
+<td>0</td>
+<td>Schneier&#39;s measured take lends credibility; zero comments unusual for his work, possibly due to Guardian paywall or debate fatigue</td>
+</tr>
+<tr>
+<td><a href="https://www.cnbc.com/2026/05/08/anthropic-mythos-ai-cybersecurity-banks.html"><strong>Mythos set off a cybersecurity &#39;hysteria.&#39; Experts say threat was already here</strong></a> — <a href="https://news.ycombinator.com/item?id=48064675">HN Discussion</a></td>
+<td>7</td>
+<td>2</td>
+<td>Pushes back on Mythos panic narrative; HN generally receptive to &quot;threat inflation&quot; critiques of AI risk discourse</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Community Sentiment Signal</h2>
+<p>Today&#39;s HN AI discourse reveals a community <strong>simultaneously excited and exhausted by Anthropic&#39;s dominance</strong>. The Mythos narrative arc—launch, security panic, regulatory chaos, backlash against panic—has consumed multiple news cycles, and engagement patterns suggest <strong>fatigue setting in</strong>: high-scoring Anthropic stories show disproportionately low comments (Schneier piece: 5 score/0 comments; White House chaos: 4/0). This contrasts sharply with the vigorous 44-comment debate on &quot;Git for AI Agents,&quot; where practitioners are actively solving concrete problems.</p>
+<p>The <strong>most active genuine discussion</strong> is the meta &quot;Ask HN&quot; on LLM-generated comments (6 score, 19 comments)—revealing anxiety about platform authenticity. There&#39;s <strong>strong consensus around security vigilance</strong> (Ollama leak, Dirty Frag, Claude Code RCE all noted) but <strong>controversy over hype amplification</strong>. Compared to prior cycles, we&#39;ve shifted from &quot;will AGI kill us?&quot; to &quot;is this specific vendor&#39;s marketing corrupting our institutions?&quot;—a more grounded, cynical posture. The Pentagon multi-provider story and Meta employee misery piece reinforce a <strong>distrust of centralized AI power</strong>, whether governmental or corporate.</p>
+<p>Notably absent: OpenAI news, Chinese model competition, or hardware discussions. This is an <strong>Anthropic-saturated, tooling-focused, security-conscious</strong> news cycle with undertones of <strong>platform self-preservation anxiety</strong>.</p>
+<hr>
+<h2>4. Worth Deep Reading</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Piece</th>
+<th>Reasoning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><a href="https://www.anthropic.com/research/teaching-claude-why"><strong>Teaching Claude Why</strong></a></td>
+<td>Core interpretability advance with implications for AI safety and regulatory compliance; understanding <em>why</em> models decide is prerequisite to trustworthy deployment. Essential for researchers in mechanistic interpretability and engineers building high-stakes applications.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/regent-vcs/re_gent"><strong>Show HN: Git for AI Agents</strong></a> + <a href="https://news.ycombinator.com/item?id=48063548">discussion</a></td>
+<td>The 44-comment thread contains substantive debate on version control semantics for non-deterministic systems—branching strategies for prompts, agent state serialization, reproducibility. Practitioners building agent frameworks will find design patterns and pitfalls.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://www.cyera.com/research/bleeding-llama-critical-unauthenticated-memory-leak-in-ollama"><strong>Bleeding Llama: Critical Unauthenticated Memory Leak in Ollama</strong></a></td>
+<td>Critical for anyone running local LLMs in production; the technical details reveal attack vectors in common model serving infrastructure that likely extend beyond Ollama. Security-conscious engineers should audit their deployments against this pattern.</td>
+</tr>
+</tbody></table>
+<hr>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Hacker News AI Community Digest 2026-05-08</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-08/ai-hn-en</link>
@@ -4769,180 +4944,6 @@ Score: 10 | Comments: 2</p>
 </tr>
 </tbody></table>
 <hr>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI Community Digest 2026-04-09</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-09/ai-hn-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-09/ai-hn-en</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI Community Digest 2026-04-09 Source: Hacker News | 30 stories | Generated: 2026-04-09 00:10 UTC Hacker News AI Community Digest — April 9, 2026 1. Today&amp;#39;s Highlights Anthropic dominates today&amp;#39;s discussion with a perfect storm of controversies: billing support failures, alleged model degradation, and the &amp;quot;Mythos&amp;quot; model preview that the company deems &amp;quot;too dangerous to release&amp;quot;—echoing OpenAI&amp;#39;s 2019 GPT-2 stance. The community is sharply divided between...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-04-09</h1>
-<blockquote>
-<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-04-09 00:10 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI Community Digest — April 9, 2026</h1>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>Anthropic dominates today&#39;s discussion with a perfect storm of controversies: billing support failures, alleged model degradation, and the &quot;Mythos&quot; model preview that the company deems &quot;too dangerous to release&quot;—echoing OpenAI&#39;s 2019 GPT-2 stance. The community is sharply divided between those seeing Anthropic&#39;s restraint as responsible governance and others viewing it as marketing theater or evidence of misalignment. Developer frustration with AI tools is palpable, with highly-upvoted posts documenting the hidden costs of &quot;AI-generated&quot; code and inaccessible customer support. Meta&#39;s entry into the frontier model race with &quot;Muse&quot; and OpenAI&#39;s Codex pricing changes round out a day defined by tension between AI capability claims and user experience reality.</p>
-<hr>
-<h2>2. Top News &amp; Discussions</h2>
-<h3>🔬 Models &amp; Research</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://www-cdn.anthropic.com/8b8380204f74670be75e81c820ca8dda846ab289.pdf">Claude Mythos Preview [pdf]</a></strong> — <a href="https://news.ycombinator.com/item?id=47697253">HN</a></td>
-<td>3</td>
-<td>3</td>
-<td>Anthropic&#39;s technical preview for its most capable model; community scrutinizing actual capabilities vs. safety framing</td>
-</tr>
-<tr>
-<td><strong><a href="https://firethering.com/bonsai-8b-1bit-llm/">Bonsai 8B: a 1-bit LLM that fits in 1.15GB</a></strong> — <a href="https://news.ycombinator.com/item?id=47692548">HN</a></td>
-<td>4</td>
-<td>1</td>
-<td>Extreme quantization enabling local deployment; typical HN enthusiasm for efficient open-source alternatives</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html">Meta debuts new Muse model, rivaling Google, OpenAI and Anthropic</a></strong> — <a href="https://news.ycombinator.com/item?id=47692224">HN</a></td>
-<td>5</td>
-<td>1</td>
-<td>Meta&#39;s first major post-Scale AI model; skepticism about &quot;rivaling&quot; claims given limited technical details</td>
-</tr>
-</tbody></table>
-<h3>🛠️ Tools &amp; Engineering</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://stream-sock-3f5.notion.site/Nile-Local-an-AI-Data-IDE-that-runs-on-your-local-machine-33b126c4d01a8052a96cc879c2dea08e?source=copy_link">Show HN: I built a local data lake for AI powered data engineering and analytics</a></strong> — <a href="https://news.ycombinator.com/item?id=47696336">HN</a></td>
-<td>7</td>
-<td>2</td>
-<td>Local-first AI data tooling resonates with privacy-conscious developers; standard Show HN reception</td>
-</tr>
-<tr>
-<td><strong><a href="https://github.com/farukalpay/mcp-nexus">I build a MCP-Tool to Give ChatGPT and Claude real access to your Linux servers</a></strong> — <a href="https://news.ycombinator.com/item?id=47694712">HN</a></td>
-<td>5</td>
-<td>0</td>
-<td>MCP ecosystem expansion; security implications noted but unexplored in comments</td>
-</tr>
-<tr>
-<td><strong><a href="https://xcancel.com/FFmpeg/status/2041595801483264002">FFmpeg maintainers thank Anthropic for Mythos patches</a></strong> — <a href="https://news.ycombinator.com/item?id=47691906">HN</a></td>
-<td>6</td>
-<td>0</td>
-<td>Rare positive Anthropic story—upstream open-source contribution; muted engagement suggests controversy fatigue</td>
-</tr>
-</tbody></table>
-<h3>🏢 Industry News</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://slate.com/technology/2019/02/openai-gpt2-text-generating-algorithm-ai-dangerous.html">OpenAI says its new model GPT-2 is too dangerous to release (2019)</a></strong> — <a href="https://news.ycombinator.com/item?id=47684326">HN</a></td>
-<td>377</td>
-<td>113</td>
-<td>Resurfaced as clear commentary on Anthropic&#39;s Mythos strategy; highly upvoted historical parallel with skeptical discussion</td>
-</tr>
-<tr>
-<td><strong><a href="https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/">I&#39;ve been waiting over a month for Anthropic to respond to my billing issue</a></strong> — <a href="https://news.ycombinator.com/item?id=47693679">HN</a></td>
-<td>248</td>
-<td>126</td>
-<td>Viral frustration with enterprise AI support gaps; commenters sharing similar experiences across vendors</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.reuters.com/world/us-court-declines-block-pentagons-anthropic-blacklisting-now-2026-04-08/">US court declines to block Pentagon&#39;s Anthropic blacklisting for now</a></strong> — <a href="https://news.ycombinator.com/item?id=47697147">HN</a></td>
-<td>9</td>
-<td>4</td>
-<td>Defense contracting controversy; low engagement suggests community fatigue with AI-geopolitics intersection</td>
-</tr>
-<tr>
-<td><strong><a href="https://startupfortune.com/openai-codex-moves-to-api-usage-based-pricing-for-all-users/">OpenAI Codex Moves to API Usage-Based Pricing for All Users</a></strong> — <a href="https://news.ycombinator.com/item?id=47696947">HN</a></td>
-<td>4</td>
-<td>5</td>
-<td>Pricing model shift; limited discussion reflects possible announcement timing or fatigue with pricing news</td>
-</tr>
-</tbody></table>
-<h3>💬 Opinions &amp; Debates</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://idiallo.com/blog/it-took-me-10-hours-to-fix-ai-code">AI Did It in 12 Minutes. It Took Me 10 Hours to Fix It</a></strong> — <a href="https://news.ycombinator.com/item?id=47696600">HN</a></td>
-<td>13</td>
-<td>4</td>
-<td>Resonant developer experience narrative; under-discussed relative to score, possibly due to submission timing</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.theregister.com/2026/04/06/anthropic_claude_code_dumber_lazier_amd_ai_director/">AMD AI director says Claude Code is becoming dumber and lazier since update</a></strong> — <a href="https://news.ycombinator.com/item?id=47696210">HN</a></td>
-<td>24</td>
-<td>4</td>
-<td>Credible insider criticism of model degradation; low comment-to-score ratio suggests agreement without controversy</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.nytimes.com/2026/04/07/opinion/anthropic-ai-claude-mythos.html">Anthropic&#39;s Restraint Is a Terrifying Warning Sign</a></strong> — <a href="https://news.ycombinator.com/item?id=47695585">HN</a></td>
-<td>8</td>
-<td>0</td>
-<td>NYT opinion on Mythos strategy; zero comments indicates either paywall barrier or topic exhaustion</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Community Sentiment Signal</h2>
-<p>Today&#39;s HN AI discourse is <strong>skeptical and fatigued</strong>, with Anthropic as the primary focal point. The highest-engagement posts combine high scores with substantial comments: the historical GPT-2 comparison (377/113) and the billing complaint (248/126) both channel deep community distrust of AI marketing narratives and enterprise readiness. </p>
-<p>A clear <strong>consensus</strong> exists that &quot;too dangerous to release&quot; framing has become a credibility liability—HN treats it as either naive or manipulative. <strong>Controversy</strong> centers on whether Anthropic&#39;s restraint reflects genuine safety concerns or competitive positioning, with the &quot;Glasswing&quot; and leaked-source stories (low engagement but present) feeding conspiracy-adjacent speculation.</p>
-<p>Notable <strong>shift from prior cycles</strong>: Less discussion of model capabilities or benchmarks, more focus on <em>operational failures</em>—support, pricing transparency, and production reliability. The &quot;10 hours to fix AI code&quot; post exemplifies a maturing developer perspective that treats AI coding tools as technical debt generators rather than accelerators. Meta&#39;s Muse launch barely registered, suggesting frontier model announcements have lost novelty value without accompanying open weights or technical depth.</p>
-<hr>
-<h2>4. Worth Deep Reading</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>Title</th>
-<th>Reasoning</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td><strong><a href="https://www-cdn.anthropic.com/8b8380204f74670be75e81c820ca8dda846ab289.pdf">Claude Mythos Preview [pdf]</a></strong> — <a href="https://news.ycombinator.com/item?id=47697253">HN</a></td>
-<td>Primary source for evaluating Anthropic&#39;s claims; researchers should assess actual technical content versus safety framing in media coverage</td>
-</tr>
-<tr>
-<td>2</td>
-<td><strong><a href="https://idiallo.com/blog/it-took-me-10-hours-to-fix-ai-code">AI Did It in 12 Minutes. It Took Me 10 Hours to Fix It</a></strong> — <a href="https://news.ycombinator.com/item?id=47696600">HN</a></td>
-<td>Methodical documentation of AI-generated code maintenance burden; essential reading for engineering managers evaluating AI adoption ROI</td>
-</tr>
-<tr>
-<td>3</td>
-<td><strong><a href="https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/">I&#39;ve been waiting over a month for Anthropic to respond to my billing issue</a></strong> — <a href="https://news.ycombinator.com/item?id=47693679">HN</a></td>
-<td>Case study in AI infrastructure maturity gaps; comments contain valuable vendor comparison data for enterprise procurement decisions</td>
-</tr>
-</tbody></table>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>

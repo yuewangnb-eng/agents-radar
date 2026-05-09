@@ -6,7 +6,179 @@
     <description>ArXiv AI Research Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-arxiv-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 08 May 2026 04:11:28 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 04:17:29 +0000</lastBuildDate>
+    <item>
+      <title>ArXiv AI Research Digest 2026-05-09</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-09/ai-arxiv-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-09/ai-arxiv-en</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <description>ArXiv AI Research Digest 2026-05-09 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-05-09 00:21 UTC ArXiv AI Research Digest — May 9, 2026 1. Today&amp;#39;s Highlights Today&amp;#39;s submissions reveal a strong convergence toward agentic AI systems with recursive self-improvement capabilities, alongside continued maturation of mixture-of-experts architectures and training efficiency research. Notably, multiple papers address the critical gap between LLM reasoning and long-horizon dec...</description>
+      <content:encoded><![CDATA[<h1>ArXiv AI Research Digest 2026-05-09</h1>
+<blockquote>
+<p>Source: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-05-09 00:21 UTC</p>
+</blockquote>
+<hr>
+<h1>ArXiv AI Research Digest — May 9, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>Today&#39;s submissions reveal a strong convergence toward <strong>agentic AI systems with recursive self-improvement capabilities</strong>, alongside continued maturation of mixture-of-experts architectures and training efficiency research. Notably, multiple papers address the critical gap between LLM reasoning and long-horizon decision-making, with <a href="http://arxiv.org/abs/2605.06639v1">Recursive Agent Optimization</a> and <a href="http://arxiv.org/abs/2605.06642v1">StraTA</a> proposing fundamentally new approaches to scalable agent training. The field also shows heightened attention to <strong>evaluation integrity</strong>, with two papers directly challenging leaderboard methodologies and safety benchmarking practices. Perhaps most striking is the emergence of &quot;AI co-scientist&quot; paradigms—systems designed not to replace but to augment human researchers in mathematics and fluid dynamics, suggesting a pivot from automation toward human-AI collaborative discovery.</p>
+<hr>
+<h2>2. Key Papers</h2>
+<h3>🧠 Large Language Models</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Authors</th>
+<th>Key Contribution</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="http://arxiv.org/abs/2605.06663v1">EMO: Pretraining Mixture of Experts for Emergent Modularity</a></td>
+<td>Wang, Bhagia, Min</td>
+<td>First demonstration that MoE architectures can spontaneously develop functional specialization (code, math, domain knowledge) during pretraining, enabling efficient capability-specific deployment without full model loading.</td>
+</tr>
+<tr>
+<td><a href="http://arxiv.org/abs/2605.06665v1">UniPool: A Globally Shared Expert Pool for Mixture-of-Experts</a></td>
+<td>Huang, Shi, Zheng et al.</td>
+<td>Decouples expert allocation from layer depth by introducing a shared global pool, reducing parameter growth from linear to constant with depth while maintaining performance.</td>
+</tr>
+<tr>
+<td><a href="http://arxiv.org/abs/2605.06654v1">Optimizer-Model Consistency: Full Finetuning with the Same Optimizer as Pretraining Forgets Less</a></td>
+<td>Liu, Wang, Zhang</td>
+<td>Reveals that optimizer continuity between pretraining and finetuning significantly improves the learning-forgetting tradeoff, with immediate practical implications for deployment pipelines.</td>
+</tr>
+<tr>
+<td><a href="http://arxiv.org/abs/2605.06611v1">The Structural Origin of Attention Sink: Variance Discrepancy, Super Neurons, and Dimension Disparity</a></td>
+<td>Li, Jiang, Sun et al.</td>
+<td>Provides first mechanistic explanation for attention sinks via architectural analysis, opening paths to mitigation without training modifications.</td>
+</tr>
+<tr>
+<td><a href="http://arxiv.org/abs/2605.06597v1">UniSD: Towards a Unified Self-Distillation Framework for Large Language Models</a></td>
+<td>Jin, Wang, Fu et al.</td>
+<td>Unifies disparate self-distillation objectives into a single framework with automatic reward shaping, addressing the credit assignment problem for free-form generation.</td>
+</tr>
+<tr>
+<td><a href="http://arxiv.org/abs/2605.06615v1">When and Why SignSGD Outperforms SGD: A Theoretical Study Based on ℓ₁-norm Lower Bounds</a></td>
+<td>Tao, Yu, Zhang</td>
+<td>Establishes theoretical conditions for sign-based optimization superiority, explaining the empirical success of Muon and related methods in foundation model training.</td>
+</tr>
+</tbody></table>
+<h3>🤖 Agents &amp; Reasoning</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Authors</th>
+<th>Key Contribution</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="http://arxiv.org/abs/2605.06639v1">Recursive Agent Optimization</a></td>
+<td>Gandhi, Chakraborty, Wang et al.</td>
+<td>Introduces agents that recursively spawn task-specific sub-instances of themselves, creating an inference-time scaling algorithm with natural delegation hierarchies.</td>
+</tr>
+<tr>
+<td><a href="http://arxiv.org/abs/2605.06642v1">StraTA: Incentivizing Agentic Reinforcement Learning with Strategic Trajectory Abstraction</a></td>
+<td>Xue, Zhou, Wang et al.</td>
+<td>Replaces reactive agent training with strategic trajectory abstraction, enabling explicit credit assignment over extended horizons through learned subgoal representations.</td>
+</tr>
+<tr>
+<td><a href="http://arxiv.org/abs/2605.06638v1">Can RL Teach Long-Horizon Reasoning to LLMs? Expressiveness Is Key</a></td>
+<td>Wang, Wang, Lan et al.</td>
+<td>Introduces ScaleLogic benchmark proving that RL scaling for reasoning requires sufficient policy expressiveness, with empirical thresholds for effective learning.</td>
+</tr>
+<tr>
+<td><a href="http://arxiv.org/abs/2605.06623v1">MASPO: Joint Prompt Optimization for LLM-based Multi-Agent Systems</a></td>
+<td>Wang, Liu, Wang et al.</td>
+<td>First end-to-end differentiable framework for jointly optimizing prompts across interacting agents, treating multi-agent collaboration as a coupled optimization problem.</td>
+</tr>
+<tr>
+<td><a href="http://arxiv.org/abs/2605.06614v1">SkillOS: Learning Skill Curation for Self-Evolving Agents</a></td>
+<td>Ouyang, Yan, Chen et al.</td>
+<td>Frames agent self-improvement as a skill curation problem with quality-aware distillation, enabling continuous learning from streaming tasks without catastrophic forgetting.</td>
+</tr>
+<tr>
+<td><a href="http://arxiv.org/abs/2605.06651v1">AI Co-Mathematician: Accelerating Mathematicians with Agentic AI</a></td>
+<td>Zheng, von Glehn, Zwols et al.</td>
+<td>Workbench design for human-AI mathematical collaboration spanning ideation, literature search, and proof formalization—positioned as augmentation rather than replacement.</td>
+</tr>
+</tbody></table>
+<h3>🔧 Methods &amp; Frameworks</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Authors</th>
+<th>Key Contribution</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="http://arxiv.org/abs/2605.06650v1">Beyond Negative Rollouts: Positive-Only Policy Optimization with Implicit Negative Gradients</a></td>
+<td>Xu, Fang</td>
+<td>Eliminates need for failed trajectory collection in RLVR by deriving implicit negative gradients from positive examples alone, reducing computational overhead.</td>
+</tr>
+<tr>
+<td><a href="http://arxiv.org/abs/2605.06656v1">Why Global LLM Leaderboards Are Misleading: Small Portfolios for Heterogeneous Supervised ML</a></td>
+<td>Moondra, Chughtai, Lanka et al.</td>
+<td>Analysis of 89K comparisons showing global Bradley-Terry rankings fail for 2/3 of language-task pairs; proposes portfolio-based evaluation as alternative.</td>
+</tr>
+<tr>
+<td><a href="http://arxiv.org/abs/2605.06652v1">When No Benchmark Exists: Validating Comparative LLM Safety Scoring Without Ground-Truth Labels</a></td>
+<td>Gautam, Schwall, Willoch Olstad et al.</td>
+<td>Formalizes benchmarkless safety evaluation with statistical guarantees, addressing critical deployment need in low-resource languages and novel regulatory regimes.</td>
+</tr>
+<tr>
+<td><a href="http://arxiv.org/abs/2605.06610v1">SoftSAE: Dynamic Top-K Selection for Adaptive Sparse Autoencoders</a></td>
+<td>Stępień, Mazur, Tabor et al.</td>
+<td>Replaces fixed sparsity in SAEs with dynamic top-K selection, improving feature recovery and enabling architecture-agnostic application across LLMs and vision transformers.</td>
+</tr>
+</tbody></table>
+<h3>📊 Applications</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Authors</th>
+<th>Key Contribution</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="http://arxiv.org/abs/2605.06607v1">AI CFD Scientist: Toward Open-Ended Computational Fluid Dynamics Discovery with Physics-Aware AI Agents</a></td>
+<td>Somasekharan, Pathak, Dhanakoti et al.</td>
+<td>Extends autonomous scientific discovery to high-fidelity physical simulators with physics-aware validation, closing the loop for simulation-based research.</td>
+</tr>
+<tr>
+<td><a href="http://arxiv.org/abs/2605.06584v1">NeuroAgent: LLM Agents for Multimodal Neuroimaging Analysis and Research</a></td>
+<td>Zhong, Xia, Zhang et al.</td>
+<td>Automates complex neuroimaging pipelines with modality-aware quality control, reducing barrier to reproducible brain research.</td>
+</tr>
+<tr>
+<td><a href="http://arxiv.org/abs/2605.06667v1">ActCam: Zero-Shot Joint Camera and 3D Motion Control for Video Generation</a></td>
+<td>El Khalifi, Rossi, Fossey et al.</td>
+<td>Achieves decoupled control of actor motion and camera trajectory in video generation without task-specific training, advancing cinematic AI tools.</td>
+</tr>
+<tr>
+<td><a href="http://arxiv.org/abs/2605.06641v1">GlazyBench: A Benchmark for Ceramic Glaze Property Prediction and Image Generation</a></td>
+<td>Zhai, Li, Shao et al.</td>
+<td>First large-scale multimodal dataset for ceramic glaze development, demonstrating AI&#39;s potential to democratize traditional craft knowledge.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Research Trend Signal</h2>
+<p>Three converging directions emerge from today&#39;s submissions. <strong>First, recursive and self-referential agent architectures</strong> are moving from theoretical curiosity to implementable systems—Recursive Agent Optimization and StraTA both treat agent boundaries as fluid rather than fixed, enabling dynamic compute allocation. This suggests the field is internalizing lessons from software engineering (modularity, delegation) into AI architecture design. <strong>Second, evaluation epistemology is undergoing stress-testing</strong>: two papers independently challenge whether current benchmarking practices can support legitimate model selection, particularly for safety-critical deployment without established ground truth. This reflects growing maturity—recognition that measurement infrastructure must evolve with capabilities. <strong>Third, &quot;co-scientist&quot; paradigms</strong> in mathematics and fluid dynamics represent a deliberate pivot from AI-as-oracle to AI-as-collaborator, with interface design becoming as important as model capability. The common thread is <strong>agency with accountability</strong>: systems that act autonomously but remain interpretable, steerable, and verifiable by human partners.</p>
+<hr>
+<h2>4. Worth Deep Reading</h2>
+<p><strong><a href="http://arxiv.org/abs/2605.06639v1">Recursive Agent Optimization</a></strong> — Gandhi et al.
+This paper proposes a genuinely novel computational primitive: agents that recursively instantiate themselves for subproblems. Unlike prior hierarchical RL or modular approaches, the recursive structure creates natural inference-time scaling with theoretical connections to fixed-point computation. The implications extend to safety (recursive oversight), economics (compute markets), and distributed systems. Most importantly, it provides a mechanism for handling computational complexity without commensurate model growth.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.06656v1">Why Global LLM Leaderboards Are Misleading</a></strong> — Moondra et al.
+With 89K comparisons across 116 languages, this is the most comprehensive empirical analysis of ranking validity to date. The finding that global rankings mislead for two-thirds of language-task pairs has immediate policy implications for model selection in non-English contexts and specialized applications. The proposed portfolio approach offers a constructive alternative to current leaderboard monoculture.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.06642v1">StraTA: Incentivizing Agentic Reinforcement Learning with Strategic Trajectory Abstraction</a></strong> — Xue et al.
+Addresses the fundamental credit assignment problem in long-horizon agent training through learned subgoal representations that enable strategic rather than reactive behavior. The abstraction mechanism connects to broader questions in hierarchical reinforcement learning and may prove essential for scaling agents beyond toy environments. The paper&#39;s explicit treatment of exploration-exploitation tradeoffs over extended trajectories fills a critical gap in current agent training methodologies.</p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>ArXiv AI Research Digest 2026-05-08</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-08/ai-arxiv-en</link>

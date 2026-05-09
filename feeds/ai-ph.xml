@@ -6,7 +6,165 @@
     <description>Product Hunt AI 产品日报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-ph.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 08 May 2026 04:11:28 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 04:17:29 +0000</lastBuildDate>
+    <item>
+      <title>Product Hunt AI 产品日报 2026-05-09</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-09/ai-ph</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-09/ai-ph</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <description>Product Hunt AI 产品日报 2026-05-09 数据来源: Product Hunt | 共 13 个产品 | 生成时间: 2026-05-09 00:21 UTC Product Hunt AI 产品日报 | 2026-05-09 一、今日速览 今日 Product Hunt 共发布 13 款 AI 产品，AI Agent 与自动化工具成为绝对主角，占据近半数席位。B2B 销售场景成为 Agent 落地的热门方向（FlowMarket、SLED AI），而 MCP（Model Context Protocol）架构开始渗透至公司注册、数据分析等基础设施层。OpenAI 发布 GPT-5.5 Instant 作为 ChatGPT 新默认模型，但投票数未进前三，市场注意力明显向垂直应用和开发工具倾斜。整体呈现&amp;quot;模型层平淡、应用层爆发&amp;quot;的格局。 二、热门产品 🤖 AI 智能体与助手 产品 数据 核心亮点 FlowMarket — A social network of AI agents generating B2B deals 469 票 / 136...</description>
+      <content:encoded><![CDATA[<h1>Product Hunt AI 产品日报 2026-05-09</h1>
+<blockquote>
+<p>数据来源: <a href="https://www.producthunt.com/">Product Hunt</a> | 共 13 个产品 | 生成时间: 2026-05-09 00:21 UTC</p>
+</blockquote>
+<hr>
+<h1>Product Hunt AI 产品日报 | 2026-05-09</h1>
+<hr>
+<h2>一、今日速览</h2>
+<p>今日 Product Hunt 共发布 13 款 AI 产品，<strong>AI Agent 与自动化工具</strong>成为绝对主角，占据近半数席位。B2B 销售场景成为 Agent 落地的热门方向（FlowMarket、SLED AI），而 <strong>MCP（Model Context Protocol）架构</strong>开始渗透至公司注册、数据分析等基础设施层。OpenAI 发布 GPT-5.5 Instant 作为 ChatGPT 新默认模型，但投票数未进前三，市场注意力明显向垂直应用和开发工具倾斜。整体呈现&quot;模型层平淡、应用层爆发&quot;的格局。</p>
+<hr>
+<h2>二、热门产品</h2>
+<h3>🤖 AI 智能体与助手</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">核心亮点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="https://www.producthunt.com/products/flowmarket-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">FlowMarket</a></strong> — A social network of AI agents generating B2B deals</td>
+<td align="left">469 票 / 136 评论</td>
+<td align="left"><strong>今日票王</strong>。首创&quot;AI Agent 社交网络&quot;模式，让多个销售 Agent 自主发现、匹配并促成 B2B 交易，解决传统销售线索获取效率低下的问题。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.producthunt.com/products/phrony?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Phrony</a> — Ship AI agents without the operational burden</td>
+<td align="left">85 票 / 9 评论</td>
+<td align="left">聚焦 Agent 运维痛点，提供零运维负担的 AI Agent 部署方案，降低企业落地 Agent 的技术门槛。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.producthunt.com/products/claude-code?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Claude Agents for Financial Services</a> — Finance agent templates for pitches, KYC, and closing books</td>
+<td align="left">230 票 / 3 评论</td>
+<td align="left">Anthropic 官方金融垂直模板，覆盖路演材料、KYC 合规、财务关账三大高频场景，直接对标投行/风投工作流。</td>
+</tr>
+</tbody></table>
+<h3>🛠️ 开发者工具</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">核心亮点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="https://www.producthunt.com/products/lingodotdev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Lingo.dev v1</a></strong> — Localization engineering platform for consistent translation</td>
+<td align="left">215 票 / 27 评论</td>
+<td align="left">将 AI 翻译与 GitHub 工作流深度集成，解决多语言产品&quot;翻译不一致、版本难同步&quot;的工程化难题。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.producthunt.com/products/luma-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Luma Uni 1.1 API</a> — A reasoning model that interprets intent before it generates</td>
+<td align="left">97 票 / 2 评论</td>
+<td align="left">先理解意图再生成内容的推理模型 API，代表&quot;意图层&quot;与&quot;生成层&quot;解耦的新架构趋势。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.producthunt.com/products/amp-free?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Neo by Amp</a> — The Amp CLI has been rebuilt from the ground up</td>
+<td align="left">89 票 / 3 评论</td>
+<td align="left">从底层重构的 AI 原生 CLI 工具，面向开发者提供智能化的命令行交互体验。</td>
+</tr>
+</tbody></table>
+<h3>📊 AI 应用（垂直场景）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">核心亮点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="https://www.producthunt.com/products/mesa?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">MESA</a></strong> — Describe your Shopify workflow. MESA builds it.</td>
+<td align="left">225 票 / 37 评论</td>
+<td align="left">自然语言描述即可自动生成 Shopify 电商工作流，AI 替代传统 No-Code 的拖拽配置，实现&quot;对话即自动化&quot;。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.producthunt.com/products/gyro-autopilot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Gyro Autopilot</a> — 100s of Dollars Could Be Sitting in Your Inbox</td>
+<td align="left">102 票 / 2 评论</td>
+<td align="left">扫描用户邮箱自动识别可申请的航班退款，AI 从&quot;被动工具&quot;转向&quot;主动掘金&quot;的个人财务助手。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.producthunt.com/products/sled-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">SLED AI</a> — Public-sector revenue engine for B2B companies</td>
+<td align="left">86 票 / 4 评论</td>
+<td align="left">专注政府/教育/医疗等公共部门销售，破解 B2G 市场信息不对称、采购流程复杂的痛点。</td>
+</tr>
+</tbody></table>
+<h3>🔧 基础设施与模型</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">核心亮点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">GPT-5.5 Instant</a></strong> — Smarter, more personal answers as ChatGPT&#39;s new default</td>
+<td align="left">195 票 / 5 评论</td>
+<td align="left">OpenAI 模型迭代趋于&quot;润物细无声&quot;，从独立发布转向默认替换，强调个性化而非参数规模竞赛。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.producthunt.com/products/basedash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Basedash MCP server</a> — Your data analyst, in every AI tool you already use</td>
+<td align="left">96 票 / 3 评论</td>
+<td align="left">通过 MCP 协议将数据分析能力注入任意 AI 工具，体现&quot;能力插件化、协议标准化&quot;的基础设施趋势。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.producthunt.com/products/lovie-the-ai-native-formation-mcp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Lovie Formation - Incorporation MCP</a> — Incorporate your next company easily</td>
+<td align="left">124 票 / 11 评论</td>
+<td align="left">用 MCP 协议重构公司注册流程，AI 首次渗透至法律实体创设这一重度合规场景。</td>
+</tr>
+</tbody></table>
+<h3>🎨 创意与内容</h3>
+<blockquote>
+<p>今日无专门面向创意生成的 AI 产品进入榜单，内容生成赛道热度明显让位于 Agent 与自动化工具。</p>
+</blockquote>
+<hr>
+<h2>三、市场信号</h2>
+<p><strong>类别密度</strong>：AI Agent/自动化（5 款）与开发者工具（4 款）占据主导，模型层仅 GPT-5.5 和 Luma Uni 两款，**&quot;应用层挤占模型层关注度&quot;**趋势加剧。<strong>MCP 协议</strong>成为今日最大技术信号——Basedash、Lovie 均以此实现跨工具能力嵌入，预示 2026 年 AI 基础设施进入&quot;协议标准化&quot;阶段。</p>
+<p><strong>创新场景</strong>：FlowMarket 的&quot;Agent 社交网络&quot;突破单 Agent 工具定位，转向多 Agent 协作市场；Gyro Autopilot 开创&quot;AI 主动为用户赚钱&quot;模式，从降本转向增收。</p>
+<p><strong>开源闭源</strong>：今日产品均为闭源商业产品，无明确开源项目。但 MCP 作为开放协议被闭源产品广泛采用，形成&quot;<strong>开放协议 + 闭源实现</strong>&quot;的混合生态。</p>
+<hr>
+<h2>四、值得试用</h2>
+<table>
+<thead>
+<tr>
+<th align="left">排名</th>
+<th align="left">产品</th>
+<th align="left">推荐理由</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>1</strong></td>
+<td align="left"><strong><a href="https://www.producthunt.com/products/mesa?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">MESA</a></strong></td>
+<td align="left">Shopify 生态开发者/运营者必试。自然语言生成工作流的能力，可能重新定义电商自动化的交互范式，37 条评论显示社区活跃度高，已具备一定成熟度。</td>
+</tr>
+<tr>
+<td align="left"><strong>2</strong></td>
+<td align="left"><strong><a href="https://www.producthunt.com/products/basedash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Basedash MCP server</a></strong></td>
+<td align="left">所有需要&quot;让 AI 读懂数据库&quot;的开发者应关注。MCP 协议兼容 Claude、Cursor 等主流工具，一次配置即可复用，是理解 AI 基础设施演进的关键样本。</td>
+</tr>
+<tr>
+<td align="left"><strong>3</strong></td>
+<td align="left"><strong><a href="https://www.producthunt.com/products/lingodotdev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Lingo.dev v1</a></strong></td>
+<td align="left">国际化团队的技术负责人值得评估。将本地化从&quot;翻译问题&quot;升级为&quot;工程问题&quot;，GitHub 原生集成降低采纳成本，27 条评论反映开发者社区的真实反馈密度。</td>
+</tr>
+</tbody></table>
+<hr>
+<p><em>数据来源：Product Hunt API | 采集时间：2026-05-09 | 覆盖过去 24 小时发布</em></p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Product Hunt AI 产品日报 2026-05-08</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-08/ai-ph</link>
@@ -4708,174 +4866,6 @@
 </tr>
 </tbody></table>
 <hr>
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Product Hunt AI 产品日报 2026-04-09</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-09/ai-ph</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-09/ai-ph</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Product Hunt AI 产品日报 2026-04-09 数据来源: Product Hunt | 共 14 个产品 | 生成时间: 2026-04-09 00:10 UTC Product Hunt AI 产品日报 | 2026-04-09 1. 今日速览 今日 Product Hunt 共发布 14 款 AI 产品，语音交互与智能助手成为绝对热点：榜首 NovaVoice 与 Google AI Edge Eloquent 均聚焦离线语音输入，显示端侧 AI 能力成熟化趋势。企业销售自动化（Lessie AI）和开发者基础设施（OpenOwl、AI Designer MCP）紧随其后。值得注意的是，MCP（Model Context Protocol）生态开始涌现产品，AI 智能体工具链正在成型。整体投票分布较为分散，反映市场仍处于多元探索期。 2. 热门产品 🤖 AI 智能体与助手 产品 核心信息 一句话说明 NovaVoice — Smart dictation, AI assistant, + app control via voice Product Hunt | ...</description>
-      <content:encoded><![CDATA[<h1>Product Hunt AI 产品日报 2026-04-09</h1>
-<blockquote>
-<p>数据来源: <a href="https://www.producthunt.com/">Product Hunt</a> | 共 14 个产品 | 生成时间: 2026-04-09 00:10 UTC</p>
-</blockquote>
-<hr>
-<h1>Product Hunt AI 产品日报 | 2026-04-09</h1>
-<hr>
-<h2>1. 今日速览</h2>
-<p>今日 Product Hunt 共发布 14 款 AI 产品，<strong>语音交互与智能助手</strong>成为绝对热点：榜首 NovaVoice 与 Google AI Edge Eloquent 均聚焦离线语音输入，显示端侧 AI 能力成熟化趋势。企业销售自动化（Lessie AI）和开发者基础设施（OpenOwl、AI Designer MCP）紧随其后。值得注意的是，MCP（Model Context Protocol）生态开始涌现产品，AI 智能体工具链正在成型。整体投票分布较为分散，反映市场仍处于多元探索期。</p>
-<hr>
-<h2>2. 热门产品</h2>
-<h3>🤖 AI 智能体与助手</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">核心信息</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>NovaVoice</strong> — Smart dictation, AI assistant, + app control via voice</td>
-<td align="left"><a href="https://www.producthunt.com/products/novavoice?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/K7EU2IVQNJ6SLT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>投票: 559 | 评论: 133</td>
-<td align="left">将语音输入升级为系统级 AI 助手，支持跨应用控制，重新定义 macOS 交互范式</td>
-</tr>
-<tr>
-<td align="left"><strong>Caret</strong> — Press Tab for AI anywhere you type on Mac</td>
-<td align="left"><a href="https://www.producthunt.com/products/caret-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/XM2TKHY6SWITKB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>投票: 209 | 评论: 52</td>
-<td align="left">以「Tab 键」为统一入口，实现 macOS 全系统文本场景的 AI 无缝嵌入</td>
-</tr>
-<tr>
-<td align="left"><strong>Google AI Edge Eloquent</strong> — Google&#39;s offline-first AI dictation, powered by Gemma</td>
-<td align="left"><a href="https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/U7ZIXK46VH2WQR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>投票: 182 | 评论: 5</td>
-<td align="left">Google 官方端侧语音方案，基于 Gemma 实现完全离线的隐私优先输入体验</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>🛠️ 开发者工具</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">核心信息</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>OpenOwl</strong> — Automate what APIs can&#39;t in one prompt done locally</td>
-<td align="left"><a href="https://www.producthunt.com/products/openowl?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/HXRQVLQJUQMIOU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>投票: 251 | 评论: 29</td>
-<td align="left">用自然语言替代 API 集成，本地执行浏览器/桌面自动化，破解无接口系统的集成难题</td>
-</tr>
-<tr>
-<td align="left"><strong>AI Designer MCP</strong> — Give your agent tools to create beautiful, codebase-aware UI</td>
-<td align="left"><a href="https://www.producthunt.com/products/aidesigner?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/VKBXITBAZCZ6JE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>投票: 94 | 评论: 9</td>
-<td align="left">首个面向 MCP 协议的 UI 生成工具，让 AI Agent 具备理解代码库上下文的设计能力</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>📊 AI 应用（垂直场景）</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">核心信息</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Lessie AI</strong> — Search, Reach and Connect - Find the perfect fit, 10x faster</td>
-<td align="left"><a href="https://www.producthunt.com/products/lessie-ai-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/5AFCHL2DEHSNUR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>投票: 441 | 评论: 144</td>
-<td align="left">AI 驱动的 B2B 销售线索挖掘与触达，将传统销售流程压缩为智能匹配引擎</td>
-</tr>
-<tr>
-<td align="left"><strong>ChatGPT Ads by Gauge</strong> — The intelligence layer for ChatGPT Ads</td>
-<td align="left"><a href="https://www.producthunt.com/products/gauge?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/CLXZA3J5IHRITI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>投票: 172 | 评论: 7</td>
-<td align="left">为 ChatGPT 广告生态提供数据智能层，填补 OpenAI 广告平台的第三方工具空白</td>
-</tr>
-<tr>
-<td align="left"><strong>Jotform ChatGPT App</strong> — Create forms and manage submissions inside ChatGPT</td>
-<td align="left"><a href="https://www.producthunt.com/products/jotform?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/7OMLNYZTUIN7UN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>投票: 124 | 评论: 3</td>
-<td align="left">在 ChatGPT 对话流中完成表单全生命周期管理，展示 GPT Store 深度集成模式</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>🎨 创意与内容</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">核心信息</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Bibby AI</strong> — The AI co-author for research papers</td>
-<td align="left"><a href="https://www.producthunt.com/products/bibby-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/D62M64Q67NPDCH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>投票: 157 | 评论: 35</td>
-<td align="left">专注学术写作的协作 AI，解决科研人员的文献管理与学术表达痛点</td>
-</tr>
-<tr>
-<td align="left"><strong>sync-3</strong> — Studio-grade AI lip sync and visual dubbing</td>
-<td align="left"><a href="https://www.producthunt.com/products/sync-9?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/JVSYAGLNKYDBXU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>投票: 129 | 评论: 9</td>
-<td align="left">影视级口型同步与视觉配音，将 AI 视频本地化推向专业制作标准</td>
-</tr>
-<tr>
-<td align="left"><strong>Gaia</strong> — AI architectural renders and interior design</td>
-<td align="left"><a href="https://www.producthunt.com/products/gaia-ai-architecture-software?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/ENQGVE6PBLHWYH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>投票: 94 | 评论: 5</td>
-<td align="left">建筑渲染与室内设计的垂直 AI 工具，瞄准 AEC 行业的可视化工作流</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>🔧 基础设施与模型</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">核心信息</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Sup AI</strong> — AI ensemble that scored #1 on Humanity&#39;s Last Exam</td>
-<td align="left"><a href="https://www.producthunt.com/products/sup-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/R24EOZF2SYIBI7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>投票: 100 | 评论: 7</td>
-<td align="left">多模型集成系统在权威基准测试登顶，展示模型路由与能力聚合的工程价值</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. 市场信号</h2>
-<p><strong>类别密度</strong>：生产力工具（5 款）与开发者工具（4 款）占据主导，语音交互形成显著子集群。销售自动化、学术写作、建筑设计等垂直场景持续细分，AI 应用进入「行业深耕」阶段。</p>
-<p><strong>创新信号</strong>：MCP 协议首次出现在产品命名中（AI Designer MCP），标志 Anthropic 推动的 Agent 互操作标准开始商业化落地。OpenOwl 的「无 API 自动化」与 NovaVoice 的「系统级语音控制」均指向同一趋势——AI 正从「应用层」下沉为「操作系统能力层」。</p>
-<p><strong>开源/闭源</strong>：Google Gemma 驱动的离线方案与 NovaVoice 等闭源产品并存，端侧 AI 呈现「开源模型 + 闭源产品」的混合生态。Sup AI 的多模型集成策略则暗示：单一模型霸权时代正在终结。</p>
-<hr>
-<h2>4. 值得试用</h2>
-<table>
-<thead>
-<tr>
-<th align="left">排名</th>
-<th align="left">产品</th>
-<th align="left">理由</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>1</strong></td>
-<td align="left"><strong>OpenOwl</strong></td>
-<td align="left">解决开发者最痛苦的「无 API 系统集成」问题，本地执行保障数据安全，RPA 与 LLM 的结合极具扩展性</td>
-</tr>
-<tr>
-<td align="left"><strong>2</strong></td>
-<td align="left"><strong>AI Designer MCP</strong></td>
-<td align="left">首批 MCP 生态工具，提前布局 Agent 互操作协议，适合探索下一代 AI 应用架构的开发者</td>
-</tr>
-<tr>
-<td align="left"><strong>3</strong></td>
-<td align="left"><strong>NovaVoice</strong></td>
-<td align="left">559 票验证的产品-市场契合度，系统级语音交互的设计思路可直接借鉴于 macOS 应用开发</td>
-</tr>
-</tbody></table>
-<hr>
-<p><em>数据来源：Product Hunt API | 分析日期：2026-04-09</em></p>
 <hr>
 <p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>

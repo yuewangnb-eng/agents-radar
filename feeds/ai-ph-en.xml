@@ -6,7 +6,246 @@
     <description>Product Hunt AI Products Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-ph-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 08 May 2026 04:11:28 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 04:17:29 +0000</lastBuildDate>
+    <item>
+      <title>Product Hunt AI Products Digest 2026-05-09</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-09/ai-ph-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-09/ai-ph-en</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <description>Product Hunt AI Products Digest 2026-05-09 Source: Product Hunt | 13 products | Generated: 2026-05-09 00:21 UTC Product Hunt AI Products Digest — May 9, 2026 1. Today&amp;#39;s Highlights Today&amp;#39;s Product Hunt AI launches reveal a decisive shift toward agentic infrastructure and B2B automation, with FlowMarket leading at 469 votes by reimagining social networks as autonomous deal-generating ecosystems. The dominance of MCP (Model Context Protocol) integrations—seen in Lovie Formation and Basedash...</description>
+      <content:encoded><![CDATA[<h1>Product Hunt AI Products Digest 2026-05-09</h1>
+<blockquote>
+<p>Source: <a href="https://www.producthunt.com/">Product Hunt</a> | 13 products | Generated: 2026-05-09 00:21 UTC</p>
+</blockquote>
+<hr>
+<h1>Product Hunt AI Products Digest — May 9, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>Today&#39;s Product Hunt AI launches reveal a decisive shift toward <strong>agentic infrastructure and B2B automation</strong>, with FlowMarket leading at 469 votes by reimagining social networks as autonomous deal-generating ecosystems. The dominance of MCP (Model Context Protocol) integrations—seen in Lovie Formation and Basedash—signals that AI interoperability standards are becoming table stakes for developer-facing products. Notably, vertical specialization is accelerating: financial services (Claude Agents), public-sector sales (SLED AI), and Shopify workflows (MESA) all received strong traction, suggesting founders are moving beyond generic AI wrappers toward domain-specific value creation. OpenAI&#39;s GPT-5.5 Instant launch as &quot;ChatGPT&#39;s new default&quot; garnered surprisingly modest engagement (195 votes), perhaps indicating market fatigue with incremental model updates versus purpose-built applications.</p>
+<hr>
+<h2>2. Top Products by Category</h2>
+<h3>🤖 AI Agents &amp; Assistants</h3>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>FlowMarket — A social network of AI agents generating B2B deals</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Links</td>
+<td><a href="https://www.producthunt.com/products/flowmarket-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/CGJHDKWTJR4FOU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
+</tr>
+<tr>
+<td>Engagement</td>
+<td><strong>469 votes</strong> · 136 comments</td>
+</tr>
+<tr>
+<td>Standout</td>
+<td>Replaces cold outreach with an autonomous agent marketplace where AIs negotiate deals on behalf of businesses—136 comments suggest genuine product-market fit debate.</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Phrony — Ship AI agents without the operational burden</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Links</td>
+<td><a href="https://www.producthunt.com/products/phrony?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/UZB663HGTOSBIB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
+</tr>
+<tr>
+<td>Engagement</td>
+<td><strong>85 votes</strong> · 9 comments</td>
+</tr>
+<tr>
+<td>Standout</td>
+<td>YC-backed infrastructure that abstracts deployment, monitoring, and scaling of production AI agents—positioned as the &quot;Heroku for agents.&quot;</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🛠️ Developer Tools</h3>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Lingo.dev v1 — Localization engineering platform for consistent translation</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Links</td>
+<td><a href="https://www.producthunt.com/products/lingodotdev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/IVEPQYVA4UMJAQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
+</tr>
+<tr>
+<td>Engagement</td>
+<td><strong>215 votes</strong> · 27 comments</td>
+</tr>
+<tr>
+<td>Standout</td>
+<td>Git-native localization with AI consistency enforcement—solves the &quot;translation drift&quot; problem in CI/CD pipelines where context gets lost across sprints.</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Basedash MCP server — Your data analyst, in every AI tool you already use</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Links</td>
+<td><a href="https://www.producthunt.com/products/basedash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/DR7AIRGAJKAWBC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
+</tr>
+<tr>
+<td>Engagement</td>
+<td><strong>96 votes</strong> · 3 comments</td>
+</tr>
+<tr>
+<td>Standout</td>
+<td>MCP-native data analysis layer that plugs into any AI client—demonstrates how protocol standardization enables composable AI stacks.</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>📊 AI Applications</h3>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>MESA — Describe your Shopify workflow. MESA builds it.</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Links</td>
+<td><a href="https://www.producthunt.com/products/mesa?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/2YSQH4VYVZVYWJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
+</tr>
+<tr>
+<td>Engagement</td>
+<td><strong>225 votes</strong> · 37 comments</td>
+</tr>
+<tr>
+<td>Standout</td>
+<td>Natural-language-to-automation for e-commerce operations—abstracts Shopify&#39;s complexity for merchants without engineering resources.</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Claude Agents for Financial Services — Finance agent templates for pitches, KYC, and closing books</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Links</td>
+<td><a href="https://www.producthunt.com/products/claude-code?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/S6IM5WTBU4BUVH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
+</tr>
+<tr>
+<td>Engagement</td>
+<td><strong>230 votes</strong> · 3 comments</td>
+</tr>
+<tr>
+<td>Standout</td>
+<td>Pre-built Claude workflows for regulated financial tasks—unusually low comment count suggests either enterprise buyers or stealth adoption.</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>SLED AI — Public-sector revenue engine for B2B companies</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Links</td>
+<td><a href="https://www.producthunt.com/products/sled-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/LC2PCLRIEM5GO3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
+</tr>
+<tr>
+<td>Engagement</td>
+<td><strong>86 votes</strong> · 4 comments</td>
+</tr>
+<tr>
+<td>Standout</td>
+<td>Targets the opaque government procurement market (State/Local/Education) with AI-powered opportunity identification—niche but high contract value.</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🎨 Creative &amp; Content</h3>
+<p><em>No qualifying products in today&#39;s launches.</em></p>
+<hr>
+<h3>🔧 Infrastructure &amp; Models</h3>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>GPT‑5.5 Instant — Smarter, more personal answers as ChatGPT&#39;s new default</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Links</td>
+<td><a href="https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/WJ4IBNQEJUGBI6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
+</tr>
+<tr>
+<td>Engagement</td>
+<td><strong>195 votes</strong> · 5 comments</td>
+</tr>
+<tr>
+<td>Standout</td>
+<td>Incremental model refresh with &quot;personalization&quot; emphasis—underwhelming engagement relative to OpenAI&#39;s historical launches suggests commoditization of base models.</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Luma Uni 1.1 API — A reasoning model that interprets intent before it generates</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Links</td>
+<td><a href="https://www.producthunt.com/products/luma-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/DY664HO4A3HS5Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
+</tr>
+<tr>
+<td>Engagement</td>
+<td><strong>97 votes</strong> · 2 comments</td>
+</tr>
+<tr>
+<td>Standout</td>
+<td>&quot;Intent-first&quot; reasoning architecture—differentiates from standard autoregressive generation by explicit planning phase, potentially reducing hallucination in complex tasks.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Market Signal</h2>
+<p><strong>AI Applications and Developer Tools dominate</strong> today&#39;s launches, capturing 8 of 13 spots, with zero presence in Creative &amp; Content—a notable departure from earlier years when generative media tools flooded Product Hunt. The category void suggests either market saturation (Midjourney, Runway, et al. have captured available attention) or a strategic pivot by founders toward revenue-generating B2B use cases.</p>
+<p><strong>MCP (Model Context Protocol) emerges as the defining infrastructure pattern.</strong> Three products explicitly adopt Anthropic&#39;s open standard (Lovie Formation, Basedash, Neo by Amp), indicating rapid ecosystem consolidation around interoperable AI tooling. This represents a meaningful shift from 2024&#39;s fragmented &quot;every startup builds its own integration layer&quot; approach.</p>
+<p><strong>Verticalization over generalization</strong> is the clearest product strategy trend. Financial services, public-sector procurement, Shopify operations, and flight refunds each get dedicated AI solutions rather than horizontal platforms. This mirrors the SaaS maturation playbook—generic AI capabilities are now infrastructure, while domain expertise and workflow embedding create defensibility.</p>
+<p><strong>Open-source vs. closed-source</strong> dynamics are nuanced: infrastructure components (MCP servers, APIs) lean open-standard, but applications remain predominantly closed-source with proprietary data moats. No explicit open-source model launches appeared today, suggesting the &quot;open weights&quot; movement has plateaued in favor of API-first monetization and protocol-based interoperability.</p>
+<hr>
+<h2>4. Worth Trying</h2>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Reasoning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Lingo.dev v1</strong></td>
+<td>For engineering teams shipping multilingual products, this solves the persistent pain of translation consistency across releases. Git-native architecture means it integrates without workflow disruption—rare among localization tools that typically require manual handoffs.</td>
+</tr>
+<tr>
+<td><strong>Basedash MCP server</strong></td>
+<td>If you&#39;re building with AI clients (Claude, Cursor, etc.), this demonstrates how MCP enables secure, composable data access. Worth studying as a reference implementation for your own MCP integrations, particularly for internal tooling.</td>
+</tr>
+<tr>
+<td><strong>FlowMarket</strong></td>
+<td>Even for non-sales roles, the agent-to-agent interaction model is worth experiencing firsthand. At 136 comments, it&#39;s generating genuine discourse about whether autonomous B2B marketplaces represent a platform shift or category error—essential context for anyone building agentic systems.</td>
+</tr>
+</tbody></table>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Product Hunt AI Products Digest 2026-05-08</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-08/ai-ph-en</link>
@@ -3483,165 +3722,6 @@ Website: <a href="https://www.producthunt.com/r/FJM4K3NC2D6N6V?utm_campaign=prod
 <tr>
 <td><strong>Career-Ops on Claude</strong></td>
 <td>A reference implementation for building structured, multi-step workflows on Claude Code; worth studying for patterns on prompt chaining, tool integration, and state management in agentic systems.</td>
-</tr>
-</tbody></table>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Product Hunt AI Products Digest 2026-04-09</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-09/ai-ph-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-09/ai-ph-en</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Product Hunt AI Products Digest 2026-04-09 Source: Product Hunt | 14 products | Generated: 2026-04-09 00:10 UTC Product Hunt AI Products Digest — April 9, 2026 1. Today&amp;#39;s Highlights Today&amp;#39;s Product Hunt launches reveal a strong tilt toward voice-first AI interfaces and ambient productivity tools, with NovaVoice leading at 559 votes for its unified voice control system. Notably, we&amp;#39;re seeing Google enter the offline dictation space with AI Edge Eloquent, signaling Big Tech&amp;#39;s push ...</description>
-      <content:encoded><![CDATA[<h1>Product Hunt AI Products Digest 2026-04-09</h1>
-<blockquote>
-<p>Source: <a href="https://www.producthunt.com/">Product Hunt</a> | 14 products | Generated: 2026-04-09 00:10 UTC</p>
-</blockquote>
-<hr>
-<h1>Product Hunt AI Products Digest — April 9, 2026</h1>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>Today&#39;s Product Hunt launches reveal a strong tilt toward <strong>voice-first AI interfaces</strong> and <strong>ambient productivity tools</strong>, with NovaVoice leading at 559 votes for its unified voice control system. Notably, we&#39;re seeing Google enter the offline dictation space with AI Edge Eloquent, signaling Big Tech&#39;s push toward on-device AI. The emergence of <strong>MCP (Model Context Protocol) tools</strong> like AI Designer MCP suggests developers are prioritizing agent interoperability. Research and academic workflows also gained traction with Bibby AI, while Lessie AI&#39;s 144 comments indicate high engagement in the sales automation vertical despite ranking second in votes.</p>
-<hr>
-<h2>2. Top Products by Category</h2>
-<h3>🤖 AI Agents &amp; Assistants</h3>
-<table>
-<thead>
-<tr>
-<th>Product</th>
-<th>Stats</th>
-<th>What It Does</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://www.producthunt.com/products/novavoice?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">NovaVoice</a></strong> — Smart dictation, AI assistant, + app control via voice<br><a href="https://www.producthunt.com/r/K7EU2IVQNJ6SLT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
-<td>559 votes · 133 comments</td>
-<td>Unifies voice control across apps with smart dictation, solving fragmentation in voice workflows</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.producthunt.com/products/caret-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Caret</a></strong> — Press Tab for AI anywhere you type on Mac<br><a href="https://www.producthunt.com/r/XM2TKHY6SWITKB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
-<td>209 votes · 52 comments</td>
-<td>Brings ambient AI assistance to any text field via universal Tab trigger, eliminating context switching</td>
-</tr>
-</tbody></table>
-<h3>🛠️ Developer Tools</h3>
-<table>
-<thead>
-<tr>
-<th>Product</th>
-<th>Stats</th>
-<th>What It Does</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://www.producthunt.com/products/openowl?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">OpenOwl</a></strong> — Automate what APIs can&#39;t in one prompt done locally<br><a href="https://www.producthunt.com/r/HXRQVLQJUQMIOU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
-<td>251 votes · 29 comments</td>
-<td>Enables local browser automation for sites without APIs, filling the &quot;automation gap&quot; with natural language</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.producthunt.com/products/aidesigner?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">AI Designer MCP</a></strong> — Give your agent tools to create beautiful, codebase-aware UI<br><a href="https://www.producthunt.com/r/VKBXITBAZCZ6JE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
-<td>94 votes · 9 comments</td>
-<td>Extends AI agents with codebase-aware UI generation capabilities via Model Context Protocol</td>
-</tr>
-</tbody></table>
-<h3>📊 AI Applications</h3>
-<table>
-<thead>
-<tr>
-<th>Product</th>
-<th>Stats</th>
-<th>What It Does</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://www.producthunt.com/products/lessie-ai-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Lessie AI</a></strong> — Search, Reach and Connect - Find the perfect fit, 10x faster<br><a href="https://www.producthunt.com/r/5AFCHL2DEHSNUR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
-<td>441 votes · 144 comments</td>
-<td>Accelerates sales prospecting and outreach with AI-powered matching, generating exceptional discussion volume</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.producthunt.com/products/bibby-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Bibby AI</a></strong> — The AI co-author for research papers<br><a href="https://www.producthunt.com/r/D62M64Q67NPDCH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
-<td>157 votes · 35 comments</td>
-<td>Specialized academic writing assistant addressing citation management and scholarly tone for researchers</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.producthunt.com/products/gauge?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">ChatGPT Ads by Gauge</a></strong> — The intelligence layer for ChatGPT Ads<br><a href="https://www.producthunt.com/r/CLXZA3J5IHRITI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
-<td>172 votes · 7 comments</td>
-<td>Adds analytics and optimization intelligence to ChatGPT advertising campaigns</td>
-</tr>
-</tbody></table>
-<h3>🎨 Creative &amp; Content</h3>
-<table>
-<thead>
-<tr>
-<th>Product</th>
-<th>Stats</th>
-<th>What It Does</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://www.producthunt.com/products/sync-9?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">sync-3</a></strong> — Studio-grade AI lip sync and visual dubbing<br><a href="https://www.producthunt.com/r/JVSYAGLNKYDBXU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
-<td>129 votes · 9 comments</td>
-<td>Professional-quality lip synchronization for video localization and dubbing workflows</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.producthunt.com/products/gaia-ai-architecture-software?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Gaia</a></strong> — AI architectural renders and interior design<br><a href="https://www.producthunt.com/r/ENQGVE6PBLHWYH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
-<td>94 votes · 5 comments</td>
-<td>Generates architectural visualizations and interior designs, targeting professional architecture workflows</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.producthunt.com/products/ultramock?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Ultramock</a></strong> — Cinematic UI mockups in the browser<br><a href="https://www.producthunt.com/r/OXL7VKP47QAOI7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
-<td>146 votes · 14 comments</td>
-<td>Creates presentation-ready UI mockups with cinematic quality directly in browser</td>
-</tr>
-</tbody></table>
-<h3>🔧 Infrastructure &amp; Models</h3>
-<table>
-<thead>
-<tr>
-<th>Product</th>
-<th>Stats</th>
-<th>What It Does</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Google AI Edge Eloquent</a></strong> — Google&#39;s offline-first AI dictation, powered by Gemma<br><a href="https://www.producthunt.com/r/U7ZIXK46VH2WQR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
-<td>182 votes · 5 comments</td>
-<td>Brings Google&#39;s Gemma model to edge devices for private, offline dictation without cloud dependency</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.producthunt.com/products/sup-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Sup AI</a></strong> — AI ensemble that scored #1 on Humanity&#39;s Last Exam<br><a href="https://www.producthunt.com/r/R24EOZF2SYIBI7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></td>
-<td>100 votes · 7 comments</td>
-<td>Benchmark-leading AI ensemble system demonstrating advanced reasoning capabilities</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Market Signal</h2>
-<p><strong>Productivity and voice interfaces dominate</strong> today&#39;s launches, with 5 of 14 products targeting workflow acceleration through speech or ambient AI assistance. This suggests market saturation in chat-based AI is pushing innovation toward <strong>friction-reducing interfaces</strong> that operate in existing contexts rather than demanding new habits.</p>
-<p>The <strong>MCP protocol&#39;s appearance</strong> (AI Designer MCP) marks a notable infrastructure evolution—developers are treating AI agents as composable systems requiring standardized tool interfaces, not monolithic models. This aligns with broader industry moves toward agent interoperability.</p>
-<p><strong>Offline/edge AI is gaining legitimacy</strong>: Google&#39;s Gemma-powered dictation and OpenOwl&#39;s local execution reflect growing demand for privacy-preserving, low-latency AI. However, <strong>closed-source still leads engagement</strong>—top-voted products are predominantly proprietary, with open-source signaling (Gemma, local execution) used as feature differentiators rather than core business models.</p>
-<p>Academic and specialized verticals (Bibby AI, Gaia) show AI application deepening beyond generic use cases into <strong>domain-expert workflows</strong>, suggesting the &quot;AI wrapper&quot; era is maturing into genuine vertical solutions.</p>
-<hr>
-<h2>4. Worth Trying</h2>
-<table>
-<thead>
-<tr>
-<th>Product</th>
-<th>Why Developers Should Try</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>OpenOwl</strong></td>
-<td>Bridges the API gap for automation—if you&#39;ve ever needed to script a site without endpoints, this local-first approach with natural language control eliminates Selenium complexity</td>
-</tr>
-<tr>
-<td><strong>AI Designer MCP</strong></td>
-<td>Early implementation of Model Context Protocol for UI generation; worth exploring if you&#39;re building agent systems and need standardized tool-calling patterns for design workflows</td>
-</tr>
-<tr>
-<td><strong>Caret</strong></td>
-<td>Minimal implementation of ambient AI (Tab trigger everywhere); useful reference for UX patterns that reduce AI interaction friction without heavy integration overhead</td>
 </tr>
 </tbody></table>
 <hr>
