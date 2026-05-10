@@ -6,7 +6,159 @@
     <description>Product Hunt AI 产品日报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-ph.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 09 May 2026 04:17:29 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 04:38:04 +0000</lastBuildDate>
+    <item>
+      <title>Product Hunt AI 产品日报 2026-05-10</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-10/ai-ph</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-10/ai-ph</guid>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <description>Product Hunt AI 产品日报 2026-05-10 数据来源: Product Hunt | 共 11 个产品 | 生成时间: 2026-05-10 00:20 UTC Product Hunt AI 产品日报 | 2026-05-10 一、今日速览 今日 Product Hunt 共收录 11 款 AI 相关产品，AI Agent 基础设施成为绝对主旋律——从工具路由、任务调度到测试评估，开发者正全力构建 Agent 的&amp;quot;操作系统层&amp;quot;。值得关注的是，YC 背景项目占比极高（6/11 标注 YC Application），显示孵化器持续押注 AI 基础设施。社交与消费级应用出现新尝试，但声量远不及 B 端工具。开源与闭源并行，头部项目多采用开源策略建立生态。 二、热门产品 🤖 AI 智能体与助手 产品 数据 核心定位 Ara — Agentic Wispr flow computer-use-agent living in your notch官网 投票: 131 | 评论: 15 将 Agent 嵌入 Mac 刘海栏的常驻计算机使用助手，以 Wisp...</description>
+      <content:encoded><![CDATA[<h1>Product Hunt AI 产品日报 2026-05-10</h1>
+<blockquote>
+<p>数据来源: <a href="https://www.producthunt.com/">Product Hunt</a> | 共 11 个产品 | 生成时间: 2026-05-10 00:20 UTC</p>
+</blockquote>
+<hr>
+<h1>Product Hunt AI 产品日报 | 2026-05-10</h1>
+<hr>
+<h2>一、今日速览</h2>
+<p>今日 Product Hunt 共收录 11 款 AI 相关产品，<strong>AI Agent 基础设施</strong>成为绝对主旋律——从工具路由、任务调度到测试评估，开发者正全力构建 Agent 的&quot;操作系统层&quot;。值得关注的是，<strong>YC 背景项目占比极高</strong>（6/11 标注 YC Application），显示孵化器持续押注 AI 基础设施。社交与消费级应用出现新尝试，但声量远不及 B 端工具。开源与闭源并行，头部项目多采用开源策略建立生态。</p>
+<hr>
+<h2>二、热门产品</h2>
+<h3>🤖 AI 智能体与助手</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">核心定位</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="https://www.producthunt.com/products/dereference-the-100x-ide?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Ara</a></strong> — Agentic Wispr flow computer-use-agent living in your notch<br><a href="https://www.producthunt.com/r/PM5CB7RBPREHJU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">投票: 131 | 评论: 15</td>
+<td align="left"><strong>将 Agent 嵌入 Mac 刘海栏的常驻计算机使用助手</strong>，以 Wispr 语音流为输入，实现&quot;随时召唤、即时操作&quot;的轻量化 Agent 体验，突破传统聊天窗口的交互范式</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🛠️ 开发者工具</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">核心定位</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="https://www.producthunt.com/products/monid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Monid 2.0</a></strong> — OpenRouter for agent tools<br><a href="https://www.producthunt.com/r/RGRECF5QMV23LX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">投票: 466 | 评论: 21</td>
+<td align="left"><strong>Agent 工具的&quot;统一路由层&quot;</strong>，解决多 Agent 工具链的碎片化问题，让开发者像调用模型 API 一样无缝切换和编排各类 Agent 能力</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://www.producthunt.com/products/minions?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Minions</a></strong> — Open source mission control for Hermes agent<br><a href="https://www.producthunt.com/r/AW7QWKE3MQG5QD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">投票: 310 | 评论: 17</td>
+<td align="left"><strong>Hermes Agent 的开源任务控制中心</strong>，提供可视化的 Agent 编排、监控和调试能力，降低复杂多步骤 Agent 的运维门槛</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://www.producthunt.com/products/nyx-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Fabraix</a></strong> — Find gaps in your AI agents before users do<br><a href="https://www.producthunt.com/r/343V4QSMXHGFIP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">投票: 227 | 评论: 18</td>
+<td align="left"><strong>Agent 上线前的&quot;红队测试&quot;工具</strong>，主动发现 AI Agent 的能力边界和失效模式，填补&quot;开发完成→生产部署&quot;之间的安全验证空白</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://www.producthunt.com/products/kodhau-senior-context-for-ai-agents?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">KodHau</a></strong> — Stop your AI from breaking prod-give it your team decisions<br><a href="https://www.producthunt.com/r/42WKJRLXVPT7P4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">投票: 98 | 评论: 17</td>
+<td align="left"><strong>为 AI Agent 注入&quot;团队决策上下文&quot;</strong>，将代码规范、架构决策等隐性知识结构化，防止 Agent 因缺乏组织记忆而引发生产事故</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://www.producthunt.com/products/kushoai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">APIEval-20</a></strong> — An open benchmark for AI agents that test APIs<br><a href="https://www.producthunt.com/r/2TRFRBM47FAVUV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">投票: 117 | 评论: 10</td>
+<td align="left"><strong>API 测试 Agent 的开放评测基准</strong>，提供标准化数据集和评估框架，推动 API 自动化测试 Agent 的能力可比性和持续优化</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>📊 AI 应用</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">核心定位</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="https://www.producthunt.com/products/flare-9?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Flare</a></strong> — AI-native voice-first social app for GenZ<br><a href="https://www.producthunt.com/r/FLBPXYPO7MDZP3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">投票: 386 | 评论: 48</td>
+<td align="left"><strong>Z 世代语音优先的 AI 原生社交应用</strong>，以实时语音交互为核心，AI 驱动内容匹配和对话体验，试图重新定义&quot;社交&quot;的媒介形态</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Google Health</a></strong> — A new relationship with your health<br><a href="https://www.producthunt.com/r/WUZSMG6ZNNEBUL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">投票: 120 | 评论: 5</td>
+<td align="left"><strong>Google 个人健康关系重构</strong>，整合 Android 生态健康数据与 AI 分析，从&quot;数据记录&quot;转向&quot;主动健康伙伴&quot;，但评论数偏低显示用户观望</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="https://www.producthunt.com/products/operations?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Operations</a></strong> — Turn every new tab into your personal dashboard<br><a href="https://www.producthunt.com/r/HVEIDFHTHHOXHI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">投票: 103 | 评论: 18</td>
+<td align="left"><strong>新标签页个人 AI 仪表盘</strong>，聚合开发工作流、通知和智能摘要，将浏览器入口转化为上下文感知的生产力中枢</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🎨 创意与内容</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">核心定位</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="https://www.producthunt.com/products/socrati-learn-with-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Socrati</a></strong> — Your personal knowledge podcast from any source<br><a href="https://www.producthunt.com/r/GBLADBJC4NSVVA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">投票: 86 | 评论: 5</td>
+<td align="left"><strong>任意来源→个人知识播客</strong>，将文档、网页、视频等转化为 AI 生成的对话式音频内容，适配通勤等碎片场景的学习需求</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🔧 基础设施与模型</h3>
+<blockquote>
+<p><em>今日无纯粹模型服务/MLOps 产品，基础设施需求已深度融入开发者工具类别</em></p>
+</blockquote>
+<hr>
+<h2>三、市场信号</h2>
+<p><strong>开发者工具类别高度密集</strong>（5/11 直接标注 Developer Tools，实际占比更高），且全部围绕 <strong>AI Agent 生命周期</strong>展开：工具路由（Monid）、任务编排（Minions）、测试验证（Fabraix/APIEval-20）、安全管控（KodHau）、教学辅助（Contral）。这标志着 Agent 开发从&quot;Demo 可行&quot;进入&quot;生产就绪&quot;的成熟阶段，<strong>工具链缺口成为创业机会的核心来源</strong>。</p>
+<p><strong>创新性思路</strong>：Ara 的&quot;刘海栏常驻&quot;代表 <strong>Agent 形态的去 App 化</strong>——从独立应用退化为系统级常驻能力；Flare 的&quot;语音优先社交&quot;则是 <strong>AI Native 应用对 GUI 的反向颠覆</strong>。两者共同指向交互范式的深层变革。</p>
+<p><strong>开源趋势显著</strong>：Minions、Ara 明确开源，APIEval-20 强调开放基准，开源策略成为 Agent 基础设施建立信任和生态的标准打法。闭源产品集中于消费应用（Flare）和大厂整合（Google Health）。</p>
+<hr>
+<h2>四、值得试用</h2>
+<table>
+<thead>
+<tr>
+<th align="left">排名</th>
+<th align="left">产品</th>
+<th align="left">推荐理由</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>1</strong></td>
+<td align="left"><strong>Monid 2.0</strong></td>
+<td align="left">投票榜首且定位精准——Agent 工具路由是当下最痛的共性需求，若你已在使用多个 Agent 框架，这是立即降低复杂度的基础设施</td>
+</tr>
+<tr>
+<td align="left"><strong>2</strong></td>
+<td align="left"><strong>Fabraix</strong></td>
+<td align="left">Agent 安全上线是 2026 年的关键瓶颈，&quot;红队测试&quot;思路超前，适合已有 Agent 即将投产或已遇到边界案例的团队验证</td>
+</tr>
+<tr>
+<td align="left"><strong>3</strong></td>
+<td align="left"><strong>Minions</strong></td>
+<td align="left">开源 + YC 背景 + Hermes 生态，若你在构建基于 Hermes 的 Agent 系统，这是不可多得的运维层补充，社区驱动迭代值得期待</td>
+</tr>
+</tbody></table>
+<hr>
+<p><em>本报告基于 2026-05-10 Product Hunt 公开数据整理</em></p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Product Hunt AI 产品日报 2026-05-09</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-09/ai-ph</link>
@@ -4686,186 +4838,6 @@
 <td align="left"><strong>移动优先开发的云原生方案</strong>：Claude Code + 云端 VM 的组合，让手机成为完整开发终端，适合需要随时随地调试、或本地设备性能受限的开发者，验证&quot;AI 编码的终极形态是否去本地化&quot;。</td>
 </tr>
 </tbody></table>
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Product Hunt AI 产品日报 2026-04-10</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-10/ai-ph</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-10/ai-ph</guid>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Product Hunt AI 产品日报 2026-04-10 数据来源: Product Hunt | 共 10 个产品 | 生成时间: 2026-04-10 00:13 UTC Product Hunt AI 产品日报 | 2026-04-10 今日速览 今日 Product Hunt 共收录 10 款 AI 相关产品，视频消息工具 Velo 以 630 票强势登顶，显示异步视频沟通场景持续升温。整体呈现&amp;quot;生产力工具主导、开发者基础设施崛起&amp;quot;的格局——7 款产品聚焦生产力与开发者场景，仅 2 款涉及 3D/创意生成。值得关注的是，MindsDB Anton 和 Browser Arena 代表的开源 AI 基础设施获得社区认可，而 Zoho 等传统 SaaS 厂商的 AI 化改造也在加速渗透。 热门产品 🤖 AI 智能体与助手 产品 数据 核心亮点 MindsDB Anton — Business intelligence that doesn&amp;#39;t just answer — it acts. 187 票 / 16 评论 首款&amp;quot;行动型&amp;quo...</description>
-      <content:encoded><![CDATA[<h1>Product Hunt AI 产品日报 2026-04-10</h1>
-<blockquote>
-<p>数据来源: <a href="https://www.producthunt.com/">Product Hunt</a> | 共 10 个产品 | 生成时间: 2026-04-10 00:13 UTC</p>
-</blockquote>
-<hr>
-<h1>Product Hunt AI 产品日报 | 2026-04-10</h1>
-<hr>
-<h2>今日速览</h2>
-<p>今日 Product Hunt 共收录 10 款 AI 相关产品，<strong>视频消息工具 Velo 以 630 票强势登顶</strong>，显示异步视频沟通场景持续升温。整体呈现&quot;生产力工具主导、开发者基础设施崛起&quot;的格局——7 款产品聚焦生产力与开发者场景，仅 2 款涉及 3D/创意生成。值得关注的是，<strong>MindsDB Anton 和 Browser Arena 代表的开源 AI 基础设施</strong>获得社区认可，而 Zoho 等传统 SaaS 厂商的 AI 化改造也在加速渗透。</p>
-<hr>
-<h2>热门产品</h2>
-<h3>🤖 AI 智能体与助手</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">数据</th>
-<th align="left">核心亮点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>MindsDB Anton</strong> — Business intelligence that doesn&#39;t just answer — it acts.</td>
-<td align="left">187 票 / 16 评论</td>
-<td align="left">首款&quot;行动型&quot;BI 智能体，突破传统问答式分析，直接执行数据驱动的业务决策</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/mindsdb?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/LH3TMZMEHOMCNJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-</tbody></table>
-<hr>
-<h3>🛠️ 开发者工具</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">数据</th>
-<th align="left">核心亮点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Browser Arena</strong> — Open-source benchmarks for cloud browser infrastructure</td>
-<td align="left">175 票 / 29 评论</td>
-<td align="left">填补云浏览器性能评测空白，为 AI 浏览器自动化（如爬虫、RPA）提供标准化基准</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/notte?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/GVLBEAVNDXWGVB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left"><strong>Mo</strong> — Checks PRs against decisions your team approved in Slack</td>
-<td align="left">95 票 / 9 评论</td>
-<td align="left">打通 Slack 决策记录与 GitHub PR，用 AI 防止&quot;会议决定&quot;与&quot;代码实现&quot;脱节</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/mo-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/E65UWOCFXWFDMI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-</tbody></table>
-<hr>
-<h3>📊 AI 应用（垂直场景）</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">数据</th>
-<th align="left">核心亮点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Velo</strong> — Share anything as video messages</td>
-<td align="left"><strong>630 票 / 144 评论</strong></td>
-<td align="left">将任意内容（文档、代码、设计稿）一键转为个性化视频消息，重新定义异步协作</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/velo-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/5NXKZ7EKGRZVKR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left"><strong>Flint</strong> — Launch on-brand pages for every campaign, ad, and prospect</td>
-<td align="left">350 票 / 27 评论</td>
-<td align="left">为每个营销触点（广告、邮件、客户）动态生成品牌一致的落地页，终结&quot;一套模板走天下&quot;</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/flint-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/4STAMVST7HAZDM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left"><strong>Career-Ops on Claude</strong> — An AI-powered Job Search System built on Claude Code</td>
-<td align="left">139 票 / 11 评论</td>
-<td align="left">基于 Claude Code 的求职工作流系统，将大模型深度嵌入简历优化、投递追踪、面试准备全流程</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/santifer-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/HYDKMKYSMMT5DO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-</tbody></table>
-<hr>
-<h3>🎨 创意与内容</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">数据</th>
-<th align="left">核心亮点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Marble 1.1</strong> — Better lighting and larger scales for 3D world generation</td>
-<td align="left">92 票 / 1 评论</td>
-<td align="left">World Labs 出品，AI 3D 场景生成在光照真实感与空间尺度上的显著突破</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/marble-by-world-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> · <a href="https://www.producthunt.com/r/NWYPSUW6CCZW2C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-</tbody></table>
-<hr>
-<h3>🔧 基础设施与模型</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">数据</th>
-<th align="left">核心亮点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>MindsDB Anton</strong>（同上）</td>
-<td align="left">—</td>
-<td align="left">开源 AI 数据库+智能体，支持从数据查询到自动执行的全链路</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>市场信号</h2>
-<p><strong>生产力工具与开发者基础设施双轮驱动</strong>：今日 10 款产品中，7 款明确标注 Productivity 或 Developer Tools，反映 AI 正从&quot;酷炫 demo&quot;转向&quot;基础设施重构&quot;。<strong>开源项目表现亮眼</strong>——MindsDB（开源 AI 数据库）和 Browser Arena（开源基准测试）均进入前四，显示开发者社区对透明、可审计的 AI 基础设施需求迫切。创新场景方面，<strong>&quot;Slack 决策→GitHub 代码&quot;的治理闭环</strong>（Mo）和**&quot;BI 问答→自动执行&quot;的 Agent 跃迁**（MindsDB Anton）代表了 AI 从辅助工具向执行主体的演进趋势。传统 SaaS 的 AI 改造（Zoho Projects Infinity.ai）则提示：存量产品的 AI 化将成为 2026 年的主战场之一。</p>
-<hr>
-<h2>值得试用</h2>
-<table>
-<thead>
-<tr>
-<th align="left">排名</th>
-<th align="left">产品</th>
-<th align="left">推荐理由</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">1</td>
-<td align="left"><strong>Browser Arena</strong></td>
-<td align="left">若你在构建 AI 浏览器自动化（爬虫、测试、RPA），这是首个开源标准化评测工具，可量化对比 Puppeteer、Playwright、Selenium 等在云环境的真实性能</td>
-</tr>
-<tr>
-<td align="left">2</td>
-<td align="left"><strong>Mo</strong></td>
-<td align="left">解决&quot;会上说的、Slack 定的、代码写的&quot;三者脱节的经典工程管理痛点，适合 10-50 人技术团队快速验证</td>
-</tr>
-<tr>
-<td align="left">3</td>
-<td align="left"><strong>MindsDB Anton</strong></td>
-<td align="left">开源 + 从&quot;问答 BI&quot;到&quot;行动 Agent&quot;的架构升级，适合数据团队探索 LLM 与现有数据栈的集成边界</td>
-</tr>
-</tbody></table>
-<hr>
 <hr>
 <p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>

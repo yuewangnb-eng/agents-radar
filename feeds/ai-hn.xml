@@ -6,7 +6,177 @@
     <description>Hacker News AI 社区动态日报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-hn.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 09 May 2026 04:17:29 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 04:38:04 +0000</lastBuildDate>
+    <item>
+      <title>Hacker News AI 社区动态日报 2026-05-10</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-10/ai-hn</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-10/ai-hn</guid>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI 社区动态日报 2026-05-10 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-05-10 00:20 UTC Hacker News AI 社区动态日报 2026-05-10 | 数据来源：过去 24 小时热门帖子 今日速览 今日 HN 社区对 Anthropic/Claude 生态表现出极高关注度，从 Claude Code 的 HTML 生成能力到安全漏洞（ClaudeBleed）再到估值传闻，形成密集讨论带。社区情绪呈现矛盾两极：一方面惊叹 LLM 工具&amp;quot;不合理的高效&amp;quot;，另一方面对 AI 导致文档腐败、员工幸福感下降、情感监控等负面效应深感忧虑。中美 AI 竞争、马斯克与 OpenAI 的诉讼恩怨继续作为背景噪音存在，但社区更聚焦于实际工程体验而非宏大叙事。 热门新闻与讨论 🔬 模型与研究 # 内容 数据 一句话说明 1 LLMs corrupt your documents when you delegate · HN 讨论 **339 分 130 评论** 2 Strategic adv...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-05-10</h1>
+<blockquote>
+<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-05-10 00:20 UTC</p>
+</blockquote>
+<hr>
+<h1>Hacker News AI 社区动态日报</h1>
+<p><strong>2026-05-10 | 数据来源：过去 24 小时热门帖子</strong></p>
+<hr>
+<h2>今日速览</h2>
+<p>今日 HN 社区对 <strong>Anthropic/Claude 生态</strong>表现出极高关注度，从 Claude Code 的 HTML 生成能力到安全漏洞（ClaudeBleed）再到估值传闻，形成密集讨论带。社区情绪呈现<strong>矛盾两极</strong>：一方面惊叹 LLM 工具&quot;不合理的高效&quot;，另一方面对 AI 导致文档腐败、员工幸福感下降、情感监控等负面效应深感忧虑。中美 AI 竞争、马斯克与 OpenAI 的诉讼恩怨继续作为背景噪音存在，但社区更聚焦于<strong>实际工程体验</strong>而非宏大叙事。</p>
+<hr>
+<h2>热门新闻与讨论</h2>
+<h3>🔬 模型与研究</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>内容</th>
+<th>数据</th>
+<th>一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://arxiv.org/abs/2604.15597">LLMs corrupt your documents when you delegate</a></strong> · <a href="https://news.ycombinator.com/item?id=48073246">HN 讨论</a></td>
+<td>**339 分</td>
+<td>130 评论**</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return">Strategic advice from LLM&#39;s is &quot;trendslop&quot;, say researchers</a></strong> · <a href="https://news.ycombinator.com/item?id=48077117">HN 讨论</a></td>
+<td>4 分</td>
+<td>1 评论</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://news.ycombinator.com/item?id=48073325">What if new proofs are included in LLM training so LLM rediscover it?</a></strong> · <a href="https://news.ycombinator.com/item?id=48073325">HN 讨论</a></td>
+<td>3 分</td>
+<td>1 评论</td>
+</tr>
+</tbody></table>
+<h3>🛠️ 工具与工程</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>内容</th>
+<th>数据</th>
+<th>一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://twitter.com/trq212/status/2052809885763747935">Using Claude Code: The unreasonable effectiveness of HTML</a></strong> · <a href="https://news.ycombinator.com/item?id=48071940">HN 讨论</a></td>
+<td>**406 分</td>
+<td>234 评论**</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://github.com/skrabe/lobotomized-claude-code">Lobotomized Claude Code and it works better</a></strong> · <a href="https://news.ycombinator.com/item?id=48077947">HN 讨论</a></td>
+<td>3 分</td>
+<td>0 评论</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://github.com/ThatXliner/patchwork-cli">Patchwork: AST-Native Editing for LLMs</a></strong> · <a href="https://news.ycombinator.com/item?id=48075376">HN 讨论</a></td>
+<td>3 分</td>
+<td>0 评论</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong><a href="https://chonklm.com">Show HN: ChonkLM – Tiny language models running offline in the browser</a></strong> · <a href="https://news.ycombinator.com/item?id=48077627">HN 讨论</a></td>
+<td>5 分</td>
+<td>0 评论</td>
+</tr>
+</tbody></table>
+<h3>🏢 产业动态</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>内容</th>
+<th>数据</th>
+<th>一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html">Meta&#39;s embrace of A.I. is making its employees miserable</a></strong> · <a href="https://news.ycombinator.com/item?id=48077126">HN 讨论</a></td>
+<td>**240 分</td>
+<td>215 评论**</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://www.reuters.com/technology/anthropic-weighs-fundraising-near-1-trillion-valuation-ft-reports-2026-05-08/">Anthropic weighs fundraising for near $1T valuation, FT reports</a></strong> · <a href="https://news.ycombinator.com/item?id=48072308">HN 讨论</a></td>
+<td>5 分</td>
+<td>0 评论</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://www.theregister.com/systems/2026/05/06/spacex-plots-119b-wafer-fab-to-make-elons-orbital-ai-dream-come-true/5231202">Musk has never built a wafer fab, but he wants to burn $119B on one anyway</a></strong> · <a href="https://news.ycombinator.com/item?id=48077452">HN 讨论</a></td>
+<td>5 分</td>
+<td>2 评论</td>
+</tr>
+</tbody></table>
+<h3>💬 观点与争议</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>内容</th>
+<th>数据</th>
+<th>一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://www.theatlantic.com/culture/2026/05/worker-surveillance-emotion-ai/687029/">The Rise of Emotional Surveillance</a></strong> · <a href="https://news.ycombinator.com/item?id=48078461">HN 讨论</a></td>
+<td>8 分</td>
+<td>1 评论</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://www.nytimes.com/2026/05/09/opinion/ai-china-america-race.html">America&#39;s A.I. Is Futuristic. China Is Just Making It Work</a></strong> · <a href="https://news.ycombinator.com/item?id=48077338">HN 讨论</a></td>
+<td>3 分</td>
+<td>1 评论</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://twitter.com/patoroco/status/2053031292594225641">I&#39;ve replaced my Claude subscription with a sleep control app</a></strong> · <a href="https://news.ycombinator.com/item?id=48073207">HN 讨论</a></td>
+<td>3 分</td>
+<td>0 评论</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>社区情绪信号</h2>
+<p><strong>活跃度峰值</strong>集中在 <strong>Claude 生态批判性使用</strong>（406 分/234 评论）与 <strong>AI 负面社会效应</strong>（339 分/130 评论；240 分/215 评论），显示社区正从&quot;AI 能做什么&quot;转向&quot;AI 在做什么/做错了什么&quot;。<strong>核心争议点</strong>：LLM 代理的可靠性危机——&quot;文档腐败&quot;论文获得罕见的高评论密度，说明这是广泛痛点而非孤立抱怨。<strong>新共识萌芽</strong>：&quot;简单优于复杂&quot;（HTML &gt; 框架、lobotomized &gt; 全功能）可能成为工程实践的新教条。与上周相比，<strong>融资炒作显著退潮</strong>（Anthropic 万亿估值零评论），<strong>地缘政治让位具体体验</strong>，社区注意力内卷至工具层的真实摩擦。</p>
+<hr>
+<h2>值得深读</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>理由</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://arxiv.org/abs/2604.15597">LLMs corrupt your documents when you delegate</a></strong> · <a href="https://news.ycombinator.com/item?id=48073246">HN</a></td>
+<td><strong>研究者必读</strong>：首篇系统性量化 LLM 代理文档腐败的论文，130 条评论包含大量一线工程师的故障模式补充，可作为&quot;AI 可靠性&quot;研究的入口文献。</td>
+</tr>
+<tr>
+<td><strong><a href="https://twitter.com/trq212/status/2052809885763747935">Using Claude Code: The unreasonable effectiveness of HTML</a></strong> · <a href="https://news.ycombinator.com/item?id=48071940">HN</a></td>
+<td><strong>开发者必读</strong>：234 评论构成关于&quot;AI 时代技术选型&quot;的鲜活辩论，涉及 HTML vs. React、提示工程 vs. 架构设计等深层方法论冲突。</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html">Meta&#39;s embrace of A.I. is making its employees miserable</a></strong> · <a href="https://news.ycombinator.com/item?id=48077126">HN</a></td>
+<td><strong>行业观察者必读</strong>：215 评论中混杂 Meta 员工疑似现身说法、管理辩护与系统性批判，是理解 AI 转型组织成本的难得样本。</td>
+</tr>
+</tbody></table>
+<hr>
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Hacker News AI 社区动态日报 2026-05-09</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-09/ai-hn</link>
@@ -5054,174 +5224,6 @@
 <tr>
 <td align="left"><strong><a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-claude-mythos-isnt-a-sentient-super-hacker-its-a-sales-pitch-claims-of-thousands-of-severe-zero-days-rely-on-just-198-manual-reviews/">Claude Mythos isn&#39;t a sentient super-hacker...</a></strong> + <a href="https://news.ycombinator.com/item?id=47718155">HN 讨论</a></td>
 <td align="left"><strong>批判性思维范本</strong>：技术媒体如何拆解企业安全叙事，对研究者理解&quot;AI 安全营销&quot;与实证评估的鸿沟具有方法论参考价值</td>
-</tr>
-</tbody></table>
-<hr>
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI 社区动态日报 2026-04-10</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-10/ai-hn</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-10/ai-hn</guid>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI 社区动态日报 2026-04-10 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-04-10 00:13 UTC Hacker News AI 社区动态日报（2026-04-10） 今日速览 今日 HN 社区最火热的讨论聚焦于 Claude Code 的安全与隐私问题——Vercel 插件被曝读取用户提示词引发 252 分高赞热议，同时 Anthropic 的估值飙升与未发布模型 Mythos 的安全争议形成鲜明对比。产业层面，OpenAI 因能源成本和监管压力搁置英国 Stargate 项目成为第二大话题。工具层面呈现爆发态势：7 个 Show HN 项目涵盖从本地 LLM 服务器到 API 集成修复，显示开发者正积极构建 AI 基础设施。整体情绪警惕中带乐观，对&amp;quot;AI 代理自主运行&amp;quot;既兴奋又担忧。 热门新闻与讨论 🔬 模型与研究 标题 数据 一句话说明 I think Anthropic is worth $100B more than last week (讨论) 9 分 · 0 评论 分析师称...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-04-10</h1>
-<blockquote>
-<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-04-10 00:13 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI 社区动态日报（2026-04-10）</h1>
-<hr>
-<h2>今日速览</h2>
-<p>今日 HN 社区最火热的讨论聚焦于 <strong>Claude Code 的安全与隐私问题</strong>——Vercel 插件被曝读取用户提示词引发 252 分高赞热议，同时 Anthropic 的估值飙升与未发布模型 Mythos 的安全争议形成鲜明对比。产业层面，OpenAI 因能源成本和监管压力搁置英国 Stargate 项目成为第二大话题。工具层面呈现爆发态势：7 个 Show HN 项目涵盖从本地 LLM 服务器到 API 集成修复，显示开发者正积极构建 AI 基础设施。整体情绪警惕中带乐观，对&quot;AI 代理自主运行&quot;既兴奋又担忧。</p>
-<hr>
-<h2>热门新闻与讨论</h2>
-<h3>🔬 模型与研究</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">数据</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://futuresearch.ai/anthropic-30b-arr-ipo-valuation/">I think Anthropic is worth $100B more than last week</a></strong> (<a href="https://news.ycombinator.com/item?id=47705082">讨论</a>)</td>
-<td align="left">9 分 · 0 评论</td>
-<td align="left">分析师称 Anthropic 年化收入达 30 亿美元，IPO 估值或翻倍；社区反应冷淡，零评论显示对估值炒作疲劳</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://kuber.studio/blog/AI/Anthropic-Wrote-244-Pages-About-Their-AI-Model-That%27s-Too-Dangerous-To-Release.-I-Read-It-So-You-Don%27t-Have-To">I Read Anthropic&#39;s 244 Page Reason to Not Release Mythos So You Don&#39;t Have To</a></strong> (<a href="https://news.ycombinator.com/item?id=47705258">讨论</a>)</td>
-<td align="left">4 分 · 0 评论</td>
-<td align="left">对 Anthropic 未发布模型 Mythos 的安全评估报告解读，&quot;太长不看&quot;式内容但零互动，反映社区对&quot;AI 危险论&quot;叙事脱敏</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.nytimes.com/2026/04/07/technology/anthropic-claims-its-new-ai-model-mythos-is-a-cybersecurity-reckoning.html">Anthropic Claims Its New A.I. Model, Mythos, Is a Cybersecurity &#39;Reckoning&#39;</a></strong> (<a href="https://news.ycombinator.com/item?id=47698827">讨论</a>)</td>
-<td align="left">4 分 · 1 评论</td>
-<td align="left">同一模型的媒体渲染 vs 技术社区冷遇形成对比，单条评论质疑宣传过度</td>
-</tr>
-</tbody></table>
-<h3>🛠️ 工具与工程</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">数据</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry">The Vercel plugin on Claude Code wants to read your prompts</a></strong> (<a href="https://news.ycombinator.com/item?id=47704881">讨论</a>)</td>
-<td align="left"><strong>252 分 · 101 评论</strong></td>
-<td align="left"><strong>今日最热帖</strong>：发现 Vercel 官方插件默认收集用户提示词，社区愤怒于&quot;静默遥测&quot;，高评论数显示隐私议题引爆深度讨论</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://imbue.com/product/bouncer/">Show HN: Control your X/Twitter feed using a small on-device LLM</a></strong> (<a href="https://news.ycombinator.com/item?id=47706293">讨论</a>)</td>
-<td align="left">14 分 · 3 评论</td>
-<td align="left">Imbue 推出本地运行的 Twitter 信息流过滤器，代表&quot;边缘 AI + 隐私优先&quot;的实用化方向</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://agents.opencomputer.dev">Open Source Alternative to Claude Managed Agents</a></strong> (<a href="https://news.ycombinator.com/item?id=47711612">讨论</a>)</td>
-<td align="left">5 分 · 1 评论</td>
-<td align="left">OpenComputer 开源 Claude 托管代理的替代方案，回应社区对厂商锁定的担忧</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://github.com/CelestoAI/SmolVM">Show HN: SmolVM – open-source sandbox for coding and computer-use agents</a></strong> (<a href="https://news.ycombinator.com/item?id=47711887">讨论</a>)</td>
-<td align="left">4 分 · 0 评论</td>
-<td align="left">轻量级沙箱环境，解决 AI 编码代理的安全隔离需求，零评论但发布时间较晚值得关注</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://sgbarker.com/use-a-gaming-pc-as-a-google-gemma-4-llm-server/">Use a gaming PC as a Google Gemma 4 LLM server</a></strong> (<a href="https://news.ycombinator.com/item?id=47710849">讨论</a>)</td>
-<td align="left">4 分 · 1 评论</td>
-<td align="left">消费级硬件本地部署指南，Gemma 4 的&quot;可及性&quot;成为开源模型竞争新维度</td>
-</tr>
-</tbody></table>
-<h3>🏢 产业动态</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">数据</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://www.theregister.com/2026/04/09/openai_puts_stargate_uk_on/">OpenAI puts Stargate UK on ice, blames energy costs and red tape</a></strong> (<a href="https://news.ycombinator.com/item?id=47708593">讨论</a>)</td>
-<td align="left"><strong>55 分 · 33 评论</strong></td>
-<td align="left">OpenAI 搁置 1000 亿英镑英国数据中心计划，社区热议&quot;AI 基建泡沫&quot;与欧洲监管环境的真实成本</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.theguardian.com/technology/2026/apr/09/openai-pulls-out-of-landmark-31bn-uk-investment">OpenAI pulls out of landmark £31B UK investment package</a></strong> (<a href="https://news.ycombinator.com/item?id=47704137">讨论</a>)</td>
-<td align="left">24 分 · 9 评论</td>
-<td align="left">同一事件的不同报道， Guardian 侧重政治经济影响，评论区出现&quot;英国成为 AI 孤岛&quot;的担忧</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.reuters.com/sustainability/sustainable-finance-reporting/samsung-flags-eight-fold-jump-q1-profit-ai-chip-demand-drives-up-prices-2026-04-06/">Samsung&#39;s 2026 Q1 profit increased eightfold to a record $38B</a></strong> (<a href="https://news.ycombinator.com/item?id=47710882">讨论</a>)</td>
-<td align="left">6 分 · 2 评论</td>
-<td align="left">AI 芯片需求驱动三星利润暴增，但低互动显示硬件供应链话题在软件主导的社区边缘化</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://cirruslabs.org/">Cirrus Labs to Join OpenAI</a></strong> (<a href="https://news.ycombinator.com/item?id=47704497">讨论</a>)</td>
-<td align="left">4 分 · 6 评论</td>
-<td align="left">小众收购案，6 条评论聚焦&quot;Cirrus Labs 是谁&quot;——显示 OpenAI 的收购策略向冷门基础设施延伸</td>
-</tr>
-</tbody></table>
-<h3>💬 观点与争议</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">数据</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://serendb.com/blog/claude-code-local-memory-security-risk">Claude Code&#39;s Local Memory Is a Security Risk, and You Can Verify It Yourself</a></strong> (<a href="https://news.ycombinator.com/item?id=47708277">讨论</a>)</td>
-<td align="left">4 分 · 1 评论</td>
-<td align="left">独立验证 Claude Code 本地存储漏洞，与 Vercel 插件事件形成&quot;Anthropic 生态安全&quot;议题簇</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://news.ycombinator.com/item?id=47711381">Ask HN: What would you do with an AI model capable of continuous learning?</a></strong> (<a href="https://news.ycombinator.com/item?id=47711381">讨论</a>)</td>
-<td align="left">4 分 · 2 评论</td>
-<td align="left">假设性技术愿景讨论，2 条评论指向个性化助手和科研加速，显示社区对&quot;持续学习&quot;概念的兴趣但缺乏具体想象</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://news.ycombinator.com/item?id=47700836">Ask HN: What is the future of Devs, after launch of Anthropic&#39;s Glasswing?</a></strong> (<a href="https://news.ycombinator.com/item?id=47700836">讨论</a>)</td>
-<td align="left">4 分 · 4 评论</td>
-<td align="left">对传闻中 Anthropic 新 IDE 的焦虑，4 条评论呈现&quot;替代 vs 增强&quot;的经典分歧</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://blog.mozilla.org/en/mozilla/ai/microsoft-copilot-ai-user-choice/">Old habits die hard: Microsoft tries to limit our options, this time with AI</a></strong> (<a href="https://news.ycombinator.com/item?id=47709506">讨论</a>)</td>
-<td align="left">6 分 · 2 评论</td>
-<td align="left">Mozilla 批评微软 Copilot 捆绑策略，低分但代表开源阵营对巨头平台化的持续警惕</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>社区情绪信号</h2>
-<p><strong>核心情绪：警惕性乐观，隐私焦虑升温</strong></p>
-<p>今日社区呈现明显的**&quot;工具热、叙事冷&quot;<strong>特征：7 个 Show HN 工具项目 vs 3 个模型研究帖均低互动，显示开发者更关注&quot;我能构建什么&quot;而非&quot;他们发布了什么&quot;。<strong>隐私安全成为绝对焦点</strong>——Vercel 插件事件以 252 分碾压其他话题，101 条评论的深度讨论远超一般技术帖，反映 HN 核心用户对&quot;AI 工具静默数据收集&quot;的高度敏感。与上周相比，</strong>&quot;AI 代理自主运行&quot;从概念走向实践**：从&quot;让 Claude Code 跑一个月广告&quot;到&quot;66 张工单 4 小时上线&quot;，但伴随的是对安全边界的同步追问。OpenAI 英国受挫引发对&quot;AI 基建地缘政治&quot;的短暂关注，但很快让位于更切身的技术伦理议题。整体而言，社区正从&quot;模型能力惊叹期&quot;进入**&quot;生产化摩擦期&quot;**——关心如何让 AI 工具安全、可控地融入工作流。</p>
-<hr>
-<h2>值得深读</h2>
-<table>
-<thead>
-<tr>
-<th align="left">推荐</th>
-<th align="left">理由</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry">The Vercel plugin on Claude Code wants to read your prompts</a></strong> (<a href="https://news.ycombinator.com/item?id=47704881">讨论</a>)</td>
-<td align="left"><strong>必读</strong>：不仅是隐私漏洞披露，更展示了如何通过逆向工程验证插件行为的方法论。101 条评论中包含技术细节挖掘、Vercel 官方回应追踪、以及&quot;企业级 AI 工具信任模型&quot;的深度讨论，是理解当前 AI 工具安全态势的样本案例。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://read.technically.dev/p/i-let-claude-code-autonomously-run">I Let Claude Code Autonomously Run Ads for a Month</a></strong> (<a href="https://news.ycombinator.com/item?id=47706611">讨论</a>)</td>
-<td align="left"><strong>实践参考</strong>：少数真正&quot;把 AI 代理投入生产&quot;并公开复盘的项目，17 分但内容稀缺。适合关注 AI 代理商业化落地的开发者，了解当前技术边界与人工监督的必要平衡点。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://widal.substack.com/p/we-shipped-a-66-ticket-architecture">66 Tickets, 536 tests, 20k lines – Claude Code, 4 hours, zero magic to prod</a></strong> (<a href="https://news.ycombinator.com/item?id=47705376">讨论</a>)</td>
-<td align="left"><strong>工程标杆</strong>：量化展示 Claude Code 在真实企业开发中的效率提升，&quot;零魔法&quot;的务实叙事区别于过度炒作。适合技术负责人评估 AI 编码工具的团队 adoption 策略。</td>
 </tr>
 </tbody></table>
 <hr>

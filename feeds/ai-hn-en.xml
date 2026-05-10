@@ -6,7 +6,182 @@
     <description>Hacker News AI Community Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-hn-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 09 May 2026 04:17:29 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 04:38:04 +0000</lastBuildDate>
+    <item>
+      <title>Hacker News AI Community Digest 2026-05-10</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-10/ai-hn-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-10/ai-hn-en</guid>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI Community Digest 2026-05-10 Source: Hacker News | 30 stories | Generated: 2026-05-10 00:20 UTC Hacker News AI Community Digest — May 10, 2026 1. Today&amp;#39;s Highlights The HN community is intensely focused on Claude Code today, with multiple posts exploring its capabilities, limitations, and security implications. The top post celebrates HTML&amp;#39;s &amp;quot;unreasonable effectiveness&amp;quot; as an interface paradigm for AI agents, while a security vulnerability dubbed &amp;quot;ClaudeBleed...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-05-10</h1>
+<blockquote>
+<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-05-10 00:20 UTC</p>
+</blockquote>
+<hr>
+<h1>Hacker News AI Community Digest — May 10, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>The HN community is intensely focused on <strong>Claude Code</strong> today, with multiple posts exploring its capabilities, limitations, and security implications. The top post celebrates HTML&#39;s &quot;unreasonable effectiveness&quot; as an interface paradigm for AI agents, while a security vulnerability dubbed &quot;ClaudeBleed&quot; and a &quot;lobotomized&quot; stripped-down version show the community&#39;s experimental and critical relationship with the tool. Meanwhile, a research paper warning that <strong>LLMs corrupt documents when delegated</strong> struck a nerve (339 points, 130 comments), reflecting growing skepticism about over-reliance on AI for critical tasks. Meta&#39;s internal AI push making employees &quot;miserable&quot; and Anthropic&#39;s rumored near-$1T valuation round out a day of tension between AI hype and hard-nosed engineering reality.</p>
+<hr>
+<h2>2. Top News &amp; Discussions</h2>
+<h3>🔬 Models &amp; Research</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://arxiv.org/abs/2604.15597">LLMs corrupt your documents when you delegate</a> — <a href="https://news.ycombinator.com/item?id=48073246">HN Discussion</a></td>
+<td>339</td>
+<td>130</td>
+<td>Strikes at core trust issues in AI-assisted workflows; community reaction is &quot;told you so&quot; mixed with genuine concern about silent failures in production</td>
+</tr>
+<tr>
+<td><a href="https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return">Strategic advice from LLM&#39;s is &quot;trendslop&quot;, say researchers</a> — <a href="https://news.ycombinator.com/item?id=48077117">HN Discussion</a></td>
+<td>4</td>
+<td>1</td>
+<td>Academic validation of a common HN critique: LLMs regurgitate consensus rather than generate insight</td>
+</tr>
+<tr>
+<td><a href="https://news.ycombinator.com/item?id=48073325">What if new proofs are included in LLM training so LLM rediscover it?</a> — <a href="https://news.ycombinator.com/item?id=48073325">HN Discussion</a></td>
+<td>3</td>
+<td>1</td>
+<td>Niche but intellectually provocative question about mathematical discovery and memorization boundaries</td>
+</tr>
+</tbody></table>
+<h3>🛠️ Tools &amp; Engineering</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://twitter.com/trq212/status/2052809885763747935">Using Claude Code: The unreasonable effectiveness of HTML</a> — <a href="https://news.ycombinator.com/item?id=48071940">HN Discussion</a></td>
+<td>406</td>
+<td>234</td>
+<td><strong>Top post of the day</strong> — celebrates HTML as the ultimate &quot;porous&quot; interface for AI agents; community is enthusiastic about pragmatic, simple solutions over complex frameworks</td>
+</tr>
+<tr>
+<td><a href="https://github.com/skrabe/lobotomized-claude-code">Lobotomized Claude Code and it works better</a> — <a href="https://news.ycombinator.com/item?id=48077947">HN Discussion</a></td>
+<td>3</td>
+<td>0</td>
+<td>Epitomizes HN&#39;s DIY, strip-it-down engineering ethos; removing features to improve performance resonates deeply</td>
+</tr>
+<tr>
+<td><a href="https://github.com/ThatXliner/patchwork-cli">Patchwork: AST-Native Editing for LLMs</a> — <a href="https://news.ycombinator.com/item?id=48075376">HN Discussion</a></td>
+<td>3</td>
+<td>0</td>
+<td>Addresses real pain point (LLMs mangling code structure); typical HN appreciation for structural over text-based approaches</td>
+</tr>
+<tr>
+<td><a href="https://chonklm.com">Show HN: ChonkLM – Tiny language models running offline in the browser</a> — <a href="https://news.ycombinator.com/item?id=48077627">HN Discussion</a></td>
+<td>5</td>
+<td>0</td>
+<td>Local-first, minimal resource use — classic HN values, though low engagement suggests market saturation in tiny LLM space</td>
+</tr>
+</tbody></table>
+<h3>🏢 Industry News</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html">Meta&#39;s embrace of A.I. is making its employees miserable</a> — <a href="https://news.ycombinator.com/item?id=48077126">HN Discussion</a></td>
+<td>240</td>
+<td>215</td>
+<td>High engagement shows schadenfreude and genuine concern about top-down AI mandates; comments likely critical of Zuck&#39;s &quot;AI-first&quot; pivot</td>
+</tr>
+<tr>
+<td><a href="https://www.reuters.com/technology/anthropic-weighs-fundraising-near-1-trillion-valuation-ft-reports-2026-05-08/">Anthropic weighs fundraising for near $1T valuation, FT reports</a> — <a href="https://news.ycombinator.com/item?id=48072308">HN Discussion</a></td>
+<td>5</td>
+<td>0</td>
+<td>Barely discussed despite magnitude — suggests HN fatigue with AI funding rounds or skepticism about sustainability</td>
+</tr>
+<tr>
+<td><a href="https://www.theregister.com/systems/2026/05/06/spacex-plots-119b-wafer-fab-to-make-elons-orbital-ai-dream-come-true/5231202">Musk has never built a wafer fab, but he wants to burn $119B on one anyway</a> — <a href="https://news.ycombinator.com/item?id=48077452">HN Discussion</a></td>
+<td>5</td>
+<td>2</td>
+<td>Skepticism toward Musk&#39;s AI ambitions is a safe bet for HN upvotes; &quot;orbital AI&quot; reads as classic Musk vaporware</td>
+</tr>
+</tbody></table>
+<h3>💬 Opinions &amp; Debates</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://www.theatlantic.com/culture/2026/05/worker-surveillance-emotion-ai/687029/">The Rise of Emotional Surveillance</a> — <a href="https://news.ycombinator.com/item?id=48078461">HN Discussion</a></td>
+<td>8</td>
+<td>1</td>
+<td>Surprisingly low engagement for a privacy-critical topic; possibly paywalled or HN desensitized to surveillance stories</td>
+</tr>
+<tr>
+<td><a href="https://www.nytimes.com/2026/05/09/opinion/ai-china-america-race.html">America&#39;s A.I. Is Futuristic. China Is Just Making It Work</a> — <a href="https://news.ycombinator.com/item?id=48077338">HN Discussion</a></td>
+<td>3</td>
+<td>1</td>
+<td>Geopolitical AI framing; likely triggers familiar HN debates about US innovation vs. Chinese execution</td>
+</tr>
+<tr>
+<td><a href="https://news.ycombinator.com/item?id=48077757">The first lie about entrepreneurship</a> — <a href="https://news.ycombinator.com/item?id=48077757">HN Discussion</a></td>
+<td>4</td>
+<td>0</td>
+<td>Self-referential HN meta-discussion; low engagement suggests community fatigue with entrepreneurship myth-debunking</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Community Sentiment Signal</h2>
+<p>Today&#39;s HN AI discourse reveals a community in <strong>productive tension</strong> — excited about tools like Claude Code but aggressively stress-testing their limits and failure modes. The highest-engagement posts combine <strong>technical substance with critical skepticism</strong>: the HTML/Claude Code post (406 points, 234 comments) and the LLM document corruption paper (339 points, 130 comments) both attracted massive discussion because they validate community intuitions about what works and what breaks.</p>
+<p>A clear <strong>consensus against blind AI delegation</strong> is forming. The arXiv paper&#39;s popularity, the &quot;lobotomized&quot; Claude Code fork, and the &quot;trendslop&quot; research all point to HN&#39;s growing impatience with AI hype cycles. There&#39;s palpable frustration that tools marketed as productivity enhancers may actually degrade output quality silently.</p>
+<p>Compared to previous cycles, <strong>Claude has displaced OpenAI as the primary focus</strong> — five of thirty posts mention Anthropic/Claude explicitly versus one OpenAI reference (in the Musk feud context). The community has shifted from &quot;what can LLMs do?&quot; to &quot;how do we make them not break things?&quot; This maturation mirrors historical HN patterns with earlier technologies: initial wonder, rapid adoption, then hard-nosed engineering critique.</p>
+<p>Notably absent: breathless model capability announcements, prompt engineering tips, or &quot;AI will replace programmers&quot; discourse. The Overton window has moved to <strong>operational reliability and human-AI workflow design</strong>.</p>
+<hr>
+<h2>4. Worth Deep Reading</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Title</th>
+<th>Reasoning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><a href="https://arxiv.org/abs/2604.15597">LLMs corrupt your documents when you delegate</a></td>
+<td><strong>Essential for anyone shipping AI features.</strong> This appears to be systematic research on a failure mode most practitioners suspect but haven&#39;t quantified. The 130-comment discussion likely contains war stories and mitigation strategies from production systems. Read before your next &quot;AI-powered&quot; document feature ships.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://twitter.com/trq212/status/2052809885763747935">Using Claude Code: The unreasonable effectiveness of HTML</a> + <a href="https://news.ycombinator.com/item?id=48071940">HN thread</a></td>
+<td><strong>Interface design for the agent era.</strong> The 234-comment thread is almost certainly a goldmine of practical patterns for building AI-native applications. HTML&#39;s &quot;porousness&quot; as an interface paradigm — human-readable, machine-parseable, universally renderable — is a design insight with implications beyond Claude Code.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html">Meta&#39;s embrace of A.I. is making its employees miserable</a> + <a href="https://news.ycombinator.com/item?id=48077126">HN thread</a></td>
+<td><strong>Organizational cautionary tale.</strong> With 215 comments, this is where HN&#39;s practitioner class discusses the human costs of AI mandates. Critical reading for engineering managers and founders navigating &quot;AI transformation&quot; pressure from boards and investors. Likely contains specific, anonymized accounts of counterproductive AI policies.</td>
+</tr>
+</tbody></table>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Hacker News AI Community Digest 2026-05-09</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-09/ai-hn-en</link>
@@ -4774,176 +4949,6 @@ Score: 10 | Comments: 2</p>
 <li><p><strong><a href="https://thezvi.substack.com/p/claude-mythos-2-cybersecurity-and">Claude Mythos #2: Cybersecurity and Project Glasswing</a></strong> — Zvi&#39;s analysis offers calibrated perspective on whether Mythos represents genuine capability advance or strategic communication; useful for separating signal from noise in AI safety discourse.</p>
 </li>
 </ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI Community Digest 2026-04-10</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-10/ai-hn-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-10/ai-hn-en</guid>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI Community Digest 2026-04-10 Source: Hacker News | 30 stories | Generated: 2026-04-10 00:13 UTC Hacker News AI Community Digest — April 10, 2026 1. Today&amp;#39;s Highlights The Hacker News AI community is fixated on Anthropic&amp;#39;s ecosystem dominance and growing privacy concerns around AI coding tools. The top story exposes telemetry risks in Claude Code&amp;#39;s Vercel plugin, sparking intense debate about developer trust. Meanwhile, OpenAI&amp;#39;s UK Stargate withdrawal signals shiftin...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-04-10</h1>
-<blockquote>
-<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-04-10 00:13 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI Community Digest — April 10, 2026</h1>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>The Hacker News AI community is fixated on <strong>Anthropic&#39;s ecosystem dominance</strong> and <strong>growing privacy concerns around AI coding tools</strong>. The top story exposes telemetry risks in Claude Code&#39;s Vercel plugin, sparking intense debate about developer trust. Meanwhile, OpenAI&#39;s UK Stargate withdrawal signals shifting geopolitical AI infrastructure strategies. Anthropic&#39;s rumored $30B ARR and unreleased &quot;Mythos&quot; model are driving speculation about an imminent IPO. The community shows strong interest in autonomous AI agents for production workflows, with multiple posts documenting real-world deployments. Overall sentiment tilts toward <strong>cautious enthusiasm</strong>—excited about capabilities, wary of vendor lock-in and surveillance.</p>
-<hr>
-<h2>2. Top News &amp; Discussions</h2>
-<h3>🔬 Models &amp; Research</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://kuber.studio/blog/AI/Anthropic-Wrote-244-Pages-About-Their-AI-Model-That%27s-Too-Dangerous-To-Release.-I-Read-It-So-You-Don%27t-Have-To">I Read Anthropic&#39;s 244 Page Reason to Not Release Mythos So You Don&#39;t Have To</a></strong> — <a href="https://news.ycombinator.com/item?id=47705258">Discussion</a></td>
-<td>4</td>
-<td>0</td>
-<td>Anthropic&#39;s &quot;responsible scaling&quot; documentation becoming required reading; community appreciates summaries of dense safety literature</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.nytimes.com/2026/04/07/technology/anthropic-claims-its-new-ai-model-mythos-is-a-cybersecurity-reckoning.html">Anthropic Claims Its New A.I. Model, Mythos, Is a Cybersecurity &#39;Reckoning&#39;</a></strong> — <a href="https://news.ycombinator.com/item?id=47698827">Discussion</a></td>
-<td>4</td>
-<td>1</td>
-<td>Dual-use AI capabilities entering mainstream discourse; skepticism about marketing vs. genuine capability advances</td>
-</tr>
-</tbody></table>
-<h3>🛠️ Tools &amp; Engineering</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry">The Vercel plugin on Claude Code wants to read your prompts</a></strong> — <a href="https://news.ycombinator.com/item?id=47704881">Discussion</a></td>
-<td><strong>252</strong></td>
-<td><strong>101</strong></td>
-<td><strong>Top story</strong>: Privacy-invasive telemetry in developer tools triggering backlash; calls for clearer consent mechanisms and open-source alternatives</td>
-</tr>
-<tr>
-<td><strong><a href="https://agents.opencomputer.dev">Open Source Alternative to Claude Managed Agents</a></strong> — <a href="https://news.ycombinator.com/item?id=47711612">Discussion</a></td>
-<td>5</td>
-<td>1</td>
-<td>Direct response to Claude Code lock-in; community actively building escape hatches</td>
-</tr>
-<tr>
-<td><strong><a href="https://github.com/CelestoAI/SmolVM">Show HN: SmolVM – open-source sandbox for coding and computer-use agents</a></strong> — <a href="https://news.ycombinator.com/item?id=47711887">Discussion</a></td>
-<td>4</td>
-<td>0</td>
-<td>Security-first agent isolation gaining traction as production deployment concern</td>
-</tr>
-<tr>
-<td><strong><a href="https://widal.substack.com/p/we-shipped-a-66-ticket-architecture">66 Tickets, 536 tests, 20k lines – Claude Code, 4 hours, zero magic to prod</a></strong> — <a href="https://news.ycombinator.com/item?id=47705376">Discussion</a></td>
-<td>4</td>
-<td>0</td>
-<td>Real-world velocity claims fueling both excitement and skepticism about AI-assisted development</td>
-</tr>
-</tbody></table>
-<h3>🏢 Industry News</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://www.theregister.com/2026/04/09/openai_puts_stargate_uk_on/">OpenAI puts Stargate UK on ice, blames energy costs and red tape</a></strong> — <a href="https://news.ycombinator.com/item?id=47708593">Discussion</a></td>
-<td>55</td>
-<td>33</td>
-<td>Infrastructure nationalism meets economic reality; UK regulatory environment seen as increasingly hostile to big tech</td>
-</tr>
-<tr>
-<td><strong><a href="https://futuresearch.ai/anthropic-30b-arr-ipo-valuation/">I think Anthropic is worth $100B more than last week</a></strong> — <a href="https://news.ycombinator.com/item?id=47705082">Discussion</a></td>
-<td>9</td>
-<td>0</td>
-<td>$30B ARR rumor driving valuation speculation; IPO anticipation building</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.reuters.com/sustainability/sustainable-finance-reporting/samsung-flags-eight-fold-jump-q1-profit-ai-chip-demand-drives-up-prices-2026-04-06/">Samsung&#39;s 2026 Q1 profit increased eightfold to a record $38B</a></strong> — <a href="https://news.ycombinator.com/item?id=47710882">Discussion</a></td>
-<td>6</td>
-<td>2</td>
-<td>AI chip demand reshaping semiconductor economics; supply constraints benefiting incumbents</td>
-</tr>
-</tbody></table>
-<h3>💬 Opinions &amp; Debates</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://news.ycombinator.com/item?id=47711381">Ask HN: What would you do with an AI model capable of continuous learning?</a></strong> — <a href="https://news.ycombinator.com/item?id=47711381">Discussion</a></td>
-<td>4</td>
-<td>2</td>
-<td>Technical community grappling with next paradigm shift beyond static weights</td>
-</tr>
-<tr>
-<td><strong><a href="https://news.ycombinator.com/item?id=47700836">Ask HN: What is the future of Devs, after launch of Anthropic&#39;s Glasswing?</a></strong> — <a href="https://news.ycombinator.com/item?id=47700836">Discussion</a></td>
-<td>4</td>
-<td>4</td>
-<td>Existential career anxiety surfacing; debate over augmentation vs. replacement</td>
-</tr>
-<tr>
-<td><strong><a href="https://serendb.com/blog/claude-code-local-memory-security-risk">Claude Code&#39;s Local Memory Is a Security Risk, and You Can Verify It Yourself</a></strong> — <a href="https://news.ycombinator.com/item?id=47708277">Discussion</a></td>
-<td>4</td>
-<td>1</td>
-<td>Security researchers auditing AI tools directly; transparency through reproducibility</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Community Sentiment Signal</h2>
-<p>Today&#39;s HN AI discourse is <strong>polarized between capability enthusiasm and institutional distrust</strong>. The Vercel/Claude Code telemetry story (252 points, 101 comments) dominates attention, revealing a community highly sensitive to surveillance in developer tools. This represents a <strong>significant shift from last cycle&#39;s focus on raw benchmarks</strong>—users now scrutinize <em>how</em> AI is delivered, not just <em>what</em> it can do.</p>
-<p>OpenAI&#39;s UK retreat and Anthropic&#39;s Pentagon &quot;supply chain risk&quot; labeling (4 points, 0 comments—underdiscussed) suggest <strong>geopolitical AI infrastructure becoming background noise</strong> rather than front-page concern. The community appears fatigued by grand announcements, preferring concrete tool evaluations and open-source alternatives.</p>
-<p>Notable consensus: autonomous AI agents are <strong>production-ready for specific workflows</strong> (see ads, refactoring posts), but require careful sandboxing. Controversy centers on <strong>whether Anthropic&#39;s safety posture is genuine or regulatory capture</strong>. The $100B valuation post got zero comments—either obvious or uninteresting—while &quot;Ship of Theseus License&quot; (4 points) hints at emerging IP frameworks for AI-generated code.</p>
-<p>Overall mood: <strong>pragmatically paranoid</strong>. Excited about capabilities, actively building alternatives, demanding verifiable security.</p>
-<hr>
-<h2>4. Worth Deep Reading</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>Title</th>
-<th>Reasoning</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td><strong><a href="https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry">The Vercel plugin on Claude Code wants to read your prompts</a></strong> — <a href="https://news.ycombinator.com/item?id=47704881">Discussion</a></td>
-<td>Essential for anyone using AI coding tools professionally. Documents specific telemetry mechanisms and provides reproducible verification methods. The 101-comment thread includes maintainer responses and community mitigation strategies.</td>
-</tr>
-<tr>
-<td>2</td>
-<td><strong><a href="https://kuber.studio/blog/AI/Anthropic-Wrote-244-Pages-About-Their-AI-Model-That%27s-Too-Dangerous-To-Release.-I-Read-It-So-You-Don%27t-Have-To">I Read Anthropic&#39;s 244 Page Reason to Not Release Mythos</a></strong> — <a href="https://news.ycombinator.com/item?id=47705258">Discussion</a></td>
-<td>Dense but critical for understanding &quot;responsible scaling&quot; as competitive moat vs. genuine safety practice. Saves hours of reading while preserving key arguments; necessary context for upcoming policy debates.</td>
-</tr>
-<tr>
-<td>3</td>
-<td><strong><a href="https://widal.substack.com/p/we-shipped-a-66-ticket-architecture">66 Tickets, 536 tests, 20k lines – Claude Code, 4 hours, zero magic to prod</a></strong> — <a href="https://news.ycombinator.com/item?id=47705376">Discussion</a></td>
-<td>Whether accurate or exaggerated, this represents the new benchmark for AI-assisted development claims. Worth analyzing methodology and comparing to your own team&#39;s velocity to calibrate expectations.</td>
-</tr>
-</tbody></table>
-<hr>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>
