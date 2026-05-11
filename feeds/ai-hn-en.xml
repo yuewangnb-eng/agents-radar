@@ -6,7 +6,175 @@
     <description>Hacker News AI Community Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-hn-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 10 May 2026 04:38:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 04:53:03 +0000</lastBuildDate>
+    <item>
+      <title>Hacker News AI Community Digest 2026-05-11</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-11/ai-hn-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-11/ai-hn-en</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI Community Digest 2026-05-11 Source: Hacker News | 30 stories | Generated: 2026-05-11 00:21 UTC Hacker News AI Community Digest — May 11, 2026 1. Today&amp;#39;s Highlights The HN AI community is buzzing about infrastructure costs and externalities, with Maryland&amp;#39;s $2B grid upgrade for out-of-state data centers topping the charts and sparking debate about who bears AI&amp;#39;s physical footprint. Claude Code&amp;#39;s ecosystem dominates tooling discussions, from academic research plugins...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-05-11</h1>
+<blockquote>
+<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-05-11 00:21 UTC</p>
+</blockquote>
+<hr>
+<h1>Hacker News AI Community Digest — May 11, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>The HN AI community is buzzing about <strong>infrastructure costs and externalities</strong>, with Maryland&#39;s $2B grid upgrade for out-of-state data centers topping the charts and sparking debate about who bears AI&#39;s physical footprint. <strong>Claude Code&#39;s ecosystem</strong> dominates tooling discussions, from academic research plugins to scheduling utilities and product context persistence—reflecting intense developer investment in Anthropic&#39;s agentic workflow. A fascinating philosophical undercurrent emerges around <strong>&quot;LLMorphism&quot;</strong> and how AI shapes human self-perception, while practical frustrations surface around AI-generated code quality (PS3 emulator PR flooding) and subscription policy grievances. Sentiment is notably <strong>skeptical-commercial</strong>: excitement about tooling utility mixed with wariness about corporate power concentration, hype cycles, and real-world costs.</p>
+<hr>
+<h2>2. Top News &amp; Discussions</h2>
+<h3>🔬 Models &amp; Research</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score / Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://arxiv.org/abs/2605.05419">LLMorphism: When humans come to see themselves as language models</a></strong> — <a href="https://news.ycombinator.com/item?id=48082021">Discussion</a></td>
+<td>69 / 50</td>
+<td>High engagement signals genuine philosophical concern about AI-mediated identity; community treats this as culturally significant beyond typical paper drops.</td>
+</tr>
+<tr>
+<td><strong><a href="https://github.com/kouhxp/showhn-rank">Ranking 1k ShowHN posts by estimated merit using an LLM judge and TrueSkill</a></strong> — <a href="https://news.ycombinator.com/item?id=48084170">Discussion</a></td>
+<td>6 / 1</td>
+<td>Meta-use of LLM evaluation for community content curation; niche but representative of HN&#39;s interest in algorithmic quality assessment.</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.bloomberg.com/news/articles/2026-05-08/humanoid-robots-aren-t-as-advanced-as-the-ai-hype-cycle-suggests">Humanoid Robots Are the Next Phase of the AI Hype Cycle</a></strong> — <a href="https://news.ycombinator.com/item?id=48086667">Discussion</a></td>
+<td>4 / 1</td>
+<td>Bloomberg&#39;s skepticism resonates with HN&#39;s cyclical hype fatigue; low engagement suggests &quot;told you so&quot; consensus rather than debate.</td>
+</tr>
+</tbody></table>
+<h3>🛠️ Tools &amp; Engineering</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score / Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://github.com/Imbad0202/academic-research-skills">Academic Research Skills for Claude Code</a></strong> — <a href="https://news.ycombinator.com/item?id=48083919">Discussion</a></td>
+<td>73 / 25</td>
+<td>Strongest tool reception; fills genuine gap for researchers using Claude Code, with community actively seeking workflow integrations.</td>
+</tr>
+<tr>
+<td><strong><a href="https://olliewagner.com/remind">Show HN: Remind – schedule Claude Code on your Mac</a></strong> — <a href="https://news.ycombinator.com/item?id=48080335">Discussion</a></td>
+<td>7 / 3</td>
+<td>Representative of emergent &quot;Claude Code ops&quot; ecosystem—automation of automation agents.</td>
+</tr>
+<tr>
+<td><strong><a href="https://github.com/jaksa76/agentize">Show HN: Make your codebase agent ready</a></strong> — <a href="https://news.ycombinator.com/item?id=48082649">Discussion</a></td>
+<td>4 / 0</td>
+<td>&quot;Agent-ready&quot; as developer priority reflects infrastructure adaptation to AI coding workflows; zero comments suggests early or contested concept.</td>
+</tr>
+<tr>
+<td><strong><a href="https://jry.io/writing/use-boring-languages-with-llms/">Use Boring Languages with LLMs</a></strong> — <a href="https://news.ycombinator.com/item?id=48084152">Discussion</a></td>
+<td>4 / 0</td>
+<td>Quietly contrarian take against chasing novel languages for AI coding; HN&#39;s pragmatic streak, though minimal engagement.</td>
+</tr>
+</tbody></table>
+<h3>🏢 Industry News</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score / Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises">Maryland citizens hit with $2B power grid upgrade for out-of-state AI</a></strong> — <a href="https://news.ycombinator.com/item?id=48088151">Discussion</a></td>
+<td>107 / 36</td>
+<td>Top story by wide margin; crystallizes growing backlash against AI&#39;s externalized infrastructure costs and regulatory arbitrage.</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.ft.com/content/a40cafcc-0fa4-4e70-9e24-90d826aea56d">Anthropic weighs deal for near $1T valuation as revenue surges</a></strong> — <a href="https://news.ycombinator.com/item?id=48080540">Discussion</a></td>
+<td>7 / 2</td>
+<td>Staggering valuation figure met with muted HN response—possibly numb to large numbers, or skepticism about sustainability.</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.ft.com/content/ac5d90a9-b010-4529-9616-706420920681">Chris Hohn&#39;s hedge fund slashes $8B MS stake in warning over AI disruption</a></strong> — <a href="https://news.ycombinator.com/item?id=48086863">Discussion</a></td>
+<td>7 / 1</td>
+<td>Financial market AI anxiety; low comments suggest HN treats this as business-as-usual rather than surprising signal.</td>
+</tr>
+<tr>
+<td><strong><a href="https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656">PS3 Emulator Devs Politely Ask That People Stop Flooding It with AI PRs</a></strong> — <a href="https://news.ycombinator.com/item?id=48089263">Discussion</a></td>
+<td>19 / 2</td>
+<td>Sympathetic reception to maintainer burden; emblematic of AI-generated code&#39;s quality and etiquette problems in open source.</td>
+</tr>
+</tbody></table>
+<h3>💬 Opinions &amp; Debates</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score / Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://news.ycombinator.com/item?id=48087925">Ask HN: Will low quality AI customer support be the new normal?</a></strong> — <a href="https://news.ycombinator.com/item?id=48087925">Discussion</a></td>
+<td>11 / 6</td>
+<td>Pessimistic premise draws commiseration; reflects user experience degradation anxiety as AI support proliferates.</td>
+</tr>
+<tr>
+<td><strong><a href="https://news.ycombinator.com/item?id=48084086">Ask HN: Is this the SWE workflow of the future?</a></strong> — <a href="https://news.ycombinator.com/item?id=48084086">Discussion</a></td>
+<td>10 / 9</td>
+<td>Workflow speculation with moderate engagement; community still negotiating what &quot;AI-native&quot; development looks like.</td>
+</tr>
+<tr>
+<td><strong><a href="https://news.ycombinator.com/item?id=48087073">Tell HN: Claude claims the AGPLv3 license violates its content policy</a></strong> — <a href="https://news.ycombinator.com/item?id=48087073">Discussion</a></td>
+<td>8 / 0</td>
+<td>Zero comments despite provocative claim—possibly flagged, ignored, or indicative of HN fatigue with AI safety/policy debates.</td>
+</tr>
+<tr>
+<td><strong><a href="https://garymarcus.substack.com/p/misplaced-panic-over-ai-progress">Misplaced Panic over AI Progress</a></strong> — <a href="https://news.ycombinator.com/item?id=48088176">Discussion</a></td>
+<td>4 / 0</td>
+<td>Gary Marcus&#39;s skepticism gets minimal traction; HN may be shifting from safety debates to practical implementation concerns.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Community Sentiment Signal</h2>
+<p>Today&#39;s HN AI discourse reveals a <strong>pragmatic, slightly weary community</strong> focused on <strong>immediate tooling and tangible costs</strong> rather than speculative futures. The highest engagement (score × comments) clusters around: <strong>(1)</strong> infrastructure externalities (Maryland grid story), <strong>(2)</strong> Claude Code ecosystem extensions, and <strong>(3)</strong> philosophical identity questions (LLMorphism). Notably absent are model capability benchmarks or &quot;GPT-X released&quot; excitement—suggesting maturation beyond pure capability chasing.</p>
+<p><strong>Controversy points</strong>: The Maryland story generates clear indignation about corporate welfare and ratepayer exploitation, with consensus against unchecked data center expansion. The AGPL/Claude content policy claim lands flat—possibly too absurd for engagement or suppressed. <strong>Consensus zones</strong>: AI-generated code quality remains problematic (PS3 emulator, &quot;boring languages&quot; advocacy); Claude Code is the current default tool exploration platform.</p>
+<p>Compared to prior cycles, there&#39;s a <strong>marked shift from &quot;AI will change everything&quot; to &quot;how do we manage what AI is already changing&quot;</strong>—grid loads, maintainer burdens, subscription policies, workflow integration. The near-$1T Anthropic valuation barely registers, suggesting valuation numbness or disconnection from developer reality. HN&#39;s AI interest is <strong>operationalizing</strong>, not evangelizing.</p>
+<hr>
+<h2>4. Worth Deep Reading</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Piece</th>
+<th>Reasoning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://arxiv.org/abs/2605.05419">LLMorphism paper</a></strong> — <a href="https://news.ycombinator.com/item?id=48082021">Discussion</a></td>
+<td>50 comments indicate substantive community engagement with a genuinely novel research direction. For researchers and builders, understanding how AI tools reshape human cognition and self-modeling is foundational to responsible design. The &quot;LLM as mirror&quot; framing may prove more durable than specific model architectures.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises">Maryland grid upgrade reporting</a></strong> — <a href="https://news.ycombinator.com/item?id=48088151">Discussion</a></td>
+<td>Essential reading for anyone in AI infrastructure, policy, or energy. This case study in regulatory capture and cost externalization will likely proliferate; understanding FERC dynamics and state-level resistance patterns matters for data center strategy and public interest technology work.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://github.com/Imbad0202/academic-research-skills">Academic Research Skills for Claude Code</a></strong> — <a href="https://news.ycombinator.com/item?id=48083919">Discussion</a></td>
+<td>Highest signal-to-noise tool post. For researchers and knowledge workers, this represents a concrete workflow innovation with clear adoption path. The 25-comment discussion likely contains implementation details and limitations worth mining for personal or team integration.</td>
+</tr>
+</tbody></table>
+<hr>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Hacker News AI Community Digest 2026-05-10</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-10/ai-hn-en</link>
@@ -4802,153 +4970,6 @@ Score: 10 | Comments: 2</p>
 <td>Surprisingly relevant infrastructure knowledge as AI development increasingly shifts to Apple Silicon for efficiency. Technical depth on virtualization constraints directly applicable to local model deployment strategies.</td>
 </tr>
 </tbody></table>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI Community Digest 2026-04-11</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-11/ai-hn-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-11/ai-hn-en</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI Community Digest 2026-04-11 Source: Hacker News | 30 stories | Generated: 2026-04-11 01:50 UTC Hacker News AI Community Digest — April 11, 2026 1. Today&amp;#39;s Highlights The HN AI community is consumed by OpenAI&amp;#39;s political maneuvering and personal security concerns, with the top two stories covering OpenAI&amp;#39;s backing of an Illinois liability shield bill and a molotov cocktail attack on Sam Altman&amp;#39;s home. Anthropic&amp;#39;s &amp;quot;Mythos&amp;quot; cybersecurity claims are facin...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-04-11</h1>
-<blockquote>
-<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-04-11 01:50 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI Community Digest — April 11, 2026</h1>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>The HN AI community is consumed by <strong>OpenAI&#39;s political maneuvering and personal security concerns</strong>, with the top two stories covering OpenAI&#39;s backing of an Illinois liability shield bill and a molotov cocktail attack on Sam Altman&#39;s home. <strong>Anthropic&#39;s &quot;Mythos&quot; cybersecurity claims</strong> are facing intense skepticism, with multiple posts debunking the narrative as marketing hype. Developer tooling remains active with several &quot;Claude Code&quot; alternatives and integrations launching. The overall sentiment is notably <strong>cynical toward AI lab marketing</strong> and <strong>concerned about regulatory capture</strong>, with high engagement on stories questioning corporate accountability.</p>
-<hr>
-<h2>2. Top News &amp; Discussions</h2>
-<h3>🔬 Models &amp; Research</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score/Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-claude-mythos-isnt-a-sentient-super-hacker-its-a-sales-pitch-claims-of-thousands-of-severe-zero-days-rely-on-just-198-manual-reviews">Anthropic&#39;s Claude Mythos isn&#39;t a sentient super-hacker, it&#39;s a sales pitch</a></strong> — <a href="https://news.ycombinator.com/item?id=47718155">HN</a></td>
-<td>34 / 21</td>
-<td>Direct debunking of Anthropic&#39;s security claims; community skeptical of &quot;thousands of zero-days&quot; narrative, sees it as fear-based marketing</td>
-</tr>
-<tr>
-<td><strong><a href="https://garymarcus.substack.com/p/three-reasons-to-think-that-the-claude">Reasons to think that the Mythos announcement from Anthropic was overblown</a></strong> — <a href="https://news.ycombinator.com/item?id=47717778">HN</a></td>
-<td>5 / 0</td>
-<td>Gary Marcus adds academic weight to the pushback; minimal engagement suggests fatigue with Mythos discourse</td>
-</tr>
-<tr>
-<td><strong><a href="https://imgur.com/AOAs7Aq">Anthropic injects reasoning_effort=25 into Claude.ai consumer system prompts</a></strong> — <a href="https://news.ycombinator.com/item?id=47724951">HN</a></td>
-<td>4 / 1</td>
-<td>Technical leak revealing Anthropic&#39;s prompt engineering; typical HN interest in implementation details</td>
-</tr>
-</tbody></table>
-<h3>🛠️ Tools &amp; Engineering</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score/Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://twill.ai">Launch HN: Twill.ai (YC S25) – Delegate to cloud agents, get back PRs</a></strong> — <a href="https://news.ycombinator.com/item?id=47720418">HN</a></td>
-<td>52 / 47</td>
-<td>YC-backed coding agent; moderate engagement with standard skepticism about &quot;vibe coding&quot; reliability</td>
-</tr>
-<tr>
-<td><strong><a href="https://eve.new/login">Show HN: Eve – Managed OpenClaw for work</a></strong> — <a href="https://news.ycombinator.com/item?id=47721255">HN</a></td>
-<td>30 / 25</td>
-<td>OpenClaw (Claude Code alternative) management layer; niche but signals demand for self-hosted AI coding tools</td>
-</tr>
-<tr>
-<td><strong><a href="https://tinycloud.cloudglue.dev/">Show HN: Tinycloud – Claude Code for video work</a></strong> — <a href="https://news.ycombinator.com/item?id=47720755">HN</a></td>
-<td>12 / 2</td>
-<td>Vertical application of agentic coding to video; low comments suggest either clarity or disinterest</td>
-</tr>
-<tr>
-<td><strong><a href="https://code.claude.com/docs/en/ultraplan">Claude Code: Plan in the cloud with ultraplan</a></strong> — <a href="https://news.ycombinator.com/item?id=47722009">HN</a></td>
-<td>4 / 1</td>
-<td>Anthropic&#39;s official feature launch; surprisingly low engagement indicates feature fatigue</td>
-</tr>
-</tbody></table>
-<h3>🏢 Industry News</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score/Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/">OpenAI backs Illinois bill that would limit when AI labs can be held liable</a></strong> — <a href="https://news.ycombinator.com/item?id=47717587">HN</a></td>
-<td>421 / 308</td>
-<td><strong>Top story</strong>: Aggressive regulatory capture effort; community outraged at liability shield, compares to Big Tech playbook</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.nytimes.com/2026/04/10/us/open-ai-sam-altman-molotov-cocktail.html">Molotov cocktail is hurled at home of Sam Altman</a></strong> — <a href="https://news.ycombinator.com/item?id=47722096">HN</a></td>
-<td>197 / 467</td>
-<td><strong>Second story</strong>: Violent escalation against AI leadership; unusually high comment-to-score ratio indicates heated ethical debate about culpability</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.theguardian.com/technology/2026/apr/10/us-summoned-bank-bosses-to-discuss-cyber-risks-posed-by-anthropic-latest-ai-model">US summons bank bosses over cyber risks from Anthropic&#39;s latest AI model</a></strong> — <a href="https://news.ycombinator.com/item?id=47718114">HN</a></td>
-<td>104 / 91</td>
-<td>Government alarm over Mythos; community split between &quot;responsible oversight&quot; and &quot;Moral Panic 2.0&quot;</td>
-</tr>
-<tr>
-<td><strong><a href="https://help.openai.com/en/articles/20001047-ads-in-chatgpt">Ads in ChatGPT</a></strong> — <a href="https://news.ycombinator.com/item?id=47716063">HN</a></td>
-<td>41 / 49</td>
-<td>Product degradation confirmation; resigned acceptance mixed with subscription regret</td>
-</tr>
-</tbody></table>
-<h3>💬 Opinions &amp; Debates</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score/Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://blog.raed.dev/posts/claude_code_clever_ideas/">Claude Code is a vibe-coded mess. Some of it is good</a></strong> — <a href="https://news.ycombinator.com/item?id=47720379">HN</a></td>
-<td>5 / 1</td>
-<td>Honest practitioner assessment; &quot;vibe-coded&quot; now established pejorative in HN lexicon</td>
-</tr>
-<tr>
-<td><strong><a href="https://nubira3.gumroad.com/l/claude-code-manual">Claude is powerful but the memory issue makes it painful for real projects</a></strong> — <a href="https://news.ycombinator.com/item?id=47722201">HN</a></td>
-<td>5 / 0</td>
-<td>Concrete productivity critique; zero comments suggests silent agreement</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.nbcnews.com/politics/politics-news/poll-majority-voters-say-risks-ai-outweigh-benefits-rcna262196">Poll: Majority of voters say risks of AI outweigh the benefits</a></strong> — <a href="https://news.ycombinator.com/item?id=47724634">HN</a></td>
-<td>4 / 1</td>
-<td>Public opinion shift; HN typically dismisses polls but context of other stories amplifies relevance</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Community Sentiment Signal</h2>
-<p>Today&#39;s HN AI discourse is <strong>polarized and paranoid</strong>, with exceptional energy around <strong>corporate accountability and physical safety</strong>. The OpenAI liability bill (421/308) and Altman attack (197/467) dominate, representing a collision of <strong>policy anxiety and real-world violence</strong>. The comment-to-score ratio on the Altman story (2.37:1) is extraordinarily high, indicating visceral disagreement about whether AI leaders bear moral responsibility for societal harms.</p>
-<p>A <strong>notable shift from last cycle</strong>: Anthropic has lost its &quot;trustworthy alternative&quot; positioning. Where Claude once enjoyed HN goodwill, Mythos skepticism is now the consensus—multiple debunking posts, minimal defense. The community has developed <strong>marketing immunity</strong> to AI safety claims, treating them as competitive positioning.</p>
-<p>Developer tooling discussion is <strong>pragmatic but fatigued</strong>. New &quot;Claude Code for X&quot; launches receive polite attention without excitement; the &quot;vibe coding&quot; critique encapsulates broader skepticism about agent reliability. There&#39;s appetite for alternatives (OpenClaw, Eve) but little patience for hype.</p>
-<p>Compared to 3-6 months ago, the <strong>regulatory framing has inverted</strong>: rather than demanding AI safety regulation, HN now fears regulatory capture <em>by</em> AI labs. The Illinois bill story&#39;s traction reflects mature cynicism about corporate &quot;safety&quot; advocacy.</p>
-<hr>
-<h2>4. Worth Deep Reading</h2>
-<ol>
-<li><p><strong><a href="https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/">OpenAI backs Illinois bill that would limit when AI labs can be held liable</a></strong> — Essential for understanding how AI liability frameworks are being shaped at state level; the 308-comment thread contains substantive legal analysis and comparisons to Section 230 history.</p>
-</li>
-<li><p><strong><a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-claude-mythos-isnt-a-sentient-super-hacker-its-a-sales-pitch-claims-of-thousands-of-severe-zero-days-rely-on-just-198-manual-reviews">Anthropic&#39;s Claude Mythos isn&#39;t a sentient super-hacker, it&#39;s a sales pitch</a></strong> — Case study in AI marketing deconstruction; valuable for researchers tracking how cybersecurity claims get amplified and contested.</p>
-</li>
-<li><p><strong><a href="https://thezvi.substack.com/p/claude-mythos-2-cybersecurity-and">Claude Mythos #2: Cybersecurity and Project Glasswing</a></strong> — Zvi&#39;s analysis offers calibrated perspective on whether Mythos represents genuine capability advance or strategic communication; useful for separating signal from noise in AI safety discourse.</p>
-</li>
-</ol>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>

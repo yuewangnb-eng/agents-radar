@@ -6,7 +6,132 @@
     <description>Product Hunt AI Products Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-ph-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 10 May 2026 04:38:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 04:53:03 +0000</lastBuildDate>
+    <item>
+      <title>Product Hunt AI Products Digest 2026-05-11</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-11/ai-ph-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-11/ai-ph-en</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <description>Product Hunt AI Products Digest 2026-05-11 Source: Product Hunt | 13 products | Generated: 2026-05-11 00:21 UTC Product Hunt AI Products Digest — May 11, 2026 1. Today&amp;#39;s Highlights Today&amp;#39;s Product Hunt AI launches reveal a clear shift toward AI agent infrastructure and developer tooling, with nearly half the products focused on enabling autonomous systems rather than end-user applications. Notably, OpenAI&amp;#39;s Codex in Chrome brings agentic browser automation directly to consumers, whil...</description>
+      <content:encoded><![CDATA[<h1>Product Hunt AI Products Digest 2026-05-11</h1>
+<blockquote>
+<p>Source: <a href="https://www.producthunt.com/">Product Hunt</a> | 13 products | Generated: 2026-05-11 00:21 UTC</p>
+</blockquote>
+<hr>
+<h1>Product Hunt AI Products Digest — May 11, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>Today&#39;s Product Hunt AI launches reveal a clear shift toward <strong>AI agent infrastructure and developer tooling</strong>, with nearly half the products focused on enabling autonomous systems rather than end-user applications. Notably, OpenAI&#39;s <strong>Codex in Chrome</strong> brings agentic browser automation directly to consumers, while <strong>ClawTick</strong> and <strong>Nylas CLI</strong> tackle the plumbing—scheduling and communications infrastructure—for AI agents. The robotics category sees continued open-source momentum with <strong>MolmoAct 2</strong> from the Allen Institute, which uniquely reasons in 3D before physical action. Hiring and organizational AI readiness assessment tools (<strong>Prism</strong>, <strong>How AI-pilled are you?</strong>) signal enterprise demand for AI integration benchmarking. Open-source remains strong with 4 of 13 products explicitly open-source, particularly in infrastructure and robotics.</p>
+<hr>
+<h2>2. Top Products by Category</h2>
+<h3>🤖 AI Agents &amp; Assistants</h3>
+<p><strong><a href="https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Codex in Chrome</a></strong> — <em>Let Codex navigate and automate tasks in your browser</em></p>
+<ul>
+<li><a href="https://www.producthunt.com/r/BBQP67LQNF2YSI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>102 votes</strong> | <strong>4 comments</strong></li>
+<li>Brings OpenAI&#39;s agent capabilities directly into Chrome for autonomous web navigation, eliminating context-switching between chat interfaces and browsers.</li>
+</ul>
+<p><strong><a href="https://www.producthunt.com/products/clawtick?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">ClawTick</a></strong> — <em>Cron jobs for AI agents w/ one command, zero infrastructure</em></p>
+<ul>
+<li><a href="https://www.producthunt.com/r/O2XICPZKHQQNAB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>92 votes</strong> | <strong>9 comments</strong></li>
+<li>Solves the scheduling and orchestration gap for AI agents with cron-like simplicity, removing infrastructure overhead for recurring agent tasks.</li>
+</ul>
+<hr>
+<h3>🛠️ Developer Tools</h3>
+<p><strong><a href="https://www.producthunt.com/products/bugdrop-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">BugDrop</a></strong> — <em>In-app feedback that creates GitHub Issues with screenshots</em></p>
+<ul>
+<li><a href="https://www.producthunt.com/r/2E7BA3SKSHOQ57?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>113 votes</strong> | <strong>7 comments</strong></li>
+<li>Bridges the user-to-developer feedback loop by automatically converting in-app bug reports into structured GitHub Issues with visual context.</li>
+</ul>
+<p><strong><a href="https://www.producthunt.com/products/staff-rip?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Staff.rip</a></strong> — <em>Describe a code change in plain language and ship it</em></p>
+<ul>
+<li><a href="https://www.producthunt.com/r/WRMY4NE5WR5MWG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>77 votes</strong> | <strong>6 comments</strong></li>
+<li>Natural language-to-deployment tool that abstracts git workflows, making code changes accessible to non-technical team members while maintaining engineering rigor.</li>
+</ul>
+<p><strong><a href="https://www.producthunt.com/products/clean-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Clean</a></strong> — <em>The first self-improving IDE that learns how your team codes</em></p>
+<ul>
+<li><a href="https://www.producthunt.com/r/YDM6FXMFEYIIET?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>48 votes</strong> | <strong>9 comments</strong></li>
+<li>Differentiates from Copilot/Cursor through team-specific learning loops that adapt to collective coding patterns rather than individual habits.</li>
+</ul>
+<hr>
+<h3>📊 AI Applications</h3>
+<p><strong><a href="https://www.producthunt.com/products/prism-26?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Prism</a></strong> — <em>Hire the best candidates, not just the available</em></p>
+<ul>
+<li><a href="https://www.producthunt.com/r/DIVTU6GNB4UXR5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>207 votes</strong> | <strong>21 comments</strong></li>
+<li>Tackles talent market inefficiency by proactively identifying and engaging passive candidates rather than competing for active job-seekers.</li>
+</ul>
+<p><strong><a href="https://www.producthunt.com/products/how-ai-pilled-are-you?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">How AI-pilled are you?</a></strong> — <em>Curious how AI-fluent your organization is?</em></p>
+<ul>
+<li><a href="https://www.producthunt.com/r/VMYGQWTHUUE2CR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>236 votes</strong> | <strong>12 comments</strong></li>
+<li>Diagnostic tool addressing the enterprise need to benchmark and map AI readiness across teams, filling a gap between hype and operational reality.</li>
+</ul>
+<p><strong><a href="https://www.producthunt.com/products/goldenretriever?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">GoldenRetriever.ai Public Beta</a></strong> — <em>Search for stuff that&#39;s not in the transcripts</em></p>
+<ul>
+<li><a href="https://www.producthunt.com/r/BCPWRMNZUNFSTY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>64 votes</strong> | <strong>3 comments</strong></li>
+<li>Solves the &quot;what was said vs. what was meant&quot; problem in meeting search by inferring implicit information beyond literal transcripts.</li>
+</ul>
+<hr>
+<h3>🎨 Creative &amp; Content</h3>
+<p><em>No products in this category today.</em></p>
+<hr>
+<h3>🔧 Infrastructure &amp; Models</h3>
+<p><strong><a href="https://www.producthunt.com/products/ghost-8?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Ghost</a></strong> — <em>Open-source, self-hosted game servers</em></p>
+<ul>
+<li><a href="https://www.producthunt.com/r/2P6JXG53QD4245?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>322 votes</strong> | <strong>19 comments</strong></li>
+<li>Top vote-getter enabling developers to self-host multiplayer game infrastructure, reducing dependency on proprietary gaming platforms.</li>
+</ul>
+<p><strong><a href="https://www.producthunt.com/products/allen-institute-of-artificial-intelligence?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">MolmoAct 2</a></strong> — <em>Open robotics model that reasons in 3D before acting</em></p>
+<ul>
+<li><a href="https://www.producthunt.com/r/VDVLJHM4KCR5UC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>95 votes</strong> | <strong>3 comments</strong></li>
+<li>Novel 3D spatial reasoning prior to action execution represents advance over reactive robotics, enabling more deliberate and safe physical manipulation.</li>
+</ul>
+<p><strong><a href="https://www.producthunt.com/products/openexp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">OpenExp</a></strong> — <em>Save, reuse, share AI agent runs that worked</em></p>
+<ul>
+<li><a href="https://www.producthunt.com/r/OAEQHBRB4ZF3LG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>14 votes</strong> | <strong>2 comments</strong></li>
+<li>Addresses reproducibility crisis in agent development by versioning successful runs as shareable artifacts, akin to model checkpoints for workflows.</li>
+</ul>
+<hr>
+<h2>3. Market Signal</h2>
+<p><strong>Developer tooling and AI agent infrastructure dominate today&#39;s launches</strong>, comprising 9 of 13 products. The most crowded category is developer tools (5 products), followed closely by agent infrastructure (4 products). Notably absent are consumer-facing creative tools—no image, video, or text generation products launched today—suggesting either market saturation or a temporary pivot toward B2B and infrastructure plays.</p>
+<p>Several innovative approaches emerge: <strong>3D reasoning-before-action in robotics</strong> (MolmoAct 2), <strong>organizational AI fluency diagnostics</strong> (How AI-pilled are you?), and <strong>team-learning IDEs</strong> (Clean) represent genuine conceptual advances rather than incremental improvements. The <strong>&quot;cron for agents&quot;</strong> pattern (ClawTick) suggests infrastructure maturation as agents shift from experimental to operational deployments.</p>
+<p>Open-source claims 4 explicit products (Ghost, BugDrop, MolmoAct 2, OpenExp), with several others likely open-core. This 31% open-source rate, concentrated in infrastructure and robotics, indicates continued strategic openness in foundational layers while application layers remain predominantly proprietary. The YC-backed presence (Staff.rip, Clean) signals continued accelerator confidence in AI-native developer tools.</p>
+<hr>
+<h2>4. Worth Trying</h2>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Why Developers Should Try</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://www.producthunt.com/products/clawtick?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">ClawTick</a></strong> (<a href="https://www.producthunt.com/r/O2XICPZKHQQNAB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a>)</td>
+<td>Zero-infrastructure agent scheduling solves a genuine pain point as developers move from single-shot to recurring agent workflows; the cron abstraction is immediately intuitive.</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.producthunt.com/products/openexp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">OpenExp</a></strong> (<a href="https://www.producthunt.com/r/OAEQHBRB4ZF3LG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a>)</td>
+<td>Reproducibility in agent development is underaddressed; this open-source tool could become essential infrastructure as agent complexity grows.</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.producthunt.com/products/clean-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Clean</a></strong> (<a href="https://www.producthunt.com/r/YDM6FXMFEYIIET?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a>)</td>
+<td>Team-specific IDE learning represents a plausible differentiation from incumbent AI coding tools; worth evaluating for engineering teams seeking cohesive rather than individual productivity gains.</td>
+</tr>
+</tbody></table>
+<hr>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Product Hunt AI Products Digest 2026-05-10</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-10/ai-ph-en</link>
@@ -3739,112 +3864,6 @@ Website: <a href="https://www.producthunt.com/r/FJM4K3NC2D6N6V?utm_campaign=prod
 </tr>
 </tbody></table>
 <hr>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Product Hunt AI Products Digest 2026-04-11</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-11/ai-ph-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-11/ai-ph-en</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Product Hunt AI Products Digest 2026-04-11 Source: Product Hunt | 9 products | Generated: 2026-04-11 01:50 UTC Product Hunt AI Products Digest — April 11, 2026 1. Today&amp;#39;s Highlights Today&amp;#39;s Product Hunt launches reveal a clear maturation of the AI agent ecosystem, with infrastructure and tooling taking center stage over pure consumer applications. Brila dominated with 1,190 votes by solving a genuinely novel problem—transforming Google Maps reviews into instant one-page websites—demonstr...</description>
-      <content:encoded><![CDATA[<h1>Product Hunt AI Products Digest 2026-04-11</h1>
-<blockquote>
-<p>Source: <a href="https://www.producthunt.com/">Product Hunt</a> | 9 products | Generated: 2026-04-11 01:50 UTC</p>
-</blockquote>
-<hr>
-<h1>Product Hunt AI Products Digest — April 11, 2026</h1>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>Today&#39;s Product Hunt launches reveal a clear maturation of the AI agent ecosystem, with infrastructure and tooling taking center stage over pure consumer applications. <strong>Brila</strong> dominated with 1,190 votes by solving a genuinely novel problem—transforming Google Maps reviews into instant one-page websites—demonstrating how AI can repurpose existing business data into marketing assets. The standout trend is <strong>agent infrastructure</strong>: four of nine products focus on giving AI agents persistent environments, team collaboration capabilities, or dedicated communication channels (email inboxes, VMs, managed hosting). Notably, <strong>Offsite</strong> and <strong>AgentMail</strong> point toward a future where human-AI hybrid teams operate as standard organizational units rather than experimental setups.</p>
-<hr>
-<h2>2. Top Products by Category</h2>
-<h3>🤖 AI Agents &amp; Assistants</h3>
-<p><strong><a href="https://www.producthunt.com/products/offsite-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Offsite</a></strong> — Build teams of humans and agents, watch them work.</p>
-<ul>
-<li><a href="https://www.producthunt.com/r/KG36GR2MASCFOD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
-<li><strong>561 votes</strong> | <strong>80 comments</strong></li>
-<li>Solves the orchestration problem for hybrid human-AI teams with real-time visibility into agent workflows.</li>
-</ul>
-<hr>
-<h3>🛠️ Developer Tools</h3>
-<p><strong><a href="https://www.producthunt.com/products/grass-claude-code-from-your-phone?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Grass</a></strong> — Gives your coding agent a dedicated VM that&#39;s ready 24/7</p>
-<ul>
-<li><a href="https://www.producthunt.com/r/KJ5P7ZUD7POM4A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
-<li><strong>281 votes</strong> | <strong>39 comments</strong></li>
-<li>Eliminates environment setup friction by providing persistent, always-on VMs specifically designed for AI coding agents.</li>
-</ul>
-<p><strong><a href="https://www.producthunt.com/products/smuggl?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Smuggl</a></strong> — Share your localhost as an invite only link</p>
-<ul>
-<li><a href="https://www.producthunt.com/r/E2EVSJ63H7365K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
-<li><strong>196 votes</strong> | <strong>30 comments</strong></li>
-<li>Enables secure, instant sharing of local development environments—critical for AI agent demos and collaborative debugging.</li>
-</ul>
-<hr>
-<h3>📊 AI Applications</h3>
-<p><strong><a href="https://www.producthunt.com/products/brila-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Brila</a></strong> — One-page websites from real Google Maps reviews</p>
-<ul>
-<li><a href="https://www.producthunt.com/r/2ENSJE4L7JILGP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
-<li><strong>1,190 votes</strong> | <strong>238 comments</strong></li>
-<li>Transforms unstructured review data into structured, conversion-optimized landing pages—bridging reputation management and web presence.</li>
-</ul>
-<p><strong><a href="https://www.producthunt.com/products/convert-or-not?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Convert or Not</a></strong> — Simulate first-time users. See why they drop off</p>
-<ul>
-<li><a href="https://www.producthunt.com/r/3OSLA7N3QP6O7F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
-<li><strong>163 votes</strong> | <strong>35 comments</strong></li>
-<li>Uses AI to generate synthetic user journeys that surface friction points before real customers encounter them.</li>
-</ul>
-<hr>
-<h3>🎨 Creative &amp; Content</h3>
-<p><strong><a href="https://www.producthunt.com/products/lunagraph?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Lunagraph</a></strong> — Your design canvas that writes code powered by AI</p>
-<ul>
-<li><a href="https://www.producthunt.com/r/7AH5T7WYHMIII7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
-<li><strong>145 votes</strong> | <strong>15 comments</strong></li>
-<li>Merges visual design and production code generation in a single canvas, reducing designer-developer handoff overhead.</li>
-</ul>
-<hr>
-<h3>🔧 Infrastructure &amp; Models</h3>
-<p><strong><a href="https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Claude Managed Agents</a></strong> — Pre-built agent harness on managed infrastructure</p>
-<ul>
-<li><a href="https://www.producthunt.com/r/TWDXRABVXM6OGL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
-<li><strong>155 votes</strong> | <strong>1 comment</strong></li>
-<li>Anthropic&#39;s official managed infrastructure for deploying Claude agents, signaling enterprise-grade agent hosting as a core platform bet.</li>
-</ul>
-<p><strong><a href="https://www.producthunt.com/products/agentmail?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">AgentMail</a></strong> — Email Inboxes for AI Agents</p>
-<ul>
-<li><a href="https://www.producthunt.com/r/M4HONGJQGO5663?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
-<li><strong>228 votes</strong> | <strong>54 comments</strong></li>
-<li>Provides dedicated email infrastructure for agents to send/receive messages, enabling autonomous business communication workflows.</li>
-</ul>
-<hr>
-<h2>3. Market Signal</h2>
-<p><strong>Agent infrastructure dominates.</strong> Four of nine products (44%) focus on enabling AI agents to operate persistently and independently—VMs, email inboxes, team orchestration, and managed hosting. This signals a shift from &quot;AI features&quot; to &quot;AI employees&quot; as the framing, with builders solving the unsexy but critical problems of state management, authentication, and communication channels.</p>
-<p><strong>Developer tooling crowds the middle tier.</strong> While Brila&#39;s consumer-friendly positioning captured top votes, developer-facing products (#3-#7) cluster tightly in the 145-281 vote range, suggesting a fragmented but active market without clear category winners yet.</p>
-<p><strong>Open source remains niche.</strong> Only <strong><a href="https://www.producthunt.com/products/ycode?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Ycode</a></strong> (<a href="https://www.producthunt.com/r/RH6F4GH6HJ32GA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a>) flies the open-source flag, and it ranks last despite Webflow&#39;s proven market. This suggests infrastructure-layer openness hasn&#39;t become a differentiator for AI-native products—builders prioritize managed reliability over customization.</p>
-<p><strong>Novel use case:</strong> Brila&#39;s review-to-website pipeline represents &quot;ambient AI&quot;—extracting value from existing data exhaust rather than requiring new user input. Expect more products that repurpose platform-native data (Slack histories, Notion docs, CRM logs) into actionable outputs.</p>
-<hr>
-<h2>4. Worth Trying</h2>
-<table>
-<thead>
-<tr>
-<th>Product</th>
-<th>Why Developers Should Try</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://www.producthunt.com/products/grass-claude-code-from-your-phone?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Grass</a></strong> (<a href="https://www.producthunt.com/r/KJ5P7ZUD7POM4A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a>)</td>
-<td>If you&#39;re running Claude Code, Cursor, or similar agents locally, the &quot;always-on VM&quot; abstraction eliminates the painful state loss when your laptop sleeps—essential for long-running agent tasks.</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.producthunt.com/products/agentmail?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">AgentMail</a></strong> (<a href="https://www.producthunt.com/r/M4HONGJQGO5663?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a>)</td>
-<td>Email remains the universal business API; giving agents dedicated inboxes unlocks autonomous customer support, sales outreach, and vendor coordination without fragile SMTP workarounds.</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.producthunt.com/products/smuggl?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Smuggl</a></strong> (<a href="https://www.producthunt.com/r/E2EVSJ63H7365K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a>)</td>
-<td>Simple but critical for agent demos—when your AI builds something locally, Smuggl lets you share it instantly with stakeholders without deployment complexity.</td>
-</tr>
-</tbody></table>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>

@@ -6,7 +6,147 @@
     <description>Tech Community AI Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-community-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 10 May 2026 04:38:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 04:53:03 +0000</lastBuildDate>
+    <item>
+      <title>Tech Community AI Digest 2026-05-11</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-11/ai-community-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-11/ai-community-en</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <description>Tech Community AI Digest 2026-05-11 Sources: Dev.to (30 articles) + Lobste.rs (11 stories) | Generated: 2026-05-11 00:21 UTC Tech Community AI Digest — May 11, 2026 1. Today&amp;#39;s Highlights The developer community is intensely focused on MCP (Model Context Protocol) as the emerging standard for AI tool integration, with multiple projects building production servers and organizational platforms. AI agents dominate mindshare—developers are grappling with trust, context governance, and the unsettl...</description>
+      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-05-11</h1>
+<blockquote>
+<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (11 stories) | Generated: 2026-05-11 00:21 UTC</p>
+</blockquote>
+<hr>
+<h1>Tech Community AI Digest — May 11, 2026</h1>
+<h2>1. Today&#39;s Highlights</h2>
+<p>The developer community is intensely focused on <strong>MCP (Model Context Protocol)</strong> as the emerging standard for AI tool integration, with multiple projects building production servers and organizational platforms. <strong>AI agents</strong> dominate mindshare—developers are grappling with trust, context governance, and the unsettling reality of watching agents autonomously execute transactions. A stark tension emerges between <strong>open-weight accessibility</strong> (with concerns about commercial models closing up) and <strong>cost-efficient Chinese competition</strong> disrupting US AI pricing. Meanwhile, practical tooling for coding agents (AGENTS.md, Claude Code analysis) and specialized architectures (200+ model systems, sub-200ms translation) show the field maturing beyond hype into engineering discipline.</p>
+<hr>
+<h2>2. Dev.to Highlights</h2>
+<table>
+<thead>
+<tr>
+<th>Article</th>
+<th>Engagement</th>
+<th>Key Takeaway</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://dev.to/shrsv/fastmcp-build-production-ready-mcp-servers-in-python-with-minimal-boilerplate-5fgc"><strong>FastMCP: Build Production-Ready MCP Servers in Python with Minimal Boilerplate</strong></a></td>
+<td>12 reactions, 1 comment</td>
+<td>The most popular Dev.to AI post today: a practical Python framework for the protocol developers are rapidly adopting.</td>
+</tr>
+<tr>
+<td><a href="https://dev.to/jisheng_agent/i-designed-an-ai-architecture-with-200-specialist-models-and-it-makes-gpt-55-look-like-a-2ef6"><strong>I Designed an AI Architecture With 200+ Specialist Models — And It Makes GPT-5.5 Look Like a Calculator</strong></a></td>
+<td>6 reactions, 0 comments</td>
+<td>Explores whether massive specialist ensembles can outperform monolithic foundation models on complex tasks.</td>
+</tr>
+<tr>
+<td><a href="https://dev.to/iroom/how-we-built-a-sub-200ms-multilingual-chat-system-translating-100-languages-with-our-own-llm-55d8"><strong>How We Built a Sub-200ms Multilingual Chat System Translating 100+ Languages with Our Own LLM</strong></a></td>
+<td>5 reactions, 1 comment</td>
+<td>Real-world engineering on extreme low-latency translation infrastructure—relevant for global product teams.</td>
+</tr>
+<tr>
+<td><a href="https://dev.to/yash_sonawane25/the-ai-cold-war-has-started-why-chinese-ai-models-are-destroying-us-ai-on-price-1eej"><strong>The AI Cold War Has Started: Why Chinese AI Models Are Destroying US AI on Price</strong></a></td>
+<td>5 reactions, 0 comments</td>
+<td>Frames the geopolitical pricing pressure that may reshape how developers choose and deploy models.</td>
+</tr>
+<tr>
+<td><a href="https://dev.to/thegdsks/the-first-time-you-watch-an-ai-agent-buy-something-you-will-feel-something-you-cannot-name-35f3"><strong>The first time you watch an AI agent buy something, you will feel something you cannot name.</strong></a></td>
+<td>5 reactions, 0 comments</td>
+<td>A visceral, personal account of autonomous agent execution that captures the uncanny valley of agentic AI.</td>
+</tr>
+<tr>
+<td><a href="https://dev.to/jeetvora331/i-shipped-an-npm-package-with-an-agentsmd-file-heres-why-every-library-should-do-this-3ofn"><strong>I Shipped an npm Package With an AGENTS.md File, Here&#39;s Why Every Library Should Do This</strong></a></td>
+<td>4 reactions, 0 comments</td>
+<td>Proposes a new standard for making codebases legible to coding agents—practical and immediately adoptable.</td>
+</tr>
+<tr>
+<td><a href="https://dev.to/wizard-ecosystem/what-i-learned-building-a-multi-agent-ai-system-that-no-tutorial-warned-me-about-mgd"><strong>What I Learned Building a Multi-Agent AI System (That No Tutorial Warned Me About)</strong></a></td>
+<td>3 reactions, 1 comment</td>
+<td>Battle-tested lessons from actually shipping multi-agent systems, not just prototyping them.</td>
+</tr>
+<tr>
+<td><a href="https://dev.to/lien_jp_db54b8b7fd9fa0118/context-governance-for-coding-agents-bgl"><strong>Context Governance for Coding Agents</strong></a></td>
+<td>1 reaction, 1 comment</td>
+<td>Deep 25-minute read on how Claude Code manages context and why governance matters as agents scale.</td>
+</tr>
+<tr>
+<td><a href="https://dev.to/tykolt/i-built-an-mcp-server-for-a-knowledge-graph-it-doesnt-call-any-llm-211b"><strong>I built an MCP server for a knowledge graph. It doesn&#39;t call any LLM.</strong></a></td>
+<td>1 reaction, 1 comment</td>
+<td>Demonstrates MCP&#39;s flexibility beyond LLM pipelines—useful for structured data and deterministic workflows.</td>
+</tr>
+<tr>
+<td><a href="https://dev.to/cihangir_bozdogan_76b8c99/ai-cited-a-url-that-didnt-contain-the-claim-i-built-the-tooling-to-measure-how-often-76m"><strong>AI Cited a URL That Didn&#39;t Contain the Claim. I Built the Tooling to Measure How Often</strong></a></td>
+<td>1 reaction, 0 comments</td>
+<td>Rigorous research on citation hallucination with four distinct failure modes—essential for RAG reliability.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Lobste.rs Highlights</h2>
+<table>
+<thead>
+<tr>
+<th>Story</th>
+<th>Engagement</th>
+<th>Why It&#39;s Worth Reading</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://martinalderson.com/posts/open-weights-are-quietly-closing-up/"><strong>Open weights are quietly closing up - and that&#39;s a problem</strong></a> — <a href="https://lobste.rs/s/jvvtif/open_weights_are_quietly_closing_up_s">Discussion</a></td>
+<td>43 points, 24 comments</td>
+<td>The highest-scoring, most-discussed story: a critical alarm about the erosion of open-weight model availability that underpins much of the current developer tooling ecosystem.</td>
+</tr>
+<tr>
+<td><a href="https://joel.place/blog/path-not-taken/"><strong>A Path Not Taken for OxCaml</strong></a> — <a href="https://lobste.rs/s/ik5vhe/path_not_taken_for_oxcaml">Discussion</a></td>
+<td>24 points, 4 comments</td>
+<td>Thoughtful PLT perspective on language design choices with implications for how ML/AI languages evolve.</td>
+</tr>
+<tr>
+<td><a href="https://mojolang.org/releases/v1.0.0b1"><strong>Mojo v1.0.0b1</strong></a> — <a href="https://lobste.rs/s/zys8hd/mojo_v1_0_0b1">Discussion</a></td>
+<td>22 points, 0 comments</td>
+<td>A significant milestone for the AI-native systems language—worth tracking if you do performance-critical model serving.</td>
+</tr>
+<tr>
+<td><a href="https://wil.to/posts/googles-prompt-api/"><strong>Google&#39;s Prompt API</strong></a> — <a href="https://lobste.rs/s/at9lwa/google_s_prompt_api">Discussion</a></td>
+<td>20 points, 2 comments</td>
+<td>Practical analysis of Google&#39;s browser-integrated AI API and what it means for web developers building AI features.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/kyegomez/OpenMythos"><strong>OpenMythos: A theoretical reconstruction of the Claude Mythos architecture</strong></a> — <a href="https://lobste.rs/s/zyjkpd/openmythos_theoretical_reconstruction">Discussion</a></td>
+<td>9 points, 0 comments</td>
+<td>Reverse-engineering research on Anthropic&#39;s architecture from public literature—valuable for understanding frontier model design.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/rdmsr/sectorllm"><strong>sectorllm: llama2 inference in &lt; 1500 bytes of x86 assembly</strong></a> — <a href="https://lobste.rs/s/5ond6x/sectorllm_llama2_inference_1500_bytes">Discussion</a></td>
+<td>3 points, 0 comments</td>
+<td>Extreme minimalism meets LLM inference—a technical feat that challenges assumptions about deployment constraints.</td>
+</tr>
+<tr>
+<td><a href="https://medium.com/blueprint-for-disaster/ai-summaries-are-a-threat-to-our-cognitive-sovereignty-917afc37692f"><strong>Do AI summaries hurt critical thinking?</strong></a> — <a href="https://lobste.rs/s/txbgo5/do_ai_summaries_hurt_critical_thinking">Discussion</a></td>
+<td>2 points, 2 comments</td>
+<td>Rare philosophical counterpoint in a technical community, questioning whether AI convenience erodes developer autonomy.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>4. Community Pulse</h2>
+<p>Both Dev.to and Lobste.rs reveal a developer community <strong>transitioning from AI experimentation to operational discipline</strong>. MCP (Model Context Protocol) has crossed the chasm from niche standard to practical necessity—developers are building servers, platforms, and organizational tooling around it. The parallel obsession with <strong>coding agents</strong> shows maturation: instead of &quot;can agents code?&quot; the questions are now &quot;how do we govern their context?&quot; (LienJack&#39;s Claude Code analysis), &quot;how do we make codebases agent-readable?&quot; (AGENTS.md), and &quot;can we trust them in enterprise?&quot; (Andrew Kew).</p>
+<p>A <strong>trust and reliability undercurrent</strong> runs through both platforms. Lobste.rs&#39; top story warns about open-weight erosion; Dev.to has multiple posts on hallucination measurement, citation integrity, and the visceral unease of autonomous agent actions. Developers are <strong>pricing-sensitive and geopolitically aware</strong>—Chinese model competition and cost efficiency appear repeatedly.</p>
+<p>Practical patterns are crystallizing: prompt engineering simplification, dual-encoder architectures for search, self-updating knowledge systems, and distributed systems patterns for agent stacks. The community is simultaneously <strong>excited by capability and anxious about dependency</strong>—building tooling to measure failure modes even as they ship agentic features.</p>
+<hr>
+<h2>5. Worth Reading</h2>
+<ol>
+<li><p><strong><a href="https://martinalderson.com/posts/open-weights-are-quietly-closing-up/">Open weights are quietly closing up - and that&#39;s a problem</a></strong> — The most important systemic read today. With 43 points and 24 comments on Lobste.rs, this captures a structural risk to the open ecosystem that underpins most developer AI tooling. If commercial incentives close off open weights, today&#39;s MCP servers, local inference stacks, and customization patterns face existential threat.</p>
+</li>
+<li><p><strong><a href="https://dev.to/lien_jp_db54b8b7fd9fa0118/context-governance-for-coding-agents-bgl">Context Governance for Coding Agents</a></strong> — At 25 minutes, this is the deepest technical read on how production agent systems manage context. Essential if you&#39;re building or evaluating coding agents at scale; the Claude Code comparison provides concrete benchmarks.</p>
+</li>
+<li><p><strong><a href="https://dev.to/cihangir_bozdogan_76b8c99/ai-cited-a-url-that-didnt-contain-the-claim-i-built-the-tooling-to-measure-how-often-76m">AI Cited a URL That Didn&#39;t Contain the Claim. I Built the Tooling to Measure How Often</a></strong> — The kind of rigorous, uncomfortable research that improves the field. Four distinct hallucination modes with measurement methodology; if you&#39;re building RAG or any citation-dependent AI system, this provides actionable diagnostic frameworks.</p>
+</li>
+</ol>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Tech Community AI Digest 2026-05-10</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-10/ai-community-en</link>
@@ -3691,193 +3831,6 @@ An antidote to the productivity-obsessed discourse. Boykis argues for slowness, 
 <td>Sloan&#39;s essay offers necessary conceptual clarity on AI consciousness claims, helping developers navigate hype with philosophical grounding.</td>
 </tr>
 </tbody></table>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Tech Community AI Digest 2026-04-11</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-11/ai-community-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-11/ai-community-en</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Tech Community AI Digest 2026-04-11 Sources: Dev.to (30 articles) + Lobste.rs (7 stories) | Generated: 2026-04-11 01:50 UTC Tech Community AI Digest — April 11, 2026 1. Today&amp;#39;s Highlights Dev.to and Lobste.rs are buzzing with practical AI tooling fatigue and developer workflow reinvention. Three themes dominate: engineers building personal AI runtimes to escape vendor lock-in (Rune, Blackdesk), the tension between AI-generated code velocity and maintainability (TDD with AI agents, &amp;quot;When...</description>
-      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-04-11</h1>
-<blockquote>
-<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (7 stories) | Generated: 2026-04-11 01:50 UTC</p>
-</blockquote>
-<hr>
-<h1>Tech Community AI Digest — April 11, 2026</h1>
-<h2>1. Today&#39;s Highlights</h2>
-<p>Dev.to and Lobste.rs are buzzing with <strong>practical AI tooling fatigue</strong> and <strong>developer workflow reinvention</strong>. Three themes dominate: engineers building personal AI runtimes to escape vendor lock-in (Rune, Blackdesk), the tension between AI-generated code velocity and maintainability (TDD with AI agents, &quot;When AI Makes You Forget How to Code&quot;), and security concerns around prompt injection and system prompt leaks. The community is shifting from &quot;AI hype&quot; to &quot;AI hygiene&quot; — cost tracking, observability, and structured collaboration patterns.</p>
-<hr>
-<h2>2. Dev.to Highlights — 10 Most Valuable Articles</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>Title + Link</th>
-<th>Reactions / Comments</th>
-<th>Key Takeaway</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td><strong><a href="https://dev.to/dannwaneri/the-formula-was-exact-the-assumption-was-wrong-thats-not-an-ai-problem-58dm">The Formula Was Exact. The Assumption Was Wrong. That&#39;s Not an AI Problem.</a></strong></td>
-<td>11 / 1</td>
-<td>Your mental models matter more than model choice—geology governs geophysics.</td>
-</tr>
-<tr>
-<td>2</td>
-<td><strong><a href="https://dev.to/om_shree_0709/inside-anthropics-project-glasswing-the-ai-model-that-found-zero-days-in-every-major-os-2g33">Inside Anthropic&#39;s Project Glasswing: The AI Model That Found Zero-Days in Every Major OS</a></strong></td>
-<td>10 / 0</td>
-<td>Security-focused AI agents are moving from concept to critical infrastructure.</td>
-</tr>
-<tr>
-<td>3</td>
-<td><strong><a href="https://dev.to/yiyaocai/i-pointed-claude-code-at-my-local-ollama-models-heres-the-3-minute-setup-4hha">I Pointed Claude Code at My Local Ollama Models — Here&#39;s the 3-Minute Setup</a></strong></td>
-<td>7 / 4</td>
-<td>Local AI workflows without API keys or cloud costs—practical decentralization.</td>
-</tr>
-<tr>
-<td>4</td>
-<td><strong><a href="https://dev.to/descope/adding-authentication-and-remote-support-to-a-local-mcp-server-32l4">Adding Authentication and Remote Support to a Local MCP Server</a></strong></td>
-<td>6 / 0</td>
-<td>Production-hardening Model Context Protocol servers for real deployments.</td>
-</tr>
-<tr>
-<td>5</td>
-<td><strong><a href="https://dev.to/jonoherrington/when-ai-makes-you-forget-how-to-code-5cm7">When AI Makes You Forget How to Code</a></strong></td>
-<td>6 / 1</td>
-<td>The cognitive cost of over-reliance—junior engineers&#39; struggle with fundamentals.</td>
-</tr>
-<tr>
-<td>6</td>
-<td><strong><a href="https://dev.to/dhananjaylakkawar/reverse-rag-building-ai-driven-synthetic-staging-environments-on-aws-5bcj">Reverse-RAG: Building AI-Driven Synthetic Staging Environments on AWS</a></strong></td>
-<td>5 / 3</td>
-<td>Using retrieval patterns to spin up realistic test environments dynamically.</td>
-</tr>
-<tr>
-<td>7</td>
-<td><strong><a href="https://dev.to/ivan_magda_8417a0295eb/subagents-context-isolation-through-recursive-agent-loops-7m6i">Subagents: Context Isolation Through Recursive Agent Loops</a></strong></td>
-<td>5 / 0</td>
-<td>Architecture pattern: child agents with fresh contexts prevent pollution.</td>
-</tr>
-<tr>
-<td>8</td>
-<td><strong><a href="https://dev.to/tokenmixai/12-free-llm-apis-you-can-use-right-now-no-credit-card-real-limits-tested-13f8">12 Free LLM APIs You Can Use Right Now (No Credit Card, Real Limits Tested)</a></strong></td>
-<td>5 / 2</td>
-<td>Curated, actually-tested free tiers—essential for bootstrapped projects.</td>
-</tr>
-<tr>
-<td>9</td>
-<td><strong><a href="https://dev.to/thegdsks/060-per-session-what-my-ai-agent-was-doing-before-writing-any-code-28i5">$0.60 per Session: What My AI Agent Was Doing Before Writing Any Code</a></strong></td>
-<td>4 / 0</td>
-<td>Pre-coding agent orientation—reducing wasted tokens through structured setup.</td>
-</tr>
-<tr>
-<td>10</td>
-<td><strong><a href="https://dev.to/thegdsks/i-tested-4-codebase-to-ai-tools-on-fastapi-108k-lines-here-are-the-token-costs-4bmc">I Tested 4 Codebase-to-AI Tools on FastAPI (108k lines). Here Are the Token Costs.</a></strong></td>
-<td>4 / 1</td>
-<td>Empirical cost analysis: real numbers for large-scale AI-assisted refactoring.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Lobste.rs Highlights — 8 Most Notable Stories</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>Title + Link</th>
-<th>Score / Comments</th>
-<th>Why Read</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td><strong><a href="https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact">How Is Your Org/Company Measuring the Impact of AI Adoption?</a></strong></td>
-<td>9 / 2</td>
-<td>Practical metrics discussion—moving beyond &quot;developer happiness&quot; to business outcomes.</td>
-</tr>
-<tr>
-<td>2</td>
-<td><strong><a href="https://arxiv.org/abs/2604.01193">Embarrassingly Simple Self-Distillation Improves Code Generation</a></strong> <a href="https://lobste.rs/s/bor4wy/embarrassingly_simple_self_distillation">Discussion</a></td>
-<td>7 / 4</td>
-<td>Research-backed technique: simpler methods often outperform complex RL for code LLMs.</td>
-</tr>
-<tr>
-<td>3</td>
-<td><strong><a href="https://www.anthropic.com/glasswing">Project Glasswing: Securing Critical Software for the AI Era</a></strong> <a href="https://lobste.rs/s/pgkwml/project_glasswing_securing_critical">Discussion</a></td>
-<td>6 / 0</td>
-<td>Anthropic&#39;s formal verification push—AI that proves its own safety properties.</td>
-</tr>
-<tr>
-<td>4</td>
-<td><strong><a href="https://www.robinsloan.com/notes/where-is-it-like/">What Is It Like to Be a Language Model?</a></strong> <a href="https://lobste.rs/s/iumxay/what_is_it_like_be_language_model">Discussion</a></td>
-<td>3 / 1</td>
-<td>Philosophical lens on AI consciousness—surprisingly practical for alignment thinking.</td>
-</tr>
-<tr>
-<td>5</td>
-<td><strong><a href="https://arxiv.org/pdf/2603.26524">Mathematical Methods and Human Thought in the Age of AI</a></strong> <a href="https://lobste.rs/s/tdjklb/mathematical_methods_human_thought">Discussion</a></td>
-<td>3 / 0</td>
-<td>Preserving human mathematical intuition alongside automated theorem proving.</td>
-</tr>
-<tr>
-<td>6</td>
-<td><strong><a href="https://rodneybrooks.com/predictions-scorecard-2026-january-01/">Predictions Scorecard, 2026 January 01</a></strong> <a href="https://lobste.rs/s/1jkplq/predictions_scorecard_2026_january_01">Discussion</a></td>
-<td>1 / 0</td>
-<td>Rodney Brooks&#39; annual reality check—whose AI predictions aged well?</td>
-</tr>
-<tr>
-<td>7</td>
-<td><strong><a href="https://www.brookings.edu/articles/artificial-intelligence-saturation-and-the-future-of-work/">Artificial Intelligence Saturation and the Future of Work</a></strong> <a href="https://lobste.rs/s/6yzx8a/artificial_intelligence_saturation">Discussion</a></td>
-<td>0 / 1</td>
-<td>Labor market analysis: which skills resist AI commodification?</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>4. Community Pulse</h2>
-<p><strong>Common threads across both platforms:</strong></p>
-<ul>
-<li><p><strong>Cost anxiety is real:</strong> Developers are building personal tracking tools, proxy layers, and local-first setups to manage unpredictable AI spend. The &quot;$0.60 per session&quot; and &quot;slashed 90% token costs&quot; stories reflect systemic frustration with opaque pricing.</p>
-</li>
-<li><p><strong>The &quot;vibe coding&quot; hangover:</strong> Multiple posts warn against AI-generated technical debt—&quot;When AI Makes You Forget How to Code&quot; and &quot;Red, Green, Refactor… and AI&quot; argue for disciplined human-AI collaboration patterns (TDD, structured guidelines) rather than prompt-and-pray.</p>
-</li>
-<li><p><strong>Security as afterthought:</strong> Prompt injection detection tools, system prompt leak monitoring, and MCP server hardening show awareness that AI attack surfaces are poorly understood.</p>
-</li>
-<li><p><strong>Framework fatigue:</strong> &quot;Best AI Agent Frameworks 2026&quot; and subagent architecture discussions reveal developers overwhelmed by choice—seeking patterns over products.</p>
-</li>
-<li><p><strong>Open vs. closed tension:</strong> Local Ollama setups, browser-based OCR, and Rust-native runtimes (Rune) signal growing preference for verifiable, self-hosted AI infrastructure.</p>
-</li>
-</ul>
-<hr>
-<h2>5. Worth Reading In Depth</h2>
-<table>
-<thead>
-<tr>
-<th>Article</th>
-<th>Platform</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://dev.to/ivan_magda_8417a0295eb/subagents-context-isolation-through-recursive-agent-loops-7m6i">Subagents: Context Isolation Through Recursive Agent Loops</a></strong></td>
-<td>Dev.to</td>
-<td><strong>Architectural pattern for production multi-agent systems</strong>—solves context pollution that plagues complex workflows.</td>
-</tr>
-<tr>
-<td><strong><a href="https://arxiv.org/abs/2604.01193">Embarrassingly Simple Self-Distillation Improves Code Generation</a></strong></td>
-<td>Lobste.rs</td>
-<td><strong>Research with immediate engineering implications</strong>—challenges assumption that bigger/more complex always wins.</td>
-</tr>
-<tr>
-<td><strong><a href="https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact">How Is Your Org/Company Measuring the Impact of AI Adoption?</a></strong></td>
-<td>Lobste.rs</td>
-<td><strong>Missing conversation</strong>—most teams lack frameworks for evaluating AI tooling ROI beyond developer sentiment.</td>
-</tr>
-</tbody></table>
-<hr>
-<p><em>Digest compiled from 30 Dev.to articles and 7 Lobste.rs stories. All original links preserved for verification.</em></p>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>

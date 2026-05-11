@@ -6,7 +6,267 @@
     <description>Hugging Face Trending Models Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-hf-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 10 May 2026 04:38:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 04:53:03 +0000</lastBuildDate>
+    <item>
+      <title>Hugging Face Trending Models Digest 2026-05-11</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-11/ai-hf-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-11/ai-hf-en</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <description>Hugging Face Trending Models Digest 2026-05-11 Source: Hugging Face Hub | 30 models | Generated: 2026-05-11 00:21 UTC Hugging Face Trending Models Digest — May 11, 2026 1. Today&amp;#39;s Highlights This week&amp;#39;s trending models are dominated by Google&amp;#39;s Gemma-4 family and Qwen 3.6 variants, signaling intense competition in open-weight multimodal AI. DeepSeek-V4-Pro continues its remarkable momentum with 1.3M downloads, cementing its position as the most deployed open LLM for production use. T...</description>
+      <content:encoded><![CDATA[<h1>Hugging Face Trending Models Digest 2026-05-11</h1>
+<blockquote>
+<p>Source: <a href="https://huggingface.co/">Hugging Face Hub</a> | 30 models | Generated: 2026-05-11 00:21 UTC</p>
+</blockquote>
+<hr>
+<h1>Hugging Face Trending Models Digest — May 11, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>This week&#39;s trending models are dominated by <strong>Google&#39;s Gemma-4 family</strong> and <strong>Qwen 3.6 variants</strong>, signaling intense competition in open-weight multimodal AI. DeepSeek-V4-Pro continues its remarkable momentum with 1.3M downloads, cementing its position as the most deployed open LLM for production use. The emergence of <strong>&quot;any-to-any&quot; pipeline tags</strong> across Gemma-4 and SenseNova models points to a major architectural shift toward unified multimodal understanding. Community quantization activity remains exceptionally vibrant, with Unsloth and independent creators like DavidAU delivering heavily optimized GGUF variants of Qwen 3.6 within weeks of release. Notably, Sulphur-2-base&#39;s text-to-video pipeline and HiDream&#39;s O1 image reasoning models suggest open generative media is approaching commercial viability.</p>
+<hr>
+<h2>2. Trending Models</h2>
+<h3>🧠 Language Models (LLMs, chat models, instruction-tuned)</h3>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Author</th>
+<th>Likes</th>
+<th>Downloads</th>
+<th>Why It&#39;s Trending</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro">deepseek-ai/DeepSeek-V4-Pro</a></strong></td>
+<td>deepseek-ai</td>
+<td>3,819</td>
+<td>1,339,144</td>
+<td>The week&#39;s most downloaded open LLM, delivering production-grade text generation with strong conversational capabilities at scale.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">deepseek-ai/DeepSeek-V4-Flash</a></strong></td>
+<td>deepseek-ai</td>
+<td>1,024</td>
+<td>1,068,871</td>
+<td>Lightweight variant of V4-Pro optimized for speed, attracting massive deployment for latency-sensitive applications.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro">XiaomiMiMo/MiMo-V2.5-Pro</a></strong></td>
+<td>XiaomiMiMo</td>
+<td>505</td>
+<td>40,104</td>
+<td>Emerging agent-focused LLM with extended context support, representing Chinese ecosystem investment in autonomous AI systems.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/Zyphra/ZAYA1-8B">Zyphra/ZAYA1-8B</a></strong></td>
+<td>Zyphra</td>
+<td>370</td>
+<td>44,834</td>
+<td>Compact 8B Apache-2.0 model with published eval results, gaining traction for permissive commercial use cases.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/mistralai/Mistral-Medium-3.5-128B">mistralai/Mistral-Medium-3.5-128B</a></strong></td>
+<td>mistralai</td>
+<td>312</td>
+<td>40,551</td>
+<td>Massive 128B parameter model with vLLM optimization, signaling Mistral&#39;s continued push into frontier-scale open weights.</td>
+</tr>
+</tbody></table>
+<h3>🎨 Multimodal &amp; Generation (image, video, audio, text-to-X)</h3>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Author</th>
+<th>Likes</th>
+<th>Downloads</th>
+<th>Why It&#39;s Trending</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://huggingface.co/google/gemma-4-31B-it">google/gemma-4-31B-it</a></strong></td>
+<td>google</td>
+<td>2,589</td>
+<td>8,965,984</td>
+<td>The week&#39;s breakout star: nearly 9M downloads for Google&#39;s flagship multimodal model with native image-text understanding.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/google/gemma-4-E4B-it">google/gemma-4-E4B-it</a></strong></td>
+<td>google</td>
+<td>970</td>
+<td>5,585,425</td>
+<td>Efficient 4B-parameter &quot;expert&quot; variant achieving massive scale deployment through any-to-any architecture.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/Qwen/Qwen3.6-35B-A3B">Qwen/Qwen3.6-35B-A3B</a></strong></td>
+<td>Qwen</td>
+<td>1,706</td>
+<td>3,668,376</td>
+<td>MoE-structured multimodal leader with 3.6B active parameters, delivering exceptional efficiency for vision-language tasks.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/Qwen/Qwen3.6-27B">Qwen/Qwen3.6-27B</a></strong></td>
+<td>Qwen</td>
+<td>1,222</td>
+<td>2,273,063</td>
+<td>Dense variant of Qwen 3.6 with strong image-text-to-text performance, preferred for simpler deployment topologies.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/k2-fsa/OmniVoice">k2-fsa/OmniVoice</a></strong></td>
+<td>k2-fsa</td>
+<td>833</td>
+<td>2,212,436</td>
+<td>Breakthrough multilingual zero-shot TTS with voice cloning, crossing 2M downloads as open speech synthesis matures.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/SulphurAI/Sulphur-2-base">SulphurAI/Sulphur-2-base</a></strong></td>
+<td>SulphurAI</td>
+<td>533</td>
+<td>144,251</td>
+<td>Highest-liked text-to-video model with GGUF and endpoint compatibility, indicating surging demand for open video generation.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/HiDream-ai/HiDream-O1-Image">HiDream-ai/HiDream-O1-Image</a></strong></td>
+<td>HiDream-ai</td>
+<td>182</td>
+<td>692</td>
+<td>Novel image-text-to-image pipeline leveraging Qwen3-VL for iterative visual reasoning, early but architecturally significant.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/sensenova/SenseNova-U1-8B-MoT">sensenova/SenseNova-U1-8B-MoT</a></strong></td>
+<td>sensenova</td>
+<td>216</td>
+<td>3,666</td>
+<td>Compact any-to-any model with Mixture-of-Transformers architecture, demonstrating efficient multimodal design.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16">nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16</a></strong></td>
+<td>nvidia</td>
+<td>271</td>
+<td>126,335</td>
+<td>NVIDIA&#39;s reasoning-optimized omni-model, positioning proprietary-adjacent hardware-software integration for enterprise.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/TenStrip/LTX2.3-10Eros">TenStrip/LTX2.3-10Eros</a></strong></td>
+<td>TenStrip</td>
+<td>196</td>
+<td>58,647</td>
+<td>Community-optimized image-to-video extension of LTX architecture, showing vibrant open video model evolution.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/SeeSee21/Z-Anime">SeeSee21/Z-Anime</a></strong></td>
+<td>SeeSee21</td>
+<td>292</td>
+<td>8,994</td>
+<td>Specialized anime text-to-image with GGUF quantization, serving niche creative community with efficient inference.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/Supertone/supertonic-3">Supertone/supertonic-3</a></strong></td>
+<td>Supertone</td>
+<td>61</td>
+<td>1,476</td>
+<td>Professional Korean TTS with ONNX optimization, representing regional speech synthesis specialization.</td>
+</tr>
+</tbody></table>
+<h3>🔧 Specialized Models (code, math, medical, embeddings)</h3>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Author</th>
+<th>Likes</th>
+<th>Downloads</th>
+<th>Why It&#39;s Trending</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://huggingface.co/openai/privacy-filter">openai/privacy-filter</a></strong></td>
+<td>openai</td>
+<td>1,394</td>
+<td>185,884</td>
+<td>Surprisingly popular ONNX-based PII detection from OpenAI, filling critical enterprise compliance gap in open ecosystem.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/AngelSlim/Hy-MT1.5-1.8B-1.25bit">AngelSlim/Hy-MT1.5-1.8B-1.25bit</a></strong></td>
+<td>AngelSlim</td>
+<td>160</td>
+<td>17,223</td>
+<td>Extreme 1.25-bit quantization of Hunyuan translation model, pushing boundary of ultra-efficient multilingual deployment.</td>
+</tr>
+</tbody></table>
+<h3>📦 Fine-tunes &amp; Quantizations (community fine-tunes, GGUF, AWQ)</h3>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Author</th>
+<th>Likes</th>
+<th>Downloads</th>
+<th>Why It&#39;s Trending</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF">unsloth/Qwen3.6-35B-A3B-GGUF</a></strong></td>
+<td>unsloth</td>
+<td>986</td>
+<td>2,657,295</td>
+<td>Definitive community quantization of Qwen&#39;s MoE flagship, enabling consumer GPU deployment of frontier multimodal model.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/unsloth/Qwen3.6-27B-GGUF">unsloth/Qwen3.6-27B-GGUF</a></strong></td>
+<td>unsloth</td>
+<td>638</td>
+<td>1,412,778</td>
+<td>Dense-variant GGUF with Unsloth optimizations, preferred for lower VRAM environments requiring vision-language capabilities.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF">DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF</a></strong></td>
+<td>DavidAU</td>
+<td>120</td>
+<td>181,147</td>
+<td>Elaborately fine-tuned uncensored variant with IMatrix quantization, representing vibrant (if controversial) community customization.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-v1-GGUF">Jackrong/Qwopus3.6-35B-A3B-v1-GGUF</a></strong></td>
+<td>Jackrong</td>
+<td>100</td>
+<td>53,096</td>
+<td>Community GGUF with TGI/Unsloth compatibility, showing distributed innovation beyond official quantization channels.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/havenoammo/Qwen3.6-27B-MTP-UD-GGUF">havenoammo/Qwen3.6-27B-MTP-UD-GGUF</a></strong></td>
+<td>havenoammo</td>
+<td>62</td>
+<td>39,384</td>
+<td>MTP (Multi-Token Prediction) enabled GGUF with Unsloth/UD optimizations, experimenting with next-gen inference acceleration.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/z-lab/gemma-4-31B-it-DFlash">z-lab/gemma-4-31B-it-DFlash</a></strong></td>
+<td>z-lab</td>
+<td>72</td>
+<td>5,193</td>
+<td>Speculative decoding implementation for Gemma-4, pioneering inference speedups for Google&#39;s new architecture.</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates">froggeric/Qwen-Fixed-Chat-Templates</a></strong></td>
+<td>froggeric</td>
+<td>131</td>
+<td>0</td>
+<td>Zero-download but notable: MLX-optimized Jinja chat templates fixing Qwen formatting issues, solving real developer pain point.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Ecosystem Signal</h2>
+<p><strong>Google&#39;s Gemma-4 family</strong> has achieved unprecedented open-weight traction, with the base 31B and E4B variants combining for over 14.5M downloads—suggesting the search giant has finally cracked the code on competitive open model release strategy. This directly challenges <strong>Qwen&#39;s established dominance</strong> in open multimodal, though Alibaba&#39;s ecosystem retains formidable momentum through the 3.6 series and its prolific GGUF community. <strong>DeepSeek&#39;s V4 generation</strong> continues its remarkable production adoption, with Pro and Flash variants both exceeding 1M downloads, proving that Chinese labs can achieve global deployment at scale.</p>
+<p>The quantization ecosystem has matured into a <strong>parallel distribution infrastructure</strong>: Unsloth&#39;s official GGUFs now routinely attract millions of downloads, while individual creators like DavidAU build substantial followings with specialized variants. The &quot;any-to-any&quot; pipeline proliferation—appearing across Gemma-4, SenseNova, and Nemotron—signals industry convergence on <strong>unified multimodal architectures</strong> rather than bolted-together vision-language systems. Proprietary-open dynamics are shifting too: OpenAI&#39;s privacy-filter release and NVIDIA&#39;s Nemotron branding suggest incumbents are strategically open-sourcing <em>infrastructure</em> models while keeping frontier capabilities closed. The complete absence of Meta/Llama in this week&#39;s trending list is striking, potentially indicating positioning ahead of Llama-4 or market share erosion.</p>
+<hr>
+<h2>4. Worth Exploring</h2>
+<p><strong><a href="https://huggingface.co/google/gemma-4-31B-it">google/gemma-4-31B-it</a></strong> — With nearly 9M downloads in a single week, this is clearly the model to benchmark against. Its &quot;image-text-to-text&quot; pipeline with conversational optimization suggests Google has unified vision and language understanding at a level previously requiring separate systems. Worth studying for architecture decisions and as a production baseline for multimodal applications.</p>
+<p><strong><a href="https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF">unsloth/Qwen3.6-35B-A3B-GGUF</a></strong> — The most technically impressive quantization achievement this week: a 35B-parameter MoE with only 3.6B active, compressed to GGUF while retaining image-text-to-text capabilities. At 2.6M downloads, it&#39;s become the de facto standard for running capable multimodal AI on consumer hardware. Essential for anyone deploying vision-language applications cost-effectively.</p>
+<p><strong><a href="https://huggingface.co/k2-fsa/OmniVoice">k2-fsa/OmniVoice</a></strong> — Crossing 2.2M downloads with zero major corporate backing, this represents the maturation of open speech synthesis. Zero-shot multilingual voice cloning at this scale of adoption suggests it&#39;s crossing from research curiosity to production utility. Particularly valuable for applications requiring voice personalization without proprietary API dependencies or licensing constraints.</p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Hugging Face Trending Models Digest 2026-05-10</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-10/ai-hf-en</link>
@@ -7690,269 +7950,6 @@ As a <strong>1-bit quantized 8B parameter model</strong>, Bonsai represents the 
 <p><strong><a href="https://huggingface.co/nvidia/personaplex-7b-v1">nvidia/personaplex-7b-v1</a></strong> — This Moshi-based speech-to-speech model represents the most technically ambitious trending entry. Unlike conventional TTS, it maintains conversational state across voice exchanges with persona consistency. Worth studying for: (1) architectural patterns for real-time speech LLMs, (2) NVIDIA&#39;s emerging voice AI stack, (3) implications for human-computer interaction design. The 2,422 likes with 473K downloads suggest strong researcher interest despite limited public documentation.</p>
 <p><strong><a href="https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled">Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled</a></strong> — The highest-liked model (2,582) demonstrates sophisticated knowledge transfer from proprietary to open-weight architectures. Worth trying for: evaluating whether distilled reasoning matches native capabilities, understanding distillation methodology for advanced reasoning patterns, and as a cost-effective alternative to API-dependent reasoning models. The 566K downloads indicate production deployment beyond experimentation.</p>
 <p><strong><a href="https://huggingface.co/google/gemma-4-E4B-it">google/gemma-4-E4B-it</a></strong> — The &quot;any-to-any&quot; experimental variant merits attention despite lower engagement than the standard 31B. Worth exploring for: architectural preview of Google&#39;s multimodal roadmap, testing novel input-output combinations (audio→image, video→text), and assessing whether flexible modality routing outperforms specialized pipelines. The 1.1M downloads suggest substantial curiosity, though practical applications remain undefined.</p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hugging Face Trending Models Digest 2026-04-11</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-11/ai-hf-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-11/ai-hf-en</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Hugging Face Trending Models Digest 2026-04-11 Source: Hugging Face Hub | 30 models | Generated: 2026-04-11 01:50 UTC Hugging Face Trending Models Digest — April 11, 2026 1. Today&amp;#39;s Highlights Google&amp;#39;s Gemma 4 family dominates this week&amp;#39;s trending list with multiple variants spanning 26B to 31B parameters and experimental &amp;quot;any-to-any&amp;quot; architectures, signaling a major push toward natively multimodal open models. Community fine-tuning activity is exceptionally high, with Hauh...</description>
-      <content:encoded><![CDATA[<h1>Hugging Face Trending Models Digest 2026-04-11</h1>
-<blockquote>
-<p>Source: <a href="https://huggingface.co/">Hugging Face Hub</a> | 30 models | Generated: 2026-04-11 01:50 UTC</p>
-</blockquote>
-<hr>
-<h1>Hugging Face Trending Models Digest — April 11, 2026</h1>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>Google&#39;s <strong>Gemma 4</strong> family dominates this week&#39;s trending list with multiple variants spanning 26B to 31B parameters and experimental &quot;any-to-any&quot; architectures, signaling a major push toward natively multimodal open models. Community fine-tuning activity is exceptionally high, with <strong>HauhauCS</strong> and <strong>Jackrong</strong> releasing multiple uncensored and reasoning-distilled variants of Qwen 3.5 and Gemma 4. The emergence of <strong>&quot;abliterated&quot;</strong> and <strong>aggressive uncensored</strong> tags points to growing demand for unfiltered model variants. Notably, <strong>Netflix</strong> entered the Hub with a zero-download video inpainting model, while <strong>Tencent</strong> and <strong>Baidu</strong> continue expanding Chinese multimodal offerings. Quantization remains essential infrastructure, with <strong>Unsloth</strong> providing GGUF conversions for nearly every major release within days.</p>
-<hr>
-<h2>2. Trending Models</h2>
-<h3>🧠 Language Models (LLMs, chat models, instruction-tuned)</h3>
-<table>
-<thead>
-<tr>
-<th>Model</th>
-<th>Author</th>
-<th>Likes</th>
-<th>Downloads</th>
-<th>Why It&#39;s Trending</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://huggingface.co/zai-org/GLM-5.1"><strong>zai-org/GLM-5.1</strong></a></td>
-<td>zai-org</td>
-<td>935</td>
-<td>15,930</td>
-<td>Latest GLM generation with MoE-DSA architecture, positioning as open alternative to GPT-4 class models</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled"><strong>Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled</strong></a></td>
-<td>Jackrong</td>
-<td>2,566</td>
-<td>567,166</td>
-<td>Highest likes this week; distills Claude 4.6 Opus reasoning into efficient Qwen 3.5 architecture</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4"><strong>nvidia/Gemma-4-31B-IT-NVFP4</strong></a></td>
-<td>nvidia</td>
-<td>336</td>
-<td>453,893</td>
-<td>NVIDIA-optimized FP4 variant demonstrating production-ready quantization for datacenter deployment</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/prism-ml/Bonsai-8B-gguf"><strong>prism-ml/Bonsai-8B-gguf</strong></a></td>
-<td>prism-ml</td>
-<td>550</td>
-<td>68,205</td>
-<td>Extreme 1-bit quantization enabling LLM inference on minimal hardware</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/kai-os/Carnice-9b"><strong>kai-os/Carnice-9b</strong></a></td>
-<td>kai-os</td>
-<td>140</td>
-<td>3,715</td>
-<td>Compact Hermes-agent tuned model for agentic workflows</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B"><strong>LGAI-EXAONE/EXAONE-4.5-33B</strong></a></td>
-<td>LGAI-EXAONE</td>
-<td>97</td>
-<td>2,292</td>
-<td>LG&#39;s latest Korean-optimized multimodal model expanding regional open-source ecosystem</td>
-</tr>
-</tbody></table>
-<h3>🎨 Multimodal &amp; Generation (image, video, audio, text-to-X)</h3>
-<table>
-<thead>
-<tr>
-<th>Model</th>
-<th>Author</th>
-<th>Likes</th>
-<th>Downloads</th>
-<th>Why It&#39;s Trending</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://huggingface.co/google/gemma-4-31B-it"><strong>google/gemma-4-31B-it</strong></a></td>
-<td>google</td>
-<td>1,675</td>
-<td>1,589,761</td>
-<td>Flagship Gemma 4 release with native image-text-to-text; highest download velocity</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/google/gemma-4-E4B-it"><strong>google/gemma-4-E4B-it</strong></a></td>
-<td>google</td>
-<td>564</td>
-<td>961,135</td>
-<td>Experimental &quot;any-to-any&quot; architecture pointing toward unified multimodal foundation models</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/google/gemma-4-26B-A4B-it"><strong>google/gemma-4-26B-A4B-it</strong></a></td>
-<td>google</td>
-<td>588</td>
-<td>1,269,031</td>
-<td>Efficient 26B active/4B activated MoE variant balancing capability and inference cost</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/openbmb/VoxCPM2"><strong>openbmb/VoxCPM2</strong></a></td>
-<td>openbmb</td>
-<td>669</td>
-<td>3,765</td>
-<td>OpenBMB&#39;s next-gen multilingual TTS with improved prosody control</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/k2-fsa/OmniVoice"><strong>k2-fsa/OmniVoice</strong></a></td>
-<td>k2-fsa</td>
-<td>473</td>
-<td>269,789</td>
-<td>Zero-shot voice cloning with strong multilingual support from speech recognition specialists</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/netflix/void-model"><strong>netflix/void-model</strong></a></td>
-<td>netflix</td>
-<td>738</td>
-<td>0</td>
-<td>Surprising entry from streaming giant; video inpainting for object removal—zero downloads suggests gated/early access</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/baidu/Qianfan-OCR"><strong>baidu/Qianfan-OCR</strong></a></td>
-<td>baidu</td>
-<td>1,133</td>
-<td>43,619</td>
-<td>Production OCR leveraging InternVL architecture for document understanding</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/tencent/HY-Embodied-0.5"><strong>tencent/HY-Embodied-0.5</strong></a></td>
-<td>tencent</td>
-<td>121</td>
-<td>272</td>
-<td>Hunyuan vision-language model for embodied AI applications</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/google/gemma-4-E2B-it"><strong>google/gemma-4-E2B-it</strong></a></td>
-<td>google</td>
-<td>389</td>
-<td>646,063</td>
-<td>Lightweight any-to-any variant (2B active) enabling edge multimodal deployment</td>
-</tr>
-</tbody></table>
-<h3>🔧 Specialized Models (code, math, medical, embeddings)</h3>
-<table>
-<thead>
-<tr>
-<th>Model</th>
-<th>Author</th>
-<th>Likes</th>
-<th>Downloads</th>
-<th>Why It&#39;s Trending</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://huggingface.co/tencent/HY-OmniWeaving"><strong>tencent/HY-OmniWeaving</strong></a></td>
-<td>tencent</td>
-<td>243</td>
-<td>0</td>
-<td>Research preview for unified generation across modalities; cited arXiv papers suggest technical depth</td>
-</tr>
-</tbody></table>
-<h3>📦 Fine-tunes &amp; Quantizations (community fine-tunes, GGUF, AWQ)</h3>
-<table>
-<thead>
-<tr>
-<th>Model</th>
-<th>Author</th>
-<th>Likes</th>
-<th>Downloads</th>
-<th>Why It&#39;s Trending</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK"><strong>dealignai/Gemma-4-31B-JANG_4M-CRACK</strong></a></td>
-<td>dealignai</td>
-<td>900</td>
-<td>75,426</td>
-<td>MLX-native &quot;abliterated&quot; Gemma 4 for Apple Silicon with 4M token extended context</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive"><strong>HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive</strong></a></td>
-<td>HauhauCS</td>
-<td>250</td>
-<td>317,399</td>
-<td>Aggressive uncensored variant of experimental E4B; &quot;aggressive&quot; tag denotes minimal safety filtering</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF"><strong>unsloth/gemma-4-26B-A4B-it-GGUF</strong></a></td>
-<td>unsloth</td>
-<td>395</td>
-<td>1,361,202</td>
-<td>Highest GGUF downloads; enables local inference of large MoE on consumer hardware</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive"><strong>HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive</strong></a></td>
-<td>HauhauCS</td>
-<td>1,090</td>
-<td>848,916</td>
-<td>Compact uncensored Qwen 3.5 with exceptional download traction for its size</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/Jackrong/Qwopus3.5-27B-v3-GGUF"><strong>Jackrong/Qwopus3.5-27B-v3-GGUF</strong></a></td>
-<td>Jackrong</td>
-<td>258</td>
-<td>104,450</td>
-<td>Reasoning-optimized Qwen 3.5 variant in GGUF for local deployment</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/unsloth/gemma-4-31B-it-GGUF"><strong>unsloth/gemma-4-31B-it-GGUF</strong></a></td>
-<td>unsloth</td>
-<td>265</td>
-<td>906,913</td>
-<td>Full-parameter Gemma 4 GGUF conversion; nearly 1M downloads in first week</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive"><strong>HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive</strong></a></td>
-<td>HauhauCS</td>
-<td>1,251</td>
-<td>935,896</td>
-<td>Largest uncensored MoE variant this week; 35B total/3B active parameters</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF"><strong>unsloth/gemma-4-E4B-it-GGUF</strong></a></td>
-<td>unsloth</td>
-<td>224</td>
-<td>845,716</td>
-<td>Any-to-any architecture in GGUF format—experimental multimodal on local hardware</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/unsloth/GLM-5.1-GGUF"><strong>unsloth/GLM-5.1-GGUF</strong></a></td>
-<td>unsloth</td>
-<td>105</td>
-<td>17,672</td>
-<td>Rapid GGUF conversion enabling llama.cpp compatibility for GLM-5.1</td>
-</tr>
-<tr>
-<td><a href="https://huggingface.co/Jackrong/Qwopus3.5-9B-v3-GGUF"><strong>Jackrong/Qwopus3.5-9B-v3-GGUF</strong></a></td>
-<td>Jackrong</td>
-<td>244</td>
-<td>91,184</td>
-<td>Efficient reasoning model for edge deployment</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Ecosystem Signal</h2>
-<p><strong>Gemma 4</strong> has achieved immediate ecosystem dominance, with Google releasing six variants simultaneously—three base, three instruction-tuned—spanning dense and MoE architectures plus experimental &quot;any-to-any&quot; multimodal configurations. This release strategy mirrors Meta&#39;s Llama approach but with tighter parameter efficiency (26B-31B vs. 70B+ competitors). The <strong>Qwen 3.5</strong> family maintains strong community momentum through <strong>Jackrong</strong> and <strong>HauhauCS</strong>, who collectively account for 7 trending models through aggressive fine-tuning and quantization pipelines.</p>
-<p>The quantization infrastructure has matured remarkably: <strong>Unsloth</strong> now provides same-day GGUF conversions with 1M+ download velocities, effectively decoupling model release from accessible deployment. This creates a two-tier ecosystem where original weights serve cloud/API use while quantized variants capture local/edge demand.</p>
-<p>A notable polarization emerges around <strong>uncensored/abliterated</strong> models, with explicit &quot;aggressive&quot; tagging and 2M+ combined downloads suggesting substantial demand for unfiltered variants—particularly in regions with different content moderation expectations. The <strong>MLX</strong> tag on one Gemma variant indicates Apple&#39;s ML framework gaining traction for efficient local inference.</p>
-<p>Corporate participation diversifies: <strong>Netflix</strong>&#39;s video model (despite zero downloads suggesting access control) and <strong>NVIDIA</strong>&#39;s optimized FP4 variant demonstrate open-weight models becoming standard infrastructure across industries, not merely research artifacts.</p>
-<hr>
-<h2>4. Worth Exploring</h2>
-<p><strong><a href="https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled">Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled</a></strong> — Highest community validation (2,566 likes) for a distilled reasoning model. The 27B parameter count offers genuine utility while the Claude 4.6 Opus distillation suggests capability approaching frontier closed models. Worth studying for distillation methodology and as a production reasoning candidate.</p>
-<p><strong><a href="https://huggingface.co/google/gemma-4-E4B-it">google/gemma-4-E4B-it</a></strong> — The &quot;any-to-any&quot; architecture represents Google&#39;s experimental direction for unified multimodal foundations. With 961K downloads despite &quot;experimental&quot; status, it&#39;s becoming a de facto standard for researchers studying next-generation multimodal architectures. The 4B activated parameter count enables feasible experimentation.</p>
-<p><strong><a href="https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK">dealignai/Gemma-4-31B-JANG_4M-CRACK</a></strong> — Most technically distinctive fine-tune: MLX optimization for Apple Silicon, 4M context extension, and &quot;abliteration&quot; technique for removing refusals. The 75K downloads on a platform-specific variant indicates strong demand for efficient local deployment. Worth examining for context extension methods and Apple ecosystem ML optimization.</p>
-<hr>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>

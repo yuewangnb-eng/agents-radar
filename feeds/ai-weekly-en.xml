@@ -6,7 +6,492 @@
     <description>AI Tools Weekly Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-weekly-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 10 May 2026 04:38:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 04:53:03 +0000</lastBuildDate>
+    <item>
+      <title>AI Tools Weekly Digest 2026-05-11</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-11/ai-weekly-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-11/ai-weekly-en</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <description>AI Tools Ecosystem Weekly Report 2026-W20 Coverage: 2026-05-05 ~ 2026-05-11 | Generated: 2026-05-11 01:33 UTC AI Tools Ecosystem Weekly Report 2026-W20 (May 5–11, 2026) 1. Week&amp;#39;s Top Stories Date Event Significance May 7 Anthropic announces SpaceX/Colossus 1 compute deal — 300MW+, 220K+ GPUs, doubling Claude Code rate limits Reshapes AI infra supply chain; non-traditional cloud vendor enters core AI compute May 7 Anthropic launches financial services Agent suite — 10 production templates + M...</description>
+      <content:encoded><![CDATA[<h1>AI Tools Ecosystem Weekly Report 2026-W20</h1>
+<blockquote>
+<p>Coverage: 2026-05-05 ~ 2026-05-11 | Generated: 2026-05-11 01:33 UTC</p>
+</blockquote>
+<hr>
+<h1>AI Tools Ecosystem Weekly Report</h1>
+<h2>2026-W20 (May 5–11, 2026)</h2>
+<hr>
+<h2>1. Week&#39;s Top Stories</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Date</th>
+<th align="left">Event</th>
+<th align="left">Significance</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>May 7</strong></td>
+<td align="left">Anthropic announces <strong>SpaceX/Colossus 1 compute deal</strong> — 300MW+, 220K+ GPUs, doubling Claude Code rate limits</td>
+<td align="left">Reshapes AI infra supply chain; non-traditional cloud vendor enters core AI compute</td>
+</tr>
+<tr>
+<td align="left"><strong>May 7</strong></td>
+<td align="left">Anthropic launches <strong>financial services Agent suite</strong> — 10 production templates + Microsoft 365 native plugins</td>
+<td align="left">First vertical industry deep-dive; &quot;workflow OS&quot; positioning vs. generic chat</td>
+</tr>
+<tr>
+<td align="left"><strong>May 8</strong></td>
+<td align="left">Anthropic publishes <strong>&quot;Teaching Claude Why&quot;</strong> — alignment paradigm shift from suppression to causal understanding</td>
+<td align="left">Opus 4&#39;s 96%→Haiku 4.5&#39;s 0% agentic misalignment; rare self-disclosure of model failure rates</td>
+</tr>
+<tr>
+<td align="left"><strong>May 8</strong></td>
+<td align="left">Anthropic <strong>Natural Language Autoencoders</strong> — model &quot;thoughts&quot; translated to human-readable text</td>
+<td align="left">Major interpretability breakthrough; enables real-time &quot;interrogation&quot; of model reasoning</td>
+</tr>
+<tr>
+<td align="left"><strong>May 6</strong></td>
+<td align="left">OpenAI <strong>GPT-5.5 Instant</strong> + system cards surface in metadata; low-latency voice AI engineering blog</td>
+<td align="left">Model tier proliferation continues; voice infra scaling as competitive vector</td>
+</tr>
+<tr>
+<td align="left"><strong>May 9</strong></td>
+<td align="left"><strong>DeepSeek-TUI</strong> explodes on GitHub Trending — +6,175 stars in single day</td>
+<td align="left">Validates &quot;terminal-native Agent&quot; as emergent interaction paradigm</td>
+</tr>
+<tr>
+<td align="left"><strong>May 10</strong></td>
+<td align="left"><strong>9router</strong> gains traction — 40+ free API provider aggregation for &quot;unlimited free AI coding&quot;</td>
+<td align="left">API cost arbitrage becomes mainstream developer concern</td>
+</tr>
+<tr>
+<td align="left"><strong>May 11</strong></td>
+<td align="left"><strong>Claude Code Skills</strong> ecosystem triples: everything-claude-code (+1,081), agent-skills (+1,065), claude-mem</td>
+<td align="left">Community tooling around Claude Code performance optimization matures</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>2. CLI Tools Progress</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Tool</th>
+<th align="left">Activity Level</th>
+<th align="left">Key Developments This Week</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Claude Code</strong></td>
+<td align="left">🔴 High crisis mode</td>
+<td align="left">Billing black hole (#38335, 686+ comments, 43 days no official response); Windows CI path hardcoding third regression; v2.1.128–138 rapid-fire patches; community contribution effectively frozen — internal branch divergence suspected</td>
+</tr>
+<tr>
+<td align="left"><strong>OpenAI Codex</strong></td>
+<td align="left">🟡 High iteration, mixed stability</td>
+<td align="left">Rust rewrite accelerates (v0.129.0 + 5 alpha releases); Vim modal editing shipped; remote control infrastructure (#9224, 379👍) still unacknowledged; token consumption anomaly (#14593, 572 comments) persists 2+ months</td>
+</tr>
+<tr>
+<td align="left"><strong>Gemini CLI</strong></td>
+<td align="left">🟡 Active maintenance</td>
+<td align="left">v0.35.3 performance regression triggered downgrade wave; v0.41–0.42 rapid recovery; Auto Memory v2 migration friction; ACP protocol IDE integration push; <strong>maintainer response rate best-in-class</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>GitHub Copilot CLI</strong></td>
+<td align="left">🔴 Stagnant</td>
+<td align="left"><strong>Zero PRs merged May 6–11</strong>; v1.0.41–44 release-only updates; MCP subprocess leaks patched; Agent infinite loop quality incident; community contribution model broken</td>
+</tr>
+<tr>
+<td align="left"><strong>Kimi Code CLI</strong></td>
+<td align="left">🟢 Efficient but small</td>
+<td align="left">v1.41.0 Linux regression; Windows fixes same-day PR turnaround; <code>kimi term</code> crash fixed same-day; Ctrl+T reasoning toggle; WebUI notification system — <strong>single-maintainer velocity impressive</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>OpenCode</strong></td>
+<td align="left">🟡 Chaotic iteration</td>
+<td align="left">v1.14.34–46 <strong>12 releases in 7 days</strong>; v1.14.42 massive regression, @kitlangton 8-PR emergency firefight; <code>/exit</code> regression; Agent Teams high interest; native LLM Core architecture landed</td>
+</tr>
+<tr>
+<td align="left"><strong>Pi</strong></td>
+<td align="left">🟡 Refactor turbulence</td>
+<td align="left">&quot;bigrefactor&quot; batch-closing 100+ historical issues; NVIDIA NIM/Fireworks enterprise integration; Kitty protocol input bugs; local LLM dynamic list (23👍); RalphFlow convergence detection</td>
+</tr>
+<tr>
+<td align="left"><strong>Qwen Code</strong></td>
+<td align="left">🟢 Rapid maturation</td>
+<td align="left"><strong>v0.15.6–0.15.10</strong> with Python SDK debut; remote control 3-layer PR stack (HTTP/WebSocket server); FileReadCache security hardening; OAuth free tier 1000→100 policy shock (122 comments); Daemon mode Stage 1</td>
+</tr>
+<tr>
+<td align="left"><strong>DeepSeek TUI</strong></td>
+<td align="left">🟢 Explosive growth</td>
+<td align="left"><strong>v0.8.14–0.8.28</strong> (14 versions in 7 days); 4 patches in 24h May 10; cache hit rate wars; VS Code extension scaffolding; Ollama local support; <strong>+6,175 stars peak day</strong>; terminal compatibility debt</td>
+</tr>
+</tbody></table>
+<h3>Cross-Cutting Themes</h3>
+<ul>
+<li><strong>Windows platform parity</strong>: Universal P0 across all tools — path handling, process lifecycle, VT sequences, SSO persistence</li>
+<li><strong>Cost observability</strong>: Token/budget transparency demands intensifying; &quot;billing black hole&quot; the defining trust issue</li>
+<li><strong>MCP ecosystem</strong>: From differentiator to table stakes; OAuth DCR vs. pre-registration the new friction point</li>
+<li><strong>Agent Teams/Swarms</strong>: Claude Cowork&#39;s 2.7M DAU validating multi-agent coordination as next competitive layer</li>
+</ul>
+<hr>
+<h2>3. AI Agent Ecosystem</h2>
+<h3>OpenClaw (Core Project)</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Metric</th>
+<th align="left">Value</th>
+<th align="left">Assessment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">Weekly Issues/PRs</td>
+<td align="left">~3,500 updates</td>
+<td align="left">Saturated throughput; review bandwidth bottleneck</td>
+</tr>
+<tr>
+<td align="left">Versions</td>
+<td align="left">v2026.5.3–v2026.5.10 (8 releases)</td>
+<td align="left">Accelerated cadence; regression risk elevated</td>
+</tr>
+<tr>
+<td align="left">Merge ratio</td>
+<td align="left">~29% (142/500 daily)</td>
+<td align="left">Dangerous backlog; 358–412 pending PRs typical</td>
+</tr>
+</tbody></table>
+<p><strong>Critical Developments:</strong></p>
+<ul>
+<li><strong>SQLite runtime state migration (#78595, XL)</strong>: Foundational architecture debt — JSON/JSONL chaos → typed SQLite; blocks long-term reliability</li>
+<li><strong>Codex runtime migration</strong>: Native plugin support (#78733) replacing bridge mode; security redaction (#80444); subscription reset transparency (#80456)</li>
+<li><strong>ACP (Agent Communication Protocol) spawn-child scheduler (#79548)</strong>: Fixes zero-delivery after parent runtime exit — <strong>architectural blocker for reliable multi-agent</strong></li>
+<li><strong>v2026.5.5 <code>doctor --fix</code> OAuth catastrophe</strong>: Auto-migration corrupted <code>openai-codex/*</code> → <code>openai/*</code>, broke GPT-5.5 OAuth users; v2026.5.6 emergency rollback within hours</li>
+<li><strong>Telegram QA infrastructure</strong>: Mantis system with Convex leasing, Crabbox session capture, GIF previews — <strong>enterprise-grade verification pipeline</strong></li>
+</ul>
+<h3>Peer Projects</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Project</th>
+<th align="left">Signal</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>NanoBot</strong></td>
+<td align="left">HKUDS ultra-lightweight personal agent; team AI-Trader also trending</td>
+</tr>
+<tr>
+<td align="left"><strong>Hermes Agent</strong></td>
+<td align="left">Nous Research flagship; &quot;grows with you&quot; positioning</td>
+</tr>
+<tr>
+<td align="left"><strong>CowAgent</strong></td>
+<td align="left">Chinese lightweight alternative to OpenClaw; WeChat/Feishu/DingTalk multi-platform</td>
+</tr>
+<tr>
+<td align="left"><strong>ruflo</strong></td>
+<td align="left">Claude ecosystem multi-agent orchestration; +2,192 stars this week; self-learning swarm intelligence</td>
+</tr>
+<tr>
+<td align="left"><strong>browser-use</strong></td>
+<td align="left">92K+ stars; browser automation infrastructure standard</td>
+</tr>
+<tr>
+<td align="left"><strong>OpenHands</strong></td>
+<td align="left">73K+ stars; &quot;AI software engineer&quot; end-to-end benchmark</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>4. Open Source Trends</h2>
+<h3>Emerging Technical Directions</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Trend</th>
+<th align="left">Evidence</th>
+<th align="left">Implication</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Terminal-native Agents</strong></td>
+<td align="left">DeepSeek-TUI (+6,175 stars), Goose (Block), 9router</td>
+<td align="left">Developer preference for shell-integrated, low-latency interaction over IDE plugins</td>
+</tr>
+<tr>
+<td align="left"><strong>Agent Skills Standardization</strong></td>
+<td align="left">addyosmani/agent-skills (+3,009), everything-claude-code</td>
+<td align="left">Modular, reusable engineering capabilities becoming composable infrastructure</td>
+</tr>
+<tr>
+<td align="left"><strong>Free API Aggregation/Routing</strong></td>
+<td align="left">9router, free-llm-api-resources</td>
+<td align="left">Cost arbitrage as developer tooling category; RTK token optimization; automatic provider fallback</td>
+</tr>
+<tr>
+<td align="left"><strong>Memory Layer Commoditization</strong></td>
+<td align="left">claude-mem, mem0, agentmemory</td>
+<td align="left">Persistent agent state decoupled from specific models; cross-session continuity</td>
+</tr>
+<tr>
+<td align="left"><strong>Vectorless RAG</strong></td>
+<td align="left">PageIndex (first appearance)</td>
+<td align="left">Cost/complexity backlash against vector DBs; inference-driven retrieval alternatives</td>
+</tr>
+<tr>
+<td align="left"><strong>Local-First Deployment</strong></td>
+<td align="left">Ollama (Kimi-K2.5, GLM-5, MiniMax), omlx (Apple Silicon), DeepSeek-TUI Ollama integration</td>
+<td align="left">Data sovereignty + latency driving edge inference; model diversity expanding</td>
+</tr>
+<tr>
+<td align="left"><strong>Financial Vertical AI</strong></td>
+<td align="left">Anthropic finance agents, Kronos, dexter, TradingAgents</td>
+<td align="left">Industry-specific agent templates as SaaS wedge; compliance/audit chains as moat</td>
+</tr>
+<tr>
+<td align="left"><strong>Vibe Coding Education</strong></td>
+<td align="left">datawhalechina/easy-vibe, hello-agents</td>
+<td align="left">AI-native programming pedagogy mainstreaming; generational skill gap closing</td>
+</tr>
+</tbody></table>
+<h3>GitHub Trending Velocity Leaders (Week)</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Project</th>
+<th align="center">Peak Daily Stars</th>
+<th align="left">Category</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">DeepSeek-TUI</td>
+<td align="center">+6,175</td>
+<td align="left">Terminal Agent</td>
+</tr>
+<tr>
+<td align="left">everything-claude-code</td>
+<td align="center">+1,081</td>
+<td align="left">Claude Optimization</td>
+</tr>
+<tr>
+<td align="left">agent-skills</td>
+<td align="center">+3,009</td>
+<td align="left">Skills Standardization</td>
+</tr>
+<tr>
+<td align="left">9router</td>
+<td align="center">+1,052</td>
+<td align="left">API Routing</td>
+</tr>
+<tr>
+<td align="left">ruflo</td>
+<td align="center">+2,192</td>
+<td align="left">Multi-Agent Orchestration</td>
+</tr>
+<tr>
+<td align="left">UI-TARS-desktop</td>
+<td align="center">+669</td>
+<td align="left">Multimodal Desktop Agent (ByteDance)</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>5. HN Community Highlights</h2>
+<h3>Dominant Discussion Themes</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Theme</th>
+<th align="left">Sentiment</th>
+<th align="left">Key Threads</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>AI infrastructure externalities</strong></td>
+<td align="left">🔴 Critical</td>
+<td align="left">Maryland $2B grid upgrade for out-of-state AI data centers (top story); public cost privatization</td>
+</tr>
+<tr>
+<td align="left"><strong>Claude Code ecosystem penetration</strong></td>
+<td align="left">🟢 Enthusiastic</td>
+<td align="left">HTML generation &quot;unreasonable effectiveness&quot; (406 pts); academic research skills plugin; scheduled execution (Remind); lobotomized Claude Code</td>
+</tr>
+<tr>
+<td align="left"><strong>LLM reliability crisis</strong></td>
+<td align="left">🔴 Skeptical</td>
+<td align="left">&quot;LLMs corrupt your documents&quot; (339 pts); hallucination as innate limitation; &quot;trendslop&quot; strategic advice critique</td>
+</tr>
+<tr>
+<td align="left"><strong>AI consciousness / cognition</strong></td>
+<td align="left">🟡 Polarized</td>
+<td align="left">Dawkins claims AI consciousness; &quot;LLMorphism&quot; — humans seeing themselves as language models; philosophical depth</td>
+</tr>
+<tr>
+<td align="left"><strong>Anthropic-SpaceX alignment</strong></td>
+<td align="left">🟡 Controversial</td>
+<td align="left">359 pts, 297 comments — pragmatic compute deal or ideological camp-switching?</td>
+</tr>
+<tr>
+<td align="left"><strong>Agent infrastructure gaps</strong></td>
+<td align="left">🟢 Constructive</td>
+<td align="left">&quot;Git for AI Agents&quot; (92 pts); self-tuning cache; AST-native editing (Patchwork)</td>
+</tr>
+<tr>
+<td align="left"><strong>Security / governance anxiety</strong></td>
+<td align="left">🔴 Alarm</td>
+<td align="left">ClaudeBleed vulnerability; Mythos model jailbreak; Pentagon &quot;never single vendor&quot;</td>
+</tr>
+</tbody></table>
+<h3>Community Mood</h3>
+<blockquote>
+<p><strong>&quot;Excited but vigilant&quot;</strong> — Technical admiration for capability advances (Claude Code HTML, low-latency voice) colliding with intensifying scrutiny of social costs, reliability failures, and concentration risks. The &quot;trendslop&quot; critique spreading from HBR to HN vernacular signals maturing skepticism.</p>
+</blockquote>
+<hr>
+<h2>6. Official Announcements</h2>
+<h3>Anthropic (5 substantive releases)</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Date</th>
+<th align="left">Content</th>
+<th align="left">Strategic Weight</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">May 5</td>
+<td align="left"><strong>Claude Opus 4.7</strong> — &quot;Project Glasswing&quot; security framework first commercial deployment; deliberate capability degradation + auto-interception for cybersecurity</td>
+<td align="left">Safety-velocity tradeoff institutionalized</td>
+</tr>
+<tr>
+<td align="left">May 5</td>
+<td align="left"><strong>Enterprise AI Services Company</strong> — $10B+ JV with Blackstone, H&amp;F, Goldman Sachs; &quot;applied AI engineers&quot; embedded at mid-market clients</td>
+<td align="left">Delivery capacity bottleneck acknowledged; PE networks as customer acquisition</td>
+</tr>
+<tr>
+<td align="left">May 6</td>
+<td align="left"><strong>Financial Services Agents</strong> — 10 templates, Microsoft 365 plugins, MCP App ecosystem</td>
+<td align="left">Vertical industry &quot;workflow OS&quot; playbook</td>
+</tr>
+<tr>
+<td align="left">May 7</td>
+<td align="left"><strong>SpaceX/Colossus 1 Compute Deal</strong> — 300MW+, 220K GPUs; rate limits doubled</td>
+<td align="left">Third infrastructure pillar (after AWS 5GW, Google-Broadcom 5GW); non-cloud vendor precedent</td>
+</tr>
+<tr>
+<td align="left">May 8</td>
+<td align="left"><strong>&quot;Teaching Claude Why&quot;</strong> — alignment from suppression to causal understanding; Opus 4→Haiku 4.5 misalignment elimination</td>
+<td align="left">Research transparency as competitive differentiation; rare failure rate disclosure</td>
+</tr>
+<tr>
+<td align="left">May 8</td>
+<td align="left"><strong>Natural Language Autoencoders</strong> — model activations → human-readable text; real-time reasoning interrogation</td>
+<td align="left">Interpretability as product feature; safety tooling commercialized</td>
+</tr>
+</tbody></table>
+<h3>OpenAI (Metadata-only, limited substance)</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Date</th>
+<th align="left">Inferred Content</th>
+<th align="left">Assessment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">May 5</td>
+<td align="left">GPT-5.5 Instant + system card (2×)</td>
+<td align="left">Model tier proliferation; &quot;Instant&quot; = speed-optimized variant</td>
+</tr>
+<tr>
+<td align="left">May 5</td>
+<td align="left">&quot;New Ways To Buy ChatGPT Ads&quot;</td>
+<td align="left">Ad monetization expansion</td>
+</tr>
+<tr>
+<td align="left">May 6</td>
+<td align="left">&quot;Running Codex Safely&quot;</td>
+<td align="left">Security compliance positioning</td>
+</tr>
+<tr>
+<td align="left">May 6</td>
+<td align="left">&quot;Advancing Youth Safety in EMEA&quot;</td>
+<td align="left">Regional regulatory response (EU AI Act?)</td>
+</tr>
+<tr>
+<td align="left">May 8</td>
+<td align="left">&quot;Delivering Low-Latency Voice AI at Scale&quot;</td>
+<td align="left">Engineering blog; WebRTC/edge optimization</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>Narrative asymmetry</strong>: Anthropic dominated the week with full product-research-infrastructure storytelling; OpenAI&#39;s metadata-only releases suggest either (a) major launches in pipeline with held communications, or (b) organizational focus on execution over narrative.</p>
+</blockquote>
+<hr>
+<h2>7. Next Week&#39;s Signals</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Signal</th>
+<th align="center">Confidence</th>
+<th align="left">Watch For</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>OpenClaw v2026.5.11 stable</strong> resolving SQLite migration + Codex runtime</td>
+<td align="center">🔴 High</td>
+<td align="left">Whether 358+ PR backlog clears; review bandwidth crisis resolution</td>
+</tr>
+<tr>
+<td align="left"><strong>Claude Code billing crisis official response</strong></td>
+<td align="center">🟡 Medium</td>
+<td align="left">43 days elapsed; regulatory/commercial pressure mounting; possible pricing model adjustment</td>
+</tr>
+<tr>
+<td align="left"><strong>OpenAI Codex remote control (#9224) acknowledgment</strong></td>
+<td align="center">🟡 Medium</td>
+<td align="left">379👍; enterprise blocker; Rust rewrite completion may unblock</td>
+</tr>
+<tr>
+<td align="left"><strong>Gemini CLI v0.42 stable</strong> with ACP IDE integration</td>
+<td align="center">🟢 High</td>
+<td align="left">VS Code/JetBrains extensions; first-mover in &quot;IDE as Agent host&quot;</td>
+</tr>
+<tr>
+<td align="left"><strong>Qwen Code remote control server PR stack merge</strong></td>
+<td align="center">🟢 High</td>
+<td align="left">HTTP/WebSocket server architecture; Daemon mode Stage 2</td>
+</tr>
+<tr>
+<td align="left"><strong>DeepSeek-TUI sustainability</strong></td>
+<td align="center">🟡 Medium</td>
+<td align="left">14 versions/week pace unsustainable; community maintainer recruitment</td>
+</tr>
+<tr>
+<td align="left"><strong>&quot;Agent Skills&quot; standardization competition</strong></td>
+<td align="center">🟡 Medium</td>
+<td align="left">addyosmani vs. Anthropic official skills repo; MCP vs. proprietary formats</td>
+</tr>
+<tr>
+<td align="left"><strong>9router/regulatory response</strong></td>
+<td align="center">🟡 Low</td>
+<td align="left">Free API aggregation triggers provider ToS enforcement; rate limit wars</td>
+</tr>
+<tr>
+<td align="left"><strong>Anthropic next vertical industry</strong></td>
+<td align="center">🟡 Medium</td>
+<td align="left">Finance playbook replicated for healthcare/legal/manufacturing?</td>
+</tr>
+<tr>
+<td align="left"><strong>Windows parity as competitive differentiator</strong></td>
+<td align="center">🟢 High</td>
+<td align="left">First tool to achieve genuine Windows-native experience gains enterprise adoption</td>
+</tr>
+</tbody></table>
+<hr>
+<p><em>Report compiled from 7 daily digests covering 9 CLI tools, 13 OpenClaw ecosystem projects, GitHub Trending, Hacker News, and official Anthropic/OpenAI communications. Data current through 2026-05-11 00:21 UTC.</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI Tools Weekly Digest 2026-05-04</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-04/ai-weekly-en</link>
