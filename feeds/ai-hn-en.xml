@@ -6,7 +6,193 @@
     <description>Hacker News AI Community Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-hn-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 11 May 2026 04:53:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 04:29:59 +0000</lastBuildDate>
+    <item>
+      <title>Hacker News AI Community Digest 2026-05-12</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-12/ai-hn-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-12/ai-hn-en</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI Community Digest 2026-05-12 Source: Hacker News | 30 stories | Generated: 2026-05-12 00:22 UTC Hacker News AI Community Digest — May 12, 2026 1. Today&amp;#39;s Highlights The HN AI community is intensely focused on Claude Code and Anthropic&amp;#39;s ecosystem this cycle, with multiple posts about cost optimization, security concerns, and platform expansion dominating discussion. OpenAI&amp;#39;s corporate evolution also draws significant attention, particularly its new &amp;quot;Deployment Comp...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-05-12</h1>
+<blockquote>
+<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-05-12 00:22 UTC</p>
+</blockquote>
+<hr>
+<h1>Hacker News AI Community Digest — May 12, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>The HN AI community is intensely focused on <strong>Claude Code and Anthropic&#39;s ecosystem</strong> this cycle, with multiple posts about cost optimization, security concerns, and platform expansion dominating discussion. <strong>OpenAI&#39;s corporate evolution</strong> also draws significant attention, particularly its new &quot;Deployment Company&quot; initiative and ongoing legal entanglements. Notably, <strong>practical AI engineering</strong>—from sleep-tracking personal projects to semantic layers maintained by agents—shows strong maker momentum. Community sentiment leans skeptical toward corporate AI marketing (Anthropic&#39;s Mythos bug-hunting narrative drew explicit criticism from cURL&#39;s creator) while remaining enthusiastic about hands-on tooling and cost-reduction hacks.</p>
+<hr>
+<h2>2. Top News &amp; Discussions</h2>
+<h3>🔬 Models &amp; Research</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://thinkingmachines.ai/blog/interaction-models/"><strong>Interaction Models</strong></a> — <a href="https://news.ycombinator.com/item?id=48100524">HN Discussion</a></td>
+<td>68</td>
+<td>8</td>
+<td>Leading post; explores how AI systems structure interactions with users and environments—foundational for next-generation agent design. Community engaged but seeking deeper technical detail.</td>
+</tr>
+<tr>
+<td><a href="https://novaberg.de/papers/clipboard-pattern.html"><strong>Natural-language messages between LLM agents are an architectural anti-pattern</strong></a> — <a href="https://news.ycombinator.com/item?id=48099171">HN Discussion</a></td>
+<td>14</td>
+<td>0</td>
+<td>Proposes structured alternatives to LLM-to-LLM natural language communication; resonates with growing engineering concern about agent architecture efficiency.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/aidarbek/genz-qwen"><strong>LLM post-training to speak like GenZ, costing less than a cup of coffee</strong></a> — <a href="https://news.ycombinator.com/item?id=48095446">HN Discussion</a></td>
+<td>5</td>
+<td>1</td>
+<td>Demonstrates ultra-low-cost fine-tuning for stylistic adaptation; typical HN reaction mixes amusement with appreciation for accessible experimentation.</td>
+</tr>
+</tbody></table>
+<h3>🛠️ Tools &amp; Engineering</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/ab-613/opengravity"><strong>Show HN: OpenGravity – A zero-install, BYOK vanilla JS clone of Antigravity</strong></a> — <a href="https://news.ycombinator.com/item?id=48100192">HN Discussion</a></td>
+<td>38</td>
+<td>16</td>
+<td>Strong Show HN performance for a privacy-first, bring-your-own-key alternative to Anthropic&#39;s tool; community values independence from vendor lock-in.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MotleyAI/slayer"><strong>Show HN: SLayer, a semantic layer maintained by your agent</strong></a> — <a href="https://news.ycombinator.com/item?id=48095686">HN Discussion</a></td>
+<td>11</td>
+<td>3</td>
+<td>Emerging pattern: AI-maintained infrastructure layers; small but positive reception suggests interest in agent-driven devops.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jher7/tokenyst"><strong>Show HN: Tokenyst to stop getting shocked by Claude Code API bills</strong></a> — <a href="https://news.ycombinator.com/item?id=48095283">HN Discussion</a></td>
+<td>7</td>
+<td>0</td>
+<td>Direct response to widespread cost anxiety; zero comments suggests either niche utility or &quot;finally, someone built this&quot; relief.</td>
+</tr>
+<tr>
+<td><a href="https://til.simonwillison.net/llms/llm-shebang"><strong>Using LLM in the shebang line of a script</strong></a> — <a href="https://news.ycombinator.com/item?id=48099278">HN Discussion</a></td>
+<td>4</td>
+<td>0</td>
+<td>Characteristically elegant Simon Willison pattern; HN appreciates unix-philosophy-compatible AI integration.</td>
+</tr>
+</tbody></table>
+<h3>🏢 Industry News</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://openai.com/index/openai-launches-the-deployment-company/"><strong>The OpenAI Deployment Company</strong></a> — <a href="https://news.ycombinator.com/item?id=48094531">HN Discussion</a></td>
+<td>36</td>
+<td>30</td>
+<td>OpenAI&#39;s enterprise services pivot generates substantial discussion; community debating whether this signals platform maturity or competitive pressure from Anthropic/Microsoft.</td>
+</tr>
+<tr>
+<td><a href="https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/"><strong>GM just laid off IT workers to hire those with stronger AI skills</strong></a> — <a href="https://news.ycombinator.com/item?id=48102198">HN Discussion</a></td>
+<td>26</td>
+<td>29</td>
+<td>Highly commented despite moderate score; touches raw nerve about AI-driven labor displacement. Community split between &quot;inevitable transition&quot; and &quot;cynical cost-cutting.&quot;</td>
+</tr>
+<tr>
+<td><a href="https://www.fastcompany.com/91538977/openai-anthropic-just-met-religious-leaders-faith-ai-covenant-heres-why"><strong>Anthropic, OpenAI meet religious leaders to discuss faith and AI</strong></a> — <a href="https://news.ycombinator.com/item?id=48099116">HN Discussion</a></td>
+<td>17</td>
+<td>13</td>
+<td>Unusual diplomatic engagement; HN largely skeptical of &quot;ethics theater&quot; but acknowledges AI&#39;s cultural stakes.</td>
+</tr>
+<tr>
+<td><a href="https://claude.com/blog/claude-platform-on-aws"><strong>The Claude Platform on AWS is now generally available</strong></a> — <a href="https://news.ycombinator.com/item?id=48096830">HN Discussion</a></td>
+<td>6</td>
+<td>0</td>
+<td>Significant enterprise milestone; silence suggests either expected progression or AWS fatigue.</td>
+</tr>
+</tbody></table>
+<h3>💬 Opinions &amp; Debates</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/"><strong>I let AI build a tool to help me figure out what was waking me up at night</strong></a> — <a href="https://news.ycombinator.com/item?id=48100662">HN Discussion</a></td>
+<td>51</td>
+<td>50</td>
+<td>Highest engagement ratio; personal narrative of AI-assisted problem-solving sparks genuine conversation about practical vs. hype applications.</td>
+</tr>
+<tr>
+<td><a href="https://www.theregister.com/security/2026/05/11/anthropics-bug-hunting-mythos-was-greatest-marketing-stunt-ever-says-curl-creator/5238111"><strong>Anthropic&#39;s bug-hunting Mythos greatest marketing stunt ever says cURL creator</strong></a> — <a href="https://news.ycombinator.com/item?id=48100303">HN Discussion</a></td>
+<td>7</td>
+<td>0</td>
+<td>Daniel Stenberg&#39;s credibility lends weight to critique; HN receptive to deflating corporate AI narratives.</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/morganlinton/status/2053165575824887938"><strong>Officially canceling our Anthropic plan, it&#39;s [too expensive]</strong></a> — <a href="https://news.ycombinator.com/item?id=48098103">HN Discussion</a></td>
+<td>8</td>
+<td>3</td>
+<td>Price sensitivity reaching public breaking point; resonates with Tokenyst and &quot;Run Claude Code for Free&quot; posts.</td>
+</tr>
+<tr>
+<td><a href="https://www.wsj.com/tech/openai-employee-stock-sales-71ed10bd"><strong>A Job at OpenAI Became the Greatest Lottery Ticket of the AI Boom</strong></a> — <a href="https://news.ycombinator.com/item?id=48096137">HN Discussion</a></td>
+<td>6</td>
+<td>1</td>
+<td>Wealth inequality narrative; HN ambivalent about startup equity culture.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Community Sentiment Signal</h2>
+<p>Today&#39;s HN AI discourse reveals a <strong>maturing, increasingly pragmatic community</strong> with diminished tolerance for premium pricing and corporate mythology. The highest-engagement post—a personal sleep-tracking project built with AI assistance—exemplifies a shift toward <strong>small, concrete utility</strong> over grand capability demonstrations. Controversy clusters around <strong>labor displacement</strong> (GM layoffs) and <strong>cost sustainability</strong> (Anthropic cancellation, multiple Claude Code cost-hack posts), suggesting economic pressures now outweigh technical fascination.</p>
+<p>A clear <strong>skepticism toward Anthropic&#39;s marketing</strong> has crystallized, with the cURL creator&#39;s &quot;greatest marketing stunt ever&quot; dismissal gaining traction. Meanwhile, <strong>OpenAI&#39;s enterprise pivot</strong> generates measured debate about strategic positioning rather than excitement.</p>
+<p>Compared to prior cycles, notable shifts include: (1) <strong>cost optimization as primary engineering concern</strong>, replacing earlier focus on capability expansion; (2) <strong>agent-to-agent communication patterns</strong> entering architectural discourse; and (3) <strong>religious/ethical engagement</strong> by AI companies treated with cynicism rather than earnest engagement. The community&#39;s maker energy persists but increasingly channels toward <strong>independence</strong> (BYOK tools, open-source alternatives) rather than platform adoption.</p>
+<hr>
+<h2>4. Worth Deep Reading</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Piece</th>
+<th>Reasoning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><a href="https://thinkingmachines.ai/blog/interaction-models/"><strong>Interaction Models</strong></a></td>
+<td>Highest-scoring post with substantive theoretical framing; essential for researchers and architects designing next-generation agent systems. Thinking Machines&#39; work on interaction paradigms will likely influence standards discussions.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://novaberg.de/papers/clipboard-pattern.html"><strong>Natural-language messages between LLM agents are an architectural anti-pattern</strong></a></td>
+<td>Concise, well-reasoned technical argument with immediate engineering implications. The &quot;clipboard pattern&quot; proposal offers a concrete alternative to inefficient agent communication; relevant for anyone building multi-agent systems.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://raelize.com/blog/ai-fi-giving-claude-code-glitch-skills-for-bypassing-secure-boot/"><strong>AI-FI: Giving Claude Code Glitch Skills for Bypassing Secure Boot</strong></a></td>
+<td>Sophisticated security research demonstrating AI-assisted hardware exploitation. Critical reading for security researchers and anyone evaluating AI coding tools&#39; potential for dual-use; rare intersection of AI capabilities research and offensive security.</td>
+</tr>
+</tbody></table>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Hacker News AI Community Digest 2026-05-11</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-11/ai-hn-en</link>
@@ -4781,193 +4967,6 @@ Score: 10 | Comments: 2</p>
 <td><strong>3</strong></td>
 <td><strong><a href="https://europe.mistral.ai/">European AI. A playbook to own it</a></strong> — <a href="https://news.ycombinator.com/item?id=47743700">Discussion</a></td>
 <td><strong>Strategic context for vendor diversification.</strong> Whether credible or not, understanding Mistral&#39;s positioning helps evaluate alternatives to US hyperscalers as trust erodes.</td>
-</tr>
-</tbody></table>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI Community Digest 2026-04-12</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-12/ai-hn-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-12/ai-hn-en</guid>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI Community Digest 2026-04-12 Source: Hacker News | 30 stories | Generated: 2026-04-12 00:12 UTC Hacker News AI Community Digest — April 12, 2026 1. Today&amp;#39;s Highlights The HN community is fixated on Anthropic&amp;#39;s &amp;quot;Mythos&amp;quot; release and its security implications, with multiple posts warning about AI-powered hacking capabilities and banks being specifically cautioned. OpenAI&amp;#39;s acquisition of Cirrus Labs topped the leaderboard, signaling continued consolidation in the...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-04-12</h1>
-<blockquote>
-<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-04-12 00:12 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI Community Digest — April 12, 2026</h1>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>The HN community is fixated on <strong>Anthropic&#39;s &quot;Mythos&quot; release</strong> and its security implications, with multiple posts warning about AI-powered hacking capabilities and banks being specifically cautioned. <strong>OpenAI&#39;s acquisition of Cirrus Labs</strong> topped the leaderboard, signaling continued consolidation in the AI infrastructure space. A <strong>Berkeley research team&#39;s benchmark critique</strong> sparked serious discussion about the reliability of AI agent evaluation. The community also showed strong interest in <strong>meta-commentary on AI development</strong>—from Borges-inspired essays on interpreting LLM outputs to satirical games overrun by bots, reflecting growing sophistication in how practitioners think about these systems.</p>
-<hr>
-<h2>2. Top News &amp; Discussions</h2>
-<h3>🔬 Models &amp; Research</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/"><strong>How We Broke Top AI Agent Benchmarks: And What Comes Next</strong></a> — <a href="https://news.ycombinator.com/item?id=47733217">HN Discussion</a></td>
-<td>175</td>
-<td>46</td>
-<td>Berkeley researchers expose fundamental flaws in agent benchmarks; community engages seriously on measurement validity—rare substantive critique of evaluation methodology</td>
-</tr>
-<tr>
-<td><a href="https://galsapir.github.io/sparse-thoughts/2026/04/11/map-and-territory/"><strong>Borges&#39; cartographers and the tacit skill of reading LM output</strong></a> — <a href="https://news.ycombinator.com/item?id=47730229">HN Discussion</a></td>
-<td>33</td>
-<td>9</td>
-<td>Philosophical deep-dive on interpretability resonates with practitioners wrestling with &quot;vibe-based&quot; model evaluation</td>
-</tr>
-<tr>
-<td><a href="https://twitter.com/kannthu1/status/2042695741844619502"><strong>Anthropic Mythos 0-days replicated with GPT5.4</strong></a> — <a href="https://news.ycombinator.com/item?id=47726144">HN Discussion</a></td>
-<td>4</td>
-<td>0</td>
-<td>Cross-model vulnerability reproduction suggests systemic issues in advanced model safety, though low engagement hints at fatigue or caution</td>
-</tr>
-</tbody></table>
-<h3>🛠️ Tools &amp; Engineering</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://khronokernel.com/macos/2023/08/08/AS-VM.html"><strong>Apple Silicon and Virtual Machines: Beating the 2 VM Limit (2023)</strong></a> — <a href="https://news.ycombinator.com/item?id=47733971">HN Discussion</a></td>
-<td>109</td>
-<td>53</td>
-<td>Technical workaround for M-series chip limitations draws strong engineering interest; practical infrastructure knowledge highly valued</td>
-</tr>
-<tr>
-<td><a href="https://github.com/visionscaper/collabmem"><strong>Show HN: Collabmem – a memory system for long-term collaboration with AI</strong></a> — <a href="https://news.ycombinator.com/item?id=47726056">HN Discussion</a></td>
-<td>9</td>
-<td>1</td>
-<td>Addresses persistent context limitation problem; typical Show HN pattern—interesting concept, awaiting validation</td>
-</tr>
-<tr>
-<td><a href="https://github.com/juyterman1000/entroly"><strong>Cut Token Costs on Claude Code, Cursor, and Codex</strong></a> — <a href="https://news.ycombinator.com/item?id=47733157">HN Discussion</a></td>
-<td>7</td>
-<td>0</td>
-<td>Cost optimization tools increasingly common as API expenses mount; zero comments suggest either obvious utility or saturation</td>
-</tr>
-<tr>
-<td><a href="https://recursive-mode.dev/introduction"><strong>Show HN: Recursive-Mode for Coding Agents</strong></a> — <a href="https://news.ycombinator.com/item?id=47731307">HN Discussion</a></td>
-<td>5</td>
-<td>0</td>
-<td>Agent architecture experimentation continues; niche but indicative of rapid tooling evolution</td>
-</tr>
-</tbody></table>
-<h3>🏢 Industry News</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://cirruslabs.org/"><strong>Cirrus Labs to join OpenAI</strong></a> — <a href="https://news.ycombinator.com/item?id=47730194">HN Discussion</a></td>
-<td>225</td>
-<td>111</td>
-<td><strong>Top story</strong>: Infrastructure acquisition draws highest engagement; comments likely split between &quot;inevitable consolidation&quot; and concerns about centralization</td>
-</tr>
-<tr>
-<td><a href="https://www.msn.com/en-my/news/other/meta-is-set-to-pay-its-top-ai-executives-almost-a-billion-each-in-bonuses-if-they-hit-their-targets/ar-AA1ZszqA"><strong>Meta is set to pay its top AI executives almost a billion each in bonuses</strong></a> — <a href="https://news.ycombinator.com/item?id=47729975">HN Discussion</a></td>
-<td>44</td>
-<td>27</td>
-<td>Compensation arms race generates predictable HN reaction: skepticism about incentive structures, comparison to researcher salaries</td>
-</tr>
-<tr>
-<td><a href="https://www.bloomberg.com/news/articles/2026-04-11/openai-accuses-musk-of-ambush-as-100-billion-plus-trial-looms"><strong>OpenAI Accuses Musk of &#39;Ambush&#39; as $100B-Plus Trial Looms</strong></a> — <a href="https://news.ycombinator.com/item?id=47732088">HN Discussion</a></td>
-<td>7</td>
-<td>0</td>
-<td>Legal drama fatigue apparent; low engagement despite massive stakes suggests community prioritizes technical over corporate news</td>
-</tr>
-<tr>
-<td><a href="https://www.nytimes.com/2026/04/10/business/anthropic-claude-mythos-preview-banks.html"><strong>Banks Are Warned About Anthropic&#39;s New, Powerful A.I. Technology</strong></a> — <a href="https://news.ycombinator.com/item?id=47732378">HN Discussion</a></td>
-<td>4</td>
-<td>0</td>
-<td>Sector-specific security warning; minimal HN traction possibly due to paywall or perceived as regulatory theater</td>
-</tr>
-</tbody></table>
-<h3>💬 Opinions &amp; Debates</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.hormuz-havoc.com/"><strong>Show HN: Hormuz Havoc, a satirical game that got overrun by AI bots in 24 hours</strong></a> — <a href="https://news.ycombinator.com/item?id=47729477">HN Discussion</a></td>
-<td>51</td>
-<td>16</td>
-<td>Meta-commentary through art: game about AI risks colonized by actual AI bots; community appreciates the irony, debates detection difficulty</td>
-</tr>
-<tr>
-<td><a href="https://www.theatlantic.com/technology/2026/04/claude-mythos-hacking/686746/"><strong>Mythos Is Everyone&#39;s Problem</strong></a> — <a href="https://news.ycombinator.com/item?id=47729163">HN Discussion</a></td>
-<td>10</td>
-<td>3</td>
-<td>Atlantic&#39;s security framing; low score but representative of broader media narrative HN typically distrusts</td>
-</tr>
-<tr>
-<td><a href="https://www.nbcnews.com/tech/security/anthropic-claude-mythos-ai-hackers-cybersecurity-vulnerabilities-rcna273673"><strong>AI Is Tipping the Scales Toward Hackers After Mythos Release</strong></a> — <a href="https://news.ycombinator.com/item?id=47734106">HN Discussion</a></td>
-<td>11</td>
-<td>7</td>
-<td>Mainstream security coverage; comments likely examine technical specifics vs. sensationalism</td>
-</tr>
-<tr>
-<td><a href="https://www.wheresyoured.at/hatersguide-openai/"><strong>Premium: The Hater&#39;s Guide to OpenAI</strong></a> — <a href="https://news.ycombinator.com/item?id=47728291">HN Discussion</a></td>
-<td>7</td>
-<td>1</td>
-<td>Criticism from known tech commentator; minimal engagement suggests either consensus or subscription barrier</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Community Sentiment Signal</h2>
-<p>Today&#39;s HN AI discourse reveals a community <strong>grappling with dualities</strong>: excitement about capability advancement alongside acute anxiety about security implications. The <strong>Mythos narrative cluster</strong> (posts #8, #10, #22, #24) dominates attention despite relatively modest scores—suggesting deep concern about AI-powered offensive capabilities, though with characteristic HN skepticism toward media amplification.</p>
-<p>The <strong>highest-engagement story</strong> (Cirrus/OpenAI, 225/111) follows classic consolidation anxiety patterns. Notably, <strong>benchmark skepticism</strong> (#2) drew substantial thoughtful commentary—indicating maturation beyond hype cycles toward methodological rigor. </p>
-<p>A <strong>shift from model capability debates to infrastructure and evaluation concerns</strong> is evident. Fewer &quot;will AGI happen&quot; speculations; more &quot;how do we measure what we have&quot; and &quot;who controls the stack&quot; pragmatism. The <strong>absence of prominent open-weight model releases</strong> in top posts marks a departure from recent cycles.</p>
-<p><strong>Controversy signals</strong>: Low comment-to-score ratios on security stories suggest either information asymmetry (paywalls, Twitter sources) or reluctance to engage publicly on sensitive topics. The satirical game post&#39;s popularity indicates <strong>coping-through-irony</strong> as a community response to perceived inevitability of AI-driven disruption.</p>
-<hr>
-<h2>4. Worth Deep Reading</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>Piece</th>
-<th>Reasoning</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td><a href="https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/"><strong>How We Broke Top AI Agent Benchmarks</strong></a></td>
-<td>Essential for anyone building or evaluating agent systems. The Berkeley team&#39;s methodology for identifying benchmark failures provides actionable frameworks; likely to be cited in future research integrity discussions.</td>
-</tr>
-<tr>
-<td>2</td>
-<td><a href="https://galsapir.github.io/sparse-thoughts/2026/04/11/map-and-territory/"><strong>Borges&#39; cartographers and the tacit skill of reading LM output</strong></a></td>
-<td>Rare bridge between humanities thinking and engineering practice. Develops vocabulary for the &quot;craft knowledge&quot; of effective LLM use that experienced practitioners accumulate but rarely articulate.</td>
-</tr>
-<tr>
-<td>3</td>
-<td><a href="https://khronokernel.com/macos/2023/08/08/AS-VM.html"><strong>Apple Silicon VM deep-dive</strong></a></td>
-<td>Surprisingly relevant infrastructure knowledge as AI development increasingly shifts to Apple Silicon for efficiency. Technical depth on virtualization constraints directly applicable to local model deployment strategies.</td>
 </tr>
 </tbody></table>
 <hr>

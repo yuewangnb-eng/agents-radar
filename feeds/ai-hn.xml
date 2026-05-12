@@ -6,7 +6,186 @@
     <description>Hacker News AI 社区动态日报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-hn.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 11 May 2026 04:53:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 04:29:59 +0000</lastBuildDate>
+    <item>
+      <title>Hacker News AI 社区动态日报 2026-05-12</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-12/ai-hn</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-12/ai-hn</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI 社区动态日报 2026-05-12 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-05-12 00:22 UTC Hacker News AI 社区动态日报 2026-05-12 | 数据来源：过去 24 小时热门帖子 1. 今日速览 今日 HN 社区 AI 讨论呈现**&amp;quot;实用主义与焦虑并存&amp;quot;的基调。最高热度聚焦于人机交互范式**（Interaction Models）和AI 辅助个人问题解决（睡眠监测工具），显示社区对&amp;quot;AI 如何融入日常&amp;quot;的持续探索。Anthropic 相关话题密集出现——从 Claude Code 成本争议、Mythos 漏洞赏金营销到 AWS 平台上线，形成&amp;quot;爱恨交织&amp;quot;的讨论矩阵。产业层面，OpenAI 成立部署公司、GM 裁员换 AI 人才等新闻引发对就业冲击的忧虑。整体情绪：技术乐观主义仍在，但对成本、垄断和伦理风险的警惕明显升温。 2. 热门新闻与讨论 🔬 模型与研究 # 内容 数据 一句话说明 1 Interaction Mode...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-05-12</h1>
+<blockquote>
+<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-05-12 00:22 UTC</p>
+</blockquote>
+<hr>
+<h1>Hacker News AI 社区动态日报</h1>
+<p><strong>2026-05-12 | 数据来源：过去 24 小时热门帖子</strong></p>
+<hr>
+<h2>1. 今日速览</h2>
+<p>今日 HN 社区 AI 讨论呈现**&quot;实用主义与焦虑并存&quot;<strong>的基调。最高热度聚焦于</strong>人机交互范式**（Interaction Models）和<strong>AI 辅助个人问题解决</strong>（睡眠监测工具），显示社区对&quot;AI 如何融入日常&quot;的持续探索。Anthropic 相关话题密集出现——从 Claude Code 成本争议、Mythos 漏洞赏金营销到 AWS 平台上线，形成&quot;爱恨交织&quot;的讨论矩阵。产业层面，OpenAI 成立部署公司、GM 裁员换 AI 人才等新闻引发对就业冲击的忧虑。整体情绪：技术乐观主义仍在，但对成本、垄断和伦理风险的警惕明显升温。</p>
+<hr>
+<h2>2. 热门新闻与讨论</h2>
+<h3>🔬 模型与研究</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>内容</th>
+<th>数据</th>
+<th>一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://thinkingmachines.ai/blog/interaction-models/">Interaction Models</a></strong> — <a href="https://news.ycombinator.com/item?id=48100524">HN 讨论</a></td>
+<td>⭐ 68</td>
+<td>💬 8</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://novaberg.de/papers/clipboard-pattern.html">Natural-language messages between LLM agents are an architectural anti-pattern</a></strong> — <a href="https://news.ycombinator.com/item?id=48099171">HN 讨论</a></td>
+<td>⭐ 14</td>
+<td>💬 0</td>
+</tr>
+</tbody></table>
+<h3>🛠️ 工具与工程</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>内容</th>
+<th>数据</th>
+<th>一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://github.com/ab-613/opengravity">Show HN: OpenGravity – A zero-install, BYOK vanilla JS clone of Antigravity</a></strong> — <a href="https://news.ycombinator.com/item?id=48100192">HN 讨论</a></td>
+<td>⭐ 38</td>
+<td>💬 16</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://github.com/MotleyAI/slayer">Show HN: SLayer, a semantic layer maintained by your agent</a></strong> — <a href="https://news.ycombinator.com/item?id=48095686">HN 讨论</a></td>
+<td>⭐ 11</td>
+<td>💬 3</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://github.com/jher7/tokenyst">Show HN: Tokenyst – 阻止 Claude Code API 账单惊吓</a></strong> — <a href="https://news.ycombinator.com/item?id=48095283">HN 讨论</a></td>
+<td>⭐ 7</td>
+<td>💬 0</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong><a href="https://til.simonwillison.net/llms/llm-shebang">Using LLM in the shebang line of a script</a></strong> — <a href="https://news.ycombinator.com/item?id=48099278">HN 讨论</a></td>
+<td>⭐ 4</td>
+<td>💬 0</td>
+</tr>
+</tbody></table>
+<h3>🏢 产业动态</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>内容</th>
+<th>数据</th>
+<th>一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://openai.com/index/openai-launches-the-deployment-company/">The OpenAI Deployment Company</a></strong> — <a href="https://news.ycombinator.com/item?id=48094531">HN 讨论</a></td>
+<td>⭐ 36</td>
+<td>💬 30</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/">GM just laid off IT workers to hire those with stronger AI skills</a></strong> — <a href="https://news.ycombinator.com/item?id=48102198">HN 讨论</a></td>
+<td>⭐ 26</td>
+<td>💬 29</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://www.fastcompany.com/91538977/openai-anthropic-just-met-religious-leaders-faith-ai-covenant-heres-why">Anthropic, OpenAI meet religious leaders to discuss faith and AI</a></strong> — <a href="https://news.ycombinator.com/item?id=48099116">HN 讨论</a></td>
+<td>⭐ 17</td>
+<td>💬 13</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong><a href="https://claude.com/blog/claude-platform-on-aws">The Claude Platform on AWS is now generally available</a></strong> — <a href="https://news.ycombinator.com/item?id=48096830">HN 讨论</a></td>
+<td>⭐ 6</td>
+<td>💬 0</td>
+</tr>
+</tbody></table>
+<h3>💬 观点与争议</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>内容</th>
+<th>数据</th>
+<th>一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/">I let AI build a tool to help me figure out what was waking me up at night</a></strong> — <a href="https://news.ycombinator.com/item?id=48100662">HN 讨论</a></td>
+<td>⭐ 51</td>
+<td>💬 50</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://twitter.com/morganlinton/status/2053165575824887938">Officially canceling our Anthropic plan, it&#39;s [too expensive]</a></strong> — <a href="https://news.ycombinator.com/item?id=48098103">HN 讨论</a></td>
+<td>⭐ 8</td>
+<td>💬 3</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://www.theregister.com/security/2026/05/11/anthropics-bug-hunting-mythos-was-greatest-marketing-stunt-ever-says-curl-creator/5238111">Anthropic&#39;s bug-hunting Mythos greatest marketing stunt ever says cURL creator</a></strong> — <a href="https://news.ycombinator.com/item?id=48100303">HN 讨论</a></td>
+<td>⭐ 7</td>
+<td>💬 0</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong><a href="https://www.reuters.com/legal/government/family-florida-mass-shooting-victim-sues-openai-us-court-2026-05-11/">Family of Florida mass shooting victim sues OpenAI in US court</a></strong> — <a href="https://news.ycombinator.com/item?id=48101023">HN 讨论</a></td>
+<td>⭐ 3</td>
+<td>💬 0</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. 社区情绪信号</h2>
+<p><strong>最活跃话题</strong>：&quot;AI 辅助个人生活&quot;（睡眠工具，51 分/50 评论）展现极高参与热情，说明社区对**&quot;AI 从生产力工具向生活伴侣延伸&quot;<strong>高度共鸣。产业新闻中，OpenAI 部署公司（36 分/30 评论）和 GM 裁员（26 分/29 评论）的</strong>高评论/分数比**揭示焦虑驱动的讨论——人们更关心&quot;AI 如何改变我的工作&quot;而非技术本身。</p>
+<p><strong>核心争议点</strong>：Anthropic 定价策略成为<strong>隐性共识裂痕</strong>。从 Tokenyst（防账单惊吓）、取消订阅公开声明到 Run Claude Code for Free 教程，成本敏感型开发者正在<strong>用脚投票</strong>。这与上周期&quot;模型能力崇拜&quot;形成明显转向——社区从&quot;哪个模型更强&quot;转向&quot;哪个更可持续&quot;。</p>
+<p><strong>方向变化</strong>：相比此前聚焦模型评测（如 GPT-5、Claude 4 发布），本期<strong>工程实践和伦理法律</strong>占比显著上升。Show HN 项目从&quot;炫技&quot;转向&quot;解决真实痛点&quot;（账单控制、语义层维护），标志社区成熟度提升。</p>
+<hr>
+<h2>4. 值得深读</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>理由</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://thinkingmachines.ai/blog/interaction-models/">Interaction Models</a></strong></td>
+<td>最高分且来自新兴研究机构 Thinking Machines，提出超越&quot;聊天框&quot;的 AI 交互框架。对设计下一代 AI 产品的 PM 和前端工程师有范式启发，建议结合其 <a href="https://news.ycombinator.com/item?id=48100524">HN 讨论</a> 中可能涌现的实践反馈。</td>
+</tr>
+<tr>
+<td><strong><a href="https://novaberg.de/papers/clipboard-pattern.html">Natural-language messages between LLM agents are an architectural anti-pattern</a></strong></td>
+<td>激进但必要的架构批判。若你正在构建多 Agent 系统，这篇直接挑战当前主流实践（如 AutoGPT、CrewAI 的通信机制），可能避免未来技术债。</td>
+</tr>
+<tr>
+<td><strong><a href="https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/">I let AI build a tool to help me figure out what was waking me up at night</a></strong> + <a href="https://news.ycombinator.com/item?id=48100662">HN 讨论</a></td>
+<td><strong>必读完整评论区</strong>。这是观察&quot;AI 平民化&quot;最生动的田野调查：普通用户如何用自然语言驱动 AI 完成端到端开发，以及社区对可靠性、隐私、医疗免责声明的集体智慧碰撞。</td>
+</tr>
+</tbody></table>
+<hr>
+<p><em>本日报基于 Hacker News 公开数据整理，不代表任何机构立场。</em></p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Hacker News AI 社区动态日报 2026-05-11</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-11/ai-hn</link>
@@ -5058,167 +5237,6 @@
 <td align="left"></td>
 </tr>
 </tbody></table>
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI 社区动态日报 2026-04-12</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-12/ai-hn</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-12/ai-hn</guid>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI 社区动态日报 2026-04-12 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-04-12 00:12 UTC Hacker News AI 社区动态日报 日期：2026-04-12 今日速览 今日 HN 社区围绕 Anthropic Claude Mythos 的安全争议展开密集讨论，从银行警告到黑客利用新模型发现漏洞，安全焦虑明显升温。OpenAI 收购 Cirrus Labs 引发人才整合关注，而 Meta 天价 AI 高管奖金则凸显行业人才争夺的白热化。社区对 AI 基准测试的可靠性提出质疑，Berkeley 团队揭露主流 Agent 基准存在被操纵风险。工程实践方面，开发者持续探索 AI 编程工具的成本优化与内存效率问题。 热门新闻与讨论 🔬 模型与研究 标题 分数/评论 关注理由 How We Broke Top AI Agent Benchmarks: And What Comes Next HN 175 / 46 Berkeley RDI 团队系统揭露主流 Agent 基准测试可被轻易操纵，引发社区对评...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-04-12</h1>
-<blockquote>
-<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-04-12 00:12 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI 社区动态日报</h1>
-<p><strong>日期：2026-04-12</strong></p>
-<hr>
-<h2>今日速览</h2>
-<p>今日 HN 社区围绕 <strong>Anthropic Claude Mythos</strong> 的安全争议展开密集讨论，从银行警告到黑客利用新模型发现漏洞，安全焦虑明显升温。OpenAI 收购 Cirrus Labs 引发人才整合关注，而 Meta 天价 AI 高管奖金则凸显行业人才争夺的白热化。社区对 AI 基准测试的可靠性提出质疑，Berkeley 团队揭露主流 Agent 基准存在被操纵风险。工程实践方面，开发者持续探索 AI 编程工具的成本优化与内存效率问题。</p>
-<hr>
-<h2>热门新闻与讨论</h2>
-<h3>🔬 模型与研究</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">关注理由</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/">How We Broke Top AI Agent Benchmarks: And What Comes Next</a></strong> <a href="https://news.ycombinator.com/item?id=47733217">HN</a></td>
-<td align="left">175 / 46</td>
-<td align="left"><strong>Berkeley RDI 团队系统揭露主流 Agent 基准测试可被轻易操纵</strong>，引发社区对评估体系可信度的深度反思。高评论数显示研究者对&quot;如何构建真正可靠的评测&quot;有强烈共识需求。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://galsapir.github.io/sparse-thoughts/2026/04/11/map-and-territory/">Borges&#39; cartographers and the tacit skill of reading LM output</a></strong> <a href="https://news.ycombinator.com/item?id=47730229">HN</a></td>
-<td align="left">33 / 9</td>
-<td align="left">借用博尔赫斯寓言探讨<strong>人类解读 LLM 输出的隐性技能</strong>，小众但高质，反映社区对&quot;人机交互认知层面&quot;的深层兴趣。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://arstechnica.com/ai/2026/04/why-anthropic-sent-its-claude-ai-to-an-actual-psychiatrist/">AI on the couch: Anthropic gives Claude 20 hours of psychiatry</a></strong> <a href="https://news.ycombinator.com/item?id=47732468">HN</a></td>
-<td align="left">7 / 2</td>
-<td align="left">Anthropic 让 Claude 接受精神病学评估的实验，虽分数不高，但体现<strong>AI 安全研究向心理学方法论跨界</strong>的新趋势。</td>
-</tr>
-</tbody></table>
-<h3>🛠️ 工具与工程</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">关注理由</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://khronokernel.com/macos/2023/08/08/AS-VM.html">Apple Silicon and Virtual Machines: Beating the 2 VM Limit (2023)</a></strong> <a href="https://news.ycombinator.com/item?id=47733971">HN</a></td>
-<td align="left">109 / 53</td>
-<td align="left"><strong>技术深度帖</strong>，破解 Apple Silicon 虚拟化限制对本地 AI 开发环境至关重要。高评论数显示开发者对&quot;苹果生态 AI 工程瓶颈&quot;的持续困扰。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://github.com/visionscaper/collabmem">Show HN: Collabmem – a memory system for long-term collaboration with AI</a></strong> <a href="https://news.ycombinator.com/item?id=47726056">HN</a></td>
-<td align="left">9 / 1</td>
-<td align="left">针对 AI 协作场景的记忆持久化方案，<strong>低分但方向精准</strong>，反映开发者对&quot;超越单次会话的 AI 工作流&quot;的真实需求。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://github.com/juyterman1000/entroly">Cut Token Costs on Claude Code, Cursor, and Codex</a></strong> <a href="https://news.ycombinator.com/item?id=47733157">HN</a></td>
-<td align="left">7 / 0</td>
-<td align="left">开源工具直接回应<strong>AI 编程成本痛点</strong>，零评论或说明方案直观无需讨论，或尚未形成社区验证。</td>
-</tr>
-</tbody></table>
-<h3>🏢 产业动态</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">关注理由</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://cirruslabs.org/">Cirrus Labs to join OpenAI</a></strong> <a href="https://news.ycombinator.com/item?id=47730194">HN</a></td>
-<td align="left"><strong>225 / 111</strong></td>
-<td align="left"><strong>今日最高分</strong>，OpenAI 持续吞并顶尖研究团队引发垄断担忧与人才集中化讨论。评论数显示社区对&quot;小团队被大厂收编&quot;的复杂情绪。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.msn.com/en-my/news/other/meta-is-set-to-pay-its-top-ai-executives-almost-a-billion-each-in-bonuses-if-they-hit-their-targets/ar-AA1ZszqA">Meta is set to pay its top AI executives almost a billion each in bonuses</a></strong> <a href="https://news.ycombinator.com/item?id=47729975">HN</a></td>
-<td align="left">44 / 27</td>
-<td align="left"><strong>10 亿美元级奖金</strong>刷新行业认知，社区热议&quot;AI 人才泡沫&quot;与&quot;激励结构扭曲&quot;，部分评论质疑目标设定的可达成性。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.bloomberg.com/news/articles/2026-04-11/openai-accuses-musk-of-100-billion-plus-trial-looms">OpenAI Accuses Musk of &#39;Ambush&#39; as $100B-Plus Trial Looms</a></strong> <a href="https://news.ycombinator.com/item?id=47732088">HN</a></td>
-<td align="left">7 / 0</td>
-<td align="left">OpenAI-Musk 诉讼进入新阶段，<strong>零评论或反映社区疲劳</strong>，或 Bloomberg 付费墙限制讨论。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://openai.com/index/axios-developer-tool-compromise/">Our response to the Axios developer tool compromise</a></strong> <a href="https://news.ycombinator.com/item?id=47726350">HN</a></td>
-<td align="left">8 / 0</td>
-<td align="left">OpenAI 官方安全事件回应，<strong>零评论值得警惕</strong>——是透明度足够无需质疑，还是社区对官方声明失去互动兴趣？</td>
-</tr>
-</tbody></table>
-<h3>💬 观点与争议</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">关注理由</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://www.nbcnews.com/tech/security/anthropic-claude-mythos-ai-hackers-cybersecurity-vulnerabilities-rcna273673">AI Is Tipping the Scales Toward Hackers After Mythos Release</a></strong> <a href="https://news.ycombinator.com/item?id=47734106">HN</a></td>
-<td align="left">11 / 7</td>
-<td align="left"><strong>Mythos 安全争议的媒体放大版</strong>，社区讨论聚焦&quot;能力释放节奏 vs 安全防护&quot;的伦理张力。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.theatlantic.com/technology/2026/04/claude-mythos-hacking/686746/">Mythos Is Everyone&#39;s Problem</a></strong> <a href="https://news.ycombinator.com/item?id=47729163">HN</a></td>
-<td align="left">10 / 3</td>
-<td align="left">Atlantic 长文将 Mythos 定性为<strong>社会级风险</strong>，低分高质，代表严肃媒体对 AI 安全的主流叙事转向。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.nytimes.com/2026/04/10/business/anthropic-claude-mythos-preview-banks.html">Banks Are Warned About Anthropic&#39;s New, Powerful A.I. Technology</a></strong> <a href="https://news.ycombinator.com/item?id=47732378">HN</a></td>
-<td align="left">4 / 0</td>
-<td align="left">金融监管层面首次对特定 AI 模型发出警告，<strong>零评论或因 NYT 付费墙</strong>，但信号意义重大。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.hormuz-havoc.com/">Show HN: Hormuz Havoc, a satirical game that got overrun by AI bots in 24 hours</a></strong> <a href="https://news.ycombinator.com/item?id=47729477">HN</a></td>
-<td align="left">51 / 16</td>
-<td align="left"><strong>最具讽刺意味的 Show HN</strong>，创作者意图批判 AI 泛滥，反被 AI 机器人淹没——社区将其视为&quot;自我实现的预言&quot;而热烈讨论。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>社区情绪信号</h2>
-<p>今日 HN AI 讨论呈现**&quot;安全焦虑主导、工程务实跟进、产业动态分化&quot;**的三层结构。</p>
-<p><strong>最活跃话题</strong>：Cirrus Labs 收购（225 分/111 评论）与 Berkeley 基准破解（175 分/46 评论）形成&quot;产业集中化&quot;与&quot;技术可信度&quot;的双重焦虑。Mythos 相关四则新闻（#8, #10, #22, #24）虽分数分散，但共同构建出<strong>对 Anthropic 新模型的警惕氛围</strong>——这是近期罕见的&quot;单一模型引发跨领域监管、媒体、安全社区联动关注&quot;现象。</p>
-<p><strong>争议与共识</strong>：社区对 Meta 天价奖金存在明显分歧——部分认为这是市场定价的必然，另一部分担忧激励扭曲；而对&quot;基准测试不可靠&quot;则高度共识，呼吁建立更健壮的评估体系。</p>
-<p><strong>方向变化</strong>：相比上周对 GPT-5.4 技术细节的追捧，本周焦点<strong>从&quot;能力展示&quot;转向&quot;风险控制&quot;</strong>，金融监管介入（银行警告）和黑客利用案例成为新变量，预示社区关注点进入&quot;能力-安全&quot;再平衡阶段。</p>
-<hr>
-<h2>值得深读</h2>
-<table>
-<thead>
-<tr>
-<th align="left">推荐内容</th>
-<th align="left">理由</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/">How We Broke Top AI Agent Benchmarks</a></strong></td>
-<td align="left"><strong>研究者必读</strong>。系统拆解 SWE-bench、HumanEval 等主流基准的操纵方法，提出&quot;对抗性评测&quot;替代方案，对正在构建或依赖 Agent 评估体系的团队有直接指导价值。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://khronokernel.com/macos/2023/08/08/AS-VM.html">Apple Silicon and Virtual Machines</a></strong></td>
-<td align="left"><strong>AI 工程师实操指南</strong>。深入 ARM 虚拟化架构，解决 Apple Silicon 上运行多容器/多模型开发环境的硬核瓶颈，附完整内核补丁与 QEMU 配置。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://galsapir.github.io/sparse-thoughts/2026/04/11/map-and-territory/">Borges&#39; cartographers</a></strong></td>
-<td align="left"><strong>人机交互研究者视角</strong>。从诠释学角度分析&quot;提示工程&quot;的本质——不是操控模型，而是培养人类解读模型输出的 tacit knowledge，为设计更好的 AI 交互界面提供哲学基础。</td>
-</tr>
-</tbody></table>
-<hr>
 <hr>
 <p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>

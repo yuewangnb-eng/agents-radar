@@ -6,7 +6,164 @@
     <description>技术社区 AI 动态日报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-community.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 11 May 2026 04:53:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 04:29:59 +0000</lastBuildDate>
+    <item>
+      <title>技术社区 AI 动态日报 2026-05-12</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-12/ai-community</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-12/ai-community</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <description>技术社区 AI 动态日报 2026-05-12 数据来源: Dev.to (30 篇) + Lobste.rs (9 条) | 生成时间: 2026-05-12 00:22 UTC 技术社区 AI 动态日报 | 2026-05-12 今日速览 今日技术社区围绕 AI Agent 的生产化落地展开密集讨论，MCP 协议安全性与网关可靠性成为焦点。开发者对&amp;quot;Vibe Coding&amp;quot;的反思持续升温，从 Prompt 调试技巧到 RL 与神经网络的基础教程，工程实践与底层原理并重。Lobste.rs 则高度关注开源权重模型的封闭化趋势，以及 Mojo v1.0、Swift 训练 LLM 等性能极致化探索，两个社区共同折射出 AI 基础设施从&amp;quot;能用&amp;quot;到&amp;quot;可控&amp;quot;的成熟焦虑。 Dev.to 精选 # 文章 互动 核心价值 1 How to Secure AI Agents in Production: What MCP Gets Right (and What It Doesn&amp;#39;t) 👍 27 · 💬 7 首篇系统性剖析 MCP...</description>
+      <content:encoded><![CDATA[<h1>技术社区 AI 动态日报 2026-05-12</h1>
+<blockquote>
+<p>数据来源: <a href="https://dev.to/">Dev.to</a> (30 篇) + <a href="https://lobste.rs/">Lobste.rs</a> (9 条) | 生成时间: 2026-05-12 00:22 UTC</p>
+</blockquote>
+<hr>
+<h1>技术社区 AI 动态日报 | 2026-05-12</h1>
+<hr>
+<h2>今日速览</h2>
+<p>今日技术社区围绕 <strong>AI Agent 的生产化落地</strong>展开密集讨论，MCP 协议安全性与网关可靠性成为焦点。开发者对&quot;Vibe Coding&quot;的反思持续升温，从 Prompt 调试技巧到 RL 与神经网络的基础教程，<strong>工程实践与底层原理并重</strong>。Lobste.rs 则高度关注<strong>开源权重模型的封闭化趋势</strong>，以及 Mojo v1.0、Swift 训练 LLM 等<strong>性能极致化</strong>探索，两个社区共同折射出 AI 基础设施从&quot;能用&quot;到&quot;可控&quot;的成熟焦虑。</p>
+<hr>
+<h2>Dev.to 精选</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>文章</th>
+<th>互动</th>
+<th>核心价值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://dev.to/hadil/how-to-secure-ai-agents-in-production-what-mcp-gets-right-and-what-it-doesnt-1d12">How to Secure AI Agents in Production: What MCP Gets Right (and What It Doesn&#39;t)</a></strong></td>
+<td>👍 27 · 💬 7</td>
+<td>首篇系统性剖析 MCP 协议安全边界的实战指南，填补 Agent 工具链安全评估空白</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://dev.to/javz/the-missing-layer-in-prompt-engineering-thinking-quality-2n3j">The missing layer in prompt engineering: thinking quality</a></strong></td>
+<td>👍 26 · 💬 11</td>
+<td>跳出&quot;提示词模板&quot;陷阱，提出&quot;思维质量&quot;作为 Prompt 效果的决定性变量</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://dev.to/harsh2644/i-tested-paioclaw-heres-what-happened-when-i-pushed-it-to-its-limits-iok">I Tested PaioClaw — Here&#39;s What Happened When I Pushed It to Its Limits</a></strong></td>
+<td>👍 26 · 💬 5</td>
+<td>对 AI 工具进行对抗性压力测试的方法论，揭示&quot;顺从性&quot;背后的安全风险</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong><a href="https://dev.to/alimafana/i-was-about-to-rewrite-my-chat-router-the-bug-was-two-lines-in-a-prompt-4kco">I Was About to Rewrite My Chat Router. The Bug Was Two Lines in a Prompt.</a></strong></td>
+<td>👍 5 · 💬 0</td>
+<td>经典案例：LLM 应用中最昂贵的错误往往不在代码而在 Prompt 语义，诊断思路极具迁移价值</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong><a href="https://dev.to/mamoor_ahmad/vibe-coding-is-fun-until-you-hit-production-42lj">Vibe Coding is Fun Until You Hit Production</a></strong></td>
+<td>👍 4 · 💬 2</td>
+<td>从 3 小时原型到生产事故的完整复盘，提出 7 条 AI 生成代码的上线纪律</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong><a href="https://dev.to/samuel_rose_b30991db2b25b/context-engineering-for-ai-agents-what-it-is-and-why-it-changes-everything-2f5b">Context Engineering for AI Agents: What It Is and Why It Changes Everything</a></strong></td>
+<td>👍 8 · 💬 1</td>
+<td>将&quot;上下文工程&quot;定义为独立学科，为 Agent 设计提供可操作的框架</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong><a href="https://dev.to/mukundakatta/i-shipped-14-mcp-servers-this-week-gemma-4-changes-which-ones-matter-1klk">I shipped 14 MCP servers this week. Gemma 4 changes which ones matter.</a></strong></td>
+<td>👍 3 · 💬 0</td>
+<td>端侧小模型时代，MCP 服务器的&quot;工具 Belt&quot;优先级发生根本重构的实践笔记</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong><a href="https://dev.to/alessandro_pignati/how-to-stop-your-ai-agent-from-draining-your-bank-account-a-guide-to-agentic-payments-4mck">How to Stop Your AI Agent from Draining Your Bank Account: A Guide to Agentic Payments</a></strong></td>
+<td>👍 5 · 💬 0</td>
+<td>直面 Agent 自主调用 API 的计费失控问题，提出&quot;Agentic 支付&quot;的治理模式</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>Lobste.rs 精选</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>内容</th>
+<th>互动</th>
+<th>阅读理由</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://martinalderson.com/posts/open-weights-are-quietly-closing-up/">Open weights are quietly closing up - and that&#39;s a problem</a></strong> · <a href="https://lobste.rs/s/jvvtif/open_weights_are_quietly_closing_up_s">讨论</a></td>
+<td>🔺 43 · 💬 25</td>
+<td><strong>今日最高讨论热度</strong>，揭示开源权重模型许可收紧的系统性趋势，对依赖开源的商业决策有预警价值</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://joel.place/blog/path-not-taken/">A Path Not Taken for OxCaml</a></strong> · <a href="https://lobste.rs/s/ik5vhe/path_not_taken_for_oxcaml">讨论</a></td>
+<td>🔺 24 · 💬 4</td>
+<td>OCaml 生态在 AI 基础设施中的设计抉择反思，类型系统与 ML 工作负载的深层张力</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://mojolang.org/releases/v1.0.0b1">Mojo v1.0.0b1</a></strong> · <a href="https://lobste.rs/s/zys8hd/mojo_v1_0_0b1">讨论</a></td>
+<td>🔺 23 · 💬 0</td>
+<td>Python 兼容+系统级性能的 AI 专用语言达到关键里程碑，值得评估是否纳入技术栈</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong><a href="https://wil.to/posts/googles-prompt-api/">Google&#39;s Prompt API</a></strong> · <a href="https://lobste.rs/s/at9lwa/google_s_prompt_api">讨论</a></td>
+<td>🔺 20 · 💬 2</td>
+<td>浏览器内置 Prompt API 的实地评测，关乎 Web AI 的隐私架构与分发模式</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong><a href="https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html">Training an LLM in Swift, Part 1: Taking matrix multiplication from Gflop/s to Tflop/s</a></strong> · <a href="https://lobste.rs/s/dqzo2u/training_llm_swift_part_1_taking_matrix">讨论</a></td>
+<td>🔺 3 · 💬 0</td>
+<td>苹果生态开发者必读，从 GPU 利用率到内存带宽的极致优化路径</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong><a href="https://github.com/rdmsr/sectorllm">sectorllm: llama2 inference in &lt; 1500 bytes of x86 assembly</a></strong> · <a href="https://lobste.rs/s/5ond6x/sectorllm_llama2_inference_1500_bytes">讨论</a></td>
+<td>🔺 3 · 💬 0</td>
+<td>将 LLM 推理压缩至软盘扇区大小的极限工程，底层优化的美学典范</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>社区脉搏</h2>
+<p><strong>共同主题</strong>：两个平台今日形成鲜明互补——Dev.to 聚焦 <strong>Agent 工程化</strong>（MCP 安全、支付治理、上下文工程），Lobste.rs 守护 <strong>开源与性能底线</strong>（权重封闭化批判、Mojo/Swift 替代路径）。开发者核心关切已从&quot;AI 能做什么&quot;转向&quot;AI 在我不注意时会做什么&quot;：Agent 的自主行为边界、Token 计费的财务风险、Prompt 调试的隐蔽成本成为高频痛点。新兴模式方面，<strong>&quot;递归 Agent 工作流&quot;</strong>（KittyClaw）和**&quot;知识后端模式&quot;**（Synthadoc）代表架构创新方向，而 <strong>Gemma 4 的端侧化</strong>正在重塑工具链的优先级排序。</p>
+<hr>
+<h2>值得精读</h2>
+<table>
+<thead>
+<tr>
+<th>优先级</th>
+<th>文章</th>
+<th>理由</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>⭐⭐⭐</td>
+<td><strong><a href="https://martinalderson.com/posts/open-weights-are-quietly-closing-up/">Open weights are quietly closing up</a></strong></td>
+<td>开源 AI 的&quot;寒蝉效应&quot;长文，数据详实、论点尖锐，直接影响技术选型与合规策略</td>
+</tr>
+<tr>
+<td>⭐⭐⭐</td>
+<td><strong><a href="https://dev.to/hadil/how-to-secure-ai-agents-in-production-what-mcp-gets-right-and-what-it-doesnt-1d12">How to Secure AI Agents in Production</a></strong></td>
+<td>MCP 作为事实标准的安全审计首篇，Agent 开发者必读的生产检查清单</td>
+</tr>
+<tr>
+<td>⭐⭐☆</td>
+<td><strong><a href="https://dev.to/alimafana/i-was-about-to-rewrite-my-chat-router-the-bug-was-two-lines-in-a-prompt-4kco">I Was About to Rewrite My Chat Router</a></strong></td>
+<td>短而精的调试叙事，揭示 LLM 应用中最易被忽视的&quot;语义层&quot;故障模式，可节省数小时架构返工</td>
+</tr>
+</tbody></table>
+<hr>
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>技术社区 AI 动态日报 2026-05-11</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-11/ai-community</link>
@@ -3812,132 +3969,6 @@
 <li><p><strong><a href="https://dev.to/practiceoverflow/agent-native-data-infrastructure-3ej1">Agent Native Data Infrastructure</a></strong><br>当 Agent 成为数据库的主要用户，数据架构、查询模式、权限模型均需重新设计。</p>
 </li>
 <li><p><strong><a href="https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact">How is your org/company measuring the impact of AI adoption?</a></strong><br>评论区汇聚真实企业的度量实践，超越营销话术的务实讨论。</p>
-</li>
-</ol>
-<hr>
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>技术社区 AI 动态日报 2026-04-12</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-12/ai-community</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-12/ai-community</guid>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-      <description>技术社区 AI 动态日报 2026-04-12 数据来源: Dev.to (30 篇) + Lobste.rs (6 条) | 生成时间: 2026-04-12 00:12 UTC 技术社区 AI 动态日报 | 2026-04-12 今日速览 今日 Dev.to 和 Lobste.rs 围绕 AI 的讨论呈现明显的工具化落地趋势：开发者正从&amp;quot;用 AI 写代码&amp;quot;转向&amp;quot;用 AI 重构工作流&amp;quot;——从浏览器端视频编辑、会议智能系统到供应链预测模型，AI 基础设施（RAG、Agent、Guardrails）成为高频关键词。同时，社区对 AI 安全、可观测性和成本优化的务实讨论显著增加，反映出生产环境部署的真实痛点。 Dev.to 精选 标题 互动数据 核心价值 I Built a Free Browser Video Editor with WebGPU, WebCodecs &amp;amp; Optional AI Generation 👍 16 · 💬 4 零上传、零订阅的浏览器原生视频编辑方案，展示 WebGPU + AI 生成的前沿整合 Unders...</description>
-      <content:encoded><![CDATA[<h1>技术社区 AI 动态日报 2026-04-12</h1>
-<blockquote>
-<p>数据来源: <a href="https://dev.to/">Dev.to</a> (30 篇) + <a href="https://lobste.rs/">Lobste.rs</a> (6 条) | 生成时间: 2026-04-12 00:12 UTC</p>
-</blockquote>
-<hr>
-<h1>技术社区 AI 动态日报 | 2026-04-12</h1>
-<hr>
-<h2>今日速览</h2>
-<p>今日 Dev.to 和 Lobste.rs 围绕 AI 的讨论呈现明显的<strong>工具化落地</strong>趋势：开发者正从&quot;用 AI 写代码&quot;转向&quot;用 AI 重构工作流&quot;——从浏览器端视频编辑、会议智能系统到供应链预测模型，AI 基础设施（RAG、Agent、Guardrails）成为高频关键词。同时，社区对 AI 安全、可观测性和成本优化的务实讨论显著增加，反映出生产环境部署的真实痛点。</p>
-<hr>
-<h2>Dev.to 精选</h2>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">互动数据</th>
-<th align="left">核心价值</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://dev.to/sebyx07/i-built-a-free-browser-video-editor-with-webgpu-webcodecs-optional-ai-generation-2eo0">I Built a Free Browser Video Editor with WebGPU, WebCodecs &amp; Optional AI Generation</a></strong></td>
-<td align="left">👍 16 · 💬 4</td>
-<td align="left">零上传、零订阅的浏览器原生视频编辑方案，展示 WebGPU + AI 生成的前沿整合</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://dev.to/rijultp/understanding-transformers-part-5-queries-keys-and-similarity-3o7k">Understanding Transformers Part 5: Queries, Keys, and Similarity</a></strong></td>
-<td align="left">👍 15 · 💬 0</td>
-<td align="left">自注意力机制的深度拆解，适合系统学习 Transformer 底层原理</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://dev.to/ryosuke_tsuji_f08e20fdca1/how-we-built-an-automated-meeting-intelligence-system-with-google-meet-slack-and-rag-42ln">How We Built an Automated Meeting Intelligence System with Google Meet, Slack, and RAG</a></strong></td>
-<td align="left">👍 10 · 💬 0</td>
-<td align="left">19 分钟长文，完整呈现企业级 RAG 架构设计与多系统集成经验</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://dev.to/dhaivat_jambudia/i-replaced-12-kitchen-managers-guessing-how-much-chicken-do-we-need-with-3-ml-models-heres-the-421e">I Replaced 12 Kitchen Managers Guessing &quot;How Much Chicken Do We Need&quot; With 3 ML Models. Here&#39;s the Entire Architecture.</a></strong></td>
-<td align="left">👍 1 · 💬 0</td>
-<td align="left">AI 供应链落地的完整案例研究，从业务痛点到模型选型的实战参考</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://dev.to/ratila/jguardrails-production-ready-safety-rails-for-java-llm-applications-2aee">JGuardrails: Production-Ready Safety Rails for Java LLM Applications</a></strong></td>
-<td align="left">👍 1 · 💬 0</td>
-<td align="left">企业 Java 生态缺失的 LLM 安全层，&quot;系统提示是请求，Guardrails 是强制&quot;</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://dev.to/wd400/i-got-mass-flagged-by-gptzero-for-my-own-writing-so-i-built-an-open-source-alternative-in-pure-5aj2">I got mass-flagged by GPTZero for my own writing. So I built an open-source alternative in pure Python.</a></strong></td>
-<td align="left">👍 2 · 💬 0</td>
-<td align="left">对抗 AI 检测误伤的务实解决方案，纯 Python 开源实现</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://dev.to/mansisomayajula03/nobody-tells-you-this-about-slow-transformer-models-i-fixed-mine-in-3-steps-518c">Nobody Tells You This About Slow Transformer Models — I Fixed Mine in 3 Steps</a></strong></td>
-<td align="left">👍 1 · 💬 0</td>
-<td align="left">ONNX 推理优化的实战指南，区分&quot;模型慢&quot;与&quot;推理慢&quot;的认知纠偏</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://dev.to/samarth0211/i-picked-a-5ms-keyword-router-over-an-llm-meta-router-for-my-ai-app-heres-the-math-23p2">I picked a 5ms keyword router over an LLM meta-router for my AI app. Here&#39;s the math.</a></strong></td>
-<td align="left">👍 0 · 💬 0</td>
-<td align="left">成本敏感场景下的架构决策：何时不该用 LLM 的量化分析</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>Lobste.rs 精选</h2>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">互动数据</th>
-<th align="left">阅读价值</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact">How is your org/company measuring the impact of AI adoption?</a></strong> <a href="https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact">讨论</a></td>
-<td align="left">🔺 10 · 💬 2</td>
-<td align="left">直击 AI 投资回报率（ROI）的测量困境，社区真实经验分享</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.anthropic.com/glasswing">Project Glasswing: Securing critical software for the AI era</a></strong> <a href="https://lobste.rs/s/pgkwml/project_glasswing_securing_critical">讨论</a></td>
-<td align="left">🔺 6 · 💬 0</td>
-<td align="left">Anthropic 发布的 AI 时代关键软件安全框架，值得跟踪</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.robinsloan.com/winter-garden/where-is-it-like/">Where is it like to be a language model?</a></strong> <a href="https://lobste.rs/s/iumxay/where_is_it_like_be_language_model">讨论</a></td>
-<td align="left">🔺 3 · 💬 1</td>
-<td align="left">哲学家视角审视 LLM 的&quot;体验&quot;问题，技术与人文的交叉思考</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://rodneybrooks.com/predictions-scorecard-2026-january-01/">Predictions Scorecard, 2026 January 01</a></strong> <a href="https://lobste.rs/s/1jkplq/predictions_scorecard_2026_january_01">讨论</a></td>
-<td align="left">🔺 1 · 💬 0</td>
-<td align="left">MIT 教授 Rodney Brooks 的年度 AI 预测复盘，校准技术预期</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>社区脉搏</h2>
-<p><strong>共同主题</strong>：两个平台均聚焦 AI 的<strong>生产化落地</strong>——Dev.to 侧重工具构建与架构实践（Agent、RAG、Guardrails），Lobste.rs 则关注组织层面的采用评估与安全风险（Glasswing、ROI 测量）。</p>
-<p><strong>实际关切</strong>：开发者正从&quot;AI 能做什么&quot;转向&quot;AI 成本多少、风险多大、如何观测&quot;。关键词路由 vs LLM 路由的性能权衡、AI 检测器的误伤问题、Java 生态的安全缺口，均指向<strong>务实主义</strong>的回归。</p>
-<p><strong>新兴模式</strong>：<code>.cursorrules</code> 配置模式、浏览器端 AI 处理（WebGPU/WebCodecs）、开源替代方案（n8n、GPTZero 竞品）构成今日最佳实践的三条主线。</p>
-<hr>
-<h2>值得精读</h2>
-<ol>
-<li><p><strong><a href="https://dev.to/ryosuke_tsuji_f08e20fdca1/how-we-built-an-automated-meeting-intelligence-system-with-google-meet-slack-and-rag-42ln">How We Built an Automated Meeting Intelligence System with Google Meet, Slack, and RAG</a></strong>（19 分钟）</p>
-<ul>
-<li>日本时尚订阅服务 airCloset 的 CTO 完整复盘，涵盖 RAG 架构设计、多系统 API 集成、日语场景的 embedding 优化等工程细节，企业级 AI 落地的参考范本。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://dev.to/dhaivat_jambudia/i-replaced-12-kitchen-managers-guessing-how-much-chicken-do-we-need-with-3-ml-models-heres-the-421e">I Replaced 12 Kitchen Managers... With 3 ML Models</a></strong>（6 分钟）</p>
-<ul>
-<li>从&quot;业务痛点→数据收集→模型选型→部署验证&quot;的完整闭环，展示 AI 在传统行业的渗透路径，避免技术先行的典型反模式。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact">How is your org/company measuring the impact of AI adoption?</a></strong> <a href="https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact">讨论</a></p>
-<ul>
-<li>社区真实组织的 AI 投资评估实践，涵盖开发效率指标、代码质量变化、员工满意度等多维度测量框架，决策者的必读讨论。</li>
-</ul>
 </li>
 </ol>
 <hr>
