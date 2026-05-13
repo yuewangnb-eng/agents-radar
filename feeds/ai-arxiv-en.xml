@@ -6,7 +6,82 @@
     <description>ArXiv AI Research Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-arxiv-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 12 May 2026 04:29:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 04:37:04 +0000</lastBuildDate>
+    <item>
+      <title>ArXiv AI Research Digest 2026-05-13</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-13/ai-arxiv-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-13/ai-arxiv-en</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>ArXiv AI Research Digest 2026-05-13 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-05-13 00:24 UTC ArXiv AI Research Digest — May 13, 2026 1. Today&amp;#39;s Highlights Today&amp;#39;s submissions reveal a strong convergence toward agentic systems with formal guarantees and structured execution, alongside continued maturation of test-time compute optimization and domain-specific foundation models. Notable breakthroughs include Shepherd&amp;#39;s formalization of meta-agent operations in L...</description>
+      <content:encoded><![CDATA[<h1>ArXiv AI Research Digest 2026-05-13</h1>
+<blockquote>
+<p>Source: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-05-13 00:24 UTC</p>
+</blockquote>
+<hr>
+<h1>ArXiv AI Research Digest — May 13, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>Today&#39;s submissions reveal a strong convergence toward <strong>agentic systems with formal guarantees and structured execution</strong>, alongside continued maturation of <strong>test-time compute optimization</strong> and <strong>domain-specific foundation models</strong>. Notable breakthroughs include Shepherd&#39;s formalization of meta-agent operations in Lean, DECO&#39;s solution for deploying sparse MoE models on edge devices with dense-level performance, and the Generalized Turing Test framework for rigorous capability comparison. The field is increasingly prioritizing <strong>safety-critical robustness</strong>—from probabilistic shielding in MDPs to formal verification of LLM guardrails—while pushing multimodal agents into challenging real-world domains like industrial video inspection and pentesting.</p>
+<hr>
+<h2>2. Key Papers</h2>
+<h3>🧠 Large Language Models</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.10938v1">ELF: Embedded Language Flows</a></strong> — Hu et al.
+Adapts continuous flow-based diffusion models to discrete language modeling, offering a principled alternative to autoregressive generation with potential for parallel decoding and controllable generation.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.10875v1">Compute Where it Counts: Self Optimizing Language Models</a></strong> — Akhauri &amp; Abdelfattah
+Enables dynamic per-token compute allocation during LLM inference, recognizing that uniform compression wastes budget on easy tokens while under-investing in hard ones—addressing a fundamental inefficiency in current serving.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.10863v1">DGPO: Beyond Pairwise Preferences with Directional Consistent Groupwise Optimization</a></strong> — Deng et al.
+Proposes groupwise preference optimization that preserves reasoning diversity while enforcing directional consistency, resolving a tension in current RLHF methods that collapse varied correct reasoning paths.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.10843v1">Training-Free Cultural Alignment of Large Language Models via Persona Disagreement</a></strong> — Kiet et al.
+Achieves cross-cultural value alignment without fine-tuning by leveraging internal model disagreements between personas, offering a scalable alternative to expensive per-culture preference data collection.</p>
+<hr>
+<h3>🤖 Agents &amp; Reasoning</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.10913v1">Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace</a></strong> — Yu et al.
+Formalizes meta-agent operations as typed functions in Lean with Git-like execution traces, enabling forkable, verifiable agent computations—a critical step toward trustworthy autonomous systems.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.10923v1">Dynamic Skill Lifecycle Management for Agentic Reinforcement Learning</a></strong> — Shen et al.
+Introduces skill creation, maintenance, and deprecation mechanisms for LLM agents, moving beyond static skill libraries to enable lifelong learning in open-ended environments.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.10899v1">RubricEM: Meta-RL with Rubric-guided Policy Decomposition beyond Verifiable Rewards</a></strong> — Li et al.
+Extends reinforcement learning to deep research agents where rewards are inherently unverifiable, using rubric-based decomposition to provide training signal for long-horizon scientific reasoning.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.10912v1">WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation</a></strong> — Ding et al.
+Evaluates CLI-based agents on authentic long-horizon tasks with real service APIs rather than synthetic sandboxes, closing the gap between benchmark performance and practical utility.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.10834v1">From Controlled to the Wild: Evaluation of Pentesting Agents for the Real-World</a></strong> — Conde et al.
+Systematically evaluates AI pentesting agents on production systems rather than CTF challenges, revealing critical gaps in current benchmarks for offensive security applications.</p>
+<hr>
+<h3>🔧 Methods &amp; Frameworks</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.10933v1">DECO: Sparse Mixture-of-Experts with Dense-Comparable Performance on End-Side Devices</a></strong> — Song et al.
+Eliminates the memory-access bottlenecks that prevent MoE deployment on edge devices, achieving dense-model-equivalent latency with sparse parameter counts—a breakthrough for efficient on-device AI.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.10906v1">DataMaster: Towards Autonomous Data Engineering for Machine Learning</a></strong> — Du et al.
+Automates the full data engineering pipeline—dataset discovery, adaptation, and quality validation—addressing the emerging bottleneck where data, not architecture or compute, limits model improvement.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.10901v1">Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers</a></strong> — Kezins et al.
+Provides the first framework for provable safety guarantees of production guardrail systems, moving beyond empirical testing to certified robustness bounds in discrete input spaces.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.10888v1">Shields to Guarantee Probabilistic Safety in MDPs</a></strong> — Heck et al.
+Extends shielding theory to probabilistic safety constraints, enabling formal guarantees that &quot;bad events are sufficiently unlikely&quot; rather than impossible—matching real-world safety requirements.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.10851v1">The Generalized Turing Test: A Foundation for Comparing Intelligence</a></strong> — Mitropolsky et al.
+Formalizes capability comparison between arbitrary agents via indistinguishability games, providing a rigorous foundation for evaluating progress toward general intelligence without anthropocentric biases.</p>
+<hr>
+<h3>📊 Applications</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.10876v1">AssayBench: An Assay-Level Virtual Cell Benchmark for LLMs and Agents</a></strong> — De Brouwer et al.
+Benchmarks AI systems on virtual cell assay prediction, bridging molecular biology and machine learning with biologically meaningful tasks that test mechanistic reasoning about cellular behavior.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.10873v1">CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation</a></strong> — Doris et al.
+Unifies evaluation for recovering editable parametric CAD programs from images or 3D observations, testing geometric understanding, engineering parameter inference, and valid program synthesis.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.10833v1">MMVIAD: Multi-view Multi-task Video Understanding for Industrial Anomaly Detection</a></strong> — Zhao et al.
+Introduces continuous video-based industrial inspection with multi-view fusion and multi-task learning, addressing the gap between static image benchmarks and real manufacturing quality control pipelines.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.10840v1">Clin-JEPA: A Multi-Phase Co-Training Framework for Joint-Embedding Predictive Pretraining on EHR Patient Trajectories</a></strong> — Yang et al.
+Adapts JEPA self-supervised learning to electronic health records with multi-phase co-training, enabling latent-space planning for clinical decision support without expensive trajectory labels.</p>
+<hr>
+<h2>3. Research Trend Signal</h2>
+<p>Three converging directions emerge from today&#39;s submissions. <strong>First, formal methods are penetrating agent architectures</strong>: Shepherd&#39;s Lean mechanization, probabilistic shielding, and guardrail verification collectively signal that the field is maturing beyond empirical safety toward certified reliability. This reflects lessons from autonomous systems failures and regulatory pressure. <strong>Second, test-time compute optimization has diversified beyond speculative decoding</strong>: dynamic token-level allocation (Self Optimizing Language Models), sparse expert routing (DECO), and flow-based parallel generation (ELF) all attack the inference efficiency problem from different angles, suggesting the community recognizes training scaling alone is insufficient. <strong>Third, evaluation is aggressively &quot;de-sanitizing&quot;</strong>: WildClawBench, pentesting agent evaluation, and real-world industrial video benchmarks reject synthetic conditions in favor of messy, consequential deployment environments. This trio—formal guarantees, inference efficiency, and realistic evaluation—suggests the field is transitioning from capability demonstration to trustworthy deployment, with 2026 marking potential inflection toward production-grade AI systems.</p>
+<hr>
+<h2>4. Worth Deep Reading</h2>
+<h3><strong><a href="http://arxiv.org/abs/2605.10913v1">Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace</a></strong></h3>
+<p><strong>Why:</strong> This paper addresses the foundational crisis in agent reliability. Current agents are black-box loops that defy debugging, auditing, or formal verification. Shepherd&#39;s contribution is architectural: by making execution traces typed, persistent, and forkable in a theorem prover, it enables reproducible agent science. The Git-like branching model for agent states is particularly elegant, suggesting immediate utility for agent development workflows. For anyone building or regulating autonomous systems, this provides a concrete path from &quot;hope it works&quot; to &quot;verify it works.&quot;</p>
+<h3><strong><a href="http://arxiv.org/abs/2605.10933v1">DECO: Sparse Mixture-of-Experts with Dense-Comparable Performance on End-Side Devices</a></strong></h3>
+<p><strong>Why:</strong> MoE has been the architecture of choice for scaling model capacity, yet its practical deployment has been limited to datacenters due to memory bandwidth constraints from sparse parameter access. DECO&#39;s achievement of dense-equivalent latency on edge devices—without sacrificing the scaling benefits—could unlock MoE deployment across mobile, automotive, and embedded applications. The technical approach to memory access pattern optimization likely contains transferable insights beyond MoE architectures. Given industry pressure for on-device AI, this has immediate commercial relevance.</p>
+<h3><strong><a href="http://arxiv.org/abs/2605.10901v1">Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers</a></strong></h3>
+<p><strong>Why:</strong> Red-teaming has become standard practice but provides only existential guarantees (&quot;we found no bugs yet&quot;). This paper tackles the theoretically hard problem of formal verification in discrete spaces with no natural specification metric. The framework for certifying guardrail robustness bounds—however initial—represents a necessary step for deploying LLMs in regulated domains (healthcare, finance, legal) where post-hoc incident response is insufficient. The tension between &quot;harmful behavior&quot; as socially constructed and mathematically formalizable makes this intellectually rich even beyond immediate applicability.</p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>ArXiv AI Research Digest 2026-05-09</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-09/ai-arxiv-en</link>

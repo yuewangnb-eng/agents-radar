@@ -6,7 +6,168 @@
     <description>Product Hunt AI 产品日报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-ph.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 12 May 2026 04:29:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 04:37:04 +0000</lastBuildDate>
+    <item>
+      <title>Product Hunt AI 产品日报 2026-05-13</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-13/ai-ph</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-13/ai-ph</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Product Hunt AI 产品日报 2026-05-13 数据来源: Product Hunt | 共 12 个产品 | 生成时间: 2026-05-13 00:24 UTC Product Hunt AI 产品日报 | 2026-05-13 今日速览 今日 Product Hunt 共发布 12 款 AI 产品，开发者工具与 AI 智能体基础设施占据绝对主导。一个显著趋势是：AI Agent 的&amp;quot;周边生态&amp;quot;正在快速成型——从安全杀毒（ClawSecure）、持久化上下文（Weavable）到专用存储（Suprbox），创业者开始为 Agent 时代构建底层设施。代码审查工具 Graphbit PRFlow 以 369 票登顶，反映出工程团队对 AI 质量控制的强需求。值得注意的是，Warp 终端选择开源其 Agentic 开发环境，开源策略在 AI 工具领域持续升温。 热门产品 🤖 AI 智能体与助手 产品 数据 一句话说明 Weavable — 为每个 AI Agent 提供持久工作上下文🔗 Product Hunt | 官网 204 票 / 52 评...</description>
+      <content:encoded><![CDATA[<h1>Product Hunt AI 产品日报 2026-05-13</h1>
+<blockquote>
+<p>数据来源: <a href="https://www.producthunt.com/">Product Hunt</a> | 共 12 个产品 | 生成时间: 2026-05-13 00:24 UTC</p>
+</blockquote>
+<hr>
+<h1>Product Hunt AI 产品日报 | 2026-05-13</h1>
+<hr>
+<h2>今日速览</h2>
+<p>今日 Product Hunt 共发布 12 款 AI 产品，<strong>开发者工具与 AI 智能体基础设施占据绝对主导</strong>。一个显著趋势是：AI Agent 的&quot;周边生态&quot;正在快速成型——从安全杀毒（ClawSecure）、持久化上下文（Weavable）到专用存储（Suprbox），创业者开始为 Agent 时代构建底层设施。代码审查工具 Graphbit PRFlow 以 369 票登顶，反映出工程团队对 AI 质量控制的强需求。值得注意的是，Warp 终端选择开源其 Agentic 开发环境，开源策略在 AI 工具领域持续升温。</p>
+<hr>
+<h2>热门产品</h2>
+<h3>🤖 AI 智能体与助手</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Weavable</strong> — 为每个 AI Agent 提供持久工作上下文<br>🔗 <a href="https://www.producthunt.com/products/weavable?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/33OUNMSCT7MK3F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">204 票 / 52 评论</td>
+<td align="left">解决 Agent &quot;失忆&quot;痛点，让跨会话任务状态持续留存，是 Agent 基础设施的关键拼图</td>
+</tr>
+<tr>
+<td align="left"><strong>onBeacon</strong> — 你的 AI 增长产品经理，7×24 在线<br>🔗 <a href="https://www.producthunt.com/products/onbeacon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/RJL6755GM2XZSW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">96 票 / 6 评论</td>
+<td align="left">将增长策略执行自动化，独特之处在于以&quot;PM 角色&quot;而非工具形态嵌入工作流</td>
+</tr>
+</tbody></table>
+<h3>🛠️ 开发者工具</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Graphbit PRFlow</strong> — 捕捉他人遗漏的 AI 代码审查员<br>🔗 <a href="https://www.producthunt.com/products/graphbit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/K4W36ZSYF7WPLV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left"><strong>369 票 / 97 评论</strong> ⭐</td>
+<td align="left">超越传统 lint 规则，通过语义理解捕获逻辑漏洞，评论数第一说明引发深度讨论</td>
+</tr>
+<tr>
+<td align="left"><strong>Warp Open-Source</strong> — 社区共建的 Agentic 开发环境<br>🔗 <a href="https://www.producthunt.com/products/warp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/RXPBBH5AYSU33A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">197 票 / 17 评论</td>
+<td align="left">终端原生集成 Agent 能力，开源策略降低信任门槛，有望成下一代终端标准</td>
+</tr>
+<tr>
+<td align="left"><strong>Web Speed</strong> — 消灭&quot;Token 税&quot;，Agent 成本降低 90%<br>🔗 <a href="https://www.producthunt.com/products/web-speed?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/EORFJWPOR7CX6S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">106 票 / 7 评论</td>
+<td align="left">直击 AI Agent 规模化部署的成本瓶颈，优化层而非替代层的务实定位</td>
+</tr>
+<tr>
+<td align="left"><strong>ClawSecure</strong> — AI Agent 的 AI 杀毒软件<br>🔗 <a href="https://www.producthunt.com/products/clawsecure?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/CBB34LD6UL5TT2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">288 票 / 37 评论</td>
+<td align="left">首创&quot;以 AI 防 AI&quot;范式，针对 Agent 特有的供应链攻击和提示注入风险</td>
+</tr>
+</tbody></table>
+<h3>📊 AI 应用</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>ChatGPT for Google Sheets</strong> — 用自然语言对话式编辑表格<br>🔗 <a href="https://www.producthunt.com/products/chatgpt-for-google-sheets?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/XBVQBUBSD7SPHT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">112 票 / 4 评论</td>
+<td align="left">降低公式学习成本，但评论数偏低或说明场景深度有限</td>
+</tr>
+<tr>
+<td align="left"><strong>Known Agents</strong> — 追踪爬取你网站的机器人和 AI Agent<br>🔗 <a href="https://www.producthunt.com/products/known-agents?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/K56IE2TRUY7CJD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">89 票 / 11 评论</td>
+<td align="left">应对 AI 爬虫流量激增的监控盲区，填补传统 Analytics 的 Agent 识别缺口</td>
+</tr>
+</tbody></table>
+<h3>🎨 创意与内容</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Genpire</strong> — 用 AI 真正制造实体产品<br>🔗 <a href="https://www.producthunt.com/products/genpire-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/SBMCMSDZBENDWN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">356 票 / 32 评论</td>
+<td align="left">从数字生成跨越到物理制造，AI 驱动全流程产品化，票数第二验证市场需求</td>
+</tr>
+<tr>
+<td align="left"><strong>MiroMiro v2</strong> — 检查、编辑并导出任意网站设计<br>🔗 <a href="https://www.producthunt.com/products/miromiro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/FZXHZAPXMQHI2M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">177 票 / 16 评论</td>
+<td align="left">设计工程化工具，将&quot;查看源码&quot;升级为可视化设计系统提取</td>
+</tr>
+</tbody></table>
+<h3>🔧 基础设施与模型</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Suprbox</strong> — AI Agent 的企业级安全数据存储盒<br>🔗 <a href="https://www.producthunt.com/products/suprbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/IGTQIGCZCG2J7H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">88 票 / 7 评论</td>
+<td align="left">为 Agent 设计的数据隔离与权限架构，企业合规场景下的刚需基础设施</td>
+</tr>
+<tr>
+<td align="left"><strong>Grok Connectors</strong> — 将日常应用接入 Grok<br>🔗 <a href="https://www.producthunt.com/products/grok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/QAHXOFLHYKAOJT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">92 票 / 1 评论</td>
+<td align="left">xAI 官方生态扩展，但评论极少反映社区对封闭生态的谨慎态度</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>市场信号</h2>
+<p><strong>开发者工具密度最高</strong>（5/12），且呈现&quot;AI 原生&quot;特征——不再是 Copilot 式的辅助，而是面向 Agent 自主执行的基础设施（安全、上下文、成本优化）。<strong>创新思路集中在&quot;Agent 周边&quot;</strong>：ClawSecure 的 AI 杀毒、Known Agents 的爬虫识别、Suprbox 的 Agent 存储，均假设&quot;Agent 将大量存在&quot;并提前卡位。<strong>开源趋势明确</strong>：Warp 开源 Agentic 终端，与闭源的 Grok Connectors 形成对比，社区更倾向拥抱可审计、可扩展的开放方案。一个隐忧是部分产品同质化风险——&quot;AI + X&quot;的叙事需向更深场景渗透。</p>
+<hr>
+<h2>值得试用</h2>
+<table>
+<thead>
+<tr>
+<th align="left">排名</th>
+<th align="left">产品</th>
+<th align="left">理由</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">1</td>
+<td align="left"><strong>Warp Open-Source</strong></td>
+<td align="left">终端是开发者最高频入口，Agentic 化 + 开源组合具备网络效应潜力，可提前体验并贡献生态</td>
+</tr>
+<tr>
+<td align="left">2</td>
+<td align="left"><strong>Graphbit PRFlow</strong></td>
+<td align="left">97 条评论说明社区活跃度高，代码审查是团队刚需，AI 深度理解代码逻辑的能力边界值得实测</td>
+</tr>
+<tr>
+<td align="left">3</td>
+<td align="left"><strong>Weavable</strong></td>
+<td align="left">Agent 持久化上下文是行业痛点，若其方案经验证，可能成为下一代 Agent 框架的默认依赖</td>
+</tr>
+</tbody></table>
+<hr>
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Product Hunt AI 产品日报 2026-05-12</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-12/ai-ph</link>
@@ -4707,131 +4868,6 @@
 <td align="left">MCP（Model Context Protocol）生态正在快速成型，该产品填补了&quot;设计意图作为 Agent 上下文&quot;的空白，适合构建多 Agent 产品的团队提前验证。</td>
 </tr>
 </tbody></table>
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Product Hunt AI 产品日报 2026-04-13</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-13/ai-ph</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-13/ai-ph</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Product Hunt AI 产品日报 2026-04-13 数据来源: Product Hunt | 共 15 个产品 | 生成时间: 2026-04-13 00:13 UTC Product Hunt AI 产品日报 | 2026-04-13 今日速览 今日 Product Hunt 共发布 15 款 AI 相关产品，Claude 生态成为绝对主角——Anthropic 官方推出 Word 插件与云端代码规划工具，双双霸榜前二。开源工具表现亮眼，5 款产品采用开源模式，覆盖代码审查、截图录屏、AI 代码占比检测等场景。整体趋势显示：AI 正从独立应用向工作流原生集成演进，开发者工具与生产力增强成为最密集赛道。 热门产品 🤖 AI 智能体与助手 产品 数据 一句话说明 Claude for Word — 将 Claude 原生集成至 Microsoft Word 工作流Product Hunt | 官网 355 票 / 4 评论 解决办公场景 AI 切换割裂问题，直接在 Word 内调用 Claude 进行写作、编辑与分析，无需跳出文档环境 Clicky — Mac 光标旁的 A...</description>
-      <content:encoded><![CDATA[<h1>Product Hunt AI 产品日报 2026-04-13</h1>
-<blockquote>
-<p>数据来源: <a href="https://www.producthunt.com/">Product Hunt</a> | 共 15 个产品 | 生成时间: 2026-04-13 00:13 UTC</p>
-</blockquote>
-<hr>
-<h1>Product Hunt AI 产品日报 | 2026-04-13</h1>
-<hr>
-<h2>今日速览</h2>
-<p>今日 Product Hunt 共发布 15 款 AI 相关产品，<strong>Claude 生态成为绝对主角</strong>——Anthropic 官方推出 Word 插件与云端代码规划工具，双双霸榜前二。开源工具表现亮眼，5 款产品采用开源模式，覆盖代码审查、截图录屏、AI 代码占比检测等场景。整体趋势显示：AI 正从独立应用向<strong>工作流原生集成</strong>演进，开发者工具与生产力增强成为最密集赛道。</p>
-<hr>
-<h2>热门产品</h2>
-<h3>🤖 AI 智能体与助手</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">数据</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Claude for Word</strong> — 将 Claude 原生集成至 Microsoft Word 工作流<br><a href="https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/MGZ7AIAFS6BXD7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">355 票 / 4 评论</td>
-<td align="left">解决办公场景 AI 切换割裂问题，直接在 Word 内调用 Claude 进行写作、编辑与分析，无需跳出文档环境</td>
-</tr>
-<tr>
-<td align="left"><strong>Clicky</strong> — Mac 光标旁的 AI 伙伴，看得见、会引导、能帮忙<br><a href="https://www.producthunt.com/products/clicky-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/KIQ5Q2NH5ULTOV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">132 票 / 8 评论</td>
-<td align="left">首创&quot;光标级&quot;AI 交互，实时感知屏幕内容并提供上下文帮助，开源架构允许深度定制</td>
-</tr>
-<tr>
-<td align="left"><strong>SummAgent</strong> — 减少读邮件时间，专注行动<br><a href="https://www.producthunt.com/products/summagent?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/KXZ4FBJO4KYONF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">77 票 / 9 评论</td>
-<td align="left">Chrome 扩展形态的智能邮件摘要，将收件箱转化为待办清单，高评论数反映用户参与度高</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>🛠️ 开发者工具</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">数据</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Claude Code ultraplan</strong> — 云端代码库规划命令<br><a href="https://www.producthunt.com/products/claude-code-ultraplan?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/TXL7PW25FK5ENL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">319 票 / 4 评论</td>
-<td align="left">将 Claude Code 从本地编辑器扩展至云端架构设计，支持大规模代码库的全局规划与重构策略生成</td>
-</tr>
-<tr>
-<td align="left"><strong>LaReview</strong> — 开源下一代代码审查工具<br><a href="https://www.producthunt.com/products/lareview?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/G5ENQ6OFESZRDT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">188 票 / 4 评论</td>
-<td align="left">重新设计代码审查体验，可能集成 AI 辅助审查，开源模式挑战 GitHub PR 的传统工作流</td>
-</tr>
-<tr>
-<td align="left"><strong>Buildermark</strong> — 检测代码库中 AI 生成代码占比，开源<br><a href="https://www.producthunt.com/products/buildermark-open-source?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/4WQTYOSZAQ2YH7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">91 票 / 6 评论</td>
-<td align="left">回应 AI 编程普及后的治理需求，量化人机协作比例，满足合规审计与团队管理场景</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>📊 AI 应用（垂直场景）</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">数据</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>aperture</strong> — 招聘已崩，我们在修<br><a href="https://www.producthunt.com/products/aperture-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/EN2S5LHUTI6KAE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">126 票 / 7 评论</td>
-<td align="left">瞄准招聘流程痛点，AI 驱动候选人筛选与匹配，试图重构 HR Tech 的核心环节</td>
-</tr>
-<tr>
-<td align="left"><strong>Upvotics</strong> — AI 驱动的竞争情报自动追踪<br><a href="https://www.producthunt.com/products/upvotics?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/KDZUMGJHESF7WC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">96 票 / 2 评论</td>
-<td align="left">自动化监控竞争对手动态，将情报收集从人工调研转为 AI 实时追踪</td>
-</tr>
-<tr>
-<td align="left"><strong>InboxJoy</strong> — 过滤社媒私信噪音，终身许可制<br><a href="https://www.producthunt.com/products/inboxjoy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/CL5AAZ4RIF6P6L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">80 票 / 3 评论</td>
-<td align="left">针对创作者经济中的私信过载问题，AI 自动分类与响应，采用终身许可而非订阅制</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>🔧 基础设施与模型</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">数据</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>MolmoWeb</strong> — 从数据到部署的开放 Web Agent<br><a href="https://www.producthunt.com/products/allen-institute-of-artificial-intelligence?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/2WT3XCIWUS2L3L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">98 票 / 2 评论</td>
-<td align="left">Allen AI 研究院出品，提供端到端的开源 Web Agent 解决方案，降低自主 Agent 部署门槛</td>
-</tr>
-<tr>
-<td align="left"><strong>LLM Ops Toolkit by Lamatic.ai</strong> — 聚合监控 OpenAI、Claude 等模型可用性<br><a href="https://www.producthunt.com/products/lamatic-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/R665XDGHCCNXWP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="left">86 票 / 6 评论</td>
-<td align="left">解决多模型供应商的运维碎片化问题，统一监控面板覆盖主流 LLM 服务的健康状态</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>🎨 创意与内容</h3>
-<p><em>今日该类别无显著产品发布</em></p>
-<hr>
-<h2>市场信号</h2>
-<p><strong>开发者工具与生产力增强占据主导</strong>（10/15），反映 AI 基础设施层趋于成熟，创新重心向应用层迁移。<strong>开源与闭源并行</strong>：5 款开源产品（</p>
 <hr>
 <p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>

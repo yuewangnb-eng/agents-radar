@@ -6,7 +6,189 @@
     <description>Hacker News AI 社区动态日报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-hn.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 12 May 2026 04:29:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 04:37:04 +0000</lastBuildDate>
+    <item>
+      <title>Hacker News AI 社区动态日报 2026-05-13</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-13/ai-hn</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-13/ai-hn</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI 社区动态日报 2026-05-13 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-05-13 00:24 UTC Hacker News AI 社区动态日报 2026-05-13 | 数据周期：过去 24 小时 一、今日速览 今日 HN 社区 AI 讨论呈现**&amp;quot;技术极客热情与行业信任危机&amp;quot;并存的张力格局**。头部热度由 Needle 引爆——将 Gemini 工具调用能力蒸馏至 26M 参数小模型，展现社区对&amp;quot;端侧 AI 能力下放&amp;quot;的狂热追求。与此同时，OpenAI 诉讼案持续发酵，Sam Altman 被内部人士指控&amp;quot;一贯撒谎&amp;quot;成为高关注话题，叠加 ChatGPT 涉致死医疗建议的诉讼，安全与伦理争议显著升温。工具层则围绕 MCP 开发体验、状态机可靠性、AI Agent 可观测性展开密集创新，反映开发者正从&amp;quot;Demo 炫技&amp;quot;转向&amp;quot;生产级可靠性&amp;quot;的务实阶段。 二、热门新闻与讨论 🔬 模型与研究 # 内容 数据 一句话说...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-05-13</h1>
+<blockquote>
+<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-05-13 00:24 UTC</p>
+</blockquote>
+<hr>
+<h1>Hacker News AI 社区动态日报</h1>
+<p><strong>2026-05-13 | 数据周期：过去 24 小时</strong></p>
+<hr>
+<h2>一、今日速览</h2>
+<p>今日 HN 社区 AI 讨论呈现**&quot;技术极客热情与行业信任危机&quot;并存的张力格局**。头部热度由 <strong>Needle</strong> 引爆——将 Gemini 工具调用能力蒸馏至 26M 参数小模型，展现社区对&quot;端侧 AI 能力下放&quot;的狂热追求。与此同时，OpenAI 诉讼案持续发酵，Sam Altman 被内部人士指控&quot;一贯撒谎&quot;成为高关注话题，叠加 ChatGPT 涉致死医疗建议的诉讼，安全与伦理争议显著升温。工具层则围绕 <strong>MCP 开发体验、状态机可靠性、AI Agent 可观测性</strong>展开密集创新，反映开发者正从&quot;Demo 炫技&quot;转向&quot;生产级可靠性&quot;的务实阶段。</p>
+<hr>
+<h2>二、热门新闻与讨论</h2>
+<h3>🔬 模型与研究</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>内容</th>
+<th>数据</th>
+<th>一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://github.com/cactus-compute/needle">Needle: We Distilled Gemini Tool Calling into a 26M Model</a></strong> · <a href="https://news.ycombinator.com/item?id=48111896">HN 讨论</a></td>
+<td><strong>252 分 / 92 评论</strong></td>
+<td>社区最热议题：将大模型核心能力（工具调用）极致压缩至 26M 参数，引发对&quot;端侧 Agent 可行性&quot;的激烈技术辩论，评论数证明深度参与度高</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://arxiv.org/abs/2604.20913">FairyFuse: Multiplication-Free LLM Inference on CPUs via Fused Ternary Kernels</a></strong> · <a href="https://news.ycombinator.com/item?id=48111527">HN 讨论</a></td>
+<td>12 分 / 1 评论</td>
+<td>三值量化+无乘法推理的 CPU 优化方案，边缘部署成本敏感场景的技术储备，但社区尚未大规模验证</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://philippdubach.com/posts/what-claude-thinks-but-doesnt-say/">Natural Language Autoencoders: Inside Claude&#39;s Activations</a></strong> · <a href="https://news.ycombinator.com/item?id=48110499">HN 讨论</a></td>
+<td>5 分 / 0 评论</td>
+<td>对 Claude 内部激活的可解释性研究，触及&quot;模型是否有隐藏思维&quot;的敏感命题，零评论或反映方法论门槛高</td>
+</tr>
+</tbody></table>
+<h3>🛠️ 工具与工程</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>内容</th>
+<th>数据</th>
+<th>一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://github.com/statewright/statewright">Statewright – Visual state machines that make AI agents reliable</a></strong> · <a href="https://news.ycombinator.com/item?id=48108778">HN 讨论</a></td>
+<td>65 分 / 23 评论</td>
+<td>以可视化状态机解决 Agent&quot;幻觉-失控&quot;问题，高评论体现开发者对&quot;Agent 可靠性工程&quot;的迫切需求</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://manufact.com/blog/mcp-testing">How we made MCP development feel good</a></strong> · <a href="https://news.ycombinator.com/item?id=48110929">HN 讨论</a></td>
+<td>6 分 / 0 评论</td>
+<td>MCP（Model Context Protocol）生态工具链体验优化，反映协议标准化后的开发者体验竞争</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://www.atlasengine.dev/">Atlas - Local-first AI code reviewer for Claude Code, Codex, Cursor</a></strong> · <a href="https://news.ycombinator.com/item?id=48110504">HN 讨论</a></td>
+<td>4 分 / 0 评论</td>
+<td>&quot;本地优先&quot;代码审查工具，契合数据隐私敏感企业的合规诉求</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong><a href="https://github.com/delta-hq/cc-ledger">CC-Ledger: Claude Code Cost Tracker</a></strong> · <a href="https://news.ycombinator.com/item?id=48112700">HN 讨论</a></td>
+<td>5 分 / 0 评论</td>
+<td>按会话/PR 粒度追踪 Claude Code 成本，Agent 时代的 FinOps 工具萌芽</td>
+</tr>
+</tbody></table>
+<h3>🏢 产业动态</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>内容</th>
+<th>数据</th>
+<th>一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://pioneer.ai/blog/gliguard-16x-faster-safety-moderation-with-a-small-language-model">GLiNER 团队开源 LLM Guardrail 模型</a></strong> · <a href="https://news.ycombinator.com/item?id=48112544">HN 讨论</a></td>
+<td>35 分 / 0 评论</td>
+<td>小模型做安全护栏速度提升 16 倍，零评论或说明&quot;安全基础设施&quot;仍属沉默刚需</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://voker.ai">Voker (YC S24) – Analytics for AI Agents</a></strong> · <a href="https://news.ycombinator.com/item?id=48109962">HN 讨论</a></td>
+<td>37 分 / 19 评论</td>
+<td>YC 孵化的 Agent 可观测性产品，高评论验证&quot;Agent 运维&quot;赛道的早期热度</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://news.ycombinator.com/item?id=48110593">Gigacatalyst – Extend your SaaS with an embedded AI builder</a></strong> · <a href="https://news.ycombinator.com/item?id=48110593">HN 讨论</a></td>
+<td>37 分 / 14 评论</td>
+<td>SaaS 嵌入式 AI 构建器，社区对&quot;低门槛 AI 功能集成&quot;的商业化路径存在分歧</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong><a href="https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/">Anthropic warns against secondary platforms offering access to its shares</a></strong> · <a href="https://news.ycombinator.com/item?id=48113182">HN 讨论</a></td>
+<td>5 分 / 3 评论</td>
+<td>独角兽股权二级市场乱象，叠加同日曝光的&quot;未授权股票销售诈骗&quot;，显示 AI 公司估值泡沫下的金融风险</td>
+</tr>
+</tbody></table>
+<h3>💬 观点与争议</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>内容</th>
+<th>数据</th>
+<th>一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://www.theguardian.com/us-news/2026/may/11/musk-v-openai-altman-trial">&#39;A consistent pattern of lying&#39;: trial exposes what insiders think of Sam Altman</a></strong> · <a href="https://news.ycombinator.com/item?id=48103417">HN 讨论</a></td>
+<td>63 分 / 4 评论</td>
+<td>马斯克诉 OpenAI 案中内部人士证词曝光，低评论或反映社区对&quot;Altman 争议&quot;的疲劳与信息过载</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose">Parents say ChatGPT got their son killed with bad advice on party drugs</a></strong> · <a href="https://news.ycombinator.com/item?id=48110689">HN 讨论</a></td>
+<td>21 分 / <strong>30 评论</strong></td>
+<td>医疗建议致死诉讼，评论数反超分数显示强烈情绪反应：责任归属、免责声明有效性、平台监管边界成为焦点</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://webdirections.org/blog/the-problem-with-mathematically-proven-claims-about-llms/">The Problem with &quot;Mathematically Proven&quot; Claims About LLMs</a></strong> · <a href="https://news.ycombinator.com/item?id=48112179">HN 讨论</a></td>
+<td>5 分 / 1 评论</td>
+<td>对 LLM 安全声明中&quot;数学证明&quot;修辞的批判，触及技术营销与学术严谨性的张力</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong><a href="https://mastodon.social/@mcc/116563821063587689">Anything that is underneath the cursor gets fed into Google&#39;s surveillance AI</a></strong> · <a href="https://news.ycombinator.com/item?id=48115669">HN 讨论</a></td>
+<td>3 分 / 0 评论</td>
+<td>对 Google 产品&quot;光标级&quot;数据收集的隐私警告，零评论或反映此类批评已常态化</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>三、社区情绪信号</h2>
+<p><strong>技术层：极客热情聚焦&quot;小型化&quot;与&quot;可靠性&quot;</strong>。Needle 的 252 分断层领先，标志社区对&quot;大能力小模型&quot;的集体兴奋；Statewright、Voker 等工具的高评论则显示开发者正从&quot;Agent 能跑&quot;转向&quot;Agent 可控&quot;的工程焦虑。<strong>产业层：信任赤字扩大</strong>。Altman 诉讼、ChatGPT 致死案、Anthropic 股票诈骗三条线交织，形成对 AI 公司&quot;技术光环下的道德风险&quot;的质疑氛围，其中医疗安全议题（30 评论/21 分）的情绪烈度最高。<strong>与上周期对比</strong>：从&quot;模型能力炫耀&quot;明显转向&quot;成本-安全-可控&quot;三角的务实讨论，MCP 生态、FinOps 工具、状态机框架的涌现印证这一拐点。</p>
+<hr>
+<h2>四、值得深读</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>理由</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://github.com/cactus-compute/needle">Needle: We Distilled Gemini Tool Calling into a 26M Model</a></strong> · <a href="https://news.ycombinator.com/item?id=48111896">HN</a></td>
+<td><strong>技术范式意义</strong>：若 26M 模型真能复现 Gemini 级工具调用，将重新定义&quot;端侧 Agent&quot;的硬件门槛，对边缘计算、IoT、隐私优先场景有颠覆性影响。92 条技术评论包含大量实现细节讨论，适合跟进架构设计。</td>
+</tr>
+<tr>
+<td><strong><a href="https://github.com/statewright/statewright">Statewright – Visual state machines that make AI agents reliable</a></strong> · <a href="https://news.ycombinator.com/item?id=48108778">HN</a></td>
+<td><strong>工程方法论价值</strong>：将传统状态机形式化方法注入 LLM Agent，是&quot;用确定性结构约束概率性模型&quot;的代表性实践。23 条评论涉及与 LangGraph、Temporal 等方案的对比，对构建生产级 Agent 的开发者有直接参考价值。</td>
+</tr>
+<tr>
+<td><strong><a href="https://philippdubach.com/posts/what-claude-thinks-but-doesnt-say/">Natural Language Autoencoders: Inside Claude&#39;s Activations</a></strong> · <a href="https://news.ycombinator.com/item?id=48110499">HN</a></td>
+<td><strong>可解释性前沿</strong>：尝试用自编码器解码 Claude 的内部表示，触及&quot;LLM 是否有连贯内部世界模型&quot;的核心问题。虽评论寥寥，但方法论可能启发下一代模型审计与安全研究。</td>
+</tr>
+</tbody></table>
+<hr>
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Hacker News AI 社区动态日报 2026-05-12</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-12/ai-hn</link>
@@ -5067,176 +5249,6 @@
 </tr>
 </tbody></table>
 <hr>
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI 社区动态日报 2026-04-13</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-13/ai-hn</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-13/ai-hn</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI 社区动态日报 2026-04-13 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-04-13 00:13 UTC Hacker News AI 社区动态日报 2026-04-13 | 数据来源：过去24小时热门帖子 1. 今日速览 今日 HN 社区对 Anthropic 的 Claude Code 产品决策 表现出强烈不满情绪，两条关于配额限制和缓存降级的高分帖子占据榜首，累计近 1000 分、800+ 评论。社区同时关注 AI 工具链的替代方案与生态建设，多个 Show HN 项目围绕&amp;quot;Claude Code 替代/增强&amp;quot;展开。OpenAI 的静默功能移除和安全更新引发一定讨论，但整体声量远低于 Anthropic 相关议题。产业层面，欧洲 AI 主权、印度低成本模型、中国人才回流等地缘政治与区域竞争话题开始浮现。 2. 热门新闻与讨论 🔬 模型与研究 标题 分数/评论 一句话说明 Claude Opus 4.6 accuracy on BridgeBench hallucination test ...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-04-13</h1>
-<blockquote>
-<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-04-13 00:13 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI 社区动态日报</h1>
-<p><strong>2026-04-13 | 数据来源：过去24小时热门帖子</strong></p>
-<hr>
-<h2>1. 今日速览</h2>
-<p>今日 HN 社区对 <strong>Anthropic 的 Claude Code 产品决策</strong> 表现出强烈不满情绪，两条关于配额限制和缓存降级的高分帖子占据榜首，累计近 1000 分、800+ 评论。社区同时关注 <strong>AI 工具链的替代方案与生态建设</strong>，多个 Show HN 项目围绕&quot;Claude Code 替代/增强&quot;展开。OpenAI 的静默功能移除和安全更新引发一定讨论，但整体声量远低于 Anthropic 相关议题。产业层面，欧洲 AI 主权、印度低成本模型、中国人才回流等<strong>地缘政治与区域竞争</strong>话题开始浮现。</p>
-<hr>
-<h2>2. 热门新闻与讨论</h2>
-<h3>🔬 模型与研究</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Claude Opus 4.6 accuracy on BridgeBench hallucination test drops from 83% to 68%</strong><br><a href="https://twitter.com/bridgemindai/status/2043321284113670594">原文</a> | <a href="https://news.ycombinator.com/item?id=47743077">HN</a></td>
-<td align="left">31 / 2</td>
-<td align="left">独立基准测试显示 Anthropic 旗舰模型幻觉率显著上升，引发对模型迭代质量的质疑，但评论数较少说明社区尚未充分讨论</td>
-</tr>
-<tr>
-<td align="left"><strong>Training LLMs to Predict World Events</strong><br><a href="https://thinkingmachines.ai/news/training-llms-to-predict-world-events/">原文</a> | <a href="https://news.ycombinator.com/item?id=47740662">HN</a></td>
-<td align="left">4 / 0</td>
-<td align="left">Thinking Machines 尝试用 LLM 预测地缘政治事件，技术路线新颖但社区反应冷淡，可能因缺乏技术细节</td>
-</tr>
-</tbody></table>
-<h3>🛠️ 工具与工程</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Show HN: Claudraband – Claude Code for the Power User</strong><br><a href="https://github.com/halfwhey/claudraband">原文</a> | <a href="https://news.ycombinator.com/item?id=47741889">HN</a></td>
-<td align="left">85 / 24</td>
-<td align="left">社区自发构建的 Claude Code 增强层，直接回应官方配额问题，典型反应：&quot;这就是开源社区的速度&quot;</td>
-</tr>
-<tr>
-<td align="left"><strong>Show HN: Revdiff – TUI diff reviewer with inline annotations for AI agents</strong><br><a href="https://github.com/umputun/revdiff">原文</a> | <a href="https://news.ycombinator.com/item?id=47742437">HN</a></td>
-<td align="left">10 / 3</td>
-<td align="left">针对 AI 生成代码的专用代码审查工具，反映开发者对 AI 代码质量控制的精细化需求</td>
-</tr>
-<tr>
-<td align="left"><strong>Show HN: Lazyagent – a local TUI for watching what your coding agents are doing</strong><br><a href="https://github.com/chojs23/lazyagent">原文</a> | <a href="https://news.ycombinator.com/item?id=47741279">HN</a></td>
-<td align="left">5 / 0</td>
-<td align="left">本地监控 AI 编码代理的可视化工具，回应黑盒化担忧</td>
-</tr>
-<tr>
-<td align="left"><strong>Show HN: Run AI coding agents in real, local sandboxes, not Git worktrees</strong><br><a href="https://superhq.ai/">原文</a> | <a href="https://news.ycombinator.com/item?id=47741064">HN</a></td>
-<td align="left">4 / 0</td>
-<td align="left">强调&quot;真实沙箱&quot;而非 Git worktree 的 AI 代理运行环境，隐含对现有工具安全隔离不足的批评</td>
-</tr>
-</tbody></table>
-<h3>🏢 产业动态</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Pro Max 5x quota exhausted in 1.5 hours despite moderate usage</strong><br><a href="https://github.com/anthropics/claude-code/issues/45756">原文</a> | <a href="https://news.ycombinator.com/item?id=47739260">HN</a></td>
-<td align="left"><strong>512 / 475</strong></td>
-<td align="left">今日最高讨论帖，付费用户对 Claude Code 配额机制崩溃式体验的集体抱怨，核心矛盾：企业级定价与消费级稳定性</td>
-</tr>
-<tr>
-<td align="left"><strong>Anthropic downgraded cache TTL on March 6th</strong><br><a href="https://github.com/anthropics/claude-code/issues/46829">原文</a> | <a href="https://news.ycombinator.com/item?id=47736476">HN</a></td>
-<td align="left"><strong>462 / 356</strong></td>
-<td align="left">缓存策略降级未提前告知用户，被质疑为&quot;隐性降本&quot;，社区共识：透明度危机比技术变更本身更严重</td>
-</tr>
-<tr>
-<td align="left"><strong>European AI. A playbook to own it</strong><br><a href="https://europe.mistral.ai/">原文</a> | <a href="https://news.ycombinator.com/item?id=47743700">HN</a></td>
-<td align="left">134 / 67</td>
-<td align="left">Mistral 推动的欧洲 AI 主权叙事，评论分化：支持者视其为 GDPR 后的必然，质疑者认为&quot;监管先行、创新滞后&quot;</td>
-</tr>
-<tr>
-<td align="left"><strong>Tech valuations are back to pre-AI boom levels</strong><br><a href="https://www.apollo.com/wealth/the-daily-spark/tech-valuations-back-to-pre-ai-boom-levels">原文</a> | <a href="https://news.ycombinator.com/item?id=47745120">HN</a></td>
-<td align="left">78 / 11</td>
-<td align="left">Apollo 分析显示 AI 泡沫消退信号，社区反应相对冷静，多数认为&quot;回归理性而非崩盘&quot;</td>
-</tr>
-<tr>
-<td align="left"><strong>India&#39;s frugal AI models are a blueprint for resource-strapped nations</strong><br><a href="https://restofworld.org/2026/india-frugal-ai-sarvam-krutrim-sovereign/">原文</a> | <a href="https://news.ycombinator.com/item?id=47744905">HN</a></td>
-<td align="left">8 / 1</td>
-<td align="left">Sarvam、Krutrim 等印度低成本模型受关注，但讨论深度有限，可能因技术细节不足</td>
-</tr>
-<tr>
-<td align="left"><strong>China lures home its top AI talent from Silicon Valley</strong><br><a href="https://www.ft.com/content/b167c6d3-b982-482a-98c3-5303a7b80c6a">原文</a> | <a href="https://news.ycombinator.com/item?id=47743326">HN</a></td>
-<td align="left">7 / 1</td>
-<td align="left">FT 报道中国人才回流趋势，HN 典型反应：关注签证政策与地缘政治风险，而非技术本身</td>
-</tr>
-</tbody></table>
-<h3>💬 观点与争议</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Tell HN: OpenAI silently removed Study Mode from ChatGPT</strong><br><a href="https://news.ycombinator.com/item?id=47739305">HN</a></td>
-<td align="left">164 / 67</td>
-<td align="left">&quot;静默移除&quot;模式引发对 OpenAI 产品决策透明度的批评，与 Anthropic 议题形成共振</td>
-</tr>
-<tr>
-<td align="left"><strong>You Don&#39;t Need Claude Code</strong><br><a href="https://tildehacker.com/you-dont-need-claude-code">原文</a> | <a href="https://news.ycombinator.com/item?id=47738837">HN</a></td>
-<td align="left">4 / 1</td>
-<td align="left">反潮流观点文章，主张用更轻量工具链替代，因分数较低未形成广泛讨论</td>
-</tr>
-<tr>
-<td align="left"><strong>Ask HN: What are all the bad things that AI companies have done which we forgot</strong><br><a href="https://news.ycombinator.com/item?id=47739653">HN</a></td>
-<td align="left">5 / 0</td>
-<td align="left">试图建立&quot;AI 公司失当行为&quot;集体记忆，零评论说明社区对回顾性议题缺乏即时参与动力</td>
-</tr>
-<tr>
-<td align="left"><strong>AI Is Not a Labor Crisis. It Is a Meaning Crisis</strong><br><a href="https://twitter.com/lessin/status/2043370537280532771">原文</a> | <a href="https://news.ycombinator.com/item?id=47744544">HN</a></td>
-<td align="left">8 / 1</td>
-<td align="left">Lessin 的哲学化论述，HN 社区通常对此类抽象议题反应冷淡</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. 社区情绪信号</h2>
-<p><strong>核心情绪：对 Anthropic 的&quot;信任透支&quot;</strong></p>
-<p>今日社区活跃度高度集中于 <strong>Anthropic 产品运营问题</strong>（两条帖子合计 974 分、831 评论），远超其他议题。关键情绪特征：</p>
-<ul>
-<li><strong>愤怒指向&quot;不透明&quot;而非&quot;变更本身&quot;</strong>：用户能接受配额限制和技术调整，但强烈反感事后告知或静默修改</li>
-<li><strong>行动导向的替代方案探索</strong>：高分数 Show HN 项目（Claudraband、Lazyagent 等）均直接回应 Claude Code 痛点，显示社区从&quot;抱怨&quot;快速转向&quot;自建&quot;</li>
-<li><strong>地缘政治议题&quot;叫好不叫座&quot;</strong>：欧洲/印度/中国相关帖子分数普遍偏低（&lt;10），说明 HN 核心用户群仍聚焦工具与工程，对宏观叙事兴趣有限</li>
-</ul>
-<p>与上周期相比，<strong>&quot;AI 编码工具的可控性&quot;</strong> 取代&quot;模型能力对比&quot;成为首要关切，反映从业者从&quot;尝鲜期&quot;进入&quot;生产依赖期&quot;后的风险意识觉醒。</p>
-<hr>
-<h2>4. 值得深读</h2>
-<table>
-<thead>
-<tr>
-<th align="left">推荐内容</th>
-<th align="left">理由</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Claude Opus 4.6 幻觉率下降争议</strong> <a href="https://twitter.com/bridgemindai/status/2043321284113670594">原文</a> | <a href="https://news.ycombinator.com/item?id=47743077">HN</a></td>
-<td align="left">独立第三方基准测试揭示的模型退化问题，对依赖 Claude 进行关键任务的开发者具有直接参考价值；建议结合 BridgeBench 方法论评估自身用例风险</td>
-</tr>
-<tr>
-<td align="left"><strong>Claudraband 项目</strong> <a href="https://github.com/halfwhey/claudraband">原文</a> | [HN](<a href="https://news.ycombinator.com/item?id=47741889">https://news.ycombinator.com/item?id=47741889</a></td>
-<td align="left"></td>
-</tr>
-</tbody></table>
 <hr>
 <p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>

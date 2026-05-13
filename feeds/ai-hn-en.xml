@@ -6,7 +6,187 @@
     <description>Hacker News AI Community Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-hn-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 12 May 2026 04:29:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 04:37:04 +0000</lastBuildDate>
+    <item>
+      <title>Hacker News AI Community Digest 2026-05-13</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-13/ai-hn-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-13/ai-hn-en</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI Community Digest 2026-05-13 Source: Hacker News | 30 stories | Generated: 2026-05-13 00:24 UTC Hacker News AI Community Digest — May 13, 2026 1. Today&amp;#39;s Highlights The HN AI community is fixated on distillation breakthroughs and agent reliability, with Needle&amp;#39;s 26M-parameter tool-calling model dominating attention (252 points, 92 comments). Simultaneously, OpenAI&amp;#39;s legal and ethical crises are generating significant buzz—multiple lawsuits over ChatGPT&amp;#39;s alleged fat...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-05-13</h1>
+<blockquote>
+<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-05-13 00:24 UTC</p>
+</blockquote>
+<hr>
+<h1>Hacker News AI Community Digest — May 13, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>The HN AI community is fixated on <strong>distillation breakthroughs and agent reliability</strong>, with Needle&#39;s 26M-parameter tool-calling model dominating attention (252 points, 92 comments). Simultaneously, <strong>OpenAI&#39;s legal and ethical crises</strong> are generating significant buzz—multiple lawsuits over ChatGPT&#39;s alleged fatal medical advice and the Musk-Altman trial exposing internal distrust. The community shows strong interest in <strong>practical agent infrastructure</strong>: state machines, analytics, and MCP tooling. Notably, European AI infrastructure (Sweden-hosted inference) and ternary quantization for CPU inference signal growing focus on <strong>efficiency and geographic diversification</strong>. Sentiment is skeptical toward big AI leadership but enthusiastic about small, capable open-source alternatives.</p>
+<hr>
+<h2>2. Top News &amp; Discussions</h2>
+<h3>🔬 Models &amp; Research</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://github.com/cactus-compute/needle">Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model</a></strong> — <a href="https://news.ycombinator.com/item?id=48111896">Discussion</a></td>
+<td>252</td>
+<td>92</td>
+<td>Demonstrates dramatic capability compression; community excited about efficient, deployable tool-use without cloud dependency</td>
+</tr>
+<tr>
+<td><strong><a href="https://arxiv.org/abs/2604.20913">FairyFuse: Multiplication-Free LLM Inference on CPUs via Fused Ternary Kernels</a></strong> — <a href="https://news.ycombinator.com/item?id=48111527">Discussion</a></td>
+<td>12</td>
+<td>1</td>
+<td>Extreme quantization for edge deployment; niche but technically significant for resource-constrained environments</td>
+</tr>
+<tr>
+<td><strong><a href="https://philippdubach.com/posts/what-claude-thinks-but-doesnt-say/">Natural Language Autoencoders: Inside Claude&#39;s Activations</a></strong> — <a href="https://news.ycombinator.com/item?id=48110499">Discussion</a></td>
+<td>5</td>
+<td>0</td>
+<td>Mechanistic interpretability work; appeals to researchers studying model internals and alignment</td>
+</tr>
+</tbody></table>
+<h3>🛠️ Tools &amp; Engineering</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://github.com/statewright/statewright">Show HN: Statewright – Visual state machines that make AI agents reliable</a></strong> — <a href="https://news.ycombinator.com/item?id=48108778">Discussion</a></td>
+<td>65</td>
+<td>23</td>
+<td>Addresses core agent reliability problem; community sees structured execution as antidote to &quot;agent chaos&quot;</td>
+</tr>
+<tr>
+<td><strong><a href="https://github.com/cactus-compute/needle">Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model</a></strong> — <a href="https://news.ycombinator.com/item?id=48111896">Discussion</a></td>
+<td>252</td>
+<td>92</td>
+<td>Also belongs here: practical deployment win, strong OSS engagement</td>
+</tr>
+<tr>
+<td><strong><a href="https://manufact.com/blog/mcp-testing">Show HN: How we made MCP development feel good</a></strong> — <a href="https://news.ycombinator.com/item?id=48110929">Discussion</a></td>
+<td>6</td>
+<td>0</td>
+<td>MCP (Model Context Protocol) tooling maturation; signals ecosystem standardization effort</td>
+</tr>
+<tr>
+<td><strong><a href="https://github.com/narelabs/dsm">DSM: A Hierarchical Graph Memory Engine for LLMs</a></strong> — <a href="https://news.ycombinator.com/item?id=48112056">Discussion</a></td>
+<td>5</td>
+<td>0</td>
+<td>Memory architecture for long-context agents; underdiscussed but architecturally relevant</td>
+</tr>
+</tbody></table>
+<h3>🏢 Industry News</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://www.theguardian.com/us-news/2026/may/11/musk-v-openai-altman-trial">&#39;A consistent pattern of lying&#39;: trial exposes what insiders think of Sam Altman</a></strong> — <a href="https://news.ycombinator.com/item?id=48103417">Discussion</a></td>
+<td>63</td>
+<td>4</td>
+<td>Insider testimony damages Altman&#39;s credibility; low comment count suggests fatigue or caution around legal topics</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose">Parents say ChatGPT got their son killed with bad advice on party drugs</a></strong> — <a href="https://news.ycombinator.com/item?id=48110689">Discussion</a></td>
+<td>21</td>
+<td>30</td>
+<td>High comment-to-score ratio indicates heated debate on AI safety liability; community divided on responsibility</td>
+</tr>
+<tr>
+<td><strong><a href="https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams">Unauthorized Anthropic stock sales and investment scams</a></strong> — <a href="https://news.ycombinator.com/item?id=48112190">Discussion</a></td>
+<td>18</td>
+<td>7</td>
+<td>Secondary market chaos around hot AI companies; reflects valuation froth and regulatory gaps</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.wsj.com/tech/ai/anthropic-spacex-ai-deal-elon-musk-f86ea369">Elon Musk&#39;s Grok Is Losing Ground in AI Race</a></strong> — <a href="https://news.ycombinator.com/item?id=48103860">Discussion</a></td>
+<td>10</td>
+<td>8</td>
+<td>xAI competitive struggles; community generally skeptical of Musk&#39;s AI claims</td>
+</tr>
+</tbody></table>
+<h3>💬 Opinions &amp; Debates</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose">Parents say ChatGPT got their son killed with bad advice on party drugs</a></strong> — <a href="https://news.ycombinator.com/item?id=48110689">Discussion</a></td>
+<td>21</td>
+<td>30</td>
+<td><strong>Most controversial thread</strong>: debates on platform liability, harm reduction, and whether this is precedent-setting or sensationalized</td>
+</tr>
+<tr>
+<td><strong><a href="https://webdirections.org/blog/the-problem-with-mathematically-proven-claims-about-llms/">The Problem with &quot;Mathematically Proven&quot; Claims About LLMs</a></strong> — <a href="https://news.ycombinator.com/item?id=48112179">Discussion</a></td>
+<td>5</td>
+<td>1</td>
+<td>Skepticism toward formal verification hype; resonates with HN&#39;s empiricist culture</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.reuters.com/business/former-openai-executive-sutskever-discloses-nearly-7-billion-stake-ai-firm-2026-05-11/">Reuters: Sutskever says spent year proving sama dishonest</a></strong> — <a href="https://news.ycombinator.com/item?id=48102737">Discussion</a></td>
+<td>5</td>
+<td>1</td>
+<td>Sutskever&#39;s $7B stake revelation contextualizes his OpenAI departure; limited discussion suggests information saturation</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Community Sentiment Signal</h2>
+<p>Today&#39;s HN AI discourse reveals a <strong>bifurcated mood</strong>: enthusiastic about <strong>technical democratization</strong> (small models, local tooling, open protocols) yet <strong>morally fatigued by big AI drama</strong>. The highest-engagement thread by comment volume is the ChatGPT overdose lawsuit (30 comments, 21 points), indicating raw controversy outpaces even the top-scoring technical post. This suggests the community is <strong>grappling with AI&#39;s real-world harms more concretely</strong> than in prior cycles.</p>
+<p>Compared to recent patterns, there&#39;s a <strong>notable shift toward agent infrastructure</strong>—state machines, memory engines, MCP tooling, and analytics—suggesting the &quot;agentic&quot; wave has moved from hype to implementation headaches. Simultaneously, <strong>European/non-US AI infrastructure</strong> (Grunden in Sweden) and <strong>extreme efficiency research</strong> (ternary quantization) reflect growing concern with geographic concentration and compute costs.</p>
+<p>The Musk-Altman trial coverage generates clicks but limited deep engagement; comment counts stay low on legal/political threads, suggesting HN prefers building over spectating. A clear consensus emerges: <strong>small, open, verifiable models &gt; big, closed, marketed ones</strong>.</p>
+<hr>
+<h2>4. Worth Deep Reading</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Piece</th>
+<th>Reasoning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://github.com/cactus-compute/needle">Needle: We Distilled Gemini Tool Calling into a 26M Model</a></strong></td>
+<td>Likely the most practically impactful release this cycle. For researchers: study the distillation methodology. For engineers: evaluate if this enables on-device agentic workflows previously requiring API calls. The 92-comment thread likely contains implementation details and failure modes.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://philippdubach.com/posts/what-claude-thinks-but-doesnt-say/">Natural Language Autoencoders: Inside Claude&#39;s Activations</a></strong></td>
+<td>Rare public mechanistic interpretability work on a frontier model. Critical for alignment researchers and anyone building safety-critical applications. The &quot;thinks but doesn&#39;t say&quot; framing touches on deception-relevant capabilities.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://webdirections.org/blog/the-problem-with-mathematically-proven-claims-about-llms/">The Problem with &quot;Mathematically Proven&quot; Claims About LLMs</a></strong></td>
+<td>Important methodological corrective as the field matures. Distinguishing provable properties from empirical behaviors affects how we regulate, deploy, and communicate about AI systems. Short but foundationally relevant to the &quot;trustworthy AI&quot; discourse.</td>
+</tr>
+</tbody></table>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Hacker News AI Community Digest 2026-05-12</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-12/ai-hn-en</link>
@@ -4817,158 +4997,6 @@ Score: 10 | Comments: 2</p>
 <em>Zvi&#39;s thorough dissection of Anthropic&#39;s safety disclosures offers one of the most accessible deep dives into how a top lab is framing and mitigating risks — worth reading alongside the AISI evaluation for contrast.</em></p>
 </li>
 </ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI Community Digest 2026-04-13</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-13/ai-hn-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-13/ai-hn-en</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI Community Digest 2026-04-13 Source: Hacker News | 30 stories | Generated: 2026-04-13 00:13 UTC Hacker News AI Community Digest — April 13, 2026 1. Today&amp;#39;s Highlights Today&amp;#39;s HN AI discussion is dominated by Anthropic operational issues, with two major threads exposing quota exhaustion and silent cache downgrades that have eroded developer trust. The community is in a frustrated, skeptical mood—comparing notes on vendor reliability rather than celebrating capabilities. Mean...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-04-13</h1>
-<blockquote>
-<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-04-13 00:13 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI Community Digest — April 13, 2026</h1>
-<h2>1. Today&#39;s Highlights</h2>
-<p>Today&#39;s HN AI discussion is dominated by <strong>Anthropic operational issues</strong>, with two major threads exposing quota exhaustion and silent cache downgrades that have eroded developer trust. The community is in a <strong>frustrated, skeptical mood</strong>—comparing notes on vendor reliability rather than celebrating capabilities. Meanwhile, <strong>European AI sovereignty</strong> (Mistral&#39;s playbook) and <strong>valuation corrections</strong> signal a maturing, more critical market. Tooling innovation continues at the edges with multiple &quot;Show HN&quot; projects addressing agent observability and workflow gaps.</p>
-<hr>
-<h2>2. Top News &amp; Discussions</h2>
-<h3>🔬 Models &amp; Research</h3>
-<table>
-<thead>
-<tr>
-<th>Item</th>
-<th>Metrics</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://twitter.com/bridgemindai/status/2043321284113670594">Claude Opus 4.6 accuracy on BridgeBench hallucination test drops from 83% to 68%</a></strong> — <a href="https://news.ycombinator.com/item?id=47743077">HN Discussion</a></td>
-<td>31 pts, 2 comments</td>
-<td>Rare concrete benchmark regression cited; community concerned about unannounced model changes degrading reliability</td>
-</tr>
-<tr>
-<td><strong><a href="https://thinkingmachines.ai/news/training-llms-to-predict-world-events/">Training LLMs to Predict World Events</a></strong> — <a href="https://news.ycombinator.com/item?id=47740662">HN Discussion</a></td>
-<td>4 pts, 0 comments</td>
-<td>Experimental direction with geopolitical implications; low engagement suggests skepticism about feasibility</td>
-</tr>
-</tbody></table>
-<h3>🛠️ Tools &amp; Engineering</h3>
-<table>
-<thead>
-<tr>
-<th>Item</th>
-<th>Metrics</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://github.com/halfwhey/claudraband">Show HN: Claudraband – Claude Code for the Power User</a></strong> — <a href="https://news.ycombinator.com/item?id=47741889">HN Discussion</a></td>
-<td>85 pts, 24 comments</td>
-<td>Community-built wrapper addressing Claude Code limitations; strong engagement shows demand for vendor-agnostic tooling</td>
-</tr>
-<tr>
-<td><strong><a href="https://github.com/umputun/revdiff">Show HN: Revdiff – TUI diff reviewer with inline annotations for AI agents</a></strong> — <a href="https://news.ycombinator.com/item?id=47742437">HN Discussion</a></td>
-<td>10 pts, 3 comments</td>
-<td>Addresses critical gap in AI-generated code review workflows; niche but practical</td>
-</tr>
-<tr>
-<td><strong><a href="https://github.com/chojs23/lazyagent">Show HN: Lazyagent – a local TUI for watching what your coding agents are doing</a></strong> — <a href="https://news.ycombinator.com/item?id=47741279">HN Discussion</a></td>
-<td>5 pts, 0 comments</td>
-<td>Part of emerging pattern: developer tools for <em>observing</em> opaque agent behavior</td>
-</tr>
-</tbody></table>
-<h3>🏢 Industry News</h3>
-<table>
-<thead>
-<tr>
-<th>Item</th>
-<th>Metrics</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://github.com/anthropics/claude-code/issues/45756">Pro Max 5x quota exhausted in 1.5 hours despite moderate usage</a></strong> — <a href="https://news.ycombinator.com/item?id=47739260">HN Discussion</a></td>
-<td><strong>512 pts, 475 comments</strong></td>
-<td>Highest engagement today; developers sharing horror stories of unpredictable billing, demanding transparency</td>
-</tr>
-<tr>
-<td><strong><a href="https://github.com/anthropics/claude-code/issues/46829">Anthropic downgraded cache TTL on March 6th</a></strong> — <a href="https://news.ycombinator.com/item?id=47736476">HN Discussion</a></td>
-<td><strong>462 pts, 356 comments</strong></td>
-<td>Second major Anthropic thread; silent degradation seen as breach of trust, fueling migration discussions</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.apollo.com/wealth/the-daily-spark/tech-valuations-back-to-pre-ai-boom-levels">Tech valuations are back to pre-AI boom levels</a></strong> — <a href="https://news.ycombinator.com/item?id=47745120">HN Discussion</a></td>
-<td>78 pts, 11 comments</td>
-<td>Market correction narrative; comments debate whether this reflects AI disillusionment or healthy normalization</td>
-</tr>
-<tr>
-<td><strong><a href="https://europe.mistral.ai/">European AI. A playbook to own it</a></strong> — <a href="https://news.ycombinator.com/item?id=47743700">HN Discussion</a></td>
-<td>134 pts, 67 comments</td>
-<td>Strategic positioning by Mistral; mixed reception on whether European regulation enables or hinders competitiveness</td>
-</tr>
-</tbody></table>
-<h3>💬 Opinions &amp; Debates</h3>
-<table>
-<thead>
-<tr>
-<th>Item</th>
-<th>Metrics</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://news.ycombinator.com/item?id=47739305">Tell HN: OpenAI silently removed Study Mode from ChatGPT</a></strong></td>
-<td>164 pts, 67 comments</td>
-<td>Pattern of &quot;silent removals&quot; by major vendors becoming a community grievance; compares to Anthropic issues</td>
-</tr>
-<tr>
-<td><strong><a href="https://tildehacker.com/you-dont-need-claude-code">You Don&#39;t Need Claude Code</a></strong> — <a href="https://news.ycombinator.com/item?id=47738837">HN Discussion</a></td>
-<td>4 pts, 1 comment</td>
-<td>Counter-narrative to agent hype; low reach but representative of growing skepticism</td>
-</tr>
-<tr>
-<td><strong><a href="https://techtrenches.dev/p/the-snake-that-ate-itself-what-claude">What Claude Code&#39;s Source Revealed About AI Engineering Culture</a></strong> — <a href="https://news.ycombinator.com/item?id=47743821">HN Discussion</a></td>
-<td>5 pts, 0 comments</td>
-<td>Meta-commentary on how AI companies build with their own tools; no discussion yet but thematically significant</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Community Sentiment Signal</h2>
-<p><strong>Dominant mood: Frustrated vigilance.</strong> The two highest-scoring posts (512 and 462 points) both expose <strong>silent degradations by Anthropic</strong>—quota exhaustion and cache TTL reductions without notice. This 900+ combined comment volume reveals a developer base <strong>comparing operational notes</strong> and seeking alternatives, not discussing capabilities.</p>
-<p><strong>Consensus forming:</strong> Major AI vendors are <strong>repeating cloud provider lock-in patterns</strong>—attractive onboarding, then opaque pricing changes. The parallel threads on OpenAI&#39;s &quot;Study Mode&quot; removal and Anthropic&#39;s issues suggest <strong>&quot;silent removal&quot; is becoming a recognized anti-pattern</strong>.</p>
-<p><strong>Shift from last cycle:</strong> Previous digests emphasized capability leaps and research breakthroughs. Today, <strong>infrastructure reliability and vendor trust</strong> dominate. The market correction headline (Apollo) and European sovereignty play (Mistral) reinforce a <strong>maturation narrative</strong>—AI as commodity infrastructure requiring competitive alternatives, not magic.</p>
-<p><strong>Notable absence:</strong> Minimal engagement with &quot;AI safety&quot; or &quot;AGI timeline&quot; discourse. Practical engineering concerns have crowded out speculative discussion.</p>
-<hr>
-<h2>4. Worth Deep Reading</h2>
-<table>
-<thead>
-<tr>
-<th>Priority</th>
-<th>Item</th>
-<th>Reasoning</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>1</strong></td>
-<td><strong><a href="https://github.com/anthropics/claude-code/issues/45756">Pro Max 5x quota exhausted in 1.5 hours</a></strong> — <a href="https://news.ycombinator.com/item?id=47739260">Discussion</a></td>
-<td><strong>Essential for anyone building on Claude Code.</strong> 475 comments contain real usage patterns, workarounds, and vendor response timelines. Case study in production AI dependency risk.</td>
-</tr>
-<tr>
-<td><strong>2</strong></td>
-<td><strong><a href="https://github.com/anthropics/claude-code/issues/46829">Anthropic downgraded cache TTL</a></strong> — <a href="https://news.ycombinator.com/item?id=47736476">Discussion</a></td>
-<td><strong>Companion piece revealing operational opacity.</strong> Shows how to detect and document silent changes; community forensics on API behavior shifts.</td>
-</tr>
-<tr>
-<td><strong>3</strong></td>
-<td><strong><a href="https://europe.mistral.ai/">European AI. A playbook to own it</a></strong> — <a href="https://news.ycombinator.com/item?id=47743700">Discussion</a></td>
-<td><strong>Strategic context for vendor diversification.</strong> Whether credible or not, understanding Mistral&#39;s positioning helps evaluate alternatives to US hyperscalers as trust erodes.</td>
-</tr>
-</tbody></table>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>

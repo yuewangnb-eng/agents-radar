@@ -6,7 +6,195 @@
     <description>ArXiv AI 研究日报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-arxiv.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 12 May 2026 04:29:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 04:37:04 +0000</lastBuildDate>
+    <item>
+      <title>ArXiv AI 研究日报 2026-05-13</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-13/ai-arxiv</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-13/ai-arxiv</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>ArXiv AI 研究日报 2026-05-13 数据来源: ArXiv (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-05-13 00:24 UTC ArXiv AI 研究日报 | 2026-05-13 今日速览 今日50篇论文覆盖语言模型架构创新、智能体系统安全与效率、科学发现自动化及多模态工业应用四大方向。最突出的突破包括：嵌入式语言流（ELF）将连续流模型引入离散语言生成，实现扩散/流模型在文本领域的原生适配；Shepherd 以函数式编程和形式化验证为智能体构建可审计的执行追踪；MaD Physics 首次将物理约束下的信息搜寻建模为强化学习任务，推动 AI 自主科学发现。整体趋势显示，研究重心正从&amp;quot;模型规模竞赛&amp;quot;转向&amp;quot;可控性、可解释性与物理 grounding&amp;quot;的系统性工程。 重点论文 🧠 大语言模型（架构、训练、对齐、评估） # 论文 作者 一句话说明 1 ELF: Embedded Language Flows Hu K., Qiu L., Lu Y. 等 首次将流模型直接嵌入离散语...</description>
+      <content:encoded><![CDATA[<h1>ArXiv AI 研究日报 2026-05-13</h1>
+<blockquote>
+<p>数据来源: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-05-13 00:24 UTC</p>
+</blockquote>
+<hr>
+<h1>ArXiv AI 研究日报 | 2026-05-13</h1>
+<hr>
+<h2>今日速览</h2>
+<p>今日50篇论文覆盖<strong>语言模型架构创新</strong>、<strong>智能体系统安全与效率</strong>、<strong>科学发现自动化</strong>及<strong>多模态工业应用</strong>四大方向。最突出的突破包括：嵌入式语言流（ELF）将连续流模型引入离散语言生成，实现扩散/流模型在文本领域的原生适配；Shepherd 以函数式编程和形式化验证为智能体构建可审计的执行追踪；MaD Physics 首次将物理约束下的信息搜寻建模为强化学习任务，推动 AI 自主科学发现。整体趋势显示，研究重心正从&quot;模型规模竞赛&quot;转向&quot;可控性、可解释性与物理 grounding&quot;的系统性工程。</p>
+<hr>
+<h2>重点论文</h2>
+<h3>🧠 大语言模型（架构、训练、对齐、评估）</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>论文</th>
+<th>作者</th>
+<th>一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="http://arxiv.org/abs/2605.10938v1">ELF: Embedded Language Flows</a></strong></td>
+<td>Hu K., Qiu L., Lu Y. 等</td>
+<td>首次将流模型直接嵌入离散语言空间，通过连续松弛实现语言生成的非自回归并行解码，突破扩散语言模型在文本领域的适配瓶颈。</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="http://arxiv.org/abs/2605.10889v1">Unmasking On-Policy Distillation: Where It Helps, Where It Hurts, and Why</a></strong></td>
+<td>Armandpour M., Ilhan F., Harrison D. 等</td>
+<td>系统解构策略蒸馏在推理模型训练中的双刃剑效应，揭示教师模型选择、上下文长度与信号密度的关键权衡机制。</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="http://arxiv.org/abs/2605.10863v1">DGPO: Beyond Pairwise Preferences with Directional Consistent Groupwise Optimization</a></strong></td>
+<td>Deng M., Li Z., Li X. 等</td>
+<td>提出方向一致性组偏好优化，用轻量级分组对比损失替代成对偏好学习，在保持推理多样性的同时实现对齐稳定性提升。</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong><a href="http://arxiv.org/abs/2605.10843v1">Training-Free Cultural Alignment of Large Language Models via Persona Disagreement</a></strong></td>
+<td>Huynh T.K., Dao S.D.M., Nguyen T. 等</td>
+<td>无需微调或标注数据，通过角色间道德分歧的零样本提示实现文化对齐，为全球化部署提供低成本偏见缓解方案。</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong><a href="http://arxiv.org/abs/2605.10828v1">The First Drop of Ink: Nonlinear Impact of Misleading Information in Long-Context Reasoning</a></strong></td>
+<td>Gao M., Chen Z.-C., Huang K.-H.</td>
+<td>发现长上下文推理中误导信息的&quot;首因效应&quot;——早期错误文档对模型输出的非线性放大机制，为 RAG 系统的文档排序策略提供关键洞见。</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🤖 智能体与推理（规划、工具使用、多智能体、思维链）</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>论文</th>
+<th>作者</th>
+<th>一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>6</td>
+<td><strong><a href="http://arxiv.org/abs/2605.10913v1">Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace</a></strong></td>
+<td>Yu S., Chong D., Nandi A. 等</td>
+<td>以 Lean 形式化验证为核心，将元智能体操作建模为纯函数并记录 Git 式类型化执行轨迹，实现任意历史状态的可分叉、可审计、可回滚。</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong><a href="http://arxiv.org/abs/2605.10923v1">Dynamic Skill Lifecycle Management for Agentic Reinforcement Learning</a></strong></td>
+<td>Shen J., Zhang T., Zhao X. 等</td>
+<td>提出技能的生命周期动态管理框架，解决智能体技能积累导致的灾难性遗忘与冗余问题，支持技能的在线获取、内化与淘汰。</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong><a href="http://arxiv.org/abs/2605.10899v1">RubricEM: Meta-RL with Rubric-guided Policy Decomposition beyond Verifiable Rewards</a></strong></td>
+<td>Li G., Mishra B.D., Wang Z. 等</td>
+<td>针对深度研究智能体的不可验证奖励困境，以评分细则引导策略分解，将元强化学习扩展至开放域长程推理与报告生成任务。</td>
+</tr>
+<tr>
+<td>9</td>
+<td><strong><a href="http://arxiv.org/abs/2605.10870v1">Remember the Decision, Not the Description: A Rate-Distortion Framework for Agent Memory</a></strong></td>
+<td>Zou M., Guo Z., Liang L. 等</td>
+<td>以率失真理论重构智能体记忆机制——记忆价值取决于决策效用而非描述保真度，为长程智能体的有限内存压缩提供信息论最优框架。</td>
+</tr>
+<tr>
+<td>10</td>
+<td><strong><a href="http://arxiv.org/abs/2605.10907v1">Engineering Robustness into Personal Agents with the AI Workflow Store</a></strong></td>
+<td>Geambasu R., Raykova M., Tholoniat P. 等</td>
+<td>批判&quot;即时合成&quot;智能体范式的工程脆弱性，提出预认证工作流商店模式，将迭代设计、严格测试与持续监控引入个人智能体开发流程。</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🔧 方法与框架（新技术、基准测试、效率优化）</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>论文</th>
+<th>作者</th>
+<th>一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>11</td>
+<td><strong><a href="http://arxiv.org/abs/2605.10933v1">DECO: Sparse Mixture-of-Experts with Dense-Comparable Performance on End-Side Devices</a></strong></td>
+<td>Song C., Zhao W., Han X. 等</td>
+<td>通过动态专家路由与内存感知调度，在端侧设备上实现稀疏 MoE 的稠密模型级性能，突破存储与内存访问瓶颈。</td>
+</tr>
+<tr>
+<td>12</td>
+<td><strong><a href="http://arxiv.org/abs/2605.10875v1">Compute Where it Counts: Self Optimizing Language Models</a></strong></td>
+<td>Akhauri Y., Abdelfattah M.S.</td>
+<td>提出令牌级动态计算分配机制，根据生成难度自适应调整每步推理预算，打破静态压缩的均匀性假设。</td>
+</tr>
+<tr>
+<td>13</td>
+<td><strong><a href="http://arxiv.org/abs/2605.10878v1">Neural Weight Norm = Kolmogorov Complexity</a></strong></td>
+<td>Musat T.</td>
+<td>证明固定精度下循环神经网络的最小权重范数等价于输出字符串的 Kolmogorov 复杂度，为权重衰减的正则化效应提供 Solomonoff 归纳的理论根基。</td>
+</tr>
+<tr>
+<td>14</td>
+<td><strong><a href="http://arxiv.org/abs/2605.10901v1">Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers</a></strong></td>
+<td>Kezins N., Ekka U., Berrang P. 等</td>
+<td>首次为护栏分类器提供形式化安全保证，通过抽象解释在离散输入空间上建立可证明的鲁棒性边界，超越红队测试的经验性局限。</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>📊 应用（垂直领域、多模态、代码生成）</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>论文</th>
+<th>作者</th>
+<th>一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>15</td>
+<td><strong><a href="http://arxiv.org/abs/2605.10820v1">MaD Physics: Evaluating information seeking under constraints in physical environments</a></strong></td>
+<td>Jain M., Bennani M., Bausch J. 等</td>
+<td>构建物理约束下科学测量的多智能体基准，将信息搜寻建模为资源受限的序贯决策问题，推动 AI 从被动问答向主动实验设计跃迁。</td>
+</tr>
+<tr>
+<td>16</td>
+<td><strong><a href="http://arxiv.org/abs/2605.10876v1">AssayBench: An Assay-Level Virtual Cell Benchmark for LLMs and Agents</a></strong></td>
+<td>De Brouwer E., Edwards C., Wu A. 等</td>
+<td>面向虚拟细胞愿景，建立测定级别的生物学推理基准，评估大模型在实验设计、假设生成与现象解释方面的科学智能。</td>
+</tr>
+<tr>
+<td>17</td>
+<td><strong><a href="http://arxiv.org/abs/2605.10873v1">CADBench / BenchCAD</a> / <a href="http://arxiv.org/abs/2605.10865v1">(http://arxiv.org/abs/2605.10865v1)</a></strong></td>
+<td>Doris A.C. 等 / Zhang H. 等</td>
+<td>双基准协同推进：CADBench 统一多模态 CAD 程序生成评估，BenchCAD 聚焦工业级可执行参数化代码，填补 AI 辅助设计与制造的标准化空白。</td>
+</tr>
+<tr>
+<td>18</td>
+<td><strong><a href="http://arxiv.org/abs/2605.10912v1">WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation</a></strong></td>
+<td>Ding S., Dai X., Xing L. 等</td>
+<td>首个真实世界长程智能体基准，以实际 CLI 环境替代沙盒模拟，通过开放式任务与过程级评估检验智能体的鲁棒泛化能力。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>研究趋势信号</h2>
+<p><strong>三大新兴信号</strong>值得追踪：（1）<strong>形式化智能体基础设施</strong>——Shepherd 与护栏分类器的形式化保证标志着 AI 安全从&quot;测试驱动&quot;向&quot;验证驱动&quot;的范式转换，Lean/Coq 等证明助手正成为智能体开发的底层工具链；（2）<strong>物理约束嵌入推理</strong>——MaD Physics 与信息搜寻框架将资源限制从计算成本扩展至物理定律，预示&quot;具身科学发现&quot;将成为 RL 的新前沿；（3）<strong>记忆的信息论重构</strong>——率失真框架与 Kolmogorov 复杂度视角的引入，显示理论计算机科学工具正深度渗透神经网络设计与智能体架构。</p>
+<hr>
+<h2>值得精读</h2>
+<h3>1. <a href="http://arxiv.org/abs/2605.10913v1">Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace</a></h3>
+<p><strong>理由</strong>：智能体系统的可审计性与安全性是产业落地的核心瓶颈。Shepherd 的创新在于将函数式编程的不可变数据结构与形式化验证结合，以 Lean 实现核心操作的机器可检验证明，同时通过 Git 式执行追踪支持任意历史状态的分叉与回滚。这不仅解决了&quot;黑盒智能体&quot;的调试难题，更为多智能体协作中的责任归属、合规审计提供了技术基础，是迈向&quot;可信智能体操作系统&quot;的关键一步。</p>
+<h3>2. <a href="http://arxiv.org/abs/2605.10878v1">Neural Weight Norm = Kolmogorov Complexity</a></h3>
+<p><strong>理由</strong>：该论文以严格的数学证明回答了&quot;权重衰减为何有效&quot;这一深度学习的基础问题，建立权重范数与 Kolmogorov 复杂度的等价关系。其意义超越正则化理论本身——它为神经网络压缩、彩票假设、以及 Occam 剃刀在深度学习中的适用性提供了统一的算法信息论框架，可能重塑我们对模型选择偏好的理论理解。</p>
+<h3>3. <a href="http://arxiv.org/abs/2605.10820v1">MaD Physics: Evaluating information seeking under constraints in physical environments</a></h3>
+<p><strong>理由</strong>：科学发现自动化是 AI 的终极挑战之一。MaD Physics 将物理实验设计建模为部分可观察马尔可夫决策过程，引入真实世界的测量成本、精度限制与设备约束，迫使智能体在信息增益与资源消耗间进行最优权衡。该基准填补了&quot;纯符号推理&quot;与&quot;纯感知运动&quot;之间的空白，为评估 AI 的&quot;科研智能&quot;提供了首个标准化平台，对材料科学、高能物理等实验密集型领域具有直接应用价值。</p>
+<hr>
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>ArXiv AI 研究日报 2026-05-09</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-09/ai-arxiv</link>

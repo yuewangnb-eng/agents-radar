@@ -6,7 +6,164 @@
     <description>Tech Community AI Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-community-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 12 May 2026 04:29:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 04:37:04 +0000</lastBuildDate>
+    <item>
+      <title>Tech Community AI Digest 2026-05-13</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-13/ai-community-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-13/ai-community-en</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Tech Community AI Digest 2026-05-13 Sources: Dev.to (30 articles) + Lobste.rs (9 stories) | Generated: 2026-05-13 00:24 UTC Tech Community AI Digest — May 13, 2026 1. Today&amp;#39;s Highlights The developer community is buzzing with anxiety over the closing of open-weight AI models, sparking intense debate about vendor lock-in and AI sovereignty. Practical tooling dominates Dev.to, with developers sharing battle-tested architectures for cutting AI costs by 80% and running local LLMs on phones via T...</description>
+      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-05-13</h1>
+<blockquote>
+<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (9 stories) | Generated: 2026-05-13 00:24 UTC</p>
+</blockquote>
+<hr>
+<h1>Tech Community AI Digest — May 13, 2026</h1>
+<h2>1. Today&#39;s Highlights</h2>
+<p>The developer community is buzzing with anxiety over the closing of open-weight AI models, sparking intense debate about vendor lock-in and AI sovereignty. Practical tooling dominates Dev.to, with developers sharing battle-tested architectures for cutting AI costs by 80% and running local LLMs on phones via Termux. Agent-to-agent communication protocols and decentralized AI networks are emerging as serious engineering concerns, not just research curiosities. Meanwhile, Google&#39;s Prompt API and Gemini CLI signal Big Tech&#39;s push to embed AI deeper into developer workflows, while &quot;vibe coding&quot; faces pushback from advocates of spec-driven development.</p>
+<hr>
+<h2>2. Dev.to Highlights</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Article</th>
+<th>Engagement</th>
+<th>Key Takeaway</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://dev.to/wasp/open-vibe-ship-your-saas-with-ai-without-getting-stuck-e2h">Open Vibe -- Ship your SaaS with AI. Without getting stuck.</a></strong></td>
+<td>32 reactions, 4 comments</td>
+<td>Open SaaS launches with a &quot;vibecoding&quot; framework that promises to unblock developers stuck in tutorial hell.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://dev.to/alifar/codex-chrome-extension-not-available-heres-whats-happening-l0l">Codex Chrome Extension Not Available? Here’s What’s Happening</a></strong></td>
+<td>25 reactions, 12 comments</td>
+<td>OpenAI&#39;s Codex extension rollout hit immediate availability issues—essential reading if you&#39;re waiting on access.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://dev.to/pradumnasaraf/run-claude-code-locally-for-free-with-docker-model-runner-3o27">Run Claude Code Locally for Free with Docker Model Runner</a></strong></td>
+<td>25 reactions, 1 comment</td>
+<td>Docker Model Runner now lets you self-host Claude Code, eliminating token anxiety for heavy users.</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong><a href="https://dev.to/shrsv/a-new-method-for-stable-software-micro-code-reviews-for-the-ai-era-4hi3">A New Method for Stable Software: Micro Code Reviews for the AI Era</a></strong></td>
+<td>20 reactions, 0 comments</td>
+<td>Shrinks code review scope to AI-manageable chunks, addressing the instability of large AI-generated changes.</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong><a href="https://dev.to/j_dev28/i-slashed-my-ai-trading-agent-token-costs-by-80-heres-the-architecture-5292">I Slashed My AI Trading Agent Token Costs by 80% — Here&#39;s the Architecture</a></strong></td>
+<td>8 reactions, 1 comment</td>
+<td>Hermes-based open-source architecture proves aggressive cost optimization is possible without sacrificing agent capability.</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong><a href="https://dev.to/huckler/how-i-taught-my-offline-ai-to-remember-watch-and-warn-without-any-cloud-part-2-5hib">How I Taught My Offline AI to Remember, Watch, and Warn, Without Any Cloud (Part 2)</a></strong></td>
+<td>7 reactions, 1 comment</td>
+<td>9-layer local routing system shows how to build persistent, privacy-preserving AI without cloud dependencies.</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong><a href="https://dev.to/remybuilds/spec-driven-development-structure-beats-vibes-4oma">Spec-Driven Development: Structure Beats Vibes</a></strong></td>
+<td>5 reactions, 0 comments</td>
+<td>Machine-readable specs as primary artifacts offer a disciplined counterbalance to &quot;vibe coding&quot; chaos.</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong><a href="https://dev.to/kenwalger/engineering-agent-memory-4a42">Engineering Agent Memory</a></strong></td>
+<td>4 reactions, 3 comments</td>
+<td>Bridges stateless prompts and persistent intelligence—critical for anyone building agents that need to learn.</td>
+</tr>
+<tr>
+<td>9</td>
+<td><strong><a href="https://dev.to/okeke_chukwudubem_5f3bf49/termux-ollama-23b-parameters-offline-private-fast-wrote-a-full-guide-on-how-to-set-it-356e">Termux + Ollama + 2.3B parameters. Offline. Private. Fast.</a></strong></td>
+<td>4 reactions, 0 comments</td>
+<td>Gemma 4 on Android via Termux makes local LLMs genuinely portable for the first time.</td>
+</tr>
+<tr>
+<td>10</td>
+<td><strong><a href="https://dev.to/webramos/six-principles-for-agent-systems-that-dont-hallucinate-14gn">Six Principles for Agent Systems That Don&#39;t Hallucinate</a></strong></td>
+<td>2 reactions, 4 comments</td>
+<td>2026&#39;s agentic development demands explicit anti-hallucination architecture, not just prompt engineering.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Lobste.rs Highlights</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Story</th>
+<th>Engagement</th>
+<th>Why Read</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://martinalderson.com/posts/open-weights-are-quietly-closing-up/">Open weights are quietly closing up - and that&#39;s a problem</a></strong> (<a href="https://lobste.rs/s/jvvtif/open_weights_are_quietly_closing_up_s">discussion</a>)</td>
+<td>43 points, 25 comments</td>
+<td>The most important AI governance story this week: the open-weight ecosystem is contracting, with serious implications for independent developers.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://joel.place/blog/path-not-taken/">A Path Not Taken for OxCaml</a></strong> (<a href="https://lobste.rs/s/ik5vhe/path_not_taken_for_oxcaml">discussion</a>)</td>
+<td>24 points, 4 comments</td>
+<td>Reflection on ML language design choices that shaped—and didn&#39;t shape—OxCaml&#39;s development.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://mojolang.org/releases/v1.0.0b1">Mojo v1.0.0b1</a></strong> (<a href="https://lobste.rs/s/zys8hd/mojo_v1_0_0b1">discussion</a>)</td>
+<td>23 points, 0 comments</td>
+<td>Python-compatible systems language for AI reaches beta milestone—worth tracking for performance-critical ML work.</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong><a href="https://wil.to/posts/googles-prompt-api/">Google’s Prompt API</a></strong> (<a href="https://lobste.rs/s/at9lwa/google_s_prompt_api">discussion</a>)</td>
+<td>20 points, 2 comments</td>
+<td>Early look at how Google is standardizing prompt engineering into a formal web API surface.</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong><a href="https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html">Training an LLM in Swift, Part 1: Taking matrix multiplication from Gflop/s to Tflop/s</a></strong> (<a href="https://lobste.rs/s/dqzo2u/training_llm_swift_part_1_taking_matrix">discussion</a>)</td>
+<td>4 points, 0 comments</td>
+<td>Deep dive into optimizing Swift for serious AI compute—rare Apple-ecosystem systems writing.</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong><a href="https://github.com/jonghough/jlearn">jlearn: Machine Learning Library in J</a></strong> (<a href="https://lobste.rs/s/r8v2bx/jlearn_machine_learning_library_j">discussion</a>)</td>
+<td>4 points, 0 comments</td>
+<td>Array-programming approach to ML in J, offering a radically different paradigm from PyTorch-style frameworks.</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong><a href="https://jytan.net/blog/2025/transformer-architectures/">The Crystallization of Transformer Architectures (2017-2025)</a></strong> (<a href="https://lobste.rs/s/yrbywt/crystallization_transformer">discussion</a>)</td>
+<td>1 point, 0 comments</td>
+<td>Historical synthesis of how transformer designs converged—and what alternatives were abandoned.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>4. Community Pulse</h2>
+<p>Both communities share a palpable tension between <strong>AI democratization and consolidation</strong>. Dev.to&#39;s practical tutorials—local LLMs on phones, Docker-hosted Claude, cost-slashing architectures—reflect developers aggressively pursuing <strong>sovereignty and predictability</strong> in their AI stacks. Lobste.rs amplifies the systemic risk: the top story warns that open-weight models are &quot;quietly closing up,&quot; threatening the very independence these tutorials enable.</p>
+<p><strong>Practical concerns center on three axes</strong>: cost control (token budgets, local inference), reliability (anti-hallucination patterns, RAG stress testing), and portability (infrastructure-agnostic agents, offline operation). &quot;Vibe coding&quot; is simultaneously celebrated and contested—Open Vibe launches while spec-driven development gains traction as its disciplined counterweight.</p>
+<p>Emerging patterns include <strong>micro-code reviews</strong> for AI-generated code, <strong>agent memory engineering</strong> as first-class systems design, and <strong>decentralized trust protocols</strong> for multi-agent networks. The community is actively building around AI rather than merely consuming it, but with growing awareness that the foundational models themselves may become less accessible.</p>
+<hr>
+<h2>5. Worth Reading</h2>
+<p><strong><a href="https://martinalderson.com/posts/open-weights-are-quietly-closing-up/">Open weights are quietly closing up - and that&#39;s a problem</a></strong> (<a href="https://lobste.rs/s/jvvtif/open_weights_are_quietly_closing_up_s">discussion</a>)
+The most consequential piece this week. With 25 comments and the highest score on Lobste.rs, it articulates a structural shift in AI openness that threatens to undo years of democratization progress. Essential context for every developer betting on local or self-hosted AI.</p>
+<p><strong><a href="https://dev.to/j_dev28/i-slashed-my-ai-trading-agent-token-costs-by-80-heres-the-architecture-5292">I Slashed My AI Trading Agent Token Costs by 80% — Here&#39;s the Architecture</a></strong>
+Rare concrete architecture with measurable results. The Hermes-based open-source stack is directly reusable for any token-intensive agent application, not just trading. Short, actionable, and unusually specific about trade-offs.</p>
+<p><strong><a href="https://dev.to/webramos/six-principles-for-agent-systems-that-dont-hallucinate-14gn">Six Principles for Agent Systems That Don&#39;t Hallucinate</a></strong>
+As agentic AI moves from experiment to production, this is the kind of systems thinking the community needs more of. The 11-minute read time is justified by its attempt to build <em>architectural</em> guardrails rather than relying on prompt tweaks.</p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Tech Community AI Digest 2026-05-12</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-12/ai-community-en</link>
@@ -3727,124 +3884,6 @@ An antidote to the productivity-obsessed discourse. Boykis argues for slowness, 
 <li><p><strong><a href="https://dev.to/aws/ai-context-window-overflow-memory-pointer-fix-3akc">AI Context Window Overflow: Memory Pointer Fix</a></strong> — A practical pattern you can implement today to make agents more robust without waiting for 1M-token windows.</p>
 </li>
 <li><p><strong><a href="https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact">How is your org/company measuring the impact of AI adoption?</a></strong> (<a href="https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact">Discussion</a>) — Short but valuable for anyone navigating AI strategy conversations at work.</p>
-</li>
-</ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Tech Community AI Digest 2026-04-13</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-13/ai-community-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-13/ai-community-en</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Tech Community AI Digest 2026-04-13 Sources: Dev.to (30 articles) + Lobste.rs (4 stories) | Generated: 2026-04-13 00:13 UTC Tech Community AI Digest — April 13, 2026 1. Today&amp;#39;s Highlights MCP (Model Context Protocol) servers are dominating Dev.to discussions, with banking and sales automation use cases showing how enterprises are finally deploying AI agents in production. The community is grappling with a fundamental tension: AI coding tools are everywhere, but developers are questioning whe...</description>
-      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-04-13</h1>
-<blockquote>
-<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (4 stories) | Generated: 2026-04-13 00:13 UTC</p>
-</blockquote>
-<hr>
-<h1>Tech Community AI Digest — April 13, 2026</h1>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>MCP (Model Context Protocol) servers are dominating Dev.to discussions, with banking and sales automation use cases showing how enterprises are finally deploying AI agents in production. The community is grappling with a fundamental tension: AI coding tools are everywhere, but developers are questioning whether they&#39;re actually shipping faster. Meanwhile, local LLM setups and privacy-focused AI architectures are gaining serious traction as alternatives to API-dependent workflows. Security concerns around AI agents have escalated dramatically—one developer found 30 MCP-related CVEs in 60 days. The Lobste.rs crowd is taking a more philosophical and skeptical angle, questioning how organizations measure AI ROI and what it&#39;s actually &quot;like&quot; to be a language model.</p>
-<hr>
-<h2>2. Dev.to Highlights</h2>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Engagement</th>
-<th>Key Takeaway</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://dev.to/om_shree_0709/banks-got-their-first-mcp-server-heres-what-nymbus-actually-built-40l3">Banks Got Their First MCP Server. Here&#39;s What Nymbus Actually Built.</a></strong></td>
-<td>20 reactions, 0 comments</td>
-<td>Financial services are adopting MCP servers to bridge legacy systems with AI agents—watch this space for regulated industry patterns.</td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/om_shree_0709/salesmotions-mcp-server-turns-your-ai-assistant-into-a-live-pipeline-analyst-1f5h">Salesmotion&#39;s MCP Server Turns Your AI Assistant into a Live Pipeline Analyst</a></strong></td>
-<td>20 reactions, 0 comments</td>
-<td>CRM-integrated MCP servers demonstrate how vertical-specific AI agents are becoming actually useful rather than demo-ware.</td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/practiceoverflow/the-inference-reckoning-from-training-buildout-to-monetization-ggf">The Inference Reckoning: From Training Buildout to Monetization</a></strong></td>
-<td>5 reactions, 0 comments</td>
-<td>Token prices collapsed 50x since 2023—this piece explains why inference economics are reshaping AI business models.</td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/practiceoverflow/agent-native-data-infrastructure-3ej1">Agent Native Data Infrastructure</a></strong></td>
-<td>5 reactions, 1 comment</td>
-<td>Databricks reports 80% of new tables are agent-created: databases aren&#39;t changing, but who&#39;s using them fundamentally is.</td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/rain9/are-we-really-faster-after-ai-started-writing-our-code-59f4">Are We Really Faster After AI Started Writing Our Code?</a></strong></td>
-<td>6 reactions, 0 comments</td>
-<td>The question every team should be asking—this surfaces the productivity measurement problem plaguing AI adoption.</td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/sattyamjjain/i-audited-13-ai-agent-platforms-for-security-misconfigurations-heres-the-open-source-scanner-i-2am8">I Audited 13 AI Agent Platforms for Security Misconfigurations — Here&#39;s the Open-Source Scanner I Built</a></strong></td>
-<td>1 reaction, 0 comments</td>
-<td><code>enableAllProjectMcpServers: true</code> is leaking source code—essential security reading for anyone shipping agents.</td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/dhananjay_lakkawar/surviving-viral-growth-graceful-ai-degradation-on-aws-21fg">Surviving Viral Growth: Graceful AI Degradation on AWS</a></strong></td>
-<td>4 reactions, 0 comments</td>
-<td>Practical patterns for when your AI feature hits the front page of HN and you need to stay up without going broke.</td>
-</tr>
-<tr>
-<td><strong><a href="https://dev.to/syedahmershah/build-your-own-private-copilot-in-10-minutes-ollama-continue-and-deepseek-v3-4cog">Build Your Own &quot;Private Copilot&quot; in 10 Minutes: Ollama, Continue, and DeepSeek-V3</a></strong></td>
-<td>5 reactions, 0 comments</td>
-<td>Drop-in replacement for $20/month Copilot using local models—complete setup guide for the privacy-conscious.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Lobste.rs Highlights</h2>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Engagement</th>
-<th>Why Read</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact">How is your org/company measuring the impact of AI adoption?</a></strong> (<a href="https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact">Discussion</a>)</td>
-<td>10 points, 2 comments</td>
-<td>Rare practitioner-focused thread on the measurement problem—most orgs are flying blind on AI ROI.</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.anthropic.com/glasswing">Project Glasswing: Securing critical software for the AI era</a></strong> (<a href="https://lobste.rs/s/pgkwml/project_glasswing_securing_critical">Discussion</a>)</td>
-<td>6 points, 0 comments</td>
-<td>Anthropic&#39;s formal verification initiative for AI-generated code—signals where safety-critical AI is heading.</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.robinsloan.com/winter-garden/where-is-it-like/">Where is it like to be a language model?</a></strong> (<a href="https://lobste.rs/s/iumxay/where_is_it_like_be_language_model">Discussion</a>)</td>
-<td>3 points, 1 comment</td>
-<td>Robin Sloan&#39;s characteristically thoughtful meditation on AI phenomenology—refreshingly non-technical.</td>
-</tr>
-<tr>
-<td><strong><a href="https://rodneybrooks.com/predictions-scorecard-2026-january-01/">Predictions Scorecard, 2026 January 01</a></strong> (<a href="https://lobste.rs/s/1jkplq/predictions_scorecard_2026_january_01">Discussion</a>)</td>
-<td>1 point, 0 comments</td>
-<td>Rodney Brooks grading his own AI predictions—essential antidote to hype cycles from a robotics legend.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>4. Community Pulse</h2>
-<p><strong>MCP is the new API.</strong> Dev.to&#39;s coverage of Model Context Protocol servers—from banking to sales to security auditing—suggests this open standard for AI tool integration has crossed into mainstream adoption. Developers are building with it, breaking it, and securing it in real time.</p>
-<p><strong>The productivity paradox is real.</strong> Multiple articles question whether AI coding tools actually accelerate delivery, with teams struggling to measure impact beyond &quot;lines generated.&quot; Lobste.rs directly asks how orgs are measuring ROI, implying most aren&#39;t doing it well.</p>
-<p><strong>Local-first AI is having a moment.</strong> Tutorials for Ollama-based setups, browser-side ONNX inference, and &quot;private copilots&quot; reflect growing developer discomfort with cloud API dependencies—driven by cost, latency, and privacy concerns.</p>
-<p><strong>Agent infrastructure is maturing fast.</strong> Observability layers, graceful degradation patterns, and memory systems for learning from repeated issues show the community moving past &quot;hello world&quot; agents toward production-ready architectures.</p>
-<p><strong>Security debt is accumulating.</strong> The 30 MCP CVEs finding, combined with deepfake fraud hitting $1.1B, suggests AI attack surfaces are expanding faster than defenses.</p>
-<hr>
-<h2>5. Worth Reading in Depth</h2>
-<ol>
-<li><p><strong><a href="https://dev.to/practiceoverflow/the-inference-reckoning-from-training-buildout-to-monetization-ggf">The Inference Reckoning</a></strong> — Essential for understanding how collapsing inference costs are reshaping AI economics and who will survive the margin squeeze.</p>
-</li>
-<li><p><strong><a href="https://dev.to/sattyamjjain/i-audited-13-ai-agent-platforms-for-security-misconfigurations-heres-the-open-source-scanner-i-2am8">I Audited 13 AI Agent Platforms for Security Misconfigurations</a></strong> — Actionable security research with open-source tooling; likely to become reference material for AI agent security reviews.</p>
-</li>
-<li><p><strong><a href="https://www.robinsloan.com/winter-garden/where-is-it-like/">Where is it like to be a language model?</a></strong> — The rare piece that transcends implementation details to ask what we&#39;re actually building, written by one of the most thoughtful technologists working today.</p>
 </li>
 </ol>
 <hr>

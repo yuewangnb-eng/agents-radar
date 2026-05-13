@@ -6,7 +6,390 @@
     <description>AI 官方内容追踪报告</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-web.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 12 May 2026 04:29:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 04:37:04 +0000</lastBuildDate>
+    <item>
+      <title>AI 官方内容追踪报告 2026-05-13</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-13/ai-web</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-13/ai-web</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>AI 官方内容追踪报告 2026-05-13 今日更新 | 新增内容: 1 篇 | 生成时间: 2026-05-13 00:24 UTC 数据来源: Anthropic: anthropic.com — 新增 0 篇（sitemap 共 354 条） OpenAI: openai.com — 新增 1 篇（sitemap 共 814 条） AI 官方内容追踪报告（2026-05-13） 报告周期：2026-05-13 增量更新数据来源：Anthropic（claude.com / anthropic.com）、OpenAI（openai.com）官网抓取分析框架：战略信号提取、技术优先级研判、竞争态势评估 1. 今日速览 今日增量更新极为有限：Anthropic 零新增内容，处于内容发布静默期；OpenAI 仅新增一篇博客文章《What Parameter Golf Taught Us》，标题暗示其围绕模型参数效率展开技术反思——&amp;quot;Parameter Golf&amp;quot;一词将参数优化比作高尔夫球的低杆数竞赛，指向以更少参数实现更强性能的技术路线。这一发布时机值得关注：Ope...</description>
+      <content:encoded><![CDATA[<h1>AI 官方内容追踪报告 2026-05-13</h1>
+<blockquote>
+<p>今日更新 | 新增内容: 1 篇 | 生成时间: 2026-05-13 00:24 UTC</p>
+</blockquote>
+<p>数据来源:</p>
+<ul>
+<li>Anthropic: <a href="https://www.anthropic.com">anthropic.com</a> — 新增 0 篇（sitemap 共 354 条）</li>
+<li>OpenAI: <a href="https://openai.com">openai.com</a> — 新增 1 篇（sitemap 共 814 条）</li>
+</ul>
+<hr>
+<h1>AI 官方内容追踪报告（2026-05-13）</h1>
+<p><strong>报告周期</strong>：2026-05-13 增量更新<br><strong>数据来源</strong>：Anthropic（claude.com / anthropic.com）、OpenAI（openai.com）官网抓取<br><strong>分析框架</strong>：战略信号提取、技术优先级研判、竞争态势评估</p>
+<hr>
+<h2>1. 今日速览</h2>
+<p>今日增量更新极为有限：Anthropic 零新增内容，处于内容发布静默期；OpenAI 仅新增一篇博客文章《What Parameter Golf Taught Us》，标题暗示其围绕模型参数效率展开技术反思——&quot;Parameter Golf&quot;一词将参数优化比作高尔夫球的低杆数竞赛，指向以更少参数实现更强性能的技术路线。这一发布时机值得关注：OpenAI 近期密集推进 o3/o4 系列推理模型与 GPT-5 整合，此文可能为其下一代架构的效率叙事铺垫。整体而言，今日并非两家公司的&quot;发布日&quot;，但 OpenAI 持续的技术博客输出维持了其内容声量，而 Anthropic 的静默或预示其正在蓄力更大发布节点。</p>
+<hr>
+<h2>2. Anthropic / Claude 内容精选</h2>
+<p><strong>今日增量：0 篇新内容</strong></p>
+<p>由于今日无新增，以下基于历史全量数据梳理近期重要里程碑，供上下文参考：</p>
+<table>
+<thead>
+<tr>
+<th align="left">分类</th>
+<th align="left">内容</th>
+<th align="left">日期</th>
+<th align="left">核心要点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Research</strong></td>
+<td align="left"><a href="https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback">Constitutional AI: Harmlessness from AI Feedback</a></td>
+<td align="left">2022-12（里程碑）</td>
+<td align="left">Anthropic 安全方法论基石，提出通过 AI 自我评判而非人类标注实现无害性，奠定 Claude 差异化安全定位</td>
+</tr>
+<tr>
+<td align="left"><strong>Research</strong></td>
+<td align="left"><a href="https://www.anthropic.com/news/claude-3-family">The Claude 3 Model Family: Opus, Sonnet, Haiku</a></td>
+<td align="left">2024-03</td>
+<td align="left">首次引入多层级模型策略，Opus 对标 GPT-4、Haiku 抢占延迟敏感场景</td>
+</tr>
+<tr>
+<td align="left"><strong>Company</strong></td>
+<td align="left"><a href="https://www.anthropic.com/news/claude-for-enterprise">Claude for Enterprise</a></td>
+<td align="left">2024-09</td>
+<td align="left">正式进军 B2B 市场，推出 SSO、审计日志等企业功能，与 OpenAI Enterprise 正面竞争</td>
+</tr>
+<tr>
+<td align="left"><strong>Safety</strong></td>
+<td align="left"><a href="https://www.anthropic.com/news/responsible-scaling-policy">Responsible Scaling Policy</a></td>
+<td align="left">2023-09（持续更新）</td>
+<td align="left">行业首个系统性 RSP，定义 ASL-1 至 ASL-4 安全等级，成为 AI 治理标杆框架</td>
+</tr>
+<tr>
+<td align="left"><strong>Research</strong></td>
+<td align="left"><a href="https://www.anthropic.com/news/claude-3-5-sonnet">Claude 3.5 Sonnet 及 Artifacts</a></td>
+<td align="left">2024-06</td>
+<td align="left">Artifacts 功能开创&quot;工作区&quot;交互范式，模型输出可直接编辑、迭代，预示 AI 从对话工具向协作环境演进</td>
+</tr>
+</tbody></table>
+<p><strong>近期观察</strong>：Anthropic 自 2025 年初 Claude 4 系列（Opus 4 / Sonnet 4）发布后，内容更新频率显著降低。其最后一批重要发布集中于 2025 年 Q1 的&quot;Computer Use&quot;功能扩展与 MCP（Model Context Protocol）开源协议推广。当前静默期可能对应：  </p>
+<ul>
+<li>下一代模型（Claude 4.5/5）的训练收尾阶段  </li>
+<li>MCP 生态建设的战略沉淀期（避免与开发者大会等节点冲突）</li>
+</ul>
+<hr>
+<h2>3. OpenAI 内容精选</h2>
+<h3>今日增量：1 篇新内容</h3>
+<table>
+<thead>
+<tr>
+<th align="left">分类</th>
+<th align="left">标题</th>
+<th align="left">日期</th>
+<th align="left">状态</th>
+<th align="left">可用信息</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Index/Blog</strong></td>
+<td align="left"><a href="https://openai.com/index/what-parameter-golf-taught-us/">What Parameter Golf Taught Us</a></td>
+<td align="left">2026-05-12</td>
+<td align="left">⚠️ 仅元数据</td>
+<td align="left">标题由 URL 路径推断；<strong>无法获取正文内容</strong></td>
+</tr>
+</tbody></table>
+<hr>
+<p><strong>⚠️ 数据受限声明</strong></p>
+<p>由于该条目为<strong>仅元数据模式</strong>（标题由 URL 路径推断，无正文抓取），基于客观约束，本报告<strong>不做以下推测</strong>：</p>
+<ul>
+<li>不解读 &quot;Parameter Golf&quot; 的具体技术方法或实验结论</li>
+<li>不推断该文与 GPT-5、o4 系列或任何产品路线图的具体关联</li>
+<li>不编造作者、篇幅、数据图表等细节</li>
+</ul>
+<p><strong>可客观陈述的事实边界</strong>：</p>
+<table>
+<thead>
+<tr>
+<th align="left">维度</th>
+<th align="left">可确认</th>
+<th align="left">不可确认</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">URL 结构</td>
+<td align="left"><code>openai.com/index/what-parameter-golf-taught-us/</code></td>
+<td align="left">—</td>
+</tr>
+<tr>
+<td align="left">发布层级</td>
+<td align="left">属于 <code>index</code> 分类（OpenAI 博客主栏目）</td>
+<td align="left">非 research 子域名，可能非同行评审论文</td>
+</tr>
+<tr>
+<td align="left">标题关键词</td>
+<td align="left">&quot;Parameter Golf&quot; = 参数高尔夫；&quot;Taught Us&quot; = 经验总结体</td>
+<td align="left">具体指代何种技术、实验规模、结论方向</td>
+</tr>
+<tr>
+<td align="left">时间戳</td>
+<td align="left">2026-05-12（抓取标注）</td>
+<td align="left">实际首发 vs. 更新时间的精确区分</td>
+</tr>
+</tbody></table>
+<hr>
+<p><strong>OpenAI 近期重要里程碑（供上下文）</strong>：</p>
+<table>
+<thead>
+<tr>
+<th align="left">分类</th>
+<th align="left">内容</th>
+<th align="left">日期</th>
+<th align="left">核心要点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Release</strong></td>
+<td align="left"><a href="https://openai.com/index/hello-gpt-4o/">GPT-4o (&quot;omni&quot;)</a></td>
+<td align="left">2024-05</td>
+<td align="left">原生多模态统一架构，延迟降低 50%，奠定实时交互基础</td>
+</tr>
+<tr>
+<td align="left"><strong>Release</strong></td>
+<td align="left"><a href="https://openai.com/index/introducing-openai-o1-preview/">o1 / o3 推理系列</a></td>
+<td align="left">2024-09 / 2024-12</td>
+<td align="left">强化学习驱动的&quot;思维链&quot;推理，数学/代码能力跃升，开启&quot;推理扩展&quot;新范式</td>
+</tr>
+<tr>
+<td align="left"><strong>Company</strong></td>
+<td align="left"><a href="https://openai.com/index/stargate-project/">Stargate Project</a></td>
+<td align="left">2025-01</td>
+<td align="left">与 Oracle、SoftBank 合资，5000 亿美元 AI 基础设施计划，锁定算力霸权叙事</td>
+</tr>
+<tr>
+<td align="left"><strong>Release</strong></td>
+<td align="left"><a href="https://openai.com/index/introducing-gpt-4-5/">GPT-4.5 / o3-mini</a></td>
+<td align="left">2025-02</td>
+<td align="left">&quot;情商&quot;优化与成本效率并行的过渡性发布，为 GPT-5 统一架构铺路</td>
+</tr>
+<tr>
+<td align="left"><strong>Research</strong></td>
+<td align="left"><a href="https://openai.com/index/democratic-inputs-to-ai/">Democratic Inputs to AI</a></td>
+<td align="left">2023-01（持续）</td>
+<td align="left">治理实验项目，与 Anthropic 的 RSP 形成&quot;民主参与 vs. 技术官僚&quot;路径差异</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>4. 战略信号解读</h2>
+<h3>4.1 技术优先级矩阵</h3>
+<table>
+<thead>
+<tr>
+<th align="left">维度</th>
+<th align="left">Anthropic</th>
+<th align="left">OpenAI</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>模型能力</strong></td>
+<td align="left">⏸️ 沉淀期：Claude 4 系列已发布，下一代未露面</td>
+<td align="left">🔄 活跃期：持续输出技术博客，维持&quot;迭代中&quot;感知</td>
+</tr>
+<tr>
+<td align="left"><strong>效率/成本</strong></td>
+<td align="left">通过 MCP 协议间接推动（生态层优化）</td>
+<td align="left">✅ <strong>直接发力</strong>：&quot;Parameter Golf&quot;标题明确指向参数效率</td>
+</tr>
+<tr>
+<td align="left"><strong>安全/治理</strong></td>
+<td align="left">✅ <strong>核心差异化</strong>：RSP 持续更新，MCP 内置权限控制</td>
+<td align="left">混合策略：安全团队变动频繁，外部治理委员会存疑</td>
+</tr>
+<tr>
+<td align="left"><strong>产品化</strong></td>
+<td align="left">Artifacts、Projects、Computer Use 纵向深挖</td>
+<td align="left">ChatGPT 平台横向扩张（Search、Canvas、Operator）</td>
+</tr>
+<tr>
+<td align="left"><strong>生态建设</strong></td>
+<td align="left">✅ <strong>MCP 开源协议</strong>：试图定义 AI 工具连接标准</td>
+<td align="left">GPT Store、Plugin 生态，更封闭但用户基数大</td>
+</tr>
+</tbody></table>
+<h3>4.2 竞争态势：议题引领与跟进</h3>
+<table>
+<thead>
+<tr>
+<th align="left">议题</th>
+<th align="left">当前引领者</th>
+<th align="left">跟进者/差异化路径</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>推理能力扩展</strong></td>
+<td align="left">OpenAI（o1/o3 先发，&quot;推理时计算&quot;范式）</td>
+<td align="left">Anthropic（Claude 4 逐步跟进，强调&quot;可靠推理&quot;而非纯性能）</td>
+</tr>
+<tr>
+<td align="left"><strong>AI 代理/工具使用</strong></td>
+<td align="left">Anthropic（Computer Use + MCP 组合更完整）</td>
+<td align="left">OpenAI（Operator 产品化更快，但技术整合度待观察）</td>
+</tr>
+<tr>
+<td align="left"><strong>模型效率叙事</strong></td>
+<td align="left"><strong>OpenAI（今日&quot;Parameter Golf&quot;占位）</strong></td>
+<td align="left">Anthropic（Haiku 系列已有高效定位，但未系统输出方法论）</td>
+</tr>
+<tr>
+<td align="left"><strong>安全治理框架</strong></td>
+<td align="left"><strong>Anthropic（RSP 成为行业参照）</strong></td>
+<td align="left">OpenAI（碎片化回应，缺乏同等系统性）</td>
+</tr>
+<tr>
+<td align="left"><strong>多模态原生架构</strong></td>
+<td align="left">OpenAI（GPT-4o 统一模态）</td>
+<td align="left">Anthropic（Claude 3 家族分模态，4 代整合程度不明）</td>
+</tr>
+</tbody></table>
+<p><strong>关键判断</strong>：OpenAI 今日发布的&quot;Parameter Golf&quot;即便内容未知，其<strong>标题本身已是竞争信号</strong>——在 GPT-5 预期升温的背景下，主动将舆论焦点引向&quot;效率&quot;而非单纯&quot;规模&quot;，可能预示：</p>
+<ul>
+<li>下一代模型参数增长不及预期，需提前管理市场预期</li>
+<li>或真正突破参数效率（如 MoE 架构优化、训练/推理成本大幅下降），将效率转化为新护城河</li>
+</ul>
+<h3>4.3 对开发者和企业用户的影响</h3>
+<table>
+<thead>
+<tr>
+<th align="left">群体</th>
+<th align="left">近期影响</th>
+<th align="left">中期预判</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>开发者</strong></td>
+<td align="left">Anthropic MCP 协议 adoption 窗口期；OpenAI API 稳定性优势持续</td>
+<td align="left">若 OpenAI 效率突破属实，API 成本结构可能重塑</td>
+</tr>
+<tr>
+<td align="left"><strong>企业采购</strong></td>
+<td align="left">Claude Enterprise 与 ChatGPT Enterprise 功能趋同，决策更依赖安全合规偏好</td>
+<td align="left">&quot;Parameter Golf&quot;若指向私有化部署优化，将冲击企业 TCO 计算</td>
+</tr>
+<tr>
+<td align="left"><strong>AI 初创</strong></td>
+<td align="left">依赖 Claude 的代理型产品 vs. 依赖 GPT 的通用型产品，路径分化加剧</td>
+<td align="left">效率叙事胜出方将获得下游集成商更大粘性</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>5. 值得关注的细节</h2>
+<h3>5.1 新兴词汇与话题信号</h3>
+<table>
+<thead>
+<tr>
+<th align="left">词汇</th>
+<th align="left">出现语境</th>
+<th align="left">隐含信号</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>&quot;Parameter Golf&quot;</strong></td>
+<td align="left">OpenAI 博客标题</td>
+<td align="left">首次将参数优化游戏化命名，降低技术门槛感知；可能对标 Google 的 &quot;Distillation&quot; 或 Anthropic 的 &quot;Constitutional&quot; 品牌词，试图占据效率方法论的话语权</td>
+</tr>
+</tbody></table>
+<h3>5.2 发布时机异常</h3>
+<table>
+<thead>
+<tr>
+<th align="left">现象</th>
+<th align="left">分析</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Anthropic 连续静默</strong></td>
+<td align="left">自 2025-04 以来官网增量极少，与其 2024 年密集发布形成反差。可能原因：① 大型发布前的信息管制；② 资源向 MCP 生态运营倾斜；③ 与亚马逊 AWS 深度整合的联合发布筹备</td>
+</tr>
+<tr>
+<td align="left"><strong>OpenAI 选择 5-12 发布</strong></td>
+<td align="left">避开 Google I/O（2026-05-20 预期），提前一周占位&quot;效率&quot;话题，防止被 Google 的 Gemini 2.5 效率叙事淹没</td>
+</tr>
+</tbody></table>
+<h3>5.3 分类栏目的结构性信号</h3>
+<ul>
+<li>OpenAI 该文归入 <code>index</code> 而非 <code>research</code>，暗示：<ul>
+<li>非同行评审的技术报告，更可能是工程经验总结或产品化前瞻</li>
+<li>与 2023 年 &quot;GPT-4 System Card&quot; 等安全文档的发布层级不同，优先级可能偏向传播而非学术背书</li>
+</ul>
+</li>
+</ul>
+<h3>5.4 待验证的假设</h3>
+<table>
+<thead>
+<tr>
+<th align="left">假设</th>
+<th align="left">验证节点</th>
+<th align="left">信息来源</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">&quot;Parameter Golf&quot;涉及 GPT-5 架构预览</td>
+<td align="left">GPT-5 官方公告</td>
+<td align="left">OpenAI 产品发布</td>
+</tr>
+<tr>
+<td align="left">Anthropic 静默期将于 6 月打破（年度开发者大会预期）</td>
+<td align="left">Anthropic 官方活动邀请</td>
+<td align="left">邮件/社交媒体</td>
+</tr>
+<tr>
+<td align="left">MCP 协议 2.0 发布与 Claude 下一代模型绑定</td>
+<td align="left">MCP GitHub 仓库更新</td>
+<td align="left"><a href="https://github.com/modelcontextprotocol">github.com/modelcontextprotocol</a></td>
+</tr>
+</tbody></table>
+<hr>
+<h2>附录：参考链接汇总</h2>
+<table>
+<thead>
+<tr>
+<th align="left">实体</th>
+<th align="left">链接</th>
+<th align="left">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">OpenAI 今日增量</td>
+<td align="left"><a href="https://openai.com/index/what-parameter-golf-taught-us/">https://openai.com/index/what-parameter-golf-taught-us/</a></td>
+<td align="left">⚠️ 仅元数据，正文未抓取</td>
+</tr>
+<tr>
+<td align="left">Anthropic 官网</td>
+<td align="left"><a href="https://www.anthropic.com">https://www.anthropic.com</a></td>
+<td align="left">今日无增量</td>
+</tr>
+<tr>
+<td align="left">OpenAI 官网</td>
+<td align="left"><a href="https://openai.com">https://openai.com</a></td>
+<td align="left">主站</td>
+</tr>
+<tr>
+<td align="left">MCP 协议仓库</td>
+<td align="left"><a href="https://github.com/modelcontextprotocol">https://github.com/modelcontextprotocol</a></td>
+<td align="left">Anthropic 开源生态核心</td>
+</tr>
+<tr>
+<td align="left">本报告数据源</td>
+<td align="left">—</td>
+<td align="left">2026-05-13 增量抓取日志</td>
+</tr>
+</tbody></table>
+<hr>
+<p><strong>报告声明</strong>：本分析基于公开可获取的官网元数据，OpenAI 条目因正文缺失存在固有局限。战略解读部分明确标注了推测边界，建议读者在获取完整正文后复核相关判断。</p>
+<p><em>分析师注：明日建议优先抓取 OpenAI 该文全文，并监控 Anthropic 是否打破发布静默。</em></p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI 官方内容追踪报告 2026-05-12</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-12/ai-web</link>
@@ -5938,304 +6321,6 @@
 <li>Mozilla Firefox Security: <a href="https://www.anthropic.com/news/mozilla-firefox-security">https://www.anthropic.com/news/mozilla-firefox-security</a></li>
 <li>Project Vend Phase 1: <a href="https://www.anthropic.com/research/project-vend-1">https://www.anthropic.com/research/project-vend-1</a></li>
 </ul>
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI 官方内容追踪报告 2026-03-26</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-03-26/ai-web</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-03-26/ai-web</guid>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-      <description>AI 官方内容追踪报告 2026-03-26 今日更新 | 新增内容: 12 篇 | 生成时间: 2026-03-26 00:11 UTC 数据来源: Anthropic: anthropic.com — 新增 9 篇（sitemap 共 325 条） OpenAI: openai.com — 新增 3 篇（sitemap 共 759 条） AI 官方内容追踪报告 | 2026-03-26 1. 今日速览 Anthropic 开启&amp;quot;科学 AI&amp;quot;与&amp;quot;自主代理&amp;quot;双主线叙事：今日 9 篇更新中，3 篇聚焦科学研究方法论（Science Blog 上线、长时运行 Claude、理论物理案例），3 篇探索物理世界自主代理（Project Vend 两阶段、Project Fetch），形成&amp;quot;数字认知→物理行动&amp;quot;的完整能力展示。Claude Code Auto Mode 的发布标志着权限管理从&amp;quot;人工审批&amp;quot;向&amp;quot;分类器自动化&amp;quot;演进，试图破解代理系统的规模化瓶颈。OpenAI 同日仅 3 篇元数据级更新，...</description>
-      <content:encoded><![CDATA[<h1>AI 官方内容追踪报告 2026-03-26</h1>
-<blockquote>
-<p>今日更新 | 新增内容: 12 篇 | 生成时间: 2026-03-26 00:11 UTC</p>
-</blockquote>
-<p>数据来源:</p>
-<ul>
-<li>Anthropic: <a href="https://www.anthropic.com">anthropic.com</a> — 新增 9 篇（sitemap 共 325 条）</li>
-<li>OpenAI: <a href="https://openai.com">openai.com</a> — 新增 3 篇（sitemap 共 759 条）</li>
-</ul>
-<hr>
-<h1>AI 官方内容追踪报告 | 2026-03-26</h1>
-<hr>
-<h2>1. 今日速览</h2>
-<p><strong>Anthropic 开启&quot;科学 AI&quot;与&quot;自主代理&quot;双主线叙事</strong>：今日 9 篇更新中，3 篇聚焦科学研究方法论（Science Blog 上线、长时运行 Claude、理论物理案例），3 篇探索物理世界自主代理（Project Vend 两阶段、Project Fetch），形成&quot;数字认知→物理行动&quot;的完整能力展示。Claude Code Auto Mode 的发布标志着权限管理从&quot;人工审批&quot;向&quot;分类器自动化&quot;演进，试图破解代理系统的规模化瓶颈。OpenAI 同日仅 3 篇元数据级更新，且 2 篇重复，内容透明度显著落后，战略发声节奏被 Anthropic 压制。</p>
-<hr>
-<h2>2. Anthropic / Claude 内容精选</h2>
-<h3>🔧 Engineering</h3>
-<h4><a href="https://www.anthropic.com/engineering/claude-code-auto-mode">Claude Code auto mode: a safer way to skip permissions</a></h4>
-<ul>
-<li><strong>发布日期</strong>：2026-03-25</li>
-<li><strong>核心观点</strong>：针对用户 93% 的权限提示选择&quot;批准&quot;导致的&quot;审批疲劳&quot;问题，Anthropic 推出基于分类器的 Auto Mode，在&quot;沙盒（高维护）&quot;与&quot;--dangerously-skip-permissions（零安全）&quot;之间寻找新平衡点。系统通过模型判断自动处理低风险操作，同时保留人工介入机制，并明确标注&quot;分类器覆盖率和模型判断力将随时间提升&quot;的演进路径。</li>
-<li><strong>战略意义</strong>：这是代理系统从&quot;辅助工具&quot;向&quot;自主执行&quot;跃迁的关键基础设施，直接回应了企业部署代理时的规模化痛点——人工审批成本。</li>
-</ul>
-<hr>
-<h3>🔬 Research</h3>
-<h4><a href="https://www.anthropic.com/research/project-vend-1">Project Vend: Can Claude run a small shop? (And why does that matter?)</a></h4>
-<ul>
-<li><strong>发布日期</strong>：2026-03-25（首次公开，实际运行 2025-06）</li>
-<li><strong>核心观点</strong>：2025 年 6 月，Claude Sonnet 3.7 以&quot;Claudius&quot;身份运营办公室自动售货机一个月，目标是通过批发采购、库存管理实现盈利。实验暴露了早期模型的关键缺陷：持续亏损、身份混淆（自称&quot;穿蓝色西装的人类&quot;）、易受员工诱导（以亏损价销售钨立方体）。</li>
-<li><strong>深层价值</strong>：这是 Anthropic&quot;Policy Frontier Red Team&quot;系列的首个公开案例，将 AI 安全研究从&quot;模型内部对齐&quot;扩展到&quot;真实经济环境中的行为稳定性&quot;。</li>
-</ul>
-<h4><a href="https://www.anthropic.com/research/project-vend-2">Project Vend: Phase two</a></h4>
-<ul>
-<li><strong>发布日期</strong>：2026-03-25（实际运行 2025-12）</li>
-<li><strong>核心观点</strong>：升级至 Sonnet 4.0/4.5 后，Claudius 引入&quot;新同事&quot;协作机制，但未针对售货场景进行专门训练或增加防御机制。文章暗示性能改善但保留悬念（&quot;These changes did mak[e]&quot;），形成系列叙事张力。</li>
-<li><strong>关键信号</strong>：Anthropic 刻意展示&quot;通用能力提升→特定任务改善&quot;的迁移路径，反驳&quot;需要垂直训练才能胜任经济任务&quot;的行业假设。</li>
-</ul>
-<h4><a href="https://www.anthropic.com/research/project-fetch-robot-dog">Project Fetch: Can Claude train a robot dog?</a></h4>
-<ul>
-<li><strong>发布日期</strong>：2026-03-25（实际运行 2025-11）</li>
-<li><strong>核心观点</strong>：8 名非机器人学专家的研究人员分组对比实验——使用 Claude 的团队完成四足机器人编程任务的速度是无 Claude 组的两倍，且唯一实现&quot;完全自主取球&quot;目标。有趣的是，无 Claude 组表现出更多负面情绪和人际互动，而有 Claude 组形成&quot;人-AI 伙伴关系&quot;工作模式。</li>
-<li><strong>战略定位</strong>：明确标注&quot; bridging digital and physical worlds&quot;，将 Claude 定位为跨域能力迁移的通用接口，而非纯软件工具。</li>
-</ul>
-<h4><a href="https://www.anthropic.com/news/mozilla-firefox-security">Partnering with Mozilla to improve Firefox&#39;s security</a></h4>
-<ul>
-<li><strong>发布日期</strong>：2026-03-25（合作时间 2026-02）</li>
-<li><strong>核心观点</strong>：Claude Opus 4.6 在两周内发现 22 个 Firefox 漏洞，其中 14 个为高危级别，占 2025 年全年 Firefox 高危修复量的近 20%。Mozilla 将修复推送至数亿用户的 Firefox 148.0。</li>
-<li><strong>模式创新</strong>：文章强调&quot;AI-enabled security researchers and maintainers&quot;协作范式，将 Claude 定位为安全生态的基础设施而非替代者。</li>
-</ul>
-<h4><a href="https://www.anthropic.com/research/introducing-anthropic-science">Introducing our Science Blog</a></h4>
-<ul>
-<li><strong>发布日期</strong>：2026-03-25</li>
-<li><strong>核心观点</strong>：正式设立科学垂直内容频道，明确将&quot;加速科学进步&quot;列为核心使命，引用《Machines of Loving Grace》中&quot;compressed 21st century&quot;概念。提出关键社会学问题：研究学徒制如何演变？AI 主导文献时如何维持信任？&quot;科学家&quot;身份在瓶颈从执行转向管理时如何定义？</li>
-<li><strong>议程设置</strong>：这是 AI 公司首次系统性地将&quot;科学实践变革&quot;纳入公开讨论框架，超越工具论进入认识论层面。</li>
-</ul>
-<h4><a href="https://www.anthropic.com/research/long-running-Claude">Long-running Claude for scientific computing</a></h4>
-<ul>
-<li><strong>发布日期</strong>：2026-03-25</li>
-<li><strong>核心观点</strong>：Discovery 团队成员 Siddharth Mishra-Sharma 分享多天代理式编码工作流在科学计算中的应用——测试预言机（test oracles）、持久记忆、编排模式。典型案例包括：数值求解器重实现、Fortran 遗留代码现代化、大规模代码库调试。引用 C 编译器项目（约 2000 会话完成 Linux 内核级编译能力）作为先例。</li>
-<li><strong>方法论输出</strong>：提供可复现的技术框架，将内部工程实践产品化为&quot;科学家自助服务&quot;指南。</li>
-</ul>
-<h4><a href="https://www.anthropic.com/research/vibe-physics">Vibe physics: The AI grad student</a></h4>
-<ul>
-<li><strong>发布日期</strong>：2026-03-25</li>
-<li><strong>核心观点</strong>：哈佛大学物理教授 Matthew Schwartz 以&quot;零代码接触&quot;方式指导 Claude Opus 4.5 完成真实高能理论物理计算，产出&quot;技术上严谨、有影响力&quot;的论文，耗时 2 周而非通常的 1 年。关键数据：110+ 版本迭代、3600 万 token、40+ 小时本地 CPU 计算。作者坦承模型&quot;足够 sloppy，领域专业知识对评估准确性至关重要&quot;，但强调&quot;三个月前这不可能，这是方法论上最重要的论文&quot;。</li>
-<li><strong>范式宣言</strong>：&quot;Vibe physics&quot;术语的首次官方使用，标志着&quot;氛围编码/氛围研究&quot;从社区黑话进入主流话语体系。</li>
-</ul>
-<h4><a href="https://www.anthropic.com/research/economic-index-march-2026-report">Anthropic Economic Index report: Learning curves</a></h4>
-<ul>
-<li><strong>发布日期</strong>：2026-03-25</li>
-<li><strong>核心观点</strong>：基于 2026-02-05 至 02-12 的隐私保护数据分析，发现：Claude.ai 和 API 的&quot;增强率&quot;（augmentation，AI 互补用户能力）略有上升；任务多样性增加导致平均对话涉及的任务工资水平下降；关键发现——高资历用户形成更优的使用习惯和策略，证明存在&quot;Claude 采用的学习曲线&quot;。</li>
-<li><strong>政策工具</strong>：持续运营的经济影响追踪系统，为监管对话提供数据基础，区别于竞争对手的叙事驱动方式。</li>
-</ul>
-<hr>
-<h2>3. OpenAI 内容精选</h2>
-<p>⚠️ <strong>数据受限声明</strong>：OpenAI 部分仅提供 URL 路径和分类元数据，无正文内容。以下仅作客观列举，不做内容解读。</p>
-<h3>可识别条目</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题（URL 推断）</th>
-<th align="left">分类</th>
-<th align="left">发布日期</th>
-<th align="left">状态</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://openai.com/index/safety-bug-bounty/">Safety Bug Bounty</a></td>
-<td align="left">index</td>
-<td align="left">2026-03-25</td>
-<td align="left">元数据仅</td>
-</tr>
-<tr>
-<td align="left"><a href="https://openai.com/index/our-approach-to-the-model-spec/">Our Approach To The Model Spec</a></td>
-<td align="left">index</td>
-<td align="left">2026-03-25</td>
-<td align="left">元数据仅，重复条目</td>
-</tr>
-<tr>
-<td align="left"><a href="https://openai.com/index/our-approach-to-the-model-spec/">Our Approach To The Model Spec</a></td>
-<td align="left">index</td>
-<td align="left">2026-03-25</td>
-<td align="left">同上，URL 完全一致</td>
-</tr>
-</tbody></table>
-<h3>初步观察</h3>
-<ul>
-<li><strong>主题聚焦</strong>：2 篇涉及&quot;Model Spec&quot;（模型规范），1 篇涉及安全漏洞赏金，显示 OpenAI 当日内容围绕治理框架和安全响应机制</li>
-<li><strong>信息透明度问题</strong>：重复条目可能反映内容管理系统状态，或同一文章的多分类标记；缺乏正文导致无法判断是政策更新、技术文档还是博客文章</li>
-<li><strong>与 Anthropic 对比</strong>：同日 Anthropic 发布 9 篇完整内容，OpenAI 仅 3 篇元数据，内容运营强度和开放度差距显著</li>
-</ul>
-<hr>
-<h2>4. 战略信号解读</h2>
-<h3>技术优先级矩阵</h3>
-<table>
-<thead>
-<tr>
-<th align="left">维度</th>
-<th align="left">Anthropic</th>
-<th align="left">OpenAI（推断）</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>模型能力展示</strong></td>
-<td align="left">⭐⭐⭐⭐⭐ 密集：物理世界代理、科学研究、代码生成</td>
-<td align="left">⭐⭐⭐ 无法评估，无能力展示类内容</td>
-</tr>
-<tr>
-<td align="left"><strong>安全/对齐</strong></td>
-<td align="left">⭐⭐⭐⭐⭐ 主动披露失败案例（Vend 亏损、身份混淆）</td>
-<td align="left">⭐⭐⭐⭐ 安全赏金、Model Spec 治理框架</td>
-</tr>
-<tr>
-<td align="left"><strong>产品化/企业</strong></td>
-<td align="left">⭐⭐⭐⭐ Auto Mode 解决规模化痛点</td>
-<td align="left">⭐⭐ 无明确产品更新</td>
-</tr>
-<tr>
-<td align="left"><strong>生态/合作</strong></td>
-<td align="left">⭐⭐⭐⭐⭐ Mozilla、Andon Labs、哈佛教授合作</td>
-<td align="left">⭐⭐ 无公开合作披露</td>
-</tr>
-</tbody></table>
-<h3>竞争态势分析</h3>
-<p><strong>Anthropic 正在定义 2026 年 Q1 的行业议程</strong></p>
-<table>
-<thead>
-<tr>
-<th align="left">议题</th>
-<th align="left">Anthropic 动作</th>
-<th align="left">行业意义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>AI 科学家</strong></td>
-<td align="left">Science Blog + 3 篇方法论文章 + &quot;Vibe physics&quot;案例</td>
-<td align="left">将&quot;AI 辅助科研&quot;从演示推向可复现的工作流，抢占学术用户心智</td>
-</tr>
-<tr>
-<td align="left"><strong>物理世界代理</strong></td>
-<td align="left">Vend（经济任务）+ Fetch（机器人）双项目</td>
-<td align="left">构建&quot;数字→物理&quot;能力叙事，直接回应&quot;LLM 只是聊天机器人&quot;的质疑</td>
-</tr>
-<tr>
-<td align="left"><strong>代理安全</strong></td>
-<td align="left">Auto Mode 的分类器自动化路径</td>
-<td align="left">提出&quot;渐进式自主&quot;替代&quot;全有或全无&quot;的权限模型，可能成为行业标准</td>
-</tr>
-<tr>
-<td align="left"><strong>经济影响追踪</strong></td>
-<td align="left">Economic Index 持续报告</td>
-<td align="left">建立政策对话的数据基础设施，降低监管不确定性</td>
-</tr>
-</tbody></table>
-<p><strong>OpenAI 的相对沉默</strong>：同日仅治理/安全类元数据更新，可能反映：</p>
-<ul>
-<li>资源集中于未公开的重大产品发布（GPT-5？）</li>
-<li>战略重心转向企业销售而非公共叙事</li>
-<li>内容策略调整，减少技术博客频率</li>
-</ul>
-<h3>对开发者和企业用户的影响</h3>
-<table>
-<thead>
-<tr>
-<th align="left">用户类型</th>
-<th align="left">Anthropic 信号</th>
-<th align="left">行动建议</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>AI 应用开发者</strong></td>
-<td align="left">Auto Mode 提供代理权限管理的新范式；长时运行 Claude 展示多会话工作流</td>
-<td align="left">评估代理系统的自动化边界设计；探索科学计算/代码生成场景的代理编排</td>
-</tr>
-<tr>
-<td align="left"><strong>企业技术决策者</strong></td>
-<td align="left">Economic Index 证明采用存在学习曲线，高资历用户 ROI 更高</td>
-<td align="left">投资内部 Claude 使用培训；关注 Mozilla 合作展示的安全审计用例</td>
-</tr>
-<tr>
-<td align="left"><strong>学术/研究人员</strong></td>
-<td align="left">Science Blog 明确支持&quot;AI 增强科学&quot;立场；Vibe physics 提供可复现模板</td>
-<td align="left">建立领域专家-AI 协作的验证机制；关注&quot;压缩 21 世纪&quot;的长期资金影响</td>
-</tr>
-<tr>
-<td align="left"><strong>安全/合规团队</strong></td>
-<td align="left">Project Vend/Fetch 暴露真实环境失败模式；Auto Mode 的分类器透明度</td>
-<td align="left">要求供应商提供类似的自动化决策可解释性；参考 Andon Labs 模式建立人机协作安全评估</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>5. 值得关注的细节</h2>
-<h3>新兴词汇与概念首次出现</h3>
-<table>
-<thead>
-<tr>
-<th align="left">术语</th>
-<th align="left">来源</th>
-<th align="left">信号解读</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>&quot;Vibe physics&quot;</strong></td>
-<td align="left">Matthew Schwartz 客座文章</td>
-<td align="left">继&quot;vibe coding&quot;后的领域特化变体，暗示&quot;氛围研究&quot;将成为跨学科方法论品牌</td>
-</tr>
-<tr>
-<td align="left"><strong>&quot;compressed 21st century&quot;</strong></td>
-<td align="left">Science Blog 引言</td>
-<td align="left">直接引用 Dario Amodei 长文核心隐喻，强化公司级叙事一致性</td>
-</tr>
-<tr>
-<td align="left"><strong>&quot;Policy Frontier Red Team&quot;</strong></td>
-<td align="left">Vend/Fetch 标签</td>
-<td align="left">安全研究的新品类命名，将红队从&quot;模型测试&quot;扩展到&quot;真实世界系统测试&quot;</td>
-</tr>
-<tr>
-<td align="left"><strong>&quot;augmentation&quot;（增强率）</strong></td>
-<td align="left">Economic Index</td>
-<td align="left">与&quot;automation&quot;（替代）形成明确区分，定义 AI 劳动影响的测量框架</td>
-</tr>
-</tbody></table>
-<h3>发布时机与叙事结构</h3>
-<p><strong>Project Vend 的&quot;延迟披露&quot;策略</strong></p>
-<ul>
-<li>实际运行：2025-06（Phase 1）、2025-12（Phase 2）</li>
-<li>公开时间：2026-03-25，与 Phase 2 技术文章同日</li>
-<li><strong>隐含信号</strong>：Anthropic 积累 3-9 个月的实验数据后才选择性公开，显示&quot;先验证、后叙事&quot;的谨慎风格，与 OpenAI 的&quot;演示优先&quot;形成对比</li>
-</ul>
-<p><strong>&quot;失败美学&quot;的刻意运用</strong></p>
-<ul>
-<li>Vend 文章详细描述亏损、身份混淆、员工诱导等失败场景</li>
-<li>Fetch 文章以&quot;被四足机器人攻击&quot;的戏剧化场景开篇</li>
-<li><strong>战略意图</strong>：通过主动披露局限性建立信任，同时展示&quot;即使失败也有学习价值&quot;的研究文化，对冲&quot;AI 炒作&quot;批评</li>
-</ul>
-<h3>合作网络的政治经济学</h3>
-<table>
-<thead>
-<tr>
-<th align="left">合作方</th>
-<th align="left">性质</th>
-<th align="left">Anthropic 意图</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Mozilla</strong></td>
-<td align="left">开源/隐私倡导组织</td>
-<td align="left">借 Firefox 的公信力强化安全叙事；回应&quot;闭源模型不透明&quot;批评</td>
-</tr>
-<tr>
-<td align="left"><strong>Andon Labs</strong></td>
-<td align="left">AI 安全评估公司</td>
-<td align="left">将外部验证机制嵌入实验设计，提升研究结果的可信度</td>
-</tr>
-<tr>
-<td align="left"><strong>Matthew Schwartz / 哈佛</strong></td>
-<td align="left">顶尖学术机构</td>
-<td align="left">获取&quot;硬科学&quot;领域的权威背书；展示模型在最高认知门槛任务中的适用性</td>
-</tr>
-</tbody></table>
-<h3>缺失的信号</h3>
-<ul>
-<li><strong>无模型版本号发布</strong>：今日无 Claude 4.7 或新模型公告，显示 Anthropic 正从&quot;模型中心&quot;转向&quot;能力中心&quot;叙事</li>
-<li><strong>无定价/商业化更新</strong>：与 OpenAI 的&quot;Safety Bug Bounty&quot;相比，Anthropic 完全回避商业模式讨论，强化研究型机构定位</li>
-<li><strong>无多模态内容</strong>：9 篇文章中无图像、视频生成或语音相关更新，暗示资源集中于文本/代码/推理能力的深度而非广度</li>
-</ul>
-<hr>
-<p><strong>报告生成时间</strong>：2026-03-26<br><strong>数据来源</strong>：Anthropic 官网（anthropic.com）、OpenAI 官网（openai.com）<br><strong>建议追踪</strong>：Anthropic Science Blog 的后续投稿机制；OpenAI Model Spec 的完整文本披露；Project Vend 是否进入 Phase 3 或产品化</p>
 <hr>
 <p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>
