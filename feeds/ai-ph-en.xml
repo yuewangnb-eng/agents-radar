@@ -6,7 +6,129 @@
     <description>Product Hunt AI Products Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-ph-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 13 May 2026 04:37:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 04:35:23 +0000</lastBuildDate>
+    <item>
+      <title>Product Hunt AI Products Digest 2026-05-14</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-14/ai-ph-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-14/ai-ph-en</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <description>Product Hunt AI Products Digest 2026-05-14 Source: Product Hunt | 12 products | Generated: 2026-05-14 00:25 UTC Product Hunt AI Products Digest — May 14, 2026 1. Today&amp;#39;s Highlights Today&amp;#39;s Product Hunt launches reveal a clear maturation of the AI infrastructure stack, with payments and billing for AI-native companies emerging as a critical pain point—Kelviq leads with 489 votes, suggesting strong demand for financial operations tooling as AI businesses scale. Developer-centric agents and...</description>
+      <content:encoded><![CDATA[<h1>Product Hunt AI Products Digest 2026-05-14</h1>
+<blockquote>
+<p>Source: <a href="https://www.producthunt.com/">Product Hunt</a> | 12 products | Generated: 2026-05-14 00:25 UTC</p>
+</blockquote>
+<hr>
+<h1>Product Hunt AI Products Digest — May 14, 2026</h1>
+<h2>1. Today&#39;s Highlights</h2>
+<p>Today&#39;s Product Hunt launches reveal a clear maturation of the AI infrastructure stack, with <strong>payments and billing for AI-native companies</strong> emerging as a critical pain point—Kelviq leads with 489 votes, suggesting strong demand for financial operations tooling as AI businesses scale. <strong>Developer-centric agents and coding environments</strong> dominate the mid-tier, from Vexilo&#39;s elaborate Claude Code planner to Hopper&#39;s surprising focus on modernizing COBOL/mainframe development with agentic AI. Notably, <strong>open-source momentum remains robust</strong>: three of the top twelve launches are explicitly open-source (Hyperswitch Prism, Free AI SEO Auditor, MiniCPM-V 4.6), indicating continued community-driven innovation alongside commercial products. The emergence of ambient, always-on agent interfaces like Whirr signals experimentation beyond chat-based interaction models.</p>
+<hr>
+<h2>2. Top Products by Category</h2>
+<h3>🤖 AI Agents &amp; Assistants</h3>
+<p><strong><a href="https://www.producthunt.com/products/whirr-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Whirr</a></strong> — Ambient agent activity in your notch</p>
+<ul>
+<li><a href="https://www.producthunt.com/r/DSKBMPE4FTZ2HO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>88 votes</strong> | <strong>3 comments</strong></li>
+<li>Reimagines agent interaction as ambient, peripheral awareness rather than demanding chat interfaces—agents work visibly but unobtrusively in the Mac notch.</li>
+</ul>
+<p><strong><a href="https://www.producthunt.com/products/vexilo-a-field-guide-to-claude-code?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Vexilo</a></strong> — Claude Code planner w/ 31 agents, 92 commands, + 121 skills</p>
+<ul>
+<li><a href="https://www.producthunt.com/r/GC45JEMSS53VS7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>85 votes</strong> | <strong>2 comments</strong></li>
+<li>The most elaborate structured approach to Claude Code orchestration yet, treating agent coordination as a programmable system rather than ad-hoc prompting.</li>
+</ul>
+<hr>
+<h3>🛠️ Developer Tools</h3>
+<p><strong><a href="https://www.producthunt.com/products/kelviq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Kelviq</a></strong> — Payments, tax, and billing for SaaS &amp; AI companies</p>
+<ul>
+<li><a href="https://www.producthunt.com/r/F6U3WKKQYBLXSI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>489 votes</strong> | <strong>90 comments</strong></li>
+<li>Solves the uniquely complex monetization infrastructure for AI companies dealing with usage-based billing, token economics, and global tax compliance.</li>
+</ul>
+<p><strong><a href="https://www.producthunt.com/products/hopper-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Hopper</a></strong> — First agentic development environment for mainframe/COBOL</p>
+<ul>
+<li><a href="https://www.producthunt.com/r/DIQWATFSGWJZWB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>93 votes</strong> | <strong>10 comments</strong></li>
+<li>Boldly targets legacy modernization with agentic AI—addressing the massive, underserved COBOL maintenance market where expertise is literally dying out.</li>
+</ul>
+<p><strong><a href="https://www.producthunt.com/products/hyperswitch-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Hyperswitch Prism</a></strong> — Library to plug-n-switch payment processors</p>
+<ul>
+<li><a href="https://www.producthunt.com/r/2U7NQ3R7UBKMGD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>231 votes</strong> | <strong>18 comments</strong></li>
+<li>Open-source payment processor abstraction prevents vendor lock-in and simplifies multi-provider strategies for global payment optimization.</li>
+</ul>
+<hr>
+<h3>📊 AI Applications</h3>
+<p><strong><a href="https://www.producthunt.com/products/jotform?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Jotform Claude App</a></strong> — Build, edit, and analyze forms directly in Claude</p>
+<ul>
+<li><a href="https://www.producthunt.com/r/DJ3HA5PIVDFYRP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>242 votes</strong> | <strong>11 comments</strong></li>
+<li>Deep Claude integration transforms form-building from a separate tool into a conversational, AI-native workflow within the chat interface users already inhabit.</li>
+</ul>
+<p><strong><a href="https://www.producthunt.com/products/display-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">display.dev</a></strong> — Publish agent-generated HTML behind company auth</p>
+<ul>
+<li><a href="https://www.producthunt.com/r/BBOJCGGDUUYHRO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>175 votes</strong> | <strong>20 comments</strong></li>
+<li>Bridges the critical gap between AI-generated prototypes and production-ready, secure internal tools—enterprise auth without engineering overhead.</li>
+</ul>
+<p><strong><a href="https://www.producthunt.com/products/free-ai-seo-auditor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Free AI SEO Auditor</a></strong> — Audit your site for the AI search era. 100% Open Source</p>
+<ul>
+<li><a href="https://www.producthunt.com/r/33PH5UXSNNRJ7G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>158 votes</strong> | <strong>23 comments</strong></li>
+<li>Open-source tool specifically optimized for AI search engines (ChatGPT, Perplexity, etc.) rather than legacy Google-centric SEO.</li>
+</ul>
+<hr>
+<h3>🎨 Creative &amp; Content</h3>
+<p><strong><a href="https://www.producthunt.com/products/heynews?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">HeyNews</a></strong> — Your newsletter, your voice, ready to publish in 5 minutes</p>
+<ul>
+<li><a href="https://www.producthunt.com/r/YPKKHONMNXULCE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>130 votes</strong> | <strong>24 comments</strong></li>
+<li>Prioritizes voice authenticity over generic AI output—cloning the creator&#39;s actual voice and style rather than producing homogenized content.</li>
+</ul>
+<p><strong><a href="https://www.producthunt.com/products/knooth?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">knooth</a></strong> — Screen recording with AI-powered editing for Mac</p>
+<ul>
+<li><a href="https://www.producthunt.com/r/K5JADMCX7VIB5I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>97 votes</strong> | <strong>3 comments</strong></li>
+<li>Eliminates post-production friction by making AI editing a real-time, during-recording process rather than a separate, tedious step.</li>
+</ul>
+<hr>
+<h3>🔧 Infrastructure &amp; Models</h3>
+<p><strong><a href="https://www.producthunt.com/products/minicpm-4-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">MiniCPM-V 4.6</a></strong> — Ultra-efficient 1.3B vision-language model for mobile</p>
+<ul>
+<li><a href="https://www.producthunt.com/r/5BVGOYMSA4SYFW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
+<li><strong>100 votes</strong> | <strong>2 comments</strong></li>
+<li>Pushes the efficiency frontier: multimodal capabilities previously requiring 10B+ parameters now runnable on-device at 1.3B, enabling truly private mobile vision apps.</li>
+</ul>
+<hr>
+<h2>3. Market Signal</h2>
+<p><strong>Developer tools and infrastructure command the leaderboard</strong>, with five of the top six products serving builders rather than end-users—suggesting the AI market remains in an infrastructure-buildout phase where tooling for creators outpaces consumer-ready applications. <strong>Payments and billing</strong> (Kelviq, Hyperswitch Prism) represent an emerging subcategory as AI companies grapple with usage-based pricing complexity that traditional SaaS billing cannot handle.</p>
+<p><strong>Novel use cases are scarce but pointed</strong>: Hopper&#39;s COBOL modernization and Whirr&#39;s ambient notch interface represent genuine category expansion rather than incremental improvement. Most products, however, optimize existing workflows (form building, screen recording, SEO auditing) rather than inventing new ones.</p>
+<p><strong>Open-source maintains strong presence</strong> at 25% of launches, concentrated in infrastructure (payment routing, model weights, SEO tools). This suggests open-source remains strategically vital for developer trust and ecosystem adoption, even as commercial AI products mature. Closed-source dominates application-layer launches where user experience and integration depth differentiate.</p>
+<hr>
+<h2>4. Worth Trying</h2>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Why Developers Should Try</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://www.producthunt.com/products/hyperswitch-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Hyperswitch Prism</a></strong> (<a href="https://www.producthunt.com/r/2U7NQ3R7UBKMGD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a>)</td>
+<td>Payment orchestration is painful, error-prone, and vendor-locking—this open-source library abstracts 100+ processors with a unified API, making A/B testing payment flows and geographic expansion trivial.</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.producthunt.com/products/display-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">display.dev</a></strong> (<a href="https://www.producthunt.com/r/BBOJCGGDUUYHRO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a>)</td>
+<td>Solves the &quot;it works on my machine&quot; problem for AI-generated internal tools—deploy agent-built HTML behind existing SSO without building auth infrastructure.</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.producthunt.com/products/vexilo-a-field-guide-to-claude-code?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Vexilo</a></strong> (<a href="https://www.producthunt.com/r/GC45JEMSS53VS7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a>)</td>
+<td>If you&#39;re using Claude Code daily, this structured agent framework with 31 specialized agents and 121 skills likely outperforms ad-hoc prompting—worth benchmarking against your current workflow.</td>
+</tr>
+</tbody></table>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Product Hunt AI Products Digest 2026-05-13</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-13/ai-ph-en</link>
@@ -3845,107 +3967,6 @@ Website: <a href="https://www.producthunt.com/r/FJM4K3NC2D6N6V?utm_campaign=prod
 <tr>
 <td><strong>Skills Janitor</strong></td>
 <td>A lightweight, open-source utility for Claude Code power users—easy to adopt, solves a real friction point, and signals where agent UX is heading.</td>
-</tr>
-</tbody></table>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Product Hunt AI Products Digest 2026-04-14</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-14/ai-ph-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-14/ai-ph-en</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Product Hunt AI Products Digest 2026-04-14 Source: Product Hunt | 14 products | Generated: 2026-04-14 00:16 UTC Product Hunt AI Products Digest — April 14, 2026 1. Today&amp;#39;s Highlights Today&amp;#39;s Product Hunt AI launches are dominated by practical, domain-specific tools rather than general-purpose chatbots. Google stole the spotlight with Interactive Simulations in Gemini (385 votes), turning AI responses into playable learning experiences. Developer tooling remains the busiest category, with...</description>
-      <content:encoded><![CDATA[<h1>Product Hunt AI Products Digest 2026-04-14</h1>
-<blockquote>
-<p>Source: <a href="https://www.producthunt.com/">Product Hunt</a> | 14 products | Generated: 2026-04-14 00:16 UTC</p>
-</blockquote>
-<hr>
-<h1>Product Hunt AI Products Digest — April 14, 2026</h1>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>Today&#39;s Product Hunt AI launches are dominated by <strong>practical, domain-specific tools</strong> rather than general-purpose chatbots. Google stole the spotlight with <strong>Interactive Simulations in Gemini</strong> (385 votes), turning AI responses into playable learning experiences. Developer tooling remains the busiest category, with standout launches like <strong>Ray</strong> (282 votes), an open-source terminal CFO, and <strong>Edgee Codex Compressor</strong> (160 votes), which promises 35.6% cost reduction on OpenAI&#39;s Codex. We&#39;re also seeing AI push deeper into creative monetization with <strong>Eleven Labs&#39; Music Marketplace</strong>, letting creators earn from published tracks. The overall trend points to AI being packaged as <strong>embedded, workflow-native utilities</strong> rather than standalone platforms.</p>
-<hr>
-<h2>2. Top Products</h2>
-<h3>🤖 AI Agents &amp; Assistants</h3>
-<ul>
-<li><strong><a href="https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Interactive Simulations in Gemini</a></strong> — <em>Gemini now lets you play with the concepts you ask about</em> (<a href="https://www.producthunt.com/r/XS63JGHVTSXRSG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a>)<ul>
-<li>Votes: 385 | Comments: 6</li>
-<li>Transforms static AI explanations into interactive, hands-on simulations for deeper learning.</li>
-</ul>
-</li>
-</ul>
-<h3>🛠️ Developer Tools</h3>
-<ul>
-<li><p><strong><a href="https://www.producthunt.com/products/ray-7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Ray</a></strong> — <em>Your personal CFO in the terminal</em> (<a href="https://www.producthunt.com/r/G3BLEM7JJPJ46U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a>)</p>
-<ul>
-<li>Votes: 282 | Comments: 37</li>
-<li>Open-source CLI tool that brings AI-powered personal finance management directly into developers&#39; terminal workflows.</li>
-</ul>
-</li>
-<li><p><strong><a href="https://www.producthunt.com/products/edgee?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Edgee Codex Compressor</a></strong> — <em>Use Codex at 35.6% lower costs</em> (<a href="https://www.producthunt.com/r/Z556YL2S7RXN7P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a>)</p>
-<ul>
-<li>Votes: 160 | Comments: 14</li>
-<li>Cuts OpenAI Codex inference costs by over a third through smart compression, making agentic coding more economically viable.</li>
-</ul>
-</li>
-</ul>
-<h3>📊 AI Applications</h3>
-<ul>
-<li><strong><a href="https://www.producthunt.com/products/r0y-ai-financial-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">R0Y</a></strong> — <em>Natural language to Investing dashboards in seconds.</em> (<a href="https://www.producthunt.com/r/DSEDKDA63PJNEZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a>)<ul>
-<li>Votes: 199 | Comments: 9</li>
-<li>Democratizes financial data analysis by letting non-technical investors build dashboards through plain English.</li>
-</ul>
-</li>
-</ul>
-<h3>🎨 Creative &amp; Content</h3>
-<ul>
-<li><p><strong><a href="https://www.producthunt.com/products/music-marketplace-by-eleven-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Music Marketplace by Eleven Labs</a></strong> — <em>Create a track. Publish it. Earn when it is used.</em> (<a href="https://www.producthunt.com/r/FG6HGARL7HKFLR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a>)</p>
-<ul>
-<li>Votes: 257 | Comments: 6</li>
-<li>Combines AI music generation with a built-in marketplace, giving creators a direct path from production to monetization.</li>
-</ul>
-</li>
-<li><p><strong><a href="https://www.producthunt.com/products/layered-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Layered</a></strong> — <em>Turn your selfies into a personal AI stylist</em> (<a href="https://www.producthunt.com/r/JEPNNIS2C3DUQE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a>)</p>
-<ul>
-<li>Votes: 134 | Comments: 12</li>
-<li>Delivers hyper-personalized fashion advice by training on users&#39; own photos rather than generic style rules.</li>
-</ul>
-</li>
-</ul>
-<h3>🔧 Infrastructure &amp; Models</h3>
-<ul>
-<li><strong><a href="https://www.producthunt.com/products/nicely-done?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Nicelydone MCP</a></strong> — <em>Design context for AI agents</em> (<a href="https://www.producthunt.com/r/UYVNHPGPMLBRIH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a>)<ul>
-<li>Votes: 132 | Comments: 4</li>
-<li>Feeds structured design system context into AI agents via MCP, improving output quality for UI/UX generation tasks.</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2>3. Market Signal</h2>
-<p><strong>Developer tools are the most crowded category today</strong>, capturing nearly half of all launches and the highest engagement. This reflects continued demand for AI infrastructure that improves efficiency, reduces costs, and embeds into existing workflows. Notably, <strong>two of the top three products are open source</strong> (Ray, with 282 votes, and LLM-Citeops), suggesting that open-source AI tools still command strong community enthusiasm on Product Hunt—especially when they solve narrow, painful problems.</p>
-<p>Innovation is showing up in <strong>format and interface</strong>, not just model capability. Gemini&#39;s interactive simulations represent a shift from text-to-text toward <strong>multimodal, experiential AI</strong>. Similarly, R0Y and Ray both target non-technical or technical users respectively through <strong>familiar interfaces</strong> (dashboards, terminal) rather than forcing adoption of new AI-native environments. The closed-source vs. open-source split is fairly balanced, but open-source projects are punching above their weight in vote velocity, indicating that transparency and hackability remain valued differentiators in 2026.</p>
-<hr>
-<h2>4. Worth Trying</h2>
-<table>
-<thead>
-<tr>
-<th>Product</th>
-<th>Why Developers Should Try It</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Ray</strong></td>
-<td>If you live in the terminal, this open-source tool proves AI assistants can handle personal finance without leaving your CLI—great integration inspiration.</td>
-</tr>
-<tr>
-<td><strong>Edgee Codex Compressor</strong></td>
-<td>A rare infrastructure play focused purely on cost optimization; worth benchmarking if you&#39;re building or scaling with Codex.</td>
-</tr>
-<tr>
-<td><strong>Nicelydone MCP</strong></td>
-<td>Early implementation of the Model Context Protocol for design systems—useful if you&#39;re building AI agents that need structured UI context.</td>
 </tr>
 </tbody></table>
 <hr>

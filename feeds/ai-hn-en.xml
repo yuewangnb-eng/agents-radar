@@ -6,7 +6,147 @@
     <description>Hacker News AI Community Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-hn-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 13 May 2026 04:37:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 04:35:23 +0000</lastBuildDate>
+    <item>
+      <title>Hacker News AI Community Digest 2026-05-14</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-14/ai-hn-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-14/ai-hn-en</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI Community Digest 2026-05-14 Source: Hacker News | 30 stories | Generated: 2026-05-14 00:25 UTC Hacker News AI Community Digest — May 14, 2026 1. Today&amp;#39;s Highlights The HN AI community is fixated on Anthropic&amp;#39;s turbulent product strategy, with four separate front-page posts about Claude subscription changes, programmatic usage restrictions, and a viral warning about losing project access after unsubscribing from Claude Design. Sam Altman&amp;#39;s courtroom testimony in the Ope...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-05-14</h1>
+<blockquote>
+<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-05-14 00:25 UTC</p>
+</blockquote>
+<hr>
+<h1>Hacker News AI Community Digest — May 14, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>The HN AI community is fixated on <strong>Anthropic&#39;s turbulent product strategy</strong>, with four separate front-page posts about Claude subscription changes, programmatic usage restrictions, and a viral warning about losing project access after unsubscribing from Claude Design. <strong>Sam Altman&#39;s courtroom testimony</strong> in the OpenAI-Elon Musk trial generated significant engagement, particularly around allegations of dishonesty and Musk&#39;s alleged desire for control. The community shows clear <strong>skepticism toward AI vendor lock-in</strong> and growing scrutiny of how AI companies structure access and pricing. Notably, there&#39;s palpable tension between excitement for AI tooling and frustration with sudden platform changes.</p>
+<hr>
+<h2>2. Top News &amp; Discussions</h2>
+<h3>🔬 Models &amp; Research</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://bitplane.net/log/2026/05/rars/"><strong>Rars: a Rust RAR implementation, mostly written by LLMs</strong></a> — <a href="https://news.ycombinator.com/item?id=48126675">Discussion</a></td>
+<td>78</td>
+<td>63</td>
+<td>Demonstrates LLM-assisted systems programming at scale; community debates code quality and maintainability of AI-generated infrastructure</td>
+</tr>
+<tr>
+<td><a href="https://gepa-ai.github.io/gepa/blog/2026/05/11/learning-fast-and-slow/"><strong>Learning, Fast and Slow: LLMs That Adapt Continually</strong></a> — <a href="https://news.ycombinator.com/item?id=48124621">Discussion</a></td>
+<td>5</td>
+<td>1</td>
+<td>Academic work on continual learning; low engagement suggests HN prioritizes applied over theoretical research currently</td>
+</tr>
+</tbody></table>
+<h3>🛠️ Tools &amp; Engineering</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/torrix-ai/install"><strong>Show HN: Torrix, self hosted, LLM Observability,(no Postgres, no Redis)</strong></a> — <a href="https://news.ycombinator.com/item?id=48120912">Discussion</a></td>
+<td>27</td>
+<td>2</td>
+<td>Addresses operational simplicity for LLM monitoring; minimal comments suggest either niche appeal or &quot;show HN&quot; fatigue</td>
+</tr>
+<tr>
+<td><a href="https://github.com/RareSense/Nova3D"><strong>Show HN: My tool generates 3D objects composed of separate, functional parts</strong></a> — <a href="https://news.ycombinator.com/item?id=48122781">Discussion</a></td>
+<td>4</td>
+<td>4</td>
+<td>Represents generative AI moving toward structured, manufacturable outputs rather than monolithic meshes</td>
+</tr>
+</tbody></table>
+<h3>🏢 Industry News</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://news.ycombinator.com/item?id=48128003"><strong>Tell HN: Dont use Claude Design, lost access to my projects after unsubscribing</strong></a> — <a href="https://news.ycombinator.com/item?id=48128003">Discussion</a></td>
+<td>126</td>
+<td>51</td>
+<td><strong>Top story</strong>: Cautionary tale triggering broad discussion about data portability and AI platform risk; community strongly sympathetic</td>
+</tr>
+<tr>
+<td><a href="https://arstechnica.com/tech-policy/2026/05/altman-forced-to-confront-claims-at-openai-trial-that-hes-a-prolific-liar/"><strong>Altman forced to confront claims at OpenAI trial that he&#39;s a prolific liar</strong></a> — <a href="https://news.ycombinator.com/item?id=48125801">Discussion</a></td>
+<td>81</td>
+<td>35</td>
+<td>Legal pressure on AI leadership credibility; HN comments split between &quot;all CEOs lie&quot; and concern about governance integrity</td>
+</tr>
+<tr>
+<td><a href="https://www.theverge.com/tech/929091/meta-ai-threads-account-block"><strong>Meta won&#39;t let you block its AI account on Threads</strong></a> — <a href="https://news.ycombinator.com/item?id=48126981">Discussion</a></td>
+<td>87</td>
+<td>30</td>
+<td>Platform coercion backlash; community universally critical of forced AI presence in social products</td>
+</tr>
+<tr>
+<td><a href="https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/"><strong>Medicare&#39;s new payment model is built for AI. Most of the tech world has no idea</strong></a> — <a href="https://news.ycombinator.com/item?id=48127815">Discussion</a></td>
+<td>39</td>
+<td>26</td>
+<td>Underreported regulatory tailwind for healthcare AI; comments show surprise at policy moving faster than tech awareness</td>
+</tr>
+</tbody></table>
+<h3>💬 Opinions &amp; Debates</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://news.ycombinator.com/item?id=48126435"><strong>Ask HN: Is Anthropic doing too much vibe coding?</strong></a> — <a href="https://news.ycombinator.com/item?id=48126435">Discussion</a></td>
+<td>4</td>
+<td>3</td>
+<td>Meta-commentary on Anthropic&#39;s perceived rapid, reactive product changes; &quot;vibe coding&quot; as critique of strategic inconsistency</td>
+</tr>
+<tr>
+<td><a href="https://www.forbes.com/sites/maryroeloffs/2026/05/07/ceos-say-layoffs-are-ais-fault-but-some-experts-think-companies-are-lying/"><strong>CEOs Say Layoffs Are AIs Fault–But Some Experts Think Companies Are Lying</strong></a> — <a href="https://news.ycombinator.com/item?id=48128765">Discussion</a></td>
+<td>4</td>
+<td>1</td>
+<td>Labor market narrative battle; low engagement suggests HN views this as recycled discourse</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Community Sentiment Signal</h2>
+<p>Today&#39;s HN AI discourse is <strong>anxious and vendor-skeptical</strong>, with the highest engagement concentrated on <strong>Anthropic&#39;s subscription turbulence</strong> and <strong>OpenAI governance controversies</strong>. The Claude Design data loss story (126 points, 51 comments) and Altman trial coverage (81 points, 35 comments) both show <strong>high score-to-comment ratios</strong>, indicating contentious, opinion-generating topics rather than pure signal-boosting.</p>
+<p>A clear <strong>controversy</strong> centers on <strong>AI platform lock-in and data portability</strong>: the community broadly condemns practices that trap user work product behind paywalls or make disengagement costly. There&#39;s emerging <strong>consensus that &quot;AI-native&quot; companies are repeating SaaS-era mistakes</strong> with abrupt pricing changes and unclear ownership boundaries.</p>
+<p>Compared to prior cycles, there&#39;s a <strong>notable shift from model capability debates to product/governance concerns</strong>. Where HN previously discussed benchmark breakthroughs and architecture innovations, today&#39;s front page is dominated by <strong>business model friction, legal accountability, and platform risk</strong>. The &quot;vibe coding&quot; critique of Anthropic encapsulates this—skepticism that rapid feature shipping substitutes for coherent strategy. Healthcare AI regulation (Medicare story) and AI accountability in high-stakes domains (OpenAI overdose lawsuit) represent growing attention to <strong>downstream consequences</strong> rather than upstream capabilities.</p>
+<hr>
+<h2>4. Worth Deep Reading</h2>
+<ol>
+<li><p><strong><a href="https://bitplane.net/log/2026/05/rars/">Rars: a Rust RAR implementation, mostly written by LLMs</a></strong> — Essential for engineers evaluating LLM-assisted development. The 63-comment thread contains substantive debate about code review practices, testing regimes, and where AI-generated systems code succeeds or fails. Practical case study for teams considering similar approaches.</p>
+</li>
+<li><p><strong><a href="https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/">Medicare&#39;s new payment model is built for AI</a></strong> — Under-discussed regulatory development with massive market implications. For healthcare AI founders and investors, this signals reimbursement pathways that could accelerate adoption faster than typical enterprise sales cycles.</p>
+</li>
+<li><p><strong><a href="https://arstechnica.com/tech-policy/2026/05/altman-forced-to-confront-claims-at-openai-trial-that-hes-a-prolific-liar/">Altman forced to confront claims at OpenAI trial that he&#39;s a prolific liar</a></strong> — Critical context for understanding AI industry governance. The trial&#39;s outcomes may influence fiduciary standards, nonprofit conversion norms, and founder accountability across the sector.</p>
+</li>
+</ol>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Hacker News AI Community Digest 2026-05-13</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-13/ai-hn-en</link>
@@ -4829,172 +4969,6 @@ Score: 10 | Comments: 2</p>
 <li><p><strong><a href="https://github.com/anthropics/claude-code/issues/46935">Quantified evidence: Sonnet 4.6 quality regression (GitHub issue)</a></strong> — A rare data-driven user complaint about model behavior change. Essential reading for anyone building production systems on rapidly updated LLMs, and a template for how to pressure-test vendor claims.</p>
 </li>
 <li><p><strong><a href="https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return">Researchers Asked LLMs for Strategic Advice. They Got &quot;Trendslop&quot; in Return</a></strong> — Important corrective for researchers and founders treating LLM outputs as strategic intelligence. The concept of &quot;trendslop&quot; is likely to enter the critical lexicon.</p>
-</li>
-</ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI Community Digest 2026-04-14</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-14/ai-hn-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-14/ai-hn-en</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI Community Digest 2026-04-14 Source: Hacker News | 30 stories | Generated: 2026-04-14 00:16 UTC Hacker News AI Community Digest — April 14, 2026 1. Today&amp;#39;s Highlights The Hacker News AI community is fixated on Anthropic&amp;#39;s Claude Mythos Preview, with multiple front-page posts covering its cybersecurity evaluations, system card analysis, and concerning reports about invisible token consumption. A Stanford HAI report on the growing disconnect between AI insiders and the genera...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-04-14</h1>
-<blockquote>
-<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-04-14 00:16 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI Community Digest — April 14, 2026</h1>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>The Hacker News AI community is fixated on <strong>Anthropic&#39;s Claude Mythos Preview</strong>, with multiple front-page posts covering its cybersecurity evaluations, system card analysis, and concerning reports about invisible token consumption. A <strong>Stanford HAI report on the growing disconnect between AI insiders and the general public</strong> sparked the day&#39;s most engaged discussion (228 comments), reflecting deep community anxiety about AI&#39;s social trajectory. Meanwhile, <strong>labor market anxiety</strong> surfaced through both an Economist piece on the tech jobs bust and a raw &quot;Tell HN&quot; confession about AI regret. The overall mood is skeptical, technically critical, and increasingly wary of hype.</p>
-<hr>
-<h2>2. Top News &amp; Discussions</h2>
-<h3>🔬 Models &amp; Research</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/">Stanford report highlights growing disconnect between AI insiders and everyone</a> — <a href="https://news.ycombinator.com/item?id=47758028">HN Discussion</a></td>
-<td>180</td>
-<td>228</td>
-<td>The most discussed item of the day; HN readers are grappling with whether the AI industry&#39;s acceleration is leaving society behind, with strong debate about responsibility and governance.</td>
-</tr>
-<tr>
-<td><a href="https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities">Evaluation of Claude Mythos Preview&#39;s cyber capabilities</a> — <a href="https://news.ycombinator.com/item?id=47755805">HN Discussion</a></td>
-<td>48</td>
-<td>26</td>
-<td>UK AISI&#39;s technical evaluation drew attention for its measured, government-led assessment of a frontier model&#39;s offensive potential — a rarity that HN appreciated.</td>
-</tr>
-<tr>
-<td><a href="https://thezvi.substack.com/p/claude-mythos-the-system-card">Claude Mythos: The System Card</a> — <a href="https://news.ycombinator.com/item?id=47754192">HN Discussion</a></td>
-<td>30</td>
-<td>21</td>
-<td>Zvi&#39;s detailed breakdown of Anthropic&#39;s safety disclosures resonated with the safety-conscious segment of HN, though some found it overly credulous.</td>
-</tr>
-<tr>
-<td><a href="https://ndaybench.winfunc.com">N-Day-Bench – Can LLMs find real vulnerabilities in real codebases?</a> — <a href="https://news.ycombinator.com/item?id=47758347">HN Discussion</a></td>
-<td>25</td>
-<td>6</td>
-<td>A practical security benchmark testing LLMs on actual CVEs; the low comment count suggests the community wants more results before passing judgment.</td>
-</tr>
-</tbody></table>
-<h3>🛠️ Tools &amp; Engineering</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.ithihasas.in">Show HN: Ithihāsas – a character explorer for Hindu epics, built in a few hours</a> — <a href="https://news.ycombinator.com/item?id=47756569">HN Discussion</a></td>
-<td>90</td>
-<td>23</td>
-<td>A polished, culturally grounded AI application built rapidly — HN praised its focus and execution, seeing it as what AI prototyping <em>should</em> look like.</td>
-</tr>
-<tr>
-<td><a href="https://efficienist.com/claude-code-may-be-burning-your-limits-with-invisible-tokens-you-cant-see-or-audit/">Claude Code may be burning your limits with invisible tokens</a> — <a href="https://news.ycombinator.com/item?id=47754179">HN Discussion</a></td>
-<td>20</td>
-<td>3</td>
-<td>Allegations of opaque token usage in Anthropic&#39;s coding tool triggered sharp criticism about developer trust and API transparency.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/SunAndClouds/ReadMe">Show HN: Continual Learning with .md</a> — <a href="https://news.ycombinator.com/item?id=47757552">HN Discussion</a></td>
-<td>16</td>
-<td>5</td>
-<td>A lightweight, markdown-based approach to model context management; appealed to HN&#39;s preference for simple, file-based workflows over complex pipelines.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anthropics/claude-code/issues/45381">Claude Code – Disabling telemetry also disables 1-hour prompt cache TTL</a> — <a href="https://news.ycombinator.com/item?id=47749757">HN Discussion</a></td>
-<td>7</td>
-<td>0</td>
-<td>A bug report revealing a punitive-seeming privacy tradeoff; zero comments but upvotes suggest quiet concern about Anthropic&#39;s product decisions.</td>
-</tr>
-</tbody></table>
-<h3>🏢 Industry News</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://economist.com/finance-and-economics/2026/04/13/the-tech-jobs-bust-is-real-dont-blame-ai-yet">The tech jobs bust is real. Don&#39;t blame AI (yet)</a> — <a href="https://news.ycombinator.com/item?id=47757775">HN Discussion</a></td>
-<td>84</td>
-<td>73</td>
-<td>Highly engaged discussion about macroeconomic vs. AI-driven job losses; HN largely skeptical of the &quot;don&#39;t blame AI&quot; framing given lived experience.</td>
-</tr>
-<tr>
-<td><a href="https://www.barrons.com/articles/palantir-stock-price-president-trump-anthropic-7313031c">Palantir Stock Continues to Fall. Not Even the President Can Erase the Losses</a> — <a href="https://news.ycombinator.com/item?id=47755118">HN Discussion</a></td>
-<td>13</td>
-<td>2</td>
-<td>A datapoint in the broader defense/AI stock narrative; low engagement suggests HN fatigue with political market theater.</td>
-</tr>
-<tr>
-<td><a href="https://www.theverge.com/ai-artificial-intelligence/911118/openai-memo-cro-ai-competition-anthropic">OpenAI&#39;s latest internal memo about beating the competition</a> — <a href="https://news.ycombinator.com/item?id=47755045">HN Discussion</a></td>
-<td>5</td>
-<td>0</td>
-<td>Leaked competitive rhetoric from OpenAI; ignored by commenters, possibly seen as unnewsworthy corporate posturing.</td>
-</tr>
-</tbody></table>
-<h3>💬 Opinions &amp; Debates</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://news.ycombinator.com/item?id=47759065">Tell HN: I regret every single time I use AI</a></td>
-<td>7</td>
-<td>3</td>
-<td>A raw, personal expression of tool fatigue — small but emblematic of a growing undercurrent of HN disillusionment with AI-assisted workflows.</td>
-</tr>
-<tr>
-<td><a href="https://twitter.com/intuitiveml/status/2043545596699750791">Why Your &quot;AI-First&quot; Strategy Is Probably Wrong</a> — <a href="https://news.ycombinator.com/item?id=47758616">HN Discussion</a></td>
-<td>12</td>
-<td>3</td>
-<td>Pushed back against startup/enterprise AI hype; HN generally receptive to skepticism about strategy-by-buzzword.</td>
-</tr>
-<tr>
-<td><a href="https://www.msn.com/en-us/news/us/can-ai-be-a-child-of-god-inside-anthropic-s-meeting-with-christian-leaders/ar-AA20Eb2w">Can AI be a &#39;child of God&#39;? Inside Anthropic&#39;s meeting with Christian leaders</a> — <a href="https://news.ycombinator.com/item?id=47750086">HN Discussion</a></td>
-<td>12</td>
-<td>10</td>
-<td>Anthropic&#39;s religious outreach puzzled and mildly alarmed HN, with comments split between seeing it as earnest ethics engagement and brand theater.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Community Sentiment Signal</h2>
-<p>Today&#39;s HN AI discourse is <strong>technically engaged but emotionally fatigued</strong>. The highest-activity thread by far is the Stanford disconnect report (180 points, 228 comments), indicating that <strong>meta-conversations about AI&#39;s societal impact now draw more energy than model capabilities themselves</strong>. Claude Mythos dominates the technical news cycle, yet the community&#39;s reaction is watchful rather than celebratory — focused on cybersecurity risks, opaque pricing, and privacy tradeoffs.</p>
-<p>There is <strong>growing consensus around skepticism of AI hype</strong>, particularly in business contexts (&quot;AI-first&quot; strategies, OpenAI memos). The low comment-to-score ratios on several Anthropic and OpenAI stories suggest <strong>attention without enthusiasm</strong>. A notable shift from prior cycles: fewer discussions about raw capabilities or benchmarks, more about <strong>trust, transparency, and downstream harms</strong>. The &quot;Tell HN&quot; regret post, though small, signals that practitioner burnout is entering the mainstream conversation.</p>
-<hr>
-<h2>4. Worth Deep Reading</h2>
-<ol>
-<li><p><strong><a href="https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/">Stanford report highlights growing disconnect between AI insiders and everyone</a></strong> — <a href="https://news.ycombinator.com/item?id=47758028">HN Discussion</a>
-<em>Essential for understanding the widening credibility and comprehension gap between AI builders and the public. The 228-comment thread is a rich, multi-perspective deliberation on what responsibility looks like at this scale.</em></p>
-</li>
-<li><p><strong><a href="https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities">Evaluation of Claude Mythos Preview&#39;s cyber capabilities</a></strong> — <a href="https://news.ycombinator.com/item?id=47755805">HN Discussion</a>
-<em>A rare, detailed government evaluation of a frontier model&#39;s offensive capabilities. For researchers and security engineers, it&#39;s a concrete case study in how national AI safety institutes are operationalizing risk assessment.</em></p>
-</li>
-<li><p><strong><a href="https://thezvi.substack.com/p/claude-mythos-the-system-card">Claude Mythos: The System Card</a></strong> — <a href="https://news.ycombinator.com/item?id=47754192">HN Discussion</a>
-<em>Zvi&#39;s thorough dissection of Anthropic&#39;s safety disclosures offers one of the most accessible deep dives into how a top lab is framing and mitigating risks — worth reading alongside the AISI evaluation for contrast.</em></p>
 </li>
 </ol>
 <hr>

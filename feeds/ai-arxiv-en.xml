@@ -6,7 +6,112 @@
     <description>ArXiv AI Research Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-arxiv-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 13 May 2026 04:37:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 04:35:23 +0000</lastBuildDate>
+    <item>
+      <title>ArXiv AI Research Digest 2026-05-14</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-14/ai-arxiv-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-14/ai-arxiv-en</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <description>ArXiv AI Research Digest 2026-05-14 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-05-14 00:25 UTC ArXiv AI Research Digest — May 14, 2026 1. Today&amp;#39;s Highlights Today&amp;#39;s submissions reveal a strong convergence on self-improving LLM training paradigms that move beyond standard RLHF, with multiple papers advancing GRPO variants, on-policy distillation, and reward shaping techniques. Memory and long-context capabilities for agents emerge as a critical frontier, with new be...</description>
+      <content:encoded><![CDATA[<h1>ArXiv AI Research Digest 2026-05-14</h1>
+<blockquote>
+<p>Source: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-05-14 00:25 UTC</p>
+</blockquote>
+<hr>
+<h1>ArXiv AI Research Digest — May 14, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>Today&#39;s submissions reveal a strong convergence on <strong>self-improving LLM training paradigms</strong> that move beyond standard RLHF, with multiple papers advancing GRPO variants, on-policy distillation, and reward shaping techniques. <strong>Memory and long-context capabilities</strong> for agents emerge as a critical frontier, with new benchmarks (MEME, LongMemEval-V2) pushing evaluation toward realistic multi-session persistence. <strong>Geometric and spectral methods</strong> are gaining traction for understanding and optimizing transformers, from spectrum-preserving optimizers to geometric analyses of factual recall and expert routing in MoEs. Notably, several papers address <strong>efficiency and deployment challenges</strong>—including KV-cache compression, quantization-aware training, and elastic attention—suggesting the field is maturing toward production-scale concerns alongside capability research.</p>
+<hr>
+<h2>2. Key Papers</h2>
+<h3>🧠 Large Language Models</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.12495v1">AlphaGRPO: Unlocking Self-Reflective Multimodal Generation in UMMs via Decompositional Verifiable Reward</a></strong></p>
+<ul>
+<li>Huang et al. | Extends GRPO to unified multimodal models without cold-start stages, enabling intrinsic self-reflective generation across modalities.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.12484v1">Learning, Fast and Slow: Towards LLMs That Adapt Continually</a></strong></p>
+<ul>
+<li>Tiwari et al. | Proposes a dual-system architecture separating slow parameter updates from fast in-context adaptation to mitigate catastrophic forgetting and plasticity loss.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.12483v1">Beyond GRPO and On-Policy Distillation: An Empirical Sparse-to-Dense Reward Principle for Language-Model Post-Training</a></strong></p>
+<ul>
+<li>Xu et al. | Challenges standard GRPO deployment practices, showing that allocating scarce verifiable data through sparse-to-dense reward curricula outperforms direct student training.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.12426v1">Geometric Factual Recall in Transformers</a></strong></p>
+<ul>
+<li>Ravfogel et al. | Reveals that transformers memorize facts through low-dimensional geometric structures rather than linear associative memory, with implications for parameter efficiency.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.12476v1">Routers Learn the Geometry of Their Experts: Geometric Coupling in Sparse Mixture-of-Experts</a></strong></p>
+<ul>
+<li>Ahrac et al. | Demonstrates that MoE routers naturally encode expert geometry, enabling improved training stability and specialization without auxiliary load-balancing losses.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.12400v1">OGLS-SD: On-Policy Self-Distillation with Outcome-Guided Logit Steering for LLM Reasoning</a></strong></p>
+<ul>
+<li>Yang et al. | Identifies and resolves teacher-student distribution mismatch in on-policy self-distillation via outcome-conditioned logit steering.</li>
+</ul>
+<hr>
+<h3>🤖 Agents &amp; Reasoning</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.12493v1">LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues</a></strong></p>
+<ul>
+<li>Wu et al. | Introduces a benchmark for agent memory spanning interface affordances, workflows, and failure modes across extended interaction histories.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.12477v1">MEME: Multi-entity &amp; Evolving Memory Evaluation</a></strong></p>
+<ul>
+<li>Jung et al. | Defines six task dimensions for evaluating LLM agents on multi-entity tracking and temporal knowledge updates in persistent environments.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.12481v1">ToolCUA: Towards Optimal GUI-Tool Path Orchestration for Computer Use Agents</a></strong></p>
+<ul>
+<li>Hu et al. | Addresses the hybrid action space problem in computer use agents, optimizing when to use low-level GUI actions versus high-level API calls.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.12460v1">Multi-Stream LLMs: Unblocking Language Models with Parallel Streams of Thoughts, Inputs and Outputs</a></strong></p>
+<ul>
+<li>Su et al. | Proposes a fundamental architectural shift enabling parallel cognitive streams for more capable autonomous agent operation.</li>
+</ul>
+<hr>
+<h3>🔧 Methods &amp; Frameworks</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.12492v1">Pion: A Spectrum-Preserving Optimizer via Orthogonal Equivalence Transformation</a></strong></p>
+<ul>
+<li>Shi et al. | Introduces a novel optimizer preserving weight matrix singular value spectra through orthogonal transformations, potentially improving training dynamics at scale.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.12471v1">KV-Fold: One-Step KV-Cache Recurrence for Long-Context Inference</a></strong></p>
+<ul>
+<li>Nadali et al. | Achieves training-free long-context inference through a fold-based accumulation protocol, dramatically reducing memory and computation.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.12491v1">Elastic Attention Cores for Scalable Vision Transformers</a></strong></p>
+<ul>
+<li>Song et al. | Replaces quadratic attention with adaptive elastic cores that maintain representational capacity while enabling resolution-scalable ViTs.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.12380v1">Trust the Batch, On- or Off-Policy: Adaptive Policy Optimization for RL Post-Training</a></strong></p>
+<ul>
+<li>Fakoor et al. | Stabilizes large-model RL training through adaptive batch handling that robustly manages on/off-policy mixing and system heterogeneity.</li>
+</ul>
+<hr>
+<h3>📊 Applications</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.12480v1">OmniNFT: Modality-wise Omni Diffusion Reinforcement for Joint Audio-Video Generation</a></strong></p>
+<ul>
+<li>Zhang et al. | Develops multi-objective RL for synchronized audio-video generation with per-modality fidelity guarantees.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.12456v1">TextSeal: A Localized LLM Watermark for Provenance &amp; Distillation Protection</a></strong></p>
+<ul>
+<li>Sander et al. | Advances watermarking with dual-key generation and multi-region localization, enabling detection of model distillation and output provenance.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.12384v1">Scalable Token-Level Hallucination Detection in Large Language Models</a></strong></p>
+<ul>
+<li>Min et al. | Provides fine-grained hallucination detection for reasoning-intensive tasks where coherence masks logical errors.</li>
+</ul>
+<hr>
+<h2>3. Research Trend Signal</h2>
+<p>A clear <strong>temporal shift</strong> is visible in today&#39;s submissions: the field is moving from static model evaluation toward <strong>dynamic, persistent agent capabilities</strong>. Multiple memory benchmarks (LongMemEval-V2, MEME) and continual learning frameworks suggest researchers recognize that deployment-ready systems must operate across extended time horizons with evolving knowledge. Concurrently, <strong>geometric and spectral perspectives</strong> are maturing from theoretical curiosities to practical tools—Pion&#39;s spectrum-preserving optimization, geometric factual recall analysis, and expert geometry in MoEs all point toward a more principled, structure-aware approach to model design. The <strong>reward engineering landscape</strong> is also diversifying beyond simple RLHF: sparse-to-dense curricula, rubric-based hacking analysis, and semantic reward collapse warnings indicate sophisticated awareness of how optimization objectives shape model behavior. Finally, <strong>inference efficiency</strong> is no longer peripheral—KV-Fold, elastic attention, and quantization methods are being developed alongside capability advances, signaling industry-scale deployment pressures.</p>
+<hr>
+<h2>4. Worth Deep Reading</h2>
+<p><strong><a href="http://arxiv.org/abs/2605.12483v1">Beyond GRPO and On-Policy Distillation: An Empirical Sparse-to-Dense Reward Principle for Language-Model Post-Training</a></strong> — This paper challenges prevailing assumptions about how to allocate scarce verifiable training data, with direct implications for cost-effective deployment of reasoning models. Its empirical principle for curriculum design could become standard practice.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.12484v1">Learning, Fast and Slow: Towards LLMs That Adapt Continually</a></strong> — Addresses a fundamental limitation in current LLM architectures through a neuroscientifically-inspired dual-system approach. If validated at scale, this could resolve the plasticity-stability dilemma that plagues production systems.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.12426v1">Geometric Factual Recall in Transformers</a></strong> — Offers a theoretically grounded alternative to prevailing views on knowledge storage, with potential to inform more parameter-efficient architectures and targeted editing methods. The geometric perspective may generalize beyond factual recall to other emergent capabilities.</p>
+<hr>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>ArXiv AI Research Digest 2026-05-13</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-13/ai-arxiv-en</link>

@@ -6,7 +6,193 @@
     <description>ArXiv AI 研究日报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-arxiv.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 13 May 2026 04:37:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 04:35:23 +0000</lastBuildDate>
+    <item>
+      <title>ArXiv AI 研究日报 2026-05-14</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-14/ai-arxiv</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-14/ai-arxiv</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <description>ArXiv AI 研究日报 2026-05-14 数据来源: ArXiv (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-05-14 00:25 UTC ArXiv AI 研究日报 | 2026-05-14 今日速览 今日50篇论文呈现四大热点：GRPO及其变体的后训练优化成为核心主线，AlphaGRPO、OGLS-SD、Trust the Batch等从多维度改进RLHF效率与稳定性；长上下文与记忆机制持续突破，KV-Fold实现训练-free的KV缓存复用，LongMemEval-V2和MEME推动智能体记忆评估标准化；多模态生成进入精细化阶段，OmniNFT探索音视频联合生成的RL对齐；智能体工具编排与GUI自动化走向实用，ToolCUA和Multi-Stream LLMs重构交互范式。整体趋势显示AI系统正从&amp;quot;能生成&amp;quot;向&amp;quot;能持续学习、能记忆、能自主决策&amp;quot;演进。 重点论文 🧠 大语言模型（架构、训练、对齐、评估） 论文 作者 一句话说明 AlphaGRPO: Unlocking Self-Ref...</description>
+      <content:encoded><![CDATA[<h1>ArXiv AI 研究日报 2026-05-14</h1>
+<blockquote>
+<p>数据来源: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-05-14 00:25 UTC</p>
+</blockquote>
+<hr>
+<h1>ArXiv AI 研究日报 | 2026-05-14</h1>
+<hr>
+<h2>今日速览</h2>
+<p>今日50篇论文呈现四大热点：<strong>GRPO及其变体的后训练优化</strong>成为核心主线，AlphaGRPO、OGLS-SD、Trust the Batch等从多维度改进RLHF效率与稳定性；<strong>长上下文与记忆机制</strong>持续突破，KV-Fold实现训练-free的KV缓存复用，LongMemEval-V2和MEME推动智能体记忆评估标准化；<strong>多模态生成</strong>进入精细化阶段，OmniNFT探索音视频联合生成的RL对齐；<strong>智能体工具编排与GUI自动化</strong>走向实用，ToolCUA和Multi-Stream LLMs重构交互范式。整体趋势显示AI系统正从&quot;能生成&quot;向&quot;能持续学习、能记忆、能自主决策&quot;演进。</p>
+<hr>
+<h2>重点论文</h2>
+<h3>🧠 大语言模型（架构、训练、对齐、评估）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">论文</th>
+<th align="left">作者</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12495v1">AlphaGRPO: Unlocking Self-Reflective Multimodal Generation in UMMs via Decompositional Verifiable Reward</a></strong></td>
+<td align="left">Huang R., Wu J., Yang R. 等</td>
+<td align="left">将GRPO首次应用于自回归-扩散统一多模态模型，无需冷启动即可解锁自反思生成能力，为多模态RLHF提供新范式。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12483v1">Beyond GRPO and On-Policy Distillation: An Empirical Sparse-to-Dense Reward Principle for Language-Model Post-Training</a></strong></td>
+<td align="left">Xu Y., Sang H., Zhou Z. 等</td>
+<td align="left">提出&quot;稀疏到密集奖励&quot;原则，指出将可验证数据用于教师模型蒸馏而非直接训练学生模型，可突破数据瓶颈实现更优分配。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12400v1">OGLS-SD: On-Policy Self-Distillation with Outcome-Guided Logit Steering for LLM Reasoning</a></strong></td>
+<td align="left">Yang Y., Wang X., Zhang W.</td>
+<td align="left">识别on-policy自蒸馏中的师生分布不匹配问题，提出结果引导的logit偏移机制，提升推理任务中的知识迁移效率。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12380v1">Trust the Batch, On- or Off-Policy: Adaptive Policy Optimization for RL Post-Training</a></strong></td>
+<td align="left">Fakoor R., Aubry M., Stranges N. 等</td>
+<td align="left">针对大模型RL训练中训练/推理系统数值精度差异导致的脆弱性，提出自适应策略优化，统一on/off-policy学习。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12474v1">Reward Hacking in Rubric-Based Reinforcement Learning</a></strong></td>
+<td align="left">Mahmoud A., Rezaei M., Wang Z. 等</td>
+<td align="left">系统研究基于评分标准的RL中的奖励篡改问题，揭示训练验证器与评估验证器之间的分布偏移风险，对开放域RLHF安全至关重要。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12484v1">Learning, Fast and Slow: Towards LLMs That Adapt Continually</a></strong></td>
+<td align="left">Tiwari R., Sareen K., Agrawal L. 等</td>
+<td align="left">借鉴认知科学双系统理论，提出参数更新与上下文学习解耦的持续学习框架，缓解灾难性遗忘与可塑性损失的两难困境。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12426v1">Geometric Factual Recall in Transformers</a></strong></td>
+<td align="left">Ravfogel S., Yehudai G., Bruna J. 等</td>
+<td align="left">提出Transformer事实记忆的几何视角：低维流形上的交叉关联，颠覆&quot;线性缩放参数&quot;的传统认知，为知识编辑提供理论基础。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12382v1">Pretraining Exposure Explains Popularity Judgments in Large Language Models</a></strong></td>
+<td align="left">Mozafari J., Piryani B., Jatowt A.</td>
+<td align="left">通过量化预训练数据中的实体曝光度，揭示LLM&quot; popularity bias&quot;本质源于训练分布而非真实世界偏好，为偏差修正提供数据驱动方法。</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🤖 智能体与推理（规划、工具使用、多智能体、思维链）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">论文</th>
+<th align="left">作者</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12481v1">ToolCUA: Towards Optimal GUI-Tool Path Orchestration for Computer Use Agents</a></strong></td>
+<td align="left">Hu X., Zhang X., Xu H. 等</td>
+<td align="left">解决计算机使用代理在原子GUI操作与高级工具调用间的决策困境，提出最优路径编排框架，提升混合动作空间的执行效率。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12493v1">LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues</a></strong></td>
+<td align="left">Wu D., Ji Z., Kawatkar A. 等</td>
+<td align="left">构建面向专业Web环境的长期记忆基准，评估代理对接口功能、状态动态和工作流的跨会话记忆能力，推动代理向&quot;经验丰富的同事&quot;进化。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12477v1">MEME: Multi-entity &amp; Evolving Memory Evaluation</a></strong></td>
+<td align="left">Jung S., Rubinstein A., Uselis A. 等</td>
+<td align="left">首个覆盖多实体更新与动态演化双轴的记忆评估框架，填补LLM代理在持久化环境中持续推理能力的评测空白。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12460v1">Multi-Stream LLMs: Unblocking Language Models with Parallel Streams of Thoughts, Inputs and Outputs</a></strong></td>
+<td align="left">Su G., Yang Y., Li X. 等</td>
+<td align="left">打破自回归模型的顺序瓶颈，设计并行思维流、输入流与输出流架构，使代理能在推理、感知、行动间实现真正并发。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12411v1">Predicting Decisions of AI Agents from Limited Interaction through Text-Tabular Modeling</a></strong></td>
+<td align="left">Shapira E., Tennenholtz M., Reichart R.</td>
+<td align="left">面向黑箱代理交互场景，通过文本-表格联合建模预测对手决策，为谈判、交易等多代理博弈提供有限信息下的策略推断能力。</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🔧 方法与框架（新技术、基准测试、效率优化）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">论文</th>
+<th align="left">作者</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12471v1">KV-Fold: One-Step KV-Cache Recurrence for Long-Context Inference</a></strong></td>
+<td align="left">Nadali A., Cooper P., Trivedi A. 等</td>
+<td align="left">将KV缓存视为序列块上的左折叠累加器，实现无需训练的长上下文推理协议，计算复杂度与序列长度解耦。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12492v1">Pion: A Spectrum-Preserving Optimizer via Orthogonal Equivalence Transformation</a></strong></td>
+<td align="left">Shi K., Li H., Qiu Z. 等</td>
+<td align="left">突破Adam/Muon的加法更新范式，通过左右正交变换保持权重矩阵谱结构，为LLM训练提供新的优化理论视角。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12491v1">Elastic Attention Cores for Scalable Vision Transformers</a></strong></td>
+<td align="left">Song A.Z., Chen Y., Nan M. 等</td>
+<td align="left">质疑ViT全连接自注意力的必要性，设计弹性注意力核实现计算-分辨率的可扩展权衡，释放高分辨率视觉应用潜力。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12466v1">Solve the Loop: Attractor Models for Language and Reasoning</a></strong></td>
+<td align="left">Fein-Ashley J., Rashidinejad P.</td>
+<td align="left">以吸引子动力学重新形式化循环Transformer，解决训练不稳定与部署成本问题，为迭代精化推理提供可扩展架构。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12384v1">Scalable Token-Level Hallucination Detection in Large Language Models</a></strong></td>
+<td align="left">Min R., Pang T., Du C. 等</td>
+<td align="left">面向推理密集型任务的细粒度幻觉检测，实现token级可解释的错误定位，突破传统句子级检测的粒度局限。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12456v1">TextSeal: A Localized LLM Watermark for Provenance &amp; Distillation Protection</a></strong></td>
+<td align="left">Sander T., Chang H., Souček T. 等</td>
+<td align="left">双密钥Gumbel-max水印机制，支持多区域定位检测与推理优化，为LLM内容溯源和蒸馏保护提供工业级解决方案。</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>📊 应用（垂直领域、多模态、代码生成）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">论文</th>
+<th align="left">作者</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12480v1">OmniNFT: Modality-wise Omni Diffusion Reinforcement for Joint Audio-Video Generation</a></strong></td>
+<td align="left">Zhang G., Ma X., Huang J. 等</td>
+<td align="left">将RL扩展至多目标多模态联合生成，实现音频-视频的模态保真、跨模态对齐与细粒度同步三重优化。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12376v1">ProfiliTable: Profiling-Driven Tabular Data Processing via Agentic Workflows</a></strong></td>
+<td align="left">Liu W., Gu Y., Yan X. 等</td>
+<td align="left">以数据画像驱动LLM代理工作流，自动化表格清洗、转换、增强与匹配，解决真实数据管道中的指令歧义与任务耦合难题。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.12435v1">Environment-Adaptive Preference Optimization for Wildfire Prediction</a></strong></td>
+<td align="left">Jiang E., Sun W.</td>
+<td align="left">针对野火预测的长尾分布与动态环境，提出环境自适应偏好优化，提升极端事件预警在气候变迁中的可靠性。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>研究趋势信号</h2>
+<p><strong>&quot;后训练优化&quot;进入精细化分工时代</strong>：GRPO及其变体（AlphaGRPO、OGLS-SD、稀疏-密集奖励原则）形成方法集群，显示社区正从&quot;能用RLHF&quot;转向&quot;如何高效分配可验证数据、如何缓解师生分布不匹配、如何统一on/off-policy训练&quot;。<strong>智能体记忆成为独立研究维度</strong>：LongMemEval-V2与MEME分别从专业环境持久记忆和多实体动态演化切入，标志代理评估从&quot;任务完成度&quot;转向&quot;跨会话认知连续性&quot;。<strong>正交变换与几何视角重塑基础组件</strong>：Pion的谱保持优化、Geometric Factual Recall的低维流形记忆、Elastic Attention的几何稀疏性，共同指向&quot;利用问题内在结构减少冗余计算&quot;的新范式。</p>
+<hr>
+<h2>值得精读</h2>
+<h3>1. <a href="http://arxiv.org/abs/2605.12483v1">Beyond GRPO and On-Policy Distillation</a> — Xu Y. 等</h3>
+<p><strong>理由</strong>：在可验证数据成为瓶颈的背景下，本文挑战&quot;数据直接用于部署模型&quot;的行业默认假设，提出&quot;稀疏到密集奖励&quot;的资源分配原则。其经验发现——将稀缺数据用于教师模型蒸馏而非学生模型直接训练——可能重塑RL后训练的数据策略，对资源受限场景具有直接指导价值。方法论上融合了机制设计与统计学习理论，适合关注训练效率的研究者深入。</p>
+<h3>2. <a href="http://arxiv.org/abs/2605.12471v1">KV-Fold: One-Step KV-Cache Recurrence</a> — Nadali A. 等</h3>
+<p><strong>理由</strong>：长上下文推理的工程瓶颈在于KV缓存的线性增长，本文以函数式编程中的&quot;fold&quot;抽象重新框架化该问题，实现无需任何训练即可扩展上下文窗口。其简洁性（训练-free、与模型架构无关）与理论优雅性（左折叠的累积性质）形成罕见组合，可能快速被工业界采用。适合系统研究者与推理优化工程师精读。</p>
+<h3>3. <a href="http://arxiv.org/abs/2605.12460v1">Multi-Stream LLMs</a> — Su G. 等</h3>
+<p><strong>理由</strong>：自回归模型的顺序生成假设已成为代理系统的根本性架构约束。本文提出的并行流架构不仅是工程优化，更是对&quot;语言模型作为代理核心&quot;范式的重新设计——思维、感知、行动的真正并发可能解锁当前代理系统的反应速度瓶颈。其潜在影响超越单一技术，涉及AI系统架构的哲学层面，适合长期关注代理基础设施的研究者。</p>
+<hr>
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>ArXiv AI 研究日报 2026-05-13</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-13/ai-arxiv</link>

@@ -6,7 +6,171 @@
     <description>Product Hunt AI 产品日报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-ph.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 13 May 2026 04:37:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 04:35:23 +0000</lastBuildDate>
+    <item>
+      <title>Product Hunt AI 产品日报 2026-05-14</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-14/ai-ph</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-14/ai-ph</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <description>Product Hunt AI 产品日报 2026-05-14 数据来源: Product Hunt | 共 12 个产品 | 生成时间: 2026-05-14 00:25 UTC Product Hunt AI 产品日报 | 2026-05-14 一、今日速览 今日 Product Hunt 共收录 12 款 AI 相关产品，开发者基础设施与支付工具占据头部位置，Kelviq 以 489 票大幅领先。值得关注的是，AI 智能体正从通用对话向垂直场景深度渗透——Claude 生态扩展（Jotform Claude App、Vexilo）、COBOL 遗留系统改造（Hopper）、硬件制造（Seer）均出现专用 Agent 方案。同时，开源与开放标准成为显著标签：Free AI SEO Auditor、Hyperswitch Prism、MiniCPM-V 4.6 均以开源模式发布，反映出开发者对可控性和透明度的持续追求。 二、热门产品 🤖 AI 智能体与助手 产品 数据 一句话说明 Jotform Claude App — 在 Claude 内直接构建、编辑和分析表单🔗 Produ...</description>
+      <content:encoded><![CDATA[<h1>Product Hunt AI 产品日报 2026-05-14</h1>
+<blockquote>
+<p>数据来源: <a href="https://www.producthunt.com/">Product Hunt</a> | 共 12 个产品 | 生成时间: 2026-05-14 00:25 UTC</p>
+</blockquote>
+<hr>
+<h1>Product Hunt AI 产品日报 | 2026-05-14</h1>
+<hr>
+<h2>一、今日速览</h2>
+<p>今日 Product Hunt 共收录 12 款 AI 相关产品，<strong>开发者基础设施与支付工具</strong>占据头部位置，Kelviq 以 489 票大幅领先。值得关注的是，AI 智能体正从通用对话向<strong>垂直场景深度渗透</strong>——Claude 生态扩展（Jotform Claude App、Vexilo）、COBOL 遗留系统改造（Hopper）、硬件制造（Seer）均出现专用 Agent 方案。同时，<strong>开源与开放标准</strong>成为显著标签：Free AI SEO Auditor、Hyperswitch Prism、MiniCPM-V 4.6 均以开源模式发布，反映出开发者对可控性和透明度的持续追求。</p>
+<hr>
+<h2>二、热门产品</h2>
+<h3>🤖 AI 智能体与助手</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Jotform Claude App</strong> — 在 Claude 内直接构建、编辑和分析表单<br>🔗 <a href="https://www.producthunt.com/products/jotform?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/DJ3HA5PIVDFYRP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">242 票 / 11 评论</td>
+<td align="left">将表单构建深度嵌入 Claude 对话流，实现&quot;聊天即开发&quot;的无代码体验，打通 Anthropic 生态与 SaaS 工作流</td>
+</tr>
+<tr>
+<td align="left"><strong>Hopper</strong> — 首个面向大型机/COBOL 的 Agentic 开发环境<br>🔗 <a href="https://www.producthunt.com/products/hopper-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/DIQWATFSGWJZWB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">93 票 / 10 评论</td>
+<td align="left">瞄准全球 3000 亿美元 COBOL 维护市场，用 Agent 自主理解、重构和现代化遗留代码，填补关键基础设施的 AI 化空白</td>
+</tr>
+<tr>
+<td align="left"><strong>Whirr</strong> — 在 Mac 刘海栏呈现环境式 Agent 活动<br>🔗 <a href="https://www.producthunt.com/products/whirr-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/DSKBMPE4FTZ2HO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">88 票 / 3 评论</td>
+<td align="left">首创&quot;环境 UI&quot;范式，让 AI Agent 从干扰性弹窗退居为状态栏呼吸灯，重新定义人机协作的注意力边界</td>
+</tr>
+<tr>
+<td align="left"><strong>Vexilo</strong> — 含 31 个 Agent、92 条命令、121 项技能的 Claude Code 规划器<br>🔗 <a href="https://www.producthunt.com/products/vexilo-a-field-guide-to-claude-code?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/GC45JEMSS53VS7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">85 票 / 2 评论</td>
+<td align="left">将 Claude Code 从单工具升级为可编排的 Agent 舰队，通过结构化规划层解决复杂工程任务的分解与调度难题</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🛠️ 开发者工具</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Kelviq</strong> — SaaS 与 AI 公司的支付、税务与计费一站式平台<br>🔗 <a href="https://www.producthunt.com/products/kelviq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/F6U3WKKQYBLXSI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">489 票 / 90 评论</td>
+<td align="left">针对 AI 公司订阅制+用量计费混合模式的财务复杂性，提供税务自动合规与多币种结算，填补 AI 商业化基础设施缺口</td>
+</tr>
+<tr>
+<td align="left"><strong>Hyperswitch Prism</strong> — 即插即用切换支付处理器的开源库<br>🔗 <a href="https://www.producthunt.com/products/hyperswitch-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/2U7NQ3R7UBKMGD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">231 票 / 18 评论</td>
+<td align="left">以开源抽象层破解支付供应商锁定，支持 Stripe、Adyen 等一键切换，为全球化 SaaS 提供支付基础设施的&quot;多云策略&quot;</td>
+</tr>
+<tr>
+<td align="left"><strong>display.dev</strong> — 在企业认证后发布 Agent 生成的 HTML<br>🔗 <a href="https://www.producthunt.com/products/display-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/BBOJCGGDUUYHRO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">175 票 / 20 评论</td>
+<td align="left">解决 AI 生成内容的企业级安全发布难题，将 SSO 认证与 Agent 输出管道化，让内部 AI 应用快速获得生产环境准入</td>
+</tr>
+<tr>
+<td align="left"><strong>Free AI SEO Auditor</strong> — AI 搜索时代的站点审计工具，100% 开源<br>🔗 <a href="https://www.producthunt.com/products/free-ai-seo-auditor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/33PH5UXSNNRJ7G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">158 票 / 23 评论</td>
+<td align="left">针对 Perplexity、ChatGPT Search 等 AI 搜索引擎重构 SEO 评估维度，开源策略加速社区共建 AI 原生搜索优化标准</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>📊 AI 应用（垂直场景）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>HeyNews</strong> — 用你的声音，5 分钟生成可发布的新闻通讯<br>🔗 <a href="https://www.producthunt.com/products/heynews?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/YPKKHONMNXULCE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">130 票 / 24 评论</td>
+<td align="left">将个人语音克隆与内容生成结合，解决 newsletter 创作者&quot;写作疲劳&quot;与&quot;人格化缺失&quot;的双重痛点，实现规模化个人 IP 运营</td>
+</tr>
+<tr>
+<td align="left"><strong>Seer Platform</strong> — 从创意到实体产品最快的路径<br>🔗 <a href="https://www.producthunt.com/products/seer-platform?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/6NXNKPIDPZC7A2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">82 票 / 2 评论</td>
+<td align="left">打通 AI 设计、供应链匹配与制造排期，将硬件创业周期从月级压缩至天级，是 AI 赋能实体产业化的激进尝试</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🎨 创意与内容</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>knooth</strong> — Mac 端 AI 驱动编辑的屏幕录制工具<br>🔗 <a href="https://www.producthunt.com/products/knooth?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/K5JADMCX7VIB5I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">97 票 / 3 评论</td>
+<td align="left">自动识别录制中的冗余片段与口语填充词，将后期剪辑从小时级降至分钟级，瞄准技术文档与产品演示的高效生产</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🔧 基础设施与模型</h3>
+<table>
+<thead>
+<tr>
+<th align="left">产品</th>
+<th align="left">数据</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>MiniCPM-V 4.6</strong> — 1.3B 参数超高效端侧视觉语言模型<br>🔗 <a href="https://www.producthunt.com/products/minicpm-4-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> | <a href="https://www.producthunt.com/r/5BVGOYMSA4SYFW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
+<td align="left">100 票 / 2 评论</td>
+<td align="left">以 1.3B 参数实现 GPT-4V 级移动端视觉理解，打破&quot;大模型才能做视觉&quot;的固有认知，为端侧 AI 应用开辟新能效基准</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>三、市场信号</h2>
+<p><strong>开发者基础设施高度密集</strong>：12 款产品中有 8 款标注 Developer Tools，支付（Kelviq、Hyperswitch）、代码生成（Hopper、Vexilo）、发布管道（display.dev）形成完整工具链，反映 AI 应用层爆发倒逼底层基建升级。<strong>垂直 Agent 创新突出</strong>：COBOL 现代化、硬件制造、Mac 刘海交互等场景突破&quot;聊天机器人&quot;同质化，Agent 正嵌入特定工作流的缝隙市场。<strong>开源占比显著提升</strong>：MiniCPM-V、Hyperswitch Prism、Free AI SEO Auditor 均以开源为核心卖点，闭源产品则强调合规与集成深度（Kelviq），形成&quot;基础层开放、商业层增值&quot;的双轨格局。</p>
+<hr>
+<h2>四、值得试用</h2>
+<table>
+<thead>
+<tr>
+<th align="left">排名</th>
+<th align="left">产品</th>
+<th align="left">推荐理由</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>1</strong></td>
+<td align="left"><strong>Hyperswitch Prism</strong></td>
+<td align="left">支付路由是全球化 SaaS 的隐形痛点，开源抽象层+多供应商切换能力，可直接替代自研支付中间件，ROI 明确</td>
+</tr>
+<tr>
+<td align="left"><strong>2</strong></td>
+<td align="left"><strong>Hopper</strong></td>
+<td align="left">COBOL 现代化是确定性大市场，Agentic 方案首次将 AI 注入金融/政务核心系统，技术栈独特，适合关注企业级 AI 落地的开发者研究</td>
+</tr>
+<tr>
+<td align="left"><strong>3</strong></td>
+<td align="left"><strong>Free AI SEO Auditor</strong></td>
+<td align="left">AI 搜索重构信息检索范式，该工具定义了新的优化维度，开源代码可二次开发为垂直行业审计方案，抢占流量入口变革先机</td>
+</tr>
+</tbody></table>
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Product Hunt AI 产品日报 2026-05-13</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-13/ai-ph</link>
@@ -4730,142 +4894,6 @@
 <td align="left">3</td>
 <td align="left"><strong>SuperHQ</strong></td>
 <td align="left">在 AI Agent 自动执行代码的安全焦虑日益加剧的背景下，microVM 沙箱方案兼顾了隔离性与真实运行环境，值得关注。</td>
-</tr>
-</tbody></table>
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Product Hunt AI 产品日报 2026-04-14</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-14/ai-ph</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-14/ai-ph</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Product Hunt AI 产品日报 2026-04-14 数据来源: Product Hunt | 共 14 个产品 | 生成时间: 2026-04-14 00:16 UTC Product Hunt AI 产品日报 · 2026-04-14 1. 今日速览 今日 Product Hunt 共收录 14 款 AI 相关产品，头部效应显著：Google Gemini 的交互式模拟功能以 385 票领跑，金融与开发者工具紧随其后。整体趋势呈现两大特征：一是 AI 向终端场景深度渗透（个人 CFO、投资仪表盘、时尚造型师）；二是 开发者基础设施持续活跃，从 Codex 成本优化到 MCP 设计上下文，工具链层创新密集。值得注意的是，音乐生成平台 Eleven Labs 正式切入版权分润市场，标志着生成式 AI 的商业模式从&amp;quot;工具订阅&amp;quot;向&amp;quot;创作者经济&amp;quot;演进。 2. 热门产品 🤖 AI 智能体与助手 产品 数据 一句话说明 Interactive Simulations in Gemini — 官网Gemini now lets you play ...</description>
-      <content:encoded><![CDATA[<h1>Product Hunt AI 产品日报 2026-04-14</h1>
-<blockquote>
-<p>数据来源: <a href="https://www.producthunt.com/">Product Hunt</a> | 共 14 个产品 | 生成时间: 2026-04-14 00:16 UTC</p>
-</blockquote>
-<hr>
-<h1>Product Hunt AI 产品日报 · 2026-04-14</h1>
-<hr>
-<h2>1. 今日速览</h2>
-<p>今日 Product Hunt 共收录 14 款 AI 相关产品，头部效应显著：Google Gemini 的交互式模拟功能以 385 票领跑，金融与开发者工具紧随其后。整体趋势呈现两大特征：一是 <strong>AI 向终端场景深度渗透</strong>（个人 CFO、投资仪表盘、时尚造型师）；二是 <strong>开发者基础设施持续活跃</strong>，从 Codex 成本优化到 MCP 设计上下文，工具链层创新密集。值得注意的是，音乐生成平台 Eleven Labs 正式切入版权分润市场，标志着生成式 AI 的商业模式从&quot;工具订阅&quot;向&quot;创作者经济&quot;演进。</p>
-<hr>
-<h2>2. 热门产品</h2>
-<h3>🤖 AI 智能体与助手</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">数据</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Interactive Simulations in Gemini</a></strong> — <a href="https://www.producthunt.com/r/XS63JGHVTSXRSG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>Gemini now lets you play with the concepts you ask about</td>
-<td align="left">385 票 / 6 评论</td>
-<td align="left">将对话式 AI 升级为可交互的概念沙盒，用户能&quot;动手玩转&quot;抽象知识，突破传统问答的静态输出模式。</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>🛠️ 开发者工具</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">数据</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://www.producthunt.com/products/ray-7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Ray</a></strong> — <a href="https://www.producthunt.com/r/G3BLEM7JJPJ46U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>Your personal CFO in the terminal</td>
-<td align="left">282 票 / 37 评论</td>
-<td align="left">开源终端工具，将个人财务管理无缝嵌入开发者工作流，以命令行交互降低财务追踪的认知摩擦。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.producthunt.com/products/edgee?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Edgee Codex Compressor</a></strong> — <a href="https://www.producthunt.com/r/Z556YL2S7RXN7P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>Use Codex at 35.6% lower costs</td>
-<td align="left">160 票 / 14 评论</td>
-<td align="left">针对 OpenAI Codex 的输入压缩层，直接削减 35.6% 的 API 调用成本，直击 AI 编程规模化部署的痛点。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.producthunt.com/products/nicely-done?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Nicelydone MCP</a></strong> — <a href="https://www.producthunt.com/r/UYVNHPGPMLBRIH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>Design context for AI agents</td>
-<td align="left">132 票 / 4 评论</td>
-<td align="left">为 AI Agent 提供结构化设计上下文，解决多 Agent 协作中&quot;看不懂 UI/UX 意图&quot;的瓶颈。</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>📊 AI 应用（垂直场景）</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">数据</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://www.producthunt.com/products/r0y-ai-financial-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">R0Y</a></strong> — <a href="https://www.producthunt.com/r/DSEDKDA63PJNEZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>Natural language to Investing dashboards in seconds</td>
-<td align="left">199 票 / 9 评论</td>
-<td align="left">用自然语言秒级生成投资分析仪表盘，降低金融数据可视化的专业门槛。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.producthunt.com/products/layered-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Layered</a></strong> — <a href="https://www.producthunt.com/r/JEPNNIS2C3DUQE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>Turn your selfies into a personal AI stylist</td>
-<td align="left">134 票 / 12 评论</td>
-<td align="left">基于自拍生成个性化穿搭建议，将计算机视觉切入 C 端时尚决策链路。</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>🎨 创意与内容</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="left">数据</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://www.producthunt.com/products/music-marketplace-by-eleven-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Music Marketplace by Eleven Labs</a></strong> — <a href="https://www.producthunt.com/r/FG6HGARL7HKFLR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>Create a track. Publish it. Earn when it is used.</td>
-<td align="left">257 票 / 6 评论</td>
-<td align="left">首款集成&quot;生成—发布—分润&quot;闭环的 AI 音乐平台，重新定义生成式音频的创作者经济模型。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.producthunt.com/products/true-moments?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">True Moments</a></strong> — <a href="https://www.producthunt.com/r/QJJ5QJ3ICRHBAY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a><br>Watch your photos come alive with AI in seconds</td>
-<td align="left">14 票 / 1 评论</td>
-<td align="left">快速将静态照片转化为动态影像，瞄准回忆重现与社交媒体内容再生的情感需求。</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>🔧 基础设施与模型</h3>
-<p><em>本日无纯模型层/MLOps 独立产品进入前列，基础设施创新主要融合于开发者工具类别（如 Edgee、Nicelydone MCP）。</em></p>
-<hr>
-<h2>3. 市场信号</h2>
-<p>今日发布中，<strong>开发者工具与垂直 AI 应用</strong> 构成最密集的两大阵营，各占约 35% 与 30%。金融场景尤为突出：Ray（个人 CFO）、R0Y（投资仪表盘）同时进入前五，反映出 AI 对&quot;复杂决策平民化&quot;的渗透加速。创新性思路方面，<strong>Eleven Labs 的音乐交易市场</strong> 代表了生成式内容从&quot;效率工具&quot;到&quot;经济系统&quot;的跃迁；<strong>Gemini 的交互式模拟</strong> 则探索了对话 AI 的第三形态——超越问答与生成，进入可操作的&quot;概念实验空间&quot;。开源与闭源分布上，Ray、LLM-Citeops、LiquidGlass 明确标注开源，但高票数产品仍以闭源大厂（Google、Eleven Labs）为主导，开源项目更多集中在工具链与前端效果层。</p>
-<hr>
-<h2>4. 值得试用</h2>
-<table>
-<thead>
-<tr>
-<th align="left">排名</th>
-<th align="left">产品</th>
-<th align="left">理由</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">1</td>
-<td align="left"><strong>Ray</strong></td>
-<td align="left">开源 + 终端原生 + 个人财务管理的组合极为罕见，GitHub 星标增长潜力高，适合希望将日常工具 AI 化的开发者快速 fork 改造。</td>
-</tr>
-<tr>
-<td align="left">2</td>
-<td align="left"><strong>Edgee Codex Compressor</strong></td>
-<td align="left">若团队正在规模化使用 Codex，35.6% 的成本削减是可直接量化的 ROI，且属于&quot;即插即用&quot;型基础设施，集成风险极低。</td>
-</tr>
-<tr>
-<td align="left">3</td>
-<td align="left"><strong>Nicelydone MCP</strong></td>
-<td align="left">MCP（Model Context Protocol）生态正在快速成型，该产品填补了&quot;设计意图作为 Agent 上下文&quot;的空白，适合构建多 Agent 产品的团队提前验证。</td>
 </tr>
 </tbody></table>
 <hr>

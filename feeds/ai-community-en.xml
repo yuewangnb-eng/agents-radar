@@ -6,7 +6,123 @@
     <description>Tech Community AI Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-community-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 13 May 2026 04:37:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 04:35:23 +0000</lastBuildDate>
+    <item>
+      <title>Tech Community AI Digest 2026-05-14</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-14/ai-community-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-14/ai-community-en</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <description>Tech Community AI Digest 2026-05-14 Sources: Dev.to (30 articles) + Lobste.rs (8 stories) | Generated: 2026-05-14 00:25 UTC Tech Community AI Digest — May 14, 2026 1. Today&amp;#39;s Highlights MCP (Model Context Protocol) security and bloat dominates conversations, with developers scanning servers for vulnerabilities and debating whether agent skills are replacing the protocol entirely. Claude Code remains a lightning rod—one developer burned through $14,502 in a month, while others benchmark alter...</description>
+      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-05-14</h1>
+<blockquote>
+<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (8 stories) | Generated: 2026-05-14 00:25 UTC</p>
+</blockquote>
+<hr>
+<h1>Tech Community AI Digest — May 14, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>MCP (Model Context Protocol) security and bloat dominates conversations, with developers scanning servers for vulnerabilities and debating whether agent skills are replacing the protocol entirely. Claude Code remains a lightning rod—one developer burned through $14,502 in a month, while others benchmark alternatives and build &quot;skills&quot; to close agent feedback loops. Local AI setups are getting simpler with Docker Model Runner and Gemma 4 powering everything from J.A.R.V.I.S. clones to inspectable reasoning engines. Meanwhile, the gap between AI dashboards showing green and systems actually failing has developers questioning their observability stacks.</p>
+<hr>
+<h2>2. Dev.to Highlights</h2>
+<table>
+<thead>
+<tr>
+<th>Article</th>
+<th>Engagement</th>
+<th>Key Takeaway</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://dev.to/zenstack/how-to-save-bloated-mcp-with-code-mode-33e3">How to Save Bloated MCP with Code Mode</a></strong> — ZenStack</td>
+<td>31 reactions, 4 comments</td>
+<td>MCP isn&#39;t dead yet—&quot;code mode&quot; patterns can trim the fat as agents evolve beyond simple tool calling.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/aws/lambda-just-got-a-file-system-i-put-ai-agents-on-it-1ej8">Lambda Just Got a File System. I Put AI Agents on It.</a></strong> — Eric D Johnson</td>
+<td>19 reactions, 7 comments</td>
+<td>AWS Lambda&#39;s new ephemeral storage unlocks stateful agent patterns without leaving the serverless paradigm.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/thegdsks/i-asked-cursor-to-rename-a-function-it-sent-8400-tokens-i-checked-434h">I asked Cursor to rename a function. It sent 8,400 tokens. I checked.</a></strong> — GDS K S</td>
+<td>14 reactions, 3 comments</td>
+<td>Context window bloat is real—verify what your AI editor is actually shipping to the API.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/kelly_lewandowski_845215e/we-moved-daily-standups-into-slack-14c6">We moved daily standups into Slack</a></strong> — Kelly Lewandowski</td>
+<td>14 reactions, 1 comment</td>
+<td>AI-assisted async standups in Slack beat dedicated tools by reducing friction and meeting load.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/yvem/claude-code-isnt-the-only-game-in-town-3l5i">Claude Code Isn’t the Only Game in Town</a></strong> — Yves Jutard</td>
+<td>11 reactions, 1 comment</td>
+<td>Alternatives to Claude Code exist with distinct strengths—shop around before locking in.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/eyalb/six-claude-code-skills-that-close-the-ai-agent-feedback-loop-10bb">Six Claude Code Skills That Close the AI Agent Feedback Loop</a></strong> — Eyal Bukchin</td>
+<td>10 reactions, 0 comments</td>
+<td>Packaging domain knowledge as SKILL.md files teaches agents when and how to use specialized tools like mirrord.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/truong_bui_eaec3f963bbe21/we-scanned-50-mcp-servers-and-found-high-severity-bugs-in-atlassian-github-cloudflare-and-3a42">We scanned 50+ MCP servers and found HIGH-severity bugs in Atlassian, GitHub, Cloudflare, and Microsoft — here&#39;s what we learned</a></strong> — Truong Bui</td>
+<td>1 reaction, 1 comment</td>
+<td>MCP server security is dangerously immature—automated scanning reveals critical vulnerabilities in major vendors&#39; implementations.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/getburnd/i-lost-14502-to-claude-code-in-one-month-heres-the-autopsy-1n1n">I lost $14,502 to Claude Code in one month. Here&#39;s the autopsy.</a></strong> — Garvit Surana</td>
+<td>1 reaction, 0 comments</td>
+<td>Unmonitored agentic coding can rack up catastrophic API bills—budget alerts and token auditing are non-negotiable.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Lobste.rs Highlights</h2>
+<table>
+<thead>
+<tr>
+<th>Story</th>
+<th>Engagement</th>
+<th>Why Read</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://mojolang.org/releases/v1.0.0b1">Mojo v1.0.0b1</a></strong> — <a href="https://lobste.rs/s/zys8hd/mojo_v1_0_0b1">Discussion</a></td>
+<td>23 points, 0 comments</td>
+<td>The Python-compatible systems language for AI reaches beta—worth tracking if you care about ML infrastructure performance.</td>
+</tr>
+<tr>
+<td><strong><a href="https://knightcolumbia.org/content/ai-as-social-technology">AI as Social Technology</a></strong> — <a href="https://lobste.rs/s/vlpdgd/ai_as_social_technology">Discussion</a></td>
+<td>6 points, 2 comments</td>
+<td>Rare philosophical framing: AI&#39;s impact may be less about intelligence and more about reshaping social coordination.</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html">Training an LLM in Swift, Part 1: Taking matrix multiplication from Gflop/s to Tflop/s</a></strong> — <a href="https://lobste.rs/s/dqzo2u/training_llm_swift_part_1_taking_matrix">Discussion</a></td>
+<td>4 points, 0 comments</td>
+<td>Deep dive into optimizing Swift for serious ML workloads—surprisingly competitive with C++ when done right.</td>
+</tr>
+<tr>
+<td><strong><a href="https://github.com/jonghough/jlearn">jlearn: Machine Learning Library in J</a></strong> — <a href="https://lobste.rs/s/r8v2bx/jlearn_machine_learning_library_j">Discussion</a></td>
+<td>4 points, 0 comments</td>
+<td>Array-language J meets ML—concise, weird, and potentially enlightening for alternative approaches to tensor operations.</td>
+</tr>
+<tr>
+<td><strong><a href="https://jytan.net/blog/2025/transformer-architectures/">The Crystallization of Transformer Architectures (2017-2025)</a></strong> — <a href="https://lobste.rs/s/yrbywt/crystallization_transformer">Discussion</a></td>
+<td>1 point, 0 comments</td>
+<td>Historical synthesis of how transformer variants converged and diverged—useful for understanding what&#39;s actually novel in 2026.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>4. Community Pulse</h2>
+<p>Both communities are grappling with <strong>AI tool maturity and its costs</strong>—financial, security, and cognitive. Dev.to skews practical: developers sharing war stories about token bills, debugging agent behavior, and packaging reusable skills. Lobste.rs tilts toward systems and foundations: language design for AI workloads, performance optimization, and occasional philosophical reframing.</p>
+<p>A clear tension emerges between <strong>agent abstraction and control</strong>. Developers want AI coding tools that &quot;just work&quot; but are increasingly suspicious of black boxes—whether that&#39;s 8,400 tokens for a rename, hidden MCP vulnerabilities, or dashboards lying about system health. The response is a push toward <strong>inspectability and local-first alternatives</strong>: Gemma 4 running on-device, Docker Model Runner replacing cloud-dependent setups, tools to &quot;read an AI&#39;s thoughts before it speaks.&quot;</p>
+<p>Best practices are crystallizing around <strong>explicit context management</strong> (curating what agents see), <strong>security scanning of AI infrastructure</strong> (MCP servers as new attack surface), and <strong>cost guardrails</strong> (the $14,502 autopsy serving as community cautionary tale). The &quot;SKILL.md&quot; pattern for agent capabilities and &quot;code mode&quot; for MCP efficiency suggest developers are building conventions faster than vendors can standardize.</p>
+<hr>
+<h2>5. Worth Reading</h2>
+<p><strong><a href="https://dev.to/thegdsks/i-asked-cursor-to-rename-a-function-it-sent-8400-tokens-i-checked-434h">I asked Cursor to rename a function. It sent 8,400 tokens. I checked.</a></strong> — The most concrete, reproducible demonstration of context window waste I&#39;ve seen. Essential if you ship AI-assisted code and wonder where your budget went.</p>
+<p><strong><a href="https://dev.to/truong_bui_eaec3f963bbe21/we-scanned-50-mcp-servers-and-found-high-severity-bugs-in-atlassian-github-cloudflare-and-3a42">We scanned 50+ MCP servers and found HIGH-severity bugs in Atlassian, GitHub, Cloudflare, and Microsoft — here&#39;s what we learned</a></strong> — Short, alarming, and actionable. If you&#39;re connecting LLMs to external tools via MCP, this is your security briefing.</p>
+<p><strong><a href="https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html">Training an LLM in Swift, Part 1: Taking matrix multiplication from Gflop/s to Tflop/s</a></strong> — For the systems-curious: a masterclass in squeezing serious performance from an unexpected language, with techniques transferable beyond Swift.</p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Tech Community AI Digest 2026-05-13</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-13/ai-community-en</link>
@@ -3762,128 +3878,6 @@ An antidote to the productivity-obsessed discourse. Boykis argues for slowness, 
 <li><p><a href="https://dev.to/pranay_batta/mcp-at-scale-access-control-cost-governance-and-92-lower-token-costs-50jf"><strong>MCP at Scale: Access Control, Cost Governance, and 92% Lower Token Costs</strong></a> — The rare article that takes a buzzy protocol and grounds it in production economics and security architecture.</p>
 </li>
 <li><p><a href="https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact"><strong>How is your org/company measuring the impact of AI adoption?</strong></a> (<a href="https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact">discussion</a>) — The most grounded conversation of the day; if you&#39;re responsible for AI tooling decisions, the comments are likely worth more than any single article.</p>
-</li>
-</ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Tech Community AI Digest 2026-04-14</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-14/ai-community-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-14/ai-community-en</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Tech Community AI Digest 2026-04-14 Sources: Dev.to (30 articles) + Lobste.rs (3 stories) | Generated: 2026-04-14 00:16 UTC Tech Community AI Digest — April 14, 2026 1. Today&amp;#39;s Highlights Agent memory and context management dominate today&amp;#39;s discussions, with multiple deep dives into how AI agents forget, compact, and bind information across sessions. Developers are increasingly building practical tooling around this problem—from DIY persistent memory layers for Claude Code to external po...</description>
-      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-04-14</h1>
-<blockquote>
-<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (3 stories) | Generated: 2026-04-14 00:16 UTC</p>
-</blockquote>
-<hr>
-<h1>Tech Community AI Digest — April 14, 2026</h1>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>Agent memory and context management dominate today&#39;s discussions, with multiple deep dives into how AI agents forget, compact, and bind information across sessions. Developers are increasingly building practical tooling around this problem—from DIY persistent memory layers for Claude Code to external pointer patterns for context window overflow. Cost visibility and control also surface as a major theme, with engineers creating proxies and gateways to track per-model spend. Meanwhile, robotics and local AI agents continue to gain traction as accessible weekend projects, and the community shows growing skepticism toward AI-generated analytics and hiring narratives.</p>
-<hr>
-<h2>2. Dev.to Highlights</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>Article</th>
-<th>Engagement</th>
-<th>Key Takeaway</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td><strong><a href="https://dev.to/marcosomma/i-ran-500-more-agent-memory-experiments-the-real-problem-wasnt-recall-it-was-binding-24kc">I Ran 500 More Agent Memory Experiments. The Real Problem Wasn’t Recall. It Was Binding.</a></strong></td>
-<td>33 reactions, 13 comments</td>
-<td>Agent memory failures stem less from retrieving facts and more from correctly <em>binding</em> them to the right context, task, or entity.</td>
-</tr>
-<tr>
-<td>2</td>
-<td><strong><a href="https://dev.to/googleai/build-a-talking-robot-with-gemini-live-and-reachy-mini-20e2">Build a Talking Robot with Gemini Live and Reachy Mini</a></strong></td>
-<td>22 reactions, 0 comments</td>
-<td>A hands-on guide to building a real-time conversational desk robot using Gemini Live and open-source hardware.</td>
-</tr>
-<tr>
-<td>3</td>
-<td><strong><a href="https://dev.to/javz/turn-your-laptop-into-an-ai-agent-free-openclaw-telegram-setup-296f">Turn Your Laptop Into an AI Agent (Free OpenClaw + Telegram Setup)</a></strong></td>
-<td>17 reactions, 7 comments</td>
-<td>OpenClaw plus Telegram turns any laptop into a controllable AI agent without cloud costs or complex infrastructure.</td>
-</tr>
-<tr>
-<td>4</td>
-<td><strong><a href="https://dev.to/aws/ai-context-window-overflow-memory-pointer-fix-3akc">AI Context Window Overflow: Memory Pointer Fix</a></strong></td>
-<td>15 reactions, 0 comments</td>
-<td>The Memory Pointer Pattern solves silent agent failures by storing bulky tool outputs externally and passing references instead.</td>
-</tr>
-<tr>
-<td>5</td>
-<td><strong><a href="https://dev.to/yiyaoai/my-ai-coding-tools-were-running-up-a-tab-i-couldnt-see-so-i-fixed-that-1g67">&quot;My AI Coding Tools Were Running Up a Tab I Couldn&#39;t See — So I Fixed That&quot;</a></strong></td>
-<td>6 reactions, 2 comments</td>
-<td>A local AI proxy with per-model cost tracking brings much-needed financial visibility to AI-assisted development workflows.</td>
-</tr>
-<tr>
-<td>6</td>
-<td><strong><a href="https://dev.to/kanta13jp1/adding-persistent-memory-to-claude-code-with-claude-mem-plus-a-diy-lightweight-alternative-4gha">Adding Persistent Memory to Claude Code with claude-mem — Plus a DIY Lightweight Alternative</a></strong></td>
-<td>5 reactions, 1 comment</td>
-<td><code>claude-mem</code> and its DIY counterpart show how to stop Claude Code from forgetting everything between sessions.</td>
-</tr>
-<tr>
-<td>7</td>
-<td><strong><a href="https://dev.to/aws-builders/subagents-langchain-agents-as-tools-with-langfuse-using-aws-bedrock-nova-1ba0">SubAgents: Langchain Agents as Tools with Langfuse using AWS Bedrock Nova 🤖</a></strong></td>
-<td>5 reactions, 1 comment</td>
-<td>Breaking monolithic agents into smaller sub-agents improves reliability and observability when orchestrated with Langfuse.</td>
-</tr>
-<tr>
-<td>8</td>
-<td><strong><a href="https://dev.to/aws-builders/25-workflow-automation-and-process-agent-patterns-on-aws-you-can-steal-right-now-11oi">25 Workflow Automation and Process Agent Patterns on AWS You Can Steal Right Now</a></strong></td>
-<td>2 reactions, 0 comments</td>
-<td>A dense, practical catalog of AWS-based agentic automation patterns ready for production adaptation.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Lobste.rs Highlights</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>Story</th>
-<th>Engagement</th>
-<th>Why Read</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td><strong><a href="https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact">How is your org/company measuring the impact of AI adoption?</a></strong> (<a href="https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact">Discussion</a>)</td>
-<td>10 points, 2 comments</td>
-<td>A rare community check-in on whether organizations have moved past hype to actual, measured AI ROI.</td>
-</tr>
-<tr>
-<td>2</td>
-<td><strong><a href="https://www.anthropic.com/glasswing">Project Glasswing: Securing critical software for the AI era</a></strong> (<a href="https://lobste.rs/s/pgkwml/project_glasswing_securing_critical">Discussion</a>)</td>
-<td>6 points, 0 comments</td>
-<td>Anthropic&#39;s initiative to harden critical infrastructure software against AI-era risks and vulnerabilities.</td>
-</tr>
-<tr>
-<td>3</td>
-<td><strong><a href="https://rodneybrooks.com/predictions-scorecard-2026-january-01/">Predictions Scorecard, 2026 January 01</a></strong> (<a href="https://lobste.rs/s/1jkplq/predictions_scorecard_2026_january_01">Discussion</a>)</td>
-<td>2 points, 0 comments</td>
-<td>Rodney Brooks grades past AI predictions with characteristic rigor—a useful antidote to timeline optimism.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>4. Community Pulse</h2>
-<p>Developers across Dev.to and Lobste.rs are shifting from AI experimentation to <strong>operational craftsmanship</strong>: making agents reliable, observable, and affordable. Memory is the hottest sub-topic—not just storing it, but binding it, compacting it, and persisting it across sessions. Multiple posts tackle context window limits with architectural patterns rather than bigger models. Cost control has become a first-class concern, with engineers building proxies and gateways to surface hidden spend. On Lobste.rs, the tone is more skeptical, focusing on <strong>measurement, security, and prediction accountability</strong>. Tutorials lean heavily toward <strong>local and open-source stacks</strong> (Ollama, Groq, OpenClaw) rather than proprietary APIs. There&#39;s also a growing thread of <strong>multi-agent decomposition</strong>—breaking large agents into smaller, tool-like sub-agents for better maintainability. The community is maturing: less demo, more production hygiene.</p>
-<hr>
-<h2>5. Worth Reading</h2>
-<ol>
-<li><p><strong><a href="https://dev.to/marcosomma/i-ran-500-more-agent-memory-experiments-the-real-problem-wasnt-recall-it-was-binding-24kc">I Ran 500 More Agent Memory Experiments. The Real Problem Wasn’t Recall. It Was Binding.</a></strong> — Essential if you&#39;re building agents. Reframes the memory debate around a more precise technical problem.</p>
-</li>
-<li><p><strong><a href="https://dev.to/aws/ai-context-window-overflow-memory-pointer-fix-3akc">AI Context Window Overflow: Memory Pointer Fix</a></strong> — A practical pattern you can implement today to make agents more robust without waiting for 1M-token windows.</p>
-</li>
-<li><p><strong><a href="https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact">How is your org/company measuring the impact of AI adoption?</a></strong> (<a href="https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact">Discussion</a>) — Short but valuable for anyone navigating AI strategy conversations at work.</p>
 </li>
 </ol>
 <hr>

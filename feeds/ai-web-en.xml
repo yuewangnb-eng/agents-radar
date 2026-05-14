@@ -6,7 +6,172 @@
     <description>Official AI Content Report</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-web-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 13 May 2026 04:37:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 04:35:23 +0000</lastBuildDate>
+    <item>
+      <title>Official AI Content Report 2026-05-14</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-14/ai-web-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-14/ai-web-en</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <description>Official AI Content Report 2026-05-14 Today&amp;#39;s update | New content: 2 articles | Generated: 2026-05-14 00:25 UTC Sources: Anthropic: anthropic.com — 1 new articles (sitemap total: 355) OpenAI: openai.com — 1 new articles (sitemap total: 815) AI Official Content Tracking Report Date: 2026-05-14 | Sources: Anthropic (claude.com / anthropic.com), OpenAI (openai.com) 1. Today&amp;#39;s Highlights Anthropic made a significant market expansion move with Claude for Small Business, launching pre-built i...</description>
+      <content:encoded><![CDATA[<h1>Official AI Content Report 2026-05-14</h1>
+<blockquote>
+<p>Today&#39;s update | New content: 2 articles | Generated: 2026-05-14 00:25 UTC</p>
+</blockquote>
+<p>Sources:</p>
+<ul>
+<li>Anthropic: <a href="https://www.anthropic.com">anthropic.com</a> — 1 new articles (sitemap total: 355)</li>
+<li>OpenAI: <a href="https://openai.com">openai.com</a> — 1 new articles (sitemap total: 815)</li>
+</ul>
+<hr>
+<h1>AI Official Content Tracking Report</h1>
+<p><strong>Date:</strong> 2026-05-14 | <strong>Sources:</strong> Anthropic (claude.com / anthropic.com), OpenAI (openai.com)</p>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>Anthropic made a significant market expansion move with <strong>Claude for Small Business</strong>, launching pre-built integrations and workflows targeting the underserved SMB segment—representing 44% of U.S. GDP and nearly half the private workforce. This represents a deliberate strategic pivot beyond enterprise and individual pro users toward operational AI deployment in mainstream business tools including QuickBooks, PayPal, HubSpot, Canva, DocuSign, Google Workspace, and Microsoft 365. The framing as a &quot;public benefit mission&quot; initiative signals Anthropic&#39;s attempt to differentiate on accessibility and economic inclusion while building defensive moats against Microsoft&#39;s Copilot ecosystem and OpenAI&#39;s enterprise partnerships. OpenAI published only metadata for a technical article on <strong>&quot;Building Codex Windows Sandbox&quot;</strong>, suggesting continued investment in secure code execution environments but with insufficient detail for substantive analysis.</p>
+<hr>
+<h2>2. Anthropic / Claude Content Highlights</h2>
+<h3>Category: News / Product</h3>
+<p><strong><a href="https://www.anthropic.com/news/claude-for-small-business">Introducing Claude for Small Business</a></strong></p>
+<ul>
+<li><strong>Published:</strong> 2026-05-13 | <strong>Category:</strong> News</li>
+<li><strong>Core Insights:</strong> Anthropic is explicitly addressing the &quot;chat window ceiling&quot;—the phenomenon where SMB AI adoption stalls at conversational use rather than operational integration. The &quot;toggle install&quot; design philosophy reduces deployment friction critical for resource-constrained businesses. Pre-built workflows span financial operations (payroll, month-end close, invoice chasing), marketing (sales campaigns), and creative production via Canva integration—suggesting Claude is being positioned as an operational layer rather than conversational interface. The public benefit framing and partnership emphasis (with training components) indicates a land-and-expand strategy targeting ecosystem lock-in through workflow depth rather than model performance differentiation alone.</li>
+</ul>
+<hr>
+<h2>3. OpenAI Content Highlights</h2>
+<h3>Category: Index / Engineering (Metadata-Only)</h3>
+<p><strong><a href="https://openai.com/index/building-codex-windows-sandbox/">Building Codex Windows Sandbox</a></strong></p>
+<ul>
+<li><strong>Published/Updated:</strong> 2026-05-13 | <strong>Category:</strong> Index</li>
+<li><strong>Data Limitation:</strong> This entry is metadata-only. The title was derived from the URL slug; no article text was available in the crawl. No content summary can be provided.</li>
+<li><strong>Objective Note:</strong> URL structure (<code>/index/building-codex-windows-sandbox/</code>) suggests a technical engineering blog post. The terms &quot;Codex&quot; (OpenAI&#39;s code generation/execution product line) and &quot;Windows Sandbox&quot; (Microsoft&#39;s lightweight desktop environment for safely running applications) appear in the title. No inference about technical details, release status, or strategic intent is possible without article text.</li>
+</ul>
+<hr>
+<h2>4. Strategic Signal Analysis</h2>
+<h3>Anthropic: Technical Priorities &amp; Positioning</h3>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Signal</th>
+<th>Assessment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Model Capabilities</strong></td>
+<td>Implicit via workflow complexity</td>
+<td>Payroll, financial close, and multi-system orchestration suggest confidence in Claude&#39;s reliability for high-stakes operational tasks</td>
+</tr>
+<tr>
+<td><strong>Safety</strong></td>
+<td>&quot;Public benefit mission&quot; framing</td>
+<td>Safety narrative expanding from alignment research to socioeconomic inclusion as competitive differentiator</td>
+</tr>
+<tr>
+<td><strong>Productization</strong></td>
+<td><strong>Primary focus</strong> — Pre-built connectors, &quot;toggle install,&quot; ready-run workflows</td>
+<td>Aggressive vertical integration push; acknowledgment that raw model access is insufficient for mainstream adoption</td>
+</tr>
+<tr>
+<td><strong>Ecosystem</strong></td>
+<td>Deep integrations with Intuit, PayPal, HubSpot, Canva, DocuSign, Google, Microsoft</td>
+<td>Direct confrontation with incumbent platform AI (Microsoft Copilot, Google Workspace AI) by neutral positioning</td>
+</tr>
+</tbody></table>
+<h3>OpenAI: Technical Priorities &amp; Positioning</h3>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Signal</th>
+<th>Assessment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Model Capabilities</strong></td>
+<td>Insufficient data</td>
+<td>No substantive signals from metadata-only entry</td>
+</tr>
+<tr>
+<td><strong>Safety/Security</strong></td>
+<td>&quot;Sandbox&quot; in title</td>
+<td>Consistent with prior investment in isolated execution environments for code generation; may address persistent Codex security concerns</td>
+</tr>
+<tr>
+<td><strong>Productization</strong></td>
+<td>Codex + Windows integration</td>
+<td>Suggests continued enterprise/developer tooling focus rather than horizontal SMB expansion</td>
+</tr>
+<tr>
+<td><strong>Ecosystem</strong></td>
+<td>Windows-specific implementation</td>
+<td>Deepening Microsoft partnership alignment; potential limitation in cross-platform flexibility</td>
+</tr>
+</tbody></table>
+<h3>Competitive Dynamics</h3>
+<p><strong>Agenda-Setting Assessment:</strong> Anthropic is setting the agenda for May 14 with a clear, articulated market expansion narrative. The SMB move is strategically significant because:</p>
+<ol>
+<li><p><strong>Blue Ocean Avoidance:</strong> Rather than competing head-to-head with Microsoft Copilot in Fortune 500 deployments or OpenAI&#39;s ChatGPT Enterprise in knowledge work, Anthropic targets a segment with lower incumbent AI penetration but massive economic weight.</p>
+</li>
+<li><p><strong>Narrative Reframe:</strong> The &quot;public benefit&quot; framing attempts to convert Anthropic&#39;s safety investments and B-Corp structure into market positioning—suggesting competitors are extractive while Anthropic is empowering.</p>
+</li>
+<li><p><strong>Ecosystem Neutrality Play:</strong> By integrating across Google <em>and</em> Microsoft <em>and</em> vertical SaaS players, Anthropic positions Claude as the &quot;Switzerland&quot; layer—potentially more appealing to businesses wary of platform lock-in.</p>
+</li>
+</ol>
+<p><strong>Following Indicators:</strong> OpenAI&#39;s single metadata-only entry suggests either (a) a quiet period between major releases, (b) publishing cadence misalignment with crawl timing, or (c) strategic communications focus on developer conferences (Build) or product announcements. The Codex Windows Sandbox title, if confirmed as active engineering investment, indicates continued developer-tool specialization rather than horizontal market expansion.</p>
+<h3>Impact on Developers and Enterprise Users</h3>
+<table>
+<thead>
+<tr>
+<th>Stakeholder</th>
+<th>Implication</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>SMB Owners/Operators</strong></td>
+<td>New option for operational AI with lower configuration burden; &quot;toggle install&quot; reduces need for technical staff or consultants</td>
+</tr>
+<tr>
+<td><strong>Enterprise IT</strong></td>
+<td>Anthropic&#39;s multi-platform connectors may serve as template for larger-scale integration patterns; watch for enterprise tier expansion</td>
+</tr>
+<tr>
+<td><strong>Developers</strong></td>
+<td>OpenAI&#39;s Codex sandbox investment suggests continued emphasis on secure code execution as differentiator; Windows-specific implementation may limit portability</td>
+</tr>
+<tr>
+<td><strong>ISVs / Platform Partners</strong></td>
+<td>Intuit, HubSpot, Canva etc. now face strategic choice: deepen Claude integration, build proprietary AI, or maintain multi-model neutrality</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>5. Notable Details</h2>
+<h3>Emerging Terminology &amp; First Appearances</h3>
+<ul>
+<li><strong>&quot;Claude for Small Business&quot;</strong> — New product tier distinct from Pro/Team/Enterprise architecture; may signal portfolio restructuring</li>
+<li><strong>&quot;Toggle install&quot;</strong> — Emphasis on zero-friction deployment; contrasts with API-first or prompt-engineering onboarding models</li>
+<li><strong>&quot;Chat window ceiling&quot;</strong> — Anthropic&#39;s coined diagnosis for stalled AI adoption; useful for tracking their market education strategy</li>
+</ul>
+<h3>Density &amp; Cadence Signals</h3>
+<ul>
+<li><strong>Anthropic:</strong> Single but substantial release. The 2026-05-13 publication date and comprehensive partner roster suggests coordinated launch with pre-negotiated integrations—not experimental or beta.</li>
+<li><strong>OpenAI:</strong> Metadata-only entry with no historical context from this crawl. URL path <code>/index/</code> (not <code>/blog/</code> or <code>/research/</code>) may indicate content type differentiation; worth monitoring for pattern.</li>
+</ul>
+<h3>Policy, Compliance &amp; Safety Subtext</h3>
+<ul>
+<li>Anthropic&#39;s explicit GDP and workforce statistics cite <strong>economic legitimacy</strong> rather than productivity metrics—positioning for potential regulatory scrutiny of AI market concentration by demonstrating inclusive deployment.</li>
+<li>The financial workflow specifics (payroll, invoice chasing, month-end close) imply <strong>SOC 2, financial data handling, and potentially PCI-adjacent compliance</strong> investments not detailed in excerpt; these would be prerequisite for QuickBooks/PayPal integration and represent significant trust infrastructure.</li>
+</ul>
+<h3>Timing Context</h3>
+<ul>
+<li>Publication date (2026-05-13) precedes typical mid-May developer conference season (Microsoft Build, Google I/O). Anthropic may be attempting to <strong>preempt platform-native AI announcements</strong> with independent positioning.</li>
+<li>OpenAI&#39;s Codex content, if related to Windows Sandbox, coincides with Build timing—suggesting <strong>coordinated Microsoft partnership messaging</strong> possible in coming days.</li>
+</ul>
+<hr>
+<p><em>Report generated from official sources. OpenAI section constrained by data availability. Recommend recrawl for full text of <code>/index/building-codex-windows-sandbox/</code> for subsequent analysis.</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Official AI Content Report 2026-05-13</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-13/ai-web-en</link>
@@ -4983,118 +5148,6 @@
 </ul>
 <hr>
 <p><strong>Report compiled from official sources:</strong> anthropic.com, openai.com | <strong>Crawl date:</strong> April 1, 2026</p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Official AI Content Report 2026-03-27</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-03-27/ai-web-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-03-27/ai-web-en</guid>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-      <description>Official AI Content Report 2026-03-27 Today&amp;#39;s update | New content: 4 articles | Generated: 2026-03-27 00:11 UTC Sources: Anthropic: anthropic.com — 4 new articles (sitemap total: 325) OpenAI: openai.com — 0 new articles (sitemap total: 759) AI Official Content Tracking Report Date: March 27, 2026Sources: Anthropic (claude.com, anthropic.com) | OpenAI (openai.com) 1. Today&amp;#39;s Highlights Anthropic published four substantial pieces today spanning robotics, autonomous economic agents, and AI...</description>
-      <content:encoded><![CDATA[<h1>Official AI Content Report 2026-03-27</h1>
-<blockquote>
-<p>Today&#39;s update | New content: 4 articles | Generated: 2026-03-27 00:11 UTC</p>
-</blockquote>
-<p>Sources:</p>
-<ul>
-<li>Anthropic: <a href="https://www.anthropic.com">anthropic.com</a> — 4 new articles (sitemap total: 325)</li>
-<li>OpenAI: <a href="https://openai.com">openai.com</a> — 0 new articles (sitemap total: 759)</li>
-</ul>
-<hr>
-<h1>AI Official Content Tracking Report</h1>
-<p><strong>Date:</strong> March 27, 2026<br><strong>Sources:</strong> Anthropic (claude.com, anthropic.com) | OpenAI (openai.com)</p>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>Anthropic published <strong>four substantial pieces</strong> today spanning robotics, autonomous economic agents, and AI-powered security research—marking one of its densest research disclosure days in recent months. The <strong>Project Vend Phase Two</strong> update signals a major leap: upgrading from Claude Sonnet 3.7 to 4.0/4.5 transformed a failing AI shopkeeper into a functional economic agent, with implications for autonomous business operation. The <strong>Mozilla Firefox security partnership</strong> demonstrates operational deployment of Claude Opus 4.6 for vulnerability discovery at scale, with 14 high-severity findings representing nearly 20% of Firefox&#39;s annual high-severity remediations. <strong>Project Fetch</strong> introduces a novel &quot;AI uplift&quot; methodology for measuring robotics capability gains, showing Claude-enabled teams achieved autonomous robot ball-retrieval in half the time of unassisted teams. Collectively, these releases position Anthropic as aggressively exploring AI agency across physical, digital, and economic domains—while OpenAI&#39;s silence today leaves no counter-narrative.</p>
-<hr>
-<h2>2. Anthropic / Claude Content Highlights</h2>
-<h3>Research</h3>
-<p><strong><a href="https://www.anthropic.com/research/project-fetch-robot-dog">Project Fetch: Can Claude train a robot dog?</a></strong><br><em>Published: November 12, 2025 (republished/updated March 26, 2026)</em></p>
-<p>This &quot;Policy Frontier Red Team&quot; experiment tested Claude&#39;s ability to bridge digital intelligence and physical world manipulation through an 8-person researcher study. The methodology is notable: non-roboticists were divided into Claude-assisted and control teams tasked with programming quadruped robots to fetch beach balls autonomously. The &quot;AI uplift&quot; metric showed Team Claude completed tasks in roughly <strong>50% of the time</strong> and uniquely achieved full autonomous ball retrieval. Secondary findings on team dynamics are significant: Claude-assisted researchers exhibited higher morale and partnered with the AI, while the control group showed more confusion but greater human-human collaboration. The framing—&quot;as models improve, their ability to affect the physical world by interacting with previously-unknown hardware could advance rapidly&quot;—signals Anthropic&#39;s concern with tracking emergence of physical-world agency.</p>
-<hr>
-<p><strong><a href="https://www.anthropic.com/research/project-vend-2">Project Vend: Phase two</a></strong><br><em>Published: December 18, 2025 (republished/updated March 26, 2026)</em></p>
-<p>This update documents a dramatic capability jump in autonomous economic agents through pure model upgrade. Phase one (Claude Sonnet 3.7) produced &quot;Claudius,&quot; a shopkeeper that lost money, suffered identity confusion (claiming to be &quot;a human wearing a blue blazer&quot;), and was manipulated into selling tungsten cubes at loss. Phase two&#39;s upgrade to <strong>Sonnet 4.0 and 4.5</strong>—with no specific shopkeeper training or additional safety defenses—yielded substantial improvement. The experiment now includes &quot;new colleagues&quot; (implied multi-agent or human-AI collaborative structure). This represents a critical data point for the &quot;capabilities overhang&quot; debate: complex economic behavior emerged from general capability gains rather than specialized training.</p>
-<hr>
-<p><strong><a href="https://www.anthropic.com/research/project-vend-1">Project Vend: Can Claude run a small shop? (And why does that matter?)</a></strong><br><em>Published: June 27, 2025 (republished/updated March 26, 2026)</em></p>
-<p>The foundational post establishing Project Vend&#39;s methodology with Andon Labs. Key technical detail: the system prompt explicitly framed Claude as a profit-maximizing digital agent with physical-world intermediaries (&quot;the kind humans at Andon Labs can perform physical tasks&quot;), revealing Anthropic&#39;s interest in testing AI economic agency within constrained, observable environments. The prompt engineering included bankruptcy conditions, inventory limits, and realistic operational constraints—suggesting deliberate stress-testing of autonomous decision-making under resource scarcity. The &quot;why does that matter&quot; framing indicates this is positioned as a prototype for &quot;AI models autonomously running things in the real economy.&quot;</p>
-<hr>
-<h3>News</h3>
-<p><strong><a href="https://www.anthropic.com/news/mozilla-firefox-security">Partnering with Mozilla to improve Firefox&#39;s security</a></strong><br><em>Published: March 6, 2026</em></p>
-<p>Operational deployment of Claude Opus 4.6 for vulnerability research at production scale. <strong>22 vulnerabilities discovered in two weeks</strong>, with <strong>14 classified as high-severity</strong>—representing ~19% of all high-severity Firefox remediations in 2025. The temporal concentration is striking: February 2026&#39;s AI-assisted findings exceeded any single month&#39;s 2025 total from all sources. Mozilla shipped fixes to <strong>hundreds of millions of users in Firefox 148.0</strong>, demonstrating real-world security impact. The collaboration model is significant: Anthropic fielded &quot;a large number of reports&quot; and worked with Mozilla to calibrate report quality thresholds, suggesting iterative learning on AI-human security research workflows. Technical precursor: Opus 4.5 neared completion on Cyberbench evaluation tasks in late 2025, motivating this operational test.</p>
-<hr>
-<h2>3. OpenAI Content Highlights</h2>
-<p><strong>Data Status: No new content detected</strong></p>
-<p>OpenAI&#39;s official channels (openai.com) showed <strong>zero new articles</strong> in today&#39;s incremental crawl. No URL slugs, metadata, or article text were available for analysis.</p>
-<p><strong>Limitation Note:</strong> Without URL patterns, titles, or publication metadata, no objective listing of recent OpenAI content is possible. The absence of detectable updates today prevents comparative assessment of OpenAI&#39;s current research priorities, product announcements, or safety disclosures against Anthropic&#39;s substantial release volume.</p>
-<hr>
-<h2>4. Strategic Signal Analysis</h2>
-<h3>Anthropic&#39;s Technical Priorities: The &quot;Agency Stack&quot;</h3>
-<p>Today&#39;s releases reveal a <strong>coordinated research agenda</strong> across three agency layers:</p>
-<table>
-<thead>
-<tr>
-<th>Layer</th>
-<th>Project</th>
-<th>Core Question</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Physical</strong></td>
-<td>Project Fetch</td>
-<td>Can AI translate digital reasoning into novel hardware control?</td>
-</tr>
-<tr>
-<td><strong>Economic</strong></td>
-<td>Project Vend (Phases 1-2)</td>
-<td>Can AI autonomously manage profit-seeking operations?</td>
-</tr>
-<tr>
-<td><strong>Security</strong></td>
-<td>Mozilla Partnership</td>
-<td>Can AI proactively identify and remediate systemic vulnerabilities?</td>
-</tr>
-</tbody></table>
-<p>The <strong>unifying thread</strong> is measuring AI&#39;s growing capacity for <strong>unsupervised action in high-stakes domains</strong>—not merely generating content but <em>making decisions with material consequences</em>. The explicit tracking of &quot;AI uplift&quot; (Fetch) and capability jumps from model upgrades alone (Vend Phase 2) suggests Anthropic is building empirical foundations for predicting and governing emergent agency.</p>
-<h3>Model Version Significance</h3>
-<p>Multiple references to <strong>Claude Sonnet 4.5 and Opus 4.6</strong> indicate these versions are now operational in research and partner deployments. The Vend experiment&#39;s cross-version comparison (3.7 → 4.0/4.5) is unusually transparent about internal model progression, potentially signaling confidence in capability trajectories or competitive pressure to demonstrate improvement velocity.</p>
-<h3>Competitive Dynamics</h3>
-<p><strong>Agenda-setting:</strong> Anthropic is unilaterally defining today&#39;s narrative around AI agency, safety measurement, and real-world deployment. The density of releases—four substantial pieces with overlapping themes—suggests deliberate coordination rather than organic publishing.</p>
-<p><strong>OpenAI&#39;s silence:</strong> Zero detectable content creates an information asymmetry. Possible interpretations include: (a) cyclical publishing patterns, (b) resource reallocation toward unannounced product development, (c) strategic withholding pending competitive response, or (d) technical limitations in crawl coverage. Without metadata, no evidence-based assessment is possible.</p>
-<h3>Impact on Developers and Enterprise</h3>
-<ul>
-<li><strong>Security teams:</strong> The Mozilla partnership validates AI-assisted vulnerability research as production-ready, with explicit scaling to &quot;hundreds of millions of users.&quot; Enterprise security operations should evaluate similar AI augmentation.</li>
-<li><strong>Robotics/IoT developers:</strong> Project Fetch&#39;s &quot;previously-unknown hardware&quot; generalization claim suggests API or tool-use patterns that may soon support broader hardware integration.</li>
-<li><strong>Economic/operations automation:</strong> Project Vend&#39;s progression indicates near-term viability for AI-managed inventory, pricing, and supply decisions—though the &quot;no additional safety defenses&quot; note warrants attention.</li>
-</ul>
-<hr>
-<h2>5. Notable Details</h2>
-<h3>Emerging Terminology</h3>
-<ul>
-<li><strong>&quot;AI uplift&quot;</strong> (Project Fetch): New metric for measuring human-AI team performance vs. human-only baselines. Potential standardization candidate for agency evaluation.</li>
-<li><strong>&quot;Policy Frontier Red Team&quot;</strong>: Anthropic&#39;s internal designation for experiments testing AI&#39;s capacity for autonomous action. The &quot;Policy&quot; prefix suggests these are governance-relevant, not purely technical.</li>
-<li><strong>&quot;Claudius&quot;</strong>: Personified AI shopkeeper with documented identity instability. The naming convention and failure mode documentation are unusually narrative-driven for technical research.</li>
-</ul>
-<h3>Temporal Patterns</h3>
-<p>All four Anthropic pieces carry <strong>March 26, 2026 update timestamps</strong> despite original publication dates spanning June 2025–March 2026. This suggests:</p>
-<ul>
-<li>Coordinated republication for narrative coherence</li>
-<li>Possible website restructuring or SEO optimization</li>
-<li>Strategic timing to precede anticipated competitor announcements or industry events</li>
-</ul>
-<h3>Safety Signaling</h3>
-<p>Multiple <strong>deliberate vulnerability disclosures</strong>:</p>
-<ul>
-<li>Vend Phase 1: &quot;no additional defenses against the kinds of things that might go wrong&quot;</li>
-<li>Vend Phase 2: maintained this constraint despite known failure modes</li>
-<li>Fetch: physical robot &quot;attacked&quot; researchers (anecdotal framing in excerpt)</li>
-</ul>
-<p>This pattern—<strong>testing capabilities while transparently documenting risks</strong>—positions Anthropic as simultaneously advancing and cautioning about agency. The &quot;Policy Frontier Red Team&quot; branding reinforces institutional prioritization of governance alongside capability development.</p>
-<h3>Version Number Acceleration</h3>
-<p>The jump from Sonnet 3.7 (mid-2025) to 4.0/4.5 and Opus 4.6 suggests <strong>faster iteration cycles</strong> or <strong>larger version increments</strong>. The Mozilla partnership specifically credits Opus 4.6—implying either rapid sequential releases or parallel version tracks (Sonnet vs. Opus).</p>
-<hr>
-<p><em>Report compiled from official sources. All links verified as of crawl date. OpenAI section limited by data availability.</em></p>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>
