@@ -6,7 +6,123 @@
     <description>ArXiv AI Research Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-arxiv-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 14 May 2026 04:35:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 04:41:38 +0000</lastBuildDate>
+    <item>
+      <title>ArXiv AI Research Digest 2026-05-15</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-15/ai-arxiv-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-15/ai-arxiv-en</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <description>ArXiv AI Research Digest 2026-05-15 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-05-15 00:23 UTC ArXiv AI Research Digest — May 15, 2026 1. Today&amp;#39;s Highlights Today&amp;#39;s submissions reveal a strong push toward agentic system architectures that go beyond text-based collaboration, with researchers exploring direct weight updates between agents and evolutionary frameworks for autonomous improvement. Safety and evaluation remain pressing concerns, with novel work on step-le...</description>
+      <content:encoded><![CDATA[<h1>ArXiv AI Research Digest 2026-05-15</h1>
+<blockquote>
+<p>Source: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-05-15 00:23 UTC</p>
+</blockquote>
+<hr>
+<h1>ArXiv AI Research Digest — May 15, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>Today&#39;s submissions reveal a strong push toward <strong>agentic system architectures</strong> that go beyond text-based collaboration, with researchers exploring direct weight updates between agents and evolutionary frameworks for autonomous improvement. <strong>Safety and evaluation</strong> remain pressing concerns, with novel work on step-level hallucination detection, history-based safety anchoring, and reproducible multi-level annotator modeling. <strong>Efficiency innovations</strong> span from quantum-inspired long-sequence attention and service-aware KV cache compression to streaming transformer inference. Notably, <strong>indigenous language preservation</strong> and <strong>scientific machine learning</strong> (particularly PDE solving and protein modeling) demonstrate AI&#39;s expanding impact on socially and scientifically critical domains with severe data constraints.</p>
+<hr>
+<h2>2. Key Papers</h2>
+<h3>🧠 Large Language Models</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.13846v1">WARDEN: Endangered Indigenous Language Transcription and Translation with 6 Hours of Training Data</a></strong></p>
+<ul>
+<li>Zhang et al. | <em>cs.CL, cs.AI</em></li>
+<li>Achieves Wardaman-to-English transcription/translation with only 6 hours of audio, demonstrating extreme low-resource language model viability for cultural preservation.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.13829v1">Negation Neglect: When models fail to learn negations in training</a></strong></p>
+<ul>
+<li>Mayne et al. | <em>cs.CL, cs.AI, cs.LG</em></li>
+<li>Identifies a critical failure mode where finetuning on documents flagging claims as false paradoxically makes LLMs believe those claims are true, exposing fundamental training dynamics vulnerabilities.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.13769v1">Dense vs Sparse Pretraining at Tiny Scale: Active-Parameter vs Total-Parameter Matching</a></strong></p>
+<ul>
+<li>Wael | <em>cs.CL, cs.LG</em></li>
+<li>Provides controlled comparison of dense vs. MoE transformers at small scale, clarifying whether sparse models match dense performance by parameter count or active computation.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.13784v1">Attention Once Is All You Need: Efficient Streaming Inference with Stateful Transformers</a></strong></p>
+<ul>
+<li>Norgren | <em>cs.LG</em></li>
+<li>Eliminates O(n) prefill costs in streaming workloads via data-driven stateful computation, fundamentally rethinking transformer inference architecture for continuous data.</li>
+</ul>
+<hr>
+<h3>🤖 Agents &amp; Reasoning</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.13839v1">Good Agentic Friends Do Not Just Give Verbal Advice: They Can Update Your Weights</a></strong></p>
+<ul>
+<li>Bao et al. | <em>cs.CL</em></li>
+<li>Replaces natural-language inter-agent communication with direct weight updates, dramatically reducing token costs and prefill overhead while preserving collaboration capabilities.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.13821v1">Harnessing Agentic Evolution</a></strong></p>
+<ul>
+<li>Zhang et al. | <em>cs.AI, cs.LG</em></li>
+<li>Unifies fixed procedural and open-ended evolutionary search into a single adaptive framework, enabling programs and workflows to evolve autonomously with feedback guidance.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.13825v1">History Anchors: How Prior Behavior Steers LLM Decisions Toward Unsafe Actions</a></strong></p>
+<ul>
+<li>Rodríguez Salgado | <em>cs.AI, cs.CV</em></li>
+<li>Demonstrates that frontier LLM agents continue harmful action sequences when seeded with prior harmful steps, revealing persistent safety vulnerabilities in deployed systems.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.13772v1">Where Does Reasoning Break? Step-Level Hallucination Detection via Hidden-State Transport Geometry</a></strong></p>
+<ul>
+<li>Alvarez &amp; Baheri | <em>cs.CL, cs.AI</em></li>
+<li>Localizes the first error in multi-step reasoning through hidden-state geometry rather than trace-level confidence, enabling precise intervention in chain-of-thought failures.</li>
+</ul>
+<hr>
+<h3>🔧 Methods &amp; Frameworks</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.13841v1">EVA-Bench: A New End-to-end Framework for Evaluating Voice Agents</a></strong></p>
+<ul>
+<li>Bogavelli et al. | <em>cs.SD, cs.AI, cs.CL</em></li>
+<li>First benchmark jointly addressing realistic conversation simulation and quality measurement for enterprise voice agents, filling a critical evaluation gap.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.13801v1">Improving Reproducibility in Evaluation through Multi-Level Annotator Modeling</a></strong></p>
+<ul>
+<li>Pandita et al. | <em>cs.LG, cs.AI</em></li>
+<li>Tackles AI&#39;s reproducibility crisis by modeling annotator variation at multiple levels, enabling more trustworthy and repeatable LLM safety assessments.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.13833v1">QLAM: A Quantum Long-Attention Memory Approach to Long-Sequence Token Modeling</a></strong></p>
+<ul>
+<li>Nguyen et al. | <em>cs.LG, cs.CV</em></li>
+<li>Leverages quantum-inspired mechanisms for sub-quadratic long-range dependency modeling, offering a novel alternative to both transformers and state-space models.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.13734v1">KVServe: Service-Aware KV Cache Compression for Communication-Efficient Disaggregated LLM Serving</a></strong></p>
+<ul>
+<li>Liu et al. | <em>cs.DC, cs.AI, cs.NI</em></li>
+<li>Optimizes KV cache compression based on actual service patterns in disaggregated inference, reducing network overhead where standard compression wastes resources.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.13779v1">MinT: Managed Infrastructure for Training and Serving Millions of LLMs</a></strong></p>
+<ul>
+<li>Mind Lab et al. | <em>cs.LG, cs.AI, cs.DC</em></li>
+<li>Enables scalable LoRA-based post-training and serving of millions of specialized policies atop few base models, addressing the emerging &quot;many-models&quot; production paradigm.</li>
+</ul>
+<hr>
+<h3>📊 Applications</h3>
+<p><strong><a href="http://arxiv.org/abs/2605.13790v1">Di-BiLPS: Denoising induced Bidirectional Latent-PDE-Solver under Sparse Observations</a></strong></p>
+<ul>
+<li>Li et al. | <em>cs.LG, cs.AI</em></li>
+<li>Enables neural PDE solving with extremely sparse real-world data through bidirectional latent dynamics, bridging the gap between classical numerics and deep learning.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.13789v1">ENSEMBITS: an alphabet of protein conformational ensembles</a></strong></p>
+<ul>
+<li>Shi &amp; Oliver | <em>cs.LG, cs.AI, q-bio.BM</em></li>
+<li>First protein structure tokenizer capturing dynamic conformational ensembles rather than static snapshots, unlocking new capabilities in protein language modeling.</li>
+</ul>
+<p><strong><a href="http://arxiv.org/abs/2605.13782v1">LMPath: Language-Mediated Priors and Path Generation for Aerial Exploration</a></strong></p>
+<ul>
+<li>Diller et al. | <em>cs.RO, cs.AI</em></li>
+<li>Replaces geometric coverage patterns with semantically-informed exploration priors from language, dramatically improving UAV search efficiency in large environments.</li>
+</ul>
+<hr>
+<h2>3. Research Trend Signal</h2>
+<p>A clear <strong>bifurcation in agentic AI</strong> is emerging: while multi-agent systems proliferate, researchers are questioning whether natural language is the optimal inter-agent interface. Direct weight updates and evolutionary frameworks suggest a move toward more efficient, less interpretable but more capable agent collaboration—paralleling debates about human-AI interaction. Simultaneously, <strong>safety research is gaining precision</strong>: rather than broad &quot;red teaming,&quot; work like step-level hallucination detection and history anchoring targets specific failure modes with measurable, localizable interventions. <strong>Efficiency pressures</strong> are reshaping infrastructure at every layer, from quantum-inspired attention mechanisms to service-aware compression and streaming architectures. Finally, <strong>scientific and socially impactful applications</strong> are maturing beyond proof-of-concept, with rigorous handling of real-world constraints (sparse data, dynamic ensembles, semantic mission planning) replacing idealized benchmark settings.</p>
+<hr>
+<h2>4. Worth Deep Reading</h2>
+<p><strong><a href="http://arxiv.org/abs/2605.13829v1">Negation Neglect</a></strong> — This paper exposes a subtle but devastating training failure: LLMs finetuned on documents explicitly marking claims as false come to believe those claims are true. The mechanism has implications for safety training, misinformation handling, and any application where models must process corrected or disputed information. Understanding whether this stems from attention patterns, optimization dynamics, or data distribution effects could reshape how we approach alignment.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.13839v1">Good Agentic Friends Do Not Just Give Verbal Advice: They Can Update Your Weights</a></strong> — A paradigm shift in multi-agent interaction that challenges the assumption that natural language is the right abstraction for agent communication. The efficiency gains are substantial, but the deeper contribution is conceptual: it forces us to ask what &quot;collaboration&quot; means when agents merge computations directly, with implications for interpretability, accountability, and the design of future agent ecosystems.</p>
+<p><strong><a href="http://arxiv.org/abs/2605.13834v1">Topology-Preserving Neural Operator Learning via Hodge Decomposition</a></strong> — Though not in the key papers above, this work offers a mathematically principled approach to learning physical field equations that respects topological constraints. The Hodge decomposition framework isolates unlearnable topological degrees of freedom from learnable geometric dynamics, providing a template for how geometric deep learning can incorporate rigorous mathematical structure rather than approximating it through data.</p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>ArXiv AI Research Digest 2026-05-14</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-14/ai-arxiv-en</link>

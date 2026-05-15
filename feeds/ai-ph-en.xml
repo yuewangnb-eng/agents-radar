@@ -6,7 +6,121 @@
     <description>Product Hunt AI Products Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-ph-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 14 May 2026 04:35:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 04:41:38 +0000</lastBuildDate>
+    <item>
+      <title>Product Hunt AI Products Digest 2026-05-15</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-15/ai-ph-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-15/ai-ph-en</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <description>Product Hunt AI Products Digest 2026-05-15 Source: Product Hunt | 14 products | Generated: 2026-05-15 00:23 UTC Product Hunt AI Products Digest — May 15, 2026 1. Today&amp;#39;s Highlights Today&amp;#39;s Product Hunt featured a striking convergence of ambient AI memory and developer tooling around Claude Code. Memoket Gem leads with 459 votes, pioneering always-on wearable conversation memory—a bold bet on passive AI capture. Meanwhile, two Claude Code wrappers (Latitude and Claudy) cracked the top 10,...</description>
+      <content:encoded><![CDATA[<h1>Product Hunt AI Products Digest 2026-05-15</h1>
+<blockquote>
+<p>Source: <a href="https://www.producthunt.com/">Product Hunt</a> | 14 products | Generated: 2026-05-15 00:23 UTC</p>
+</blockquote>
+<hr>
+<h1>Product Hunt AI Products Digest — May 15, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>Today&#39;s Product Hunt featured a striking convergence of <strong>ambient AI memory</strong> and <strong>developer tooling around Claude Code</strong>. Memoket Gem leads with 459 votes, pioneering always-on wearable conversation memory—a bold bet on passive AI capture. Meanwhile, <strong>two Claude Code wrappers</strong> (Latitude and Claudy) cracked the top 10, signaling intense demand for better observability and session management in AI-native coding workflows. The &quot;vibe coding&quot; movement continues with CraftBot&#39;s &quot;Living UI&quot; concept. Notably, <strong>MCP (Model Context Protocol) infrastructure</strong> appeared twice (Apideck, Whisper), suggesting emergent standardization for AI-agent data access. Hardware made a rare appearance with Google&#39;s Gemini-optimized laptop, though engagement was modest relative to software launches.</p>
+<hr>
+<h2>2. Top Products by Category</h2>
+<h3>🤖 AI Agents &amp; Assistants</h3>
+<p><strong><a href="https://www.producthunt.com/products/memoket-gem?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Memoket Gem</a></strong> — An AI wearable that remembers your conversations all day</p>
+<ul>
+<li>Website: <a href="https://www.producthunt.com/r/UIMN4URVUICVGJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">https://www.producthunt.com/r/UIMN4URVUICVGJ</a></li>
+<li><strong>459 votes | 103 comments</strong></li>
+<li>Solves the &quot;forgetting problem&quot; of daily conversations with always-on wearable capture; stands out for hardware-AI integration and privacy-sensitive ambient memory.</li>
+</ul>
+<p><strong><a href="https://www.producthunt.com/products/pipali?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Pipali</a></strong> — An AI coworker for any computer work</p>
+<ul>
+<li>Website: <a href="https://www.producthunt.com/r/AAXVA27QHLNZGX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">https://www.producthunt.com/r/AAXVA27QHLNZGX</a></li>
+<li><strong>121 votes | 14 comments</strong></li>
+<li>General-purpose computer-use agent; stands out for open-source approach and cross-application automation beyond browser confines.</li>
+</ul>
+<hr>
+<h3>🛠️ Developer Tools</h3>
+<p><strong><a href="https://www.producthunt.com/products/latitude-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Latitude for Claude Code</a></strong> — See where Claude Code burns tokens. Hit your limits less.</p>
+<ul>
+<li>Website: <a href="https://www.producthunt.com/r/SQUMMFO54D7IZ2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">https://www.producthunt.com/r/SQUMMFO54D7IZ2</a></li>
+<li><strong>347 votes | 23 comments</strong></li>
+<li>Token observability for AI coding; stands out as the first dedicated cost-optimization layer for Claude Code&#39;s opaque API consumption.</li>
+</ul>
+<p><strong><a href="https://www.producthunt.com/products/claudy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Claudy</a></strong> — A proper home for Claude Code — multi-session, multi-account</p>
+<ul>
+<li>Website: <a href="https://www.producthunt.com/r/W6BLCVXARYZZA4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">https://www.producthunt.com/r/W6BLCVXARYZZA4</a></li>
+<li><strong>149 votes | 12 comments</strong></li>
+<li>Session and account management for Claude Code power users; stands out for treating AI coding as a production workflow needing proper workspace isolation.</li>
+</ul>
+<p><strong><a href="https://www.producthunt.com/products/apideck?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Apideck MCP Server</a></strong> — Give AI agents access to real-time data across 200+ apps</p>
+<ul>
+<li>Website: <a href="https://www.producthunt.com/r/Z5X3A5K7TNZXED?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">https://www.producthunt.com/r/Z5X3A5K7TNZXED</a></li>
+<li><strong>160 votes | 32 comments</strong></li>
+<li>Universal API gateway via MCP protocol; stands out for pre-built integrations that bypass custom connector development for agent data access.</li>
+</ul>
+<hr>
+<h3>📊 AI Applications</h3>
+<p><strong><a href="https://www.producthunt.com/products/frontdesk-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Frontdesk AI</a></strong> — AI COO to run your business like a Fortune 500 enterprise</p>
+<ul>
+<li>Website: <a href="https://www.producthunt.com/r/IBL3TVYYV5RNA7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">https://www.producthunt.com/r/IBL3TVYYV5RNA7</a></li>
+<li><strong>243 votes | 29 comments</strong></li>
+<li>Operational command center for SMBs; stands out for combining email, CRM, and process automation under a unified &quot;AI executive&quot; metaphor.</li>
+</ul>
+<p><strong><a href="https://www.producthunt.com/products/blaze-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Blaze 2.0</a></strong> — AI marketer for SMBs complete w/ strategy, content, and ads</p>
+<ul>
+<li>Website: <a href="https://www.producthunt.com/r/EUMWADF264GGP2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">https://www.producthunt.com/r/EUMWADF264GGP2</a></li>
+<li><strong>232 votes | 56 comments</strong></li>
+<li>End-to-end marketing automation; stands out for highest comment-to-vote ratio indicating active debate, and explicit strategy-to-execution coverage.</li>
+</ul>
+<hr>
+<h3>🎨 Creative &amp; Content</h3>
+<p><em>No strong representatives in today&#39;s launches.</em></p>
+<hr>
+<h3>🔧 Infrastructure &amp; Models</h3>
+<p><strong><a href="https://www.producthunt.com/products/craftbot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">CraftBot with Living UI</a></strong> — Grow your own software that is alive.</p>
+<ul>
+<li>Website: <a href="https://www.producthunt.com/r/KD55BIO53WF7SJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">https://www.producthunt.com/r/KD55BIO53WF7SJ</a></li>
+<li><strong>261 votes | 29 comments</strong></li>
+<li>Self-evolving software interface; stands out for &quot;Living UI&quot; concept where interface adapts organically to usage patterns rather than static design.</li>
+</ul>
+<p><strong><a href="https://www.producthunt.com/products/whisper-internet-infra-ai-context?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Whisper Internet Infra AI Context</a></strong> — Free MCP for security AI: live BGP, DNS, threat graph</p>
+<ul>
+<li>Website: <a href="https://www.producthunt.com/r/YG26DRBCNPUIK3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">https://www.producthunt.com/r/YG26DRBCNPUIK3</a></li>
+<li><strong>98 votes | 11 comments</strong></li>
+<li>Real-time security data via MCP; stands out for niche infrastructure focus and free tier for threat intelligence integration.</li>
+</ul>
+<hr>
+<h2>3. Market Signal</h2>
+<p><strong>Developer tooling dominates today&#39;s launches</strong>, capturing 5 of 14 spots and 2 of the top 3 positions. The concentration around <strong>Claude Code specifically</strong>—with Latitude (token tracking), Claudy (session management), and CraftBot (vibe coding)—reveals a maturation phase where base AI coding tools spawn an ecosystem of optimization and workflow layers. This mirrors historical patterns seen with VS Code extensions and GitHub Actions.</p>
+<p><strong>AI Applications</strong> (Frontdesk, Blaze) remain crowded but show <strong>horizontal consolidation</strong>: products now bundle multiple functions (strategy + execution) rather than single-point solutions. The absence of dedicated creative/content tools is notable—generative media may be saturated or migrating to platform-native features.</p>
+<p><strong>Open source is strongly represented</strong>: Pipali, Apideck, Gretl, and Whisper all emphasize open-source positioning, suggesting community-driven distribution as a viable go-to-market in AI tooling. MCP&#39;s dual appearance indicates <strong>emerging protocol standardization</strong> for agent-data interoperability—a critical infrastructure bet.</p>
+<p>The most innovative concept is <strong>ambient memory</strong> (Memoket Gem), though its hardware dependency creates execution risk. &quot;Living UI&quot; from CraftBot represents a genuinely novel interaction paradigm worth monitoring.</p>
+<hr>
+<h2>4. Worth Trying</h2>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Why Developers Should Try</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://www.producthunt.com/products/latitude-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Latitude for Claude Code</a></strong></td>
+<td>Token burn is opaque and expensive in Claude Code; this is the first dedicated observability tool. Essential if you&#39;re hitting rate limits or need to optimize AI coding costs.</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.producthunt.com/products/apideck?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Apideck MCP Server</a></strong></td>
+<td>Skip building custom integrations for your AI agents. 200+ pre-built app connections via MCP protocol dramatically reduces time-to-functionality for agent projects.</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.producthunt.com/products/gretl-control-panel-for-your-localhost?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Gretl</a></strong></td>
+<td>Lightweight, open-source localhost dashboard. Solves the daily friction of managing multiple local dev services with clean visual control—small quality-of-life improvement that compounds.</td>
+</tr>
+</tbody></table>
+<hr>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Product Hunt AI Products Digest 2026-05-14</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-14/ai-ph-en</link>
@@ -3849,124 +3963,6 @@ Website: <a href="https://www.producthunt.com/r/FJM4K3NC2D6N6V?utm_campaign=prod
 <tr>
 <td><strong>Ghost Pepper 🌶️</strong></td>
 <td>For anyone handling sensitive meetings or voice data, fully local TTS and transcription without cloud exposure is genuinely differentiated infrastructure.</td>
-</tr>
-</tbody></table>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Product Hunt AI Products Digest 2026-04-15</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-15/ai-ph-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-15/ai-ph-en</guid>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Product Hunt AI Products Digest 2026-04-15 Source: Product Hunt | 14 products | Generated: 2026-04-15 00:17 UTC Product Hunt AI Products Digest — April 15, 2026 1. Today&amp;#39;s Highlights Today&amp;#39;s Product Hunt AI launches reveal a strong tilt toward developer infrastructure and agent tooling, with nearly half the top products targeting coding workflows, memory, and sandboxing. Notably, persistent memory for AI agents and microVM-based secure execution are emerging as critical infrastructure la...</description>
-      <content:encoded><![CDATA[<h1>Product Hunt AI Products Digest 2026-04-15</h1>
-<blockquote>
-<p>Source: <a href="https://www.producthunt.com/">Product Hunt</a> | 14 products | Generated: 2026-04-15 00:17 UTC</p>
-</blockquote>
-<hr>
-<h1>Product Hunt AI Products Digest — April 15, 2026</h1>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>Today&#39;s Product Hunt AI launches reveal a strong tilt toward <strong>developer infrastructure and agent tooling</strong>, with nearly half the top products targeting coding workflows, memory, and sandboxing. Notably, <strong>persistent memory for AI agents</strong> and <strong>microVM-based secure execution</strong> are emerging as critical infrastructure layers. We also see two compliance-focused AI products breaking into the top tier—<strong>Cleo Labs</strong> and <strong>Legitify</strong>—suggesting enterprise demand for AI-automated legal and cross-border operations. Open source remains a dominant theme, appearing in 5 of the 14 launches. Overall, the day signals a maturation shift: less consumer AI novelty, more tooling to make AI agents production-ready.</p>
-<hr>
-<h2>2. Top Products by Category</h2>
-<h3>🤖 AI Agents &amp; Assistants</h3>
-<p><strong><a href="https://www.producthunt.com/products/clarm-ai-technical-support?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Clarm</a></strong> — AI inbound layer to capture, qualify, and route leads</p>
-<ul>
-<li><a href="https://www.producthunt.com/r/P2EMEE5GC4442W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
-<li><strong>137 votes | 18 comments</strong></li>
-<li>Automates lead qualification and routing with an AI frontline, reducing sales friction for inbound-heavy teams.</li>
-</ul>
-<p><strong><a href="https://www.producthunt.com/products/ghostdesk-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">GhostDesk</a></strong> — Your invisible AI co-pilot for interviews &amp; meetings</p>
-<ul>
-<li><a href="https://www.producthunt.com/r/H7HBBV5B76RGKN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
-<li><strong>91 votes | 7 comments</strong></li>
-<li>Offers discreet real-time assistance during interviews and meetings, positioning itself as a personal AI whisperer.</li>
-</ul>
-<hr>
-<h3>🛠️ Developer Tools</h3>
-<p><strong><a href="https://www.producthunt.com/products/skills-janitor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Skills Janitor</a></strong> — Find which Claude Code skills you actually use</p>
-<ul>
-<li><a href="https://www.producthunt.com/r/JCQPY7HBWEOUUQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
-<li><strong>216 votes | 15 comments</strong></li>
-<li>Solves skill bloat in Claude Code by surfacing actual usage patterns, helping developers prune and optimize their agent configurations.</li>
-</ul>
-<p><strong><a href="https://www.producthunt.com/products/contextpool?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">ContextPool</a></strong> — Persistent memory for AI coding agents</p>
-<ul>
-<li><a href="https://www.producthunt.com/r/2GYRK34MXQMSIE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
-<li><strong>165 votes | 25 comments</strong></li>
-<li>Gives coding agents long-term memory across sessions, addressing one of the biggest friction points in AI-assisted development.</li>
-</ul>
-<p><strong><a href="https://www.producthunt.com/products/superhq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">SuperHQ</a></strong> — Run AI coding agents in real microVM sandboxes</p>
-<ul>
-<li><a href="https://www.producthunt.com/r/PQ2WQSSVFJ52Z2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
-<li><strong>96 votes | 6 comments</strong></li>
-<li>Hardens AI agent execution with lightweight microVM isolation, a critical security layer for autonomous code generation.</li>
-</ul>
-<hr>
-<h3>📊 AI Applications</h3>
-<p><strong><a href="https://www.producthunt.com/products/cleo-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Cleo Labs</a></strong> — Automate global compliance for selling physical products</p>
-<ul>
-<li><a href="https://www.producthunt.com/r/AHD3EZDTM22CHD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
-<li><strong>255 votes | 28 comments</strong></li>
-<li>Tops today&#39;s leaderboard by automating complex cross-border product compliance, a traditionally manual and error-prone process.</li>
-</ul>
-<p><strong><a href="https://www.producthunt.com/products/legitify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Legitify</a></strong> — Compliant cross-border notarization, reimagined</p>
-<ul>
-<li><a href="https://www.producthunt.com/r/QTXWMDPLH5OCKC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
-<li><strong>103 votes | 6 comments</strong></li>
-<li>Streamlines international notarization with AI, targeting a high-friction legal workflow ripe for digitization.</li>
-</ul>
-<hr>
-<h3>🎨 Creative &amp; Content</h3>
-<p><strong><a href="https://www.producthunt.com/products/deckpipe-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">deckpipe.dev</a></strong> — agent-first slide renderer</p>
-<ul>
-<li><a href="https://www.producthunt.com/r/K3ZPEQQ7JYB3U3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
-<li><strong>90 votes | 3 comments</strong></li>
-<li>Reimagines presentation creation with an agent-native workflow, letting AI handle slide structure and rendering.</li>
-</ul>
-<p><strong><a href="https://www.producthunt.com/products/minicpm-4-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">VoxCPM2</a></strong> — Open-source 48kHz TTS with voice design and cloning</p>
-<ul>
-<li><a href="https://www.producthunt.com/r/HR6OQ2UY4GUL7M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
-<li><strong>117 votes | 4 comments</strong></li>
-<li>Delivers high-fidelity open-source text-to-speech with voice cloning, lowering the barrier for quality audio AI.</li>
-</ul>
-<hr>
-<h3>🔧 Infrastructure &amp; Models</h3>
-<p><strong><a href="https://www.producthunt.com/products/sigma-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">SigmaMind MCP</a></strong> — Build and control voice AI agents via MCP</p>
-<ul>
-<li><a href="https://www.producthunt.com/r/QGJKSO45Z6KGQN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Website</a></li>
-<li><strong>113 votes | 11 comments</strong></li>
-<li>Leverages the Model Context Protocol (MCP) to give developers fine-grained control over voice agent behavior and tooling.</li>
-</ul>
-<hr>
-<h2>3. Market Signal</h2>
-<p><strong>Developer tooling dominates</strong> today&#39;s launch landscape, accounting for roughly half of the featured products and the highest engagement. Within this, a clear sub-trend has crystallized: <strong>making AI agents more robust and production-ready</strong>. ContextPool (persistent memory), SuperHQ (sandboxed execution), and Skills Janitor (skill hygiene) each attack a different failure mode of current coding agents. This suggests the market is moving past demo-phase excitement and into reliability engineering.</p>
-<p><strong>Compliance and legal tech</strong> also made an unusually strong showing with Cleo Labs and Legitify—two vertically-focused, enterprise-oriented products that use AI to navigate regulatory complexity. This points to growing founder confidence in high-stakes, regulated domains.</p>
-<p>On the <strong>open-source vs. closed-source</strong> dimension, openness is a notable tailwind: Skills Janitor, ContextPool, Deconflict, and VoxCPM2 all carry open-source labels. However, the day&#39;s top vote-getter (Cleo Labs) is closed-source, indicating that <strong>open source drives developer enthusiasm but proprietary vertical solutions can still win broader market traction</strong>.</p>
-<p>One gap: <strong>consumer creative AI</strong> is relatively quiet today, with deckpipe.dev and VoxCPM2 as the main representatives. The energy is firmly in infrastructure and B2B applications.</p>
-<hr>
-<h2>4. Worth Trying</h2>
-<table>
-<thead>
-<tr>
-<th>Product</th>
-<th>Why Try It</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>ContextPool</strong></td>
-<td>If you&#39;re building or using AI coding agents, persistent memory is a genuine pain point—and this open-source tool directly addresses it with strong community engagement (25 comments).</td>
-</tr>
-<tr>
-<td><strong>SuperHQ</strong></td>
-<td>Security-minded developers should evaluate this microVM sandbox approach for running autonomous code; it&#39;s a pragmatic response to the risks of agent-generated execution.</td>
-</tr>
-<tr>
-<td><strong>Skills Janitor</strong></td>
-<td>A lightweight, open-source utility for Claude Code power users—easy to adopt, solves a real friction point, and signals where agent UX is heading.</td>
 </tr>
 </tbody></table>
 <hr>

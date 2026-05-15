@@ -6,7 +6,172 @@
     <description>Hacker News AI Community Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-hn-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 14 May 2026 04:35:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 04:41:38 +0000</lastBuildDate>
+    <item>
+      <title>Hacker News AI Community Digest 2026-05-15</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-15/ai-hn-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-15/ai-hn-en</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI Community Digest 2026-05-15 Source: Hacker News | 30 stories | Generated: 2026-05-15 00:23 UTC Hacker News AI Community Digest — May 15, 2026 1. Today&amp;#39;s Highlights Anthropic dominates today&amp;#39;s HN front page with Claude for Small Business sparking the largest discussion (502 points, 448 comments), while a remarkable story of Claude helping recover a $400K Bitcoin wallet after 11 years captivates the community. The OpenAI-Apple partnership shows signs of fracture amid Sam Alt...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-05-15</h1>
+<blockquote>
+<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-05-15 00:23 UTC</p>
+</blockquote>
+<hr>
+<h1>Hacker News AI Community Digest — May 15, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>Anthropic dominates today&#39;s HN front page with <strong>Claude for Small Business</strong> sparking the largest discussion (502 points, 448 comments), while a remarkable story of <strong>Claude helping recover a $400K Bitcoin wallet</strong> after 11 years captivates the community. The OpenAI-Apple partnership shows signs of fracture amid Sam Altman&#39;s growing GOP scrutiny ahead of OpenAI&#39;s anticipated IPO. Developer tooling sees significant churn: Codex arrives in ChatGPT mobile, but Anthropic simultaneously strips Agent SDK and <code>claude -p</code> from subscriptions—drawing mixed reactions. The community is notably engaged with Anthropic&#39;s business strategy shifts, showing both enthusiasm and skepticism about platform lock-in and pricing transparency.</p>
+<hr>
+<h2>2. Top News &amp; Discussions</h2>
+<h3>🔬 Models &amp; Research</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://poetiq.ai/posts/recursive_self_improvement_coding/"><strong>Recursive Self-Improvement Delivers New SOTA Coding Performance</strong></a> — <a href="https://news.ycombinator.com/item?id=48142776">HN Discussion</a></td>
+<td>7</td>
+<td>0</td>
+<td>Claims of recursive self-improvement achieving SOTA coding results; HN typically skeptical of such claims pending independent verification</td>
+</tr>
+<tr>
+<td><a href="https://www.anthropic.com/research/2028-ai-leadership"><strong>2028: Two scenarios for global AI leadership</strong></a> — <a href="https://news.ycombinator.com/item?id=48139587">HN Discussion</a></td>
+<td>7</td>
+<td>0</td>
+<td>Anthropic&#39;s strategic forecasting; community generally values long-term institutional thinking but questions self-interest in scenario planning</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2406.17737"><strong>LLM Targeted Underperformance Disproportionately Impacts Vulnerable Users</strong></a> — <a href="https://news.ycombinator.com/item?id=48136163">HN Discussion</a></td>
+<td>7</td>
+<td>3</td>
+<td>Raises equity concerns in LLM deployment; HN engages seriously with algorithmic fairness, though often debates measurement validity</td>
+</tr>
+</tbody></table>
+<h3>🛠️ Tools &amp; Engineering</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://openai.com/index/work-with-codex-from-anywhere/"><strong>Codex is now in the ChatGPT mobile app</strong></a> — <a href="https://news.ycombinator.com/item?id=48140529">HN Discussion</a></td>
+<td>135</td>
+<td>56</td>
+<td>Expands coding agent accessibility; community excited about mobile workflows but concerned about subscription costs and rate limits</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anthropics/claude-for-legal"><strong>Claude for Legal</strong></a> — <a href="https://news.ycombinator.com/item?id=48141234">HN Discussion</a></td>
+<td>62</td>
+<td>65</td>
+<td>Anthropic&#39;s vertical expansion into legal tech; HN debates whether this represents genuine specialization or marketing positioning</td>
+</tr>
+<tr>
+<td><a href="https://www.synthesia.io/post/automating-code-security-reviews-with-claude-mythos-level-capabilities"><strong>Automating code security review: Mythos-level capabilities at lower cost</strong></a> — <a href="https://news.ycombinator.com/item?id=48133738">HN Discussion</a></td>
+<td>7</td>
+<td>0</td>
+<td>Practical application of Anthropic&#39;s security research; developers appreciate concrete tooling over abstract capability claims</td>
+</tr>
+</tbody></table>
+<h3>🏢 Industry News</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://www.anthropic.com/news/claude-for-small-business"><strong>Claude for Small Business</strong></a> — <a href="https://news.ycombinator.com/item?id=48130950">HN Discussion</a></td>
+<td>502</td>
+<td>448</td>
+<td>Anthropic&#39;s SMB push signals market segmentation strategy; massive comment volume reflects both interest and concern about pricing, features, and competitive positioning vs. OpenAI</td>
+</tr>
+<tr>
+<td><a href="https://www.tomshardware.com/tech-industry/cryptocurrency/bitcoin-trader-recovers-usd400-000-using-claude-ai-after-losing-wallet-password-11-years-ago-bot-tried-3-5-trillion-passwords-before-decrypting-an-old-wallet-backup"><strong>Bitcoin trader recovers wallet with help of Claude</strong></a> — <a href="https://news.ycombinator.com/item?id=48136240">HN Discussion</a></td>
+<td>316</td>
+<td>167</td>
+<td>Compelling demonstration of AI-assisted cryptography; community split between celebrating capability and warning about security theater and survivorship bias</td>
+</tr>
+<tr>
+<td><a href="https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d"><strong>Sam Altman&#39;s Business Dealings Under GOP Scrutiny Ahead of OpenAI&#39;s IPO</strong></a> — <a href="https://news.ycombinator.com/item?id=48134429">HN Discussion</a></td>
+<td>191</td>
+<td>151</td>
+<td>Political risk factor for OpenAI public offering; HN discusses governance concerns, Altman&#39;s complex deal structures, and regulatory capture narratives</td>
+</tr>
+<tr>
+<td><a href="https://www.anthropic.com/news/gates-foundation-partnership"><strong>Anthropic forms $200M partnership with the Gates Foundation</strong></a> — <a href="https://news.ycombinator.com/item?id=48136662">HN Discussion</a></td>
+<td>117</td>
+<td>95</td>
+<td>Philanthropic alignment for global health applications; community generally positive on public-interest partnerships but questions measurement of impact</td>
+</tr>
+<tr>
+<td><a href="https://www.bloomberg.com/news/articles/2026-05-14/openai-apple-partnership-frays-setting-up-possible-legal-fight"><strong>Apple-OpenAI Relationship Frays, Setting Up Possible Legal Fight</strong></a> — <a href="https://news.ycombinator.com/item?id=48138009">HN Discussion</a></td>
+<td>58</td>
+<td>30</td>
+<td>Major platform partnership under strain; developers watch for implications on iOS AI integration and Apple&#39;s alternative strategy</td>
+</tr>
+</tbody></table>
+<h3>💬 Opinions &amp; Debates</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://twitter.com/josevalim/status/2054887621336174799"><strong>The Whole Anthropic Kerfuffle</strong></a> — <a href="https://news.ycombinator.com/item?id=48134869">HN Discussion</a></td>
+<td>61</td>
+<td>78</td>
+<td>José Valim&#39;s thread on recent Anthropic controversies; high engagement reflects community appetite for insider/technical perspectives on company drama</td>
+</tr>
+<tr>
+<td><a href="https://news.ycombinator.com/item?id=48134808"><strong>Claude Account Suspended Seconds After Purchase?</strong></a> — <a href="https://news.ycombinator.com/item?id=48134808">HN Discussion</a></td>
+<td>69</td>
+<td>43</td>
+<td>User reports immediate account termination; HN sympathetic to individual experience, uses as data point for broader platform trust concerns</td>
+</tr>
+<tr>
+<td><a href="https://brianmeeker.me/2026/05/14/have-a-coherent-ai-policy/"><strong>Have a Coherent AI Policy</strong></a> — <a href="https://news.ycombinator.com/item?id=48142553">HN Discussion</a></td>
+<td>8</td>
+<td>0</td>
+<td>Practitioner guidance on organizational AI governance; typically resonates with HN&#39;s engineering-manager demographic seeking actionable frameworks</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Community Sentiment Signal</h2>
+<p>Today&#39;s HN AI discourse is <strong>intensely Anthropic-centric</strong>, with the company commanding disproportionate mindshare through both deliberate product moves and user-reported friction. The 448-comment explosion on Claude for Small Business—combined with parallel threads on account suspensions, subscription stripping, and &quot;the whole kerfuffle&quot;—reveals a community <strong>simultaneously excited by Anthropic&#39;s capabilities and wary of its business practices</strong>. This duality mirrors historical OpenAI skepticism but accelerated.</p>
+<p>The <strong>Bitcoin wallet recovery story</strong> (316 points) serves as Rorschach test: optimists see AI augmenting human problem-solving at remarkable scale; pessimists note the 3.5 trillion attempts required and wonder about energy costs and false-positive rates. </p>
+<p>Compared to prior cycles, there&#39;s a <strong>notable shift from model capability discourse toward platform economics and trust</strong>. Less discussion of benchmarks, more of pricing, account policies, and corporate governance. The OpenAI-Apple fracture and Altman&#39;s GOP scrutiny suggest <strong>maturation concerns</strong>—the industry is no longer judged purely on technical merit but on institutional stability. Developer tooling churn (Codex mobile, Claude SDK removals) generates anxiety about building on shifting platforms.</p>
+<p>DeepMind&#39;s unionization vote over military AI (14 points, minimal engagement) is surprisingly quiet—possibly indicating HN&#39;s ambivalence about labor organizing in tech, or simply crowded out by Anthropic noise.</p>
+<hr>
+<h2>4. Worth Deep Reading</h2>
+<ol>
+<li><p><strong><a href="https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d">Sam Altman&#39;s Business Dealings Under GOP Scrutiny</a></strong> — Essential for anyone tracking OpenAI&#39;s path to public markets. The WSJ&#39;s reporting on Altman&#39;s personal investment structures and potential conflicts of interest may presage broader governance reforms in AI companies seeking institutional capital. The GOP angle adds unpredictable political dimension to what might otherwise be standard pre-IPO due diligence.</p>
+</li>
+<li><p><strong><a href="https://www.tomshardware.com/tech-industry/cryptocurrency/bitcoin-trader-recovers-usd400-000-using-claude-ai-after-losing-wallet-password-11-years-ago-bot-tried-3-5-trillion-passwords-before-decrypting-an-old-wallet-backup">Bitcoin trader recovers wallet with help of Claude</a></strong> — Despite tabloid framing, the technical methodology merits study for security researchers and AI practitioners. The scale of brute-force attempted, the specific prompting strategies employed, and the cryptographic assumptions tested offer concrete data on LLM-assisted penetration testing boundaries. Read critically for survivorship bias, but the case study is unique.</p>
+</li>
+<li><p><strong><a href="https://arxiv.org/abs/2406.17737">LLM Targeted Underperformance Disproportionately Impacts Vulnerable Users</a></strong> — Under-discussed relative to its importance. As AI systems deploy globally, understanding how model performance varies across user demographics—and whether commercial incentives systematically under-serve less profitable populations—becomes critical infrastructure knowledge. The paper&#39;s methodology for detecting &quot;targeted underperformance&quot; offers tools for responsible deployment auditing.</p>
+</li>
+</ol>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Hacker News AI Community Digest 2026-05-14</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-14/ai-hn-en</link>
@@ -4811,164 +4976,6 @@ Score: 10 | Comments: 2</p>
 </li>
 <li><p><strong><a href="https://entropicthoughts.com/hazardous-states-and-accidents">Hazardous States and Accidents</a></strong> — <a href="https://news.ycombinator.com/item?id=47774996">HN</a>
 <em>A quieter, more technical piece on AI safety and system failure modes. For researchers and engineers concerned with robustness, it offers conceptual depth absent from the headline-driven debates elsewhere on the front page.</em></p>
-</li>
-</ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI Community Digest 2026-04-15</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-15/ai-hn-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-15/ai-hn-en</guid>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI Community Digest 2026-04-15 Source: Hacker News | 30 stories | Generated: 2026-04-15 00:17 UTC Hacker News AI Community Digest — April 15, 2026 1. Today&amp;#39;s Highlights The Hacker News AI community is heavily focused on Anthropic and Claude Code today, with multiple front-page threads covering new features, outages, and growing user frustration over perceived quality degradation. The top story by a wide margin is Claude Code Routines (371 points, 237 comments), indicating strong ...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-04-15</h1>
-<blockquote>
-<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-04-15 00:17 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI Community Digest — April 15, 2026</h1>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>The Hacker News AI community is heavily focused on <strong>Anthropic and Claude Code</strong> today, with multiple front-page threads covering new features, outages, and growing user frustration over perceived quality degradation. The top story by a wide margin is Claude Code Routines (371 points, 237 comments), indicating strong interest in agentic coding workflows. Simultaneously, users are actively debating whether Anthropic is &quot;nerfing&quot; Claude, with GitHub issues quantifying regressions gaining traction. OpenAI also features prominently through cybersecurity initiatives, an internal competitive memo, and its acquisition of personal finance startup Hiro. Overall sentiment is <strong>cautiously excited about tooling advances but increasingly skeptical about model consistency and corporate maneuvering</strong>.</p>
-<hr>
-<h2>2. Top News &amp; Discussions</h2>
-<h3>🔬 Models &amp; Research</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://code.claude.com/docs/en/routines">Claude Code Routines</a></strong> — <a href="https://news.ycombinator.com/item?id=47768133">HN Discussion</a></td>
-<td>371</td>
-<td>237</td>
-<td>Anthropic&#39;s push into repeatable agentic workflows is seen as a major productivity unlock, though comments likely debate reliability and vendor lock-in.</td>
-</tr>
-<tr>
-<td><strong><a href="https://github.com/anthropics/claude-code/issues/46935">Quantified evidence: Sonnet 4.6 quality regression</a></strong> — <a href="https://news.ycombinator.com/item?id=47762664">HN Discussion</a></td>
-<td>4</td>
-<td>4</td>
-<td>A data-driven GitHub issue alleging model degradation; emblematic of growing community distrust in opaque model updates.</td>
-</tr>
-<tr>
-<td><strong><a href="https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return">Researchers Asked LLMs for Strategic Advice. They Got &quot;Trendslop&quot; in Return</a></strong> — <a href="https://news.ycombinator.com/item?id=47771886">HN Discussion</a></td>
-<td>4</td>
-<td>1</td>
-<td>Academic validation of a common HN critique: LLMs recycle consensus thinking rather than generate genuine strategic insight.</td>
-</tr>
-</tbody></table>
-<h3>🛠️ Tools &amp; Engineering</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://twitter.com/sthiven_r/status/2043992488109899849">Downgrading Claude Code and changing one global setting fixes model reasoning</a></strong> — <a href="https://news.ycombinator.com/item?id=47769879">HN Discussion</a></td>
-<td>7</td>
-<td>0</td>
-<td>A grassroots workaround for perceived reasoning degradation; reflects the community&#39;s engineering-first response to product issues.</td>
-</tr>
-<tr>
-<td><strong><a href="https://github.com/zuzuleinen/algotutor/">Show HN: A Claude Code–driven tutor for learning algorithms in Go</a></strong> — <a href="https://news.ycombinator.com/item?id=47768728">HN Discussion</a></td>
-<td>4</td>
-<td>0</td>
-<td>Illustrates how developers are building educational tooling on top of Claude Code, extending it beyond pure software engineering.</td>
-</tr>
-<tr>
-<td><strong><a href="https://github.com/openai/codex/issues/17809">OpenAI Codex Compaction Failing</a></strong> — <a href="https://news.ycombinator.com/item?id=47768745">HN Discussion</a></td>
-<td>4</td>
-<td>1</td>
-<td>A technical bug report highlighting ongoing engineering rough edges in OpenAI&#39;s competing coding agent product.</td>
-</tr>
-</tbody></table>
-<h3>🏢 Industry News</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://openai.com/index/scaling-trusted-access-for-cyber-defense/">Trusted access for the next era of cyber defense</a></strong> — <a href="https://news.ycombinator.com/item?id=47770770">HN Discussion</a></td>
-<td>50</td>
-<td>39</td>
-<td>OpenAI&#39;s cybersecurity initiative; moderate engagement with likely skepticism about AI companies positioning themselves as security gatekeepers.</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.bloomberg.com/news/articles/2026-04-14/us-treasury-seeking-access-to-anthropic-s-mythos-to-find-flaws">US Treasury Seeking Access to Anthropic&#39;s Mythos to Find Flaws</a></strong> — <a href="https://news.ycombinator.com/item?id=47765872">HN Discussion</a></td>
-<td>17</td>
-<td>7</td>
-<td>Regulatory scrutiny of Anthropic&#39;s financial-analysis model signals escalating government interest in AI risk assessment.</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.theverge.com/ai-artificial-intelligence/911118/openai-memo-cro-ai-competition-anthropic">OpenAI&#39;s internal memo about beating the competition</a></strong> — <a href="https://news.ycombinator.com/item?id=47768413">HN Discussion</a></td>
-<td>6</td>
-<td>3</td>
-<td>Leaked competitive strategy memo; low comment volume but indicative of intensifying OpenAI-Anthropic rivalry.</td>
-</tr>
-<tr>
-<td><strong><a href="https://news.sky.com/story/sam-altman-man-charged-with-attempting-to-murder-openai-boss-13531548">Sam Altman: Man charged with attempting to murder OpenAI boss</a></strong> — <a href="https://news.ycombinator.com/item?id=47761616">HN Discussion</a></td>
-<td>14</td>
-<td>3</td>
-<td>A disturbing real-world escalation; the community&#39;s restrained engagement suggests discomfort with tabloid-adjacent security news.</td>
-</tr>
-</tbody></table>
-<h3>💬 Opinions &amp; Debates</h3>
-<table>
-<thead>
-<tr>
-<th>Title</th>
-<th>Score</th>
-<th>Comments</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://news.ycombinator.com/item?id=47770115">Ask HN: Are Web Agencies Cooked?</a></strong> — <a href="https://news.ycombinator.com/item?id=47770115">HN Discussion</a></td>
-<td>7</td>
-<td>6</td>
-<td>Direct anxiety about AI&#39;s displacement of creative services work; a recurring HN theme with genuinely uncertain conclusions.</td>
-</tr>
-<tr>
-<td><strong><a href="https://venturebeat.com/technology/is-anthropic-nerfing-claude-users-increasingly-report-performance">Is Anthropic &#39;nerfing&#39; Claude? Users increasingly report performance degradation</a></strong> — <a href="https://news.ycombinator.com/item?id=47767482">HN Discussion</a></td>
-<td>7</td>
-<td>0</td>
-<td>A media amplification of community complaints; zero comments suggests either agreement or fatigue with the narrative.</td>
-</tr>
-<tr>
-<td><strong><a href="https://fortune.com/2026/04/14/ai-backlash-revolutionary-sam-altman-molotov-cocktails-data-centers/">The AI backlash is turning revolutionary (Fortune)</a></strong> — <a href="https://news.ycombinator.com/item?id=47772434">HN Discussion</a></td>
-<td>3</td>
-<td>1</td>
-<td>Physical protests against AI infrastructure; early-stage discussion of whether societal resistance is intensifying beyond online discourse.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Community Sentiment Signal</h2>
-<p>Today&#39;s HN AI discussions are <strong>dominated by Anthropic</strong>, with Claude Code generating both the highest enthusiasm and the sharpest criticism. The 371-point Routines thread shows genuine developer interest in agentic automation, but it sits uneasily alongside multiple threads alleging model degradation, billing issues, and outages. This creates a <strong>bifurcated sentiment</strong>: excitement for the product direction, frustration with execution and transparency.</p>
-<p>OpenAI threads are more scattered—corporate strategy, cybersecurity, acquisitions, and even personal security threats—suggesting the community views OpenAI less as a pure engineering concern and more as a <strong>political-economic actor</strong> to be monitored. There is no single hot technical release from OpenAI capturing developer imagination today.</p>
-<p>A notable shift from prior cycles is the <strong>quantification of model regression</strong> via GitHub issues rather than anecdotal complaints. This signals a maturing, more empirically demanding user base. The &quot;trendslop&quot; article and web agency Ask HN both point to <strong>growing skepticism about AI as a substitute for human judgment and craft</strong>, even as developers eagerly adopt the tooling. Compared to peak hype periods, today&#39;s mood is <strong>pragmatic, slightly cynical, and product-fatigued</strong>.</p>
-<hr>
-<h2>4. Worth Deep Reading</h2>
-<ol>
-<li><p><strong><a href="https://code.claude.com/docs/en/routines">Claude Code Routines documentation</a></strong> — With 237 comments, this is where the working developer conversation is happening. The discussion likely contains real-world usage patterns, failure modes, and architectural debates that won&#39;t make it into official docs.</p>
-</li>
-<li><p><strong><a href="https://github.com/anthropics/claude-code/issues/46935">Quantified evidence: Sonnet 4.6 quality regression (GitHub issue)</a></strong> — A rare data-driven user complaint about model behavior change. Essential reading for anyone building production systems on rapidly updated LLMs, and a template for how to pressure-test vendor claims.</p>
-</li>
-<li><p><strong><a href="https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return">Researchers Asked LLMs for Strategic Advice. They Got &quot;Trendslop&quot; in Return</a></strong> — Important corrective for researchers and founders treating LLM outputs as strategic intelligence. The concept of &quot;trendslop&quot; is likely to enter the critical lexicon.</p>
 </li>
 </ol>
 <hr>
