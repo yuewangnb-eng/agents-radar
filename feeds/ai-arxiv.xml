@@ -6,7 +6,203 @@
     <description>ArXiv AI 研究日报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-arxiv.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 15 May 2026 04:41:38 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 04:22:33 +0000</lastBuildDate>
+    <item>
+      <title>ArXiv AI 研究日报 2026-05-16</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-16/ai-arxiv</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-16/ai-arxiv</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+      <description>ArXiv AI 研究日报 2026-05-16 数据来源: ArXiv (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-05-16 00:20 UTC ArXiv AI 研究日报 | 2026-05-16 今日速览 今日ArXiv共收录50篇AI核心论文，智能体系统与推理优化成为最活跃方向，多篇工作聚焦测试时计算扩展与并行推理策略。视频生成与3D场景理解持续突破，EntityBench和VGGT-Edit分别解决长程实体一致性与前馈式3D编辑难题。安全与可信AI议题升温，涵盖后门攻击、量化鲁棒性、行为保证局限性等关键讨论。值得关注的是，语音工具调用和临床时间线重建等垂直应用开始涌现，显示大模型技术向专业化场景深度渗透。 重点论文 🧠 大语言模型（架构、训练、对齐、评估） 论文 作者 一句话说明 MetaBackdoor: Exploiting Positional Encoding as a Backdoor Attack Surface in LLMs R. Wen, M. Russinovich, A. Paverd et al. 首...</description>
+      <content:encoded><![CDATA[<h1>ArXiv AI 研究日报 2026-05-16</h1>
+<blockquote>
+<p>数据来源: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-05-16 00:20 UTC</p>
+</blockquote>
+<hr>
+<h1>ArXiv AI 研究日报 | 2026-05-16</h1>
+<hr>
+<h2>今日速览</h2>
+<p>今日ArXiv共收录50篇AI核心论文，<strong>智能体系统与推理优化</strong>成为最活跃方向，多篇工作聚焦测试时计算扩展与并行推理策略。<strong>视频生成与3D场景理解</strong>持续突破，EntityBench和VGGT-Edit分别解决长程实体一致性与前馈式3D编辑难题。<strong>安全与可信AI</strong>议题升温，涵盖后门攻击、量化鲁棒性、行为保证局限性等关键讨论。值得关注的是，<strong>语音工具调用</strong>和<strong>临床时间线重建</strong>等垂直应用开始涌现，显示大模型技术向专业化场景深度渗透。</p>
+<hr>
+<h2>重点论文</h2>
+<h3>🧠 大语言模型（架构、训练、对齐、评估）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">论文</th>
+<th align="left">作者</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15172v1">MetaBackdoor: Exploiting Positional Encoding as a Backdoor Attack Surface in LLMs</a></strong></td>
+<td align="left">R. Wen, M. Russinovich, A. Paverd et al.</td>
+<td align="left"><strong>首次利用位置编码而非输入内容植入后门</strong>，量化后触发恶意行为，揭示全新攻击面，对模型供应链安全构成严峻挑战。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15138v1">Forgetting That Sticks: Quantization-Permanent Unlearning via Circuit Attribution</a></strong></td>
+<td align="left">S. Sadhu, P. Seth, V.K. Sankarapu</td>
+<td align="left"><strong>破解&quot;量化恢复已遗忘知识&quot;难题</strong>，通过电路归因实现4-bit量化下的永久遗忘，为合规部署提供关键保障。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15152v1">Widening the Gap: Exploiting LLM Quantization via Outlier Injection</a></strong></td>
+<td align="left">X. Zhan, K. Egashira, R. Staab et al.</td>
+<td align="left"><strong>量化即攻击向量</strong>：恶意模型全精度表现正常，用户侧量化后行为剧变，暴露当前量化安全评估盲区。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15164v1">Position: Behavioural Assurance Cannot Verify the Safety Claims Governance Now Demands</a></strong></td>
+<td align="left">P. Seth, V.K. Sankarapu</td>
+<td align="left"><strong>尖锐立场论文</strong>：行为保证无法验证&quot;无隐藏目标&quot;&quot;抗操控&quot;等治理要求，呼吁根本性重新设计安全验证框架。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15081v1">ML-Embed: Inclusive and Efficient Embeddings for a Multilingual World</a></strong></td>
+<td align="left">Z. Zhang, Z. Liao, H. Yu et al.</td>
+<td align="left"><strong>打破嵌入模型&quot;高成本+英语中心+黑箱&quot;三重壁垒</strong>，开源高效多语言方案，覆盖全球多数语言。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15053v1">TFGN: Task-Free, Replay-Free Continual Pre-Training Without Catastrophic Forgetting at LLM Scale</a></strong></td>
+<td align="left">A. Ganguli</td>
+<td align="left"><strong>首个LLM规模无任务标签、无回放缓冲的持续预训练方案</strong>，解决异构文本域灾难性遗忘的架构级难题。</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🤖 智能体与推理（规划、工具使用、多智能体、思维链）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">论文</th>
+<th align="left">作者</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15177v1">OpenDeepThink: Parallel Reasoning via Bradley--Terry Aggregation</a></strong></td>
+<td align="left">S. Zhou, W. Chai, K. Liu et al.</td>
+<td align="left"><strong>突破&quot;深度vs广度&quot;测试时计算困境</strong>：并行采样多条推理链+BT模型聚合选择，实现推理质量与效率的最优平衡。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15155v1">Self-Distilled Agentic Reinforcement Learning</a></strong></td>
+<td align="left">Z. Lu, Z. Yao, Z. Han et al.</td>
+<td align="left"><strong>轨迹级RL信号太粗？</strong> 引入在线策略自蒸馏，从教师模型提取token级密集监督，显著提升长程交互学习效果。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15132v1">APWA: A Distributed Architecture for Parallelizable Agentic Workflows</a></strong></td>
+<td align="left">E. Rose, T. Mallick, M.D. Laws et al.</td>
+<td align="left"><strong>多智能体系统的分布式扩展瓶颈</strong>：提出可并行化的智能体工作流架构，破解协调与计算双重 scaling 难题。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15077v1">Concurrency without Model Changes: Future-based Asynchronous Function Calling for LLMs</a></strong></td>
+<td align="left">G. Feng, H. Mao, P. Dutta et al.</td>
+<td align="left"><strong>工具调用无需等待</strong>：基于Future的异步函数调用机制，零模型改动即可消除LLM解码阻塞，大幅降低端到端延迟。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15109v1">Why Neighborhoods Matter: Traversal Context and Provenance in Agentic GraphRAG</a></strong></td>
+<td align="left">R. Terrenzi, M. von Zastrow, S. Ayvaz</td>
+<td align="left"><strong>GraphRAG的引用可信度危机</strong>：智能体遍历知识图谱时，邻居上下文与溯源信息决定答案忠实性，提出系统性分析框架。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15184v1">Is Grep All You Need? How Agent Harnesses Reshape Agentic Search</a></strong></td>
+<td align="left">S. Sen, A. Kasturi, E. Lumer et al.</td>
+<td align="left"><strong>重新审视RAG在智能体中的角色</strong>：简单文本匹配与复杂工具调用的边界何在？提出&quot;Agent Harness&quot;重塑搜索范式。</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🔧 方法与框架（新技术、基准测试、效率优化）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">论文</th>
+<th align="left">作者</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15199v1">EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation</a></strong></td>
+<td align="left">R. He, M. Wei, Z. Yang et al.</td>
+<td align="left"><strong>首个长程多镜头视频生成实体一致性基准</strong>，系统性评估跨镜头人物/物体/场景连贯性，填补关键评测空白。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15186v1">VGGT-Edit: Feed-forward Native 3D Scene Editing with Residual Field Prediction</a></strong></td>
+<td align="left">K. Zhu, Y. Tang, Y. Yang et al.</td>
+<td align="left"><strong>前馈式3D场景编辑突破</strong>：基于残差场预测实现单前向传播的原生3D编辑，告别逐场景优化，速度提升数个数量级。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15185v1">Quantitative Video World Model Evaluation for Geometric-Consistency</a></strong></td>
+<td align="left">J. Wu, Y. Pi, Y. Zhang et al.</td>
+<td align="left"><strong>视频世界模型的&quot;物理合理性&quot;怎么测？</strong> 提出几何一致性定量评估框架，摆脱对人类判断与评分模型的依赖。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15100v1">Dual-Dimensional Consistency: Balancing Budget and Quality in Adaptive Inference-Time Scaling</a></strong></td>
+<td align="left">R. Xu, Y. Li, T. Zhao et al.</td>
+<td align="left"><strong>自适应推理扩展的双维度优化</strong>：同时调控采样宽度与验证深度，在预算约束下实现推理质量最优Pareto前沿。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15154v1">RoSHAP: A Distributional Framework and Robust Metric for Stable Feature Attribution</a></strong></td>
+<td align="left">L. Xiang, L. Shi, Y. Ye et al.</td>
+<td align="left"><strong>特征归因的稳定性危机</strong>：不同随机种子结果差异巨大，提出分布级鲁棒SHAP框架，为可信决策提供统计保障。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15051v1">An Interpretable Latency Model for Speculative Decoding in LLM Serving</a></strong></td>
+<td align="left">L. Kong, M. Flynn, M. Peng et al.</td>
+<td align="left"><strong>推测解码的动态批处理行为首次建模</strong>，揭示实际服务场景中的延迟瓶颈，指导系统级优化设计。</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>📊 应用（垂直领域、多模态、代码生成）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">论文</th>
+<th align="left">作者</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15153v1">Pelican-Unified 1.0: A Unified Embodied Intelligence Model</a></strong></td>
+<td align="left">Y. Zhang, Y. Chen, C. Liu et al.</td>
+<td align="left"><strong>首个&quot;统一原则&quot;训练的具身基础模型</strong>：单一VLM同时承载理解、推理、想象与行动，共享语义空间消除模态割裂。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15157v1">Hand-in-the-Loop: Improving Dexterous VLA via Seamless Interventional Correction</a></strong></td>
+<td align="left">Z. Li, L. Huang, W. Xu et al.</td>
+<td align="left"><strong>灵巧操作的人机闭环</strong>：无缝介入纠正机制破解VLA长程误差累积，高维动作空间下的交互模仿学习新范式。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15168v1">Text Knows What, Tables Know When: Clinical Timeline Reconstruction</a></strong></td>
+<td align="left">S. Kumar, S. Noroozizadeh, J. Kim et al.</td>
+<td align="left"><strong>多模态对齐重建临床时间线</strong>：文本语义+表格时序的检索增强融合，解决脓毒症等复杂病症的轨迹建模难题。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15104v1">From Text to Voice: A Reproducible Framework for Evaluating Tool Calling LLM Agents</a></strong></td>
+<td align="left">M.T.R. Laskar, X.-Y. Fu, S.S. Sarfjoo et al.</td>
+<td align="left"><strong>语音工具调用评测框架</strong>：无需重新标注即可将文本基准转为可控音频评测，填补语音Agent评估关键空白。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15044v1">SpeakerLLM: A Speaker-Specialized Audio-LLM</a></strong></td>
+<td align="left">K. Nam, J. Heo, S. Bae et al.</td>
+<td align="left"><strong>面向物理AI与无屏穿戴的说话人专用音频LLM</strong>，集成声纹验证、个性化与上下文感知，支撑下一代音频优先Agent。</td>
+</tr>
+<tr>
+<td align="left"><strong><a href="http://arxiv.org/abs/2605.15171v1">Evidential Reasoning Advances Interpretable Real-World Disease Screening</a></strong></td>
+<td align="left">C. Lian, H.-Y. Zhou, J. Qin</td>
+<td align="left"><strong>证据推理驱动的可解释疾病筛查</strong>：融合历史病例参考与可追溯诊断路径，提升医学影像筛查的临床可信度。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>研究趋势信号</h2>
+<p><strong>&quot;测试时计算扩展&quot;正从深度单链向广度并行演进</strong>。OpenDeepThink与Dual-Dimensional Consistency等工作显示，社区开始系统探索采样宽度与验证机制的联合优化，Bradley-Terry聚合等选择算法成为新焦点。<strong>量化安全从边缘议题进入主流视野</strong>：三篇独立论文揭示量化过程本身可作为攻击面或遗忘失效点，反映模型部署链的安全分析日益精细化。具身智能呈现&quot;统一架构&quot;趋势，Pelican-Unified与Hand-in-the-Loop分别从模型统一性与人机协同角度推进。<strong>语音Agent基础设施加速成熟</strong>，评测框架与专用模型同步出现，预示多模态交互范式即将跃迁。</p>
+<hr>
+<h2>值得精读</h2>
+<h3>1. <a href="http://arxiv.org/abs/2605.15172v1">MetaBackdoor: Exploiting Positional Encoding as a Backdoor Attack Surface in LLMs</a></h3>
+<p><strong>理由</strong>：突破传统&quot;输入内容触发&quot;的后门范式，首次将攻击面定位于位置编码这一架构核心组件。攻击者可在模型发布前植入，用户量化部署后触发，且全精度阶段完全不可检测。该工作由微软研究院（Russinovich等）完成，技术深度与威胁现实性兼具，对模型供应链安全审计具有范式改变意义，必读于AI安全从业者。</p>
+<h3>2. <a href="http://arxiv.org/abs/2605.15177v1">OpenDeepThink: Parallel Reasoning via Bradley--Terry Aggregation</a></h3>
+<p><strong>理由</strong>：测试时计算扩展是当前LLM能力提升的核心杠杆，但现有方法过度依赖单链深度扩展。本文提出的并行推理+BT聚合框架，在理论上连接了采样效率与选择最优性，实验覆盖数学推理与代码生成等多域。其&quot;广度优先&quot;视角可能重塑推理系统的设计哲学，对构建高效推理基础设施具有直接指导价值。</p>
+<h3>3. <a href="http://arxiv.org/abs/2605.15164v1">Position: Behavioural Assurance Cannot Verify the Safety Claims Governance Now Demands</a></h3>
+<p><strong>理由</strong>：一篇罕见的、敢于直面AI治理根本矛盾的立场论文。作者指出2019-2026年间全球AI治理框架普遍要求的行为保证（如红队测试、评估基准）在逻辑上无法验证&quot;无隐藏目标&quot;&quot;抗操控&quot;等安全属性。该文可能引发关于安全验证本体论的方法论反思，对政策制定者、安全研究者和标准机构具有重要警示意义。</p>
+<hr>
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>ArXiv AI 研究日报 2026-05-15</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-15/ai-arxiv</link>

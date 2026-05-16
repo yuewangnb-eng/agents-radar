@@ -6,7 +6,145 @@
     <description>Tech Community AI Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-community-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 15 May 2026 04:41:38 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 04:22:33 +0000</lastBuildDate>
+    <item>
+      <title>Tech Community AI Digest 2026-05-16</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-16/ai-community-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-16/ai-community-en</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+      <description>Tech Community AI Digest 2026-05-16 Sources: Dev.to (30 articles) + Lobste.rs (11 stories) | Generated: 2026-05-16 00:20 UTC Tech Community AI Digest — May 16, 2026 1. Today&amp;#39;s Highlights AI agent governance and security dominates today&amp;#39;s discourse, with multiple deep dives into production-ready agent architectures emerging across both platforms. Google continues its aggressive Gemini 3.x rollout with Flash-Lite availability and creative hardware-integrated demos, while developers grapple...</description>
+      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-05-16</h1>
+<blockquote>
+<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (11 stories) | Generated: 2026-05-16 00:20 UTC</p>
+</blockquote>
+<hr>
+<h1>Tech Community AI Digest — May 16, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>AI agent governance and security dominates today&#39;s discourse, with multiple deep dives into production-ready agent architectures emerging across both platforms. Google continues its aggressive Gemini 3.x rollout with Flash-Lite availability and creative hardware-integrated demos, while developers grapple with the practical tensions of &quot;vibe coding&quot; versus engineering discipline. The community is actively debating whether bigger models are always better (spoiler: no), and MCP&#39;s rapid ubiquity has already spawned governance concerns. Notably, several posts explore local-first and cost-optimized AI workflows—from ARC-Neuron&#39;s model building runtime to Doubao&#39;s aggressively priced ByteDance API tier.</p>
+<hr>
+<h2>2. Dev.to Highlights</h2>
+<table>
+<thead>
+<tr>
+<th>Article</th>
+<th>Engagement</th>
+<th>Key Takeaway</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://dev.to/marrouchi/automating-linkedin-posts-from-telegram-with-hexabot-1j4a">Automating LinkedIn Posts from Telegram with Hexabot</a></strong> — Med Marrouchi</td>
+<td>20 reactions, 0 comments</td>
+<td>Practical automation bridge showing how low-code AI tooling connects messaging platforms to professional social media.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/aws/bigger-ai-models-arent-always-better-heres-how-to-actually-choose-56pc">Bigger AI models aren&#39;t always better. Here&#39;s how to actually choose.</a></strong> — Rohini Gaonkar</td>
+<td>17 reactions, 3 comments</td>
+<td>AWS makes the case for right-sizing models with concrete hallucination comparisons, essential for cost-conscious production decisions.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/googleai/gemini-31-flash-lite-is-now-generally-available-on-gemini-enterprise-agent-platform-2pcg">Gemini 3.1 Flash-Lite is now generally available on Gemini Enterprise Agent Platform</a></strong> — Gemini Enterprise Team</td>
+<td>16 reactions, 0 comments</td>
+<td>Google&#39;s fastest, cheapest Gemini tier hits GA—signal of the race-to-bottom on inference pricing for enterprise agents.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/googleai/building-sweets-vault-a-multimodal-gemini-agent-with-physical-hardware-integration-1nmh">Building &quot;Sweets Vault&quot; - a multimodal Gemini Agent with physical hardware integration</a></strong> — Remigiusz Samborski</td>
+<td>16 reactions, 1 comment</td>
+<td>Creative demo of Gemini agents controlling physical locks via multimodal inputs (handwriting, speech), showing agent-to-hardware bridges.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/mukundakatta/mcp-is-everywhere-now-the-next-problem-is-governance-17if">MCP Is Everywhere Now. The Next Problem Is Governance.</a></strong> — Mukunda Rao Katta</td>
+<td>3 reactions, 1 comment</td>
+<td>Sharp pivot from MCP hype to the hard problems: access control, auditability, and policy enforcement for agent tool use.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/kimmaida/the-agent-security-stack-transport-identity-policy-runtime-nk">The Agent Security Stack: Transport, Identity, Policy, Runtime</a></strong> — Kim Maida</td>
+<td>2 reactions, 0 comments</td>
+<td>Systematic breakdown of security layers for agents that access sensitive systems (Linear, Gmail, GitHub)—required reading for production deployments.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/kryscekk/ai-agent-governance-how-i-built-triple-defense-in-depth-for-production-ai-agents-30ga">AI agent governance: how I built triple defense in depth for production AI agents</a></strong> — Driss Amiroune</td>
+<td>2 reactions, 2 comments</td>
+<td>Battle-tested architecture with explicit reference to the PocketOS incident, offering concrete lessons on preventing agent overreach.</td>
+</tr>
+<tr>
+<td><strong><a href="https://dev.to/benard_otieno_cdb9e6d4907/pick-boring-technology-yes-especially-for-ai-2021">Pick Boring Technology. Yes, Especially for AI.</a></strong> — Benard Otieno</td>
+<td>3 reactions, 1 comment</td>
+<td>Counter-narrative to AI hype cycles: stable, well-understood infrastructure beats bleeding-edge for most AI product needs.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Lobste.rs Highlights</h2>
+<table>
+<thead>
+<tr>
+<th>Story</th>
+<th>Engagement</th>
+<th>Why It&#39;s Worth Reading</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><a href="https://knightcolumbia.org/content/ai-as-social-technology">AI as Social Technology</a></strong> — <a href="https://lobste.rs/s/vlpdgd/ai_as_social_technology">Discussion</a></td>
+<td>7 points, 4 comments</td>
+<td>Rare philosophical framing from Knight Institute—examines AI not as computation but as social infrastructure with collective governance implications.</td>
+</tr>
+<tr>
+<td><strong><a href="https://caio.ca/blog/what-coding-is-starting-to-lose">What Coding Is Starting to Lose</a></strong> — <a href="https://lobste.rs/s/nxwhuo/what_coding_is_starting_lose">Discussion</a></td>
+<td>3 points, 0 comments</td>
+<td>Reflective critique of &quot;vibecoding&quot; culture and the erosion of deep system understanding; resonates with Dev.to&#39;s &quot;boring technology&quot; theme.</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html">Training an LLM in Swift, Part 1: Taking matrix multiplication from Gflop/s to Tflop/s</a></strong> — <a href="https://lobste.rs/s/dqzo2u/training_llm_swift_part_1_taking_matrix">Discussion</a></td>
+<td>4 points, 0 comments</td>
+<td>Deep technical dive into SIMD optimization and Metal Performance Shaders for on-device training—niche but rigorous.</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.primeintellect.ai/auto-nanogpt">Autonomous AI research for nanogpt speedrun</a></strong> — <a href="https://lobste.rs/s/fgbrwl/autonomous_ai_research_for_nanogpt">Discussion</a></td>
+<td>1 point, 0 comments</td>
+<td>Frontier exploration: fully autonomous research agents optimizing training code, hinting at recursive self-improvement loops.</td>
+</tr>
+<tr>
+<td><strong><a href="https://jytan.net/blog/2025/transformer-architectures/">The Crystallization of Transformer Architectures (2017-2025)</a></strong> — <a href="https://lobste.rs/s/yrbywt/crystallization_transformer">Discussion</a></td>
+<td>1 point, 0 comments</td>
+<td>Historical synthesis tracing how transformer variants converged and diverged—useful architectural context for practitioners.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>4. Community Pulse</h2>
+<p>Today&#39;s communities reveal a maturing AI discourse moving past initial hype into operational hardening. <strong>Agent governance and security</strong> is the clearest through-line: Dev.to features multiple posts on MCP governance, triple-defense architectures, and the Agent Security Stack, while practitioners reference real incidents (PocketOS) as cautionary tales. There&#39;s palpable tension between <strong>&quot;vibe coding&quot; acceleration</strong> and <strong>engineering discipline</strong>—exemplified by parallel discussions of 3D-printed-tools metaphors and &quot;boring technology&quot; advocacy. </p>
+<p><strong>Cost optimization</strong> is increasingly central: Doubao&#39;s $0.022/M pricing, Flash-Lite&#39;s GA, and RAG cost-benefit analyses show developers optimizing inference spend aggressively. <strong>Local-first and open-source</strong> alternatives (ARC-Neuron, Hermes Agent Challenge submissions) provide escape hatches from vendor lock-in. Notably, <strong>Google I/O looms</strong> as a stack-breaking event, with developers actively monitoring vendor signals—a sign of platform dependency anxiety.</p>
+<p>Lobste.rs contributes more <strong>critical and historical perspective</strong>: AI as social technology, what coding culture loses to automation, and low-level performance work (Swift training, OxCaml bundling) that counters the abstraction trend. Together, the platforms show developers simultaneously adopting AI tools faster and scrutinizing their systemic risks more carefully than six months prior.</p>
+<hr>
+<h2>5. Worth Reading</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Article/Story</th>
+<th>Why In Depth</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong><a href="https://dev.to/kryscekk/ai-agent-governance-how-i-built-triple-defense-in-depth-for-production-ai-agents-30ga">AI agent governance: how I built triple defense in depth for production AI agents</a></strong> (Dev.to)</td>
+<td>At 18 minutes, this is the most substantive production architecture post today. The PocketOS incident reference grounds abstract governance principles in real failure modes. Essential for anyone shipping agents with database access.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong><a href="https://knightcolumbia.org/content/ai-as-social-technology">AI as Social Technology</a></strong> (Lobste.rs)</td>
+<td>The highest-discussed philosophical piece today. Moves beyond implementation to question how AI reshapes collective decision-making and institutional legitimacy—critical context for technologists building systems others will depend on.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong><a href="https://dev.to/aws/bigger-ai-models-arent-always-better-heres-how-to-actually-choose-56pc">Bigger AI models aren&#39;t always better. Here&#39;s how to actually choose.</a></strong> (Dev.to)</td>
+<td>Practical decision framework with concrete hallucination examples. In an era of rapid model proliferation, this helps teams avoid defaulting to largest-available and bleeding budget on unnecessary capability.</td>
+</tr>
+</tbody></table>
+<hr>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Tech Community AI Digest 2026-05-15</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-15/ai-community-en</link>
@@ -3749,152 +3887,6 @@ An antidote to the productivity-obsessed discourse. Boykis argues for slowness, 
 <li><p><a href="https://github.com/chrishayuk/larql"><strong>LARQL - Query neural network weights like a graph database</strong></a> — <a href="https://lobste.rs/s/iawjcg/larql_query_neural_network_weights_like">discussion</a> — The most unusual link today. If you&#39;re interested in model interpretability, mechanistic interpretability, or simply novel interfaces to LLM internals, this repo merits exploration.</p>
 </li>
 </ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Tech Community AI Digest 2026-04-16</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-16/ai-community-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-16/ai-community-en</guid>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Tech Community AI Digest 2026-04-16 Sources: Dev.to (30 articles) + Lobste.rs (6 stories) | Generated: 2026-04-16 00:17 UTC Tech Community AI Digest — April 16, 2026 1. Today&amp;#39;s Highlights Gemini 3.1&amp;#39;s new text-to-speech capabilities are drawing early attention from the Google AI team on Dev.to, while &amp;quot;vibe coding&amp;quot; continues to spark reflection about what happens after AI-assisted prototyping. Developers are increasingly focused on production-grade concerns: RAG architecture, AI...</description>
-      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-04-16</h1>
-<blockquote>
-<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (6 stories) | Generated: 2026-04-16 00:17 UTC</p>
-</blockquote>
-<hr>
-<h1>Tech Community AI Digest — April 16, 2026</h1>
-<h2>1. Today&#39;s Highlights</h2>
-<p>Gemini 3.1&#39;s new text-to-speech capabilities are drawing early attention from the Google AI team on Dev.to, while &quot;vibe coding&quot; continues to spark reflection about what happens after AI-assisted prototyping. Developers are increasingly focused on production-grade concerns: RAG architecture, AI gateways, token optimization, and multi-agent reliability. Security and safety topics—social engineering attacks on LLMs, healthcare audit layers, and hallucination handling—are surfacing more frequently. Meanwhile, Lobste.rs is wrestling with the human cost of AI assistance, questioning how organizations actually measure productivity gains and whether tool reliance erodes independent problem-solving.</p>
-<hr>
-<h2>2. Dev.to Highlights</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>Article</th>
-<th>Engagement</th>
-<th>Key Takeaway</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td><a href="https://dev.to/googleai/how-to-prompt-gemini-31s-new-text-to-speech-model-24bb">How to prompt Gemini 3.1&#39;s new text to speech model</a></td>
-<td>25 reactions, 0 comments</td>
-<td>Directional prompting techniques for precise audio output with Gemini 3.1 Flash TTS.</td>
-</tr>
-<tr>
-<td>2</td>
-<td><a href="https://dev.to/srbhr/you-vibe-coded-now-what-42on">You Vibe-Coded. Now What?</a></td>
-<td>14 reactions, 1 comment</td>
-<td>A reality check on moving from AI-generated prototypes to maintainable, production-ready systems.</td>
-</tr>
-<tr>
-<td>3</td>
-<td><a href="https://dev.to/aws/lost-in-the-ai-hype-i-started-small-2a72">Lost in the AI Hype, I Started Small</a></td>
-<td>13 reactions, 3 comments</td>
-<td>Returning to tech through bite-sized AI projects, with an AWS lens on avoiding overwhelm.</td>
-</tr>
-<tr>
-<td>4</td>
-<td><a href="https://dev.to/astrodevil/how-to-build-canva-like-collaboration-with-velt-ai-plugin-fabricjs-5dm">How to Build Canva-Like Collaboration with Velt AI Plugin &amp; Fabric.js</a></td>
-<td>11 reactions, 0 comments</td>
-<td>A practical walkthrough for adding real-time collaborative design features to web apps.</td>
-</tr>
-<tr>
-<td>5</td>
-<td><a href="https://dev.to/southy404/openblob-is-evolving-better-architecture-modern-ui-and-real-time-transcripts-28da">OpenBlob is evolving: better architecture, modern UI, and real-time transcripts</a></td>
-<td>10 reactions, 0 comments</td>
-<td>An open-source AI agent project shares architectural lessons from a recent overhaul.</td>
-</tr>
-<tr>
-<td>6</td>
-<td><a href="https://dev.to/varshithvhegde/i-spent-3-days-debugging-our-llm-setup-turns-out-we-needed-an-ai-gateway-the-whole-time-50a2">I Spent 3 Days Debugging Our LLM Setup. Turns Out We Needed an AI Gateway the Whole Time.</a></td>
-<td>9 reactions, 0 comments</td>
-<td>Multi-model, multi-team LLM deployments benefit early from centralized routing and key management.</td>
-</tr>
-<tr>
-<td>7</td>
-<td><a href="https://dev.to/tworrell/how-im-using-asts-and-gemini-to-solve-the-codebase-onboarding-problem-1la9">How I&#39;m using ASTs and Gemini to solve the &quot;Codebase Onboarding&quot; problem 🧠</a></td>
-<td>8 reactions, 0 comments</td>
-<td>Structured code analysis with ASTs + LLMs beats raw text dumping for understanding large codebases.</td>
-</tr>
-<tr>
-<td>8</td>
-<td><a href="https://dev.to/googleai/building-a-scalable-rag-backend-with-cloud-run-jobs-and-alloydb-59pk">Building a Scalable RAG Backend with Cloud Run Jobs and AlloyDB</a></td>
-<td>7 reactions, 1 comment</td>
-<td>Google&#39;s guide to production RAG using serverless jobs and a managed PostgreSQL vector database.</td>
-</tr>
-<tr>
-<td>9</td>
-<td><a href="https://dev.to/vilvaathibanpb/how-claude-code-uses-react-in-the-terminal-2f3b">How Claude Code Uses React in the Terminal</a></td>
-<td>6 reactions, 2 comments</td>
-<td>A custom React renderer powers Claude Code&#39;s terminal UI—reconciliation, layout, and high-FPS updates included.</td>
-</tr>
-<tr>
-<td>10</td>
-<td><a href="https://dev.to/truongpx396/harness-engineering-the-emerging-discipline-of-making-ai-agents-reliable-42gf">🏗️ 📐 Harness Engineering: The Emerging Discipline of Making AI Agents Reliable 🤖</a></td>
-<td>3 reactions, 0 comments</td>
-<td>A deep, 20-minute read on shaping agent environments for safer, more predictable autonomous behavior.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Lobste.rs Highlights</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>Story</th>
-<th>Engagement</th>
-<th>Why It&#39;s Worth Reading</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td><a href="https://arxiv.org/pdf/2604.04721">AI Assistance Reduces Persistence and Hurts Independent Performance</a> — <a href="https://lobste.rs/s/r4dspa/ai_assistance_reduces_persistence_hurts">discussion</a></td>
-<td>11 points, 2 comments</td>
-<td>New research suggesting that heavy AI assistance may degrade developers&#39; ability to solve problems solo.</td>
-</tr>
-<tr>
-<td>2</td>
-<td><a href="https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact">How is your org/company measuring the impact of AI adoption?</a> — <a href="https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact">discussion</a></td>
-<td>10 points, 2 comments</td>
-<td>An honest community inquiry into whether anyone has figured out how to properly evaluate AI tooling ROI.</td>
-</tr>
-<tr>
-<td>3</td>
-<td><a href="https://cacm.acm.org/federal-funding-of-academic-research/the-origins-of-gpu-computing/">The Origins of GPU Computing</a> — <a href="https://lobste.rs/s/x0ihrm/origins_gpu_computing">discussion</a></td>
-<td>5 points, 1 comment</td>
-<td>Historical context on the federally funded research that underpins today&#39;s AI hardware stack.</td>
-</tr>
-<tr>
-<td>4</td>
-<td><a href="https://github.com/chrishayuk/larql">LARQL - Query neural network weights like a graph database</a> — <a href="https://lobste.rs/s/iawjcg/larql_query_neural_network_weights_like">discussion</a></td>
-<td>3 points, 1 comment</td>
-<td>An experimental tool for inspecting model internals through graph queries—useful for interpretability work.</td>
-</tr>
-<tr>
-<td>5</td>
-<td><a href="https://rodneybrooks.com/predictions-scorecard-2026-january-01/">Predictions Scorecard, 2026 January 01</a> — <a href="https://lobste.rs/s/1jkplq/predictions_scorecard_2026_january_01">discussion</a></td>
-<td>2 points, 0 comments</td>
-<td>Rodney Brooks grades past AI predictions, offering a sober counterweight to hype-cycle narratives.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>4. Community Pulse</h2>
-<p>A clear maturation arc is visible across both platforms: developers have moved past &quot;hello world&quot; LLM demos and are now engineering for scale, cost, and trust. On Dev.to, tutorials dominate—RAG backends, AI gateways, AST-powered onboarding, and terminal UIs—reflecting a community hungry for practical implementation patterns. The rise of &quot;agent reliability&quot; and &quot;harness engineering&quot; signals that autonomous AI systems are entering production conversations. Security and safety are no longer afterthoughts: healthcare RAG audits, social engineering red-teaming, and hallucination handling all appeared today.</p>
-<p>Lobste.rs offers a more skeptical, systems-level counterpoint. The top story questions whether AI assistance comes at a hidden cost to developer skill, while another asks how—or if—organizations are measuring real impact. Together, the communities paint a picture of 2026 AI discourse: enthusiastic about tooling, but increasingly rigorous about architecture, economics, and human outcomes.</p>
-<hr>
-<h2>5. Worth Reading</h2>
-<ul>
-<li><p><strong><a href="https://dev.to/srbhr/you-vibe-coded-now-what-42on">You Vibe-Coded. Now What?</a></strong> — The most culturally relevant read of the day. It captures the post-hype moment many developers are living: AI gets you 80% there, but the last 20% is where engineering discipline matters.</p>
-</li>
-<li><p><strong><a href="https://arxiv.org/pdf/2604.04721">AI Assistance Reduces Persistence and Hurts Independent Performance</a></strong> — <a href="https://lobste.rs/s/r4dspa/ai_assistance_reduces_persistence_hurts">discussion</a> — Essential reading for anyone setting team AI policies. The Lobste.rs discussion adds practitioner context to the research.</p>
-</li>
-<li><p><strong><a href="https://dev.to/truongpx396/harness-engineering-the-emerging-discipline-of-making-ai-agents-reliable-42gf">🏗️ 📐 Harness Engineering: The Emerging Discipline of Making AI Agents Reliable 🤖</a></strong> — At 20 minutes, it&#39;s a serious investment, but it articulates a nascent discipline that will likely shape how production agent systems are built over the next year.</p>
-</li>
-</ul>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>

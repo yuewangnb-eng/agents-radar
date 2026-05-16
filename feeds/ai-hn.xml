@@ -6,7 +6,185 @@
     <description>Hacker News AI 社区动态日报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-hn.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 15 May 2026 04:41:38 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 04:22:33 +0000</lastBuildDate>
+    <item>
+      <title>Hacker News AI 社区动态日报 2026-05-16</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-16/ai-hn</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-16/ai-hn</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI 社区动态日报 2026-05-16 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-05-16 00:20 UTC Hacker News AI 社区动态日报 | 2026-05-16 今日速览 今日 HN 社区对 AI 的讨论高度集中于Anthropic 的估值争议与透明度问题，一篇质疑其&amp;quot;过于危险而不发布&amp;quot;实为成本考量的文章引发 172 条评论的激烈辩论。OpenAI 的金融化布局（银行连接、个人理财）同样备受关注，社区对 AI 公司&amp;quot;边扩张边监管套利&amp;quot;的策略表现出明显警觉。整体情绪偏批判，对大厂声明的信任度处于低位。 热门新闻与讨论 🔬 模型与研究 标题 数据 一句话说明 “Too dangerous to release” or just too expensive? · HN 讨论 146 分 / 172 评论 社区最热议题：质疑 Anthropic 以安全为由 withheld 模型的真实动机是推理成本过高，评论区出现大量对&amp;quot;AI 安全营销化&amp;quot;的解构 ...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-05-16</h1>
+<blockquote>
+<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-05-16 00:20 UTC</p>
+</blockquote>
+<hr>
+<h1>Hacker News AI 社区动态日报 | 2026-05-16</h1>
+<hr>
+<h2>今日速览</h2>
+<p>今日 HN 社区对 AI 的讨论高度集中于<strong>Anthropic 的估值争议与透明度问题</strong>，一篇质疑其&quot;过于危险而不发布&quot;实为成本考量的文章引发 172 条评论的激烈辩论。OpenAI 的金融化布局（银行连接、个人理财）同样备受关注，社区对 AI 公司&quot;边扩张边监管套利&quot;的策略表现出明显警觉。整体情绪偏批判，对大厂声明的信任度处于低位。</p>
+<hr>
+<h2>热门新闻与讨论</h2>
+<h3>🔬 模型与研究</h3>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="left">数据</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/">“Too dangerous to release” or just too expensive?</a> · <a href="https://news.ycombinator.com/item?id=48147945">HN 讨论</a></td>
+<td align="left"><strong>146 分 / 172 评论</strong></td>
+<td align="left">社区最热议题：质疑 Anthropic 以安全为由 withheld 模型的真实动机是推理成本过高，评论区出现大量对&quot;AI 安全营销化&quot;的解构</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.anthropic.com/research/2028-ai-leadership">2028: Two scenarios for global AI leadership</a> · <a href="https://news.ycombinator.com/item?id=48145722">HN 讨论</a></td>
+<td align="left">7 分 / 0 评论</td>
+<td align="left">Anthropic 官方战略展望，但社区零讨论，与同一公司的争议性话题形成鲜明对比</td>
+</tr>
+<tr>
+<td align="left"><a href="https://samkhawase.com/blog/bug-archeology-using-LLM/">Bug Archeology: Solving a decade-old Swift/C++ mystery with LLMs</a> · <a href="https://news.ycombinator.com/item?id=48148563">HN 讨论</a></td>
+<td align="left">9 分 / 4 评论</td>
+<td align="left">实用向案例：LLM 辅助调试遗留代码，评论区关注提示工程与上下文窗口的实际限制</td>
+</tr>
+</tbody></table>
+<h3>🛠️ 工具与工程</h3>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="left">数据</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/GlycemicGPT/GlycemicGPT">Show HN: GlycemicGPT – Open-source AI-powered diabetes management</a> · <a href="https://news.ycombinator.com/item?id=48144670">HN 讨论</a></td>
+<td align="left"><strong>63 分 / 58 评论</strong></td>
+<td align="left">医疗 AI 开源项目获高关注，社区围绕 FDA 合规、数据隐私与&quot;AI 给医疗建议&quot;的责任边界展开务实讨论</td>
+</tr>
+<tr>
+<td align="left"><a href="https://costhawk.ai/leaderboard">Show HN: Claude Code vs. Codex Global Usage Leaderboard</a> · <a href="https://news.ycombinator.com/item?id=48152675">HN 讨论</a></td>
+<td align="left">10 分 / 13 评论</td>
+<td align="left">开发者工具成本追踪，评论区对 AI 编码工具的实际 ROI 存在分歧，部分用户认为价格透明度仍不足</td>
+</tr>
+<tr>
+<td align="left"><a href="https://tonguetype.app/">Show HN: TongueType – Local, privacy-focused Whisper dictation for macOS</a> · <a href="https://news.ycombinator.com/item?id=48148106">HN 讨论</a></td>
+<td align="left">5 分 / 0 评论</td>
+<td align="left">本地化 Whisper 实现，契合社区对&quot;端侧 AI&quot;和隐私优先的持续偏好</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.theregister.com/devops/2026/05/14/anthropics-bun-rust-rewrite-merged-at-speed-of-ai/5240381">Anthropic&#39;s Bun Rust rewrite merged at speed of AI</a> · <a href="https://news.ycombinator.com/item?id=48149798">HN 讨论</a></td>
+<td align="left">5 分 / 1 评论</td>
+<td align="left">工程实践新闻，标题&quot;at speed of AI&quot;被调侃，社区对 AI 辅助代码审查的实际效果持观望态度</td>
+</tr>
+</tbody></table>
+<h3>🏢 产业动态</h3>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="left">数据</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://firethering.com/chatgpt-bank-account-plaid-openai/">OpenAI is connecting ChatGPT to bank accounts via Plaid</a> · <a href="https://news.ycombinator.com/item?id=48150723">HN 讨论</a></td>
+<td align="left"><strong>69 分 / 112 评论</strong></td>
+<td align="left">金融数据接入引发强烈反应：评论聚焦数据滥用风险、Plaid 的历史隐私争议，以及对&quot;ChatGPT 成为金融超级应用&quot;的警惕</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.flyingpenguin.com/wheres-ed-anthropic-told-court-5-billion-but-public-19-billion/">Where&#39;s Ed: Anthropic Told Court $5B but Public $19B</a> · <a href="https://news.ycombinator.com/item?id=48145913">HN 讨论</a></td>
+<td align="left"><strong>53 分 / 43 评论</strong></td>
+<td align="left">法律文件与公开估值的巨大差异引发信任危机，社区热议&quot;何时算误导投资者&quot;</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.ft.com/content/9deae3c6-716d-4f4d-8b09-434d8519f847">Anthropic agrees terms of $30B funding deal at $900B valuation</a> · <a href="https://news.ycombinator.com/item?id=48143085">HN 讨论</a></td>
+<td align="left">8 分 / 0 评论</td>
+<td align="left">与前一条形成讽刺对照：官方融资新闻零讨论，社区显然更关注&quot;法庭上的数字&quot;</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.theregister.com/saas/2026/05/14/bedrock-and-a-hard-place-claude-adventure-leaves-aws-user-staring-down-30k-invoice/5238153">AWS user gets $30K Claude bill after cost alert misses it</a> · <a href="https://news.ycombinator.com/item?id=48153258">HN 讨论</a></td>
+<td align="left">7 分 / 0 评论</td>
+<td align="left">AI API 成本失控案例，评论区典型反应：&quot;又一个 Bedrock 受害者&quot;，反映开发者对云厂商计费透明度的长期不满</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.wired.com/story/openai-reorg-greg-brockman-product/">Greg Brockman Officially Takes Control of OpenAI&#39;s Products in Latest Shakeup</a> · <a href="https://news.ycombinator.com/item?id=48151312">HN 讨论</a></td>
+<td align="left">7 分 / 0 评论</td>
+<td align="left">OpenAI 内部权力重组，社区冷淡反应或暗示对&quot;谁掌权&quot;已麻木</td>
+</tr>
+</tbody></table>
+<h3>💬 观点与争议</h3>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="left">数据</th>
+<th align="left">一句话说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://medium.com/@prateekj24/the-52-page-memo-that-nearly-destroyed-openai-inside-ilya-sutskevers-deposition-acef91208a1c">The 52-Page Memo That Nearly Destroyed OpenAI: Ilya Sutskever&#39;s Deposition</a> · <a href="https://news.ycombinator.com/item?id=48153058">HN 讨论</a></td>
+<td align="left">21 分 / 3 评论</td>
+<td align="left">Sutskever 证词细节曝光，但评论稀少，或反映社区对 OpenAI 内部戏剧的疲劳</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.economist.com/leaders/2026/05/14/prepare-for-an-ai-jobs-apocalypse">Prepare for an AI Jobs Apocalypse</a> · <a href="https://news.ycombinator.com/item?id=48154091">HN 讨论</a></td>
+<td align="left">13 分 / 6 评论</td>
+<td align="left">《经济学人》封面级议题，HN 反应相对克制，评论区出现&quot;经济学家上次预测对是什么时候&quot;的典型 skepticism</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.techdirt.com/2026/05/14/openais-kosa-endorsement-is-regulatory-capture-with-a-smiley-face/">OpenAI&#39;s KOSA Endorsement Is Regulatory Capture with a Smiley Face</a> · <a href="https://news.ycombinator.com/item?id=48151464">HN 讨论</a></td>
+<td align="left">11 分 / 0 评论</td>
+<td align="left">Techdirt 对 AI 监管政治的批判，零评论但标题本身成为社区共识的浓缩表达</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.nytimes.com/2026/05/15/opinion/ai-consciousness.html">We Keep Tricking Ourselves into Thinking A.I. Is Conscious</a> · <a href="https://news.ycombinator.com/item?id=48153561">HN 讨论</a></td>
+<td align="left">4 分 / 0 评论</td>
+<td align="left">哲学议题遇冷，或说明社区当前更关注具体的经济/工程问题而非抽象辩论</td>
+</tr>
+<tr>
+<td align="left"><a href="https://nymag.com/intelligencer/article/ai-anthropic-mythos-openai-google.html">Worried About AI? Here, Have Some AI</a> · <a href="https://news.ycombinator.com/item?id=48149597">HN 讨论</a></td>
+<td align="left">4 分 / 0 评论</td>
+<td align="left">对&quot;AI 解决 AI 问题&quot;叙事的媒体批判，标题风格获隐性认同</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>社区情绪信号</h2>
+<p><strong>高活跃领域</strong>：今日呈现&quot;双高&quot;（高分+高评论）的帖子集中于 <strong>AI 公司财务透明度</strong>（Anthropic 估值差异）与 <strong>AI 金融化风险</strong>（OpenAI+Plaid），显示社区对&quot;AI 商业叙事 vs. 现实&quot;的审视进入深水区。172 评论的&quot;Too dangerous to release&quot;帖子中，top 评论多为对 Anthropic 安全公关的解构，而非技术讨论，表明<strong>信任赤字正在扩大</strong>。</p>
+<p><strong>争议与共识</strong>：明显争议点在于&quot;AI 安全是否被武器化为商业策略&quot;——该话题在评论区形成高度两极化；相对共识则存在于对&quot;AI API 计费不透明&quot;的普遍不满（多条相关帖子获支持但少争论）。</p>
+<p><strong>周期变化</strong>：相较于此前周期对模型能力的兴奋，本周期社区显著转向<strong>制度批判视角</strong>——关注法庭文件、监管套利、成本结构等&quot;AI 基础设施的暗面&quot;。开发者工具类 Show HN 仍获稳定关注，但讨论深度从&quot;怎么用&quot;转向&quot;成本可控吗/会封号吗&quot;。</p>
+<hr>
+<h2>值得深读</h2>
+<table>
+<thead>
+<tr>
+<th align="left">#</th>
+<th align="left">内容</th>
+<th align="left">理由</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">1</td>
+<td align="left"><a href="https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/">“Too dangerous to release” or just too expensive?</a> · <a href="https://news.ycombinator.com/item?id=48147945">HN</a></td>
+<td align="left"><strong>研究者必读</strong>：172 条评论构成了一次关于&quot;AI 安全研究如何与商业激励纠缠&quot;的民间审计，其中包含多条对 Anthropic 技术博客的逐条 fact-check，可作为分析 AI 公司公共话语策略的样本</td>
+</tr>
+<tr>
+<td align="left">2</td>
+<td align="left"><a href="https://firethering.com/chatgpt-bank-account-plaid-openai/">OpenAI is connecting ChatGPT to bank accounts via Plaid</a> · <a href="https://news.ycombinator.com/item?id=48150723">HN</a></td>
+<td align="left"><strong>开发者/产品经理必读</strong>：112 评论中密集出现对 Plaid 数据实践、OAuth 权限范围、以及&quot;对话式 UI 处理金融数据&quot;的 UX 风险的具体技术讨论，远超一般新闻评论的深度</td>
+</tr>
+<tr>
+<td align="left">3</td>
+<td align="left"><a href="https://github.com/GlycemicGPT/GlycemicGPT">Show HN: GlycemicGPT</a> · <a href="https://news.ycombinator.com/item?id=48144670">HN</a></td>
+<td align="left"><strong>开源贡献者必读</strong>：58 评论中活跃着多位有 Type 1 糖尿病经历的开发者，提供了&quot;AI 医疗工具如何平衡便利性与临床责任&quot;的一线视角，对医疗 AI 产品设计具有直接参考价值</td>
+</tr>
+</tbody></table>
+<hr>
+<hr>
+<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Hacker News AI 社区动态日报 2026-05-15</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-15/ai-hn</link>
@@ -5056,179 +5234,6 @@
 </li>
 </ol>
 <hr>
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI 社区动态日报 2026-04-16</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-16/ai-hn</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-16/ai-hn</guid>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI 社区动态日报 2026-04-16 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-04-16 00:17 UTC Hacker News AI 社区动态日报 2026-04-16 | 数据来源：过去 24 小时 HN 热榜 1. 今日速览 今日 HN 社区对 AI 的讨论情绪偏批判与警惕。最火话题是 Gas Town 被指&amp;quot;窃取&amp;quot;用户 LLM 积分用于自我改进（197 分，93 评论），引发对 AI 工具数据伦理的激烈争论；OpenAI 8520 亿美元估值遭投资者质疑同样获得高关注度。工具层面，Agents SDK 演进、Claude 模型版本锁定取消、以及多个 MCP/Agent 相关开源项目密集出现，显示开发者正围绕&amp;quot;可控性&amp;quot;和&amp;quot;代理基础设施&amp;quot;快速迭代。整体上，社区对大公司的信任度在下降，对小而精的开发者工具和创新保持热情。 2. 热门新闻与讨论 🔬 模型与研究 # 内容 数据 一句话说明 1 The next evolution of the Agent...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-04-16</h1>
-<blockquote>
-<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-04-16 00:17 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI 社区动态日报</h1>
-<p><strong>2026-04-16 | 数据来源：过去 24 小时 HN 热榜</strong></p>
-<hr>
-<h2>1. 今日速览</h2>
-<p>今日 HN 社区对 AI 的讨论情绪偏批判与警惕。最火话题是 <strong>Gas Town 被指&quot;窃取&quot;用户 LLM 积分用于自我改进</strong>（197 分，93 评论），引发对 AI 工具数据伦理的激烈争论；OpenAI 8520 亿美元估值遭投资者质疑同样获得高关注度。工具层面，Agents SDK 演进、Claude 模型版本锁定取消、以及多个 MCP/Agent 相关开源项目密集出现，显示开发者正围绕&quot;可控性&quot;和&quot;代理基础设施&quot;快速迭代。整体上，社区对大公司的信任度在下降，对小而精的开发者工具和创新保持热情。</p>
-<hr>
-<h2>2. 热门新闻与讨论</h2>
-<h3>🔬 模型与研究</h3>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>内容</th>
-<th>数据</th>
-<th>一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td><a href="https://openai.com/index/the-next-evolution-of-the-agents-sdk/">The next evolution of the Agents SDK</a> · <a href="https://news.ycombinator.com/item?id=47782022">HN 讨论</a></td>
-<td>18 分 · 2 评论</td>
-<td>OpenAI 继续押注 Agent 基础设施，但社区反应冷淡，评论数极少，显示出对 OpenAI 框架化叙事的疲劳。</td>
-</tr>
-<tr>
-<td>2</td>
-<td><a href="https://github.com/yantrikos/tier">Tier – Adaptive tool routing that makes small LLMs 10pt more accurate</a> · <a href="https://news.ycombinator.com/item?id=47782284">HN 讨论</a></td>
-<td>4 分 · 4 评论</td>
-<td>用小模型+自适应路由提升准确率的工程思路，契合社区对&quot;降本增效&quot;的偏好，评论虽少但技术向。</td>
-</tr>
-</tbody></table>
-<h3>🛠️ 工具与工程</h3>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>内容</th>
-<th>数据</th>
-<th>一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td><a href="https://github.com/gastownhall/gastown/issues/3649">Does Gas Town &#39;steal&#39; usage from users&#39; LLM credits to improve itself?</a> · <a href="https://news.ycombinator.com/item?id=47785053">HN 讨论</a></td>
-<td><strong>197 分 · 93 评论</strong></td>
-<td>今日绝对头条。一个开源项目被曝可能将用户 LLM 调用用于自我训练/改进，引爆关于 AI 工具透明度、ToS 边界和用户信任的激烈辩论。</td>
-</tr>
-<tr>
-<td>2</td>
-<td><a href="https://github.com/robinovitch61/jeeves">Jeeves – TUI for browsing and resuming AI agent sessions</a> · <a href="https://news.ycombinator.com/item?id=47784060">HN 讨论</a></td>
-<td>10 分 · 2 评论</td>
-<td>针对 Agent 会话管理的终端工具，切中开发者对&quot;可恢复、可审计的 Agent 工作流&quot;的痛点。</td>
-</tr>
-<tr>
-<td>3</td>
-<td><a href="https://l6e.ai">MCP server gives your agent a budget</a> · <a href="https://news.ycombinator.com/item?id=47780622">HN 讨论</a></td>
-<td>5 分 · 2 评论</td>
-<td>为 Agent 设置 token 预算的 MCP 服务器，反映社区对 Agent 成本控制和&quot;边界约束&quot;的高度关注。</td>
-</tr>
-<tr>
-<td>4</td>
-<td><a href="https://github.com/smythp/tine">Tine – Drive Wayland Around with Agents</a> · <a href="https://news.ycombinator.com/item?id=47781944">HN 讨论</a></td>
-<td>4 分 · 4 评论</td>
-<td>用 AI Agent 直接操作 Linux Wayland 桌面，代表了&quot;GUI Agent/计算机使用&quot;方向的激进探索。</td>
-</tr>
-</tbody></table>
-<h3>🏢 产业动态</h3>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>内容</th>
-<th>数据</th>
-<th>一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td><a href="https://www.reuters.com/legal/transactional/openai-investors-question-852-billion-valuation-strategy-shifts-ft-reports-2026-04-14/">OpenAI&#39;s $852B valuation faces investor scrutiny amid strategy shift, FT reports</a> · <a href="https://news.ycombinator.com/item?id=47773640">HN 讨论</a></td>
-<td>114 分 · 134 评论</td>
-<td>高评论数显示社区对 OpenAI 商业化转向和天价估值的深层担忧，质疑其从研究型机构向消费产品公司的转型是否可持续。</td>
-</tr>
-<tr>
-<td>2</td>
-<td><a href="https://www.thenation.com/article/society/open-ai-suchir-balaji-whistleblowers/">The Death of an AI Whistleblower</a> · <a href="https://news.ycombinator.com/item?id=47775593">HN 讨论</a></td>
-<td>35 分 · 9 评论</td>
-<td>关于 OpenAI 吹哨人 Suchir Balaji 之死的深度报道，社区情绪沉重，进一步加剧了对 AI 巨头伦理记录的负面观感。</td>
-</tr>
-<tr>
-<td>3</td>
-<td><a href="https://www.macrumors.com/2026/04/15/siri-engineers-ai-coding-bootcamp/">Apple is sending Siri Engineers to an AI Coding Bootcamp</a> · <a href="https://news.ycombinator.com/item?id=47784832">HN 讨论</a></td>
-<td>7 分 · 0 评论</td>
-<td>苹果让 Siri 工程师参加 AI 编程训练营，被解读为 Siri 团队技术能力落后的信号，嘲讽多于期待。</td>
-</tr>
-<tr>
-<td>4</td>
-<td><a href="https://www.theguardian.com/business/2026/apr/15/allbirds-stock-ai-pivot">Allbirds surge after maker of wool sneakers announces pivot to AI</a> · <a href="https://news.ycombinator.com/item?id=47786821">HN 讨论</a></td>
-<td>3 分 · 1 评论</td>
-<td>鞋企蹭 AI 概念股价大涨，社区将其视为&quot;AI 泡沫&quot;的荒诞注脚。</td>
-</tr>
-</tbody></table>
-<h3>💬 观点与争议</h3>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>内容</th>
-<th>数据</th>
-<th>一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td><a href="https://news.ycombinator.com/item?id=47778035">Ask HN: Is Claude Getting Worse?</a></td>
-<td>5 分 · 11 评论</td>
-<td>经典&quot;模型退化&quot;焦虑帖，评论数高于分数，说明这是开发者群体的切身感受而非孤立抱怨。</td>
-</tr>
-<tr>
-<td>2</td>
-<td><a href="https://www.flyingpenguin.com/the-boy-that-cried-mythos-verification-is-collapsing-trust-in-anthropic/">A Boy That Cried Mythos: Verification Is Collapsing Trust in Anthropic</a> · <a href="https://news.ycombinator.com/item?id=47786040">HN 讨论</a></td>
-<td>4 分 · 1 评论</td>
-<td>批评 Anthropic 的可验证性/安全叙事正在透支信任，与同日&quot;Claude 取消版本锁定&quot;新闻形成互文。</td>
-</tr>
-<tr>
-<td>3</td>
-<td><a href="https://news.ycombinator.com/item?id=47775389">Tell HN: Anthropic no longer allows you to fix to specific model version</a></td>
-<td>21 分 · 1 评论</td>
-<td>开发者对模型版本不可控的强烈不满，&quot; silently breaking changes &quot;是企业集成的噩梦。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. 社区情绪信号</h2>
-<p>今日 HN AI 讨论的<strong>核心情绪是警惕与不信任</strong>，且高度集中在<strong>大公司伦理与产品承诺</strong>上。Gas Town 争议（197 分/93 评论）和 OpenAI 估值质疑（114 分/134 评论）双双呈现&quot;高分高评论&quot;特征，说明社区不仅关注，更愿意投入深度辩论。与此形成对比的是，OpenAI Agents SDK 等技术发布反响冷淡，表明<strong>框架层面的&quot;宏大叙事&quot;已难以激发开发者兴趣</strong>。相比上周期，今日讨论明显从&quot;新模型能力炫耀&quot;转向**&quot;控制权、透明度、成本约束&quot;**——模型版本锁定取消、Agent 预算控制、会话可恢复性等话题密集出现，反映出开发者正从&quot;试用 AI&quot;进入&quot;严肃生产化&quot;阶段，对稳定性和可预测性的需求急剧上升。</p>
-<hr>
-<h2>4. 值得深读</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>内容</th>
-<th>推荐理由</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td><a href="https://github.com/gastownhall/gastown/issues/3649">Does Gas Town &#39;steal&#39; usage from users&#39; LLM credits to improve itself?</a> · <a href="https://news.ycombinator.com/item?id=47785053">HN 讨论</a></td>
-<td>这是今日社区最活跃的话题，涉及开源 AI 工具的伦理边界、用户数据与 API 调用的所有权、以及&quot;自我改进&quot;的灰色地带。无论最终结论如何，GitHub issue 和 HN 评论中的技术取证过程都值得细读。</td>
-</tr>
-<tr>
-<td>2</td>
-<td><a href="https://www.reuters.com/legal/transactional/openai-investors-question-852-billion-valuation-strategy-shifts-ft-reports-2026-04-14/">OpenAI&#39;s $852B valuation faces investor scrutiny amid strategy shift, FT reports</a> · <a href="https://news.ycombinator.com/item?id=47773640">HN 讨论</a></td>
-<td>134 条评论中包含了大量对 AI 商业模式、研究 vs 产品张力、以及泡沫风险的深度分析，是理解当前行业资本情绪的绝佳窗口。</td>
-</tr>
-<tr>
-<td>3</td>
-<td><a href="https://entropicthoughts.com/hazardous-states-and-accidents">Hazardous States and Accidents</a> · <a href="https://news.ycombinator.com/item?id=47774996">HN 讨论</a></td>
-<td>一篇关于 AI 系统安全工程和&quot;危险状态&quot;的技术博文，在争议喧嚣中提供了冷静的系统性分析视角，适合研究者和对 AI 安全有长期关注的开发者。</td>
-</tr>
-</tbody></table>
 <hr>
 <p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>

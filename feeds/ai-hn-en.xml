@@ -6,7 +6,183 @@
     <description>Hacker News AI Community Digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feeds/ai-hn-en.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 15 May 2026 04:41:38 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 04:22:33 +0000</lastBuildDate>
+    <item>
+      <title>Hacker News AI Community Digest 2026-05-16</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-16/ai-hn-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-16/ai-hn-en</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI Community Digest 2026-05-16 Source: Hacker News | 30 stories | Generated: 2026-05-16 00:20 UTC Hacker News AI Community Digest — May 16, 2026 1. Today&amp;#39;s Highlights The HN community is intensely focused on Anthropic&amp;#39;s transparency and trustworthiness, with the top post questioning whether the company&amp;#39;s &amp;quot;too dangerous to release&amp;quot; framing masks cost-driven decisions rather than genuine safety concerns. OpenAI&amp;#39;s expanding financial ambitions—connecting ChatGP...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-05-16</h1>
+<blockquote>
+<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-05-16 00:20 UTC</p>
+</blockquote>
+<hr>
+<h1>Hacker News AI Community Digest — May 16, 2026</h1>
+<hr>
+<h2>1. Today&#39;s Highlights</h2>
+<p>The HN community is intensely focused on <strong>Anthropic&#39;s transparency and trustworthiness</strong>, with the top post questioning whether the company&#39;s &quot;too dangerous to release&quot; framing masks cost-driven decisions rather than genuine safety concerns. <strong>OpenAI&#39;s expanding financial ambitions</strong>—connecting ChatGPT to bank accounts via Plaid and pushing personal finance features—are drawing significant scrutiny about data privacy and platform lock-in. Meanwhile, <strong>corporate governance drama</strong> around OpenAI&#39;s internal power struggles and the Musk-Altman trial continues to captivate readers. The community shows notable skepticism toward AI companies&#39; public narratives, with high engagement on posts exposing discrepancies between private and public statements.</p>
+<hr>
+<h2>2. Top News &amp; Discussions</h2>
+<h3>🔬 Models &amp; Research</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/"><strong>&quot;Too dangerous to release&quot; or just too expensive?</strong></a> — <a href="https://news.ycombinator.com/item?id=48147945">HN Discussion</a></td>
+<td>146</td>
+<td>172</td>
+<td>The community&#39;s hottest topic: skepticism that Anthropic&#39;s safety rhetoric conceals economic motives, sparking debate about AI openness vs. commercial control.</td>
+</tr>
+<tr>
+<td><a href="https://www.ft.com/content/9deae3c6-716d-4f4d-8b09-434d8519f847"><strong>Anthropic agrees terms of $30B funding deal at $900B valuation</strong></a> — <a href="https://news.ycombinator.com/item?id=48143085">HN Discussion</a></td>
+<td>8</td>
+<td>0</td>
+<td>Massive valuation jump raises eyebrows given concurrent revelations about financial disclosures; community largely cynical about bubble dynamics.</td>
+</tr>
+<tr>
+<td><a href="https://www.anthropic.com/research/2028-ai-leadership"><strong>2028: Two scenarios for global AI leadership</strong></a> — <a href="https://news.ycombinator.com/item?id=48145722">HN Discussion</a></td>
+<td>7</td>
+<td>0</td>
+<td>Anthropic&#39;s strategic forecasting receives minimal engagement, suggesting community fatigue from corporate self-positioning as research.</td>
+</tr>
+</tbody></table>
+<h3>🛠️ Tools &amp; Engineering</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/GlycemicGPT/GlycemicGPT"><strong>Show HN: GlycemicGPT – Open-source AI-powered diabetes management</strong></a> — <a href="https://news.ycombinator.com/item?id=48144670">HN Discussion</a></td>
+<td>63</td>
+<td>58</td>
+<td>Well-received practical application; community appreciates tangible health use cases and open-source approach, though some skepticism about medical AI safety.</td>
+</tr>
+<tr>
+<td><a href="https://costhawk.ai/leaderboard"><strong>Show HN: Claude Code vs. Codex Global Usage Leaderboard</strong></a> — <a href="https://news.ycombinator.com/item?id=48152675">HN Discussion</a></td>
+<td>10</td>
+<td>13</td>
+<td>Niche but telling interest in cost benchmarking tools, reflecting developer focus on AI coding tool economics amid pricing changes.</td>
+</tr>
+<tr>
+<td><a href="https://samkhawase.com/blog/bug-archeology-using-LLM/"><strong>Bug Archeology: Solving a decade-old Swift/C++ mystery with LLMs</strong></a> — <a href="https://news.ycombinator.com/item?id=48148563">HN Discussion</a></td>
+<td>9</td>
+<td>4</td>
+<td>Praised as genuine engineering utility of LLMs—community values concrete technical wins over hype.</td>
+</tr>
+</tbody></table>
+<h3>🏢 Industry News</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://firethering.com/chatgpt-bank-account-plaid-openai/"><strong>OpenAI is connecting ChatGPT to bank accounts via Plaid</strong></a> — <a href="https://news.ycombinator.com/item?id=48150723">HN Discussion</a></td>
+<td>69</td>
+<td>112</td>
+<td>High anxiety about financial data exposure and OpenAI&#39;s vertical integration; comparisons to &quot;everything app&quot; strategies draw criticism.</td>
+</tr>
+<tr>
+<td><a href="https://www.flyingpenguin.com/wheres-ed-anthropic-told-court-5-billion-but-public-19-billion/"><strong>Where&#39;s Ed: Anthropic Told Court $5B but Public $19B</strong></a> — <a href="https://news.ycombinator.com/item?id=48145913">HN Discussion</a></td>
+<td>53</td>
+<td>43</td>
+<td>Damning discrepancy fuels distrust; community sees pattern of AI companies manipulating narratives for legal/financial advantage.</td>
+</tr>
+<tr>
+<td><a href="https://medium.com/@prateekj24/the-52-page-memo-that-nearly-destroyed-openai-inside-ilya-sutskevers-deposition-acef91208a1c"><strong>The 52-Page Memo That Nearly Destroyed OpenAI: Ilya Sutskever&#39;s Deposition</strong></a> — <a href="https://news.ycombinator.com/item?id=48153058">HN Discussion</a></td>
+<td>21</td>
+<td>3</td>
+<td>Low comment count despite intriguing premise suggests OpenAI governance fatigue or paywall friction; those who engage treat as confirmation of internal chaos.</td>
+</tr>
+<tr>
+<td><a href="https://www.theregister.com/saas/2026/05/14/bedrock-and-a-hard-place-claude-adventure-leaves-aws-user-staring-down-30k-invoice/5238153"><strong>AWS user gets $30K Claude bill after cost alert misses it</strong></a> — <a href="https://news.ycombinator.com/item?id=48153258">HN Discussion</a></td>
+<td>7</td>
+<td>0</td>
+<td>Resonates with recurring fears about opaque AI API pricing; typical &quot;there but for the grace of God&quot; developer sympathy.</td>
+</tr>
+</tbody></table>
+<h3>💬 Opinions &amp; Debates</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://www.economist.com/leaders/2026/05/14/prepare-for-an-ai-jobs-apocalypse"><strong>Prepare for an AI Jobs Apocalypse</strong></a> — <a href="https://news.ycombinator.com/item?id=48154091">HN Discussion</a></td>
+<td>13</td>
+<td>6</td>
+<td>Economist&#39;s alarmism meets HN&#39;s characteristic techno-skepticism; comments tend toward &quot;we&#39;ve heard this before&quot; dismissal or nuanced labor market analysis.</td>
+</tr>
+<tr>
+<td><a href="https://www.techdirt.com/2026/05/14/openais-kosa-endorsement-is-regulatory-capture-with-a-smiley-face/"><strong>OpenAI&#39;s KOSA Endorsement Is Regulatory Capture with a Smiley Face</strong></a> — <a href="https://news.ycombinator.com/item?id=48151464">HN Discussion</a></td>
+<td>11</td>
+<td>0</td>
+<td>Zero comments despite Techdirt&#39;s credibility suggests either algorithmic suppression or topic complexity; aligns with growing anti-regulatory-capture sentiment.</td>
+</tr>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=rDQdJP_REIU"><strong>Why Casey Muratori avoids AI [video]</strong></a> — <a href="https://news.ycombinator.com/item?id=48153867">HN Discussion</a></td>
+<td>4</td>
+<td>3</td>
+<td>Niche but symbolically significant—Muratori&#39;s craftsmanship ethos resonates with HN&#39;s programmer identity defense against AI automation narratives.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>3. Community Sentiment Signal</h2>
+<p>Today&#39;s HN AI discourse is <strong>sharply skeptical and institutionally distrustful</strong>. The highest-engagement posts (score + comments) cluster around <strong>corporate accountability failures</strong>: Anthropic&#39;s valuation discrepancies, OpenAI&#39;s financial data grabs, and API billing horror stories. This represents a <strong>notable shift from 6-12 months ago</strong>, when technical capabilities and research breakthroughs dominated discussion. The community has moved from &quot;what can AI do?&quot; to &quot;what are these companies actually doing?&quot;</p>
+<p>A clear <strong>consensus</strong> has emerged that major AI labs engage in <strong>strategic narrative manipulation</strong>—safety rhetoric as commercial cover, valuation inflation for competitive positioning, regulatory endorsements as moat-building. The lack of engagement with Anthropic&#39;s official research output (items 12, 20) versus explosive interest in critical journalism about the same company illustrates this trust collapse.</p>
+<p><strong>Controversy</strong> centers on whether this skepticism is productive vigilance or cynical overcorrection. The &quot;too dangerous to release&quot; post&#39;s 172 comments show genuine debate: some defend Anthropic&#39;s precautionary principle, others see paternalistic gatekeeping. The community is <strong>polarized between AI safety advocates and &quot;open the weights&quot; populists</strong>, with diminishing middle ground.</p>
+<p>Compared to prior cycles, <strong>developer tooling and practical applications</strong> (GlycemicGPT, bug archaeology) receive warmer reception than corporate announcements, suggesting HN&#39;s core identity as builders persists amid institutional fatigue.</p>
+<hr>
+<h2>4. Worth Deep Reading</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Piece</th>
+<th>Reasoning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><a href="https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/"><strong>&quot;Too dangerous to release&quot; or just too expensive?</strong></a> + <a href="https://news.ycombinator.com/item?id=48147945">HN Discussion</a></td>
+<td>Essential for understanding the central tension in AI governance: whether capability restraint is genuine safety practice or market manipulation. The 172-comment thread contains substantive debate between researchers, engineers, and policy observers rarely found in syncretic form elsewhere.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://samkhawase.com/blog/bug-archeology-using-LLM/"><strong>Bug Archeology: Solving a decade-old Swift/C++ mystery with LLMs</strong></a> + <a href="https://news.ycombinator.com/item?id=48148563">HN Discussion</a></td>
+<td>Represents the most defensible, least polarizing value proposition for LLMs in software engineering. For practitioners seeking to integrate AI into workflows without hype, this provides methodological detail and honest limitations assessment.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://firethering.com/chatgpt-bank-account-plaid-openai/"><strong>OpenAI is connecting ChatGPT to bank accounts via Plaid</strong></a> + <a href="https://news.ycombinator.com/item?id=48150723">HN Discussion</a></td>
+<td>Critical for anyone building on or competing with OpenAI&#39;s platform. The 112 comments surface genuine security concerns, competitive strategy analysis, and early signals of how AI platforms may evolve toward super-app dominance or regulatory intervention.</td>
+</tr>
+</tbody></table>
+<hr>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Hacker News AI Community Digest 2026-05-15</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-15/ai-hn-en</link>
@@ -4843,139 +5019,6 @@ Score: 10 | Comments: 2</p>
 <li><p><strong><a href="https://simonwillison.net/2026/Apr/16/qwen-beats-opus/">Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7</a></strong> — Willison&#39;s post is a model of accessible, reproducible AI benchmarking. Developers evaluating local vs. cloud deployment should read it for methodology and for understanding where frontier models no longer clearly dominate.</p>
 </li>
 <li><p><strong><a href="https://tomtunguz.com/ai-compute-crisis-2026/">The Beginning of Scarcity in AI</a></strong> — Whether or not you agree with its thesis, this piece anchors one of the most debated strategic questions in AI right now: is compute becoming the binding constraint on progress? The HN comment thread is unusually substantive for a VC blog post.</p>
-</li>
-</ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI Community Digest 2026-04-16</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-04-16/ai-hn-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-04-16/ai-hn-en</guid>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI Community Digest 2026-04-16 Source: Hacker News | 30 stories | Generated: 2026-04-16 00:17 UTC Hacker News AI Community Digest — April 16, 2026 1. Today&amp;#39;s Highlights The Hacker News AI community is fixated on trust and control issues this cycle. A GitHub issue accusing Gas Town of secretly using customers&amp;#39; LLM credits for self-improvement dominated discussions, racking up 197 points and 93 comments. OpenAI&amp;#39;s massive $852B valuation is facing fresh investor skepticism a...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-04-16</h1>
-<blockquote>
-<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-04-16 00:17 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI Community Digest — April 16, 2026</h1>
-<hr>
-<h2>1. Today&#39;s Highlights</h2>
-<p>The Hacker News AI community is fixated on trust and control issues this cycle. A GitHub issue accusing Gas Town of secretly using customers&#39; LLM credits for self-improvement dominated discussions, racking up 197 points and 93 comments. OpenAI&#39;s massive $852B valuation is facing fresh investor skepticism amid reported strategy shifts. Anthropic drew mixed-to-negative attention: users are frustrated by the removal of fixed model versioning for Claude, while a separate article alleges collapsing trust due to verification failures. On the tools front, agent infrastructure continues to mature with launches around MCP servers, adaptive LLM routing, and TUI session managers.</p>
-<hr>
-<h2>2. Top News &amp; Discussions</h2>
-<h3>🔬 Models &amp; Research</h3>
-<table>
-<thead>
-<tr>
-<th>Item</th>
-<th>Details</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://openai.com/index/the-next-evolution-of-the-agents-sdk/">The next evolution of the Agents SDK</a></strong> — <a href="https://news.ycombinator.com/item?id=47782022">HN</a> <br> Score: 18 | Comments: 2</td>
-<td>OpenAI is pushing its agent framework forward, though HN&#39;s sparse engagement suggests developer fatigue or wait-and-see skepticism toward yet another SDK iteration.</td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="https://github.com/yantrikos/tier">Tier – Adaptive tool routing that makes small LLMs 10pt more accurate</a></strong> — <a href="https://news.ycombinator.com/item?id=47782284">HN</a> <br> Score: 4 | Comments: 4</td>
-<td>A pragmatic routing layer for squeezing better performance from small models; typical HN appreciation for efficiency-driven open-source tooling, even with modest traction.</td>
-<td></td>
-</tr>
-</tbody></table>
-<h3>🛠️ Tools &amp; Engineering</h3>
-<table>
-<thead>
-<tr>
-<th>Item</th>
-<th>Details</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://l6e.ai">MCP server gives your agent a budget (save tokens, get smarter results)</a></strong> — <a href="https://news.ycombinator.com/item?id=47780622">HN</a> <br> Score: 5 | Comments: 2</td>
-<td>Token-budgeting for agents addresses a real operational pain point; the community generally rewards infrastructure that makes LLM deployments more economical.</td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="https://github.com/robinovitch61/jeeves">Jeeves – TUI for browsing and resuming AI agent sessions</a></strong> — <a href="https://news.ycombinator.com/item?id=47784060">HN</a> <br> Score: 10 | Comments: 2</td>
-<td>Terminal-native tooling for agent observability fits HN&#39;s aesthetic; low comment volume suggests it scratches an itch for a niche audience rather than broad appeal.</td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="https://github.com/smythp/tine">Tine – Drive Wayland Around with Agents</a></strong> — <a href="https://news.ycombinator.com/item?id=47781944">HN</a> <br> Score: 4 | Comments: 4</td>
-<td>Desktop automation via agents on Linux is an emerging frontier; the community shows curiosity but wants to see robustness claims tested in practice.</td>
-<td></td>
-</tr>
-</tbody></table>
-<h3>🏢 Industry News</h3>
-<table>
-<thead>
-<tr>
-<th>Item</th>
-<th>Details</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://github.com/gastownhall/gastown/issues/3649">Does Gas Town &#39;steal&#39; usage from users&#39; LLM credits to improve itself?</a></strong> — <a href="https://news.ycombinator.com/item?id=47785053">HN</a> <br> Score: 197 | Comments: 93</td>
-<td>The runaway top story: allegations of opaque credit consumption sparked fierce debate about consent, terms-of-service dark patterns, and trust in AI middleware.</td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.reuters.com/legal/transactional/openai-investors-question-852-billion-valuation-strategy-shifts-ft-reports-2026-04-14/">OpenAI&#39;s $852B valuation faces investor scrutiny amid strategy shift, FT reports</a></strong> — <a href="https://news.ycombinator.com/item?id=47773640">HN</a> <br> Score: 114 | Comments: 134</td>
-<td>High engagement reflects enduring HN interest in OpenAI&#39;s commercial trajectory; comments likely split between bubble-callers and those parsing the nonprofit-to-corp transition.</td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.macrumors.com/2026/04/15/siri-engineers-ai-coding-bootcamp/">Apple is sending Siri Engineers to an AI Coding Bootcamp</a></strong> — <a href="https://news.ycombinator.com/item?id=47784832">HN</a> <br> Score: 7 | Comments: 0</td>
-<td>A quiet but telling signal of Apple&#39;s urgency to close the AI gap; no comments yet, but the narrative of Siri-as-laggard is firmly entrenched on HN.</td>
-<td></td>
-</tr>
-</tbody></table>
-<h3>💬 Opinions &amp; Debates</h3>
-<table>
-<thead>
-<tr>
-<th>Item</th>
-<th>Details</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://news.ycombinator.com/item?id=47775389">Tell HN: Anthropic no longer allows you to fix to specific model version</a></strong> — <a href="https://news.ycombinator.com/item?id=47775389">HN</a> <br> Score: 21 | Comments: 1</td>
-<td>A concrete operational grievance that undermines reproducibility; even with few comments, the upvotes signal strong latent frustration among production users.</td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="https://news.ycombinator.com/item?id=47778035">Ask HN: Is Claude Getting Worse?</a></strong> — <a href="https://news.ycombinator.com/item?id=47778035">HN</a> <br> Score: 5 | Comments: 11</td>
-<td>Perceived model degradation is a recurring HN theme; the comment-heavy ratio indicates active, possibly polarized anecdote-sharing rather than consensus.</td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.flyingpenguin.com/the-boy-that-cried-mythos-verification-is-collapsing-trust-in-anthropic/">A Boy That Cried Mythos: Verification Is Collapsing Trust in Anthropic</a></strong> — <a href="https://news.ycombinator.com/item?id=47786040">HN</a> <br> Score: 4 | Comments: 1</td>
-<td>A critical take on Anthropic&#39;s verification and safety communications; thin discussion so far, but it adds to a growing critical narrative around the company.</td>
-<td></td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. Community Sentiment Signal</h2>
-<p>Today&#39;s HN AI discourse is <strong>suspicious and control-oriented</strong>, with the highest engagement reserved for stories about broken trust—Gas Town&#39;s alleged credit siphoning and OpenAI&#39;s investor-strategy tensions together account for over 220 points and 227 comments. Anthropic is experiencing an unusual concentration of negative attention: versioning removal, perceived quality decline, and verification credibility all surfaced within a single cycle, suggesting the community&#39;s prior goodwill may be eroding.</p>
-<p>Compared to prior cycles heavy on model capability announcements or agent demos, there is a <strong>marked shift toward operational and economic concerns</strong>: rate limits, token budgets, API versioning, and valuation sustainability. The builder community is still shipping tools—particularly around agent infrastructure and desktop automation—but the comment energy is going toward governance, pricing, and reliability. There is little excitement about foundational breakthroughs; the consensus, if any, is that the infrastructure layer needs to mature and become more trustworthy before the next wave of applications.</p>
-<hr>
-<h2>4. Worth Deep Reading</h2>
-<ol>
-<li><p><strong><a href="https://github.com/gastownhall/gastown/issues/3649">Does Gas Town &#39;steal&#39; usage from users&#39; LLM credits to improve itself?</a></strong> — <a href="https://news.ycombinator.com/item?id=47785053">HN</a>
-<em>Essential for anyone building or consuming AI middleware. The issue thread and HN discussion are likely to become a case study in transparency, terms-of-service design, and community backlash in the LLM tooling ecosystem.</em></p>
-</li>
-<li><p><strong><a href="https://www.reuters.com/legal/transactional/openai-investors-question-852-billion-valuation-strategy-shifts-ft-reports-2026-04-14/">OpenAI&#39;s $852B valuation faces investor scrutiny amid strategy shift, FT reports</a></strong> — <a href="https://news.ycombinator.com/item?id=47773640">HN</a>
-<em>Worth reading for the financial and strategic context behind the most influential AI lab. The HN comments often surface informed critique of corporate structure, cap table dynamics, and the sustainability of closed-model economics.</em></p>
-</li>
-<li><p><strong><a href="https://entropicthoughts.com/hazardous-states-and-accidents">Hazardous States and Accidents</a></strong> — <a href="https://news.ycombinator.com/item?id=47774996">HN</a>
-<em>A quieter, more technical piece on AI safety and system failure modes. For researchers and engineers concerned with robustness, it offers conceptual depth absent from the headline-driven debates elsewhere on the front page.</em></p>
 </li>
 </ol>
 <hr>
